@@ -1,0 +1,26 @@
+id: ent_lockheed_martin
+name: Lockheed Martin Corporation
+entity_type: public_company
+schema_version: 1
+slug: lockheed_martin
+tickers:
+  - LMT
+exchanges:
+  - NYSE
+identifiers:
+  ticker: LMT
+  exchange: NYSE
+ticker_exposures:
+  - ticker: LMT
+    direction: ambiguous
+    exposure_strength: 0.10
+    basis:
+      - revenue_segment
+      - other
+    tradable: true
+role:
+  - prime_contractor
+  - aeronautics
+  - missiles
+  - skunk_works
+notes: Prime contractor. AI / autonomy is a small but growing slice of a $70B+ top line. Listed as a representative incumbent prime; NOC / RTX / GD have similar low-purity exposure profiles.

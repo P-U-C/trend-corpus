@@ -1,0 +1,25 @@
+id: ent_axon
+name: Axon Enterprise Inc
+entity_type: public_company
+schema_version: 1
+slug: axon
+tickers:
+  - AXON
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AXON
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AXON
+    direction: ambiguous
+    exposure_strength: 0.30
+    basis:
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - public_safety
+  - body_cameras
+  - ai_software
+notes: Police-tech / public-safety AI. Adjacent to defense-AI through autonomy + AI-enabled-vision rather than DoD direct customer. Cross-theme purity is moderate.

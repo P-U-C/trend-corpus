@@ -1,0 +1,26 @@
+id: ent_kratos
+name: Kratos Defense and Security Solutions
+entity_type: public_company
+schema_version: 1
+slug: kratos
+tickers:
+  - KTOS
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: KTOS
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: KTOS
+    direction: beneficiary
+    exposure_strength: 0.65
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - unmanned_systems
+  - target_drones
+  - hypersonics
+  - ground_systems
+notes: Unmanned systems vendor. Valkyrie XQ-58A, Mako, hypersonics targets. Material exposure to autonomous-systems contract flow and CCA (Collaborative Combat Aircraft) program.

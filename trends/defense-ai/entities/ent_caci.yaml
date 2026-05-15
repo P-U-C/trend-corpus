@@ -1,0 +1,26 @@
+id: ent_caci
+name: CACI International Inc
+entity_type: public_company
+schema_version: 1
+slug: caci
+tickers:
+  - CACI
+exchanges:
+  - NYSE
+identifiers:
+  ticker: CACI
+  exchange: NYSE
+ticker_exposures:
+  - ticker: CACI
+    direction: beneficiary
+    exposure_strength: 0.45
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - defense_services
+  - intelligence_community
+  - cyber
+  - mission_systems
+notes: Defense services integrator. Mission systems, cyber, intel-community work; growing AI / autonomy slice.

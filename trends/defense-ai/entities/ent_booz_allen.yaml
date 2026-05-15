@@ -1,0 +1,25 @@
+id: ent_booz_allen
+name: Booz Allen Hamilton Holding Corporation
+entity_type: public_company
+schema_version: 1
+slug: booz_allen
+tickers:
+  - BAH
+exchanges:
+  - NYSE
+identifiers:
+  ticker: BAH
+  exchange: NYSE
+ticker_exposures:
+  - ticker: BAH
+    direction: beneficiary
+    exposure_strength: 0.45
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - defense_services
+  - ai_integration
+  - intelligence_community
+notes: Defense services + AI integration. Lower exposure_strength than PLTR because services revenue is broad and only a portion is AI-specific.

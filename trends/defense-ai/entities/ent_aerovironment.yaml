@@ -1,0 +1,25 @@
+id: ent_aerovironment
+name: AeroVironment Inc
+entity_type: public_company
+schema_version: 1
+slug: aerovironment
+tickers:
+  - AVAV
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AVAV
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AVAV
+    direction: beneficiary
+    exposure_strength: 0.80
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - autonomous_drones
+  - loitering_munitions
+  - tactical_uas
+notes: Pure-play autonomous-systems vendor. Switchblade, Puma, JUMP 20. Strong public exposure to the Replicator-style autonomous-systems acquisition flow.

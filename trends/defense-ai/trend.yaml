@@ -1,0 +1,33 @@
+id: defense-ai
+title: Defense AI
+status: growing
+schema_version: 1
+schemas:
+  trend: ../../schemas/trend.schema.json
+objects:
+  sources: sources
+  claims: claims
+  entities: entities
+  events: events
+  theses: theses
+  decision-packets: decision-packets
+  watchlists: watchlists
+summary: >
+  Tracks public-market exposure to AI-enabled defense: software / data spines
+  for the warfighter (Palantir, Leidos, Booz Allen), autonomous unmanned
+  systems vendors (AeroVironment, Kratos, Anduril, Shield AI), prime
+  contractors with growing AI exposure (LMT, NOC, RTX, GD), defense services
+  integrators (CACI, SAIC, BAH), and adjacent autonomy plays (Axon, Skydio,
+  Saildrone). The theme is growing because the Replicator program, NDAA
+  RDT&E line items, and Anduril-style nontraditional contract velocity are
+  pulling AI/autonomy into procurement faster than legacy primes can absorb.
+public_safety_boundary: >
+  This theme is limited to public research, market intelligence, and
+  watchlist-candidate thesis generation. It must not contain operational
+  guidance for autonomous weapons systems, targeting logic, ITAR-controlled
+  technical data, classified contract details, private order intent, account
+  details, or non-public DoD acquisition information.
+primary_use_cases:
+  - research
+  - market_intelligence
+  - trade_thesis_generation

@@ -1,0 +1,25 @@
+id: ent_leidos
+name: Leidos Holdings Inc
+entity_type: public_company
+schema_version: 1
+slug: leidos
+tickers:
+  - LDOS
+exchanges:
+  - NYSE
+identifiers:
+  ticker: LDOS
+  exchange: NYSE
+ticker_exposures:
+  - ticker: LDOS
+    direction: beneficiary
+    exposure_strength: 0.50
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - defense_services
+  - ai_integration
+  - intelligence_community
+notes: Defense services + AI integration for DoD and the intelligence community. Mid-tier exposure_strength because services revenue is broad but only a fraction is AI-specific.

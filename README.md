@@ -188,7 +188,7 @@ not batched. Each theme gets its own commit and review pass.
 |  4 | ai-infrastructure | **[x] Done** | NVDA, AVGO, VRT, ANET, MU, TSM, DELL; peak_hype. |
 |  5 | nuclear-smr | **[x] Done** | BWXT, OKLO, SMR, GEV, CEG, CCJ, LEU; catalyst = policy / data-center PPA. |
 |  6 | robotics-humanoid | **[x] Done** | TSLA, ISRG, SYM, SERV; catalyst = Figure AI IPO / Optimus milestone. |
-|  7 | defense-ai | [ ] Pending | PLTR, LDOS; catalyst = government autonomy contract. |
+|  7 | defense-ai | **[x] Done** | PLTR, LDOS; catalyst = government autonomy contract. |
 |  8 | space-satellite | [ ] Pending | RKLB, ASTS, PL, LUNR; catalyst = broadband / launch contract. |
 |  9 | bitcoin-mining | [ ] Pending | MARA, RIOT, CLSK; post_peak. |
 | 10 | bci-neurotech | [ ] Pending | BFLY, QSI; emerging; catalyst = Neuralink / Synchron / Merge IPO. |
