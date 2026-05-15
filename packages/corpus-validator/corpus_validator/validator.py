@@ -49,15 +49,19 @@ TRADE_ACTION_DENYLIST = {
     "quantity_to_trade",
 }
 
+# Bare token names like OPENAI_API_KEY are deliberately NOT in this list:
+# scripts legitimately reference those names as env-var keys. The patterns
+# below match credential-style assignments and known token prefixes only.
 SECRET_PATTERNS = [
-    r"OPENAI_API_KEY",
-    r"ANTHROPIC_API_KEY",
-    r"GITHUB_TOKEN",
-    r"TELEGRAM_BOT_TOKEN",
-    r"AWS_(ACCESS_KEY_ID|SECRET_ACCESS_KEY)",
-    r"IBKR",
-    r"PRIVATE_KEY",
-    r"MNEMONIC",
+    r"OPENAI_API_KEY\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"ANTHROPIC_API_KEY\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"GITHUB_TOKEN\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"TELEGRAM_BOT_TOKEN\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"TG_BOT_TOKEN\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"AWS_(ACCESS_KEY_ID|SECRET_ACCESS_KEY)\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"IBKR_(USER|PASS|PASSWORD|TOKEN|API_KEY)\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"PRIVATE_KEY\s*[:=]\s*['\"][^'\"]+['\"]",
+    r"MNEMONIC\s*[:=]\s*['\"][^'\"]+['\"]",
     r"ghp_[A-Za-z0-9_]{20,}",
     r"github_pat_[A-Za-z0-9_]{20,}",
     r"sk-[A-Za-z0-9]{20,}",
