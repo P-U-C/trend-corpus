@@ -1,0 +1,27 @@
+id: ent_tsmc
+name: Taiwan Semiconductor Manufacturing Company Limited
+entity_type: public_company
+schema_version: 1
+slug: taiwan_semiconductor
+tickers:
+  - TSM
+exchanges:
+  - NYSE
+  - TWSE
+identifiers:
+  ticker: TSM
+  exchange: NYSE
+ticker_exposures:
+  - ticker: TSM
+    direction: beneficiary
+    exposure_strength: 0.83
+    basis:
+      - manufacturing_capacity
+      - supply_chain_role
+      - demand_channel
+    tradable: true
+role:
+  - leading_node_foundry
+  - advanced_packaging
+  - cowos_capacity
+notes: TSMC sits underneath most leading AI accelerator supply through leading-node wafers and advanced packaging. Its exposure is strong, but customer mix and geopolitical risk dilute ticker purity versus NVDA.

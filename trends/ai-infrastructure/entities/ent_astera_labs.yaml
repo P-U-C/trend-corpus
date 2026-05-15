@@ -1,0 +1,26 @@
+id: ent_astera_labs
+name: Astera Labs, Inc.
+entity_type: public_company
+schema_version: 1
+slug: astera_labs
+tickers:
+  - ALAB
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ALAB
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ALAB
+    direction: beneficiary
+    exposure_strength: 0.64
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - demand_channel
+    tradable: true
+role:
+  - ai_connectivity
+  - pcie_cxl_retimers
+  - rack_scale_fabric
+notes: Astera Labs is a narrower AI connectivity exposure through PCIe, CXL, and Ethernet-adjacent products. It is more concentrated and earlier in public-market history than the seed tickers.

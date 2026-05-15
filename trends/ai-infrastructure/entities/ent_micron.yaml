@@ -1,0 +1,26 @@
+id: ent_micron
+name: Micron Technology, Inc.
+entity_type: public_company
+schema_version: 1
+slug: micron
+tickers:
+  - MU
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MU
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MU
+    direction: beneficiary
+    exposure_strength: 0.76
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - supply_chain_role
+    tradable: true
+role:
+  - hbm_memory
+  - dram_supply
+  - data_center_memory
+notes: Micron is one of the public HBM and data-center memory exposures. HBM qualification, capacity, and pricing are the key AI-infrastructure signals.

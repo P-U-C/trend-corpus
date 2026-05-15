@@ -1,0 +1,16 @@
+id: dp_ai_infra_bottleneck_watchlist
+question: Should the metalayer maintain a watchlist of AI infrastructure beneficiaries tied to hyperscaler capex, HBM and advanced-packaging supply, and export-control changes?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_ai_infra_bottleneck_stack
+supporting_claims:
+  - clm_ai_infra_export_controls_china
+  - clm_ai_infra_hbm_packaging_bottleneck
+  - clm_ai_infra_capex_pullthrough
+invalidation_conditions:
+  - Microsoft, Alphabet, Amazon, Meta, and Oracle each guide AI infrastructure capex lower for two consecutive reporting cycles while NVIDIA, Broadcom, Dell, Arista, and Vertiv all report decelerating AI backlog or order commentary.
+  - Micron, Samsung, SK Hynix, or TSMC disclose HBM or advanced-packaging lead times falling below normal procurement windows while gross margin guidance normalizes, indicating bottleneck relief rather than tight supply.
+  - BIS materially relaxes advanced-computing or HBM controls for China, or major accelerator and memory suppliers report no China-control impact for two consecutive reporting periods.
+  - Hyperscaler cluster architectures shift away from the public-vendor bottleneck stack, with custom silicon, internal networking, or alternative accelerators reducing attach rates for NVDA, AVGO, ANET, MRVL, MU, or VRT.
+schema_version: 1

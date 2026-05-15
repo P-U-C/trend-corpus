@@ -1,0 +1,20 @@
+id: clm_ai_infra_export_controls_china
+claim: BIS advanced-computing, high-bandwidth-memory, and semiconductor-equipment controls make China access a recurring product-mix and revenue-risk constraint for AI accelerator, HBM, and foundry suppliers.
+category: regulatory
+source_ids:
+  - src_ai_infra_bis_controls_page
+  - src_ai_infra_bis_hbm_controls
+  - src_ai_infra_nvidia_quarterly
+date_of_evidence: "2026-05-15"
+evidence_at: "2026-05-15"
+confidence: 0.86
+status: active
+visibility:
+  classification: public_full
+  strategy_leakage_risk: low
+entity_ids:
+  - ent_nvidia
+  - ent_amd
+  - ent_micron
+  - ent_tsmc
+schema_version: 1

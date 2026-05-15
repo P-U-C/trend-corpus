@@ -1,0 +1,27 @@
+id: ent_vertiv
+name: Vertiv Holdings Co
+entity_type: public_company
+schema_version: 1
+slug: vertiv
+tickers:
+  - VRT
+exchanges:
+  - NYSE
+identifiers:
+  ticker: VRT
+  exchange: NYSE
+ticker_exposures:
+  - ticker: VRT
+    direction: beneficiary
+    exposure_strength: 0.78
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - datacenter_power
+  - liquid_cooling
+  - thermal_management
+  - electrical_infrastructure
+notes: Vertiv is a picks-and-shovels exposure to power and thermal constraints. The AI link is visible through order growth, backlog, liquid cooling, and high-density data-center deployments.

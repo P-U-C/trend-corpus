@@ -1,0 +1,27 @@
+id: ent_marvell
+name: Marvell Technology, Inc.
+entity_type: public_company
+schema_version: 1
+slug: marvell
+tickers:
+  - MRVL
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MRVL
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MRVL
+    direction: beneficiary
+    exposure_strength: 0.74
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - demand_channel
+    tradable: true
+role:
+  - custom_ai_silicon
+  - optical_dsp
+  - networking_silicon
+  - serdes
+notes: Marvell gives exposure to custom AI silicon and high-speed connectivity. The strength is high where hyperscaler custom silicon programs ramp, but timing can be lumpy by program.

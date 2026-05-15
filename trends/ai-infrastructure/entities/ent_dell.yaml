@@ -1,0 +1,26 @@
+id: ent_dell
+name: Dell Technologies Inc.
+entity_type: public_company
+schema_version: 1
+slug: dell
+tickers:
+  - DELL
+exchanges:
+  - NYSE
+identifiers:
+  ticker: DELL
+  exchange: NYSE
+ticker_exposures:
+  - ticker: DELL
+    direction: beneficiary
+    exposure_strength: 0.68
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - ai_server_oem
+  - rack_integration
+  - enterprise_channel
+notes: Dell is a major AI server and infrastructure solutions beneficiary. Exposure is direct through AI server orders, but margins are more hardware-assembly sensitive than semiconductor suppliers.

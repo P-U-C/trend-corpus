@@ -1,0 +1,27 @@
+id: ent_broadcom
+name: Broadcom Inc.
+entity_type: public_company
+schema_version: 1
+slug: broadcom
+tickers:
+  - AVGO
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AVGO
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AVGO
+    direction: beneficiary
+    exposure_strength: 0.88
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - demand_channel
+    tradable: true
+role:
+  - custom_ai_silicon
+  - ethernet_switching
+  - optical_connectivity
+  - hyperscaler_supplier
+notes: Broadcom is the leading public custom AI silicon and networking exposure. Its AI revenue depends on hyperscaler programs and Ethernet/optical attach in large clusters.

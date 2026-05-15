@@ -1,0 +1,26 @@
+id: ent_arista
+name: Arista Networks, Inc.
+entity_type: public_company
+schema_version: 1
+slug: arista
+tickers:
+  - ANET
+exchanges:
+  - NYSE
+identifiers:
+  ticker: ANET
+  exchange: NYSE
+ticker_exposures:
+  - ticker: ANET
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - ai_networking
+  - ethernet_switching
+  - cloud_networking
+notes: Arista is a public Ethernet networking beneficiary of large AI clusters. Exposure is meaningful but more dependent on cloud customer concentration and competitive architecture choices.

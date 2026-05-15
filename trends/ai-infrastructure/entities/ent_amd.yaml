@@ -1,0 +1,26 @@
+id: ent_amd
+name: Advanced Micro Devices, Inc.
+entity_type: public_company
+schema_version: 1
+slug: amd
+tickers:
+  - AMD
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AMD
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AMD
+    direction: beneficiary
+    exposure_strength: 0.72
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - accelerator_designer
+  - datacenter_cpu
+  - open_ai_platform
+notes: AMD is a second-source accelerator and data-center compute exposure. The AI link is direct but still depends on accelerator share gains and ecosystem adoption.

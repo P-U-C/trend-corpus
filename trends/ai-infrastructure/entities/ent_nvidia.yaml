@@ -1,0 +1,27 @@
+id: ent_nvidia
+name: NVIDIA Corporation
+entity_type: public_company
+schema_version: 1
+slug: nvidia
+tickers:
+  - NVDA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: NVDA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: NVDA
+    direction: beneficiary
+    exposure_strength: 0.95
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - accelerator_designer
+  - ai_systems_platform
+  - networking_interconnect
+  - software_stack
+notes: NVIDIA is the core accelerator and systems platform exposure in the theme. The main public evidence is data-center revenue, Blackwell ramp commentary, supply constraints, and export-control disclosures.
