@@ -1,0 +1,16 @@
+id: dp_robotics_humanoid_pilot_supply_watchlist
+question: Should the metalayer maintain a watchlist of robotics and humanoid beneficiaries tied to Figure IPO timing, Optimus milestones, commercial pilot conversion, and actuator supply constraints?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_robotics_humanoid_pilot_supply_stack
+supporting_claims:
+  - clm_robotics_humanoid_figure_catalyst
+  - clm_robotics_humanoid_actuator_supply
+  - clm_robotics_humanoid_pilot_demand
+invalidation_conditions:
+  - Figure AI postpones an IPO or primary financing catalyst past Q2 2026 while BMW deployment remains limited to non-revenue pilots.
+  - Tesla shelves Optimus production beyond internal-use scope through 2027 or removes Optimus production milestones from quarterly disclosure.
+  - Harmonic-drive, actuator, and rare-earth magnet suppliers disclose broad lead-time normalization while humanoid developers stop citing component cost or supply as a scaling constraint.
+  - BMW, Mercedes-Benz, or another top-ten auto OEM cancels a humanoid pilot and cites unit economics, safety acceptance, or reliability as the primary reason.
+schema_version: 1

@@ -1,0 +1,26 @@
+id: ent_serve_robotics
+name: Serve Robotics Inc.
+entity_type: public_company
+schema_version: 1
+slug: serve
+tickers:
+  - SERV
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: SERV
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: SERV
+    direction: beneficiary
+    exposure_strength: 0.82
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - sidewalk_delivery_robots
+  - last_mile_delivery
+  - fleet_scaling
+notes: Serve Robotics is a small-cap public robotics pure play. It is directly exposed to fleet count, delivery volume, robot unit cost, and local regulatory permissions.

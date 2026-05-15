@@ -1,0 +1,26 @@
+id: ent_intuitive_surgical
+name: Intuitive Surgical, Inc.
+entity_type: public_company
+schema_version: 1
+slug: intuitive
+tickers:
+  - ISRG
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ISRG
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ISRG
+    direction: beneficiary
+    exposure_strength: 0.88
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - surgical_robotics
+  - da_vinci_installed_base
+  - recurring_instruments
+notes: Intuitive Surgical is a mature pure-play surgical robotics exposure. Procedure volume, installed base, and recurring instrument revenue make it a high-primacy robotics ticker.

@@ -1,0 +1,26 @@
+id: ent_teradyne
+name: Teradyne, Inc.
+entity_type: public_company
+schema_version: 1
+slug: teradyne
+tickers:
+  - TER
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: TER
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: TER
+    direction: beneficiary
+    exposure_strength: 0.35
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - demand_channel
+    tradable: true
+role:
+  - collaborative_robots
+  - universal_robots
+  - mobile_industrial_robots
+notes: Teradyne owns Universal Robots and Mobile Industrial Robots, giving it visible cobot and AMR exposure. The ticker is still dominated by semiconductor test cycles, so exposure is moderate.

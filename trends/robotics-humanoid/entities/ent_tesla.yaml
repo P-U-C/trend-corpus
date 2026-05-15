@@ -1,0 +1,25 @@
+id: ent_tesla
+name: Tesla, Inc.
+entity_type: public_company
+schema_version: 1
+slug: tesla
+tickers:
+  - TSLA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: TSLA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: TSLA
+    direction: ambiguous
+    exposure_strength: 0.15
+    basis:
+      - other
+      - demand_channel
+    tradable: true
+role:
+  - optimus_humanoid
+  - embodied_ai
+  - auto_manufacturing_pilot
+notes: Tesla is included for Optimus and embodied AI, but robotics is a small slice of value versus auto, energy, software, and autonomy. Exposure is therefore deliberately low and ambiguous.

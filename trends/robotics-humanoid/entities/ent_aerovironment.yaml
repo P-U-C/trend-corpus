@@ -1,0 +1,25 @@
+id: ent_aerovironment
+name: AeroVironment, Inc.
+entity_type: public_company
+schema_version: 1
+slug: aerovironment
+tickers:
+  - AVAV
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AVAV
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AVAV
+    direction: ambiguous
+    exposure_strength: 0.28
+    basis:
+      - revenue_segment
+      - other
+    tradable: true
+role:
+  - autonomous_systems
+  - robotic_defense_systems
+  - edge_autonomy
+notes: AeroVironment is an adjacent autonomous systems and robotic defense exposure. It overlaps defense AI and drones, so robotics-humanoid exposure is intentionally ambiguous and moderate.

@@ -1,0 +1,25 @@
+id: ent_ipg_photonics
+name: IPG Photonics Corporation
+entity_type: public_company
+schema_version: 1
+slug: ipg_photonics
+tickers:
+  - IPGP
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: IPGP
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: IPGP
+    direction: ambiguous
+    exposure_strength: 0.25
+    basis:
+      - supply_chain_role
+      - other
+    tradable: true
+role:
+  - industrial_lasers
+  - robot_vision_adjacent
+  - manufacturing_enablement
+notes: IPG Photonics is included as an adjacent automation and sensing supplier. Robotics exposure is indirect through industrial laser and manufacturing applications rather than humanoid platforms.

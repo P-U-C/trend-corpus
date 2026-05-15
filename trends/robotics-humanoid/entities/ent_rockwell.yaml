@@ -1,0 +1,26 @@
+id: ent_rockwell
+name: Rockwell Automation, Inc.
+entity_type: public_company
+schema_version: 1
+slug: rockwell
+tickers:
+  - ROK
+exchanges:
+  - NYSE
+identifiers:
+  ticker: ROK
+  exchange: NYSE
+ticker_exposures:
+  - ticker: ROK
+    direction: beneficiary
+    exposure_strength: 0.26
+    basis:
+      - revenue_segment
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - factory_automation
+  - industrial_controls
+  - robotics_enablement
+notes: Rockwell is an adjacent automation platform rather than a humanoid pure play. It can benefit from factory automation adoption, but robot hardware is only one part of the broader control stack.

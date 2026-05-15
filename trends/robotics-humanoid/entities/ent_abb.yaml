@@ -1,0 +1,27 @@
+id: ent_abb
+name: ABB Ltd
+entity_type: public_company
+schema_version: 1
+slug: abb
+tickers:
+  - ABB
+exchanges:
+  - NYSE
+  - SIX
+identifiers:
+  ticker: ABB
+  exchange: NYSE
+ticker_exposures:
+  - ticker: ABB
+    direction: beneficiary
+    exposure_strength: 0.30
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - industrial_robotics
+  - factory_automation
+  - motion_control
+notes: ABB is an industrial automation incumbent with material robotics exposure. It is diversified across electrification, automation, motion, and robotics, so ticker purity is moderate.

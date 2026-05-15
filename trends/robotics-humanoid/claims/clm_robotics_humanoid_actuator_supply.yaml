@@ -1,0 +1,18 @@
+id: clm_robotics_humanoid_actuator_supply
+claim: Humanoid robot scaling depends on precision actuators, strain-wave gearing, and rare-earth magnet supply, making harmonic-drive capacity and neodymium magnet availability practical bottlenecks for unit cost and production volume.
+category: manufacturing
+source_ids:
+  - src_robotics_humanoid_harmonic_drive
+  - src_robotics_humanoid_doe_neodymium_magnets
+  - src_robotics_humanoid_teradyne_results
+date_of_evidence: "2026-05-15"
+evidence_at: "2026-05-15"
+confidence: 0.78
+status: active
+entity_ids:
+  - ent_tesla
+  - ent_figure_ai
+  - ent_apptronik
+  - ent_abb
+  - ent_teradyne
+schema_version: 1

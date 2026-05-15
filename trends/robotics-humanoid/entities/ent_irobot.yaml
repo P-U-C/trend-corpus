@@ -1,0 +1,25 @@
+id: ent_irobot
+name: iRobot Corporation
+entity_type: public_company
+schema_version: 1
+slug: irobot
+tickers:
+  - IRBT
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: IRBT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: IRBT
+    direction: ambiguous
+    exposure_strength: 0.45
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - consumer_robotics
+  - home_cleaning_robots
+  - robotics_brand
+notes: iRobot is a consumer robotics exposure, not a humanoid or industrial scaling play. It remains relevant as a public robotics brand but has weaker alignment with the humanoid catalyst.
