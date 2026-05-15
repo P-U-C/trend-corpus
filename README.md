@@ -14,6 +14,73 @@ See [`docs/architecture.md`](docs/architecture.md) for the design and
 [`docs/new-sector-research-workflow.md`](docs/new-sector-research-workflow.md)
 for the agent-driven theme-spinup pattern.
 
+## Canonical B2 architecture
+
+The same diagram is embedded in `puc-trading/README.md` and
+`trend-intel-private/README.md`. Mermaid is rendered directly by
+GitHub's Markdown renderer; no toolchain required.
+
+```mermaid
+flowchart LR
+    subgraph P1[Private peptide runtime host]
+        A[raw sources]
+        B[private claims]
+        C[private packets / supersedence]
+        D[export_public_aggregates.py]
+        E[export_semi_private_mirror.py]
+        A --> B
+        B --> C
+        B --> D
+        B --> E
+    end
+
+    subgraph P2[Semi-private mirror repo]
+        F[sources/]
+        G[provider-observations/]
+        H[claims/]
+        I[entities/]
+        J[decision-packets/]
+        K[opportunity-generator CLI]
+        L[scanner-seeds/peptides-opportunities.json]
+        E --> F
+        E --> G
+        E --> H
+        E --> I
+        H --> K
+        I --> K
+        G --> K
+        K --> L
+    end
+
+    subgraph P3[Private scanner runtime]
+        M[LLM fixture or live survey rows]
+        N[merge_convergence.py]
+        O[corpus/convergence-latest.json]
+        Q[scanner/run_live_scan.py]
+        R[scan-results.json]
+        M --> N
+        L --> N
+        N --> O
+        O --> Q
+        Q --> R
+    end
+
+    subgraph P4[Public surfaces]
+        S[trend-corpus]
+        T[pft-validator scanner site]
+        U[public dashboard]
+        D --> S
+        R --> T
+        T --> U
+    end
+```
+
+This repo is `P4 -> trend-corpus` in the diagram: the public template
+with schemas, taxonomy, validator, and reference themes. Public-safe
+aggregates from the peptide runtime flow into `trends/peptides/
+aggregates/`; rich claim text never enters this repo, it stays
+private in P1 and semi-private in P2.
+
 ## Repo map
 
 ```
