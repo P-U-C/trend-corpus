@@ -1,0 +1,16 @@
+id: dp_quantum_fidelity_watchlist
+question: Should the metalayer maintain a watchlist of quantum-computing beneficiaries tied to benchmark milestones, cryogenic supply constraints, and export-control changes?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_quantum_fidelity_supply_tension
+supporting_claims:
+  - clm_quantum_export_pqc_policy
+  - clm_quantum_cryogenic_supply_bottleneck
+  - clm_quantum_benchmark_platform_signal
+invalidation_conditions:
+  - IonQ, D-Wave, Rigetti, Arqit, and Quantum Computing Inc. each report two consecutive quarters of missed revenue or bookings guidance while cash runway falls below twelve months.
+  - Google, IBM, Microsoft, IonQ, and Rigetti go four consecutive quarters without a peer-reviewed or independently benchmarked fidelity, error-correction, or logical-qubit milestone.
+  - Bluefors, Oxford Instruments, or other cryogenic suppliers disclose broad delivery lead-time normalization while superconducting quantum companies stop identifying cryogenic infrastructure as a scaling constraint.
+  - BIS removes or materially relaxes quantum-computing hardware controls while NIST or DOE communications stop treating quantum capability as a national-security-sensitive technology area.
+schema_version: 1

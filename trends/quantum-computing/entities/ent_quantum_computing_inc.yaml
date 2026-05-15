@@ -1,0 +1,26 @@
+id: ent_quantum_computing_inc
+name: Quantum Computing Inc.
+entity_type: public_company
+schema_version: 1
+slug: quantum_computing_inc
+tickers:
+  - QUBT
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: QUBT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: QUBT
+    direction: beneficiary
+    exposure_strength: 0.86
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - photonic_quantum
+  - quantum_sensing
+  - quantum_security
+notes: QCI is a small public pure-play quantum company with photonic, sensing, and security claims. Its exposure is high because the public equity narrative depends on quantum commercialization.

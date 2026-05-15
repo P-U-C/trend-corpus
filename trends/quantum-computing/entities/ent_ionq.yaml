@@ -1,0 +1,26 @@
+id: ent_ionq
+name: IonQ, Inc.
+entity_type: public_company
+schema_version: 1
+slug: ionq
+tickers:
+  - IONQ
+exchanges:
+  - NYSE
+identifiers:
+  ticker: IONQ
+  exchange: NYSE
+ticker_exposures:
+  - ticker: IONQ
+    direction: beneficiary
+    exposure_strength: 0.93
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - trapped_ion_hardware
+  - quantum_cloud_access
+  - systems_vendor
+notes: IonQ is a pure-play trapped-ion quantum hardware company and one of the scanner seed tickers. Its exposure is direct because equity value depends on system milestones, bookings, partnerships, and credible scaling.

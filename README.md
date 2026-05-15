@@ -184,7 +184,7 @@ not batched. Each theme gets its own commit and review pass.
 |---|---|---|---|
 |  1 | peptides | **[x] Done** (canonical reference) | Mirrors the live peptide-corpus runtime; verbatim extract/packet/validate prompts + aggregate-only bridge contract. |
 |  2 | llm-convergence | **[x] Done** (method theme) | Documents the cross-model attention signal as a theme in its own right. |
-|  3 | quantum-computing | [ ] Pending | IONQ, QBTS, RGTI; catalyst = next qubit milestone. |
+|  3 | quantum-computing | **[x] Done** | IONQ, QBTS, RGTI; catalyst = next qubit milestone. |
 |  4 | ai-infrastructure | **[x] Done** | NVDA, AVGO, VRT, ANET, MU, TSM, DELL; peak_hype. |
 |  5 | nuclear-smr | [ ] Pending | BWXT, OKLO, SMR, GEV, CEG, CCJ, LEU; catalyst = policy / data-center PPA. |
 |  6 | robotics-humanoid | [ ] Pending | TSLA, ISRG, SYM, SERV; catalyst = Figure AI IPO / Optimus milestone. |

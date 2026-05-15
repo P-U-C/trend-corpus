@@ -1,0 +1,26 @@
+id: ent_rigetti
+name: Rigetti Computing, Inc.
+entity_type: public_company
+schema_version: 1
+slug: rigetti
+tickers:
+  - RGTI
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: RGTI
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: RGTI
+    direction: beneficiary
+    exposure_strength: 0.90
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - supply_chain_role
+    tradable: true
+role:
+  - superconducting_hardware
+  - quantum_processor_fabrication
+  - cloud_access
+notes: Rigetti is a pure-play superconducting quantum hardware company and scanner seed ticker. It is directly exposed to gate fidelity, qubit scaling, cash runway, and cryogenic infrastructure availability.

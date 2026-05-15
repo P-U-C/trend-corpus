@@ -1,0 +1,26 @@
+id: ent_d_wave
+name: D-Wave Quantum Inc.
+entity_type: public_company
+schema_version: 1
+slug: d_wave
+tickers:
+  - QBTS
+exchanges:
+  - NYSE
+identifiers:
+  ticker: QBTS
+  exchange: NYSE
+ticker_exposures:
+  - ticker: QBTS
+    direction: beneficiary
+    exposure_strength: 0.90
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - quantum_annealing
+  - gate_model_roadmap
+  - quantum_cloud_access
+notes: D-Wave is a pure-play quantum company centered on annealing systems with a gate-model roadmap. The ticker is highly sensitive to customer-pilot, booking, and commercial-usage signals.

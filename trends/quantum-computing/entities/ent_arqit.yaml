@@ -1,0 +1,26 @@
+id: ent_arqit
+name: Arqit Quantum Inc.
+entity_type: public_company
+schema_version: 1
+slug: arqit
+tickers:
+  - ARQQ
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ARQQ
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ARQQ
+    direction: ambiguous
+    exposure_strength: 0.62
+    basis:
+      - regulatory_dependency
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - quantum_safe_encryption
+  - quantum_networking_adjacent
+  - pqc_policy_signal
+notes: Arqit is included as an adjacent listed quantum-security exposure rather than a core hardware-computing play. The ticker can react to quantum-security urgency, but its economics are not a direct qubit-scaling claim.

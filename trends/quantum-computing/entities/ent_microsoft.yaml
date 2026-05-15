@@ -1,0 +1,25 @@
+id: ent_microsoft
+name: Microsoft Corporation
+entity_type: public_company
+schema_version: 1
+slug: microsoft
+tickers:
+  - MSFT
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MSFT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MSFT
+    direction: beneficiary
+    exposure_strength: 0.10
+    basis:
+      - other
+      - demand_channel
+    tradable: true
+role:
+  - azure_quantum
+  - topological_qubits
+  - quantum_cloud_access
+notes: Microsoft is included for Azure Quantum and the Majorana/topological-qubit roadmap. The quantum effort is strategically important but economically small relative to cloud and software.

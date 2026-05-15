@@ -1,0 +1,20 @@
+id: clm_quantum_export_pqc_policy
+claim: BIS quantum-technology controls, NIST post-quantum cryptography standardization, and DOE QIS centers make quantum computing a regulated national-security stack whose public demand signal is strongest in monitoring, migration, and milestone credibility.
+category: regulatory
+source_ids:
+  - src_quantum_bis_controls
+  - src_quantum_nist_pqc
+  - src_quantum_doe_qis_centers
+date_of_evidence: "2026-05-15"
+evidence_at: "2026-05-15"
+confidence: 0.82
+status: active
+visibility:
+  classification: public_full
+  strategy_leakage_risk: low
+entity_ids:
+  - ent_ionq
+  - ent_d_wave
+  - ent_rigetti
+  - ent_arqit
+schema_version: 1

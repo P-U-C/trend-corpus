@@ -1,0 +1,25 @@
+id: ent_amazon
+name: Amazon.com, Inc.
+entity_type: public_company
+schema_version: 1
+slug: amazon
+tickers:
+  - AMZN
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AMZN
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AMZN
+    direction: beneficiary
+    exposure_strength: 0.07
+    basis:
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - amazon_braket
+  - quantum_cloud_access
+  - hyperscaler_platform
+notes: Amazon is included for AWS Braket and quantum cloud access. Exposure is deliberately low because quantum activity is immaterial relative to AWS, retail, advertising, and logistics today.

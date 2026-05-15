@@ -1,0 +1,25 @@
+id: ent_alphabet
+name: Alphabet Inc.
+entity_type: public_company
+schema_version: 1
+slug: alphabet
+tickers:
+  - GOOGL
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: GOOGL
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: GOOGL
+    direction: beneficiary
+    exposure_strength: 0.14
+    basis:
+      - other
+      - demand_channel
+    tradable: true
+role:
+  - google_quantum_ai
+  - superconducting_hardware
+  - benchmark_leader
+notes: Alphabet is included for Google Quantum AI and Willow-class benchmark leadership. Ticker exposure is intentionally low because quantum is immaterial versus advertising and cloud revenue today.
