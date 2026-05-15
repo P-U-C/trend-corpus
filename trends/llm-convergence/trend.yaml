@@ -1,0 +1,16 @@
+id: llm-convergence
+title: LLM Convergence
+status: growing
+schema_version: 1
+schemas:
+  trend: ../../schemas/trend.schema.json
+  convergence: ../../schemas/convergence.schema.json
+objects:
+  sources: sources
+  claims: claims
+  entities: entities
+  events: events
+  theses: theses
+  decision-packets: decision-packets
+  watchlists: watchlists
+

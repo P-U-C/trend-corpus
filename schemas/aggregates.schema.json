@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Theme aggregates",
+  "description": "Sanitized, aggregate-only view of a private runtime's claim base. Counts and slugs only. No raw claim text, no per-claim confidence, no decision-packet questions, no supersedence relationships.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "theme_id",
+    "underlying_claim_count",
+    "underlying_source_count",
+    "windows",
+    "min_count_threshold"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "theme_id": {"type": "string"},
+    "generator": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string"},
+        "host_alias": {"type": "string"}
+      }
+    },
+    "underlying_claim_count": {"type": "integer", "minimum": 0},
+    "underlying_source_count": {"type": "integer", "minimum": 0},
+    "min_count_threshold": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Counts below this value MUST be suppressed (returned as null or omitted) to prevent re-identification of low-volume entities."
+    },
+    "windows": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["claims_total", "claims_by_category"],
+        "properties": {
+          "claims_total": {"type": "integer", "minimum": 0},
+          "claims_by_category": {
+            "type": "object",
+            "additionalProperties": {"type": "integer", "minimum": 0}
+          },
+          "top_entities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slug", "mentions"],
+              "properties": {
+                "slug": {"type": "string"},
+                "mentions": {"type": "integer", "minimum": 0}
+              }
+            }
+          },
+          "top_peptides": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "mentions"],
+              "properties": {
+                "name": {"type": "string"},
+                "mentions": {"type": "integer", "minimum": 0}
+              }
+            }
+          }
+        }
+      }
+    },
+    "source_freshness": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "last_ingested_at"],
+        "properties": {
+          "url": {"type": "string"},
+          "last_ingested_at": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

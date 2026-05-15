@@ -1,0 +1,16 @@
+id: dp_daily_convergence_artifact
+question: Should the scanner consume a generated convergence artifact on a daily cron once a corpus populator is in place?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_convergence_attention_signal
+supporting_claims:
+  - clm_flow_funnel_hypothesis
+  - clm_file_boundary_integration
+invalidation_conditions:
+  - The generated artifact does not include ticker, theme, score, tier, and status for every score row.
+  - Theme names drift between corpus output and scanner input.
+  - The artifact becomes stale beyond the configured scanner freshness window.
+  - Back-testing shows convergence does not precede measurable attention or flow changes.
+schema_version: 1
+

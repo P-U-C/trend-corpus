@@ -1,0 +1,29 @@
+id: peptides
+title: Peptides
+status: peak_hype
+schema_version: 1
+schemas:
+  trend: ../../schemas/trend.schema.json
+objects:
+  sources: sources
+  claims: claims
+  entities: entities
+  events: events
+  theses: theses
+  decision-packets: decision-packets
+  watchlists: watchlists
+summary: >
+  Reference theme. Tracks the public market, regulatory, manufacturing, and
+  clinical structure around therapeutic peptides (GLP-1s, anti-aging peptides,
+  research peptides, CDMO infrastructure). The objects in this directory are
+  examples that demonstrate the trend-corpus pattern; the live runtime is a
+  separate private system.
+public_safety_boundary: >
+  This theme is limited to market, infrastructure, regulatory, and corporate
+  analysis. It must not contain medical advice, dosing instructions, sourcing
+  guidance, procurement guidance, or consumer-use protocols.
+primary_use_cases:
+  - research
+  - market_intelligence
+  - business_creation
+  - trade_thesis_generation

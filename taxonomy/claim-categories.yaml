@@ -1,0 +1,24 @@
+schema_version: 1
+categories:
+  regulatory:
+    half_life_days: 90
+    description: FDA actions, enforcement, warning letters, and equivalent regulators.
+  pricing:
+    half_life_days: 30
+    description: Pricing, reimbursement, discounts, and commercial terms.
+  corporate:
+    half_life_days: 60
+    description: Partnerships, lawsuits, executive changes, financing, and corporate strategy.
+  manufacturing:
+    half_life_days: 180
+    description: Capacity, capex, supply chain, and production status.
+  market:
+    half_life_days: 365
+    description: Market size, volume, adoption, and demand signals.
+  clinical:
+    half_life_days: 3650
+    description: Trial results, pharmacology, safety, and durable scientific evidence.
+  methodology:
+    half_life_days: 365
+    description: Corpus, scanner, scoring, and integration methodology.
+

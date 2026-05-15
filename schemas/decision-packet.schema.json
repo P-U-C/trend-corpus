@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decision packet",
+  "type": "object",
+  "required": ["id", "question", "verdict", "execution_state", "supporting_theses", "invalidation_conditions", "schema_version"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^dp_"},
+    "question": {"type": "string"},
+    "verdict": {"type": "string"},
+    "execution_state": {"type": "string", "enum": ["research_only", "watchlist_candidate", "human_review_required", "approved_for_private_execution"]},
+    "supporting_theses": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "supporting_claims": {"type": "array", "items": {"type": "string"}},
+    "invalidation_conditions": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "schema_version": {"type": "integer"}
+  }
+}
+

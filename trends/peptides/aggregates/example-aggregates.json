@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-15T00:00:00Z",
+  "theme_id": "peptides",
+  "generator": {
+    "name": "peptide-corpus-aggregates-exporter",
+    "version": "0.1.0",
+    "host_alias": "city-worker-peptides"
+  },
+  "underlying_claim_count": 0,
+  "underlying_source_count": 12,
+  "min_count_threshold": 3,
+  "windows": {
+    "30d": {
+      "claims_total": 0,
+      "claims_by_category": {},
+      "top_entities": [],
+      "top_peptides": []
+    },
+    "90d": {
+      "claims_total": 0,
+      "claims_by_category": {},
+      "top_entities": [],
+      "top_peptides": []
+    },
+    "365d": {
+      "claims_total": 0,
+      "claims_by_category": {},
+      "top_entities": [],
+      "top_peptides": []
+    }
+  },
+  "source_freshness": [
+    {"url": "https://www.fda.gov/drugs/drug-alerts-and-statements/all-drug-alerts-and-statements", "last_ingested_at": null},
+    {"url": "https://www.fda.gov/drugs/drug-safety-and-availability/drug-shortages", "last_ingested_at": null},
+    {"url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar", "last_ingested_at": null},
+    {"url": "https://www.bachem.com/articles/news/", "last_ingested_at": null},
+    {"url": "https://www.polypeptide.com/news/", "last_ingested_at": null},
+    {"url": "https://investor.lilly.com/news-releases", "last_ingested_at": null},
+    {"url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials.html", "last_ingested_at": null},
+    {"url": "https://investors.hims.com/press-releases/default.aspx", "last_ingested_at": null},
+    {"url": "https://endpts.com/channel/obesity-diabetes/feed/", "last_ingested_at": null},
+    {"url": "https://www.fiercepharma.com/rss/xml", "last_ingested_at": null},
+    {"url": "https://www.statnews.com/category/obesity/feed/", "last_ingested_at": null},
+    {"url": "https://www.canada.ca/en/health-canada/services/drugs-health-products.html", "last_ingested_at": null}
+  ]
+}

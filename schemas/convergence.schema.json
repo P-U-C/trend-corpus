@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Convergence latest artifact",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "generator", "themes", "scores"],
+  "properties": {
+    "schema_version": {"type": "integer"},
+    "generated_at": {"type": "string"},
+    "generator": {"type": "string"},
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["theme", "status"],
+        "properties": {
+          "theme": {"type": "string"},
+          "status": {"type": "string", "enum": ["emerging", "growing", "peak_hype", "post_peak"]}
+        }
+      }
+    },
+    "scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ticker", "theme", "score", "tier", "status", "company_name", "models_mentioning", "total_mentions", "avg_rank", "direct_recommendation_count", "hedged_mention_count"],
+        "properties": {
+          "ticker": {"type": "string"},
+          "theme": {"type": "string"},
+          "score": {"type": "number"},
+          "tier": {"type": "string", "enum": ["HIGH", "MEDIUM", "LOW"]},
+          "status": {"type": "string", "enum": ["emerging", "growing", "peak_hype", "post_peak"]},
+          "company_name": {"type": "string"},
+          "theme_id": {"type": "string"},
+          "models_mentioning": {"type": "integer"},
+          "total_mentions": {"type": "integer"},
+          "avg_rank": {"type": "number"},
+          "direct_recommendation_count": {"type": "integer"},
+          "hedged_mention_count": {"type": "integer"}
+        }
+      }
+    }
+  }
+}

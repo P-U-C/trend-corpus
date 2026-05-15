@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Thesis",
+  "type": "object",
+  "required": ["id", "title", "summary", "supporting_claims", "schema_version"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^ths_"},
+    "title": {"type": "string"},
+    "summary": {"type": "string"},
+    "supporting_claims": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "schema_version": {"type": "integer"}
+  }
+}
+

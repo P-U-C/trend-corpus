@@ -1,0 +1,12 @@
+id: evt_example_capacity_expansion
+title: Example peptide-API CDMO capacity expansion announcement
+event_date: "2026-04-01"
+source_ids:
+  - src_bachem_news
+  - src_polypeptide_news
+schema_version: 1
+affected_entities:
+  - ent_bachem
+related_claims:
+  - clm_glp1_manufacturing_capacity_bottleneck
+notes: Illustrative event object showing how a CDMO capex announcement would be recorded. Not a real announcement; placeholder for the template.

@@ -1,0 +1,9 @@
+schema_version: 1
+states:
+  - research_only
+  - watchlist_candidate
+  - human_review_required
+  - approved_for_private_execution
+public_corpus_forbidden:
+  - approved_for_private_execution
+

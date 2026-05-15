@@ -1,0 +1,15 @@
+id: dp_peptide_manufacturing_watchlist
+question: Should the metalayer maintain a watchlist of public peptide-API CDMOs as a tracking exposure to the GLP-1 supply cycle?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_peptide_manufacturing_picks_and_shovels
+supporting_claims:
+  - clm_glp1_manufacturing_capacity_bottleneck
+  - clm_fda_compounding_enforcement_shift
+invalidation_conditions:
+  - Capacity announcements indicate material oversupply within two quarters and CDMO order books soften.
+  - Originator pharma vertically integrates peptide-API capacity and reduces external CDMO dependence.
+  - FDA enforcement removes compounded-GLP-1 from the market in a way that collapses the downstream-volume signal without a compensating originator-supply shock.
+  - The CDMO names trade with sustained originator-pharma franchise correlation that eliminates the picks-and-shovels diversification benefit.
+schema_version: 1

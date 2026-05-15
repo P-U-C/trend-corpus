@@ -1,0 +1,46 @@
+services:
+  metalayer-api:
+    image: python:3.11-slim
+    working_dir: /workspace
+    volumes:
+      - ../apps/metalayer-api:/workspace:ro
+      - ..:/trend-corpus:ro
+    command: ["python", "app.py"]
+    ports:
+      - "8080:8080"
+    environment:
+      TREND_CORPUS_PATH: /trend-corpus
+      CONVERGENCE_ARTIFACT_PATH: /private/convergence-latest.json
+
+  mcp-server:
+    image: python:3.11-slim
+    working_dir: /workspace
+    volumes:
+      - ../apps/mcp-server:/workspace:ro
+      - ..:/trend-corpus:ro
+    command: ["python", "server.py"]
+    environment:
+      TREND_CORPUS_PATH: /trend-corpus
+      METALAYER_API_URL: http://metalayer-api:8080
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: metalayer
+      POSTGRES_USER: metalayer
+      POSTGRES_PASSWORD: metalayer_dev_only
+    volumes:
+      - metalayer-postgres:/var/lib/postgresql/data
+    # pgvector belongs here later, after corpus scale exceeds the SQLite-WAL
+    # threshold documented by the peptides runtime pattern.
+
+  # reverse-proxy:
+  #   image: caddy:2
+  #   ports:
+  #     - "80:80"
+  #   depends_on:
+  #     - metalayer-api
+
+volumes:
+  metalayer-postgres:
+

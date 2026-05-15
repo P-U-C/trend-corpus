@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Watchlist",
+  "type": "object",
+  "required": ["id", "title", "monitor_for", "schema_version"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^wl_"},
+    "title": {"type": "string"},
+    "monitor_for": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "schema_version": {"type": "integer"}
+  }
+}
+

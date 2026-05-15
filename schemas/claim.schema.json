@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Claim",
+  "type": "object",
+  "required": ["id", "claim", "category", "source_ids", "date_of_evidence", "confidence", "schema_version"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^clm_"},
+    "claim": {"type": "string"},
+    "category": {"type": "string"},
+    "source_ids": {"type": "array", "items": {"type": "string"}},
+    "supporting_claims": {"type": "array", "items": {"type": "string"}},
+    "date_of_evidence": {"type": "string"},
+    "confidence": {"type": "number"},
+    "schema_version": {"type": "integer"}
+  }
+}
+
