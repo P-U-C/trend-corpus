@@ -95,8 +95,8 @@ The exporter must be safe to run as a cron job under user `peptide`.
 
 ## Cross-machine sync (this box)
 
-Lives at `~/pf-scout-bot/deploy/sync-peptides-aggregates.sh` (to be written
-as a follow-up; not yet committed). Behavior:
+Lives at `~/pf-scout-bot/deploy/sync-peptides-aggregates.sh` (shipped).
+Behavior:
 
 - scp `peptide@city-worker-peptides:~/peptide-corpus/out/peptides-aggregates.json`
   to `~/trend-corpus/trends/peptides/aggregates/peptides-aggregates.json`
@@ -122,6 +122,54 @@ B. Have the exporter on the host copy its output to a path readable by
 Option B is recommended -- it keeps the rest of /home/peptide private and
 gives a clear "public output" path. Update the exporter's output path
 accordingly when wiring up the sync.
+
+### Operator install steps (when ready to enable the loop)
+
+1. **On the peptides host**, create the public-output path:
+   ```bash
+   sudo mkdir -p /var/lib/peptide-public
+   sudo chgrp peptide /var/lib/peptide-public
+   sudo chmod 750 /var/lib/peptide-public
+   sudo chmod g+x /var/lib/peptide-public
+   ```
+   And give the ubuntu user permission to read into it via the peptide group:
+   ```bash
+   sudo usermod -aG peptide ubuntu
+   sudo chmod 640 /var/lib/peptide-public  # once the file exists
+   ```
+
+2. **Update the exporter on the peptides host** to point its `--out` at
+   the public path:
+   ```bash
+   sudo cp ~ubuntu/peptide-corpus/scripts/export-public-aggregates.py \
+           /home/peptide/peptide-corpus/scripts/
+   sudo chown peptide:peptide /home/peptide/peptide-corpus/scripts/export-public-aggregates.py
+   sudo chmod 755 /home/peptide/peptide-corpus/scripts/export-public-aggregates.py
+   ```
+
+3. **Add the exporter cron** to `/etc/cron.d/peptide-corpus` (runs as `peptide`):
+   ```
+   0 6 * * 1  cd /home/peptide/peptide-corpus && python3 scripts/export-public-aggregates.py --out /var/lib/peptide-public/peptides-aggregates.json >> /var/log/peptide-aggregates.log 2>&1
+   ```
+   Mondays 06:00 UTC. Aggregate-shape doesn't move fast; weekly is right.
+
+4. **On the orchestration box** (this one), add the sync cron. Recommend
+   crontab -e for the ubuntu user:
+   ```
+   30 6 * * 1  DEPLOY_PUSH=1 /home/ubuntu/pf-scout-bot/deploy/sync-peptides-aggregates.sh >> /tmp/cron-sync-peptides-aggregates.log 2>&1
+   ```
+   Runs 30 min after the exporter, also Mondays.
+
+5. **Verify the first cycle manually before enabling**:
+   ```bash
+   # As peptide on the peptides host:
+   python3 ~/peptide-corpus/scripts/export-public-aggregates.py --out /var/lib/peptide-public/peptides-aggregates.json
+   # As ubuntu on the orchestration box:
+   bash /home/ubuntu/pf-scout-bot/deploy/sync-peptides-aggregates.sh
+   ```
+   Confirm no `git push` happens on this run (script default is local-only).
+   Once the diff in `~/trend-corpus` looks sane, re-run with `DEPLOY_PUSH=1`
+   and enable the cron.
 
 ## Preflight before enabling the cron
 
