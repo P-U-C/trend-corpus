@@ -1,0 +1,26 @@
+id: ent_bwxt
+name: BWX Technologies, Inc.
+entity_type: public_company
+schema_version: 1
+slug: bwxt
+tickers:
+  - BWXT
+exchanges:
+  - NYSE
+identifiers:
+  ticker: BWXT
+  exchange: NYSE
+ticker_exposures:
+  - ticker: BWXT
+    direction: beneficiary
+    exposure_strength: 0.82
+    basis:
+      - manufacturing_capacity
+      - supply_chain_role
+      - revenue_segment
+    tradable: true
+role:
+  - nuclear_components
+  - reactor_services
+  - fuel_and_manufacturing
+notes: BWXT is a manufacturing and services exposure to nuclear programs. It is less speculative than SMR developers but directly tied to nuclear components, fuel, government programs, and supply-chain expansion.

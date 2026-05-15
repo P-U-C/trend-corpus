@@ -1,0 +1,27 @@
+id: ent_cameco
+name: Cameco Corporation
+entity_type: public_company
+schema_version: 1
+slug: cameco
+tickers:
+  - CCJ
+exchanges:
+  - NYSE
+  - TSX
+identifiers:
+  ticker: CCJ
+  exchange: NYSE
+ticker_exposures:
+  - ticker: CCJ
+    direction: beneficiary
+    exposure_strength: 0.76
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - manufacturing_capacity
+    tradable: true
+role:
+  - uranium_mining
+  - fuel_services
+  - westinghouse_exposure
+notes: Cameco is a uranium and nuclear fuel-cycle exposure with added nuclear-services linkage through Westinghouse. It benefits from fuel contracting and uranium scarcity more than SMR licensing milestones directly.

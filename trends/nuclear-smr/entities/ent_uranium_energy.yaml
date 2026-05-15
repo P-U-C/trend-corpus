@@ -1,0 +1,26 @@
+id: ent_uranium_energy
+name: Uranium Energy Corp.
+entity_type: public_company
+schema_version: 1
+slug: uranium_energy
+tickers:
+  - UEC
+exchanges:
+  - NYSE American
+identifiers:
+  ticker: UEC
+  exchange: NYSE American
+ticker_exposures:
+  - ticker: UEC
+    direction: beneficiary
+    exposure_strength: 0.62
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - other
+    tradable: true
+role:
+  - uranium_mining
+  - us_supply_chain
+  - uranium_price_beta
+notes: Uranium Energy is included as an adjacent uranium beta name. It is less directly tied to SMR deployment than fuel-cycle and reactor names, but it can respond to uranium scarcity and domestic supply policy.

@@ -1,0 +1,26 @@
+id: ent_nrg
+name: NRG Energy, Inc.
+entity_type: public_company
+schema_version: 1
+slug: nrg
+tickers:
+  - NRG
+exchanges:
+  - NYSE
+identifiers:
+  ticker: NRG
+  exchange: NYSE
+ticker_exposures:
+  - ticker: NRG
+    direction: ambiguous
+    exposure_strength: 0.14
+    basis:
+      - revenue_segment
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - nuclear_exposed_utility
+  - retail_power
+  - merchant_power
+notes: NRG is included as a diversified power company with some nuclear-linked exposure. The signal is ambiguous because retail power, gas, and broader merchant dynamics dominate the ticker.

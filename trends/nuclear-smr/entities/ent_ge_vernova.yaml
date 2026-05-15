@@ -1,0 +1,26 @@
+id: ent_ge_vernova
+name: GE Vernova Inc.
+entity_type: public_company
+schema_version: 1
+slug: ge_vernova
+tickers:
+  - GEV
+exchanges:
+  - NYSE
+identifiers:
+  ticker: GEV
+  exchange: NYSE
+ticker_exposures:
+  - ticker: GEV
+    direction: beneficiary
+    exposure_strength: 0.72
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - supply_chain_role
+    tradable: true
+role:
+  - bwrx_300
+  - nuclear_services
+  - large_power_equipment
+notes: GE Vernova is included for GE Vernova Hitachi, BWRX-300, and nuclear services. Exposure is meaningful but diluted by the broader power, wind, and electrification portfolio.

@@ -1,0 +1,27 @@
+id: ent_nexgen_energy
+name: NexGen Energy Ltd.
+entity_type: public_company
+schema_version: 1
+slug: nexgen_energy
+tickers:
+  - NXE
+exchanges:
+  - NYSE
+  - TSX
+identifiers:
+  ticker: NXE
+  exchange: NYSE
+ticker_exposures:
+  - ticker: NXE
+    direction: beneficiary
+    exposure_strength: 0.58
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - other
+    tradable: true
+role:
+  - uranium_developer
+  - uranium_price_beta
+  - future_supply
+notes: NexGen is a development-stage uranium exposure rather than an SMR company. It is included to track how reactor-demand narratives propagate into future uranium supply equities.

@@ -1,0 +1,26 @@
+id: ent_nuscale
+name: NuScale Power Corporation
+entity_type: public_company
+schema_version: 1
+slug: nuscale
+tickers:
+  - SMR
+exchanges:
+  - NYSE
+identifiers:
+  ticker: SMR
+  exchange: NYSE
+ticker_exposures:
+  - ticker: SMR
+    direction: beneficiary
+    exposure_strength: 0.88
+    basis:
+      - regulatory_dependency
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - light_water_smr
+  - voygr_platform
+  - licensing_benchmark
+notes: NuScale is a public SMR pure play with a certified light-water SMR design. Its exposure is direct, but commercial value depends on firm customer commitments and project economics.

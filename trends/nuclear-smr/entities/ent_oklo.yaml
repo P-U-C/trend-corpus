@@ -1,0 +1,27 @@
+id: ent_oklo
+name: Oklo Inc.
+entity_type: public_company
+schema_version: 1
+slug: oklo
+tickers:
+  - OKLO
+exchanges:
+  - NYSE
+identifiers:
+  ticker: OKLO
+  exchange: NYSE
+ticker_exposures:
+  - ticker: OKLO
+    direction: beneficiary
+    exposure_strength: 0.90
+    basis:
+      - regulatory_dependency
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - advanced_reactor_developer
+  - microreactor
+  - fuel_recycling
+  - data_center_power
+notes: Oklo is a high-beta advanced reactor pure play. The core risks are NRC licensing progress, fuel availability, customer agreements, cash runway, and first-project execution.

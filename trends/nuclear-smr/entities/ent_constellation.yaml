@@ -1,0 +1,26 @@
+id: ent_constellation
+name: Constellation Energy Corporation
+entity_type: public_company
+schema_version: 1
+slug: constellation
+tickers:
+  - CEG
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: CEG
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: CEG
+    direction: beneficiary
+    exposure_strength: 0.80
+    basis:
+      - revenue_segment
+      - demand_channel
+      - regulatory_dependency
+    tradable: true
+role:
+  - nuclear_utility
+  - data_center_ppa_counterparty
+  - reactor_restart
+notes: Constellation is the clearest public utility exposure to nuclear-backed data-center power. The Microsoft PPA and planned Crane Clean Energy Center restart make it a primary contracted-demand signal.

@@ -1,0 +1,27 @@
+id: ent_centrus
+name: Centrus Energy Corp.
+entity_type: public_company
+schema_version: 1
+slug: centrus
+tickers:
+  - LEU
+exchanges:
+  - NYSE American
+identifiers:
+  ticker: LEU
+  exchange: NYSE American
+ticker_exposures:
+  - ticker: LEU
+    direction: beneficiary
+    exposure_strength: 0.86
+    basis:
+      - supply_chain_role
+      - regulatory_dependency
+      - manufacturing_capacity
+    tradable: true
+role:
+  - enrichment
+  - haleu
+  - american_centrifuge
+  - fuel_cycle_bottleneck
+notes: Centrus is the most direct public HALEU and enrichment bottleneck exposure in the seed list. DOE task orders, Russian LEU restrictions, and enrichment scale-up are load-bearing signals.

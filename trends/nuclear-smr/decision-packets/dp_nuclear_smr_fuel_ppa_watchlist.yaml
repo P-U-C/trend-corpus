@@ -1,0 +1,16 @@
+id: dp_nuclear_smr_fuel_ppa_watchlist
+question: Should the metalayer maintain a watchlist of nuclear and SMR beneficiaries tied to licensing milestones, HALEU supply, uranium pricing, and data-center PPA flow?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_nuclear_smr_fuel_ppa_stack
+supporting_claims:
+  - clm_nuclear_smr_licensing_path
+  - clm_nuclear_smr_haleu_supply
+  - clm_nuclear_smr_hyperscaler_ppa
+invalidation_conditions:
+  - Hyperscaler nuclear PPA flow falls below 1 GW of newly announced contracted or development-stage capacity for two consecutive quarters.
+  - DOE HALEU funding, allocation, or procurement programs are cancelled or delayed past 2027 without a credible replacement supply path.
+  - NRC denies or materially delays a first-wave SMR or advanced-reactor construction permit, combined license, or operating license without a credible 24-month resubmission path.
+  - Uranium spot pricing remains below USD 60 per pound for four consecutive quarters while Cameco, Centrus, and uranium developers all guide to softer contracting demand.
+schema_version: 1

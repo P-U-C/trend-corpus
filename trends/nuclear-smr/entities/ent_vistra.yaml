@@ -1,0 +1,26 @@
+id: ent_vistra
+name: Vistra Corp.
+entity_type: public_company
+schema_version: 1
+slug: vistra
+tickers:
+  - VST
+exchanges:
+  - NYSE
+identifiers:
+  ticker: VST
+  exchange: NYSE
+ticker_exposures:
+  - ticker: VST
+    direction: beneficiary
+    exposure_strength: 0.24
+    basis:
+      - revenue_segment
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - nuclear_exposed_utility
+  - merchant_power
+  - data_center_power_candidate
+notes: Vistra is an adjacent utility exposure with nuclear and merchant power assets. Exposure is materially lower than CEG because nuclear is one component of a broader generation and retail portfolio.
