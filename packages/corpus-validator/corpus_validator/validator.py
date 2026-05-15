@@ -34,6 +34,19 @@ REFERENCE_FIELDS = {
     "related_events",
 }
 
+# Field names that must NEVER appear as a key in any public corpus object.
+# These imply trade execution semantics that belong in a private runtime,
+# not in a publishable research artifact. The validator rejects the whole
+# object if any of these appear as a key (recursively).
+TRADE_ACTION_DENYLIST = {
+    "place_order",
+    "order_type",
+    "limit_price",
+    "stop_price",
+    "account_id",
+    "quantity_to_trade",
+}
+
 SECRET_PATTERNS = [
     r"OPENAI_API_KEY",
     r"ANTHROPIC_API_KEY",
@@ -117,6 +130,21 @@ def check_schema(data: Any, schema: dict[str, Any], path: Path) -> list[str]:
     return errors
 
 
+def find_trade_action_keys(value: Any, trail: str = "") -> list[str]:
+    """Walk a parsed YAML/JSON tree and return paths to any denylisted key."""
+    hits: list[str] = []
+    if isinstance(value, dict):
+        for k, v in value.items():
+            here = f"{trail}.{k}" if trail else k
+            if k in TRADE_ACTION_DENYLIST:
+                hits.append(here)
+            hits.extend(find_trade_action_keys(v, here))
+    elif isinstance(value, list):
+        for idx, item in enumerate(value):
+            hits.extend(find_trade_action_keys(item, f"{trail}[{idx}]"))
+    return hits
+
+
 def iter_object_files(folder: Path) -> list[Path]:
     if not folder.exists():
         return []
@@ -174,6 +202,11 @@ def validate_theme(repo: Path, theme_dir: Path) -> tuple[list[str], dict[str, di
                     errors.append(f"{path}: public corpus forbids approved_for_private_execution")
                 if not obj.get("invalidation_conditions"):
                     errors.append(f"{path}: decision-packet requires invalidation_conditions")
+            for trade_key_path in find_trade_action_keys(obj):
+                errors.append(
+                    f"{path}: public corpus forbids trade-action field {trade_key_path!r} "
+                    "(denylist: place_order, order_type, limit_price, stop_price, account_id, quantity_to_trade)"
+                )
 
     for item in index.values():
         obj = item["object"]
