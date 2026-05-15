@@ -6,10 +6,28 @@
   "properties": {
     "id": {"type": "string", "pattern": "^src_"},
     "type": {"type": "string"},
+    "theme_id": {"type": "string"},
     "title": {"type": "string"},
+    "source_type": {
+      "type": "string",
+      "enum": ["regulatory", "company_ir", "trade_press", "clinical_registry", "earnings_call", "patent", "other"]
+    },
     "url": {"type": "string"},
+    "public_locator": {"type": "string"},
+    "private_locator": {"type": "string"},
     "accessed_at": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "visibility": {
+      "type": "object",
+      "required": ["classification"],
+      "properties": {
+        "classification": {
+          "type": "string",
+          "enum": ["private", "semi_private", "public_aggregate", "public_full"]
+        },
+        "publish_delay_days": {"type": "integer", "minimum": 0}
+      }
+    },
     "schema_version": {"type": "integer"}
   }
 }
-

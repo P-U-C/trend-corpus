@@ -8,6 +8,17 @@ tickers:
 exchanges:
   - NYSE
   - CSE
+identifiers:
+  ticker: NVO
+  exchange: NYSE
+ticker_exposures:
+  - ticker: NVO
+    direction: beneficiary
+    exposure_strength: 0.9
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
 role:
   - obesity_drug_originator
   - glp1_pipeline

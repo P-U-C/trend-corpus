@@ -7,7 +7,43 @@
     "id": {"type": "string", "pattern": "^ent_"},
     "name": {"type": "string"},
     "entity_type": {"type": "string"},
+    "identifiers": {
+      "type": "object",
+      "properties": {
+        "ticker": {"type": "string"},
+        "exchange": {"type": "string"},
+        "cik": {"type": "string"},
+        "isin": {"type": "string"},
+        "figi": {"type": "string"}
+      }
+    },
+    "ticker_exposures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ticker", "direction", "exposure_strength", "basis"],
+        "properties": {
+          "ticker": {"type": "string"},
+          "direction": {"type": "string", "enum": ["beneficiary", "harmed", "ambiguous"]},
+          "exposure_strength": {"type": "number", "minimum": 0, "maximum": 1},
+          "basis": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "revenue_segment",
+                "manufacturing_capacity",
+                "regulatory_dependency",
+                "supply_chain_role",
+                "demand_channel",
+                "other"
+              ]
+            }
+          },
+          "tradable": {"type": "boolean"}
+        }
+      }
+    },
     "schema_version": {"type": "integer"}
   }
 }
-

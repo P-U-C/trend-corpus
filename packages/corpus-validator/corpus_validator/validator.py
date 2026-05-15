@@ -30,6 +30,8 @@ REFERENCE_FIELDS = {
     "source_ids",
     "supporting_claims",
     "supporting_theses",
+    "entity_ids",
+    "thesis_ids",
     "related_entities",
     "related_events",
 }
@@ -85,7 +87,11 @@ def load_schema(repo: Path, schema_name: str) -> dict[str, Any]:
     return load_data(repo / "schemas" / schema_name)
 
 
-def _type_ok(value: Any, expected: str) -> bool:
+def _type_ok(value: Any, expected: str | list[str]) -> bool:
+    if isinstance(expected, list):
+        return any(_type_ok(value, item) for item in expected)
+    if expected == "null":
+        return value is None
     if expected == "object":
         return isinstance(value, dict)
     if expected == "array":
@@ -101,32 +107,53 @@ def _type_ok(value: Any, expected: str) -> bool:
     return True
 
 
-def check_schema(data: Any, schema: dict[str, Any], path: Path) -> list[str]:
+def check_schema(data: Any, schema: dict[str, Any], path: Path, trail: str = "") -> list[str]:
     errors: list[str] = []
-    if not _type_ok(data, schema.get("type", "object")):
-        return [f"{path}: expected {schema.get('type')}"]
+    label = f"{path}:{trail}" if trail else f"{path}"
+    if "const" in schema and data != schema["const"]:
+        errors.append(f"{label}: expected const {schema['const']!r}")
+    if "type" in schema and not _type_ok(data, schema["type"]):
+        return [f"{label}: expected {schema['type']}"]
+    if "enum" in schema and data not in schema["enum"]:
+        errors.append(f"{label}: value {data!r} not in enum")
+    if "pattern" in schema and isinstance(data, str) and not re.search(schema["pattern"], data):
+        errors.append(f"{label}: does not match {schema['pattern']}")
+    if "minimum" in schema and isinstance(data, (int, float)) and not isinstance(data, bool):
+        if data < schema["minimum"]:
+            errors.append(f"{label}: must be >= {schema['minimum']}")
+    if "maximum" in schema and isinstance(data, (int, float)) and not isinstance(data, bool):
+        if data > schema["maximum"]:
+            errors.append(f"{label}: must be <= {schema['maximum']}")
+    if "minLength" in schema and isinstance(data, str) and len(data) < schema["minLength"]:
+        errors.append(f"{label}: length must be >= {schema['minLength']}")
+
+    if isinstance(data, list):
+        if "minItems" in schema and len(data) < schema["minItems"]:
+            errors.append(f"{label}: must have at least {schema['minItems']} items")
+        if "items" in schema:
+            for idx, item in enumerate(data):
+                errors.extend(check_schema(item, schema["items"], path, f"{trail}[{idx}]" if trail else f"[{idx}]"))
+        return errors
+
     if not isinstance(data, dict):
         return errors
 
     for field in schema.get("required", []):
         if field not in data:
-            errors.append(f"{path}: missing required field {field}")
+            errors.append(f"{label}: missing required field {field}")
 
     properties = schema.get("properties", {})
+    if schema.get("additionalProperties") is False:
+        for key in data:
+            if key not in properties:
+                errors.append(f"{label}: additional property {key} is not allowed")
+
     for key, rules in properties.items():
         if key not in data:
             continue
         value = data[key]
-        expected = rules.get("type")
-        if expected and not _type_ok(value, expected):
-            errors.append(f"{path}: field {key} expected {expected}")
-            continue
-        if "enum" in rules and value not in rules["enum"]:
-            errors.append(f"{path}: field {key} value {value!r} not in enum")
-        if "pattern" in rules and isinstance(value, str) and not re.search(rules["pattern"], value):
-            errors.append(f"{path}: field {key} does not match {rules['pattern']}")
-        if "minItems" in rules and isinstance(value, list) and len(value) < rules["minItems"]:
-            errors.append(f"{path}: field {key} must have at least {rules['minItems']} items")
+        child = f"{trail}.{key}" if trail else key
+        errors.extend(check_schema(value, rules, path, child))
     return errors
 
 

@@ -10,8 +10,8 @@
     "execution_state": {"type": "string", "enum": ["research_only", "watchlist_candidate", "human_review_required", "approved_for_private_execution"]},
     "supporting_theses": {"type": "array", "items": {"type": "string"}, "minItems": 1},
     "supporting_claims": {"type": "array", "items": {"type": "string"}},
+    "scanner_evidence": {"type": "array", "items": {"type": "object"}},
     "invalidation_conditions": {"type": "array", "items": {"type": "string"}, "minItems": 1},
     "schema_version": {"type": "integer"}
   }
 }
-

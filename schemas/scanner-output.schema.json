@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scanner-output.schema.json",
+  "title": "Scanner output",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["scan_meta", "results", "convergence"],
+  "properties": {
+    "scan_meta": {"type": "object"},
+    "results": {"type": "array"},
+    "convergence": {"type": "array"},
+    "quality_notes": {"type": "array", "items": {"type": "string"}},
+    "public_output_path": {"type": "string"}
+  }
+}

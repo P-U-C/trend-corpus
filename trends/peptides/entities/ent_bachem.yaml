@@ -7,6 +7,17 @@ tickers:
   - BANB
 exchanges:
   - SIX
+identifiers:
+  ticker: BANB
+  exchange: SIX
+ticker_exposures:
+  - ticker: BANB
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - manufacturing_capacity
+      - supply_chain_role
+    tradable: true
 role:
   - peptide_api_cdmo
   - solid_phase_synthesis

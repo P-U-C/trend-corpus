@@ -8,10 +8,26 @@
     "claim": {"type": "string"},
     "category": {"type": "string"},
     "source_ids": {"type": "array", "items": {"type": "string"}},
+    "provider_observation_ids": {"type": "array", "items": {"type": "string"}},
+    "entity_ids": {"type": "array", "items": {"type": "string"}},
+    "thesis_ids": {"type": "array", "items": {"type": "string"}},
     "supporting_claims": {"type": "array", "items": {"type": "string"}},
     "date_of_evidence": {"type": "string"},
+    "evidence_at": {"type": "string"},
     "confidence": {"type": "number"},
+    "status": {"type": "string", "enum": ["active", "under_review", "superseded"]},
+    "visibility": {
+      "type": "object",
+      "required": ["classification", "strategy_leakage_risk"],
+      "properties": {
+        "classification": {
+          "type": "string",
+          "enum": ["private", "semi_private", "public_aggregate", "public_full"]
+        },
+        "strategy_leakage_risk": {"type": "string", "enum": ["low", "medium", "high"]},
+        "publish_delay_days": {"type": "integer", "minimum": 0}
+      }
+    },
     "schema_version": {"type": "integer"}
   }
 }
-

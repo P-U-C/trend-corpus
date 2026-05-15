@@ -7,6 +7,17 @@ tickers:
   - LLY
 exchanges:
   - NYSE
+identifiers:
+  ticker: LLY
+  exchange: NYSE
+ticker_exposures:
+  - ticker: LLY
+    direction: beneficiary
+    exposure_strength: 0.9
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
 role:
   - obesity_drug_originator
   - glp1_pipeline

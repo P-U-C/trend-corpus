@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "provider-observation.schema.json",
+  "title": "Provider observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "theme_id",
+    "provider",
+    "fetched_at",
+    "quality_status",
+    "quality_errors",
+    "usable_for_scoring",
+    "visibility"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^obs_"},
+    "type": {"const": "provider_observation"},
+    "theme_id": {"type": "string"},
+    "provider": {"type": "string"},
+    "query_ref": {"type": "string"},
+    "fetched_at": {"type": "string", "format": "date-time"},
+    "raw_locator": {"type": "string"},
+    "normalized_fields": {"type": "object"},
+    "quality_status": {
+      "type": "string",
+      "enum": ["valid", "partial", "dirty", "unavailable"]
+    },
+    "quality_errors": {"type": "array", "items": {"type": "string"}},
+    "usable_for_scoring": {"type": "boolean"},
+    "visibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["classification"],
+      "properties": {
+        "classification": {"type": "string", "enum": ["private", "semi_private"]}
+      }
+    }
+  }
+}

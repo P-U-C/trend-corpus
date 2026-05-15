@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scanner-seed.schema.json",
+  "title": "Scanner seed",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "generator", "themes", "scores"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "generator": {
+      "type": "object",
+      "required": ["name", "version"],
+      "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string"}
+      }
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["theme_id", "theme_name", "status"],
+        "properties": {
+          "theme_id": {"type": "string"},
+          "theme_name": {"type": "string"},
+          "status": {"type": "string"}
+        }
+      }
+    },
+    "scores": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "ticker",
+          "theme_id",
+          "theme",
+          "score",
+          "tier",
+          "status",
+          "row_sources",
+          "source_claim_ids",
+          "score_components"
+        ],
+        "properties": {
+          "ticker": {"type": "string"},
+          "theme_id": {"type": "string"},
+          "theme": {"type": "string"},
+          "score": {"type": "number", "minimum": 0, "maximum": 1},
+          "tier": {"type": "string", "enum": ["HIGH", "MEDIUM", "LOW"]},
+          "status": {"type": "string"},
+          "convergence_score": {"type": "number", "minimum": 0, "maximum": 1},
+          "convergence_tier": {"type": "string"},
+          "row_sources": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["llm_survey", "theme_opportunity_generator"]
+            }
+          },
+          "source_claim_ids": {"type": "array", "items": {"type": "string"}},
+          "source_capture_ids": {"type": "array", "items": {"type": "string"}},
+          "score_components": {
+            "type": "object",
+            "required": [
+              "evidence_strength",
+              "freshness_weight",
+              "exposure_strength",
+              "catalyst_weight",
+              "tradability_weight",
+              "data_quality_weight"
+            ],
+            "properties": {
+              "evidence_strength": {"type": "number"},
+              "freshness_weight": {"type": "number"},
+              "exposure_strength": {"type": "number"},
+              "catalyst_weight": {"type": "number"},
+              "tradability_weight": {"type": "number"},
+              "data_quality_weight": {"type": "number"}
+            }
+          }
+        }
+      }
+    }
+  }
+}
