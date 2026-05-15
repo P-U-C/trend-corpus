@@ -229,7 +229,7 @@ Each theme goes through this loop **one at a time**:
 8. **Prompts** -- adapt `trends/peptides/docs/prompts.md` to the sector's
    vocabulary if the runtime will mirror that pattern.
 9. **Validate + commit** -- `make validate && make test`, commit, push,
-   tick the table in this README, move to the next.
+   tick the table in this README.
 
 Where they run: in the supervised Codex screen on the private orchestration
 box, using research-mode access to public web sources. Outputs are
@@ -237,6 +237,29 @@ reviewed against the schema + secrets policy before commit. See
 [`docs/new-sector-research-workflow.md`](docs/new-sector-research-workflow.md)
 for the full pattern and [`AGENTS.md`](AGENTS.md) for the orchestrator /
 implementer split.
+
+### After theme commit -- live-runtime propagation
+
+A new theme committed here flows to its live runtime automatically:
+
+10. **Daily sync** -- each live runtime on the peptide host runs
+    `theme_runtime sync --from <local-trend-corpus-checkout>` at
+    05:00 UTC, which `git pull`s this repo then rebuilds the runtime's
+    `sources.txt` + `prompts/*.md` from the theme dir. No manual file
+    copies. Read-only on Claude.
+
+11. **Weekly entity discovery** -- runtime queries its live db for
+    entity slugs in claims that aren't yet defined in
+    `trends/<theme>/entities/`. One batched Claude call asks for
+    tradability + ticker + exchange + role. Drafts land at
+    `/tmp/trt-discover/<theme>/ent_<slug>.yaml` for operator review.
+    Operator commits keepers back here; the next daily sync propagates
+    them to the runtime. Closes the new-ticker discovery gap.
+
+These two runtime commands (`sync` and `discover-entities`) are
+theme-agnostic. Every new theme inherits them via the runtime package;
+no per-theme work required. See
+[`runtime/README.md`](runtime/README.md) for the full command list.
 
 ## Companion repos
 
