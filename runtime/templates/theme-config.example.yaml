@@ -1,0 +1,46 @@
+# Theme runtime config -- one of these per theme.
+#
+# Drop this in the runtime root (e.g. /home/ai-infra/ai-infra-corpus/
+# theme-config.yaml), edit, then:
+#
+#   TRT_CONFIG=/path/to/theme-config.yaml python3 -m theme_runtime init
+#   TRT_CONFIG=/path/to/theme-config.yaml python3 -m theme_runtime health
+#   TRT_CONFIG=/path/to/theme-config.yaml python3 -m theme_runtime ingest
+
+# ---- required ----
+theme_id: ai-infrastructure          # short slug; matches trend-corpus/trends/<id>/
+theme_name: AI Infrastructure        # human-readable
+root: .                              # where db.sqlite, sources.txt, prompts/, out/ live
+
+# ---- optional (defaults shown) ----
+extract_model: sonnet                # claude model alias for the extract pass
+packet_model: opus                   # claude model alias for the packet pass
+source_text_cap: 30000               # chars per source sent to Claude
+min_text_len: 200                    # skip pages under this many chars
+max_text_len: 80000                  # truncate pages above this many chars
+
+# Categories the extract prompt may emit + per-category half-life in days.
+# Add/remove per the sector's reality. The values below are the peptide
+# defaults; for AI infrastructure you may want manufacturing=365 and a new
+# "supply" category at 180.
+claim_categories:
+  - regulatory
+  - manufacturing
+  - market
+  - clinical
+  - pricing
+  - corporate
+half_life_defaults:
+  regulatory: 90
+  pricing: 30
+  corporate: 60
+  manufacturing: 180
+  market: 365
+  clinical: 3650
+
+# ---- Telegram (optional; the runtime falls back to env vars if absent) ----
+# Either inline literals (committed) or a .env path the runtime reads.
+# telegram_bot_token: ...
+# telegram_chat_id: ...
+telegram_env_file: ~/.theme-runtime.env       # reads TG_BOT_TOKEN + TG_CHAT_ID
+message_prefix: "[ai-infrastructure]"          # prepended to every Telegram message
