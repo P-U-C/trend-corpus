@@ -2,23 +2,26 @@
 CLI entrypoint: `python3 -m theme_runtime <command> --config <path> [args...]`
 
 Commands:
-  init        Initialize db.sqlite + dirs for the configured theme.
-  migrate     Run a peptides-to-topics column rename (legacy DBs only).
-  ingest      Fetch sources.txt URLs -> sources table.
-  extract     Process unprocessed sources -> claims (via Claude).
-  packet      Generate a decision packet (via Claude).
-  status      Print a quick health summary.
-  recent      Print the N most recent active claims.
-  health      Verify Claude CLI auth + HOME are usable.
-  notify      alert | digest | packet -- Telegram notifications.
+  init                 Initialize db.sqlite + dirs for the configured theme.
+  migrate              Run a peptides-to-topics column rename (legacy DBs only).
+  ingest               Fetch sources.txt URLs -> sources table.
+  extract              Process unprocessed sources -> claims (via Claude).
+  packet               Generate a decision packet (via Claude).
+  status               Print a quick health summary.
+  recent               Print the N most recent active claims.
+  health               Verify Claude CLI auth + HOME are usable.
+  notify               alert | digest | packet -- Telegram notifications.
+  sync                 Pull sources.txt + prompts/* from a trend-corpus checkout.
+  discover-entities    Find seen-but-unknown entity slugs; draft new entity YAMLs.
 """
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
-from . import extract, health, ingest, notify, packet, status
+from . import discover_entities, extract, health, ingest, notify, packet, status, sync
 from .context import load_context
 from .db import init_schema, migrate_legacy_peptides_db
 
@@ -59,6 +62,32 @@ def main(argv: list[str] | None = None) -> int:
     p_not = sub.add_parser("notify", help="Telegram notifications")
     p_not.add_argument("mode", choices=["alert", "digest", "packet"])
     p_not.add_argument("args", nargs="*")
+
+    p_sync = sub.add_parser(
+        "sync",
+        help="rebuild sources.txt + prompts/* from a trend-corpus checkout",
+    )
+    p_sync.add_argument(
+        "--from", dest="sync_from", required=True,
+        help="path to a local trend-corpus checkout",
+    )
+
+    p_disc = sub.add_parser(
+        "discover-entities",
+        help="flag entity slugs in claims that aren't in trend-corpus yet",
+    )
+    p_disc.add_argument(
+        "--from", dest="sync_from", required=True,
+        help="path to a local trend-corpus checkout (to read known entities)",
+    )
+    p_disc.add_argument(
+        "--model", default=None,
+        help="claude model alias (default: ctx.extract_model)",
+    )
+    p_disc.add_argument(
+        "--notify", action="store_true",
+        help="send a Telegram digest of how many drafts were written",
+    )
 
     args = ap.parse_args(argv)
 
@@ -123,6 +152,25 @@ def main(argv: list[str] | None = None) -> int:
                 print("notify packet needs a file path", file=sys.stderr)
                 return 2
             notify.packet(ctx, args.args[0])
+        return 0
+
+    if args.command == "sync":
+        ctx = _ctx(args)
+        summary = sync.run(ctx, Path(args.sync_from))
+        print(json.dumps(summary, indent=2, sort_keys=True))
+        return 0
+
+    if args.command == "discover-entities":
+        ctx = _ctx(args)
+        summary = discover_entities.run(ctx, Path(args.sync_from), model=args.model)
+        print(json.dumps(summary, indent=2, sort_keys=True))
+        if args.notify and summary["unknown_count"] > 0:
+            msg = (
+                f"discover-entities: {summary['unknown_count']} new slugs found; "
+                f"{len(summary['drafts'])} drafts in {summary['drafts_dir']}. "
+                f"Review + commit to trend-corpus/trends/{ctx.theme_id}/entities/."
+            )
+            notify.alert(ctx, msg)
         return 0
 
     return 2
