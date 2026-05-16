@@ -1,0 +1,24 @@
+id: ent_samsung_sdi
+name: Samsung SDI Co Ltd
+entity_type: public_company
+schema_version: 1
+slug: samsung-sdi
+tickers:
+  - "006400.KS"
+exchanges:
+  - KRX
+identifiers:
+  ticker: "006400.KS"
+  exchange: KRX
+ticker_exposures:
+  - ticker: "006400.KS"
+    direction: beneficiary
+    exposure_strength: 0.45
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - automotive_cell_maker
+  - solid_state_cell_program
+notes: 2027 mass-production target for all-solid-state cells. Co-development with BMW and parallel licensing arrangement with Solid Power for sulfide electrolyte. Pilot S-Line in Suwon. Significant solid-state share of forward capex narrative even though current revenue is dominated by liquid-electrolyte EV cells and storage.

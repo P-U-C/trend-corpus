@@ -192,7 +192,7 @@ not batched. Each theme gets its own commit and review pass.
 |  8 | space-satellite | **[x] Done** | RKLB, ASTS, PL, LUNR; catalyst = broadband / launch contract. |
 |  9 | bitcoin-mining | **[x] Done** | MARA, RIOT, CLSK; post_peak. |
 | 10 | bci-neurotech | **[x] Done** | BFLY, QSI; emerging; catalyst = Neuralink / Synchron / Merge IPO. |
-| 11 | solid-state-battery | [ ] Pending | QS, SLDP; emerging; catalyst = first commercial shipment. |
+| 11 | solid-state-battery | **[x] Done** | QS, SLDP, SES; emerging; catalyst = first commercial shipment (QuantumScape Eagle Line + customer billings). |
 | 12 | synthetic-biology | [ ] Pending | CRBU, TWST, PACB; emerging; catalyst = next CRISPR approval. |
 | 13 | edge-ai | [ ] Pending | AMBA; emerging; catalyst = on-device AI chip partnership. |
 | 14 | photonic-computing | [ ] Pending | LITE, COHR; emerging; catalyst = photonic chip commercialization. |

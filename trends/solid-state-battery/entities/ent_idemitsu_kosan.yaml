@@ -1,0 +1,25 @@
+id: ent_idemitsu_kosan
+name: Idemitsu Kosan Co Ltd
+entity_type: public_company
+schema_version: 1
+slug: idemitsu-kosan
+tickers:
+  - "5019.T"
+exchanges:
+  - TSE
+identifiers:
+  ticker: "5019.T"
+  exchange: TSE
+ticker_exposures:
+  - ticker: "5019.T"
+    direction: beneficiary
+    exposure_strength: 0.30
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - sulfide_electrolyte_supplier
+  - lithium_sulfide_supplier
+  - oil_refiner_diversification
+notes: Toyota's primary sulfide-electrolyte partner. 21.3B yen lithium-sulfide plant under construction (completion June 2027, 1000 mt/yr capacity sufficient for 50-60k EVs). Sulfide-electrolyte pilot facility ground-broken January 2026. Solid-state is a small slice of a refiner's top line, but Idemitsu sits at the upstream chokepoint for every sulfide cell program globally.

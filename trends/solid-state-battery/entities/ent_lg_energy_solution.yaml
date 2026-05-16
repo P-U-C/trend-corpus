@@ -1,0 +1,23 @@
+id: ent_lg_energy_solution
+name: LG Energy Solution Ltd
+entity_type: public_company
+schema_version: 1
+slug: lg-energy-solution
+tickers:
+  - "373220.KS"
+exchanges:
+  - KRX
+identifiers:
+  ticker: "373220.KS"
+  exchange: KRX
+ticker_exposures:
+  - ticker: "373220.KS"
+    direction: beneficiary
+    exposure_strength: 0.20
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - automotive_cell_maker
+  - solid_state_cell_program
+notes: Largest Korean cell maker by EV share. Solid-state roadmap aimed at late-decade commercialization; published polymer and sulfide research streams. Exposure is adjacency rather than pure-play because liquid-electrolyte cells dominate revenue.

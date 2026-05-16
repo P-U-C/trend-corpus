@@ -1,0 +1,26 @@
+id: ent_solid_power
+name: Solid Power Inc
+entity_type: public_company
+schema_version: 1
+slug: solid-power
+tickers:
+  - SLDP
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: SLDP
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: SLDP
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - solid_state_pure_play
+  - sulfide_electrolyte_producer
+  - cell_developer
+notes: Sulfide-electrolyte pure play. Joint-development with BMW and parallel licensing arrangement with Samsung SDI. Ford partnership concluded February 2025; SK On is the other major automotive customer. Pivoted commercial model to electrolyte sales plus IP licensing alongside in-house cell development. Primary HIGH-tier scanner seed.

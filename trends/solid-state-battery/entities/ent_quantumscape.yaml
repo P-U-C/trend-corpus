@@ -1,0 +1,26 @@
+id: ent_quantumscape
+name: QuantumScape Corporation
+entity_type: public_company
+schema_version: 1
+slug: quantumscape
+tickers:
+  - QS
+exchanges:
+  - NYSE
+identifiers:
+  ticker: QS
+  exchange: NYSE
+ticker_exposures:
+  - ticker: QS
+    direction: beneficiary
+    exposure_strength: 0.90
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - solid_state_pure_play
+  - licensing_platform
+  - cell_developer
+notes: The closest U.S.-listed solid-state pure play. Eagle Line inaugurated 2026-02-04; QSE-5 B1 samples shipped Q4 2025; Q1 2026 customer billings $11.0M. Licensing-model commercial path through PowerCo / Volkswagen Group via Cobra separator process. Primary HIGH-tier scanner seed.

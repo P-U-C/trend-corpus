@@ -1,0 +1,25 @@
+id: ent_ses_ai
+name: SES AI Corp
+entity_type: public_company
+schema_version: 1
+slug: ses-ai
+tickers:
+  - SES
+exchanges:
+  - NYSE
+identifiers:
+  ticker: SES
+  exchange: NYSE
+ticker_exposures:
+  - ticker: SES
+    direction: beneficiary
+    exposure_strength: 0.65
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - lithium_metal_developer
+  - semi_solid_developer
+  - defense_drone_cell_supplier
+notes: Lithium-metal cell developer pursuing semi-solid to all-solid roadmap. NDAA-compliant lithium-metal drone-cell shipments from South Korean facility. Molecular Universe AI materials-discovery platform. 2025 revenue ~$21M; FY2026 guidance ~$30-35M. Lower purity than QS / SLDP because lithium-metal is adjacent to but not strictly solid-state.

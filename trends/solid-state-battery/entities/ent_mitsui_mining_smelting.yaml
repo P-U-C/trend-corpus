@@ -1,0 +1,25 @@
+id: ent_mitsui_mining_smelting
+name: Mitsui Mining and Smelting Co Ltd
+entity_type: public_company
+schema_version: 1
+slug: mitsui-mining-smelting
+tickers:
+  - "5706.T"
+exchanges:
+  - TSE
+identifiers:
+  ticker: "5706.T"
+  exchange: TSE
+ticker_exposures:
+  - ticker: "5706.T"
+    direction: beneficiary
+    exposure_strength: 0.25
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - sulfide_electrolyte_supplier
+  - argyrodite_specialist
+  - copper_smelter_diversification
+notes: A-SOLiD branded argyrodite sulfide electrolyte. Mass-production test facility in Ageo, Saitama. September 2024 announcement of new plant targeting 2027 operation. The other half of the Japanese sulfide-electrolyte oligopoly alongside Idemitsu; exposure_strength reflects small share of mega-cap top line.

@@ -1,0 +1,23 @@
+id: ent_sk_innovation
+name: SK Innovation Co Ltd
+entity_type: public_company
+schema_version: 1
+slug: sk-innovation
+tickers:
+  - "096770.KS"
+exchanges:
+  - KRX
+identifiers:
+  ticker: "096770.KS"
+  exchange: KRX
+ticker_exposures:
+  - ticker: "096770.KS"
+    direction: beneficiary
+    exposure_strength: 0.25
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - automotive_cell_maker_parent
+  - solid_state_cell_program
+notes: Parent of SK On, which runs both polymer-oxide and sulfide solid-state development tracks. Solid-state still a research-and-pilot program; SK On's commercial revenue remains liquid-electrolyte EV cells. Adjacency exposure rather than pure play.
