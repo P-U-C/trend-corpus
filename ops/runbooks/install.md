@@ -124,7 +124,27 @@ Before considering the host ready:
 - No runtime database or generated private packet lives under `~/trend-corpus`.
 - Any trade-relevant packet remains gated at `human_review_required`.
 
-## 9. Peptides Reference
+## 9. Per-Theme Runtime Bring-Up Order
+
+Whenever spinning up a new per-theme runtime user (e.g. `solidstate`,
+`synbio`, `edgeai`), follow this order exactly. Skipping `init` is the
+canonical failure mode -- the first `ingest` cron will crash with
+`sqlite3.OperationalError: no such table: sources`.
+
+```sh
+# As the theme user, in the theme working dir, with TRT_CONFIG set:
+python3 -m theme_runtime sync --from "$HOME/trend-corpus"   # writes sources.txt + prompts/
+python3 -m theme_runtime init                               # creates db.sqlite schema
+python3 -m theme_runtime health                             # verifies claude CLI auth
+python3 -m theme_runtime ingest                             # smoke-test one ingest cycle
+python3 -m theme_runtime notify alert "deploy-test ping"    # smoke-test Telegram path
+```
+
+Only after all five succeed should `/etc/cron.d/<user>-corpus` be
+installed. The Telegram alert verifies bot routing (sector runtimes
+post via the runtime bot, not the Codex / orchestrator bot).
+
+## 10. Peptides Reference
 
 Use peptides as the reference runtime pattern:
 
