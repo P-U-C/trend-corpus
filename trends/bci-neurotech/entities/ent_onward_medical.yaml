@@ -1,0 +1,37 @@
+id: ent_onward_medical
+name: ONWARD Medical N.V.
+entity_type: public_company
+schema_version: 1
+slug: onward_medical
+tickers:
+  - ONWD
+  - ONWRY
+exchanges:
+  - Euronext
+  - OTC
+identifiers:
+  ticker: ONWD
+  exchange: Euronext
+ticker_exposures:
+  - ticker: ONWD
+    direction: beneficiary
+    exposure_strength: 0.65
+    basis:
+      - revenue_segment
+      - regulatory_dependency
+      - demand_channel
+    tradable: true
+  - ticker: ONWRY
+    direction: beneficiary
+    exposure_strength: 0.55
+    basis:
+      - revenue_segment
+      - regulatory_dependency
+      - demand_channel
+    tradable: true
+role:
+  - spinal_cord_injury
+  - arc_bci
+  - neurostimulation
+  - thought_driven_movement
+notes: EU-listed neurotech company developing ARC-BCI therapy pairing BCI with spinal-cord stimulation. Higher purity than U.S. medtech incumbents, but commercial scale remains early.

@@ -1,0 +1,26 @@
+id: ent_medtronic
+name: Medtronic plc
+entity_type: public_company
+schema_version: 1
+slug: medtronic
+tickers:
+  - MDT
+exchanges:
+  - NYSE
+identifiers:
+  ticker: MDT
+  exchange: NYSE
+ticker_exposures:
+  - ticker: MDT
+    direction: beneficiary
+    exposure_strength: 0.15
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - neuromodulation_incumbent
+  - adaptive_dbs
+  - deep_brain_stimulation
+  - vagus_nerve_stimulation
+notes: Diversified medtech incumbent with DBS, adaptive DBS, pain stimulation, and broader neuromodulation exposure. Low purity because neuromod is one slice of a large portfolio.

@@ -1,0 +1,26 @@
+id: ent_butterfly_network
+name: Butterfly Network Inc
+entity_type: public_company
+schema_version: 1
+slug: butterfly_network
+tickers:
+  - BFLY
+exchanges:
+  - NYSE
+identifiers:
+  ticker: BFLY
+  exchange: NYSE
+ticker_exposures:
+  - ticker: BFLY
+    direction: ambiguous
+    exposure_strength: 0.20
+    basis:
+      - supply_chain_role
+      - other
+    tradable: true
+role:
+  - ultrasound_on_chip
+  - enabling_platform
+  - forest_neurotech_partner
+  - ambiguous_seed
+notes: Required scanner seed. BFLY is not a direct BCI company; exposure is ambiguous through ultrasound-on-chip and Forest Neurotech co-development for neural interfaces.

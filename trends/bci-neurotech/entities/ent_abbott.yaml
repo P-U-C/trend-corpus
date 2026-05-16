@@ -1,0 +1,25 @@
+id: ent_abbott
+name: Abbott Laboratories
+entity_type: public_company
+schema_version: 1
+slug: abbott
+tickers:
+  - ABT
+exchanges:
+  - NYSE
+identifiers:
+  ticker: ABT
+  exchange: NYSE
+ticker_exposures:
+  - ticker: ABT
+    direction: beneficiary
+    exposure_strength: 0.10
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - neuromodulation_incumbent
+  - deep_brain_stimulation
+  - remote_programming
+notes: Diversified medtech incumbent with Infinity DBS and NeuroSphere neuromodulation assets. Very low purity because BCI / DBS is a small part of Abbott's total revenue.

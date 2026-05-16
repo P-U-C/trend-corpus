@@ -1,0 +1,26 @@
+id: ent_livanova
+name: LivaNova PLC
+entity_type: public_company
+schema_version: 1
+slug: livanova
+tickers:
+  - LIVN
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: LIVN
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: LIVN
+    direction: beneficiary
+    exposure_strength: 0.25
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - neuromodulation
+  - vns_therapy
+  - epilepsy
+  - treatment_resistant_depression
+notes: Public neuromodulation company focused on VNS Therapy and cardiopulmonary devices. Closer to neurostimulation than BCI, but useful as a small-cap neuromod comparator.

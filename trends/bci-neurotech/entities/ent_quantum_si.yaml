@@ -1,0 +1,25 @@
+id: ent_quantum_si
+name: Quantum-Si Incorporated
+entity_type: public_company
+schema_version: 1
+slug: quantum_si
+tickers:
+  - QSI
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: QSI
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: QSI
+    direction: ambiguous
+    exposure_strength: 0.20
+    basis:
+      - other
+      - supply_chain_role
+    tradable: true
+role:
+  - protein_sequencing
+  - brain_proteomics_adjacent
+  - ambiguous_seed
+notes: Required scanner seed. QSI is not a BCI pure play; it is adjacent through next-generation protein sequencing and brain proteomics rather than neural-interface revenue.
