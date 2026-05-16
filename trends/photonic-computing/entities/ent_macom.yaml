@@ -1,0 +1,24 @@
+id: ent_macom
+name: MACOM Technology Solutions Holdings Inc
+entity_type: public_company
+schema_version: 1
+slug: macom
+tickers:
+  - MTSI
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MTSI
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MTSI
+    direction: beneficiary
+    exposure_strength: 0.40
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - inp_semiconductor_supplier
+  - photonic_subassembly
+  - rf_microwave_silicon
+notes: InP-based laser drivers and TIAs, RF and microwave silicon, plus photonic subassemblies for datacenter and 5G. Lower exposure_strength because RF business shares the top line.

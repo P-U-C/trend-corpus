@@ -1,0 +1,24 @@
+id: ent_nlight
+name: nLight Inc
+entity_type: public_company
+schema_version: 1
+slug: nlight
+tickers:
+  - LASR
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: LASR
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: LASR
+    direction: beneficiary
+    exposure_strength: 0.35
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - semiconductor_laser_supplier
+  - aerospace_defense_lasers
+  - directed_energy
+notes: Semiconductor and fiber lasers for industrial, defense, and directed-energy programs. Adjacency to photonic computing is the laser and pump-laser supply chain plus defense directed-energy budget exposure. Lower exposure_strength because primary verticals are industrial cutting and defense rather than datacenter optics.

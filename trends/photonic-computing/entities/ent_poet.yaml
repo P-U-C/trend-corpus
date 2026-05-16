@@ -1,0 +1,24 @@
+id: ent_poet
+name: POET Technologies Inc
+entity_type: public_company
+schema_version: 1
+slug: poet
+tickers:
+  - POET
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: POET
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: POET
+    direction: beneficiary
+    exposure_strength: 0.55
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - silicon_photonic_interposer
+  - optical_engine_supplier
+notes: Small-cap pure play on the POET Optical Interposer platform that hybrid-integrates lasers, modulators, and detectors with electronic ICs on a single substrate. Optical engines targeting 1.6T and CPO. Higher variance than LITE / COHR due to micro-cap status but a more direct silicon-photonic integration story.

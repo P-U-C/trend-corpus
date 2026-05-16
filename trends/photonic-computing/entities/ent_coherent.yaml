@@ -1,0 +1,26 @@
+id: ent_coherent
+name: Coherent Corp
+entity_type: public_company
+schema_version: 1
+slug: coherent
+tickers:
+  - COHR
+exchanges:
+  - NYSE
+identifiers:
+  ticker: COHR
+  exchange: NYSE
+ticker_exposures:
+  - ticker: COHR
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - optical_component_prime
+  - laser_systems_supplier
+  - networking_optics
+notes: Formed via the 2022 II-VI / original Coherent merger. $2B NVIDIA strategic investment (March 2026). Fiscal Q3 revenue $1.806B (+21 percent YoY), approximately 97 percent share-price YTD. Broadest portfolio in industry across lasers, optical components, networking equipment, and materials. Primary HIGH-tier scanner seed.

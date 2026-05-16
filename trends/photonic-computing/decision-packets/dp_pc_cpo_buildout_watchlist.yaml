@@ -1,0 +1,17 @@
+id: dp_pc_cpo_buildout_watchlist
+question: Should the metalayer maintain a watchlist of optics-prime cohort (LITE, COHR) plus smaller-cap pure-plays (AAOI, MACOM, POET, nLight) plus DSP layer (MRVL) plus private chiplet keystones (Lightmatter, Ayar Labs, Celestial AI) plus the TSMC photonic capacity anchor, tracked against the NVIDIA $4B commitment burn cadence, OCS backlog, and OFC 2026 design-in disclosures?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_pc_nvidia_anchored_cpo_buildout
+supporting_claims:
+  - clm_pc_nvidia_anchor_investment
+  - clm_pc_revenue_inflection
+  - clm_pc_private_chiplet_validation
+invalidation_conditions:
+  - NVIDIA publicly reduces or restructures the $4B Lumentum / Coherent commitment in any direction (timing, dollar amount, capacity rights), breaking the hyperscaler-anchored demand catalyst that the optics revaluation rests on.
+  - LITE or COHR misses one quarter of guidance on hyperscaler optical revenue or OCS backlog conversion by more than 25 percent, eliminating the revenue-inflection case.
+  - A non-photonic interconnect alternative (advanced copper, in-package electrical fabric, optical engines built in-house by hyperscalers) wins material design-in slots away from LITE / COHR / AAOI / Lightmatter / Ayar at a 2026-2027 OFC equivalent, fragmenting the addressable market.
+  - TSMC publicly throttles silicon-photonic line or CoWoS-class capacity for AI-datacenter customers, eliminating the supply ramp behind the production-revenue case (downside) or removes the constraint entirely (eliminates pricing power).
+  - A second mega-cap strategic acquirer (AVGO, AMD, AMZN) takes Lightmatter or Ayar Labs out at a control premium below current private-market marks, signaling that strategic value tops out below standalone-platform expectations.
+schema_version: 1

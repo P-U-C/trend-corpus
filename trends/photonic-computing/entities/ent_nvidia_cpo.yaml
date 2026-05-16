@@ -1,0 +1,23 @@
+id: ent_nvidia_cpo
+name: NVIDIA Corporation (silicon photonics investment)
+entity_type: public_company
+schema_version: 1
+slug: nvidia-cpo
+tickers:
+  - NVDA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: NVDA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: NVDA
+    direction: beneficiary
+    exposure_strength: 0.10
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - strategic_investor
+  - hyperscaler_equivalent_customer
+notes: Anchored the photonic-computing revaluation through a $4B March 2026 commitment split equally between Lumentum and Coherent (equity + multibillion purchase commitments + future capacity access + U.S. fab support). Photonic-interconnect spend remains a slice of NVDA top line; tracked here as the demand anchor for the rest of the entity universe.

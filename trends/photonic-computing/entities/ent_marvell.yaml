@@ -1,0 +1,24 @@
+id: ent_marvell
+name: Marvell Technology Inc
+entity_type: public_company
+schema_version: 1
+slug: marvell
+tickers:
+  - MRVL
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MRVL
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MRVL
+    direction: beneficiary
+    exposure_strength: 0.40
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - optical_dsp_silicon
+  - networking_asic
+  - custom_ai_silicon
+notes: Optical DSP and networking ASICs that pair with LITE / COHR / AAOI transceivers. OFC 2026 datacenter optics solutions plus custom AI silicon (Trainium 3 generation co-development with AWS). Adjacency exposure to photonic computing via the DSP coprocessing layer.

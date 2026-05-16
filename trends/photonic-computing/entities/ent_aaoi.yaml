@@ -1,0 +1,25 @@
+id: ent_aaoi
+name: Applied Optoelectronics Inc
+entity_type: public_company
+schema_version: 1
+slug: applied-optoelectronics
+tickers:
+  - AAOI
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AAOI
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AAOI
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - optical_transceiver_supplier
+  - cpo_component_supplier
+  - cable_tv_optics
+notes: Smaller-cap fiber-optic supplier with material exposure to hyperscaler CPO buildouts and CATV. Rallied 24 percent on a single optics-trade day in May 2026 alongside Lumentum and Coherent. Higher revenue concentration but tradable pure-play on the optics rotation.

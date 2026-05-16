@@ -1,0 +1,24 @@
+id: ent_tsmc
+name: Taiwan Semiconductor Manufacturing Company Limited
+entity_type: public_company
+schema_version: 1
+slug: tsmc
+tickers:
+  - TSM
+exchanges:
+  - NYSE
+identifiers:
+  ticker: TSM
+  exchange: NYSE
+ticker_exposures:
+  - ticker: TSM
+    direction: beneficiary
+    exposure_strength: 0.05
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - silicon_foundry
+  - advanced_packaging_supplier
+notes: Silicon-photonic line plus CoWoS-class advanced packaging is the binding upstream capacity for every CPO program at LITE / COHR / Lightmatter / Ayar Labs. Photonic capacity is a tiny slice of mega-cap TSM top line, but TSM capex guidance and CoWoS allocation deltas are the leading supply signal for the entire entity universe.

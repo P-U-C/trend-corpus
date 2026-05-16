@@ -195,7 +195,7 @@ not batched. Each theme gets its own commit and review pass.
 | 11 | solid-state-battery | **[x] Done** | QS, SLDP, SES; emerging; catalyst = first commercial shipment (QuantumScape Eagle Line + customer billings). |
 | 12 | synthetic-biology | **[x] Done** | CRSP, BEAM, NTLA + DNA, TWST, PACB + RXRX, SDGR; growing; catalyst = Casgevy commercial compounding + 2026 in-vivo readout cluster. |
 | 13 | edge-ai | **[x] Done** | AMBA, SYNA, LSCC + QCOM, ARM; growing; catalyst = automotive design-in conversion + full-stack platform consolidation (Lattice-AMI, Qualcomm-Arduino). |
-| 14 | photonic-computing | [ ] Pending | LITE, COHR; emerging; catalyst = photonic chip commercialization. |
+| 14 | photonic-computing | **[x] Done** | LITE, COHR + AAOI, MTSI, LASR, POET + MRVL + private Lightmatter/Ayar Labs/Celestial AI; growing; catalyst = NVIDIA $4B anchor + chiplet keystones. |
 | 15 | longevity | [ ] Pending | ABBV, CELH; emerging; catalyst = longevity drug breakthrough. |
 
 (Total 15 -- peptides + llm-convergence are the two seed themes; the 13

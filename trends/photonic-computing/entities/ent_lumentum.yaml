@@ -1,0 +1,26 @@
+id: ent_lumentum
+name: Lumentum Holdings Inc
+entity_type: public_company
+schema_version: 1
+slug: lumentum
+tickers:
+  - LITE
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: LITE
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: LITE
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - optical_component_prime
+  - vcsel_dfb_laser_supplier
+  - photonic_integrated_circuits
+notes: $2B NVIDIA strategic investment (March 2026) including equity, advanced-laser purchase commitments, future capacity access, and U.S. fab support. Fiscal Q2 revenue $665.5M (+66 percent YoY), Optical Circuit Switch backlog $400M-plus, approximately 166 percent share-price YTD. Primary HIGH-tier scanner seed.
