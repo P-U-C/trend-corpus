@@ -196,7 +196,7 @@ not batched. Each theme gets its own commit and review pass.
 | 12 | synthetic-biology | **[x] Done** | CRSP, BEAM, NTLA + DNA, TWST, PACB + RXRX, SDGR; growing; catalyst = Casgevy commercial compounding + 2026 in-vivo readout cluster. |
 | 13 | edge-ai | **[x] Done** | AMBA, SYNA, LSCC + QCOM, ARM; growing; catalyst = automotive design-in conversion + full-stack platform consolidation (Lattice-AMI, Qualcomm-Arduino). |
 | 14 | photonic-computing | **[x] Done** | LITE, COHR + AAOI, MTSI, LASR, POET + MRVL + private Lightmatter/Ayar Labs/Celestial AI; growing; catalyst = NVIDIA $4B anchor + chiplet keystones. |
-| 15 | longevity | [ ] Pending | ABBV, CELH; emerging; catalyst = longevity drug breakthrough. |
+| 15 | longevity | **[x] Done** | BIOA + ABBV/GOOGL/LLY/NVO + Insilico (HKEX) + private Altos/Calico/Loyal/Retro/NewLimit/Life Bio/Rejuvenate; emerging; catalyst = first cellular reprogramming INDs cleared (2025-2026). |
 
 (Total 15 -- peptides + llm-convergence are the two seed themes; the 13
 remaining map 1:1 to the convergence scanner's market-tracking themes.)

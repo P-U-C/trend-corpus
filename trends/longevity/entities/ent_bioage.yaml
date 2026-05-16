@@ -1,0 +1,24 @@
+id: ent_bioage
+name: BioAge Labs Inc
+entity_type: public_company
+schema_version: 1
+slug: bioage
+tickers:
+  - BIOA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: BIOA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: BIOA
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - clinical_stage_developer
+  - aging_biology_platform
+  - mtor_apj_program
+notes: Most credible US-listed near-pure-play longevity name. Terminated azelaprag obesity development December 2024 after liver-transaminitis observations in STRIDES Phase 2. Pivoted to BGE-102 brain-penetrant NLRP3 inhibitor (positive interim Phase 1 December 2025). Oral plus parenteral APJ agonists advancing toward 2026 IND submissions. Primary HIGH-tier scanner seed; binary trial-readout volatility.

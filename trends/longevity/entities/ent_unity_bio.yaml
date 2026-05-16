@@ -1,0 +1,23 @@
+id: ent_unity_bio
+name: Unity Biotechnology Inc
+entity_type: public_company
+schema_version: 1
+slug: unity-bio
+tickers:
+  - UBX
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: UBX
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: UBX
+    direction: beneficiary
+    exposure_strength: 0.20
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - distressed_senolytic_precedent
+  - winding_down
+notes: Founded by Aubrey de Grey - lineage UBX1325 (BCL-xL inhibitor senolytic) for diabetic macular edema and wet AMD narrowly missed Phase 2b primary endpoint (88 percent non-inferiority confidence vs. 90 percent threshold). Stockholders approved liquidation and dissolution plan September 2025. Kept as the public benchmark for senolytic translation risk; not investable on the wind-down clock.

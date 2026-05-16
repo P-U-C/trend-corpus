@@ -1,0 +1,24 @@
+id: ent_lilly_longevity
+name: Eli Lilly and Company (longevity exposure)
+entity_type: public_company
+schema_version: 1
+slug: lilly-longevity
+tickers:
+  - LLY
+exchanges:
+  - NYSE
+identifiers:
+  ticker: LLY
+  exchange: NYSE
+ticker_exposures:
+  - ticker: LLY
+    direction: beneficiary
+    exposure_strength: 0.10
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - large_cap_pharma
+  - newlimit_investor
+  - glp_1_obesity_halo
+notes: Co-led NewLimit $45M follow-on round at $1.62B valuation. GLP-1 franchise (tirzepatide) has indirect healthspan / obesity-driven longevity halo. Acquired Verve Therapeutics June 2025 (cardiovascular base-editing -- cross-listed with synthetic-biology). Adjacency exposure to longevity rather than pure play.

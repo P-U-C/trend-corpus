@@ -1,0 +1,23 @@
+id: ent_insilico
+name: Insilico Medicine Inc
+entity_type: public_company
+schema_version: 1
+slug: insilico
+tickers:
+  - "2018.HK"
+exchanges:
+  - HKEX
+identifiers:
+  ticker: "2018.HK"
+  exchange: HKEX
+ticker_exposures:
+  - ticker: "2018.HK"
+    direction: beneficiary
+    exposure_strength: 0.50
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - ai_drug_discovery
+  - aging_indications_platform
+notes: Completed Hong Kong's largest biotech IPO of 2025 raising approximately $293M, becoming the first AI-driven drug discovery company to list on HKEX. Multiple internal candidates against aging-related indications (idiopathic pulmonary fibrosis, dermatology, fibrosis pipeline). Cross-sector with synthetic-biology AI-bio cohort.

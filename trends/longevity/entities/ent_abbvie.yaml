@@ -1,0 +1,23 @@
+id: ent_abbvie
+name: AbbVie Inc
+entity_type: public_company
+schema_version: 1
+slug: abbvie
+tickers:
+  - ABBV
+exchanges:
+  - NYSE
+identifiers:
+  ticker: ABBV
+  exchange: NYSE
+ticker_exposures:
+  - ticker: ABBV
+    direction: beneficiary
+    exposure_strength: 0.05
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - large_cap_pharma
+  - former_calico_partner
+notes: Ended 11-year Calico partnership November 2025 over strategy pivot to genetic medicines. Partnership had grown to $3.5B funding (2014 initial $1.5B; extensions 2018, 2021). Five assets advanced into clinical development (neuroscience and oncology), including fosigotifator (vanishing white matter disease, MDD, failed ALS Phase 2 early 2025) and ABBV-CLS-628 (FDA fast track for autosomal dominant polycystic kidney disease). About 100 employees affected by partnership wind-down. Now adjacent rather than primary.

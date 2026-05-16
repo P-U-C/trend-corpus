@@ -1,0 +1,23 @@
+id: ent_novo
+name: Novo Nordisk A/S
+entity_type: public_company
+schema_version: 1
+slug: novo-nordisk
+tickers:
+  - NVO
+exchanges:
+  - NYSE
+identifiers:
+  ticker: NVO
+  exchange: NYSE
+ticker_exposures:
+  - ticker: NVO
+    direction: beneficiary
+    exposure_strength: 0.05
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - large_cap_pharma
+  - glp_1_obesity_franchise
+notes: Semaglutide (Wegovy / Ozempic) GLP-1 franchise has indirect longevity / healthspan tailwind. No direct longevity-IND program. Tracked here for adjacency completeness.
