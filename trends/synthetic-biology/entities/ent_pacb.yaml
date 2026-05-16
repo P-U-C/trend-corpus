@@ -1,0 +1,24 @@
+id: ent_pacb
+name: Pacific Biosciences of California Inc
+entity_type: public_company
+schema_version: 1
+slug: pacific-biosciences
+tickers:
+  - PACB
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: PACB
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: PACB
+    direction: beneficiary
+    exposure_strength: 0.55
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - long_read_sequencing
+  - sample_to_answer_platform
+notes: HiFi long-read sequencing (Revio, Vega) complementary to short-read for structural variant detection. Critical for gene-editing payload verification and rare-disease discovery. Lower exposure than commercial-therapy names because revenue is instrument and consumable rather than therapeutic.

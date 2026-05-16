@@ -1,0 +1,24 @@
+id: ent_caribou
+name: Caribou Biosciences Inc
+entity_type: public_company
+schema_version: 1
+slug: caribou
+tickers:
+  - CRBU
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: CRBU
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: CRBU
+    direction: beneficiary
+    exposure_strength: 0.65
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - clinical_stage_developer
+  - allogeneic_cart_platform
+  - chrdna_platform
+notes: Jennifer Doudna founding-team spinout. ChRDNA platform plus allogeneic CAR-T programs (CB-010 for B-cell NHL, CB-011 for multiple myeloma). Off-the-shelf cell-therapy strategy distinguishes it from autologous CRISPR programs. Mid-cap clinical risk profile.

@@ -1,0 +1,23 @@
+id: ent_recursion
+name: Recursion Pharmaceuticals Inc
+entity_type: public_company
+schema_version: 1
+slug: recursion
+tickers:
+  - RXRX
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: RXRX
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: RXRX
+    direction: beneficiary
+    exposure_strength: 0.50
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - ai_bio_drug_discovery
+  - imaging_platform
+notes: AI-bio drug discovery combining high-throughput biological imaging (Recursion Operating System) with Exscientia precision molecular design (merger closed July 2025). Najat Khan became CEO January 2026. REC-394 Phase 2 update Q1 2026 (C. difficile); REC-1245 Phase 1 H1 2026. Adjacency to strict-synbio is the cross-sector AI-bio validation event.

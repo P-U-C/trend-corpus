@@ -193,7 +193,7 @@ not batched. Each theme gets its own commit and review pass.
 |  9 | bitcoin-mining | **[x] Done** | MARA, RIOT, CLSK; post_peak. |
 | 10 | bci-neurotech | **[x] Done** | BFLY, QSI; emerging; catalyst = Neuralink / Synchron / Merge IPO. |
 | 11 | solid-state-battery | **[x] Done** | QS, SLDP, SES; emerging; catalyst = first commercial shipment (QuantumScape Eagle Line + customer billings). |
-| 12 | synthetic-biology | [ ] Pending | CRBU, TWST, PACB; emerging; catalyst = next CRISPR approval. |
+| 12 | synthetic-biology | **[x] Done** | CRSP, BEAM, NTLA + DNA, TWST, PACB + RXRX, SDGR; growing; catalyst = Casgevy commercial compounding + 2026 in-vivo readout cluster. |
 | 13 | edge-ai | [ ] Pending | AMBA; emerging; catalyst = on-device AI chip partnership. |
 | 14 | photonic-computing | [ ] Pending | LITE, COHR; emerging; catalyst = photonic chip commercialization. |
 | 15 | longevity | [ ] Pending | ABBV, CELH; emerging; catalyst = longevity drug breakthrough. |

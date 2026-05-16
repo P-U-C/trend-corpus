@@ -1,0 +1,24 @@
+id: ent_ginkgo
+name: Ginkgo Bioworks Holdings Inc
+entity_type: public_company
+schema_version: 1
+slug: ginkgo
+tickers:
+  - DNA
+exchanges:
+  - NYSE
+identifiers:
+  ticker: DNA
+  exchange: NYSE
+ticker_exposures:
+  - ticker: DNA
+    direction: beneficiary
+    exposure_strength: 0.80
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - cell_engineering_foundry
+  - biosecurity_services
+notes: Cell-engineering foundry with mammalian (Bioworks4), microbial, and AI-bio platforms. Q1 2025 revenue $38M (+37 percent YoY). 2026 adjusted EBITDA breakeven target. ARPA-H $29M biosecurity contract; Benchling one-click ordering integration. Three-year $15M Twist Bioscience DNA supply agreement.

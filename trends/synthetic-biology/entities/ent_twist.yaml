@@ -1,0 +1,24 @@
+id: ent_twist
+name: Twist Bioscience Corporation
+entity_type: public_company
+schema_version: 1
+slug: twist
+tickers:
+  - TWST
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: TWST
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: TWST
+    direction: beneficiary
+    exposure_strength: 0.75
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - dna_synthesis_supplier
+  - antibody_discovery_services
+notes: Silicon-based DNA synthesis at scale. Customers across pharma, biotech, agbio, industrial bio. Three-year $15M Ginkgo agreement for prepaid DNA supply. Benchling one-click ordering integration. Antibody discovery (Twist Biopharma) and SynBio NGS-target enrichment.

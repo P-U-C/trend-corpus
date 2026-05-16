@@ -1,0 +1,25 @@
+id: ent_codexis
+name: Codexis Inc
+entity_type: public_company
+schema_version: 1
+slug: codexis
+tickers:
+  - CDXS
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: CDXS
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: CDXS
+    direction: beneficiary
+    exposure_strength: 0.55
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - enzyme_engineering
+  - protein_engineering_platform
+  - eco_aco_synthesis
+notes: Protein-engineering platform (CodeEvolver). ECO Synthesis manufacturing platform for siRNA. Pivot toward biotherapeutic API supply. Smaller-cap pure-play in enzyme and protein engineering adjacent to but not strictly inside cell-therapy CRISPR.

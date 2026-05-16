@@ -1,0 +1,24 @@
+id: ent_beam_therapeutics
+name: Beam Therapeutics Inc
+entity_type: public_company
+schema_version: 1
+slug: beam-therapeutics
+tickers:
+  - BEAM
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: BEAM
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: BEAM
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - clinical_stage_developer
+  - base_editing_platform
+notes: Founding base-editing developer. Lead candidate BEAM-302 corrects the alpha-1 antitrypsin deficiency mutation in early clinical data. BEAM-101 for sickle-cell disease in pivotal-style trials. Liver-targeted in vivo program (BEAM-302) plus ex vivo cell-therapy programs. Primary HIGH-tier scanner seed.

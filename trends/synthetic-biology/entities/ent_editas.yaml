@@ -1,0 +1,23 @@
+id: ent_editas
+name: Editas Medicine Inc
+entity_type: public_company
+schema_version: 1
+slug: editas
+tickers:
+  - EDIT
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: EDIT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: EDIT
+    direction: beneficiary
+    exposure_strength: 0.50
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - clinical_stage_developer
+  - crispr_platform
+notes: Sickle cell / beta-thalassemia program reni-cel under partnership search after 2025 strategic-pivot announcement. Pivoting toward in vivo gene editing. Lower exposure_strength because reni-cel commercial path now depends on partner timing.

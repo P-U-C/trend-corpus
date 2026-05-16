@@ -1,0 +1,23 @@
+id: ent_illumina
+name: Illumina Inc
+entity_type: public_company
+schema_version: 1
+slug: illumina
+tickers:
+  - ILMN
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ILMN
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ILMN
+    direction: beneficiary
+    exposure_strength: 0.20
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - short_read_sequencing
+  - instrument_consumables
+notes: Largest sequencing incumbent. NovaSeq X plus Element / Singular competitive pressure. Synbio exposure is supplier of routine NGS infrastructure plus single-cell and spatial transcriptomics partnerships. Exposure_strength reflects slice of mega-cap top line.

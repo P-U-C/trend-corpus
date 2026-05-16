@@ -1,0 +1,26 @@
+id: ent_crispr_therapeutics
+name: CRISPR Therapeutics AG
+entity_type: public_company
+schema_version: 1
+slug: crispr-therapeutics
+tickers:
+  - CRSP
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: CRSP
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: CRSP
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - clinical_stage_developer
+  - commercial_stage_developer
+  - crispr_platform
+notes: First publicly-listed CRISPR developer with sustained commercial revenue via Vertex-partnered Casgevy. Q1 2026 Casgevy revenue $43M with more than 500 patients initiated; $2B cash position. Pipeline expands into CTX310, Lp(a), CTX611 osteoarthritis. Primary HIGH-tier scanner seed.

@@ -1,0 +1,24 @@
+id: ent_intellia
+name: Intellia Therapeutics Inc
+entity_type: public_company
+schema_version: 1
+slug: intellia
+tickers:
+  - NTLA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: NTLA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: NTLA
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - clinical_stage_developer
+  - in_vivo_crispr_platform
+notes: First demonstrated in vivo CRISPR systemic dosing in humans with NTLA-2001 (now nex-z) for transthyretin amyloidosis (ATTR-CM). Phase 3 MAGNITUDE in cardiomyopathy ongoing. NTLA-2002 for hereditary angioedema also advancing. Primary HIGH-tier scanner seed for in vivo platform.

@@ -1,0 +1,23 @@
+id: ent_vertex
+name: Vertex Pharmaceuticals Inc
+entity_type: public_company
+schema_version: 1
+slug: vertex
+tickers:
+  - VRTX
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: VRTX
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: VRTX
+    direction: beneficiary
+    exposure_strength: 0.10
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - commercial_partner
+  - large_cap_pharma
+notes: Commercial lead and Casgevy gross-margin partner for CRISPR Therapeutics. Submitting global regulatory expansion to ages 5-11 in H1 2026. Mega-cap with cystic fibrosis franchise dominating revenue; gene-editing exposure_strength is intentionally low because Casgevy is a single-digit-percent contributor.

@@ -1,0 +1,23 @@
+id: ent_schrodinger
+name: Schrodinger Inc
+entity_type: public_company
+schema_version: 1
+slug: schrodinger
+tickers:
+  - SDGR
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: SDGR
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: SDGR
+    direction: beneficiary
+    exposure_strength: 0.45
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - physics_ai_drug_design
+  - software_platform
+notes: Physics-based AI molecular design platform plus internal pipeline. Zasocitinib Phase III readouts expected 2026 are the first large-scale clinical test of physics-AI hit-to-lead optimization. Software-license revenue base plus internal drug royalties. Cross-sector AI-bio adjacency.

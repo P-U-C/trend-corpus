@@ -1,0 +1,23 @@
+id: ent_lilly
+name: Eli Lilly and Company
+entity_type: public_company
+schema_version: 1
+slug: lilly
+tickers:
+  - LLY
+exchanges:
+  - NYSE
+identifiers:
+  ticker: LLY
+  exchange: NYSE
+ticker_exposures:
+  - ticker: LLY
+    direction: beneficiary
+    exposure_strength: 0.05
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - acquirer
+  - large_cap_pharma
+notes: Acquired Verve Therapeutics in June 2025, taking onboard VERVE-102 LDL cholesterol base-editing program. Mega-cap with GLP-1 franchise (tirzepatide) dominating revenue. Gene-editing exposure is strategic optionality rather than near-term P-and-L driver.
