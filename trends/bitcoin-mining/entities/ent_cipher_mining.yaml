@@ -1,0 +1,26 @@
+id: ent_cipher_mining
+name: Cipher Mining Inc
+entity_type: public_company
+schema_version: 1
+slug: cipher_mining
+tickers:
+  - CIFR
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: CIFR
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: CIFR
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - texas_miner
+  - data_center_pipeline
+  - ai_hpc_hosting
+notes: Texas-focused miner and data-center developer with industrial-scale sites usable for Bitcoin mining or HPC hosting.

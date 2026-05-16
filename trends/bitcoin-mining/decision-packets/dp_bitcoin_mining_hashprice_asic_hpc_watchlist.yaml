@@ -1,0 +1,17 @@
+id: dp_bitcoin_mining_hashprice_asic_hpc_watchlist
+question: Should the metalayer maintain a watchlist of pure-play versus AI-pivoted public miners gated by hashprice, ASIC supply, and hyperscaler-PPA flow?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_bitcoin_mining_hashprice_power_hpc
+supporting_claims:
+  - clm_bitcoin_mining_regulatory_power_access
+  - clm_bitcoin_mining_asic_supply_tariff
+  - clm_bitcoin_mining_ai_hpc_split
+invalidation_conditions:
+  - Hashprice stays below 40 dollars per PH per day for 4 consecutive weeks, compressing pure-play miner margins beyond cash-cost survivability.
+  - Bitmain ASIC export controls or tariffs spike landed cost by more than 50 percent for 2 consecutive quarters, breaking fleet-upgrade economics for U.S. miners.
+  - Hyperscaler AI / HPC lease or PPA cancellations cluster across Core Scientific, Hut 8, IREN, TeraWulf, Cipher, or Bit Digital, signaling the AI pivot is not delivering promised margin.
+  - BTC undergoes another sub-30000-dollar drawdown that persists past 12 months, collapsing sector cash-flow durability and BTC treasury optionality.
+  - Texas ERCOT large-load rules or state-level mining restrictions force repeated curtailment or delayed interconnection at major public-miner facilities for 2 consecutive quarters.
+schema_version: 1

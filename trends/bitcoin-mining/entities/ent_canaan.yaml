@@ -1,0 +1,26 @@
+id: ent_canaan
+name: Canaan Inc
+entity_type: public_company
+schema_version: 1
+slug: canaan
+tickers:
+  - CAN
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: CAN
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: CAN
+    direction: beneficiary
+    exposure_strength: 0.55
+    basis:
+      - revenue_segment
+      - supply_chain_role
+      - manufacturing_capacity
+    tradable: true
+role:
+  - asic_manufacturer
+  - avalon
+  - self_mining
+notes: Public ASIC designer and miner. Smaller than Bitmain / MicroBT but useful as the listed supply-chain proxy for ASIC cycles and tariff exposure.

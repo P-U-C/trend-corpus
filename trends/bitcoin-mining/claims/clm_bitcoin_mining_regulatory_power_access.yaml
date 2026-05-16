@@ -1,0 +1,22 @@
+id: clm_bitcoin_mining_regulatory_power_access
+claim: Texas large-load registration and SB 6 interconnection rules, New York proof-of-work environmental review, and IRS Section 6050I digital-asset guidance make regulatory access to power, curtailment programs, and compliance reporting core drivers of realized hashrate for U.S. public Bitcoin miners.
+category: regulatory
+source_ids:
+  - src_bitcoin_mining_texas_puc_vcm
+  - src_bitcoin_mining_texas_sb6
+  - src_bitcoin_mining_ny_crypto_geis
+  - src_bitcoin_mining_irs_6050i
+date_of_evidence: "2026-05-16"
+evidence_at: "2026-05-16"
+confidence: 0.83
+status: active
+entity_ids:
+  - ent_riot
+  - ent_cleanspark
+  - ent_mara
+  - ent_hut8
+  - ent_cipher_mining
+schema_version: 1
+visibility:
+  classification: public_full
+  strategy_leakage_risk: low

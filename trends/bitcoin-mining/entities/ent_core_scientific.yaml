@@ -1,0 +1,27 @@
+id: ent_core_scientific
+name: Core Scientific Inc
+entity_type: public_company
+schema_version: 1
+slug: core_scientific
+tickers:
+  - CORZ
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: CORZ
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: CORZ
+    direction: beneficiary
+    exposure_strength: 0.75
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - ai_hpc_pivot
+  - high_density_colocation
+  - post_bankruptcy
+  - legacy_mining
+notes: Post-bankruptcy miner turned high-density colocation keystone. CoreWeave relationship and failed acquisition attempt make CORZ the AI/HPC pivot reference case.

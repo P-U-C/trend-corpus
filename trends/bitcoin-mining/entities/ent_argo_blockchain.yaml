@@ -1,0 +1,25 @@
+id: ent_argo_blockchain
+name: Argo Blockchain plc
+entity_type: public_company
+schema_version: 1
+slug: argo_blockchain
+tickers:
+  - ARBK
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ARBK
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ARBK
+    direction: beneficiary
+    exposure_strength: 0.35
+    basis:
+      - revenue_segment
+      - other
+    tradable: true
+role:
+  - distressed_miner
+  - listed_tail
+  - north_america_hosting
+notes: Distressed but still listed miner. Low-purity scanner row because balance-sheet and listing risk dominate operating leverage.

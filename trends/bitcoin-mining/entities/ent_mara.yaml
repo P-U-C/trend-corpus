@@ -1,0 +1,27 @@
+id: ent_mara
+name: MARA Holdings Inc
+entity_type: public_company
+schema_version: 1
+slug: mara
+tickers:
+  - MARA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MARA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MARA
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - pure_play_miner
+  - digital_asset_compute
+  - btc_treasury
+  - ai_hpc_optional
+notes: Largest U.S. public miner by scale and energized hashrate. Formerly Marathon Digital; MARA remains a primary HIGH-tier scanner seed for next BTC cycle beta.

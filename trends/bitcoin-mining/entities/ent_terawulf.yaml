@@ -1,0 +1,27 @@
+id: ent_terawulf
+name: TeraWulf Inc
+entity_type: public_company
+schema_version: 1
+slug: terawulf
+tickers:
+  - WULF
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: WULF
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: WULF
+    direction: beneficiary
+    exposure_strength: 0.75
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - low_carbon_mining
+  - nuclear_power_angle
+  - ai_hpc_pivot
+  - lake_mariner
+notes: Low-carbon and nuclear-adjacent miner increasingly converting power-advantaged sites to contracted HPC revenue.

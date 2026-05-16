@@ -1,0 +1,28 @@
+id: ent_hive
+name: HIVE Digital Technologies Ltd
+entity_type: public_company
+schema_version: 1
+slug: hive
+tickers:
+  - HIVE
+exchanges:
+  - NASDAQ
+  - TSXV
+identifiers:
+  ticker: HIVE
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: HIVE
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+      - demand_channel
+      - manufacturing_capacity
+    tradable: true
+role:
+  - renewable_mining
+  - ai_hpc_pivot
+  - buzz_hpc
+  - global_data_centers
+notes: Renewable-oriented miner with Paraguay, Canada, and Sweden infrastructure and BUZZ HPC AI-cloud optionality.

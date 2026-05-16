@@ -1,0 +1,26 @@
+id: ent_iren
+name: IREN Limited
+entity_type: public_company
+schema_version: 1
+slug: iren
+tickers:
+  - IREN
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: IREN
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: IREN
+    direction: beneficiary
+    exposure_strength: 0.75
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - renewable_mining
+  - ai_cloud
+  - data_center_developer
+notes: Renewable-powered Bitcoin miner and AI Cloud data-center operator. High beta to the AI / HPC conversion thesis and mining hashprice recovery.

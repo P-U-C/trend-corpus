@@ -1,0 +1,34 @@
+id: bitcoin-mining
+title: Bitcoin Mining
+status: post_peak
+schema_version: 1
+schemas:
+  trend: ../../schemas/trend.schema.json
+objects:
+  sources: sources
+  claims: claims
+  entities: entities
+  events: events
+  theses: theses
+  decision-packets: decision-packets
+  watchlists: watchlists
+summary: >
+  Tracks public-market exposure to industrial Bitcoin mining: pure-play U.S.
+  miners (MARA, Riot, CleanSpark), power-first miners with AI / HPC conversion
+  optionality (Hut 8, TeraWulf, IREN, Core Scientific, Cipher, Bit Digital,
+  HIVE, Bitfarms), distressed or lower-scale listed miners (Argo), and ASIC
+  manufacturers / suppliers (Bitmain, MicroBT, Canaan). The theme is
+  post-peak because the 2024 halving, network difficulty growth, tariff risk,
+  and compressed hashprice have made fleet efficiency and power access more
+  important than simple exahash growth, while the next BTC cycle and AI / HPC
+  leasing are the catalysts that can reprice the sector.
+public_safety_boundary: >
+  This theme is limited to public research, market intelligence, and
+  watchlist-candidate thesis generation. It must not contain private wallet
+  data, pool credentials, facility security details, miner firmware exploit
+  steps, non-public power-contract terms, private order intent, account details,
+  or non-public acquisition information.
+primary_use_cases:
+  - research
+  - market_intelligence
+  - trade_thesis_generation

@@ -1,0 +1,27 @@
+id: ent_bitfarms
+name: Bitfarms Ltd
+entity_type: public_company
+schema_version: 1
+slug: bitfarms
+tickers:
+  - BITF
+exchanges:
+  - NASDAQ
+  - TSX
+identifiers:
+  ticker: BITF
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: BITF
+    direction: beneficiary
+    exposure_strength: 0.65
+    basis:
+      - revenue_segment
+      - demand_channel
+      - manufacturing_capacity
+    tradable: true
+role:
+  - international_miner
+  - ai_hpc_pivot
+  - canadian_miner
+notes: Canadian-origin miner with North American power assets and a stated plan to convert selected capacity to AI / HPC workloads.

@@ -1,0 +1,26 @@
+id: ent_bit_digital
+name: Bit Digital Inc
+entity_type: public_company
+schema_version: 1
+slug: bit_digital
+tickers:
+  - BTBT
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: BTBT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: BTBT
+    direction: beneficiary
+    exposure_strength: 0.55
+    basis:
+      - revenue_segment
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - ai_hpc_pivot
+  - ethereum_strategy
+  - legacy_mining
+notes: Multi-asset digital infrastructure company reducing Bitcoin-mining exposure while leaning into Ethereum strategies and AI / HPC infrastructure.

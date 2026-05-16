@@ -1,0 +1,27 @@
+id: ent_riot
+name: Riot Platforms Inc
+entity_type: public_company
+schema_version: 1
+slug: riot
+tickers:
+  - RIOT
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: RIOT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: RIOT
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - regulatory_dependency
+      - demand_channel
+    tradable: true
+role:
+  - pure_play_miner
+  - texas_power
+  - whinstone
+  - curtailment
+notes: Texas-scale public miner with Whinstone / Rockdale exposure and ERCOT power-credit sensitivity. Primary HIGH-tier scanner seed for realized-hashrate and curtailment economics.

@@ -1,0 +1,28 @@
+id: ent_hut8
+name: Hut 8 Corp
+entity_type: public_company
+schema_version: 1
+slug: hut8
+tickers:
+  - HUT
+exchanges:
+  - NASDAQ
+  - TSX
+identifiers:
+  ticker: HUT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: HUT
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+      - demand_channel
+      - supply_chain_role
+    tradable: true
+role:
+  - ai_hpc_pivot
+  - power_first
+  - asic_compute
+  - btc_treasury
+notes: Post-USBTC merger power-first platform with ASIC compute, American Bitcoin exposure, BTC treasury, and hyperscale AI data-center leases.

@@ -1,0 +1,27 @@
+id: clm_bitcoin_mining_ai_hpc_split
+claim: AI / HPC conversion has split public miners into pure-play hashprice beta and mixed digital-infrastructure platforms; Core Scientific, Hut 8, IREN, Bit Digital, and HIVE are increasingly valued on lease duration, power pipeline, and customer concentration, while MARA, Riot, and CleanSpark remain more directly tied to BTC price, network difficulty, and hashprice.
+category: market
+source_ids:
+  - src_bitcoin_mining_hashrate_index_hashprice
+  - src_bitcoin_mining_core_scientific_results
+  - src_bitcoin_mining_hut8_q1_2026
+  - src_bitcoin_mining_iren_q2_fy2026
+  - src_bitcoin_mining_bit_digital_q1_2026
+  - src_bitcoin_mining_hive_q3_fy2026
+  - src_bitcoin_mining_mara_q1_2026
+  - src_bitcoin_mining_riot_q1_2026
+  - src_bitcoin_mining_cleanspark_q2_2026
+date_of_evidence: "2026-05-16"
+evidence_at: "2026-05-16"
+confidence: 0.82
+status: active
+entity_ids:
+  - ent_core_scientific
+  - ent_hut8
+  - ent_iren
+  - ent_bit_digital
+  - ent_hive
+  - ent_mara
+  - ent_riot
+  - ent_cleanspark
+schema_version: 1
