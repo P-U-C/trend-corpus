@@ -1,0 +1,25 @@
+id: ent_qualcomm
+name: Qualcomm Incorporated
+entity_type: public_company
+schema_version: 1
+slug: qualcomm
+tickers:
+  - QCOM
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: QCOM
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: QCOM
+    direction: beneficiary
+    exposure_strength: 0.40
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - mobile_npu_designer
+  - edge_platform_acquirer
+  - automotive_silicon
+notes: Snapdragon mobile NPU plus Dragonwing IQ10 robotics-edge chip launched at CES 2026. Five acquisitions in 18 months -- Arduino, Edge Impulse, Foundries.io plus two others -- signaling shift from chipset vendor to full-stack edge-AI platform. Edge-AI is a meaningful but minority slice of mega-cap revenue.

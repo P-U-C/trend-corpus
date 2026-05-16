@@ -1,0 +1,25 @@
+id: ent_synaptics
+name: Synaptics Incorporated
+entity_type: public_company
+schema_version: 1
+slug: synaptics
+tickers:
+  - SYNA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: SYNA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: SYNA
+    direction: beneficiary
+    exposure_strength: 0.75
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+    tradable: true
+role:
+  - edge_npu_soc
+  - astra_genai_platform
+  - intelligent_iot_silicon
+notes: Astra multimodal GenAI processor family. SL2610 product line sampling, general availability calendar Q2 2026. Qualcomm partnership extends AI-biometrics reach. Showcased at CES 2026 + COMPUTEX 2026. Primary HIGH-tier scanner seed for embedded NPU.

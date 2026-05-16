@@ -1,0 +1,17 @@
+id: dp_edgeai_three_clock_watchlist
+question: Should the metalayer maintain a watchlist of pure-play edge-AI silicon (AMBA, SYNA, LSCC) plus large-cap edge-AI primes (QCOM, ARM) plus embedded MCU adjacents (NXP, STM, TI) plus private keystones (Hailo, Mythic, Tenstorrent, SiMa.ai, Untether AI), tracked against the automotive design-in conversion cadence, the platform consolidation calendar, and the BIS / TSMC supply-constraint signal?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_edgeai_three_layer_pile_up
+supporting_claims:
+  - clm_edgeai_automotive_design_in_window
+  - clm_edgeai_platform_consolidation
+  - clm_edgeai_supply_constraint_bis
+invalidation_conditions:
+  - Ambarella reports a meaningful step-down in auto-pipeline awarded-to-revenue conversion for two consecutive quarters or reduces the published $13B fiscal 2027-2032 opportunity figure by more than 30 percent, collapsing the automotive design-in catalyst.
+  - Qualcomm publicly slows or unwinds the Arduino / Edge Impulse / Foundries.io integration or fails to ship Dragonwing IQ10 reference designs in volume by end-2026, breaking the full-stack platform-consolidation case.
+  - BIS materially loosens advanced-computing export controls or grants broad China-bound license exceptions for edge-AI chips, eliminating the regulatory premium for U.S.-and-allies-sited customers.
+  - TSMC publicly reallocates 5nm / 4nm or CoWoS-class capacity in favor of edge-AI customers (or the edge cohort wholesale shifts to a lower node with no margin loss), eliminating the wafer-allocation constraint that anchors the supply-chokepoint argument.
+  - A second mega-cap acquirer (AVGO, NVDA, AAPL, GOOGL) takes a public edge-AI pure play out at a control premium below current trading levels, signaling that strategic value tops out below standalone-platform expectations.
+schema_version: 1

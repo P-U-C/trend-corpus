@@ -1,0 +1,24 @@
+id: ent_nxp
+name: NXP Semiconductors NV
+entity_type: public_company
+schema_version: 1
+slug: nxp
+tickers:
+  - NXPI
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: NXPI
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: NXPI
+    direction: beneficiary
+    exposure_strength: 0.35
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - automotive_microcontroller
+  - embedded_npu
+  - secure_element_silicon
+notes: i.MX 95 plus S32 family bring embedded NPU and ML-accelerator features to automotive and industrial customers. Lower exposure_strength because edge-AI is one slice of a diversified embedded portfolio (auto MCU, payment SE, RFID).

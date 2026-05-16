@@ -1,0 +1,24 @@
+id: ent_ti
+name: Texas Instruments Incorporated
+entity_type: public_company
+schema_version: 1
+slug: ti
+tickers:
+  - TXN
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: TXN
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: TXN
+    direction: beneficiary
+    exposure_strength: 0.15
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - analog_silicon
+  - embedded_microcontroller
+  - sensor_bridge_partner
+notes: Sitara AM6xA family with C7x DSP and matrix multiply accelerator for industrial edge AI. Lattice TI-powered edge AI sensor bridge announced 2026. Edge-AI is a small slice of TXN's analog-dominated top line.

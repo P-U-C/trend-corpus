@@ -1,0 +1,24 @@
+id: ent_arm
+name: Arm Holdings plc
+entity_type: public_company
+schema_version: 1
+slug: arm
+tickers:
+  - ARM
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ARM
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ARM
+    direction: beneficiary
+    exposure_strength: 0.40
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - cpu_ip_licensor
+  - npu_ip_licensor
+  - ecosystem_owner
+notes: Cortex-M / Cortex-A CPU IP plus Ethos NPU IP. Royalty model means edge-AI design-in cadence is the leading indicator for both Ethos NPU royalty growth and Cortex-A premium-tier mix shift. Adjacency rather than pure play because licensing model decouples from any single end-customer.

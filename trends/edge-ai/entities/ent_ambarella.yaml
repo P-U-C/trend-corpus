@@ -1,0 +1,26 @@
+id: ent_ambarella
+name: Ambarella Inc
+entity_type: public_company
+schema_version: 1
+slug: ambarella
+tickers:
+  - AMBA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: AMBA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: AMBA
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - edge_vision_soc
+  - automotive_domain_controller
+  - transformer_inference
+notes: Edge-vision SoC pure play. CV3-AD685 automotive L2-plus to L4 domain controller plus CV5, CV7, N1 transformer-ready edge inference. Continental and Bosch radar-vision fusion integration. Quantified ~$13B auto opportunity pipeline fiscal 2027-2032 with funnel ~$2.2B awarded. Primary HIGH-tier scanner seed.

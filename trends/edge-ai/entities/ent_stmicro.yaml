@@ -1,0 +1,24 @@
+id: ent_stmicro
+name: STMicroelectronics NV
+entity_type: public_company
+schema_version: 1
+slug: stmicro
+tickers:
+  - STM
+exchanges:
+  - NYSE
+identifiers:
+  ticker: STM
+  exchange: NYSE
+ticker_exposures:
+  - ticker: STM
+    direction: beneficiary
+    exposure_strength: 0.35
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - embedded_microcontroller
+  - edge_ml_software
+  - sensor_silicon
+notes: STM32 MCU family with X-CUBE-AI runtime, ST Edge AI Studio, and Neural-ART Accelerator (STM32N6 NPU). Edge-AI exposure rides MCU design-in pipeline; not a pure play, but a meaningful share of MCU NPU shipments worldwide.

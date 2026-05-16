@@ -1,0 +1,23 @@
+id: ent_nvidia_jetson
+name: NVIDIA Corporation (Jetson edge segment)
+entity_type: public_company
+schema_version: 1
+slug: nvidia-jetson
+tickers:
+  - NVDA
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: NVDA
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: NVDA
+    direction: beneficiary
+    exposure_strength: 0.10
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - edge_inference_module
+  - robotics_compute_kit
+notes: Jetson Orin family dominates the rugged-edge robotics, drone, and industrial-vision compute market. Edge slice of NVDA is small relative to data-center training silicon. Cross-listed with ai-infrastructure theme; tracked here for completeness and to map design-in deltas vs. Ambarella / Hailo / Mythic on the embedded side.
