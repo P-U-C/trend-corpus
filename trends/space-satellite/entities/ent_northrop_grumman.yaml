@@ -1,0 +1,25 @@
+id: ent_northrop_grumman
+name: Northrop Grumman Corporation
+entity_type: public_company
+schema_version: 1
+slug: northrop_grumman
+tickers:
+  - NOC
+exchanges:
+  - NYSE
+identifiers:
+  ticker: NOC
+  exchange: NYSE
+ticker_exposures:
+  - ticker: NOC
+    direction: beneficiary
+    exposure_strength: 0.35
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - prime_contractor
+  - national_security_space
+  - satellite_prime
+notes: Large defense prime with payload, satellite, and national-security space exposure. Low purity because the space signal is embedded in a diversified defense portfolio.

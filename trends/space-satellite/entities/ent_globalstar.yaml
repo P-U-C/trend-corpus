@@ -1,0 +1,27 @@
+id: ent_globalstar
+name: Globalstar Inc
+entity_type: public_company
+schema_version: 1
+slug: globalstar
+tickers:
+  - GSAT
+exchanges:
+  - NYSE American
+identifiers:
+  ticker: GSAT
+  exchange: NYSE American
+ticker_exposures:
+  - ticker: GSAT
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - regulatory_dependency
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - mss_spectrum
+  - direct_to_device
+  - iot
+  - apple_sos
+notes: Spectrum-rich MSS operator with Apple-related emergency satellite service exposure, Band 53 / n53 optionality, and direct MSS / IoT revenue.

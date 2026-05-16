@@ -1,0 +1,27 @@
+id: ent_intuitive_machines
+name: Intuitive Machines Inc
+entity_type: public_company
+schema_version: 1
+slug: intuitive_machines
+tickers:
+  - LUNR
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: LUNR
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: LUNR
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - demand_channel
+      - manufacturing_capacity
+    tradable: true
+role:
+  - lunar_transport
+  - cislunar_infrastructure
+  - near_space_network
+  - spacecraft_manufacturing
+notes: Lunar transport and cislunar infrastructure pure play. CLPS, Near Space Network Services, and the Lanteris / former Maxar Space Systems acquisition give LUNR exposure beyond landers.

@@ -1,0 +1,27 @@
+id: ent_iridium
+name: Iridium Communications Inc
+entity_type: public_company
+schema_version: 1
+slug: iridium
+tickers:
+  - IRDM
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: IRDM
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: IRDM
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+      - regulatory_dependency
+      - demand_channel
+    tradable: true
+role:
+  - l_band_satcom
+  - direct_to_device
+  - iot
+  - safety_services
+notes: Mature global L-band satellite voice, data, PNT, and IoT operator. NTN Direct gives IRDM a standards-based D2D adjacency with lower beta than ASTS.

@@ -1,0 +1,17 @@
+id: dp_space_satellite_launch_spectrum_watchlist
+question: Should the metalayer maintain a watchlist of space-and-satellite beneficiaries tied to launch-cadence growth, direct-to-device spectrum, and government earth-observation contract flow?
+verdict: watchlist_candidate
+execution_state: human_review_required
+supporting_theses:
+  - ths_space_satellite_launch_spectrum_contracts
+supporting_claims:
+  - clm_space_satellite_scs_authorization
+  - clm_space_satellite_phased_array_supply
+  - clm_space_satellite_d2d_market
+invalidation_conditions:
+  - SpaceX Starship reaches operational reusability with sub-50-dollar-per-kilogram launch cost, collapsing margin for incumbent launch providers and reducing public launch-provider pricing power.
+  - FCC blocks AST SpaceMobile BlueBird constellation deployment past Block 2 or imposes operating conditions that prevent commercial SCS service beyond limited emergency or trial use.
+  - Direct-to-device commercial revenue stays below 1 billion dollars aggregate annual through 2027 despite multiple operators launching service.
+  - Earth-observation pricing pressure from SAR small-sats and hyperspectral competitors collapses Planet Labs ARPU more than 30 percent in 12 months.
+  - NRO, SDA, or NASA materially reduces commercial space contract vehicles for two consecutive award cycles, shifting demand back to legacy cost-plus prime channels.
+schema_version: 1

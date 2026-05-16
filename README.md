@@ -189,7 +189,7 @@ not batched. Each theme gets its own commit and review pass.
 |  5 | nuclear-smr | **[x] Done** | BWXT, OKLO, SMR, GEV, CEG, CCJ, LEU; catalyst = policy / data-center PPA. |
 |  6 | robotics-humanoid | **[x] Done** | TSLA, ISRG, SYM, SERV; catalyst = Figure AI IPO / Optimus milestone. |
 |  7 | defense-ai | **[x] Done** | PLTR, LDOS; catalyst = government autonomy contract. |
-|  8 | space-satellite | [ ] Pending | RKLB, ASTS, PL, LUNR; catalyst = broadband / launch contract. |
+|  8 | space-satellite | **[x] Done** | RKLB, ASTS, PL, LUNR; catalyst = broadband / launch contract. |
 |  9 | bitcoin-mining | [ ] Pending | MARA, RIOT, CLSK; post_peak. |
 | 10 | bci-neurotech | [ ] Pending | BFLY, QSI; emerging; catalyst = Neuralink / Synchron / Merge IPO. |
 | 11 | solid-state-battery | [ ] Pending | QS, SLDP; emerging; catalyst = first commercial shipment. |

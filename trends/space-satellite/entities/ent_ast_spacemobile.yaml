@@ -1,0 +1,26 @@
+id: ent_ast_spacemobile
+name: AST SpaceMobile Inc
+entity_type: public_company
+schema_version: 1
+slug: ast_spacemobile
+tickers:
+  - ASTS
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ASTS
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ASTS
+    direction: beneficiary
+    exposure_strength: 0.90
+    basis:
+      - regulatory_dependency
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - direct_to_device
+  - satellite_broadband
+  - phased_array_satellites
+notes: Direct-to-cell satellite broadband pure play. BlueBird deployment cadence, FCC SCS authorization, MNO partner conversion, and satellite manufacturing throughput make ASTS a primary HIGH-tier scanner seed.

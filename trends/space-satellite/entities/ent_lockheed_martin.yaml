@@ -1,0 +1,25 @@
+id: ent_lockheed_martin
+name: Lockheed Martin Corporation
+entity_type: public_company
+schema_version: 1
+slug: lockheed_martin
+tickers:
+  - LMT
+exchanges:
+  - NYSE
+identifiers:
+  ticker: LMT
+  exchange: NYSE
+ticker_exposures:
+  - ticker: LMT
+    direction: beneficiary
+    exposure_strength: 0.35
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - prime_contractor
+  - national_security_space
+  - satellite_prime
+notes: Large defense prime with satellite and missile-warning exposure. Low purity because space is one slice of a much larger aerospace and defense top line.

@@ -1,0 +1,27 @@
+id: ent_rocket_lab
+name: Rocket Lab Corporation
+entity_type: public_company
+schema_version: 1
+slug: rocket_lab
+tickers:
+  - RKLB
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: RKLB
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: RKLB
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - manufacturing_capacity
+      - demand_channel
+    tradable: true
+role:
+  - launch_services
+  - spacecraft_manufacturing
+  - satellite_components
+  - national_security_space
+notes: Launch plus spacecraft manufacturing pure play. Electron / HASTE launch cadence, Neutron medium-lift option value, SDA satellite-bus work, and vertical integration make RKLB a primary HIGH-tier scanner seed.

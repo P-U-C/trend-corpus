@@ -1,0 +1,27 @@
+id: ent_echostar
+name: EchoStar Corporation
+entity_type: public_company
+schema_version: 1
+slug: echostar
+tickers:
+  - SATS
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: SATS
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: SATS
+    direction: beneficiary
+    exposure_strength: 0.55
+    basis:
+      - revenue_segment
+      - regulatory_dependency
+      - demand_channel
+    tradable: true
+role:
+  - satellite_broadband
+  - hughes
+  - managed_satcom
+  - terrestrial_ntn
+notes: EchoStar / Hughes satellite broadband and managed-network operator with terrestrial wireless and NTN adjacency after the DISH combination. Medium purity because legacy consumer satellite and wireless assets complicate the signal.

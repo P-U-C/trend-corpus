@@ -1,0 +1,26 @@
+id: ent_planet_labs
+name: Planet Labs PBC
+entity_type: public_company
+schema_version: 1
+slug: planet_labs
+tickers:
+  - PL
+exchanges:
+  - NYSE
+identifiers:
+  ticker: PL
+  exchange: NYSE
+ticker_exposures:
+  - ticker: PL
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+      - demand_channel
+      - manufacturing_capacity
+    tradable: true
+role:
+  - earth_observation
+  - satellite_imagery
+  - geospatial_analytics
+notes: Earth-observation imagery and analytics pure play. Government imagery subscriptions, NRO EOCL exposure, backlog growth, and PlanetScope / Pelican / Tanager cadence make PL a primary HIGH-tier scanner seed.

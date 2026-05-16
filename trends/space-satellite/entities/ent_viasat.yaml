@@ -1,0 +1,27 @@
+id: ent_viasat
+name: Viasat Inc
+entity_type: public_company
+schema_version: 1
+slug: viasat
+tickers:
+  - VSAT
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: VSAT
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: VSAT
+    direction: beneficiary
+    exposure_strength: 0.65
+    basis:
+      - revenue_segment
+      - demand_channel
+      - regulatory_dependency
+    tradable: true
+role:
+  - satellite_broadband
+  - mobile_satcom
+  - government_satcom
+  - inmarsat
+notes: Mature satellite broadband and mobile satcom operator after the Inmarsat acquisition. Exposure is material but more diversified and lower purity than ASTS or IRDM.
