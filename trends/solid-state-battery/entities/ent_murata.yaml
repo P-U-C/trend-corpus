@@ -1,0 +1,25 @@
+id: ent_murata
+name: Murata Manufacturing Co Ltd
+entity_type: public_company
+schema_version: 1
+slug: murata
+tickers:
+  - "6981.T"
+exchanges:
+  - TSE
+identifiers:
+  ticker: "6981.T"
+  exchange: TSE
+ticker_exposures:
+  - ticker: "6981.T"
+    direction: beneficiary
+    exposure_strength: 0.20
+    basis:
+      - demand_channel
+      - manufacturing_capacity
+    tradable: true
+role:
+  - ceramic_separator_manufacturer
+  - solid_state_component_supplier
+  - micro_battery_developer
+notes: Japanese ceramic-components manufacturer and QuantumScape ecosystem partner. Murata and QuantumScape entered a 2025 joint development agreement for high-volume ceramic separator manufacturing, and Murata also maintains an oxide solid-state micro-battery program for wearables / IoT. Exposure is intentionally low because solid-state is a small slice of Murata revenue.

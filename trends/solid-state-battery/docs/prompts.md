@@ -55,8 +55,9 @@ ENTITY SLUGS: use short lowercase names. Examples:
   "quantumscape", "solid_power", "ses_ai", "toyota", "samsung_sdi",
   "sk_innovation", "lg_energy_solution", "idemitsu_kosan",
   "mitsui_mining_smelting", "factorial", "ampcera", "24m_technologies",
-  "sila_nanotechnologies", "powerco", "bmw", "mercedes_benz", "doe_lpo",
-  "ira_45x", "nhtsa", "unece"
+  "sila_nanotechnologies", "murata", "prologium", "ion_storage_systems",
+  "powerco", "bmw", "mercedes_benz", "doe_lpo", "ira_45x", "nhtsa",
+  "unece"
 
 TOPIC NAMES (lowercase). Examples for solid-state-battery:
   "eagle_line", "cobra_separator", "qse_5", "sulfide_electrolyte",
@@ -153,8 +154,8 @@ contradicts or updates an existing claim. Examples:
   OLD: "QuantumScape recorded $11.0M of customer billings in Q1 2026" (state change at the quarterly metric level)
 - NEW: "Toyota delayed its all-solid-state mass production target from 2027 to 2030 on 2026-09-01" SUPERSEDES
   OLD: "Toyota and Idemitsu target 2027-2028 mass production for sulfide solid-state cells" (updated schedule)
-- NEW: "Idemitsu Kosan lithium-sulfide plant production capacity raised to 5000 mt/yr per October 2026 announcement" SUPERSEDES
-  OLD: "Idemitsu Kosan lithium-sulfide plant targets 1000 mt/yr completion June 2027" (updated capacity)
+- NEW: "Idemitsu Kosan lithium-sulfide plant production capacity raised to 15 GWh-equivalent per year per October 2026 announcement" SUPERSEDES
+  OLD: "Idemitsu Kosan lithium-sulfide facility targets 3 GWh-equivalent annual capacity and June 2027 completion" (updated capacity)
 
 SUPERSEDENCE DOES NOT EXIST for:
 - Related but independent program updates from different OEMs or cell makers

@@ -13,10 +13,13 @@ In scope:
 - Asian incumbents with announced solid-state programs and mass-production
   roadmaps (Toyota Motor, Samsung SDI, SK Innovation / SK On, LG Energy
   Solution)
+- Ceramic separator and component suppliers tied to solid-state scale-up
+  (Murata Manufacturing)
 - Japanese sulfide-electrolyte and lithium-sulfide suppliers
   (Idemitsu Kosan, Mitsui Mining and Smelting)
 - Private keystones whose fundraise marks reprice the listed cohort
-  (Factorial Energy, Ampcera, 24M Technologies, Sila Nanotechnologies)
+  (Factorial Energy, Ampcera, 24M Technologies, Sila Nanotechnologies,
+  ProLogium Technology, ION Storage Systems)
 - Government policy and incentive flow that changes domestic-cell economics
   (DOE Loan Programs Office, IRA 45X manufacturing credits, USABC programs)
 
@@ -34,16 +37,17 @@ Out of scope:
 Solid-state batteries crossed three thresholds inside the past six quarters.
 First, QuantumScape inaugurated its automated Eagle Line on
 2026-02-04 and reported $11.0M of customer billings in Q1 2026, marking the
-first sustained commercial revenue from a U.S. solid-state pure play.
+first sustained customer-billings signal from a U.S. solid-state pure play.
 Second, the sulfide-electrolyte supply chain shifted from research-lab
 quantities to multi-hundred-ton pilot plants in Japan, with Idemitsu
 breaking ground on a sulfide pilot facility in early 2026 and Mitsui
 Mining and Smelting scaling its A-SOLiD argyrodite mass-production unit
-for 2027 operation. Third, the Asian incumbent roadmaps converged on a
-2027-2028 mass-production window: Toyota with Idemitsu, Samsung SDI with
-BMW and Solid Power, SK On on polymer-oxide / sulfide tracks. The catalyst
-is the multi-year manufacturing-scale-up clock; the risk is that sulfide
-electrolyte supply, not cell chemistry, becomes the binding constraint.
+for 2027 operation. Third, the Asian incumbent roadmaps split into a
+2027-2028 first wave (Toyota with Idemitsu; Samsung SDI with BMW and
+Solid Power) and later-decade Korean programs (SK On and LG Energy
+Solution). The catalyst is the multi-year manufacturing-scale-up clock; the
+risk is that electrolyte and separator supply, not cell chemistry, becomes
+the binding constraint.
 
 ## What's in this directory
 
@@ -55,8 +59,9 @@ electrolyte supply, not cell chemistry, becomes the binding constraint.
   (regulatory, manufacturing, supply). Illustrative, not pulled from a
   live db.
 - `entities/` -- the scanner seeds (QS, SLDP, SES) plus Asian incumbent
-  adjacents, Japanese sulfide-electrolyte suppliers, and 4 private
-  keystones (entity_type private_company; no ticker_exposures)
+  adjacents, Japanese sulfide-electrolyte suppliers, Murata as a
+  ceramic-separator ecosystem partner, and private keystones
+  (entity_type private_company; no ticker_exposures)
 - `events/` -- one example commercial-milestone event
 - `theses/` -- the synthesizing argument
 - `decision-packets/` -- one watchlist-candidate packet with substantive
