@@ -1,0 +1,141 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-17T16:27:45Z",
+  "theme_id": "space-satellite",
+  "generator": {
+    "name": "theme-runtime-aggregates-exporter",
+    "version": "0.1.0",
+    "host_alias": "city-worker-301"
+  },
+  "underlying_claim_count": 18,
+  "underlying_source_count": 13,
+  "min_count_threshold": 1,
+  "windows": {
+    "30d": {
+      "claims_total": 14,
+      "claims_by_category": {
+        "manufacturing": 6,
+        "research": 1,
+        "regulatory": 1,
+        "corporate": 4,
+        "market": 2
+      },
+      "top_entities": [
+        {
+          "slug": "ast_spacemobile",
+          "mentions": 14
+        },
+        {
+          "slug": "spacex",
+          "mentions": 2
+        },
+        {
+          "slug": "fcc",
+          "mentions": 1
+        }
+      ]
+    },
+    "90d": {
+      "claims_total": 18,
+      "claims_by_category": {
+        "manufacturing": 6,
+        "research": 1,
+        "regulatory": 1,
+        "corporate": 7,
+        "market": 3
+      },
+      "top_entities": [
+        {
+          "slug": "ast_spacemobile",
+          "mentions": 18
+        },
+        {
+          "slug": "spacex",
+          "mentions": 2
+        },
+        {
+          "slug": "fcc",
+          "mentions": 1
+        }
+      ]
+    },
+    "365d": {
+      "claims_total": 18,
+      "claims_by_category": {
+        "manufacturing": 6,
+        "research": 1,
+        "regulatory": 1,
+        "corporate": 7,
+        "market": 3
+      },
+      "top_entities": [
+        {
+          "slug": "ast_spacemobile",
+          "mentions": 18
+        },
+        {
+          "slug": "spacex",
+          "mentions": 2
+        },
+        {
+          "slug": "fcc",
+          "mentions": 1
+        }
+      ]
+    }
+  },
+  "source_freshness": [
+    {
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
+      "last_ingested_at": "2026-05-16 06:00:18"
+    },
+    {
+      "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
+      "last_ingested_at": "2026-05-16 06:00:19"
+    },
+    {
+      "url": "https://investor.iridium.com/2024-09-25-Iridium-Accelerates-Direct-to-Device-Service-with-Acceptance-into-3GPP-Standards-Announces-Iridium-NTN-Direct?asPDF=1",
+      "last_ingested_at": "2026-05-16 06:00:21"
+    },
+    {
+      "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-announces-fourth-quarter-and-full-year-2025-results/",
+      "last_ingested_at": "2026-05-16 06:00:20"
+    },
+    {
+      "url": "https://rocketlabcorp.com/missions/launches/sda/",
+      "last_ingested_at": "2026-05-16 06:00:23"
+    },
+    {
+      "url": "https://starlink.com/business/direct-to-cell",
+      "last_ingested_at": "2026-05-16 06:00:24"
+    },
+    {
+      "url": "https://www.kratosdefense.com/newsroom/kratos-reports-fourth-quarter-and-full-year-2025-financial-results",
+      "last_ingested_at": "2026-05-16 06:00:22"
+    },
+    {
+      "url": "https://www.nasa.gov/commercial-lunar-payload-services/",
+      "last_ingested_at": "2026-05-16 06:00:22"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
+      "last_ingested_at": "2026-05-16 06:00:22"
+    },
+    {
+      "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
+      "last_ingested_at": "2026-05-16 06:00:01"
+    },
+    {
+      "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
+      "last_ingested_at": "2026-05-16 06:00:23"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000027/rklb-05072026ex991.htm",
+      "last_ingested_at": "2026-05-16 06:00:23"
+    },
+    {
+      "url": "https://www.viasat.com/news/latest-news/corporate/2025/viasat-releases-fourth-quarter-and-fiscal-year-2025-financial-re/",
+      "last_ingested_at": "2026-05-16 06:00:24"
+    }
+  ]
+}
