@@ -1,20 +1,26 @@
 id: clm_space_satellite_scs_authorization
-claim: FCC Supplemental Coverage from Space rules and the 2026 AST SpaceMobile 248-satellite authorization make terrestrial-spectrum leasing, interference conditions, and ITU coordination the gating market-access variables for direct-to-device satellite broadband in the United States.
+claim: FCC Supplemental Coverage from Space rules and the 2026 AST SpaceMobile 248-satellite authorization make terrestrial-spectrum
+  leasing, interference conditions, and ITU coordination the gating market-access variables for direct-to-device satellite
+  broadband in the United States.
 category: regulatory
 source_ids:
-  - src_space_satellite_fcc_scs_framework
-  - src_space_satellite_fcc_ast_authorization
-  - src_space_satellite_ast_q1_2026
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_space_satellite_fcc_scs_framework
+- src_space_satellite_fcc_ast_authorization
+- src_space_satellite_ast_q1_2026
+entity_ids:
+- ent_ast_spacemobile
+- ent_spacex
+- ent_iridium
+- ent_globalstar
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: regulatory_docket
+  horizon_bucket: near_term_0_90d
+  notes: FCC Supplemental Coverage from Space order modifications + ASTS BlueBird FCC actions
 confidence: 0.88
 status: active
-entity_ids:
-  - ent_ast_spacemobile
-  - ent_spacex
-  - ent_iridium
-  - ent_globalstar
-schema_version: 1
 visibility:
   classification: public_full
   strategy_leakage_risk: low
+schema_version: 1

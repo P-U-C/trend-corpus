@@ -1,27 +1,38 @@
 id: clm_synbio_in_vivo_cohort_2026_readouts
-claim: The in vivo, base-editing, prime-editing, and AI-bio cohort has a dense 2026-2027 validation calendar that will reprice the broader engineered-biology platform sector. Named near-term events include Beam Therapeutics BEAM-302 pivotal-cohort initiation in alpha-1 antitrypsin deficiency, Intellia lonvo-z BLA work in hereditary angioedema and resumed nex-z MAGNITUDE / MAGNITUDE-2 Phase 3 screening, Prime Medicine PM359 regulatory alignment plus PM577 and PM647 IND / CTA filings, Editas EDIT-401 first-in-human proof-of-concept work, Caribou vispa-cel pivotal-funding and CB-011 RMAT follow-up, Recursion REC-1245 / REC-4881 / REC-4539 updates, Takeda / Schrodinger zasocitinib Phase 3 and NDA filing, and the Eli Lilly post-close update on Verve VERVE-102 LDL cholesterol base editing. The cluster of independent events makes 2026 the first year where the platform thesis can be tested across multiple chemistries simultaneously.
+claim: The in vivo, base-editing, prime-editing, and AI-bio cohort has a dense 2026-2027 validation calendar that will reprice
+  the broader engineered-biology platform sector. Named near-term events include Beam Therapeutics BEAM-302 pivotal-cohort
+  initiation in alpha-1 antitrypsin deficiency, Intellia lonvo-z BLA work in hereditary angioedema and resumed nex-z MAGNITUDE
+  / MAGNITUDE-2 Phase 3 screening, Prime Medicine PM359 regulatory alignment plus PM577 and PM647 IND / CTA filings, Editas
+  EDIT-401 first-in-human proof-of-concept work, Caribou vispa-cel pivotal-funding and CB-011 RMAT follow-up, Recursion REC-1245
+  / REC-4881 / REC-4539 updates, Takeda / Schrodinger zasocitinib Phase 3 and NDA filing, and the Eli Lilly post-close update
+  on Verve VERVE-102 LDL cholesterol base editing. The cluster of independent events makes 2026 the first year where the platform
+  thesis can be tested across multiple chemistries simultaneously.
 category: clinical
 source_ids:
-  - src_synbio_beam_alpha1
-  - src_synbio_intellia_attr
-  - src_synbio_prime_medicine_q1_2026
-  - src_synbio_editas_partnering
-  - src_synbio_caribou_chrdna
-  - src_synbio_recursion_exscientia
-  - src_synbio_schrodinger_zasocitinib
-  - src_synbio_lilly_verve_acquisition
-  - src_synbio_igi_crispr_trials_2026
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
-confidence: 0.80
-status: active
+- src_synbio_beam_alpha1
+- src_synbio_intellia_attr
+- src_synbio_prime_medicine_q1_2026
+- src_synbio_editas_partnering
+- src_synbio_caribou_chrdna
+- src_synbio_recursion_exscientia
+- src_synbio_schrodinger_zasocitinib
+- src_synbio_lilly_verve_acquisition
+- src_synbio_igi_crispr_trials_2026
 entity_ids:
-  - ent_beam_therapeutics
-  - ent_intellia
-  - ent_prime_medicine
-  - ent_editas
-  - ent_caribou
-  - ent_recursion
-  - ent_schrodinger
-  - ent_lilly
+- ent_beam_therapeutics
+- ent_intellia
+- ent_prime_medicine
+- ent_editas
+- ent_caribou
+- ent_recursion
+- ent_schrodinger
+- ent_lilly
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: trial_readout
+  horizon_bucket: mid_term_90d_1y
+  notes: BEAM-302 / NTLA nex-z MAGNITUDE / PM359 / EDIT-401 / Recursion REC-1245 / zasocitinib NDA cluster across 2026 H2
+confidence: 0.8
+status: active
 schema_version: 1

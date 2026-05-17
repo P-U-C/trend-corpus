@@ -1,12 +1,17 @@
 id: clm_glp1_manufacturing_capacity_bottleneck
-claim: Peptide API manufacturing capacity is a structural constraint on incumbent obesity-drug supply, and CDMO capex and capacity additions are observable in primary IR sources.
+claim: Peptide API manufacturing capacity is a structural constraint on incumbent obesity-drug supply, and CDMO capex and
+  capacity additions are observable in primary IR sources.
 category: manufacturing
 source_ids:
-  - src_bachem_news
-  - src_polypeptide_news
-  - src_lilly_ir
-  - src_novo_ir
-date_of_evidence: "2026-05-15"
+- src_bachem_news
+- src_polypeptide_news
+- src_lilly_ir
+- src_novo_ir
+date_of_evidence: '2026-05-15'
+event_horizon:
+  event_type: industry_milestone
+  horizon_bucket: near_term_0_90d
+  notes: LLY/NVO capacity guidance + CDMO contract announcements (BANB, Polypeptide)
 confidence: 0.8
 visibility:
   classification: public_full

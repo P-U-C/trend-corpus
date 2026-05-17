@@ -1,25 +1,28 @@
 id: clm_bci_neurotech_throughput_benchmark
-claim: >
-  Peer-reviewed BCI throughput benchmarks are a more durable signal than
-  fundraise headlines: speech and motor-cortex decoding results such as 62
-  words per minute in Nature, plus COMMAND and Connect-One clinical
-  milestones, set the clinical bar that private BCI companies must clear
-  before public-market pure plays can be valued on commercial adoption.
+claim: 'Peer-reviewed BCI throughput benchmarks are a more durable signal than fundraise headlines: speech and motor-cortex
+  decoding results such as 62 words per minute in Nature, plus COMMAND and Connect-One clinical milestones, set the clinical
+  bar that private BCI companies must clear before public-market pure plays can be valued on commercial adoption.
+
+  '
 category: clinical
 source_ids:
-  - src_bci_neurotech_nature_speech_neuroprosthesis
-  - src_bci_neurotech_synchron_command_results
-  - src_bci_neurotech_paradromics_ide
-  - src_bci_neurotech_paradromics_connect_one_clinicaltrials
-  - src_bci_neurotech_neuralink_prime_clinicaltrials
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_bci_neurotech_nature_speech_neuroprosthesis
+- src_bci_neurotech_synchron_command_results
+- src_bci_neurotech_paradromics_ide
+- src_bci_neurotech_paradromics_connect_one_clinicaltrials
+- src_bci_neurotech_neuralink_prime_clinicaltrials
+entity_ids:
+- ent_braingate
+- ent_synchron
+- ent_paradromics
+- ent_neuralink
+- ent_precision_neuroscience
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: data_release
+  horizon_bucket: long_term_1y_3y
+  notes: Peer-reviewed channel-count / decoder accuracy publications
 confidence: 0.84
 status: active
-entity_ids:
-  - ent_braingate
-  - ent_synchron
-  - ent_paradromics
-  - ent_neuralink
-  - ent_precision_neuroscience
 schema_version: 1

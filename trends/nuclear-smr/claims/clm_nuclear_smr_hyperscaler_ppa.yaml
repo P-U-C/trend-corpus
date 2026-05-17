@@ -1,17 +1,22 @@
 id: clm_nuclear_smr_hyperscaler_ppa
-claim: Hyperscaler nuclear PPAs and development agreements with Constellation, Kairos, and X-energy are creating visible long-duration demand for firm carbon-free power before SMR projects are commercially operating.
+claim: Hyperscaler nuclear PPAs and development agreements with Constellation, Kairos, and X-energy are creating visible long-duration
+  demand for firm carbon-free power before SMR projects are commercially operating.
 category: market
 source_ids:
-  - src_nuclear_smr_constellation_microsoft_ppa
-  - src_nuclear_smr_kairos_google
-  - src_nuclear_smr_xenergy_amazon
-date_of_evidence: "2026-05-15"
-evidence_at: "2026-05-15"
-confidence: 0.80
-status: active
+- src_nuclear_smr_constellation_microsoft_ppa
+- src_nuclear_smr_kairos_google
+- src_nuclear_smr_xenergy_amazon
 entity_ids:
-  - ent_constellation
-  - ent_kairos_power
-  - ent_x_energy
-  - ent_oklo
+- ent_constellation
+- ent_kairos_power
+- ent_x_energy
+- ent_oklo
+date_of_evidence: '2026-05-15'
+evidence_at: '2026-05-15'
+event_horizon:
+  event_type: structural
+  horizon_bucket: near_term_0_90d
+  notes: Hyperscaler PPA announcements roll near-continuously
+confidence: 0.8
+status: active
 schema_version: 1

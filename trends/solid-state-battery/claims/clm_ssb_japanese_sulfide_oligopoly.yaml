@@ -1,21 +1,30 @@
 id: clm_ssb_japanese_sulfide_oligopoly
-claim: Sulfide-electrolyte and lithium-sulfide precursor capacity is concentrated in two Japanese suppliers (Idemitsu Kosan and Mitsui Mining and Smelting) whose announced 2026-2027 pilot and early mass-production capacity is still small relative to the Toyota and Samsung SDI 2027-2028 first-wave programs and the Korean late-decade solid-state roadmaps. The binding constraint on commercial sulfide solid-state output is therefore likely to be upstream electrolyte tonnage as much as cell-line throughput; Ampcera's U.S. scaling and any non-Japanese sulfide entrant become disproportionately important supply-diversification beneficiaries.
+claim: Sulfide-electrolyte and lithium-sulfide precursor capacity is concentrated in two Japanese suppliers (Idemitsu Kosan
+  and Mitsui Mining and Smelting) whose announced 2026-2027 pilot and early mass-production capacity is still small relative
+  to the Toyota and Samsung SDI 2027-2028 first-wave programs and the Korean late-decade solid-state roadmaps. The binding
+  constraint on commercial sulfide solid-state output is therefore likely to be upstream electrolyte tonnage as much as cell-line
+  throughput; Ampcera's U.S. scaling and any non-Japanese sulfide entrant become disproportionately important supply-diversification
+  beneficiaries.
 category: supply
 source_ids:
-  - src_ssb_idemitsu_pilot_plant
-  - src_ssb_idemitsu_lithium_sulfide_unit
-  - src_ssb_mitsui_argyrodite
-  - src_ssb_toyota_idemitsu
-  - src_ssb_ampcera_scaling
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
-confidence: 0.80
-status: active
+- src_ssb_idemitsu_pilot_plant
+- src_ssb_idemitsu_lithium_sulfide_unit
+- src_ssb_mitsui_argyrodite
+- src_ssb_toyota_idemitsu
+- src_ssb_ampcera_scaling
 entity_ids:
-  - ent_idemitsu_kosan
-  - ent_mitsui_mining_smelting
-  - ent_toyota
-  - ent_samsung_sdi
-  - ent_sk_innovation
-  - ent_ampcera
+- ent_idemitsu_kosan
+- ent_mitsui_mining_smelting
+- ent_toyota
+- ent_samsung_sdi
+- ent_sk_innovation
+- ent_ampcera
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: industry_milestone
+  horizon_bucket: mid_term_90d_1y
+  notes: Idemitsu lithium-sulfide plant (Jun 2027 completion target) + Mitsui A-SOLiD (2027 mass production)
+confidence: 0.8
+status: active
 schema_version: 1

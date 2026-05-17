@@ -14,6 +14,34 @@
     "supporting_claims": {"type": "array", "items": {"type": "string"}},
     "date_of_evidence": {"type": "string"},
     "evidence_at": {"type": "string"},
+    "event_horizon": {
+      "type": "object",
+      "description": "When the claim's underlying event resolves. Used by the mispricing-screen layer to pick the right options expiry.",
+      "properties": {
+        "event_date": {
+          "type": "string",
+          "description": "ISO date or YYYY-MM (month if only month known). Use when a specific date is known (earnings, FDA PDUFA, M&A close target, FOMC meeting)."
+        },
+        "horizon_bucket": {
+          "type": "string",
+          "enum": ["near_term_0_90d", "mid_term_90d_1y", "long_term_1y_3y", "structural_3y_plus"],
+          "description": "Use when no specific date — coarse bucket of how soon the thesis pays off or fails."
+        },
+        "event_type": {
+          "type": "string",
+          "enum": [
+            "earnings", "fda_decision", "fda_advisory_committee",
+            "fomc", "rate_decision", "regulatory_docket",
+            "ma_close", "ipo", "trial_readout", "data_release",
+            "conference_launch", "product_launch",
+            "budget_appropriation", "policy_decision",
+            "industry_milestone", "structural"
+          ],
+          "description": "Type of event that resolves the claim."
+        },
+        "notes": {"type": "string"}
+      }
+    },
     "confidence": {"type": "number"},
     "status": {"type": "string", "enum": ["active", "under_review", "superseded"]},
     "visibility": {

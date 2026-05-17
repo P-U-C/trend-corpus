@@ -1,19 +1,28 @@
 id: clm_edgeai_supply_constraint_bis
-claim: Two upstream constraints need to be monitored, but only one is directly supported as a current factual constraint in this corpus. BIS advanced-computing export-control rules materially affect China-bound shipment paths for datacenter-class AI chips and can spill into edge-AI suppliers with China exposure; the leading regulatory signal is changes to ECCN 3A090 / 4A090 treatment, Entity List scope, and license-review standards. TSMC 5nm / 4nm, N3, and CoWoS-class capacity remain important supply-watchlist inputs because AI/HPC demand dominates leading-edge capacity, but current TSMC commentary says it is maximizing support across platforms rather than proving that edge SoCs are being crowded out.
+claim: Two upstream constraints need to be monitored, but only one is directly supported as a current factual constraint in
+  this corpus. BIS advanced-computing export-control rules materially affect China-bound shipment paths for datacenter-class
+  AI chips and can spill into edge-AI suppliers with China exposure; the leading regulatory signal is changes to ECCN 3A090
+  / 4A090 treatment, Entity List scope, and license-review standards. TSMC 5nm / 4nm, N3, and CoWoS-class capacity remain
+  important supply-watchlist inputs because AI/HPC demand dominates leading-edge capacity, but current TSMC commentary says
+  it is maximizing support across platforms rather than proving that edge SoCs are being crowded out.
 category: supply
 source_ids:
-  - src_edgeai_bis_export_controls
-  - src_edgeai_tsmc_q1_2026
-  - src_edgeai_ambarella_cv3_continental
-  - src_edgeai_qualcomm_dragonwing
-  - src_edgeai_hailo_10h_launch
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_edgeai_bis_export_controls
+- src_edgeai_tsmc_q1_2026
+- src_edgeai_ambarella_cv3_continental
+- src_edgeai_qualcomm_dragonwing
+- src_edgeai_hailo_10h_launch
+entity_ids:
+- ent_ambarella
+- ent_hailo
+- ent_qualcomm
+- ent_nvidia_jetson
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: regulatory_docket
+  horizon_bucket: near_term_0_90d
+  notes: BIS advanced-computing license-review-policy updates + TSMC capex guidance
 confidence: 0.75
 status: active
-entity_ids:
-  - ent_ambarella
-  - ent_hailo
-  - ent_qualcomm
-  - ent_nvidia_jetson
 schema_version: 1

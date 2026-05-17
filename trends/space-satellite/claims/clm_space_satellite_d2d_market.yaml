@@ -1,19 +1,25 @@
 id: clm_space_satellite_d2d_market
-claim: Direct-to-device connectivity is becoming a distinct satellite revenue category separate from traditional VSAT; AST is guiding 2026 revenue from MNO and U.S. government activity, Starlink is commercializing partner-based D2D messaging and IoT, Iridium is standardizing NTN Direct through 3GPP, and Globalstar is monetizing MSS spectrum and direct-MSS capacity.
+claim: Direct-to-device connectivity is becoming a distinct satellite revenue category separate from traditional VSAT; AST
+  is guiding 2026 revenue from MNO and U.S. government activity, Starlink is commercializing partner-based D2D messaging and
+  IoT, Iridium is standardizing NTN Direct through 3GPP, and Globalstar is monetizing MSS spectrum and direct-MSS capacity.
 category: market
 source_ids:
-  - src_space_satellite_ast_q1_2026
-  - src_space_satellite_starlink_d2c
-  - src_space_satellite_iridium_ntn_direct
-  - src_space_satellite_globalstar_2025_results
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_space_satellite_ast_q1_2026
+- src_space_satellite_starlink_d2c
+- src_space_satellite_iridium_ntn_direct
+- src_space_satellite_globalstar_2025_results
+entity_ids:
+- ent_ast_spacemobile
+- ent_spacex
+- ent_iridium
+- ent_globalstar
+- ent_viasat
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: industry_milestone
+  horizon_bucket: mid_term_90d_1y
+  notes: ASTS / GSAT / IRDM commercial D2D revenue inflection; first $1B aggregate target
 confidence: 0.82
 status: active
-entity_ids:
-  - ent_ast_spacemobile
-  - ent_spacex
-  - ent_iridium
-  - ent_globalstar
-  - ent_viasat
 schema_version: 1

@@ -1,18 +1,27 @@
 id: clm_edgeai_platform_consolidation
-claim: Edge-AI is consolidating from chip vendor to full-stack platform. Qualcomm closed five acquisitions in 18 months (Augentix, Arduino, Edge Impulse, Focus.AI, Foundries.io), repositioning from chipset to full-stack edge-AI platform. Lattice Semiconductor signed a $1.65B definitive agreement to acquire AMI on May 4, 2026 with Q3 2026 expected close. Tenstorrent's $700M Series D at $2.6B valuation (Samsung Securities, LG Electronics, Fidelity, Bezos Expeditions) and Axelera AI's more-than-$250M 2026 funding round give the private cohort capital depth to ship reference-design platforms alongside silicon. The consolidation shifts margin from raw silicon SKU to bundled developer tooling, model-zoo IP, and certified reference-design libraries.
+claim: Edge-AI is consolidating from chip vendor to full-stack platform. Qualcomm closed five acquisitions in 18 months (Augentix,
+  Arduino, Edge Impulse, Focus.AI, Foundries.io), repositioning from chipset to full-stack edge-AI platform. Lattice Semiconductor
+  signed a $1.65B definitive agreement to acquire AMI on May 4, 2026 with Q3 2026 expected close. Tenstorrent's $700M Series
+  D at $2.6B valuation (Samsung Securities, LG Electronics, Fidelity, Bezos Expeditions) and Axelera AI's more-than-$250M
+  2026 funding round give the private cohort capital depth to ship reference-design platforms alongside silicon. The consolidation
+  shifts margin from raw silicon SKU to bundled developer tooling, model-zoo IP, and certified reference-design libraries.
 category: corporate
 source_ids:
-  - src_edgeai_qualcomm_dragonwing
-  - src_edgeai_lattice_ami_acquisition
-  - src_edgeai_tenstorrent_series_d
-  - src_edgeai_axelera_2026_funding
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_edgeai_qualcomm_dragonwing
+- src_edgeai_lattice_ami_acquisition
+- src_edgeai_tenstorrent_series_d
+- src_edgeai_axelera_2026_funding
+entity_ids:
+- ent_qualcomm
+- ent_lattice
+- ent_tenstorrent
+- ent_axelera_ai
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: ma_close
+  event_date: '2026-09-30'
+  notes: Lattice $1.65B AMI deal expected Q3 2026 close
 confidence: 0.85
 status: active
-entity_ids:
-  - ent_qualcomm
-  - ent_lattice
-  - ent_tenstorrent
-  - ent_axelera_ai
 schema_version: 1

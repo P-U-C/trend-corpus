@@ -1,27 +1,30 @@
 id: clm_bci_neurotech_private_marks
-claim: >
-  BCI private-market marks are rerating the theme before a public pure-play
-  cohort exists; Merge Labs / OpenAI participation, Butterfly-Forest
-  ultrasound-on-chip collaboration, Neuralink trial visibility, and ONWARD
-  ARC-BCI milestones make private fundraises and platform partnerships the
-  leading public-market signal for BFLY, QSI, and neuromodulation incumbents.
+claim: 'BCI private-market marks are rerating the theme before a public pure-play cohort exists; Merge Labs / OpenAI participation,
+  Butterfly-Forest ultrasound-on-chip collaboration, Neuralink trial visibility, and ONWARD ARC-BCI milestones make private
+  fundraises and platform partnerships the leading public-market signal for BFLY, QSI, and neuromodulation incumbents.
+
+  '
 category: corporate
 source_ids:
-  - src_bci_neurotech_openai_merge_labs
-  - src_bci_neurotech_butterfly_forest
-  - src_bci_neurotech_neuralink_prime_clinicaltrials
-  - src_bci_neurotech_onward_fy2025_arc_bci
-  - src_bci_neurotech_quantum_si_q1_2026
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_bci_neurotech_openai_merge_labs
+- src_bci_neurotech_butterfly_forest
+- src_bci_neurotech_neuralink_prime_clinicaltrials
+- src_bci_neurotech_onward_fy2025_arc_bci
+- src_bci_neurotech_quantum_si_q1_2026
+entity_ids:
+- ent_merge_labs
+- ent_butterfly_network
+- ent_neuralink
+- ent_onward_medical
+- ent_quantum_si
+- ent_boston_scientific
+- ent_medtronic
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: ipo
+  horizon_bucket: long_term_1y_3y
+  notes: Neuralink / Synchron / Merge IPO speculation; no filed S-1 yet
 confidence: 0.76
 status: active
-entity_ids:
-  - ent_merge_labs
-  - ent_butterfly_network
-  - ent_neuralink
-  - ent_onward_medical
-  - ent_quantum_si
-  - ent_boston_scientific
-  - ent_medtronic
 schema_version: 1

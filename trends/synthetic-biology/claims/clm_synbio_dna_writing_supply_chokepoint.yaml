@@ -1,16 +1,24 @@
 id: clm_synbio_dna_writing_supply_chokepoint
-claim: Synthetic DNA write capacity, GMP gRNA supply, and workflow integrations concentrate value upstream of clinical-stage developers, but the margin-capture thesis is uneven across suppliers. Twist Bioscience's three-year $15M prepaid Ginkgo Bioworks agreement and Benchling's 2026 one-click ordering integration support a durable discovery-to-supply channel, while Ginkgo's Q1 2026 revenue decline to $19.5M and negative $42M adjusted EBITDA show that broad foundry economics remain a turnaround case rather than a steady compounding layer.
+claim: Synthetic DNA write capacity, GMP gRNA supply, and workflow integrations concentrate value upstream of clinical-stage
+  developers, but the margin-capture thesis is uneven across suppliers. Twist Bioscience's three-year $15M prepaid Ginkgo
+  Bioworks agreement and Benchling's 2026 one-click ordering integration support a durable discovery-to-supply channel, while
+  Ginkgo's Q1 2026 revenue decline to $19.5M and negative $42M adjusted EBITDA show that broad foundry economics remain a
+  turnaround case rather than a steady compounding layer.
 category: supply
 source_ids:
-  - src_synbio_ginkgo_q1_2026
-  - src_synbio_twist_ginkgo_deal
-  - src_synbio_benchling_one_click_ordering
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_synbio_ginkgo_q1_2026
+- src_synbio_twist_ginkgo_deal
+- src_synbio_benchling_one_click_ordering
+entity_ids:
+- ent_ginkgo
+- ent_twist
+- ent_synthego
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: earnings
+  horizon_bucket: near_term_0_90d
+  notes: TWST + DNA (Ginkgo) quarterly results; Ginkgo turnaround case
 confidence: 0.75
 status: active
-entity_ids:
-  - ent_ginkgo
-  - ent_twist
-  - ent_synthego
 schema_version: 1

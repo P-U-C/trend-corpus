@@ -1,31 +1,34 @@
 id: clm_bci_neurotech_fda_pathway
-claim: >
-  FDA Breakthrough Device designation, IDE approval, and ClinicalTrials
-  registration are the leading regulatory signals for BCI
-  time-to-commercial-pilot; Neuralink PRIME, Synchron COMMAND, Paradromics
-  Connect-One, Precision Layer 7, and Blackrock MoveAgain show the sector is
-  moving through regulated early-feasibility and device-clearance gates rather
-  than consumer-tech launch cycles.
+claim: 'FDA Breakthrough Device designation, IDE approval, and ClinicalTrials registration are the leading regulatory signals
+  for BCI time-to-commercial-pilot; Neuralink PRIME, Synchron COMMAND, Paradromics Connect-One, Precision Layer 7, and Blackrock
+  MoveAgain show the sector is moving through regulated early-feasibility and device-clearance gates rather than consumer-tech
+  launch cycles.
+
+  '
 category: regulatory
 source_ids:
-  - src_bci_neurotech_fda_breakthrough_devices
-  - src_bci_neurotech_neuralink_prime_clinicaltrials
-  - src_bci_neurotech_synchron_command_results
-  - src_bci_neurotech_paradromics_ide
-  - src_bci_neurotech_paradromics_connect_one_clinicaltrials
-  - src_bci_neurotech_precision_fda_clearance
-  - src_bci_neurotech_blackrock_moveagain_breakthrough
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_bci_neurotech_fda_breakthrough_devices
+- src_bci_neurotech_neuralink_prime_clinicaltrials
+- src_bci_neurotech_synchron_command_results
+- src_bci_neurotech_paradromics_ide
+- src_bci_neurotech_paradromics_connect_one_clinicaltrials
+- src_bci_neurotech_precision_fda_clearance
+- src_bci_neurotech_blackrock_moveagain_breakthrough
+entity_ids:
+- ent_neuralink
+- ent_synchron
+- ent_paradromics
+- ent_precision_neuroscience
+- ent_blackrock_neurotech
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: fda_decision
+  horizon_bucket: mid_term_90d_1y
+  notes: FDA Breakthrough Device + IDE supplements on a rolling basis
 confidence: 0.86
 status: active
-entity_ids:
-  - ent_neuralink
-  - ent_synchron
-  - ent_paradromics
-  - ent_precision_neuroscience
-  - ent_blackrock_neurotech
-schema_version: 1
 visibility:
   classification: public_full
   strategy_leakage_risk: low
+schema_version: 1

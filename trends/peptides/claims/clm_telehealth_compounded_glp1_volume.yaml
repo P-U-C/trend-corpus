@@ -1,10 +1,15 @@
 id: clm_telehealth_compounded_glp1_volume
-claim: Direct-to-consumer telehealth providers have built large compounded-GLP-1 prescription volumes that are visible in quarterly IR disclosures and are sensitive to compounding-pharmacy regulatory status.
+claim: Direct-to-consumer telehealth providers have built large compounded-GLP-1 prescription volumes that are visible in
+  quarterly IR disclosures and are sensitive to compounding-pharmacy regulatory status.
 category: market
 source_ids:
-  - src_hims_ir
-  - src_statnews_obesity
-  - src_fiercepharma_rss
-date_of_evidence: "2026-05-15"
+- src_hims_ir
+- src_statnews_obesity
+- src_fiercepharma_rss
+date_of_evidence: '2026-05-15'
+event_horizon:
+  event_type: earnings
+  horizon_bucket: near_term_0_90d
+  notes: HIMS quarterly + Ro / private telehealth disclosures
 confidence: 0.75
 schema_version: 1

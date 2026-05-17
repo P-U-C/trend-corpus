@@ -1,20 +1,25 @@
 id: clm_nuclear_smr_licensing_path
-claim: NRC licensing pathway selection and pre-application readiness remain gating constraints for SMR and advanced-reactor deployment because Part 52, Part 53, and project-specific construction permits imply multi-year regulatory risk.
+claim: NRC licensing pathway selection and pre-application readiness remain gating constraints for SMR and advanced-reactor
+  deployment because Part 52, Part 53, and project-specific construction permits imply multi-year regulatory risk.
 category: regulatory
 source_ids:
-  - src_nuclear_smr_nrc_advanced_reactors
-  - src_nuclear_smr_nrc_preapp_part53
-  - src_nuclear_smr_doe_smr
-date_of_evidence: "2026-05-15"
-evidence_at: "2026-05-15"
+- src_nuclear_smr_nrc_advanced_reactors
+- src_nuclear_smr_nrc_preapp_part53
+- src_nuclear_smr_doe_smr
+entity_ids:
+- ent_oklo
+- ent_nuscale
+- ent_ge_vernova
+- ent_terrapower
+date_of_evidence: '2026-05-15'
+evidence_at: '2026-05-15'
+event_horizon:
+  event_type: regulatory_docket
+  horizon_bucket: mid_term_90d_1y
+  notes: NRC SMR design certifications + COL filings
 confidence: 0.84
 status: active
 visibility:
   classification: public_full
   strategy_leakage_risk: low
-entity_ids:
-  - ent_oklo
-  - ent_nuscale
-  - ent_ge_vernova
-  - ent_terrapower
 schema_version: 1

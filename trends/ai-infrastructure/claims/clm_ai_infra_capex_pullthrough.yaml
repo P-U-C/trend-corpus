@@ -1,19 +1,24 @@
 id: clm_ai_infra_capex_pullthrough
-claim: Hyperscaler AI capex intensity is visible first in vendor IR across accelerators, custom silicon, AI servers, cloud networking, and power/cooling backlog, making those disclosures a leading public proxy for the infrastructure cycle.
+claim: Hyperscaler AI capex intensity is visible first in vendor IR across accelerators, custom silicon, AI servers, cloud
+  networking, and power/cooling backlog, making those disclosures a leading public proxy for the infrastructure cycle.
 category: market
 source_ids:
-  - src_ai_infra_nvidia_quarterly
-  - src_ai_infra_broadcom_ir
-  - src_ai_infra_dell_quarterly
-  - src_ai_infra_vertiv_ir
-date_of_evidence: "2026-05-15"
-evidence_at: "2026-05-15"
+- src_ai_infra_nvidia_quarterly
+- src_ai_infra_broadcom_ir
+- src_ai_infra_dell_quarterly
+- src_ai_infra_vertiv_ir
+entity_ids:
+- ent_nvidia
+- ent_broadcom
+- ent_dell
+- ent_vertiv
+- ent_arista
+date_of_evidence: '2026-05-15'
+evidence_at: '2026-05-15'
+event_horizon:
+  event_type: earnings
+  horizon_bucket: near_term_0_90d
+  notes: Repriced on each hyperscaler quarterly cycle (MSFT/META/GOOGL/AMZN earnings)
 confidence: 0.78
 status: active
-entity_ids:
-  - ent_nvidia
-  - ent_broadcom
-  - ent_dell
-  - ent_vertiv
-  - ent_arista
 schema_version: 1

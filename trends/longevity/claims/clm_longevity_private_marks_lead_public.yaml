@@ -1,21 +1,32 @@
 id: clm_longevity_private_marks_lead_public
-claim: Private cohort fundraise marks now lead the public revaluation by 12-24 months. NewLimit raised $130M Series B plus $45M follow-on (Eli Lilly, Duke Management, Section 32) at $1.62B valuation. Life Biosciences entered the clinic in 2026 with ER-100, while Altos Labs remains a $3B-initial-funding preclinical cellular-rejuvenation platform. Loyal received FDA reasonable-expectation-of-effectiveness acceptance for LOY-002 in 2025 and had completed two of three major technical sections toward expanded conditional approval by early 2026, with more than $150M raised. Insilico Medicine completed Hong Kong's largest 2025 biotech IPO at approximately $293M as the first AI-driven drug-discovery HKEX listing. Eli Lilly participation in NewLimit follow-on plus its earlier acquisition of Verve Therapeutics (June 2025 cross-listed with synthetic-biology) shows large-cap pharma is actively re-pricing the longevity / cell-and-gene boundary.
+claim: Private cohort fundraise marks now lead the public revaluation by 12-24 months. NewLimit raised $130M Series B plus
+  $45M follow-on (Eli Lilly, Duke Management, Section 32) at $1.62B valuation. Life Biosciences entered the clinic in 2026
+  with ER-100, while Altos Labs remains a $3B-initial-funding preclinical cellular-rejuvenation platform. Loyal received FDA
+  reasonable-expectation-of-effectiveness acceptance for LOY-002 in 2025 and had completed two of three major technical sections
+  toward expanded conditional approval by early 2026, with more than $150M raised. Insilico Medicine completed Hong Kong's
+  largest 2025 biotech IPO at approximately $293M as the first AI-driven drug-discovery HKEX listing. Eli Lilly participation
+  in NewLimit follow-on plus its earlier acquisition of Verve Therapeutics (June 2025 cross-listed with synthetic-biology)
+  shows large-cap pharma is actively re-pricing the longevity / cell-and-gene boundary.
 category: corporate
 source_ids:
-  - src_longevity_newlimit_series_b
-  - src_longevity_life_bio_er100_ind
-  - src_longevity_life_bio_80m
-  - src_longevity_loyal_fda
-  - src_longevity_insilico_hkex_ipo
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_longevity_newlimit_series_b
+- src_longevity_life_bio_er100_ind
+- src_longevity_life_bio_80m
+- src_longevity_loyal_fda
+- src_longevity_insilico_hkex_ipo
+entity_ids:
+- ent_newlimit
+- ent_life_bio
+- ent_loyal
+- ent_insilico
+- ent_lilly_longevity
+- ent_altos
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: ipo
+  horizon_bucket: long_term_1y_3y
+  notes: NewLimit / Altos / Retro fundraise marks; eventual IPO speculation
 confidence: 0.85
 status: active
-entity_ids:
-  - ent_newlimit
-  - ent_life_bio
-  - ent_loyal
-  - ent_insilico
-  - ent_lilly_longevity
-  - ent_altos
 schema_version: 1

@@ -1,13 +1,21 @@
 id: clm_synbio_casgevy_commercial_compounding
-claim: CRISPR Therapeutics reported Q1 2026 Casgevy revenue of $43M and disclosed that more than 500 patients have initiated treatment, with full-year 2025 Casgevy revenue of $116M and cash, cash equivalents, and marketable securities of $2.44B as of 2026-03-31, making CRSP the first publicly-listed CRISPR developer with compounding commercial revenue from a one-time gene therapy. The discrete quarterly catalyst is the patient-initiation count rather than reported revenue alone, because gross-margin and revenue-share booking can lag the cell-collection event by quarters.
+claim: CRISPR Therapeutics reported Q1 2026 Casgevy revenue of $43M and disclosed that more than 500 patients have initiated
+  treatment, with full-year 2025 Casgevy revenue of $116M and cash, cash equivalents, and marketable securities of $2.44B
+  as of 2026-03-31, making CRSP the first publicly-listed CRISPR developer with compounding commercial revenue from a one-time
+  gene therapy. The discrete quarterly catalyst is the patient-initiation count rather than reported revenue alone, because
+  gross-margin and revenue-share booking can lag the cell-collection event by quarters.
 category: market
 source_ids:
-  - src_synbio_crispr_tx_q1_2026
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
-confidence: 0.90
-status: active
+- src_synbio_crispr_tx_q1_2026
 entity_ids:
-  - ent_crispr_therapeutics
-  - ent_vertex
+- ent_crispr_therapeutics
+- ent_vertex
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: earnings
+  horizon_bucket: near_term_0_90d
+  notes: 'CRSP quarterly Casgevy patient-initiation + revenue disclosures (next: Q2 2026 ~2026-08)'
+confidence: 0.9
+status: active
 schema_version: 1

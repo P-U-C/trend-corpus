@@ -1,22 +1,32 @@
 id: clm_edgeai_automotive_design_in_window
-claim: The automotive L2-plus and L3 design-in window is open and converting, but the clean public metric is design-in and SOP cadence rather than a blanket assertion that all high-end edge-AI SoCs are already in mass production. Ambarella reports approximately $13B of fiscal 2027-2032 auto opportunities across won and invited-to-bid programs, with the CV3-AD685 / Continental autonomy ramp still tracked against customer SOP timing; Hailo-10H is AEC-Q100 Grade 2 qualified and aimed at 2026 automotive designs; Mobileye EyeQ6H-based SuperVision and Chauffeur milestones plus indie Semiconductor vision-processor shipments add public automotive edge-AI comparables. NXP i.MX 95 plus S32 family and SiMa.ai MLSoC remain adjacent embedded / private signals.
+claim: The automotive L2-plus and L3 design-in window is open and converting, but the clean public metric is design-in and
+  SOP cadence rather than a blanket assertion that all high-end edge-AI SoCs are already in mass production. Ambarella reports
+  approximately $13B of fiscal 2027-2032 auto opportunities across won and invited-to-bid programs, with the CV3-AD685 / Continental
+  autonomy ramp still tracked against customer SOP timing; Hailo-10H is AEC-Q100 Grade 2 qualified and aimed at 2026 automotive
+  designs; Mobileye EyeQ6H-based SuperVision and Chauffeur milestones plus indie Semiconductor vision-processor shipments
+  add public automotive edge-AI comparables. NXP i.MX 95 plus S32 family and SiMa.ai MLSoC remain adjacent embedded / private
+  signals.
 category: market
 source_ids:
-  - src_edgeai_ambarella_cv3_continental
-  - src_edgeai_ambarella_8k_soc
-  - src_edgeai_hailo_10h_launch
-  - src_edgeai_mobileye_q1_2026
-  - src_edgeai_indie_q1_2026
-  - src_edgeai_nxp_imx_s32
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_edgeai_ambarella_cv3_continental
+- src_edgeai_ambarella_8k_soc
+- src_edgeai_hailo_10h_launch
+- src_edgeai_mobileye_q1_2026
+- src_edgeai_indie_q1_2026
+- src_edgeai_nxp_imx_s32
+entity_ids:
+- ent_ambarella
+- ent_hailo
+- ent_mobileye
+- ent_indie
+- ent_nxp
+- ent_sima_ai
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: industry_milestone
+  horizon_bucket: mid_term_90d_1y
+  notes: CV3 / Hailo-10H / SiMa.ai automotive SOP cadence across 2026 design-in window
 confidence: 0.85
 status: active
-entity_ids:
-  - ent_ambarella
-  - ent_hailo
-  - ent_mobileye
-  - ent_indie
-  - ent_nxp
-  - ent_sima_ai
 schema_version: 1

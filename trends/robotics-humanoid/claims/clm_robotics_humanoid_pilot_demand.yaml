@@ -1,20 +1,25 @@
 id: clm_robotics_humanoid_pilot_demand
-claim: Commercial pilots and production deployments at Tesla, BMW, Mercedes-Benz, Symbotic customers, and Serve delivery markets are the leading public indicators that embodied robotics is moving from demos toward revenue inflection.
+claim: Commercial pilots and production deployments at Tesla, BMW, Mercedes-Benz, Symbotic customers, and Serve delivery markets
+  are the leading public indicators that embodied robotics is moving from demos toward revenue inflection.
 category: market
 source_ids:
-  - src_robotics_humanoid_tesla_quarterly
-  - src_robotics_humanoid_figure_bmw
-  - src_robotics_humanoid_apptronik_mercedes
-  - src_robotics_humanoid_symbotic_ir
-  - src_robotics_humanoid_serve_ir
-date_of_evidence: "2026-05-15"
-evidence_at: "2026-05-15"
-confidence: 0.80
-status: active
+- src_robotics_humanoid_tesla_quarterly
+- src_robotics_humanoid_figure_bmw
+- src_robotics_humanoid_apptronik_mercedes
+- src_robotics_humanoid_symbotic_ir
+- src_robotics_humanoid_serve_ir
 entity_ids:
-  - ent_tesla
-  - ent_figure_ai
-  - ent_apptronik
-  - ent_symbotic
-  - ent_serve_robotics
+- ent_tesla
+- ent_figure_ai
+- ent_apptronik
+- ent_symbotic
+- ent_serve_robotics
+date_of_evidence: '2026-05-15'
+evidence_at: '2026-05-15'
+event_horizon:
+  event_type: structural
+  horizon_bucket: mid_term_90d_1y
+  notes: BMW / Mercedes / Honda humanoid pilot expansion + Figure / Optimus deployment counts
+confidence: 0.8
+status: active
 schema_version: 1

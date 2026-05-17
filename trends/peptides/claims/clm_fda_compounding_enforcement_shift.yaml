@@ -1,10 +1,15 @@
 id: clm_fda_compounding_enforcement_shift
-claim: FDA drug-shortage status governs whether 503A compounding pharmacies and 503B outsourcing facilities may legally compound GLP-1 analogs, and the resolution of a shortage materially changes who can sell compounded product.
+claim: FDA drug-shortage status governs whether 503A compounding pharmacies and 503B outsourcing facilities may legally compound
+  GLP-1 analogs, and the resolution of a shortage materially changes who can sell compounded product.
 category: regulatory
 source_ids:
-  - src_fda_drug_shortages
-  - src_fda_drug_alerts
-  - src_endpoints_obesity
-date_of_evidence: "2026-05-15"
+- src_fda_drug_shortages
+- src_fda_drug_alerts
+- src_endpoints_obesity
+date_of_evidence: '2026-05-15'
+event_horizon:
+  event_type: regulatory_docket
+  horizon_bucket: near_term_0_90d
+  notes: FDA Section 503A/503B compounded-GLP-1 enforcement letters + shortage-list movements
 confidence: 0.85
 schema_version: 1

@@ -1,19 +1,25 @@
 id: clm_defense_ai_ndaa_visibility
-claim: NDAA / Replicator / RDT&E line-item growth provides multi-year priced-in demand visibility for AI / autonomy vendors before private contract awards land, making the annual NDAA passage a more reliable leading indicator than per-program contract announcements for sector-level positioning.
+claim: NDAA / Replicator / RDT&E line-item growth provides multi-year priced-in demand visibility for AI / autonomy vendors
+  before private contract awards land, making the annual NDAA passage a more reliable leading indicator than per-program contract
+  announcements for sector-level positioning.
 category: market
 source_ids:
-  - src_defense_ai_dod_news
-  - src_defense_ai_replicator
-  - src_defense_ai_darpa
-  - src_defense_ai_defense_news
-date_of_evidence: "2026-05-15"
-evidence_at: "2026-05-15"
-confidence: 0.80
-status: active
+- src_defense_ai_dod_news
+- src_defense_ai_replicator
+- src_defense_ai_darpa
+- src_defense_ai_defense_news
 entity_ids:
-  - ent_palantir
-  - ent_leidos
-  - ent_aerovironment
-  - ent_kratos
-  - ent_anduril
+- ent_palantir
+- ent_leidos
+- ent_aerovironment
+- ent_kratos
+- ent_anduril
+date_of_evidence: '2026-05-15'
+evidence_at: '2026-05-15'
+event_horizon:
+  event_type: budget_appropriation
+  event_date: '2026-12-15'
+  notes: FY2027 NDAA passage typically mid-December
+confidence: 0.8
+status: active
 schema_version: 1

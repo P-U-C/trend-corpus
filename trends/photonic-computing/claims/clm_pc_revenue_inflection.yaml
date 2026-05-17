@@ -1,26 +1,27 @@
 id: clm_pc_revenue_inflection
-claim: >
-  Public optical names crossed material revenue inflections that align
-  with hyperscaler AI-buildout pacing. Lumentum reported fiscal Q3 2026
-  revenue of $808.4M, up 90 percent year over year, after fiscal Q2 2026
-  revenue of $665.5M and a $400M-plus Optical Circuit Switch backlog
-  baseline. Coherent reported fiscal Q3 2026 revenue of $1.806B, up
-  approximately 21 percent year over year. Applied Optoelectronics
-  rallied 24 percent in a single trading day on May 11, 2026 as the
-  optics trade rotated. LITE and COHR had rallied materially YTD by
-  mid-May 2026, but exact YTD percentages should be date-stamped rather
-  than carried as durable evidence.
+claim: 'Public optical names crossed material revenue inflections that align with hyperscaler AI-buildout pacing. Lumentum
+  reported fiscal Q3 2026 revenue of $808.4M, up 90 percent year over year, after fiscal Q2 2026 revenue of $665.5M and a
+  $400M-plus Optical Circuit Switch backlog baseline. Coherent reported fiscal Q3 2026 revenue of $1.806B, up approximately
+  21 percent year over year. Applied Optoelectronics rallied 24 percent in a single trading day on May 11, 2026 as the optics
+  trade rotated. LITE and COHR had rallied materially YTD by mid-May 2026, but exact YTD percentages should be date-stamped
+  rather than carried as durable evidence.
+
+  '
 category: market
 source_ids:
-  - src_pc_lumentum_q2_2026
-  - src_pc_coherent_q3_2026
-  - src_pc_aaoi_cpo_rally
-date_of_evidence: "2026-05-17"
-evidence_at: "2026-05-17"
+- src_pc_lumentum_q2_2026
+- src_pc_coherent_q3_2026
+- src_pc_aaoi_cpo_rally
+entity_ids:
+- ent_lumentum
+- ent_coherent
+- ent_aaoi
+date_of_evidence: '2026-05-17'
+evidence_at: '2026-05-17'
+event_horizon:
+  event_type: earnings
+  horizon_bucket: near_term_0_90d
+  notes: LITE / COHR / AAOI quarterly revenue + OCS backlog reports
 confidence: 0.88
 status: active
-entity_ids:
-  - ent_lumentum
-  - ent_coherent
-  - ent_aaoi
 schema_version: 1

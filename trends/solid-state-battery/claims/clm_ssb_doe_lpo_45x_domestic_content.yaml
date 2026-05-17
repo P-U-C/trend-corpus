@@ -1,18 +1,26 @@
 id: clm_ssb_doe_lpo_45x_domestic_content
-claim: U.S. DOE Loan Programs Office Title 17 and ATVM commitments combined with IRA Section 45X manufacturing tax credits substantially change the economics of U.S.-sited solid-state pilot and early commercial lines. The regulatory layer creates a tradable distinction between QuantumScape and Solid Power (U.S.-sited cell and electrolyte work) and Ampcera (U.S. sulfide electrolyte) on one hand, and Asian-sited programs (Toyota, Samsung SDI, SK On) on the other. The IRA 45X interpretive guidance for cell components is the leading regulatory signal worth tracking on quarterly cadence.
+claim: U.S. DOE Loan Programs Office Title 17 and ATVM commitments combined with IRA Section 45X manufacturing tax credits
+  substantially change the economics of U.S.-sited solid-state pilot and early commercial lines. The regulatory layer creates
+  a tradable distinction between QuantumScape and Solid Power (U.S.-sited cell and electrolyte work) and Ampcera (U.S. sulfide
+  electrolyte) on one hand, and Asian-sited programs (Toyota, Samsung SDI, SK On) on the other. The IRA 45X interpretive guidance
+  for cell components is the leading regulatory signal worth tracking on quarterly cadence.
 category: regulatory
 source_ids:
-  - src_ssb_doe_lpo_battery
-  - src_ssb_quantumscape_q1_2026
-  - src_ssb_solid_power_samsung
-  - src_ssb_ampcera_scaling
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+- src_ssb_doe_lpo_battery
+- src_ssb_quantumscape_q1_2026
+- src_ssb_solid_power_samsung
+- src_ssb_ampcera_scaling
+entity_ids:
+- ent_quantumscape
+- ent_solid_power
+- ent_ampcera
+- ent_ses_ai
+date_of_evidence: '2026-05-16'
+evidence_at: '2026-05-16'
+event_horizon:
+  event_type: policy_decision
+  horizon_bucket: mid_term_90d_1y
+  notes: DOE LPO ATVM / Title 17 awards + IRS 45X interpretive guidance
 confidence: 0.75
 status: active
-entity_ids:
-  - ent_quantumscape
-  - ent_solid_power
-  - ent_ampcera
-  - ent_ses_ai
 schema_version: 1

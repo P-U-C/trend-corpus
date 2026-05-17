@@ -1,26 +1,27 @@
 id: clm_pc_nvidia_anchor_investment
-claim: >
-  NVIDIA's March 2, 2026 $4B strategic commitment split equally between
-  Lumentum and Coherent includes $2B of investment in each company,
-  multibillion-dollar advanced-laser or optical-networking purchase
-  commitments, future capacity / access rights, and U.S. manufacturing
-  support. It is one of the largest public, customer-anchored
-  silicon-photonics commitments, but the "largest ever" framing is not
-  independently provable across prior internal hyperscaler, Intel, or
-  foundry programs. The discrete catalyst is the conversion of
-  purchase-commitment language into reported revenue, OCS backlog
-  conversion, and pluggable / CPO design wins.
+claim: 'NVIDIA''s March 2, 2026 $4B strategic commitment split equally between Lumentum and Coherent includes $2B of investment
+  in each company, multibillion-dollar advanced-laser or optical-networking purchase commitments, future capacity / access
+  rights, and U.S. manufacturing support. It is one of the largest public, customer-anchored silicon-photonics commitments,
+  but the "largest ever" framing is not independently provable across prior internal hyperscaler, Intel, or foundry programs.
+  The discrete catalyst is the conversion of purchase-commitment language into reported revenue, OCS backlog conversion, and
+  pluggable / CPO design wins.
+
+  '
 category: corporate
 source_ids:
-  - src_pc_nvidia_lite_cohr_investment
-  - src_pc_lumentum_q2_2026
-  - src_pc_coherent_q3_2026
-date_of_evidence: "2026-05-17"
-evidence_at: "2026-05-17"
+- src_pc_nvidia_lite_cohr_investment
+- src_pc_lumentum_q2_2026
+- src_pc_coherent_q3_2026
+entity_ids:
+- ent_lumentum
+- ent_coherent
+- ent_nvidia_cpo
+date_of_evidence: '2026-05-17'
+evidence_at: '2026-05-17'
+event_horizon:
+  event_type: structural
+  event_date: '2026-03-01'
+  notes: NVIDIA $4B commitment announced; ongoing purchase-commitment burn reported quarterly
 confidence: 0.88
 status: active
-entity_ids:
-  - ent_lumentum
-  - ent_coherent
-  - ent_nvidia_cpo
 schema_version: 1
