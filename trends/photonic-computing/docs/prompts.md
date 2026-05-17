@@ -54,14 +54,16 @@ CONFIDENCE GUIDANCE:
 
 ENTITY SLUGS: use short lowercase names. Examples:
   "lumentum", "coherent", "applied_optoelectronics", "macom", "nlight",
-  "poet", "marvell", "nvidia_cpo", "lightmatter", "ayar_labs",
-  "celestial_ai", "psiquantum_photonic", "tsmc", "global_foundries",
+  "poet", "aeluma", "marvell", "broadcom", "nvidia_cpo",
+  "lightmatter", "ayar_labs", "salience_labs", "celestial_ai",
+  "psiquantum_photonic", "tsmc", "global_foundries", "tower_semiconductor",
   "bis", "chips_act_title_17"
 
 TOPIC NAMES (lowercase). Examples for photonic-computing:
   "cpo", "co_packaged_optics", "ocs", "optical_circuit_switch",
   "tera_phy", "supernova", "envise", "passage_l200",
-  "photonic_fabric", "tbps", "pj_per_bit", "vcsel", "dfb_laser",
+  "photonic_fabric", "tomahawk_cpo", "scale_cpo", "coupe", "tbps",
+  "pj_per_bit", "vcsel", "dfb_laser", "quantum_dot_laser",
   "edfa", "coherent_dsp", "silicon_photonic_line", "cowos_packaging",
   "inp_wafer", "ofc_2026", "u_s_fab_support", "1_6t_optical_engine",
   "memory_disaggregation"
@@ -152,14 +154,14 @@ SUPERSEDENCE EXISTS when a new claim asserts a state of the world that directly
 contradicts or updates an existing claim. Examples:
 - NEW: "NVIDIA pulled the Coherent share of the $4B commitment on 2026-09-01" SUPERSEDES
   OLD: "NVIDIA committed $2B to Coherent in March 2026" (state change in the strategic-investment field)
-- NEW: "Lumentum fiscal Q3 2026 revenue fell to $480M from $665.5M in Q2" SUPERSEDES
-  OLD: "Lumentum reported fiscal Q2 2026 revenue $665.5M (+66 percent YoY)" (sequential revenue change)
-- NEW: "TSMC reallocated silicon-photonic line capacity to mobile customers reducing AI-datacenter share below 30 percent on 2026-10-15" SUPERSEDES
-  OLD: "TSMC silicon-photonic line capacity is broadly available to AI-datacenter customers" (allocation state change)
+- NEW: "Lumentum fiscal Q4 2026 revenue fell to $640M from $808.4M in Q3" SUPERSEDES
+  OLD: "Lumentum reported fiscal Q3 2026 revenue $808.4M (+90 percent YoY)" (sequential revenue change)
+- NEW: "TSMC delayed COUPE / CoWoS CPO qualification from 2026 to 2028 on 2026-10-15" SUPERSEDES
+  OLD: "TSMC COUPE and CoWoS are usable public proxy signals for the photonic supply ramp" (observable roadmap state change)
 
 SUPERSEDENCE DOES NOT EXIST for:
 - Related but independent product launches from different vendors
-- Claims about different chiplet keystones (Lightmatter vs. Ayar Labs vs. Celestial AI) that remain independently true
+- Claims about different chiplet keystones (Lightmatter vs. Ayar Labs vs. Salience Labs vs. Celestial AI inside Marvell) that remain independently true
 - Claims where new adds nuance but does not contradict
 
 NEW CLAIMS (just extracted):

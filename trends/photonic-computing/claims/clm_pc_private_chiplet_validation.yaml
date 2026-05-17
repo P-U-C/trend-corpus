@@ -1,16 +1,37 @@
 id: clm_pc_private_chiplet_validation
-claim: The private cohort crossed venture milestones validating the chiplet-level integration thesis. Lightmatter raised to approximately $822M total at $4.4B valuation with Passage L200 / L200x optical I/O above 200 Tbps total bandwidth and an 8x training-time claim for advanced AI models. Ayar Labs raised a $500M Series E in March 2026 bringing total funding to about $870M, with CEO Mark Wade publicly forecasting on-chip optical I/O market maturity in 2026-2028. Celestial AI's Photonic Fabric extends the same chiplet story to memory disaggregation. Private fundraise marks lead public revenue inflection by 12-24 months.
+claim: >
+  The private and recently acquired chiplet cohort crossed
+  commercialization milestones that validate the optical-I/O integration
+  thesis. Lightmatter raised $400M in October 2024 at a $4.4B valuation,
+  bringing total capital raised to $850M, and later announced Passage
+  L200 / L200x optical I/O above 200 Tbps total bandwidth with an 8x
+  training-time claim for advanced AI models. Ayar Labs raised a $500M
+  Series E on March 3, 2026, bringing total funding to $870M at a $3.75B
+  valuation, and says its CPO solution is progressing toward
+  high-volume manufacturing by 2028. Marvell completed the Celestial AI
+  acquisition on February 2, 2026 and expects Celestial-derived revenue
+  to begin in the second half of fiscal 2028, reaching a $500M
+  annualized run rate in Q4 FY2028 and $1B in Q4 FY2029. Salience Labs
+  launched a 32-port all-optical silicon-photonic switch and partnered
+  with Tower to move OCS manufacturing toward pre-production. The
+  12-24-month lead from private or acquired platform milestones to public
+  revenue inflection is a watchlist hypothesis, not a settled fact.
 category: corporate
 source_ids:
   - src_pc_lightmatter_passage
+  - src_pc_lightmatter_series_d
   - src_pc_ayar_series_e
   - src_pc_celestial_photonic_fabric
-date_of_evidence: "2026-05-16"
-evidence_at: "2026-05-16"
+  - src_pc_salience_tower_ocs
+date_of_evidence: "2026-05-17"
+evidence_at: "2026-05-17"
 confidence: 0.85
 status: active
 entity_ids:
   - ent_lightmatter
   - ent_ayar_labs
   - ent_celestial_ai
+  - ent_marvell
+  - ent_salience_labs
+  - ent_tower_semiconductor
 schema_version: 1

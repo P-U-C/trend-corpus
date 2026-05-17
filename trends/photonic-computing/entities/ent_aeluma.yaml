@@ -1,0 +1,29 @@
+id: ent_aeluma
+name: Aeluma Inc
+entity_type: public_company
+schema_version: 1
+slug: aeluma
+tickers:
+  - ALMU
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: ALMU
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: ALMU
+    direction: beneficiary
+    exposure_strength: 0.25
+    basis:
+      - manufacturing_capacity
+      - supply_chain_role
+    tradable: true
+role:
+  - quantum_dot_lasers
+  - compound_semiconductor_on_silicon
+  - cpo_laser_supply
+notes: >
+  Micro-cap compound-semiconductor-on-silicon developer. April 2026
+  contracts and Tower / Sumitomo manufacturing partnerships tie Aeluma's
+  quantum-dot laser platform to AI data-center interconnect and CPO supply,
+  but exposure is early and high variance.

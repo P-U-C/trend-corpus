@@ -1,0 +1,29 @@
+id: ent_tower_semiconductor
+name: Tower Semiconductor Ltd
+entity_type: public_company
+schema_version: 1
+slug: tower-semiconductor
+tickers:
+  - TSEM
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: TSEM
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: TSEM
+    direction: beneficiary
+    exposure_strength: 0.25
+    basis:
+      - manufacturing_capacity
+      - supply_chain_role
+    tradable: true
+role:
+  - silicon_photonics_foundry
+  - optical_switch_manufacturing
+  - specialty_analog_foundry
+notes: >
+  Specialty foundry with silicon-photonics platforms used by Salience Labs
+  for PIC-based Optical Circuit Switches and by Aeluma partner work. Exposure
+  is indirect and manufacturing-led, but Tower is a visible public supply-chain
+  proxy for AI optical switching pre-production.

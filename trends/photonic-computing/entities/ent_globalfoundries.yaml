@@ -1,0 +1,30 @@
+id: ent_globalfoundries
+name: GlobalFoundries Inc
+entity_type: public_company
+schema_version: 1
+slug: globalfoundries
+tickers:
+  - GFS
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: GFS
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: GFS
+    direction: beneficiary
+    exposure_strength: 0.25
+    basis:
+      - manufacturing_capacity
+      - supply_chain_role
+    tradable: true
+role:
+  - silicon_photonics_foundry
+  - cpo_module_platform
+  - photonic_packaging
+notes: >
+  Foundry supplier for silicon photonics and CPO modules. GF announced its
+  SCALE optical module solution for co-packaged optics on May 4, 2026,
+  positioning the platform as OCI MSA-capable and built on GF silicon
+  photonics technology. Exposure is lower than LITE / COHR because CPO is a
+  slice of a broader foundry business.
