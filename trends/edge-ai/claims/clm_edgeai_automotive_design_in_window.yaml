@@ -1,10 +1,12 @@
 id: clm_edgeai_automotive_design_in_window
-claim: The automotive L2-plus and L3 design-in window is open and converting to mass production at multiple edge-AI silicon developers simultaneously. Ambarella CV3-AD685 moved into mass production during 2025 with Continental and Bosch radar-vision fusion integration; Hailo-10H is AEC-Q100 Grade 2 qualified and scheduled for 2026 in-vehicle production at cockpit displays, driver monitoring, and IVI; NXP i.MX 95 plus S32 family ship embedded NPU features in current automotive socket; SiMa.ai MLSoC competes in the same ADAS reference-design slots. The quantified Ambarella auto opportunity pipeline (~$13B fiscal 2027-2032, ~$2.2B funnel) plus the Hailo-10H production schedule make 2026 the year design-in conversion can be tracked at quarterly cadence.
+claim: The automotive L2-plus and L3 design-in window is open and converting, but the clean public metric is design-in and SOP cadence rather than a blanket assertion that all high-end edge-AI SoCs are already in mass production. Ambarella reports approximately $13B of fiscal 2027-2032 auto opportunities across won and invited-to-bid programs, with the CV3-AD685 / Continental autonomy ramp still tracked against customer SOP timing; Hailo-10H is AEC-Q100 Grade 2 qualified and aimed at 2026 automotive designs; Mobileye EyeQ6H-based SuperVision and Chauffeur milestones plus indie Semiconductor vision-processor shipments add public automotive edge-AI comparables. NXP i.MX 95 plus S32 family and SiMa.ai MLSoC remain adjacent embedded / private signals.
 category: market
 source_ids:
   - src_edgeai_ambarella_cv3_continental
   - src_edgeai_ambarella_8k_soc
   - src_edgeai_hailo_10h_launch
+  - src_edgeai_mobileye_q1_2026
+  - src_edgeai_indie_q1_2026
   - src_edgeai_nxp_imx_s32
 date_of_evidence: "2026-05-16"
 evidence_at: "2026-05-16"
@@ -13,6 +15,8 @@ status: active
 entity_ids:
   - ent_ambarella
   - ent_hailo
+  - ent_mobileye
+  - ent_indie
   - ent_nxp
   - ent_sima_ai
 schema_version: 1

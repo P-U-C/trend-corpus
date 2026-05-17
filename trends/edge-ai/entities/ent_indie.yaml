@@ -1,0 +1,30 @@
+id: ent_indie
+name: indie Semiconductor Inc
+entity_type: public_company
+schema_version: 1
+slug: indie
+tickers:
+  - INDI
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: INDI
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: INDI
+    direction: beneficiary
+    exposure_strength: 0.70
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - automotive_vision_processor
+  - radar_lidar_soc
+  - perception_software
+notes: >
+  Automotive semiconductor pure play with radar, computer-vision, LiDAR,
+  ultrasound, and perception-software exposure. Q1 2026 results disclosed
+  volume shipments of a vision processor to NIO for eMirror camera deployment,
+  iND880 production ramp for a camera mirror system with a large Chinese OEM,
+  and a Mahindra perception-software design win.

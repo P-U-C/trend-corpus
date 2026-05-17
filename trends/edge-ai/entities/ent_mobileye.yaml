@@ -1,0 +1,30 @@
+id: ent_mobileye
+name: Mobileye Global Inc
+entity_type: public_company
+schema_version: 1
+slug: mobileye
+tickers:
+  - MBLY
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MBLY
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MBLY
+    direction: beneficiary
+    exposure_strength: 0.75
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - automotive_vision_soc
+  - adas_platform
+  - robotaxi_stack
+notes: >
+  Automotive edge-AI silicon and perception software pure play. EyeQ SoCs,
+  SuperVision, Chauffeur, and Drive compete for ADAS / autonomy sockets
+  adjacent to Ambarella CV3 and NVIDIA Drive. Q1 2026 results disclosed
+  EyeQ6H-based SuperVision milestones, VW / MOIA Drive progress, and Mahindra
+  design wins.

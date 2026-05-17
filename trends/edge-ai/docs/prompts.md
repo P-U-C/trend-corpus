@@ -53,15 +53,17 @@ CONFIDENCE GUIDANCE:
 - <0.5: do not emit; skip the claim
 
 ENTITY SLUGS: use short lowercase names. Examples:
-  "ambarella", "synaptics", "lattice", "qualcomm", "arm", "nxp",
+  "ambarella", "synaptics", "lattice", "mobileye", "indie", "qualcomm", "arm", "nxp",
   "stmicro", "ti", "nvidia_jetson", "hailo", "mythic", "tenstorrent",
-  "sima_ai", "untether_ai", "bis", "tsmc", "continental", "bosch"
+  "sima_ai", "untether_ai", "axelera_ai", "bis", "tsmc", "continental", "bosch"
 
 TOPIC NAMES (lowercase). Examples for edge-ai:
   "cv3_ad685", "cv5", "cv7", "n1", "astra_sl2610", "ethos_npu",
   "cortex_m", "cortex_a", "stm32n6", "neural_art", "x_cube_ai",
   "sitara_am6", "imx_95", "s32", "dragonwing_iq10", "arduino",
-  "edge_impulse", "foundries_io", "hailo_10h", "aec_q100", "ami_acquisition",
+  "edge_impulse", "focus_ai", "augentix", "foundries_io", "hailo_10h",
+  "eyeq6h", "supervision", "chauffeur", "ind881", "metis", "europa",
+  "aec_q100", "ami_acquisition",
   "auto_pipeline", "tops_per_watt", "transformer_inference",
   "in_memory_compute", "analog_compute", "cowos_packaging", "5nm",
   "bis_entity_list", "license_exception", "design_in_window"
@@ -154,8 +156,8 @@ contradicts or updates an existing claim. Examples:
   OLD: "Ambarella auto opportunity pipeline is ~$13B fiscal 2027-2032" (state change at the headline number)
 - NEW: "Lattice Semiconductor abandoned the AMI acquisition on 2026-09-15" SUPERSEDES
   OLD: "Lattice signed a $1.65B definitive agreement to acquire AMI expected to close Q3 2026" (transaction outcome change)
-- NEW: "BIS issued a license exception broadening China-bound shipments of edge AI chips below 70 TOPS on 2026-10-01" SUPERSEDES
-  OLD: "BIS export controls materially affect China-bound shipments of edge-AI silicon above 50 TOPS" (regulatory state change)
+- NEW: "BIS amended ECCN 3A090 / 4A090 or Supplement No. 2 to Part 748 paragraph (dd) on 2026-10-01 to broaden China-bound case-by-case eligibility for advanced computing commodities" SUPERSEDES
+  OLD: "BIS export controls materially affect China-bound AI-chip shipments and license-review standards" (regulatory state change)
 
 SUPERSEDENCE DOES NOT EXIST for:
 - Related but independent design-in updates from different developers

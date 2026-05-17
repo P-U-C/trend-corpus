@@ -1,8 +1,9 @@
 id: clm_edgeai_supply_constraint_bis
-claim: Two parallel structural constraints sit upstream of every edge-AI design win. First, TSMC 5nm / 4nm wafer allocation and CoWoS-class advanced packaging is concentrated against datacenter training silicon, crowding out edge SoCs from premium nodes and forcing edge designers (Ambarella, Synaptics, Hailo) onto longer-tail nodes. Second, BIS export-control updates on advanced computing and AI chips materially affect China-bound shipments for QCOM, AMBA, NVDA Jetson, and supply-chain partners; entity-list additions and license-exception changes are the leading regulatory signal.
+claim: Two upstream constraints need to be monitored, but only one is directly supported as a current factual constraint in this corpus. BIS advanced-computing export-control rules materially affect China-bound shipment paths for datacenter-class AI chips and can spill into edge-AI suppliers with China exposure; the leading regulatory signal is changes to ECCN 3A090 / 4A090 treatment, Entity List scope, and license-review standards. TSMC 5nm / 4nm, N3, and CoWoS-class capacity remain important supply-watchlist inputs because AI/HPC demand dominates leading-edge capacity, but current TSMC commentary says it is maximizing support across platforms rather than proving that edge SoCs are being crowded out.
 category: supply
 source_ids:
   - src_edgeai_bis_export_controls
+  - src_edgeai_tsmc_q1_2026
   - src_edgeai_ambarella_cv3_continental
   - src_edgeai_qualcomm_dragonwing
   - src_edgeai_hailo_10h_launch

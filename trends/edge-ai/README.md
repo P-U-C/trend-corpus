@@ -10,7 +10,7 @@ before any private execution.
 
 In scope:
 - Pure-play edge-vision and embedded NPU designers (Ambarella,
-  Synaptics, Lattice Semiconductor)
+  Synaptics, Lattice Semiconductor, Mobileye, indie Semiconductor)
 - Embedded MCU and analog incumbents with material edge-AI revenue
   exposure (NXP Semiconductors, STMicroelectronics, Texas Instruments)
 - Mega-cap semiconductor primes whose edge programs materially shift
@@ -20,7 +20,8 @@ In scope:
   (NVIDIA Jetson exposure, AVGO networking-and-NPU adjacency -- both
   cross-listed with ai-infrastructure)
 - Privately-held edge-AI silicon cohort whose fundraise marks reprice
-  the public set (Hailo, Mythic, Tenstorrent, SiMa.ai, Untether AI)
+  the public set (Hailo, Mythic, Tenstorrent, SiMa.ai, Untether AI,
+  Axelera AI)
 
 Out of scope:
 - Cloud-scale training GPU economics (lives in ai-infrastructure)
@@ -28,27 +29,40 @@ Out of scope:
 - Wireless connectivity standards work (5G / Wi-Fi 7) except where it
   bundles into a specific edge-AI design win
 - General-purpose CPU roadmaps without explicit NPU integration
+- Intel / AMD / GlobalFoundries as scanner seeds: OpenVINO / Movidius,
+  AMD Kria / Xilinx, and GF silicon photonics are real adjacencies, but
+  the tradable exposure is too diluted or better captured in
+  ai-infrastructure / photonic-computing unless a specific edge-AI
+  revenue disclosure appears
+- Datacenter-first private accelerators (Groq, Cerebras, Etched, Rivos,
+  Esperanto) unless they disclose an edge-specific product ramp or
+  automotive / industrial design-in program
 - Non-public customer design-in details, RTL, or BIS-controlled
   export-license information
 
 ## Why now
 
 Three structural shifts are running in parallel. First, the automotive
-L2-plus and L3 design-in window is open and converting: Ambarella moved
-multiple CV3 wins into mass production in 2025 with Continental and
-Bosch radar-vision fusion, with a quantified roughly $13B auto pipeline
-fiscal 2027-2032. Second, on-device generative AI shipped in 2026: Hailo
-launched the Hailo-10H GenAI accelerator (AEC-Q100 Grade 2, 2.5W typical
-draw) scheduled for 2026 in-vehicle production, Synaptics launched the
-Astra multimodal GenAI processor line (SL2610 sampling, Q2 2026 GA),
-and Qualcomm launched Dragonwing IQ10 at CES 2026. Third, the platform
-consolidation is real: Qualcomm closed five acquisitions in 18 months
-(Arduino, Edge Impulse, Foundries.io, two others) and Lattice
-Semiconductor signed a $1.65B AMI deal in May 2026 expected to close
-Q3. The catalyst is the convergence of automotive program ramps,
-on-device GenAI demand, and platform consolidation; the risk is HBM and
-leading-edge wafer allocation crowding out edge-AI capacity, plus BIS
-export-control changes affecting China-bound shipments.
+L2-plus and L3 design-in window is open and converting: Ambarella has a
+quantified roughly $13B fiscal 2027-2032 auto opportunity across won and
+invited-to-bid programs, while the higher-end CV3-AD685 program remains
+tracked against customer SOP timing rather than treated as already
+material production revenue. Mobileye EyeQ6H / SuperVision and indie
+vision-processor shipments give the public cohort two additional
+automotive edge-AI comparables. Second, on-device generative AI is
+reaching commercial edge ramps by 2026: Hailo launched the Hailo-10H
+GenAI accelerator (AEC-Q100 Grade 2, 2.5W typical draw) with a 2026
+automotive-design production target, Synaptics launched the Astra
+multimodal GenAI processor line (SL2610 sampling, Q2 2026 GA), and
+Qualcomm launched Dragonwing IQ10 at CES 2026. Third, the platform
+consolidation is real: Qualcomm closed five
+acquisitions in 18 months (Augentix, Arduino, Edge Impulse, Focus.AI,
+Foundries.io) and Lattice Semiconductor signed a $1.65B AMI deal on May
+4, 2026, expected to close in Q3 2026. The catalyst is the convergence
+of automotive program ramps, on-device GenAI demand, and platform
+consolidation; the risk is concentrated leading-edge capacity and
+advanced-computing export-control changes, not a fully sourced claim
+that edge SoCs are currently being crowded out of TSMC nodes.
 
 ## What's in this directory
 
@@ -58,8 +72,8 @@ export-control changes affecting China-bound shipments.
   feeds the runtime ingests
 - `claims/` -- 3 example claims demonstrating the category taxonomy
   (corporate, market, supply). Illustrative, not pulled from a live db.
-- `entities/` -- the scanner seeds (AMBA, SYNA, LSCC) plus embedded
-  incumbent adjacents, mega-cap primes, and 5 private keystones
+- `entities/` -- the scanner seeds (AMBA, SYNA, LSCC, MBLY, INDI) plus
+  embedded incumbent adjacents, mega-cap primes, and 6 private keystones
   (entity_type private_company; no ticker_exposures)
 - `events/` -- one example M&A milestone event
 - `theses/` -- the synthesizing argument
