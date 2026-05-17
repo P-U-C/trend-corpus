@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-17T16:25:49Z",
+  "theme_id": "ai-infrastructure",
+  "generator": {
+    "name": "theme-runtime-aggregates-exporter",
+    "version": "0.1.0",
+    "host_alias": "city-worker-301"
+  },
+  "underlying_claim_count": 48,
+  "underlying_source_count": 11,
+  "min_count_threshold": 1,
+  "windows": {
+    "30d": {
+      "claims_total": 24,
+      "claims_by_category": {
+        "market": 12,
+        "corporate": 7,
+        "regulatory": 5
+      },
+      "top_entities": [
+        {
+          "slug": "taiwan_semiconductor",
+          "mentions": 8
+        },
+        {
+          "slug": "astera_labs",
+          "mentions": 6
+        },
+        {
+          "slug": "doc",
+          "mentions": 5
+        },
+        {
+          "slug": "broadcom",
+          "mentions": 4
+        },
+        {
+          "slug": "marvell",
+          "mentions": 1
+        },
+        {
+          "slug": "celestial_ai",
+          "mentions": 1
+        },
+        {
+          "slug": "korea_zinc",
+          "mentions": 1
+        },
+        {
+          "slug": "hyperscale_gcp",
+          "mentions": 1
+        }
+      ]
+    },
+    "90d": {
+      "claims_total": 25,
+      "claims_by_category": {
+        "market": 12,
+        "corporate": 8,
+        "regulatory": 5
+      },
+      "top_entities": [
+        {
+          "slug": "taiwan_semiconductor",
+          "mentions": 8
+        },
+        {
+          "slug": "astera_labs",
+          "mentions": 6
+        },
+        {
+          "slug": "doc",
+          "mentions": 5
+        },
+        {
+          "slug": "broadcom",
+          "mentions": 5
+        },
+        {
+          "slug": "marvell",
+          "mentions": 1
+        },
+        {
+          "slug": "celestial_ai",
+          "mentions": 1
+        },
+        {
+          "slug": "korea_zinc",
+          "mentions": 1
+        },
+        {
+          "slug": "hyperscale_gcp",
+          "mentions": 1
+        }
+      ]
+    },
+    "365d": {
+      "claims_total": 29,
+      "claims_by_category": {
+        "market": 13,
+        "corporate": 8,
+        "regulatory": 6,
+        "supply": 1,
+        "manufacturing": 1
+      },
+      "top_entities": [
+        {
+          "slug": "taiwan_semiconductor",
+          "mentions": 9
+        },
+        {
+          "slug": "astera_labs",
+          "mentions": 6
+        },
+        {
+          "slug": "doc",
+          "mentions": 5
+        },
+        {
+          "slug": "broadcom",
+          "mentions": 5
+        },
+        {
+          "slug": "huawei",
+          "mentions": 2
+        },
+        {
+          "slug": "marvell",
+          "mentions": 1
+        },
+        {
+          "slug": "celestial_ai",
+          "mentions": 1
+        },
+        {
+          "slug": "korea_zinc",
+          "mentions": 1
+        },
+        {
+          "slug": "hyperscale_gcp",
+          "mentions": 1
+        },
+        {
+          "slug": "cxmt",
+          "mentions": 1
+        },
+        {
+          "slug": "smic",
+          "mentions": 1
+        },
+        {
+          "slug": "nvidia",
+          "mentions": 1
+        }
+      ]
+    }
+  },
+  "source_freshness": [
+    {
+      "url": "https://investor.marvell.com/financial-information/financial-results",
+      "last_ingested_at": "2026-05-15 21:23:29"
+    },
+    {
+      "url": "https://investor.tsmc.com/english/quarterly-results",
+      "last_ingested_at": "2026-05-15 21:23:30"
+    },
+    {
+      "url": "https://investors.broadcom.com/",
+      "last_ingested_at": "2026-05-15 21:23:28"
+    },
+    {
+      "url": "https://investors.delltechnologies.com/financial-information/quarterly-results",
+      "last_ingested_at": "2026-05-15 21:23:29"
+    },
+    {
+      "url": "https://ir.amd.com/financial-information/quarterly-results",
+      "last_ingested_at": "2026-05-17 00:00:02"
+    },
+    {
+      "url": "https://ir.asteralabs.com/",
+      "last_ingested_at": "2026-05-15 21:23:28"
+    },
+    {
+      "url": "https://semianalysis.com/tag/ai-infrastructure/",
+      "last_ingested_at": "2026-05-15 21:23:33"
+    },
+    {
+      "url": "https://spectrum.ieee.org/tag/data-centers",
+      "last_ingested_at": "2026-05-15 21:23:32"
+    },
+    {
+      "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
+      "last_ingested_at": "2026-05-15 21:23:31"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing-and",
+      "last_ingested_at": "2026-05-15 21:23:31"
+    },
+    {
+      "url": "https://www.nist.gov/chips",
+      "last_ingested_at": "2026-05-15 21:23:31"
+    }
+  ]
+}
