@@ -1,0 +1,19 @@
+# Opportunity-generator tuning for this theme. Read by
+# generate_opportunities.py to compute weighted ticker scores from
+# the theme's curated claims + entities.
+#
+# Weights must sum to 1.0 (validated upstream). Half-life half-life_days
+# weighting is applied inside the generator from the runtime-runtime
+# half_life_defaults registered against each claim.
+
+lookback_days: 90
+min_claim_count: 1
+weights:
+  evidence_strength: 0.35
+  freshness_weight: 0.20
+  exposure_strength: 0.20
+  catalyst_weight: 0.15
+  tradability_weight: 0.10
+tier_thresholds:
+  HIGH: 0.75
+  MEDIUM: 0.55

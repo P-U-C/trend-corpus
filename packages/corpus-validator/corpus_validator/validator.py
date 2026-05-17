@@ -290,11 +290,70 @@ def scan_secrets(repo: str | Path) -> list[str]:
     return findings
 
 
+def validate_aggregates(repo: Path) -> list[str]:
+    """Walk trends/<theme>/aggregates/<theme>-aggregates.json and verify
+    each one parses, matches the theme id, and meets the bounds the sync
+    script already enforced. Mirrors the inline check in
+    sync-peptides-aggregates.sh so CI catches drift at PR time."""
+    errors: list[str] = []
+    schema_path = repo / "schemas" / "aggregates.schema.json"
+    if not schema_path.exists():
+        return errors
+    try:
+        schema = json.loads(schema_path.read_text())
+    except json.JSONDecodeError as exc:
+        return [f"{schema_path}: {exc}"]
+    required = schema.get("required", [])
+    allowed_keys = set(schema.get("properties", {}).keys())
+
+    trends = repo / "trends"
+    if not trends.is_dir():
+        return errors
+    for theme_dir in sorted(trends.iterdir()):
+        if not theme_dir.is_dir():
+            continue
+        agg_dir = theme_dir / "aggregates"
+        if not agg_dir.is_dir():
+            continue
+        for path in sorted(agg_dir.glob("*-aggregates.json")):
+            try:
+                payload = json.loads(path.read_text())
+            except json.JSONDecodeError as exc:
+                errors.append(f"{path}: invalid JSON: {exc}")
+                continue
+            missing = [r for r in required if r not in payload]
+            if missing:
+                errors.append(f"{path}: missing required fields {missing}")
+                continue
+            if payload.get("theme_id") != theme_dir.name:
+                errors.append(
+                    f"{path}: theme_id {payload.get('theme_id')!r} != "
+                    f"theme directory {theme_dir.name!r}"
+                )
+            if payload.get("underlying_claim_count", 0) < 0:
+                errors.append(f"{path}: underlying_claim_count must be >= 0")
+            if payload.get("underlying_source_count", 0) < 0:
+                errors.append(f"{path}: underlying_source_count must be >= 0")
+            if payload.get("min_count_threshold", 0) < 1:
+                errors.append(f"{path}: min_count_threshold must be >= 1")
+            ts = payload.get("generated_at", "")
+            try:
+                import datetime as _dt
+                _dt.datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+            except Exception:
+                errors.append(f"{path}: unparseable generated_at {ts!r}")
+            extras = [k for k in payload if k not in allowed_keys]
+            if extras:
+                errors.append(f"{path}: top-level fields not in schema: {extras}")
+    return errors
+
+
 def validate_repo(repo: str | Path) -> list[str]:
     root = Path(repo).resolve()
     errors: list[str] = []
     errors.extend(validate_schemas_parse(root))
     errors.extend(validate_references(root))
+    errors.extend(validate_aggregates(root))
     for finding in scan_secrets(root):
         errors.append(f"secret scan: {finding}")
     return errors

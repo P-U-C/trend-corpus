@@ -89,6 +89,33 @@ def main(argv: list[str] | None = None) -> int:
         help="send a Telegram digest of how many drafts were written",
     )
 
+    p_agg = sub.add_parser(
+        "export-aggregates",
+        help="emit aggregate-only public view JSON for this theme",
+    )
+    p_agg.add_argument(
+        "--out", default=None,
+        help="output path (default <root>/out/<theme-id>-aggregates.json)",
+    )
+    p_agg.add_argument(
+        "--min-count", type=int, default=3,
+        help="suppression threshold for entity / topic buckets (default 3)",
+    )
+    p_agg.add_argument(
+        "--dry-run", action="store_true",
+        help="print payload to stdout instead of writing",
+    )
+    p_agg.add_argument(
+        "--commit-and-push", action="store_true",
+        help="after writing, copy the file into the configured trend-corpus "
+             "checkout's trends/<theme>/aggregates/, git commit, and git push. "
+             "Requires --from to point at a trend-corpus checkout.",
+    )
+    p_agg.add_argument(
+        "--from", dest="sync_from", default=None,
+        help="path to a local trend-corpus checkout (only required with --commit-and-push)",
+    )
+
     args = ap.parse_args(argv)
 
     # Resolve config path from --config or env var
@@ -171,6 +198,30 @@ def main(argv: list[str] | None = None) -> int:
                 f"Review + commit to trend-corpus/trends/{ctx.theme_id}/entities/."
             )
             notify.alert(ctx, msg)
+        return 0
+
+    if args.command == "export-aggregates":
+        from . import aggregates as _agg
+        ctx = _ctx(args)
+        payload = _agg.run(ctx, out=args.out, min_count=args.min_count,
+                           dry_run=args.dry_run)
+        if args.commit_and_push:
+            if args.dry_run:
+                print("--commit-and-push ignored with --dry-run", file=sys.stderr)
+                return 0
+            if not args.sync_from:
+                print("--commit-and-push requires --from <trend-corpus path>",
+                      file=sys.stderr)
+                return 2
+            from . import sync as _sync
+            published = _sync.publish_aggregates(
+                ctx, Path(args.sync_from),
+                src=Path(args.out).expanduser() if args.out
+                    else _agg.default_out_path(ctx),
+            )
+            print(json.dumps(published, indent=2, sort_keys=True))
+            if published.get("error"):
+                return 1
         return 0
 
     return 2

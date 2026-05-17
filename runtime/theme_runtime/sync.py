@@ -164,3 +164,109 @@ def run(ctx: ThemeContext, trend_corpus_root: Path) -> dict[str, Any]:
         f"{len(prompts_written)} prompts written"
     )
     return summary
+
+
+def publish_aggregates(ctx, trend_corpus_dir, *, src):
+    """Copy an aggregates JSON into the trend-corpus checkout, commit, push.
+
+    Mirrors the secret-scan + diff-vs-current discipline of
+    pf-scout-bot/deploy/sync-peptides-aggregates.sh, but runs from inside
+    the runtime user (self-publishing) rather than pulling over scp.
+
+    Idempotent: if the staged file is byte-identical to what's already on
+    disk, no commit. Always git-pulls first so 14 concurrent runtimes
+    don't fight over fast-forward; one push-retry on conflict.
+
+    Returns a dict suitable for printing / Telegram reporting.
+    """
+    import json as _json
+    import re as _re
+    import subprocess as _sp
+
+    src = Path(src).expanduser()
+    if not src.exists():
+        return {"theme_id": ctx.theme_id, "error": f"src missing: {src}"}
+
+    root = Path(trend_corpus_dir).expanduser()
+    if not (root / ".git").exists():
+        return {"theme_id": ctx.theme_id, "error": f"not a git checkout: {root}"}
+
+    dest = root / "trends" / ctx.theme_id / "aggregates" / f"{ctx.theme_id}-aggregates.json"
+    raw = src.read_text()
+
+    # Schema validation at the publish boundary.
+    from . import aggregates as _agg
+    try:
+        payload = _json.loads(raw)
+    except _json.JSONDecodeError as exc:
+        return {"theme_id": ctx.theme_id, "error": f"invalid JSON: {exc}"}
+    if payload.get("theme_id") != ctx.theme_id:
+        return {"theme_id": ctx.theme_id,
+                "error": f"theme_id mismatch: {payload.get('theme_id')!r} vs {ctx.theme_id!r}"}
+    try:
+        _agg.validate_payload(payload)
+    except Exception as exc:
+        return {"theme_id": ctx.theme_id, "error": f"schema validation failed: {exc}"}
+
+    # Secret-pattern scan -- same set the peptide sync script uses.
+    secret_patterns = [
+        r"OPENAI_API_KEY", r"ANTHROPIC_API_KEY", r"GITHUB_TOKEN",
+        r"TELEGRAM_BOT_TOKEN", r"AWS_(ACCESS_KEY_ID|SECRET_ACCESS_KEY)",
+        r"PRIVATE_KEY", r"MNEMONIC",
+        r"ghp_[A-Za-z0-9_]{20,}", r"github_pat_[A-Za-z0-9_]{40,}",
+        r"sk-[A-Za-z0-9]{20,}", r"xox[baprs]-[A-Za-z0-9-]{10,}",
+        r"-----BEGIN (RSA|OPENSSH|EC|DSA|PGP) PRIVATE KEY-----",
+        r"(?i)(api[_-]?key|secret|token)\s*[:=]\s*['\"][^'\"]+['\"]",
+        r"\b505841972\b",
+    ]
+    hits = [p for p in secret_patterns if _re.search(p, raw)]
+    if hits:
+        return {"theme_id": ctx.theme_id, "error": f"secret pattern hits: {hits}"}
+
+    # Diff vs current; no-op if unchanged.
+    if dest.exists() and dest.read_text() == raw:
+        return {"theme_id": ctx.theme_id, "noop": True, "dest": str(dest)}
+
+    # Pull first so we don't fight other runtimes on push.
+    _sp.run(["git", "-C", str(root), "pull", "--quiet", "--rebase"],
+            check=True, capture_output=True)
+
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(raw)
+
+    # Stage by exact path; never `git add -A`.
+    rel_path = str(dest.relative_to(root))
+    _sp.run(["git", "-C", str(root), "add", "--", rel_path],
+            check=True, capture_output=True)
+
+    staged = _sp.run(["git", "-C", str(root), "diff", "--cached", "--quiet"],
+                     capture_output=True)
+    if staged.returncode == 0:
+        return {"theme_id": ctx.theme_id, "noop": True, "dest": str(dest),
+                "reason": "git diff --cached empty after add"}
+
+    summary_text = (
+        f"claims={payload['underlying_claim_count']} "
+        f"sources={payload['underlying_source_count']} "
+        f"generated_at={payload['generated_at']}"
+    )
+    commit_msg = f"aggregates({ctx.theme_id}): {summary_text}"
+    _sp.run(["git", "-C", str(root), "commit", "-m", commit_msg],
+            check=True, capture_output=True)
+
+    push = _sp.run(["git", "-C", str(root), "push", "origin", "HEAD:main"],
+                   capture_output=True)
+    if push.returncode != 0:
+        # One retry after rebase, in case another runtime pushed in between.
+        _sp.run(["git", "-C", str(root), "pull", "--rebase", "--quiet"],
+                check=True, capture_output=True)
+        push = _sp.run(["git", "-C", str(root), "push", "origin", "HEAD:main"],
+                       capture_output=True)
+    if push.returncode != 0:
+        return {"theme_id": ctx.theme_id,
+                "error": f"git push failed: {push.stderr.decode(errors='replace')[:400]}"}
+
+    head = _sp.run(["git", "-C", str(root), "rev-parse", "--short", "HEAD"],
+                   capture_output=True, text=True).stdout.strip()
+    return {"theme_id": ctx.theme_id, "dest": str(dest),
+            "commit": head, "summary": summary_text}
