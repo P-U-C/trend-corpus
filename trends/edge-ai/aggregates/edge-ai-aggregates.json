@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-05-17T16:27:55Z",
+  "theme_id": "edge-ai",
+  "generator": {
+    "name": "theme-runtime-aggregates-exporter",
+    "version": "0.1.0",
+    "host_alias": "city-worker-301"
+  },
+  "underlying_claim_count": 0,
+  "underlying_source_count": 10,
+  "min_count_threshold": 1,
+  "windows": {
+    "30d": {
+      "claims_total": 0,
+      "claims_by_category": {},
+      "top_entities": []
+    },
+    "90d": {
+      "claims_total": 0,
+      "claims_by_category": {},
+      "top_entities": []
+    },
+    "365d": {
+      "claims_total": 0,
+      "claims_by_category": {},
+      "top_entities": []
+    }
+  },
+  "source_freshness": [
+    {
+      "url": "https://investor.ambarella.com/news-releases",
+      "last_ingested_at": "2026-05-16 14:50:50"
+    },
+    {
+      "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-launches-powerful-edge-ai-8k-vision-soc-industry",
+      "last_ingested_at": "2026-05-16 14:50:50"
+    },
+    {
+      "url": "https://investors.arm.com/news-events/press-releases",
+      "last_ingested_at": "2026-05-16 14:50:51"
+    },
+    {
+      "url": "https://investors.nxp.com/news-events/press-releases",
+      "last_ingested_at": "2026-05-16 14:50:56"
+    },
+    {
+      "url": "https://newsroom.st.com/",
+      "last_ingested_at": "2026-05-16 14:50:58"
+    },
+    {
+      "url": "https://siliconangle.com/2025/07/22/hailo-launches-hailo-10h-chip-support-generative-ai-edge/",
+      "last_ingested_at": "2026-05-16 14:50:51"
+    },
+    {
+      "url": "https://tenstorrent.com/news",
+      "last_ingested_at": "2026-05-16 14:50:59"
+    },
+    {
+      "url": "https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear",
+      "last_ingested_at": "2026-05-16 14:50:51"
+    },
+    {
+      "url": "https://www.synaptics.com/company/news/synaptics-launches-next-generation-astra-multimodal-genai-processors-to-power-future-intelligent-iot-edge",
+      "last_ingested_at": "2026-05-16 14:50:59"
+    },
+    {
+      "url": "https://www.ti.com/about-ti/newsroom/news.html",
+      "last_ingested_at": "2026-05-16 14:50:59"
+    }
+  ]
+}
