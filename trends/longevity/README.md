@@ -34,17 +34,17 @@ Out of scope:
 ## Why now
 
 Three structural shifts run in parallel. First, partial epigenetic
-reprogramming therapies entered human clinical trials for the first
-time during 2025-2026 - the first ever cellular reprogramming IND
-cleared. AI-engineered proteins achieved more than 50x improvement in
-the performance of key cellular reprogramming factors via the
+reprogramming entered human clinical trials in 2026 when Life
+Biosciences' ER-100 received FDA IND clearance for optic neuropathies.
+AI-engineered proteins achieved more than 50x increased expression of
+stem-cell reprogramming markers via the
 Retro Biosciences and OpenAI collaboration. Second, the venture marks
 in the private cohort hit institutional scale: NewLimit raised $130M
 Series B plus $45M follow-on from Eli Lilly, Section 32, and Duke
-Management at a $1.62B valuation; Altos Labs ($3B initial) initiated
-human clinical trials targeting neurodegenerative and immune-related
-aging disorders; Loyal received FDA conditional approval for the first
-veterinary longevity therapeutic in 2025. Third, the public surface
+Management at a $1.62B valuation; Altos Labs remains a $3B-funded
+preclinical private keystone; Loyal received FDA RXE acceptance for
+LOY-002 in 2025 and completed two of three major technical sections
+toward expanded conditional approval by early 2026. Third, the public surface
 contracted at the same time: AbbVie ended its 11-year, ~$3.5B Calico
 partnership in November 2025 over a strategy pivot to genetic
 medicines; Unity Biotechnology stockholders approved liquidation in
@@ -104,5 +104,5 @@ a mix of small-cap public, large-cap incumbent partner or acquirer, and
 private-keystone catalysts. The longevity-specific distinction is that
 the public investable surface is unusually thin (one near-pure-play in
 BioAge, one distressed precedent in Unity) and binary - so the watchlist
-weights private-keystone trial readouts and AAPL / GOOGL / LLY / NVO
+weights private-keystone trial readouts and GOOGL / LLY / NVO
 optionality more heavily than in synthetic-biology.
