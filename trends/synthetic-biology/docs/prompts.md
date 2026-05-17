@@ -55,13 +55,14 @@ CONFIDENCE GUIDANCE:
 
 ENTITY SLUGS: use short lowercase names. Examples:
   "crispr_therapeutics", "beam_therapeutics", "intellia", "editas",
-  "caribou", "ginkgo", "twist", "pacific_biosciences", "illumina",
+  "caribou", "prime_medicine", "ginkgo", "twist", "pacific_biosciences", "illumina",
   "codexis", "recursion", "schrodinger", "vertex", "lilly", "scribe",
   "mammoth", "synthego", "inscripta", "fda", "cber", "vertex", "arpah"
 
 TOPIC NAMES (lowercase). Examples for synthetic-biology:
   "casgevy", "beam_302", "ntla_2001", "ntla_2002", "magnitude_trial",
-  "rec_394", "rec_1245", "zasocitinib", "verve_102", "ldl_c",
+  "pm359", "pm577", "pm647", "rec_1245", "rec_4881", "rec_4539",
+  "zasocitinib", "verve_102", "ldl_c",
   "transthyretin_amyloidosis", "sickle_cell", "beta_thalassemia",
   "alpha_1_antitrypsin", "hereditary_angioedema", "aav_vector",
   "lnp_delivery", "base_editing", "prime_editing", "epigenetic_editing",
@@ -155,8 +156,8 @@ SUPERSEDENCE EXISTS when a new claim asserts a state of the world that directly
 contradicts or updates an existing claim. Examples:
 - NEW: "CRISPR Therapeutics Q2 2026 Casgevy revenue fell to $20M from $43M in Q1 2026" SUPERSEDES
   OLD: "CRISPR Therapeutics reported Q1 2026 Casgevy revenue of $43M" (state change at the quarterly metric level)
-- NEW: "Intellia MAGNITUDE Phase 3 missed primary endpoint by 30 percent on 2026-09-15" SUPERSEDES
-  OLD: "Intellia NTLA-2001 MAGNITUDE Phase 3 ongoing in transthyretin amyloidosis" (updated outcome)
+- NEW: "Intellia nex-z MAGNITUDE Phase 3 missed primary endpoint by 30 percent on 2026-09-15" SUPERSEDES
+  OLD: "Intellia nex-z MAGNITUDE Phase 3 ongoing in transthyretin amyloidosis" (updated outcome)
 - NEW: "FDA tightened CBER post-market surveillance for somatic gene-editing products on 2026-08-01 requiring 15-year follow-up registries" SUPERSEDES
   OLD: "FDA CBER post-market surveillance requirements for gene-editing products required 5-year follow-up" (updated regulatory state)
 

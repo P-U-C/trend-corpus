@@ -1,0 +1,24 @@
+id: ent_prime_medicine
+name: Prime Medicine Inc
+entity_type: public_company
+schema_version: 1
+slug: prime-medicine
+tickers:
+  - PRME
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: PRME
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: PRME
+    direction: beneficiary
+    exposure_strength: 0.75
+    basis:
+      - revenue_segment
+      - demand_channel
+    tradable: true
+role:
+  - clinical_stage_developer
+  - prime_editing_platform
+notes: Public pure-play prime-editing developer. PM359 in chronic granulomatous disease is in regulatory-alignment work toward a potential BLA path, while PM577 for Wilson disease and PM647 for alpha-1 antitrypsin deficiency are expected to file IND or CTA applications in 2026 with initial clinical data expected in 2027. Material listed comp for the non-CRISPR-Cas9 editing branch.

@@ -10,7 +10,7 @@ human-review gate before any private execution.
 In scope:
 - CRISPR and base-editing clinical-stage and commercial-stage developers
   (CRISPR Therapeutics, Beam Therapeutics, Intellia Therapeutics, Editas
-  Medicine, Caribou Biosciences)
+  Medicine, Caribou Biosciences, Prime Medicine)
 - Cell-engineering, DNA-synthesis, and protein-engineering foundries
   (Ginkgo Bioworks, Twist Bioscience, Codexis)
 - Sequencing incumbents whose technology gates discovery cadence
@@ -36,18 +36,21 @@ Out of scope:
 Three structural shifts run in parallel. First, commercial revenue from
 one-time gene therapies has crossed thresholds: CRISPR Therapeutics
 reported Q1 2026 Casgevy revenue of $43M and more than 500 patients
-initiated treatment, with full-year 2025 revenue of $116M and a $2B cash
+initiated treatment, with full-year 2025 revenue of $116M and a $2.44B cash
 position. Second, the base-editing and in-vivo cohort has multiple
-near-term readouts: Beam BEAM-302 in alpha-1 antitrypsin, Verve VERVE-102
-LDL cholesterol data (now under Eli Lilly ownership after a June 2025
-acquisition), Intellia in vivo CRISPR for transthyretin amyloidosis,
-Editas seeking a partner for reni-cel. Third, the AI-bio adjacents reach
-Phase III in 2026 (Schrodinger zasocitinib), forming the first
-large-scale clinical test of whether AI-aided design produces durable
-better outcomes. The catalyst is commercial-revenue compounding plus
-2026 indication-expansion calendar; the risk is one-time-therapy ceiling
-economics and the supply-chain bottleneck of AAV vector and viable cell
-collection at GMP grade.
+near-term validation events: Beam BEAM-302 pivotal-cohort start in
+alpha-1 antitrypsin, Intellia lonvo-z BLA work and resumed nex-z Phase 3
+screening, Prime Medicine PM359 regulatory alignment plus PM577 / PM647
+IND or CTA filings, Editas EDIT-401 first-in-human proof-of-concept, and
+Verve VERVE-102 under Eli Lilly ownership after the July 2025 close. Third,
+the AI-bio adjacents have moved from calendar risk to data interpretation:
+Takeda reported positive zasocitinib Phase 3 results on a molecule
+co-invented by Schrodinger / Nimbus, while Recursion's 2026 proof points
+now center on REC-1245, REC-4881, and REC-4539 rather than REC-394. The
+catalyst is commercial-revenue compounding plus the 2026-2027 indication
+expansion calendar; the risk is one-time-therapy ceiling economics and the
+supply-chain bottleneck of AAV vector and viable cell collection at GMP
+grade.
 
 ## What's in this directory
 
@@ -57,7 +60,8 @@ collection at GMP grade.
 - `claims/` -- 3 example claims demonstrating the category taxonomy
   (clinical, corporate, supply). Illustrative, not pulled from a live db.
 - `entities/` -- the scanner seeds (CRSP, BEAM, NTLA) plus pure-play
-  adjacents and 4 private keystones (entity_type private_company; no
+  adjacents, Prime Medicine as the listed prime-editing comp, and 4 private
+  keystones (entity_type private_company; no
   ticker_exposures)
 - `events/` -- one example commercial-milestone event
 - `theses/` -- the synthesizing argument
