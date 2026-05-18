@@ -92,13 +92,20 @@ def run(ctx: ThemeContext) -> dict:
         if row[0] > 0:
             skipped += 1
             continue
+        # Use UPSERT (ON CONFLICT ... DO UPDATE) instead of INSERT OR REPLACE.
+        # INSERT OR REPLACE deletes the row and re-inserts it, which trips
+        # the FK constraint when claims.source_id references the existing id.
+        # The UPSERT keeps the row id stable so existing claims stay linked.
         try:
             text = _fetch(url, ctx)
         except (urllib.error.URLError, urllib.error.HTTPError, Exception) as e:
             failed += 1
             db.execute(
-                "INSERT OR REPLACE INTO sources (url, raw_text, processed, error) "
-                "VALUES (?, NULL, 1, ?)",
+                "INSERT INTO sources (url, raw_text, processed, error) "
+                "VALUES (?, NULL, 1, ?) "
+                "ON CONFLICT(url) DO UPDATE SET "
+                "raw_text=NULL, processed=1, error=excluded.error, "
+                "fetched_at=CURRENT_TIMESTAMP",
                 (url, str(e)[:500]),
             )
             db.commit()
@@ -109,7 +116,11 @@ def run(ctx: ThemeContext) -> dict:
             print(f"  SHORT ({len(text)}ch) {url}", file=sys.stderr)
             continue
         db.execute(
-            "INSERT OR REPLACE INTO sources (url, raw_text, processed) VALUES (?, ?, 0)",
+            "INSERT INTO sources (url, raw_text, processed, error) "
+            "VALUES (?, ?, 0, NULL) "
+            "ON CONFLICT(url) DO UPDATE SET "
+            "raw_text=excluded.raw_text, processed=0, error=NULL, "
+            "fetched_at=CURRENT_TIMESTAMP",
             (url, text),
         )
         db.commit()
