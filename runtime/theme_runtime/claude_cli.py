@@ -30,6 +30,12 @@ def run_claude(prompt_text: str, model: str = "sonnet", timeout: int = 300) -> s
     Raises AuthError if the CLI complains about credentials; RuntimeError on
     any other non-zero exit.
     """
+    # Strip NUL bytes -- subprocess refuses arguments containing them.
+    # Source content can legitimately leak NULs (binary PDFs, malformed
+    # HTML, etc.) when the fetcher's Content-Type sniff doesn't catch
+    # the case. Cheaper to sanitize at the boundary than at every fetch.
+    if "\x00" in prompt_text:
+        prompt_text = prompt_text.replace("\x00", "")
     result = subprocess.run(
         ["claude", "-p", prompt_text, "--model", model, "--output-format", "text"],
         capture_output=True,
