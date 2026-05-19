@@ -42,6 +42,14 @@ THEMES=(
     edge-ai
     photonic-computing
     longevity
+    # cicadas is a hand-authored operator macro thesis (see
+    # puc-trading/trades/cicadas.md). It has no trend-corpus sector
+    # theme dir, so generate_opportunities will skip it (no
+    # opportunity-config.yaml under trends/cicadas/). The merge loop
+    # below picks up the pre-placed
+    # trend-intel-private/themes/cicadas/artifacts/opportunity-rows.json
+    # so the cicadas ticker universe flows into convergence-latest.
+    cicadas
 )
 
 # Refresh trend-corpus first so we pick up any aggregates pushed by runtime users.
