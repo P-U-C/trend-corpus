@@ -1,156 +1,288 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-05-19T13:34:01Z",
+  "generated_at": "2026-05-20T13:34:01Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "city-worker-301"
   },
-  "underlying_claim_count": 44,
+  "underlying_claim_count": 94,
   "underlying_source_count": 11,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 44,
+      "claims_total": 94,
       "claims_by_category": {
-        "corporate": 26,
-        "market": 6,
-        "research": 4,
-        "regulatory": 6,
-        "manufacturing": 2
+        "corporate": 56,
+        "regulatory": 14,
+        "market": 10,
+        "manufacturing": 7,
+        "research": 7
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 25
+          "mentions": 51
         },
         {
           "slug": "kratos",
-          "mentions": 7
+          "mentions": 15
         },
         {
           "slug": "leidos",
-          "mentions": 6
+          "mentions": 13
         },
         {
           "slug": "aerovironment",
-          "mentions": 5
+          "mentions": 9
         },
         {
           "slug": "anduril",
+          "mentions": 5
+        },
+        {
+          "slug": "air_force",
           "mentions": 3
         },
         {
-          "slug": "bae_systems",
+          "slug": "us_army",
+          "mentions": 3
+        },
+        {
+          "slug": "germany",
+          "mentions": 3
+        },
+        {
+          "slug": "nato",
+          "mentions": 3
+        },
+        {
+          "slug": "airbus",
+          "mentions": 2
+        },
+        {
+          "slug": "naval_group",
+          "mentions": 2
+        },
+        {
+          "slug": "us_navy",
+          "mentions": 2
+        },
+        {
+          "slug": "shield_ai",
           "mentions": 1
         },
         {
-          "slug": "thales",
+          "slug": "boeing",
           "mentions": 1
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "sweden",
           "mentions": 1
         },
         {
-          "slug": "elbit_systems",
+          "slug": "france",
+          "mentions": 1
+        },
+        {
+          "slug": "centcom",
+          "mentions": 1
+        },
+        {
+          "slug": "iran",
+          "mentions": 1
+        },
+        {
+          "slug": "uscg",
+          "mentions": 1
+        },
+        {
+          "slug": "darpa",
           "mentions": 1
         }
       ]
     },
     "90d": {
-      "claims_total": 44,
+      "claims_total": 94,
       "claims_by_category": {
-        "corporate": 26,
-        "market": 6,
-        "research": 4,
-        "regulatory": 6,
-        "manufacturing": 2
+        "corporate": 56,
+        "regulatory": 14,
+        "market": 10,
+        "manufacturing": 7,
+        "research": 7
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 25
+          "mentions": 51
         },
         {
           "slug": "kratos",
-          "mentions": 7
+          "mentions": 15
         },
         {
           "slug": "leidos",
-          "mentions": 6
+          "mentions": 13
         },
         {
           "slug": "aerovironment",
-          "mentions": 5
+          "mentions": 9
         },
         {
           "slug": "anduril",
+          "mentions": 5
+        },
+        {
+          "slug": "air_force",
           "mentions": 3
         },
         {
-          "slug": "bae_systems",
+          "slug": "us_army",
+          "mentions": 3
+        },
+        {
+          "slug": "germany",
+          "mentions": 3
+        },
+        {
+          "slug": "nato",
+          "mentions": 3
+        },
+        {
+          "slug": "airbus",
+          "mentions": 2
+        },
+        {
+          "slug": "naval_group",
+          "mentions": 2
+        },
+        {
+          "slug": "us_navy",
+          "mentions": 2
+        },
+        {
+          "slug": "shield_ai",
           "mentions": 1
         },
         {
-          "slug": "thales",
+          "slug": "boeing",
           "mentions": 1
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "sweden",
           "mentions": 1
         },
         {
-          "slug": "elbit_systems",
+          "slug": "france",
+          "mentions": 1
+        },
+        {
+          "slug": "centcom",
+          "mentions": 1
+        },
+        {
+          "slug": "iran",
+          "mentions": 1
+        },
+        {
+          "slug": "uscg",
+          "mentions": 1
+        },
+        {
+          "slug": "darpa",
           "mentions": 1
         }
       ]
     },
     "365d": {
-      "claims_total": 44,
+      "claims_total": 94,
       "claims_by_category": {
-        "corporate": 26,
-        "market": 6,
-        "research": 4,
-        "regulatory": 6,
-        "manufacturing": 2
+        "corporate": 56,
+        "regulatory": 14,
+        "market": 10,
+        "manufacturing": 7,
+        "research": 7
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 25
+          "mentions": 51
         },
         {
           "slug": "kratos",
-          "mentions": 7
+          "mentions": 15
         },
         {
           "slug": "leidos",
-          "mentions": 6
+          "mentions": 13
         },
         {
           "slug": "aerovironment",
-          "mentions": 5
+          "mentions": 9
         },
         {
           "slug": "anduril",
+          "mentions": 5
+        },
+        {
+          "slug": "air_force",
           "mentions": 3
         },
         {
-          "slug": "bae_systems",
+          "slug": "us_army",
+          "mentions": 3
+        },
+        {
+          "slug": "germany",
+          "mentions": 3
+        },
+        {
+          "slug": "nato",
+          "mentions": 3
+        },
+        {
+          "slug": "airbus",
+          "mentions": 2
+        },
+        {
+          "slug": "naval_group",
+          "mentions": 2
+        },
+        {
+          "slug": "us_navy",
+          "mentions": 2
+        },
+        {
+          "slug": "shield_ai",
           "mentions": 1
         },
         {
-          "slug": "thales",
+          "slug": "boeing",
           "mentions": 1
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "sweden",
           "mentions": 1
         },
         {
-          "slug": "elbit_systems",
+          "slug": "france",
+          "mentions": 1
+        },
+        {
+          "slug": "centcom",
+          "mentions": 1
+        },
+        {
+          "slug": "iran",
+          "mentions": 1
+        },
+        {
+          "slug": "uscg",
+          "mentions": 1
+        },
+        {
+          "slug": "darpa",
           "mentions": 1
         }
       ]
@@ -159,47 +291,47 @@
   "source_freshness": [
     {
       "url": "https://breakingdefense.com/",
-      "last_ingested_at": "2026-05-16 00:00:02"
+      "last_ingested_at": "2026-05-20 00:00:03"
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-05-16 00:00:01"
+      "last_ingested_at": "2026-05-20 00:00:02"
     },
     {
       "url": "https://investors.leidos.com/",
-      "last_ingested_at": "2026-05-16 00:00:05"
+      "last_ingested_at": "2026-05-20 00:00:07"
     },
     {
       "url": "https://investors.palantir.com/",
-      "last_ingested_at": "2026-05-16 00:00:05"
+      "last_ingested_at": "2026-05-20 00:00:07"
     },
     {
       "url": "https://ir.kratosdefense.com/",
-      "last_ingested_at": "2026-05-16 00:00:05"
+      "last_ingested_at": "2026-05-20 00:00:06"
     },
     {
       "url": "https://shield.ai/news/",
-      "last_ingested_at": "2026-05-16 00:00:06"
+      "last_ingested_at": "2026-05-20 00:00:09"
     },
     {
       "url": "https://warontherocks.com/",
-      "last_ingested_at": "2026-05-16 00:00:07"
+      "last_ingested_at": "2026-05-20 00:00:09"
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
-      "last_ingested_at": "2026-05-16 00:00:02"
+      "last_ingested_at": "2026-05-20 00:00:03"
     },
     {
       "url": "https://www.darpa.mil/news",
-      "last_ingested_at": "2026-05-16 00:00:03"
+      "last_ingested_at": "2026-05-20 00:00:04"
     },
     {
       "url": "https://www.defense.gov/News/Releases/Release/Article/3526139/",
-      "last_ingested_at": "2026-05-16 00:00:06"
+      "last_ingested_at": "2026-05-20 00:00:08"
     },
     {
       "url": "https://www.defensenews.com/",
-      "last_ingested_at": "2026-05-16 00:00:04"
+      "last_ingested_at": "2026-05-20 00:00:04"
     }
   ]
 }
