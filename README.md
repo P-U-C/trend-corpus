@@ -14,6 +14,17 @@ See [`docs/architecture.md`](docs/architecture.md) for the design and
 [`docs/new-sector-research-workflow.md`](docs/new-sector-research-workflow.md)
 for the agent-driven theme-spinup pattern.
 
+## Where this sits in the system
+
+trend-corpus is one of three corpus layers in the [Permanent Upper Class
+system](https://github.com/P-U-C) — the **"what is happening"** corpus.
+Downstream it feeds **Convergence Daily** (cross-sector market intelligence in
+the `editorial` repo) and the **trading scanner**, and exposes its
+decision-packets to the machine-readable API. Sibling corpuses: **swell-checker**
+(what is rising) and the planned **audience-corpus** (who you are talking to).
+The corpus is the moat; the newsletters and scanner are thin surfaces that ride
+on it. See the [org overview](https://github.com/P-U-C) for the full map.
+
 ## Canonical B2 architecture
 
 The same diagram is embedded in `puc-trading/README.md` and
