@@ -1,263 +1,263 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-05-20T13:35:01Z",
+  "generated_at": "2026-05-21T13:35:01Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
-    "host_alias": "city-worker-301"
+    "host_alias": "worker-1"
   },
-  "underlying_claim_count": 153,
+  "underlying_claim_count": 292,
   "underlying_source_count": 13,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 76,
+      "claims_total": 130,
       "claims_by_category": {
-        "corporate": 47,
-        "regulatory": 3,
-        "supply": 2,
-        "manufacturing": 16,
-        "research": 4,
-        "market": 4
+        "research": 10,
+        "corporate": 77,
+        "regulatory": 5,
+        "manufacturing": 27,
+        "market": 9,
+        "supply": 2
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 32
+          "mentions": 59
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 31
+          "mentions": 47
         },
         {
           "slug": "nasa",
-          "mentions": 7
+          "mentions": 16
         },
         {
           "slug": "sda",
-          "mentions": 5
+          "mentions": 12
         },
         {
           "slug": "spacex",
-          "mentions": 5
+          "mentions": 8
         },
         {
           "slug": "dod",
-          "mentions": 4
+          "mentions": 6
         },
         {
           "slug": "viasat",
           "mentions": 4
         },
         {
+          "slug": "blue_origin",
+          "mentions": 3
+        },
+        {
           "slug": "fcc",
+          "mentions": 3
+        },
+        {
+          "slug": "globalstar",
+          "mentions": 2
+        },
+        {
+          "slug": "mynaric",
+          "mentions": 2
+        },
+        {
+          "slug": "raytheon",
           "mentions": 2
         },
         {
           "slug": "inmarsat",
-          "mentions": 1
-        },
-        {
-          "slug": "globalstar",
-          "mentions": 1
-        },
-        {
-          "slug": "mynaric",
-          "mentions": 1
-        },
-        {
-          "slug": "raytheon",
-          "mentions": 1
-        },
-        {
-          "slug": "blue_origin",
           "mentions": 1
         }
       ]
     },
     "90d": {
-      "claims_total": 145,
+      "claims_total": 275,
       "claims_by_category": {
-        "corporate": 93,
-        "regulatory": 3,
-        "supply": 2,
-        "manufacturing": 22,
-        "research": 10,
-        "market": 15
+        "research": 22,
+        "corporate": 167,
+        "regulatory": 5,
+        "manufacturing": 41,
+        "market": 38,
+        "supply": 2
       },
       "top_entities": [
         {
           "slug": "ast_spacemobile",
-          "mentions": 38
+          "mentions": 65
         },
         {
           "slug": "rocket_lab",
-          "mentions": 32
+          "mentions": 59
         },
         {
           "slug": "nasa",
-          "mentions": 19
-        },
-        {
-          "slug": "globalstar",
-          "mentions": 19
+          "mentions": 42
         },
         {
           "slug": "planet_labs",
-          "mentions": 17
+          "mentions": 37
+        },
+        {
+          "slug": "globalstar",
+          "mentions": 35
         },
         {
           "slug": "kratos",
-          "mentions": 14
+          "mentions": 29
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 9
+          "mentions": 21
         },
         {
           "slug": "dod",
-          "mentions": 7
+          "mentions": 13
         },
         {
           "slug": "sda",
-          "mentions": 5
+          "mentions": 12
         },
         {
           "slug": "spacex",
-          "mentions": 5
+          "mentions": 8
         },
         {
           "slug": "viasat",
           "mentions": 4
         },
         {
+          "slug": "blue_origin",
+          "mentions": 3
+        },
+        {
           "slug": "fcc",
+          "mentions": 3
+        },
+        {
+          "slug": "mynaric",
+          "mentions": 2
+        },
+        {
+          "slug": "raytheon",
+          "mentions": 2
+        },
+        {
+          "slug": "firefly_aerospace",
+          "mentions": 2
+        },
+        {
+          "slug": "astrobotic",
+          "mentions": 2
+        },
+        {
+          "slug": "mda_space",
+          "mentions": 2
+        },
+        {
+          "slug": "northrop_grumman",
           "mentions": 2
         },
         {
           "slug": "inmarsat",
-          "mentions": 1
-        },
-        {
-          "slug": "mynaric",
-          "mentions": 1
-        },
-        {
-          "slug": "raytheon",
-          "mentions": 1
-        },
-        {
-          "slug": "blue_origin",
-          "mentions": 1
-        },
-        {
-          "slug": "firefly_aerospace",
-          "mentions": 1
-        },
-        {
-          "slug": "astrobotic",
-          "mentions": 1
-        },
-        {
-          "slug": "mda_space",
-          "mentions": 1
-        },
-        {
-          "slug": "nomad_global_communication_solutions",
           "mentions": 1
         }
       ]
     },
     "365d": {
-      "claims_total": 146,
+      "claims_total": 276,
       "claims_by_category": {
-        "corporate": 94,
-        "regulatory": 3,
-        "supply": 2,
-        "manufacturing": 22,
-        "research": 10,
-        "market": 15
+        "research": 22,
+        "corporate": 168,
+        "regulatory": 5,
+        "manufacturing": 41,
+        "market": 38,
+        "supply": 2
       },
       "top_entities": [
         {
           "slug": "ast_spacemobile",
-          "mentions": 38
+          "mentions": 65
         },
         {
           "slug": "rocket_lab",
-          "mentions": 32
+          "mentions": 59
         },
         {
           "slug": "nasa",
-          "mentions": 20
-        },
-        {
-          "slug": "globalstar",
-          "mentions": 19
+          "mentions": 43
         },
         {
           "slug": "planet_labs",
-          "mentions": 17
+          "mentions": 37
+        },
+        {
+          "slug": "globalstar",
+          "mentions": 35
         },
         {
           "slug": "kratos",
-          "mentions": 14
+          "mentions": 29
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 9
+          "mentions": 21
         },
         {
           "slug": "dod",
-          "mentions": 7
+          "mentions": 13
         },
         {
           "slug": "sda",
-          "mentions": 5
+          "mentions": 12
         },
         {
           "slug": "spacex",
-          "mentions": 5
+          "mentions": 8
         },
         {
           "slug": "viasat",
           "mentions": 4
         },
         {
+          "slug": "blue_origin",
+          "mentions": 3
+        },
+        {
           "slug": "fcc",
+          "mentions": 3
+        },
+        {
+          "slug": "mynaric",
+          "mentions": 2
+        },
+        {
+          "slug": "raytheon",
+          "mentions": 2
+        },
+        {
+          "slug": "firefly_aerospace",
+          "mentions": 2
+        },
+        {
+          "slug": "astrobotic",
+          "mentions": 2
+        },
+        {
+          "slug": "mda_space",
+          "mentions": 2
+        },
+        {
+          "slug": "northrop_grumman",
           "mentions": 2
         },
         {
           "slug": "inmarsat",
-          "mentions": 1
-        },
-        {
-          "slug": "mynaric",
-          "mentions": 1
-        },
-        {
-          "slug": "raytheon",
-          "mentions": 1
-        },
-        {
-          "slug": "blue_origin",
-          "mentions": 1
-        },
-        {
-          "slug": "firefly_aerospace",
-          "mentions": 1
-        },
-        {
-          "slug": "astrobotic",
-          "mentions": 1
-        },
-        {
-          "slug": "mda_space",
-          "mentions": 1
-        },
-        {
-          "slug": "nomad_global_communication_solutions",
           "mentions": 1
         }
       ]
@@ -266,55 +266,55 @@
   "source_freshness": [
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-05-20 00:00:03"
+      "last_ingested_at": "2026-05-21 06:00:03"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
-      "last_ingested_at": "2026-05-20 00:00:04"
+      "last_ingested_at": "2026-05-21 06:00:04"
     },
     {
       "url": "https://investor.iridium.com/2024-09-25-Iridium-Accelerates-Direct-to-Device-Service-with-Acceptance-into-3GPP-Standards-Announces-Iridium-NTN-Direct?asPDF=1",
-      "last_ingested_at": "2026-05-20 00:00:06"
+      "last_ingested_at": "2026-05-21 06:00:06"
     },
     {
       "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-announces-fourth-quarter-and-full-year-2025-results/",
-      "last_ingested_at": "2026-05-20 00:00:05"
+      "last_ingested_at": "2026-05-21 06:00:04"
     },
     {
       "url": "https://rocketlabcorp.com/missions/launches/sda/",
-      "last_ingested_at": "2026-05-20 00:00:10"
+      "last_ingested_at": "2026-05-21 06:00:07"
     },
     {
       "url": "https://starlink.com/business/direct-to-cell",
-      "last_ingested_at": "2026-05-20 00:00:10"
+      "last_ingested_at": "2026-05-21 06:00:07"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-reports-fourth-quarter-and-full-year-2025-financial-results",
-      "last_ingested_at": "2026-05-20 00:00:07"
+      "last_ingested_at": "2026-05-21 06:00:06"
     },
     {
       "url": "https://www.nasa.gov/commercial-lunar-payload-services/",
-      "last_ingested_at": "2026-05-20 00:00:08"
+      "last_ingested_at": "2026-05-21 06:00:06"
     },
     {
       "url": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
-      "last_ingested_at": "2026-05-20 00:00:08"
+      "last_ingested_at": "2026-05-21 06:00:06"
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-05-20 00:00:02"
+      "last_ingested_at": "2026-05-21 06:00:01"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
-      "last_ingested_at": "2026-05-20 00:00:09"
+      "last_ingested_at": "2026-05-21 06:00:07"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000027/rklb-05072026ex991.htm",
-      "last_ingested_at": "2026-05-20 00:00:10"
+      "last_ingested_at": "2026-05-21 06:00:07"
     },
     {
       "url": "https://www.viasat.com/news/latest-news/corporate/2025/viasat-releases-fourth-quarter-and-fiscal-year-2025-financial-re/",
-      "last_ingested_at": "2026-05-20 00:00:11"
+      "last_ingested_at": "2026-05-21 06:00:08"
     }
   ]
 }
