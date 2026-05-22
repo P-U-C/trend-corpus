@@ -25,6 +25,17 @@ decision-packets to the machine-readable API. Sibling corpuses: **swell-checker*
 The corpus is the moat; the newsletters and scanner are thin surfaces that ride
 on it. See the [org overview](https://github.com/P-U-C) for the full map.
 
+### Roadmap (parked)
+
+A **[unified discovery + categorization layer](https://gist.github.com/0xzoz/e765ac337cc9cac479b3e88552187cc3)**
+is designed but deliberately parked. It would give trend-corpus **open,
+automatic discovery**: a shared emergence engine (extracted from swell-checker)
+ingests broadly, and a categorizer/router proposes a *new sector* whenever a
+rising market cluster matches none — firing the existing
+[`new-sector-research-workflow`](docs/new-sector-research-workflow.md) instead of
+waiting for a human to seed it. Build when breadth of coverage becomes the
+bottleneck — not before.
+
 ## Canonical B2 architecture
 
 The same diagram is embedded in `puc-trading/README.md` and
