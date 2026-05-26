@@ -151,12 +151,29 @@ if [ "${DEPLOY_PUSH:-0}" != "1" ]; then
     exit 0
 fi
 
+# Commit + push the private runtime artifacts. This repo is private and the
+# opportunity-rows.json are regenerated each run, so GitHub should track live
+# state (also serves as a backup). Independent of the convergence commit below.
+if [ -d "$TREND_INTEL_DIR/.git" ]; then
+    cd "$TREND_INTEL_DIR"
+    git add -- 'themes/*/artifacts/opportunity-rows.json' 2>/dev/null || true
+    if git diff --cached --quiet; then
+        log "trend-intel-private: no artifact changes"
+    else
+        git -c user.email=zeroexzoz@gmail.com -c user.name="trend-intel" \
+            commit -q -m "artifacts: convergence refresh $(date -u +%FT%TZ)"
+        git push -q origin HEAD:main && log "pushed trend-intel-private artifacts" \
+            || log "WARN: trend-intel-private push failed"
+    fi
+fi
+
+# Commit + push the merged convergence artifact to puc-trading.
 cd "$PUC_TRADING_DIR"
 git add -- corpus/convergence-latest.json
 if git diff --cached --quiet; then
     log "no convergence-latest changes; skipping commit"
-    exit 0
+else
+    git commit -m "convergence: refresh at $(date -u +%FT%TZ) scores=$count_rows themes=$count_themes"
+    git push origin HEAD:main
+    log "pushed convergence-latest"
 fi
-git commit -m "convergence: refresh at $(date -u +%FT%TZ) scores=$count_rows themes=$count_themes"
-git push origin HEAD:main
-log "pushed convergence-latest"
