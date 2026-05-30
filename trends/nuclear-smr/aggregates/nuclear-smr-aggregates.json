@@ -1,23 +1,23 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-05-29T13:32:01Z",
+  "generated_at": "2026-05-30T13:32:02Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1109,
+  "underlying_claim_count": 1121,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 633,
+      "claims_total": 631,
       "claims_by_category": {
-        "regulatory": 228,
+        "regulatory": 222,
         "supply": 87,
         "market": 57,
-        "corporate": 180,
+        "corporate": 184,
         "research": 26,
         "manufacturing": 45,
         "pricing": 10
@@ -29,7 +29,7 @@
         },
         {
           "slug": "nrc",
-          "mentions": 169
+          "mentions": 163
         },
         {
           "slug": "doe",
@@ -37,7 +37,7 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 44
+          "mentions": 48
         },
         {
           "slug": "ge_vernova",
@@ -106,12 +106,12 @@
       ]
     },
     "90d": {
-      "claims_total": 667,
+      "claims_total": 673,
       "claims_by_category": {
-        "regulatory": 245,
+        "regulatory": 246,
         "supply": 87,
         "market": 57,
-        "corporate": 197,
+        "corporate": 202,
         "research": 26,
         "manufacturing": 45,
         "pricing": 10
@@ -123,7 +123,7 @@
         },
         {
           "slug": "nrc",
-          "mentions": 186
+          "mentions": 187
         },
         {
           "slug": "doe",
@@ -131,7 +131,7 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 64
+          "mentions": 70
         },
         {
           "slug": "ge_vernova",
@@ -166,11 +166,11 @@
           "mentions": 8
         },
         {
-          "slug": "italy",
-          "mentions": 6
+          "slug": "nuclear_fuel_services",
+          "mentions": 7
         },
         {
-          "slug": "nuclear_fuel_services",
+          "slug": "italy",
           "mentions": 6
         },
         {
@@ -200,12 +200,12 @@
       ]
     },
     "365d": {
-      "claims_total": 757,
+      "claims_total": 769,
       "claims_by_category": {
-        "regulatory": 270,
+        "regulatory": 271,
         "supply": 89,
         "market": 57,
-        "corporate": 256,
+        "corporate": 267,
         "research": 26,
         "manufacturing": 49,
         "pricing": 10
@@ -217,7 +217,7 @@
         },
         {
           "slug": "nrc",
-          "mentions": 186
+          "mentions": 187
         },
         {
           "slug": "doe",
@@ -225,7 +225,7 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 124
+          "mentions": 136
         },
         {
           "slug": "ge_vernova",
@@ -260,11 +260,11 @@
           "mentions": 8
         },
         {
-          "slug": "italy",
-          "mentions": 6
+          "slug": "nuclear_fuel_services",
+          "mentions": 7
         },
         {
-          "slug": "nuclear_fuel_services",
+          "slug": "italy",
           "mentions": 6
         },
         {
@@ -297,7 +297,7 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-05-29 06:00:01"
+      "last_ingested_at": "2026-05-30 06:00:02"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
