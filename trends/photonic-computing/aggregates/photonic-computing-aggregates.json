@@ -1,40 +1,40 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-05-29T13:41:01Z",
+  "generated_at": "2026-05-30T13:41:01Z",
   "theme_id": "photonic-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 730,
+  "underlying_claim_count": 764,
   "underlying_source_count": 25,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 125,
+      "claims_total": 138,
       "claims_by_category": {
-        "market": 46,
-        "corporate": 68,
+        "market": 48,
+        "corporate": 77,
         "supply": 1,
-        "manufacturing": 10
+        "manufacturing": 12
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 67
+          "mentions": 75
         },
         {
           "slug": "applied_optoelectronics",
-          "mentions": 46
+          "mentions": 52
         },
         {
           "slug": "lumentum",
-          "mentions": 11
+          "mentions": 14
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 10
+          "mentions": 11
         },
         {
           "slug": "marvell",
@@ -55,22 +55,22 @@
       ]
     },
     "90d": {
-      "claims_total": 389,
+      "claims_total": 409,
       "claims_by_category": {
-        "market": 76,
-        "corporate": 214,
-        "supply": 16,
-        "manufacturing": 34,
-        "research": 49
+        "market": 80,
+        "corporate": 224,
+        "supply": 17,
+        "manufacturing": 37,
+        "research": 51
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 147
+          "mentions": 155
         },
         {
           "slug": "aeluma",
-          "mentions": 82
+          "mentions": 92
         },
         {
           "slug": "polariton_technologies",
@@ -82,15 +82,15 @@
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 57
+          "mentions": 58
         },
         {
           "slug": "applied_optoelectronics",
-          "mentions": 46
+          "mentions": 52
         },
         {
           "slug": "tower_semiconductor",
-          "mentions": 18
+          "mentions": 20
         },
         {
           "slug": "lumentum",
@@ -139,34 +139,34 @@
       ]
     },
     "365d": {
-      "claims_total": 574,
+      "claims_total": 608,
       "claims_by_category": {
-        "market": 109,
-        "corporate": 323,
-        "supply": 16,
-        "manufacturing": 67,
-        "research": 59
+        "market": 115,
+        "corporate": 344,
+        "supply": 17,
+        "manufacturing": 70,
+        "research": 62
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 147
+          "mentions": 155
         },
         {
           "slug": "marvell",
-          "mentions": 142
+          "mentions": 152
         },
         {
           "slug": "aeluma",
-          "mentions": 82
-        },
-        {
-          "slug": "tower_semiconductor",
-          "mentions": 80
+          "mentions": 92
         },
         {
           "slug": "celestial_ai",
-          "mentions": 80
+          "mentions": 90
+        },
+        {
+          "slug": "tower_semiconductor",
+          "mentions": 82
         },
         {
           "slug": "polariton_technologies",
@@ -174,19 +174,19 @@
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 57
+          "mentions": 58
+        },
+        {
+          "slug": "applied_optoelectronics",
+          "mentions": 52
         },
         {
           "slug": "salience_labs",
           "mentions": 52
         },
         {
-          "slug": "applied_optoelectronics",
-          "mentions": 46
-        },
-        {
           "slug": "lumentum",
-          "mentions": 32
+          "mentions": 36
         },
         {
           "slug": "ayar_labs",
@@ -234,7 +234,7 @@
   "source_freshness": [
     {
       "url": "https://247wallst.com/investing/2026/05/11/applied-optoelectronics-rips-24-lumentum-jumps-17-coherent-rallies-13-as-optics-trade-catches-fire/",
-      "last_ingested_at": "2026-05-29 00:00:01"
+      "last_ingested_at": "2026-05-30 00:00:01"
     },
     {
       "url": "https://ayarlabs.com/news/",
@@ -266,7 +266,7 @@
     },
     {
       "url": "https://investors.broadcom.com/node/64036/pdf",
-      "last_ingested_at": "2026-05-29 12:00:01"
+      "last_ingested_at": "2026-05-30 12:00:02"
     },
     {
       "url": "https://investors.coherent.com/financial-information/sec-filings",
@@ -302,11 +302,11 @@
     },
     {
       "url": "https://www.aeluma.com/investors/news-events/press-releases/detail/99/aeluma-secures-more-than-4-million-in-contracts-for",
-      "last_ingested_at": "2026-05-29 06:00:01"
+      "last_ingested_at": "2026-05-30 06:00:02"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260303608615/en/",
-      "last_ingested_at": "2026-05-28 06:00:02"
+      "last_ingested_at": "2026-05-29 18:00:02"
     },
     {
       "url": "https://www.celestial.ai/news",
