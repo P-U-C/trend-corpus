@@ -1,107 +1,98 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-05-30T13:36:01Z",
+  "generated_at": "2026-05-31T13:36:01Z",
   "theme_id": "bitcoin-mining",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1484,
+  "underlying_claim_count": 1659,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 624,
+      "claims_total": 511,
       "claims_by_category": {
-        "market": 166,
-        "regulatory": 153,
-        "corporate": 261,
-        "pricing": 31,
-        "manufacturing": 7,
-        "supply": 6
+        "market": 129,
+        "regulatory": 160,
+        "corporate": 194,
+        "pricing": 23,
+        "manufacturing": 5
       },
       "top_entities": [
         {
           "slug": "mara",
-          "mentions": 161
-        },
-        {
-          "slug": "riot",
-          "mentions": 150
+          "mentions": 173
         },
         {
           "slug": "texas_puc",
-          "mentions": 122
+          "mentions": 130
         },
         {
           "slug": "ercot",
-          "mentions": 106
+          "mentions": 99
         },
         {
           "slug": "hut8",
-          "mentions": 59
+          "mentions": 66
         },
         {
           "slug": "luxor",
-          "mentions": 51
+          "mentions": 57
         },
         {
           "slug": "nysdec",
-          "mentions": 21
+          "mentions": 23
         },
         {
           "slug": "fluidstack",
-          "mentions": 9
-        },
-        {
-          "slug": "amd",
-          "mentions": 3
+          "mentions": 10
         }
       ]
     },
     "90d": {
-      "claims_total": 844,
+      "claims_total": 941,
       "claims_by_category": {
-        "market": 230,
-        "regulatory": 153,
-        "corporate": 381,
-        "pricing": 51,
+        "market": 258,
+        "regulatory": 164,
+        "corporate": 431,
+        "pricing": 57,
         "manufacturing": 23,
-        "supply": 6
+        "supply": 8
       },
       "top_entities": [
         {
           "slug": "mara",
-          "mentions": 354
+          "mentions": 403
         },
         {
           "slug": "riot",
-          "mentions": 176
+          "mentions": 195
         },
         {
           "slug": "texas_puc",
-          "mentions": 122
+          "mentions": 130
         },
         {
           "slug": "ercot",
-          "mentions": 106
+          "mentions": 110
         },
         {
           "slug": "hut8",
-          "mentions": 59
+          "mentions": 66
         },
         {
           "slug": "luxor",
-          "mentions": 51
+          "mentions": 57
         },
         {
           "slug": "nysdec",
-          "mentions": 21
+          "mentions": 23
         },
         {
           "slug": "fluidstack",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "amd",
@@ -110,67 +101,67 @@
       ]
     },
     "365d": {
-      "claims_total": 1432,
+      "claims_total": 1601,
       "claims_by_category": {
-        "market": 299,
-        "regulatory": 158,
-        "corporate": 855,
-        "pricing": 58,
-        "manufacturing": 55,
-        "supply": 7
+        "market": 334,
+        "regulatory": 178,
+        "corporate": 956,
+        "pricing": 65,
+        "manufacturing": 58,
+        "supply": 10
       },
       "top_entities": [
         {
           "slug": "mara",
-          "mentions": 355
+          "mentions": 404
         },
         {
           "slug": "hive",
-          "mentions": 201
-        },
-        {
-          "slug": "canaan",
-          "mentions": 192
+          "mentions": 221
         },
         {
           "slug": "iren",
-          "mentions": 191
+          "mentions": 215
+        },
+        {
+          "slug": "canaan",
+          "mentions": 212
         },
         {
           "slug": "riot",
-          "mentions": 176
+          "mentions": 195
         },
         {
           "slug": "texas_puc",
-          "mentions": 122
+          "mentions": 137
         },
         {
           "slug": "ercot",
-          "mentions": 106
+          "mentions": 118
         },
         {
           "slug": "hut8",
-          "mentions": 59
+          "mentions": 66
         },
         {
           "slug": "luxor",
-          "mentions": 51
+          "mentions": 57
         },
         {
           "slug": "nysdec",
-          "mentions": 24
+          "mentions": 26
         },
         {
           "slug": "fluidstack",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "cipher_mining",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "cleanspark",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "amd",
@@ -186,59 +177,59 @@
   "source_freshness": [
     {
       "url": "https://bit-digital.com/press-releases/bit-digital-inc-announces-first-quarter-2026-financial-results/",
-      "last_ingested_at": "2026-05-30 06:00:02"
+      "last_ingested_at": "2026-05-31 12:00:01"
     },
     {
       "url": "https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-reports-unaudited-second-quarter-2025-financial",
-      "last_ingested_at": "2026-05-29 12:00:02"
+      "last_ingested_at": "2026-05-30 18:00:02"
     },
     {
       "url": "https://capitol.texas.gov/billlookup/BillSummary.aspx?Bill=SB6&LegSess=89R",
-      "last_ingested_at": "2026-05-29 12:00:06"
+      "last_ingested_at": "2026-05-30 18:00:06"
     },
     {
       "url": "https://dec.ny.gov/environmental-protection/climate-change/statutes-regulations-policies",
-      "last_ingested_at": "2026-05-29 12:00:05"
+      "last_ingested_at": "2026-05-30 18:00:05"
     },
     {
       "url": "https://docs.luxor.tech/hashrateindex/hashprice",
-      "last_ingested_at": "2026-05-29 12:00:03"
+      "last_ingested_at": "2026-05-30 18:00:03"
     },
     {
       "url": "https://investors.corescientific.com/financial-information/financial-results",
-      "last_ingested_at": "2026-05-29 12:00:02"
+      "last_ingested_at": "2026-05-30 18:00:02"
     },
     {
       "url": "https://ir.mara.com/sec-filings/all-sec-filings/content/0001507605-26-000014/q126shareholderletter.htm",
-      "last_ingested_at": "2026-05-29 12:00:04"
+      "last_ingested_at": "2026-05-30 18:00:04"
     },
     {
       "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q2-fy26-results",
-      "last_ingested_at": "2026-05-29 12:00:03"
+      "last_ingested_at": "2026-05-30 18:00:04"
     },
     {
       "url": "https://support.bitmain.com/hc/en-us/articles/38059223529241-Antminer-S21-XP",
-      "last_ingested_at": "2026-05-30 06:00:02"
+      "last_ingested_at": "2026-05-31 12:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/04/30/3285410/0/en/Riot-Platforms-Reports-First-Quarter-2026-Financial-Results-and-Strategic-Highlights.html",
-      "last_ingested_at": "2026-05-29 12:00:05"
+      "last_ingested_at": "2026-05-30 18:00:05"
     },
     {
       "url": "https://www.hivedigitaltechnologies.com/news/hive-delivers-record-q3-revenue-of-931-million-with-321-million-gross-operating-margin-up-over-6x-year-over-year/",
-      "last_ingested_at": "2026-05-29 12:00:03"
+      "last_ingested_at": "2026-05-30 18:00:03"
     },
     {
       "url": "https://www.hut8.com/news-insights/press-releases/hut-8-reports-first-quarter-2026-results",
-      "last_ingested_at": "2026-05-29 12:00:03"
+      "last_ingested_at": "2026-05-30 18:00:03"
     },
     {
       "url": "https://www.irs.gov/irb/2024-06_IRB",
-      "last_ingested_at": "2026-05-29 12:00:04"
+      "last_ingested_at": "2026-05-30 18:00:04"
     },
     {
       "url": "https://www.puc.texas.gov/industry/electric/business/vcm/Default.aspx",
-      "last_ingested_at": "2026-05-29 12:00:06"
+      "last_ingested_at": "2026-05-30 18:00:06"
     }
   ]
 }
