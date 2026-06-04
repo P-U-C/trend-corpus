@@ -20,7 +20,11 @@ trend-corpus is one of three corpus layers in the [Permanent Upper Class
 system](https://github.com/P-U-C) — the **"what is happening"** corpus.
 Downstream it feeds **Convergence Daily** (cross-sector market intelligence in
 the `editorial` repo) and the **trading scanner**, and exposes its
-decision-packets to the machine-readable API. Sibling corpuses: **swell-checker**
+decision-packets to the machine-readable API. Convergence Daily issues are in turn
+forked through the **[convergence-hq dual-publishing engine](https://github.com/convergence-hq/convergence)**,
+which emits an immutable, signed, agent-citable **Signal** object per episode (a
+separate, forkable publishing surface — *read by humans, cited by machines*).
+Sibling corpuses: **swell-checker**
 (what is rising) and the planned **audience-corpus** (who you are talking to).
 The corpus is the moat; the newsletters and scanner are thin surfaces that ride
 on it. See the [org overview](https://github.com/P-U-C) for the full map.
