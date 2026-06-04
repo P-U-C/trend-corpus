@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-03T13:30:01Z",
+  "generated_at": "2026-06-04T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,9 +12,9 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 268,
+      "claims_total": 260,
       "claims_by_category": {
-        "corporate": 103,
+        "corporate": 95,
         "market": 110,
         "regulatory": 55
       },
@@ -29,7 +29,7 @@
         },
         {
           "slug": "broadcom",
-          "mentions": 58
+          "mentions": 50
         },
         {
           "slug": "taiwan_semiconductor",
@@ -259,7 +259,7 @@
     },
     {
       "url": "https://ir.amd.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-06-02 18:00:01"
+      "last_ingested_at": "2026-06-03 18:00:01"
     },
     {
       "url": "https://ir.asteralabs.com/",
