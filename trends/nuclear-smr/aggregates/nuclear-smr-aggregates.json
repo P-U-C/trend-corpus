@@ -1,31 +1,31 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-03T13:32:01Z",
+  "generated_at": "2026-06-04T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1612,
+  "underlying_claim_count": 1643,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 899,
+      "claims_total": 869,
       "claims_by_category": {
         "regulatory": 319,
         "supply": 129,
         "research": 41,
-        "corporate": 257,
-        "market": 77,
-        "manufacturing": 61,
-        "pricing": 15
+        "corporate": 220,
+        "market": 78,
+        "manufacturing": 66,
+        "pricing": 16
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 280
+          "mentions": 297
         },
         {
           "slug": "nrc",
@@ -36,20 +36,16 @@
           "mentions": 187
         },
         {
-          "slug": "bwxt",
-          "mentions": 62
-        },
-        {
           "slug": "ge_vernova",
           "mentions": 47
         },
         {
           "slug": "jv_inkai",
-          "mentions": 37
+          "mentions": 39
         },
         {
           "slug": "westinghouse",
-          "mentions": 35
+          "mentions": 38
         },
         {
           "slug": "nuscale",
@@ -62,6 +58,10 @@
         {
           "slug": "terrapower",
           "mentions": 20
+        },
+        {
+          "slug": "bwxt",
+          "mentions": 15
         },
         {
           "slug": "uamps",
@@ -106,24 +106,24 @@
       ]
     },
     "90d": {
-      "claims_total": 961,
+      "claims_total": 986,
       "claims_by_category": {
-        "regulatory": 354,
-        "supply": 130,
+        "regulatory": 355,
+        "supply": 131,
         "research": 41,
-        "corporate": 283,
-        "market": 77,
-        "manufacturing": 61,
-        "pricing": 15
+        "corporate": 299,
+        "market": 78,
+        "manufacturing": 66,
+        "pricing": 16
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 283
+          "mentions": 302
         },
         {
           "slug": "nrc",
-          "mentions": 272
+          "mentions": 273
         },
         {
           "slug": "doe",
@@ -131,7 +131,7 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 90
+          "mentions": 96
         },
         {
           "slug": "ge_vernova",
@@ -139,11 +139,11 @@
         },
         {
           "slug": "jv_inkai",
-          "mentions": 37
+          "mentions": 39
         },
         {
           "slug": "westinghouse",
-          "mentions": 35
+          "mentions": 38
         },
         {
           "slug": "nuscale",
@@ -175,7 +175,7 @@
         },
         {
           "slug": "nuclear_fuel_services",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "texas_am",
@@ -200,24 +200,24 @@
       ]
     },
     "365d": {
-      "claims_total": 1097,
+      "claims_total": 1128,
       "claims_by_category": {
-        "regulatory": 400,
-        "supply": 132,
+        "regulatory": 401,
+        "supply": 133,
         "research": 42,
-        "corporate": 366,
-        "market": 77,
-        "manufacturing": 65,
-        "pricing": 15
+        "corporate": 388,
+        "market": 78,
+        "manufacturing": 70,
+        "pricing": 16
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 283
+          "mentions": 302
         },
         {
           "slug": "nrc",
-          "mentions": 272
+          "mentions": 273
         },
         {
           "slug": "doe",
@@ -225,7 +225,7 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 174
+          "mentions": 186
         },
         {
           "slug": "ge_vernova",
@@ -233,11 +233,11 @@
         },
         {
           "slug": "westinghouse",
-          "mentions": 37
+          "mentions": 40
         },
         {
           "slug": "jv_inkai",
-          "mentions": 37
+          "mentions": 39
         },
         {
           "slug": "nuscale",
@@ -269,7 +269,7 @@
         },
         {
           "slug": "nuclear_fuel_services",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "texas_am",
@@ -297,11 +297,11 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-06-02 18:00:01"
+      "last_ingested_at": "2026-06-03 18:00:01"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-06-03 06:00:02"
+      "last_ingested_at": "2026-06-04 12:00:01"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
@@ -309,7 +309,7 @@
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-06-03 06:00:01"
+      "last_ingested_at": "2026-06-04 06:00:02"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
