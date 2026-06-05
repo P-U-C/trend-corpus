@@ -1,0 +1,25 @@
+id: ent_hinge_health
+name: Hinge Health, Inc.
+entity_type: public_company
+schema_version: 1
+slug: hinge-health
+tickers:
+  - HNGE
+exchanges:
+  - NYSE
+identifiers:
+  ticker: HNGE
+  exchange: NYSE
+ticker_exposures:
+  - ticker: HNGE
+    direction: beneficiary
+    exposure_strength: 0.6
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - msk_digital_health
+  - motion_tracking
+  - virtual_physical_therapy
+  - enso_wearable
+notes: Pure-play musculoskeletal digital health; AI-driven virtual PT with computer-vision motion tracking (TrueMotion) and the FDA-cleared Enso wearable is the whole business. The software-led biomechanics name; IPO'd on the NYSE in May 2025. Exposure is moderated by the fact that it is care-delivery / payer economics rather than device hardware.

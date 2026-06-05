@@ -42,6 +42,7 @@ THEMES=(
     edge-ai
     photonic-computing
     longevity
+    biomechanics
     # cicadas is a hand-authored operator macro thesis (see
     # puc-trading/trades/cicadas.md). It has no trend-corpus sector
     # theme dir, so generate_opportunities will skip it (no

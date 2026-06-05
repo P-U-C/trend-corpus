@@ -1,0 +1,25 @@
+id: ent_zimmer_biomet
+name: Zimmer Biomet Holdings, Inc.
+entity_type: public_company
+schema_version: 1
+slug: zimmer-biomet
+tickers:
+  - ZBH
+exchanges:
+  - NYSE
+identifiers:
+  ticker: ZBH
+  exchange: NYSE
+ticker_exposures:
+  - ticker: ZBH
+    direction: beneficiary
+    exposure_strength: 0.45
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - robotic_orthopedics
+  - rosa_robotics
+  - joint_reconstruction
+  - knee_hip
+notes: ROSA robotics anchors Zimmer Biomet's joint-reconstruction franchise, its largest business, so the company is more concentrated in biomechanics-relevant ortho than Stryker. The 2025 ROSA Knee with OptimiZe clearance and the Monogram autonomous-TKA acquisition deepen the robotic-ortho exposure.

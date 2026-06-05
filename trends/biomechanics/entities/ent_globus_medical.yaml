@@ -1,0 +1,25 @@
+id: ent_globus_medical
+name: Globus Medical, Inc.
+entity_type: public_company
+schema_version: 1
+slug: globus-medical
+tickers:
+  - GMED
+exchanges:
+  - NYSE
+identifiers:
+  ticker: GMED
+  exchange: NYSE
+ticker_exposures:
+  - ticker: GMED
+    direction: beneficiary
+    exposure_strength: 0.5
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - robotic_spine_surgery
+  - excelsius_gps
+  - enabling_technology
+  - implant_pull_through
+notes: Globus Medical's ExcelsiusGPS / Excelsius robotics is a focused musculoskeletal and spine play where enabling-technology capital drives implant pull-through. More concentrated in robotic MSK surgery than the large-cap ortho names.

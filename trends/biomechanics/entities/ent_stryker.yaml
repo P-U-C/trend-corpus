@@ -1,0 +1,25 @@
+id: ent_stryker
+name: Stryker Corporation
+entity_type: public_company
+schema_version: 1
+slug: stryker
+tickers:
+  - SYK
+exchanges:
+  - NYSE
+identifiers:
+  ticker: SYK
+  exchange: NYSE
+ticker_exposures:
+  - ticker: SYK
+    direction: beneficiary
+    exposure_strength: 0.3
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - robotic_orthopedics
+  - mako_smartrobotics
+  - joint_reconstruction
+  - implant_pull_through
+notes: Stryker's Mako SmartRobotics is the dominant installed base in robotic joint replacement and a core implant pull-through engine, but robotic ortho is one slice of a large diversified medtech (MedSurg, Neurotechnology). Exposure is therefore moderate, not pure-play.

@@ -1,0 +1,25 @@
+id: ent_ekso_bionics
+name: Ekso Bionics Holdings, Inc.
+entity_type: public_company
+schema_version: 1
+slug: ekso-bionics
+tickers:
+  - EKSO
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: EKSO
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: EKSO
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - medical_exoskeleton
+  - industrial_exoskeleton
+  - eksonr
+  - indego
+notes: Pure-play exoskeletons spanning medical rehab (EksoNR), personal mobility (Indego), and industrial upper-body assist (EVO). Direct biomechanics beneficiary; small-cap, so revenue inflection and gross-margin trajectory drive the equity.

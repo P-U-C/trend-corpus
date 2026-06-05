@@ -1,0 +1,18 @@
+# Opportunity-generator tuning for the biomechanics theme. Read by
+# generate_opportunities.py to compute weighted ticker scores from the
+# theme's curated claims + entities.
+#
+# Weights must sum to 1.0 (validated upstream). Freshness half-life weighting
+# is applied inside the generator from each claim's category.
+
+lookback_days: 90
+min_claim_count: 1
+weights:
+  evidence_strength: 0.35
+  freshness_weight: 0.20
+  exposure_strength: 0.20
+  catalyst_weight: 0.15
+  tradability_weight: 0.10
+tier_thresholds:
+  HIGH: 0.75
+  MEDIUM: 0.55

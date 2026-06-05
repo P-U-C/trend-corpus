@@ -1,0 +1,25 @@
+id: ent_garmin
+name: Garmin Ltd.
+entity_type: public_company
+schema_version: 1
+slug: garmin
+tickers:
+  - GRMN
+exchanges:
+  - NYSE
+identifiers:
+  ticker: GRMN
+  exchange: NYSE
+ticker_exposures:
+  - ticker: GRMN
+    direction: ambiguous
+    exposure_strength: 0.08
+    basis:
+      - demand_channel
+      - other
+    tradable: true
+role:
+  - wearable_biomechanics
+  - running_dynamics
+  - sports_science
+notes: Running dynamics / biomechanics is a feature set inside Garmin's Fitness and Outdoor wearable segments, meaningful as competitive differentiation but immaterial as a reported financial item. Included for completeness of the wearable motion-sensing layer; exposure is deliberately low and ambiguous.

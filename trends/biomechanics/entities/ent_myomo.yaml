@@ -1,0 +1,25 @@
+id: ent_myomo
+name: Myomo, Inc.
+entity_type: public_company
+schema_version: 1
+slug: myomo
+tickers:
+  - MYO
+exchanges:
+  - NYSE American
+identifiers:
+  ticker: MYO
+  exchange: NYSE American
+ticker_exposures:
+  - ticker: MYO
+    direction: beneficiary
+    exposure_strength: 0.85
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - myoelectric_orthosis
+  - myopro
+  - powered_brace
+  - rehabilitation
+notes: Pure-play. The MyoPro myoelectric arm orthosis is essentially all of revenue, so Myomo is a direct biomechanics beneficiary tied to reimbursement throughput. Small-cap; note 2025 guidance was cut mid-year and FY2025 landed at the low end, so catalyst sensitivity is high in both directions.

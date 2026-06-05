@@ -1,0 +1,30 @@
+id: ent_ottobock
+name: Ottobock SE & Co. KGaA
+entity_type: public_company
+schema_version: 1
+slug: ottobock
+tickers:
+  - OBO
+exchanges:
+  - XETRA
+identifiers:
+  ticker: OBO
+  exchange: XETRA
+ticker_exposures:
+  - ticker: OBO
+    direction: beneficiary
+    exposure_strength: 0.65
+    basis:
+      - revenue_segment
+    tradable: false
+notes: >
+  Global prosthetics and bionics leader; IPO'd on the Frankfurt Stock Exchange
+  in October 2025 to fund AI-powered prosthetics and human-machine interfaces.
+  The most concentrated public bionics name, but a Frankfurt/Xetra listing
+  (ticker OBO) with no liquid US-listed options, so it is marked not tradable
+  for the US options scanner and serves primarily as a bionics-cycle reference.
+role:
+  - prosthetics
+  - bionics
+  - human_machine_interface
+  - exoskeleton

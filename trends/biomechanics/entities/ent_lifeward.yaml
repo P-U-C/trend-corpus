@@ -1,0 +1,25 @@
+id: ent_lifeward
+name: Lifeward Ltd.
+entity_type: public_company
+schema_version: 1
+slug: lifeward
+tickers:
+  - LFWD
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: LFWD
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: LFWD
+    direction: beneficiary
+    exposure_strength: 0.8
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - personal_exoskeleton
+  - rewalk
+  - rehabilitation
+  - altergi_anti_gravity
+notes: Pure-play personal and rehab exoskeletons (formerly ReWalk Robotics). The ReWalk personal exoskeleton for spinal cord injury is the lead product, alongside AlterG anti-gravity treadmills. The 2025 ReWalk 7 launch and CE Mark are the live catalysts.

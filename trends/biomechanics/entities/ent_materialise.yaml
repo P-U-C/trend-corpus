@@ -1,0 +1,24 @@
+id: ent_materialise
+name: Materialise NV
+entity_type: public_company
+schema_version: 1
+slug: materialise
+tickers:
+  - MTLS
+exchanges:
+  - NASDAQ
+identifiers:
+  ticker: MTLS
+  exchange: NASDAQ
+ticker_exposures:
+  - ticker: MTLS
+    direction: beneficiary
+    exposure_strength: 0.3
+    basis:
+      - revenue_segment
+    tradable: true
+role:
+  - personalized_orthopedic_implants
+  - surgical_guides
+  - medical_3d_printing
+notes: Materialise Medical (personalized implants, surgical guides and splints, including orthopedic and CMF) is the highest-growth segment and the biomechanics-relevant exposure, but it is a minority of a diversified 3D-printing company whose total revenue has been roughly flat-to-down. Segment growth, not company-wide growth.

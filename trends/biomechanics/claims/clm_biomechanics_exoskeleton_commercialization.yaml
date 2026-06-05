@@ -1,0 +1,30 @@
+id: clm_biomechanics_exoskeleton_commercialization
+claim: >
+  Medical and industrial exoskeletons are moving from pilots toward reimbursed
+  and deployed units: Myomo's MyoPro reimbursement pipeline, Ekso's rehab and
+  industrial installed base, Lifeward's ReWalk 7 FDA clearance and CE Mark, and
+  private milestones at Wandercraft (self-balancing personal exoskeleton) and
+  German Bionic (AI-augmented industrial exosuit) are the leading public
+  indicators of exoskeleton revenue inflection.
+category: market
+source_ids:
+  - src_biomechanics_myomo_fy2025
+  - src_biomechanics_ekso_q3_2025
+  - src_biomechanics_lifeward_rewalk7_cemark
+  - src_biomechanics_wandercraft_series_d
+  - src_biomechanics_german_bionic_exia
+entity_ids:
+  - ent_myomo
+  - ent_ekso_bionics
+  - ent_lifeward
+  - ent_wandercraft
+  - ent_german_bionic
+date_of_evidence: '2026-06-05'
+evidence_at: '2026-06-05'
+event_horizon:
+  event_type: structural
+  horizon_bucket: mid_term_90d_1y
+  notes: MyoPro reimbursement throughput, EksoNR/EVO unit growth, ReWalk 7 launch, Wandercraft Eve 2026 launch, German Bionic Exia deployments.
+confidence: 0.7
+status: active
+schema_version: 1
