@@ -1,24 +1,24 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-05T13:42:01Z",
+  "generated_at": "2026-06-06T13:42:02Z",
   "theme_id": "longevity",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1675,
+  "underlying_claim_count": 1728,
   "underlying_source_count": 16,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 316,
+      "claims_total": 326,
       "claims_by_category": {
-        "corporate": 130,
+        "corporate": 137,
         "research": 104,
-        "clinical": 63,
+        "clinical": 65,
         "manufacturing": 2,
-        "regulatory": 17
+        "regulatory": 18
       },
       "top_entities": [
         {
@@ -27,19 +27,19 @@
         },
         {
           "slug": "bioage",
-          "mentions": 140
+          "mentions": 150
         },
         {
           "slug": "novartis",
-          "mentions": 24
+          "mentions": 26
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "life_bio",
@@ -72,19 +72,19 @@
       ]
     },
     "90d": {
-      "claims_total": 502,
+      "claims_total": 516,
       "claims_by_category": {
-        "corporate": 189,
+        "corporate": 197,
         "research": 138,
-        "clinical": 147,
+        "clinical": 152,
         "manufacturing": 2,
-        "regulatory": 17,
+        "regulatory": 18,
         "market": 9
       },
       "top_entities": [
         {
           "slug": "bioage",
-          "mentions": 214
+          "mentions": 228
         },
         {
           "slug": "newlimit",
@@ -96,15 +96,15 @@
         },
         {
           "slug": "novartis",
-          "mentions": 27
+          "mentions": 29
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "dimension",
@@ -133,13 +133,13 @@
       ]
     },
     "365d": {
-      "claims_total": 1174,
+      "claims_total": 1213,
       "claims_by_category": {
-        "corporate": 467,
-        "research": 272,
-        "clinical": 314,
+        "corporate": 484,
+        "research": 277,
+        "clinical": 328,
         "manufacturing": 12,
-        "regulatory": 85,
+        "regulatory": 88,
         "market": 24
       },
       "top_entities": [
@@ -149,19 +149,19 @@
         },
         {
           "slug": "bioage",
-          "mentions": 229
+          "mentions": 244
+        },
+        {
+          "slug": "abbvie",
+          "mentions": 202
+        },
+        {
+          "slug": "calico",
+          "mentions": 202
         },
         {
           "slug": "insilico",
           "mentions": 193
-        },
-        {
-          "slug": "abbvie",
-          "mentions": 191
-        },
-        {
-          "slug": "calico",
-          "mentions": 190
         },
         {
           "slug": "newlimit",
@@ -173,27 +173,27 @@
         },
         {
           "slug": "fda_cber",
-          "mentions": 47
+          "mentions": 49
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 32
+          "mentions": 33
         },
         {
           "slug": "novartis",
-          "mentions": 27
+          "mentions": 29
         },
         {
           "slug": "alphabet",
-          "mentions": 21
+          "mentions": 23
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "bryan_johnson",
-          "mentions": 12
+          "mentions": 13
         },
         {
           "slug": "rapamycin",
@@ -229,7 +229,7 @@
   "source_freshness": [
     {
       "url": "https://altoslabs.com/news/",
-      "last_ingested_at": "2026-06-04 18:00:01"
+      "last_ingested_at": "2026-06-05 18:00:01"
     },
     {
       "url": "https://insilico.com/news",
@@ -237,15 +237,15 @@
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-announces-discontinuation-strides-phase-2-clinical",
-      "last_ingested_at": "2026-06-05 06:00:01"
+      "last_ingested_at": "2026-06-06 06:00:02"
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-reports-first-quarter-2026-financial-results-and",
-      "last_ingested_at": "2026-06-05 06:00:02"
+      "last_ingested_at": "2026-06-06 12:00:01"
     },
     {
       "url": "https://ir.unitybiotechnology.com/news-releases",
-      "last_ingested_at": "2026-06-04 18:00:02"
+      "last_ingested_at": "2026-06-06 00:00:06"
     },
     {
       "url": "https://loyal.com/posts/loy-002-receives-rxe-from-the-fda",
@@ -265,11 +265,11 @@
     },
     {
       "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products",
-      "last_ingested_at": "2026-06-05 06:00:02"
+      "last_ingested_at": "2026-06-06 12:00:01"
     },
     {
       "url": "https://www.fiercebiotech.com/biotech/abbvie-cuts-ties-calico-100-scientists-after-11-year-partnership",
-      "last_ingested_at": "2026-06-05 06:00:01"
+      "last_ingested_at": "2026-06-06 06:00:01"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/04/08/3270043/0/en/Life-Biosciences-Secures-80-Million-Series-D-Financing.html",
@@ -281,7 +281,7 @@
     },
     {
       "url": "https://www.nad.com/news/new-oxford-study-powerful-longevity-drug-rapamycin-targets-cell-senescence",
-      "last_ingested_at": "2026-06-04 18:00:02"
+      "last_ingested_at": "2026-06-06 00:00:06"
     },
     {
       "url": "https://www.newlimit.com/operating-plan",
@@ -289,7 +289,7 @@
     },
     {
       "url": "https://www.retro.bio/news",
-      "last_ingested_at": "2026-06-04 18:00:02"
+      "last_ingested_at": "2026-06-06 00:00:06"
     }
   ]
 }
