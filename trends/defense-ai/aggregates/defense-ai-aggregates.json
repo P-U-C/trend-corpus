@@ -1,70 +1,70 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-06T13:34:01Z",
+  "generated_at": "2026-06-07T13:34:01Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 723,
+  "underlying_claim_count": 772,
   "underlying_source_count": 11,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 648,
+      "claims_total": 693,
       "claims_by_category": {
-        "corporate": 323,
-        "regulatory": 96,
-        "market": 72,
-        "research": 68,
-        "manufacturing": 88,
+        "corporate": 343,
+        "regulatory": 104,
+        "research": 75,
+        "manufacturing": 95,
+        "market": 75,
         "supply": 1
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 300
+          "mentions": 317
         },
         {
           "slug": "leidos",
-          "mentions": 85
+          "mentions": 91
         },
         {
           "slug": "aerovironment",
-          "mentions": 68
+          "mentions": 73
         },
         {
           "slug": "kratos",
-          "mentions": 54
+          "mentions": 57
         },
         {
           "slug": "saab",
-          "mentions": 19
+          "mentions": 21
         },
         {
           "slug": "darpa",
           "mentions": 15
         },
         {
+          "slug": "airbus",
+          "mentions": 13
+        },
+        {
+          "slug": "spacex",
+          "mentions": 13
+        },
+        {
           "slug": "lockheed_martin",
           "mentions": 13
         },
         {
-          "slug": "airbus",
-          "mentions": 12
-        },
-        {
-          "slug": "spacex",
-          "mentions": 12
+          "slug": "ukraine",
+          "mentions": 11
         },
         {
           "slug": "anduril",
           "mentions": 11
-        },
-        {
-          "slug": "ukraine",
-          "mentions": 10
         },
         {
           "slug": "cybercom",
@@ -88,107 +88,14 @@
         },
         {
           "slug": "us_army",
-          "mentions": 6
-        },
-        {
-          "slug": "usaf",
-          "mentions": 6
-        },
-        {
-          "slug": "navy",
           "mentions": 6
         },
         {
           "slug": "patria",
-          "mentions": 5
-        }
-      ]
-    },
-    "90d": {
-      "claims_total": 719,
-      "claims_by_category": {
-        "corporate": 387,
-        "regulatory": 97,
-        "market": 75,
-        "research": 69,
-        "manufacturing": 90,
-        "supply": 1
-      },
-      "top_entities": [
-        {
-          "slug": "dod",
-          "mentions": 307
+          "mentions": 6
         },
         {
-          "slug": "kratos",
-          "mentions": 107
-        },
-        {
-          "slug": "leidos",
-          "mentions": 94
-        },
-        {
-          "slug": "aerovironment",
-          "mentions": 71
-        },
-        {
-          "slug": "saab",
-          "mentions": 19
-        },
-        {
-          "slug": "darpa",
-          "mentions": 15
-        },
-        {
-          "slug": "lockheed_martin",
-          "mentions": 13
-        },
-        {
-          "slug": "airbus",
-          "mentions": 12
-        },
-        {
-          "slug": "spacex",
-          "mentions": 12
-        },
-        {
-          "slug": "anduril",
-          "mentions": 11
-        },
-        {
-          "slug": "ukraine",
-          "mentions": 10
-        },
-        {
-          "slug": "cybercom",
-          "mentions": 9
-        },
-        {
-          "slug": "france",
-          "mentions": 8
-        },
-        {
-          "slug": "us_army",
-          "mentions": 7
-        },
-        {
-          "slug": "bae_systems",
-          "mentions": 7
-        },
-        {
-          "slug": "naval_group",
-          "mentions": 7
-        },
-        {
-          "slug": "raytheon",
-          "mentions": 7
-        },
-        {
-          "slug": "navy",
-          "mentions": 7
-        },
-        {
-          "slug": "usaf",
+          "slug": "sweden",
           "mentions": 6
         },
         {
@@ -197,60 +104,60 @@
         }
       ]
     },
-    "365d": {
-      "claims_total": 721,
+    "90d": {
+      "claims_total": 768,
       "claims_by_category": {
-        "corporate": 388,
-        "regulatory": 98,
-        "market": 75,
-        "research": 69,
-        "manufacturing": 90,
+        "corporate": 411,
+        "regulatory": 105,
+        "research": 76,
+        "manufacturing": 97,
+        "market": 78,
         "supply": 1
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 307
+          "mentions": 324
         },
         {
           "slug": "kratos",
-          "mentions": 107
+          "mentions": 114
         },
         {
           "slug": "leidos",
-          "mentions": 94
+          "mentions": 100
         },
         {
           "slug": "aerovironment",
-          "mentions": 71
+          "mentions": 76
         },
         {
           "slug": "saab",
-          "mentions": 19
+          "mentions": 21
         },
         {
           "slug": "darpa",
           "mentions": 15
         },
         {
+          "slug": "airbus",
+          "mentions": 13
+        },
+        {
+          "slug": "spacex",
+          "mentions": 13
+        },
+        {
           "slug": "lockheed_martin",
           "mentions": 13
         },
         {
-          "slug": "airbus",
-          "mentions": 12
-        },
-        {
-          "slug": "spacex",
-          "mentions": 12
+          "slug": "ukraine",
+          "mentions": 11
         },
         {
           "slug": "anduril",
           "mentions": 11
-        },
-        {
-          "slug": "ukraine",
-          "mentions": 10
         },
         {
           "slug": "cybercom",
@@ -258,6 +165,10 @@
         },
         {
           "slug": "france",
+          "mentions": 8
+        },
+        {
+          "slug": "nato",
           "mentions": 8
         },
         {
@@ -281,12 +192,101 @@
           "mentions": 7
         },
         {
-          "slug": "canada",
+          "slug": "patria",
           "mentions": 6
+        }
+      ]
+    },
+    "365d": {
+      "claims_total": 770,
+      "claims_by_category": {
+        "corporate": 412,
+        "regulatory": 106,
+        "research": 76,
+        "manufacturing": 97,
+        "market": 78,
+        "supply": 1
+      },
+      "top_entities": [
+        {
+          "slug": "dod",
+          "mentions": 324
         },
         {
-          "slug": "usaf",
-          "mentions": 6
+          "slug": "kratos",
+          "mentions": 114
+        },
+        {
+          "slug": "leidos",
+          "mentions": 100
+        },
+        {
+          "slug": "aerovironment",
+          "mentions": 76
+        },
+        {
+          "slug": "saab",
+          "mentions": 21
+        },
+        {
+          "slug": "darpa",
+          "mentions": 15
+        },
+        {
+          "slug": "airbus",
+          "mentions": 13
+        },
+        {
+          "slug": "spacex",
+          "mentions": 13
+        },
+        {
+          "slug": "lockheed_martin",
+          "mentions": 13
+        },
+        {
+          "slug": "ukraine",
+          "mentions": 11
+        },
+        {
+          "slug": "anduril",
+          "mentions": 11
+        },
+        {
+          "slug": "cybercom",
+          "mentions": 9
+        },
+        {
+          "slug": "france",
+          "mentions": 8
+        },
+        {
+          "slug": "nato",
+          "mentions": 8
+        },
+        {
+          "slug": "us_army",
+          "mentions": 7
+        },
+        {
+          "slug": "canada",
+          "mentions": 7
+        },
+        {
+          "slug": "bae_systems",
+          "mentions": 7
+        },
+        {
+          "slug": "naval_group",
+          "mentions": 7
+        },
+        {
+          "slug": "raytheon",
+          "mentions": 7
+        },
+        {
+          "slug": "navy",
+          "mentions": 7
         }
       ]
     }
@@ -294,39 +294,39 @@
   "source_freshness": [
     {
       "url": "https://breakingdefense.com/",
-      "last_ingested_at": "2026-06-06 00:00:02"
+      "last_ingested_at": "2026-06-07 06:00:03"
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-06-05 18:00:01"
+      "last_ingested_at": "2026-06-06 18:00:01"
     },
     {
       "url": "https://investors.leidos.com/",
-      "last_ingested_at": "2026-06-06 00:00:05"
+      "last_ingested_at": "2026-06-07 06:00:05"
     },
     {
       "url": "https://investors.palantir.com/",
-      "last_ingested_at": "2026-06-06 00:00:06"
+      "last_ingested_at": "2026-06-07 06:00:05"
     },
     {
       "url": "https://ir.kratosdefense.com/",
-      "last_ingested_at": "2026-06-06 00:00:05"
+      "last_ingested_at": "2026-06-07 06:00:04"
     },
     {
       "url": "https://shield.ai/news/",
-      "last_ingested_at": "2026-06-06 00:00:06"
+      "last_ingested_at": "2026-06-07 06:00:05"
     },
     {
       "url": "https://warontherocks.com/",
-      "last_ingested_at": "2026-06-06 00:00:06"
+      "last_ingested_at": "2026-06-07 06:00:06"
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
-      "last_ingested_at": "2026-06-06 00:00:02"
+      "last_ingested_at": "2026-06-07 06:00:03"
     },
     {
       "url": "https://www.darpa.mil/news",
-      "last_ingested_at": "2026-06-06 00:00:04"
+      "last_ingested_at": "2026-06-07 06:00:04"
     },
     {
       "url": "https://www.defense.gov/News/Releases/Release/Article/3526139/",
@@ -334,7 +334,7 @@
     },
     {
       "url": "https://www.defensenews.com/",
-      "last_ingested_at": "2026-06-06 00:00:05"
+      "last_ingested_at": "2026-06-07 06:00:04"
     }
   ]
 }
