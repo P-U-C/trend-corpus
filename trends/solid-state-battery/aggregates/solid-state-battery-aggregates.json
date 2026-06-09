@@ -1,33 +1,33 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-08T13:38:01Z",
+  "generated_at": "2026-06-09T13:38:01Z",
   "theme_id": "solid-state-battery",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1566,
+  "underlying_claim_count": 1583,
   "underlying_source_count": 18,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 228,
+      "claims_total": 241,
       "claims_by_category": {
-        "manufacturing": 64,
-        "corporate": 57,
-        "research": 57,
-        "regulatory": 48,
+        "manufacturing": 68,
+        "corporate": 60,
+        "research": 59,
+        "regulatory": 52,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "ampcera",
-          "mentions": 129
+          "mentions": 137
         },
         {
           "slug": "doe_lpo",
-          "mentions": 48
+          "mentions": 53
         },
         {
           "slug": "mitsui_mining_smelting",
@@ -44,31 +44,30 @@
       ]
     },
     "90d": {
-      "claims_total": 385,
+      "claims_total": 251,
       "claims_by_category": {
-        "manufacturing": 110,
-        "corporate": 109,
-        "research": 99,
-        "regulatory": 57,
-        "supply": 2,
-        "market": 8
+        "manufacturing": 69,
+        "corporate": 60,
+        "research": 59,
+        "regulatory": 61,
+        "supply": 2
       },
       "top_entities": [
         {
-          "slug": "ion_storage_systems",
-          "mentions": 164
-        },
-        {
           "slug": "ampcera",
-          "mentions": 129
+          "mentions": 137
         },
         {
           "slug": "doe_lpo",
-          "mentions": 58
+          "mentions": 63
         },
         {
           "slug": "mitsui_mining_smelting",
           "mentions": 30
+        },
+        {
+          "slug": "ion_storage_systems",
+          "mentions": 17
         },
         {
           "slug": "mitsui_kinzoku",
@@ -77,12 +76,12 @@
       ]
     },
     "365d": {
-      "claims_total": 1079,
+      "claims_total": 1094,
       "claims_by_category": {
-        "manufacturing": 341,
-        "corporate": 383,
-        "research": 221,
-        "regulatory": 114,
+        "manufacturing": 345,
+        "corporate": 387,
+        "research": 223,
+        "regulatory": 119,
         "supply": 2,
         "market": 18
       },
@@ -104,20 +103,20 @@
           "mentions": 164
         },
         {
+          "slug": "ampcera",
+          "mentions": 137
+        },
+        {
           "slug": "powerco",
           "mentions": 133
         },
         {
-          "slug": "ampcera",
-          "mentions": 129
+          "slug": "doe_lpo",
+          "mentions": 102
         },
         {
           "slug": "factorial",
           "mentions": 96
-        },
-        {
-          "slug": "doe_lpo",
-          "mentions": 95
         },
         {
           "slug": "mitsui_mining_smelting",
@@ -177,11 +176,11 @@
     },
     {
       "url": "https://www.ampcera.com/",
-      "last_ingested_at": "2026-06-08 12:00:01"
+      "last_ingested_at": "2026-06-09 12:00:02"
     },
     {
       "url": "https://www.energy.gov/lpo/loan-programs-office",
-      "last_ingested_at": "2026-06-08 12:00:01"
+      "last_ingested_at": "2026-06-09 12:00:16"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2024/250227_en.pdf",
