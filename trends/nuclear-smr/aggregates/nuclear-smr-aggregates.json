@@ -1,25 +1,25 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-08T13:32:01Z",
+  "generated_at": "2026-06-09T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2111,
+  "underlying_claim_count": 2166,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 725,
+      "claims_total": 731,
       "claims_by_category": {
         "regulatory": 409,
         "supply": 50,
-        "market": 68,
+        "market": 70,
         "research": 53,
-        "corporate": 75,
-        "manufacturing": 70
+        "corporate": 76,
+        "manufacturing": 73
       },
       "top_entities": [
         {
@@ -32,7 +32,7 @@
         },
         {
           "slug": "ge_vernova",
-          "mentions": 66
+          "mentions": 71
         },
         {
           "slug": "nuscale",
@@ -105,24 +105,24 @@
       ]
     },
     "90d": {
-      "claims_total": 1248,
+      "claims_total": 1284,
       "claims_by_category": {
-        "regulatory": 455,
-        "supply": 160,
-        "market": 93,
+        "regulatory": 456,
+        "supply": 167,
+        "market": 96,
         "research": 54,
-        "corporate": 375,
-        "manufacturing": 92,
-        "pricing": 19
+        "corporate": 396,
+        "manufacturing": 95,
+        "pricing": 20
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 364
+          "mentions": 386
         },
         {
           "slug": "nrc",
-          "mentions": 347
+          "mentions": 348
         },
         {
           "slug": "doe",
@@ -130,19 +130,19 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 123
+          "mentions": 131
         },
         {
           "slug": "ge_vernova",
-          "mentions": 76
+          "mentions": 82
         },
         {
           "slug": "jv_inkai",
-          "mentions": 47
+          "mentions": 50
         },
         {
           "slug": "westinghouse",
-          "mentions": 45
+          "mentions": 48
         },
         {
           "slug": "nuscale",
@@ -199,24 +199,24 @@
       ]
     },
     "365d": {
-      "claims_total": 1431,
+      "claims_total": 1472,
       "claims_by_category": {
-        "regulatory": 518,
-        "supply": 165,
-        "market": 93,
+        "regulatory": 519,
+        "supply": 172,
+        "market": 96,
         "research": 55,
-        "corporate": 485,
-        "manufacturing": 96,
-        "pricing": 19
+        "corporate": 511,
+        "manufacturing": 99,
+        "pricing": 20
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 364
+          "mentions": 386
         },
         {
           "slug": "nrc",
-          "mentions": 347
+          "mentions": 348
         },
         {
           "slug": "doe",
@@ -224,19 +224,19 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 233
+          "mentions": 246
         },
         {
           "slug": "ge_vernova",
-          "mentions": 76
+          "mentions": 82
         },
         {
           "slug": "westinghouse",
-          "mentions": 47
+          "mentions": 50
         },
         {
           "slug": "jv_inkai",
-          "mentions": 47
+          "mentions": 50
         },
         {
           "slug": "nuscale",
@@ -296,23 +296,23 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-06-08 06:00:01"
+      "last_ingested_at": "2026-06-09 06:00:02"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-06-08 00:00:02"
+      "last_ingested_at": "2026-06-09 00:00:02"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-06-08 12:00:02"
+      "last_ingested_at": "2026-06-09 12:00:02"
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-06-07 18:00:02"
+      "last_ingested_at": "2026-06-08 18:00:02"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
-      "last_ingested_at": "2026-06-08 12:00:02"
+      "last_ingested_at": "2026-06-09 12:00:02"
     },
     {
       "url": "https://www.energy.gov/ne/haleu-availability-program",
