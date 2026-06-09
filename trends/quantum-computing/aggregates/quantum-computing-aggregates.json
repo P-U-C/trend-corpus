@@ -1,13 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-08T13:31:01Z",
+  "generated_at": "2026-06-09T13:31:01Z",
   "theme_id": "quantum-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2236,
+  "underlying_claim_count": 2255,
   "underlying_source_count": 13,
   "min_count_threshold": 1,
   "windows": {
@@ -105,11 +105,11 @@
       ]
     },
     "90d": {
-      "claims_total": 977,
+      "claims_total": 979,
       "claims_by_category": {
         "manufacturing": 236,
         "research": 290,
-        "corporate": 303,
+        "corporate": 305,
         "market": 73,
         "regulatory": 70,
         "supply": 5
@@ -140,6 +140,10 @@
           "mentions": 44
         },
         {
+          "slug": "arqit",
+          "mentions": 34
+        },
+        {
           "slug": "brookhaven_national_laboratory",
           "mentions": 33
         },
@@ -149,10 +153,6 @@
         },
         {
           "slug": "oak_ridge_national_laboratory",
-          "mentions": 33
-        },
-        {
-          "slug": "arqit",
           "mentions": 33
         },
         {
@@ -169,15 +169,15 @@
         },
         {
           "slug": "vodafone",
-          "mentions": 24
+          "mentions": 26
+        },
+        {
+          "slug": "tomorrow_street",
+          "mentions": 22
         },
         {
           "slug": "us_department_of_commerce",
           "mentions": 21
-        },
-        {
-          "slug": "tomorrow_street",
-          "mentions": 20
         },
         {
           "slug": "qphox",
@@ -198,12 +198,12 @@
       ]
     },
     "365d": {
-      "claims_total": 1156,
+      "claims_total": 1163,
       "claims_by_category": {
         "manufacturing": 237,
         "research": 299,
-        "corporate": 395,
-        "market": 96,
+        "corporate": 401,
+        "market": 97,
         "regulatory": 124,
         "supply": 5
       },
@@ -218,7 +218,7 @@
         },
         {
           "slug": "arqit",
-          "mentions": 149
+          "mentions": 155
         },
         {
           "slug": "quantum_computing_inc",
@@ -262,19 +262,19 @@
         },
         {
           "slug": "vodafone",
-          "mentions": 24
+          "mentions": 26
+        },
+        {
+          "slug": "tomorrow_street",
+          "mentions": 22
         },
         {
           "slug": "us_department_of_commerce",
           "mentions": 21
         },
         {
-          "slug": "tomorrow_street",
-          "mentions": 20
-        },
-        {
           "slug": "intel",
-          "mentions": 19
+          "mentions": 20
         },
         {
           "slug": "qphox",
@@ -282,11 +282,11 @@
         },
         {
           "slug": "rad",
-          "mentions": 16
+          "mentions": 17
         },
         {
           "slug": "6wind",
-          "mentions": 16
+          "mentions": 17
         }
       ]
     }
@@ -294,7 +294,7 @@
   "source_freshness": [
     {
       "url": "https://arxiv.org/archive/quant-ph",
-      "last_ingested_at": "2026-06-08 12:00:01"
+      "last_ingested_at": "2026-06-09 12:00:02"
     },
     {
       "url": "https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/",
@@ -318,7 +318,7 @@
     },
     {
       "url": "https://ir.arqit.uk/news-events/press-releases",
-      "last_ingested_at": "2026-06-07 18:00:01"
+      "last_ingested_at": "2026-06-08 18:00:02"
     },
     {
       "url": "https://quantumcomputinginc.com/investor-relations",
@@ -334,7 +334,7 @@
     },
     {
       "url": "https://www.bis.gov/press-release/department-commerce-implements-controls-quantum-computing-other-advanced-technologies-alongside",
-      "last_ingested_at": "2026-06-07 18:00:02"
+      "last_ingested_at": "2026-06-08 18:00:02"
     },
     {
       "url": "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
