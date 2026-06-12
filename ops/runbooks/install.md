@@ -144,7 +144,67 @@ Only after all five succeed should `/etc/cron.d/<user>-corpus` be
 installed. The Telegram alert verifies bot routing (sector runtimes
 post via the runtime bot, not the Codex / orchestrator bot).
 
-## 10. Peptides Reference
+## 10. Claude CLI Authentication (Per-User, Long-Lived)
+
+Each runtime user invokes the `claude` CLI from cron for the LLM
+extraction step. The CLI requires a valid auth token. Use
+`claude setup-token` (not the OAuth `/login` flow) so the token is
+long-lived and doesn't depend on a silent refresh loop.
+
+Why: a refresh-token revocation in May 2026 silently invalidated all
+14 sector runtime users' OAuth credentials. The CLI kept hitting the
+API with the expired access token and returning 401s; ingest fetched
+sources but extraction returned `claude CLI failed (exit 1)` for ~3
+days before the operator noticed the digest pattern
+(`claims: +0 new / sources: N errored`). `setup-token` issues a
+long-lived API token that does not auto-expire, eliminating that
+failure mode.
+
+### One-time per user
+
+As the runtime user, in any directory:
+
+```sh
+claude setup-token
+```
+
+The CLI prints a URL and a code. Open the URL in a browser logged in
+to the operator's Claude.ai account, paste the code, and approve.
+The CLI saves the token to `~/.claude/.credentials.json` and exits.
+
+Verify:
+
+```sh
+echo hi | claude --print
+```
+
+A 401 means the token was not saved or is invalid; re-run
+`claude setup-token`. A coherent reply means the user is ready.
+
+### Bulk re-auth (city-worker-301)
+
+The orchestration repo ships a helper that walks through all 14
+sector users sequentially:
+
+```sh
+ssh city-worker-peptides
+sudo bash /home/ubuntu/reauth-runtimes.sh
+```
+
+The script runs `claude setup-token` per user, verifies with a
+`claude --print` smoke test, and prints a final summary of OK / FAIL
+users. ~30-60 seconds per user once the operator has a browser tab
+ready.
+
+### Monitoring
+
+A daily check should flag any sector whose 24h digest reports
+`claims: +0 new` while `sources: N errored` for N > fetch-floor. That
+pattern almost always means the LLM extractor is dead (auth or rate),
+not that the sources are bad. The auth path should not be allowed to
+fail silently for more than 24 hours again.
+
+## 11. Peptides Reference
 
 Use peptides as the reference runtime pattern:
 
