@@ -1,33 +1,33 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-13T13:38:01Z",
+  "generated_at": "2026-06-14T13:38:01Z",
   "theme_id": "solid-state-battery",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1931,
+  "underlying_claim_count": 1957,
   "underlying_source_count": 18,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 265,
+      "claims_total": 277,
       "claims_by_category": {
-        "corporate": 51,
-        "manufacturing": 79,
-        "research": 72,
-        "regulatory": 61,
+        "corporate": 54,
+        "manufacturing": 83,
+        "research": 75,
+        "regulatory": 63,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "ampcera",
-          "mentions": 162
+          "mentions": 172
         },
         {
           "slug": "doe_lpo",
-          "mentions": 62
+          "mentions": 64
         },
         {
           "slug": "mitsui_mining_smelting",
@@ -40,22 +40,22 @@
       ]
     },
     "90d": {
-      "claims_total": 296,
+      "claims_total": 308,
       "claims_by_category": {
-        "corporate": 72,
-        "manufacturing": 80,
-        "research": 72,
-        "regulatory": 70,
+        "corporate": 75,
+        "manufacturing": 84,
+        "research": 75,
+        "regulatory": 72,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "ampcera",
-          "mentions": 162
+          "mentions": 172
         },
         {
           "slug": "doe_lpo",
-          "mentions": 72
+          "mentions": 74
         },
         {
           "slug": "mitsui_mining_smelting",
@@ -72,12 +72,12 @@
       ]
     },
     "365d": {
-      "claims_total": 1333,
+      "claims_total": 1359,
       "claims_by_category": {
-        "corporate": 472,
-        "manufacturing": 422,
-        "research": 273,
-        "regulatory": 141,
+        "corporate": 479,
+        "manufacturing": 427,
+        "research": 283,
+        "regulatory": 145,
         "supply": 2,
         "market": 23
       },
@@ -92,27 +92,27 @@
         },
         {
           "slug": "mercedes_benz",
-          "mentions": 226
+          "mentions": 238
         },
         {
           "slug": "ion_storage_systems",
           "mentions": 200
         },
         {
+          "slug": "ampcera",
+          "mentions": 172
+        },
+        {
           "slug": "powerco",
           "mentions": 164
         },
         {
-          "slug": "ampcera",
-          "mentions": 162
-        },
-        {
           "slug": "factorial",
-          "mentions": 118
+          "mentions": 122
         },
         {
           "slug": "doe_lpo",
-          "mentions": 117
+          "mentions": 121
         },
         {
           "slug": "mitsui_mining_smelting",
@@ -156,7 +156,7 @@
     },
     {
       "url": "https://group.mercedes-benz.com/technology/e-mobility/electric-drive/eqs-solid-state-battery.html",
-      "last_ingested_at": "2026-06-13 00:00:06"
+      "last_ingested_at": "2026-06-14 06:00:02"
     },
     {
       "url": "https://ir.quantumscape.com/sec-filings",
@@ -172,11 +172,11 @@
     },
     {
       "url": "https://www.ampcera.com/",
-      "last_ingested_at": "2026-06-13 00:00:02"
+      "last_ingested_at": "2026-06-14 06:00:01"
     },
     {
       "url": "https://www.energy.gov/lpo/loan-programs-office",
-      "last_ingested_at": "2026-06-13 00:00:05"
+      "last_ingested_at": "2026-06-14 06:00:01"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2024/250227_en.pdf",
