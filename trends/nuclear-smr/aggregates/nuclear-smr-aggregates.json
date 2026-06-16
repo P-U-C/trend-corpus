@@ -1,58 +1,58 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-15T13:32:01Z",
+  "generated_at": "2026-06-16T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2768,
+  "underlying_claim_count": 2893,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 776,
+      "claims_total": 804,
       "claims_by_category": {
-        "regulatory": 386,
-        "supply": 64,
-        "market": 81,
-        "research": 66,
-        "corporate": 86,
-        "manufacturing": 93
+        "regulatory": 406,
+        "research": 67,
+        "corporate": 88,
+        "market": 85,
+        "supply": 63,
+        "manufacturing": 95
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 295
+          "mentions": 300
         },
         {
           "slug": "nrc",
-          "mentions": 258
+          "mentions": 270
         },
         {
           "slug": "ge_vernova",
-          "mentions": 91
+          "mentions": 92
         },
         {
           "slug": "nuscale",
-          "mentions": 38
+          "mentions": 39
         },
         {
           "slug": "idaho_national_laboratory",
-          "mentions": 34
+          "mentions": 35
         },
         {
           "slug": "terrapower",
           "mentions": 23
         },
         {
-          "slug": "rosatom",
+          "slug": "uamps",
           "mentions": 22
         },
         {
-          "slug": "uamps",
-          "mentions": 21
+          "slug": "rosatom",
+          "mentions": 22
         },
         {
           "slug": "edf",
@@ -64,10 +64,14 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "antares_nuclear",
+          "mentions": 10
+        },
+        {
+          "slug": "uzbekistan",
           "mentions": 9
         },
         {
@@ -79,7 +83,7 @@
           "mentions": 9
         },
         {
-          "slug": "uzbekistan",
+          "slug": "japan",
           "mentions": 8
         },
         {
@@ -89,10 +93,6 @@
         {
           "slug": "kursk_ii",
           "mentions": 8
-        },
-        {
-          "slug": "japan",
-          "mentions": 7
         },
         {
           "slug": "kazakhstan",
@@ -105,72 +105,72 @@
       ]
     },
     "90d": {
-      "claims_total": 1635,
+      "claims_total": 1712,
       "claims_by_category": {
-        "regulatory": 576,
-        "supply": 214,
-        "market": 126,
-        "research": 68,
-        "corporate": 493,
-        "manufacturing": 133,
-        "pricing": 25
+        "regulatory": 607,
+        "research": 72,
+        "corporate": 514,
+        "market": 134,
+        "supply": 223,
+        "manufacturing": 136,
+        "pricing": 26
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 491
+          "mentions": 511
         },
         {
           "slug": "nrc",
-          "mentions": 442
+          "mentions": 463
         },
         {
           "slug": "doe",
-          "mentions": 304
+          "mentions": 321
         },
         {
           "slug": "bwxt",
-          "mentions": 166
+          "mentions": 173
         },
         {
           "slug": "ge_vernova",
-          "mentions": 105
+          "mentions": 111
         },
         {
           "slug": "jv_inkai",
-          "mentions": 64
+          "mentions": 66
         },
         {
           "slug": "westinghouse",
-          "mentions": 60
+          "mentions": 63
         },
         {
           "slug": "nuscale",
-          "mentions": 38
+          "mentions": 41
         },
         {
           "slug": "idaho_national_laboratory",
-          "mentions": 34
+          "mentions": 36
         },
         {
           "slug": "terrapower",
-          "mentions": 29
+          "mentions": 30
+        },
+        {
+          "slug": "uamps",
+          "mentions": 23
         },
         {
           "slug": "rosatom",
           "mentions": 23
         },
         {
-          "slug": "uamps",
-          "mentions": 21
-        },
-        {
           "slug": "nuclear_fuel_services",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "duke_energy",
-          "mentions": 13
+          "mentions": 14
         },
         {
           "slug": "edf",
@@ -182,89 +182,89 @@
         },
         {
           "slug": "antares_nuclear",
+          "mentions": 10
+        },
+        {
+          "slug": "texas_am",
+          "mentions": 9
+        },
+        {
+          "slug": "uzbekistan",
           "mentions": 9
         },
         {
           "slug": "lianjiang",
           "mentions": 9
-        },
-        {
-          "slug": "shin_hanul",
-          "mentions": 9
-        },
-        {
-          "slug": "uzbekistan",
-          "mentions": 8
         }
       ]
     },
     "365d": {
-      "claims_total": 1871,
+      "claims_total": 1955,
       "claims_by_category": {
-        "regulatory": 661,
-        "supply": 221,
-        "market": 129,
-        "research": 70,
-        "corporate": 628,
-        "manufacturing": 137,
-        "pricing": 25
+        "regulatory": 695,
+        "research": 74,
+        "corporate": 653,
+        "market": 137,
+        "supply": 230,
+        "manufacturing": 140,
+        "pricing": 26
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 491
+          "mentions": 511
         },
         {
           "slug": "nrc",
-          "mentions": 442
+          "mentions": 463
         },
         {
           "slug": "doe",
-          "mentions": 399
+          "mentions": 419
         },
         {
           "slug": "bwxt",
-          "mentions": 304
+          "mentions": 315
         },
         {
           "slug": "ge_vernova",
-          "mentions": 105
+          "mentions": 111
         },
         {
           "slug": "jv_inkai",
-          "mentions": 64
+          "mentions": 66
         },
         {
           "slug": "westinghouse",
-          "mentions": 62
+          "mentions": 65
         },
         {
           "slug": "nuscale",
-          "mentions": 38
+          "mentions": 41
         },
         {
           "slug": "idaho_national_laboratory",
-          "mentions": 34
+          "mentions": 36
         },
         {
           "slug": "terrapower",
-          "mentions": 29
+          "mentions": 30
+        },
+        {
+          "slug": "uamps",
+          "mentions": 23
         },
         {
           "slug": "rosatom",
           "mentions": 23
         },
         {
-          "slug": "uamps",
-          "mentions": 21
-        },
-        {
           "slug": "nuclear_fuel_services",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "duke_energy",
-          "mentions": 13
+          "mentions": 14
         },
         {
           "slug": "edf",
@@ -276,19 +276,19 @@
         },
         {
           "slug": "antares_nuclear",
+          "mentions": 10
+        },
+        {
+          "slug": "texas_am",
+          "mentions": 9
+        },
+        {
+          "slug": "uzbekistan",
           "mentions": 9
         },
         {
           "slug": "lianjiang",
           "mentions": 9
-        },
-        {
-          "slug": "shin_hanul",
-          "mentions": 9
-        },
-        {
-          "slug": "uzbekistan",
-          "mentions": 8
         }
       ]
     }
@@ -296,59 +296,59 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-06-14 18:00:01"
+      "last_ingested_at": "2026-06-15 18:00:01"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-06-15 00:00:03"
+      "last_ingested_at": "2026-06-16 06:00:03"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-06-15 06:00:02"
+      "last_ingested_at": "2026-06-16 12:00:02"
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-06-15 00:00:02"
+      "last_ingested_at": "2026-06-16 06:00:02"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
-      "last_ingested_at": "2026-06-15 06:00:01"
+      "last_ingested_at": "2026-06-16 06:00:04"
     },
     {
       "url": "https://www.energy.gov/ne/haleu-availability-program",
-      "last_ingested_at": "2026-06-15 06:00:07"
+      "last_ingested_at": "2026-06-16 12:00:05"
     },
     {
       "url": "https://www.energy.gov/ne/nuclear-reactor-technologies/small-modular-nuclear-reactors",
-      "last_ingested_at": "2026-06-14 18:00:04"
+      "last_ingested_at": "2026-06-16 00:00:01"
     },
     {
       "url": "https://www.gevernova.com/investors",
-      "last_ingested_at": "2026-06-14 18:00:04"
+      "last_ingested_at": "2026-06-16 00:00:01"
     },
     {
       "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
-      "last_ingested_at": "2026-06-14 18:00:04"
+      "last_ingested_at": "2026-06-16 00:00:02"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "last_ingested_at": "2026-06-14 18:00:05"
+      "last_ingested_at": "2026-06-16 00:00:02"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced/new-app/general-guidance/pre-app-process.html",
-      "last_ingested_at": "2026-06-14 18:00:05"
+      "last_ingested_at": "2026-06-16 00:00:02"
     },
     {
       "url": "https://www.nuscalepower.com/en/investors/financials/quarterly-results",
-      "last_ingested_at": "2026-06-14 18:00:05"
+      "last_ingested_at": "2026-06-16 00:00:02"
     },
     {
       "url": "https://www.world-nuclear-news.org/",
-      "last_ingested_at": "2026-06-14 18:00:07"
+      "last_ingested_at": "2026-06-16 00:00:04"
     },
     {
       "url": "https://x-energy.com/amazon-expanding-zero-carbon-power",
-      "last_ingested_at": "2026-06-14 18:00:07"
+      "last_ingested_at": "2026-06-16 00:00:04"
     }
   ]
 }
