@@ -1,46 +1,46 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-16T13:35:01Z",
+  "generated_at": "2026-06-17T13:35:01Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 3112,
+  "underlying_claim_count": 3252,
   "underlying_source_count": 13,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 322,
+      "claims_total": 335,
       "claims_by_category": {
-        "corporate": 208,
-        "research": 19,
-        "regulatory": 24,
-        "manufacturing": 49,
-        "market": 19,
-        "supply": 3
+        "corporate": 216,
+        "manufacturing": 51,
+        "regulatory": 25,
+        "supply": 4,
+        "market": 20,
+        "research": 19
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 169
+          "mentions": 177
         },
         {
           "slug": "sda",
-          "mentions": 159
+          "mentions": 165
         },
         {
           "slug": "nasa",
-          "mentions": 126
+          "mentions": 130
         },
         {
           "slug": "dod",
-          "mentions": 55
+          "mentions": 56
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 8
+          "mentions": 9
         },
         {
           "slug": "clps",
@@ -65,67 +65,67 @@
       ]
     },
     "90d": {
-      "claims_total": 2100,
+      "claims_total": 2190,
       "claims_by_category": {
-        "corporate": 1274,
-        "research": 224,
-        "regulatory": 52,
-        "manufacturing": 358,
-        "market": 173,
-        "supply": 19
+        "corporate": 1331,
+        "manufacturing": 372,
+        "regulatory": 54,
+        "supply": 21,
+        "market": 180,
+        "research": 232
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 614
+          "mentions": 646
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 534
+          "mentions": 553
         },
         {
           "slug": "nasa",
-          "mentions": 454
+          "mentions": 472
         },
         {
           "slug": "planet_labs",
-          "mentions": 428
+          "mentions": 446
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 245
-        },
-        {
-          "slug": "dod",
-          "mentions": 160
+          "mentions": 258
         },
         {
           "slug": "sda",
-          "mentions": 159
+          "mentions": 165
+        },
+        {
+          "slug": "dod",
+          "mentions": 165
         },
         {
           "slug": "spacex",
-          "mentions": 71
+          "mentions": 73
         },
         {
           "slug": "blue_origin",
-          "mentions": 31
+          "mentions": 33
         },
         {
           "slug": "fcc",
-          "mentions": 28
+          "mentions": 29
         },
         {
           "slug": "mynaric",
-          "mentions": 22
+          "mentions": 24
         },
         {
           "slug": "firefly_aerospace",
-          "mentions": 22
+          "mentions": 23
         },
         {
           "slug": "astrobotic",
-          "mentions": 22
+          "mentions": 23
         },
         {
           "slug": "globalstar",
@@ -133,7 +133,7 @@
         },
         {
           "slug": "raytheon",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "australian_space_agency",
@@ -141,7 +141,7 @@
         },
         {
           "slug": "motiv_space_systems",
-          "mentions": 11
+          "mentions": 12
         },
         {
           "slug": "clps",
@@ -158,87 +158,87 @@
       ]
     },
     "365d": {
-      "claims_total": 2921,
+      "claims_total": 3053,
       "claims_by_category": {
-        "corporate": 1819,
-        "research": 238,
-        "regulatory": 52,
-        "manufacturing": 478,
-        "market": 299,
-        "supply": 35
+        "corporate": 1907,
+        "manufacturing": 498,
+        "regulatory": 54,
+        "supply": 38,
+        "market": 310,
+        "research": 246
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 614
+          "mentions": 646
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 534
+          "mentions": 553
         },
         {
           "slug": "nasa",
-          "mentions": 457
+          "mentions": 475
         },
         {
           "slug": "globalstar",
-          "mentions": 437
+          "mentions": 457
         },
         {
           "slug": "planet_labs",
-          "mentions": 434
+          "mentions": 452
         },
         {
           "slug": "kratos",
-          "mentions": 394
+          "mentions": 416
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 245
+          "mentions": 258
         },
         {
           "slug": "dod",
-          "mentions": 168
+          "mentions": 174
         },
         {
           "slug": "sda",
-          "mentions": 159
+          "mentions": 165
         },
         {
           "slug": "spacex",
-          "mentions": 71
+          "mentions": 73
         },
         {
           "slug": "blue_origin",
-          "mentions": 31
+          "mentions": 33
         },
         {
           "slug": "fcc",
-          "mentions": 28
+          "mentions": 29
         },
         {
           "slug": "mynaric",
-          "mentions": 22
+          "mentions": 24
         },
         {
           "slug": "firefly_aerospace",
-          "mentions": 22
+          "mentions": 23
         },
         {
           "slug": "astrobotic",
-          "mentions": 22
+          "mentions": 23
         },
         {
           "slug": "mda_space",
-          "mentions": 22
+          "mentions": 23
         },
         {
           "slug": "northrop_grumman",
-          "mentions": 19
+          "mentions": 20
         },
         {
           "slug": "raytheon",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "australian_space_agency",
@@ -246,7 +246,7 @@
         },
         {
           "slug": "motiv_space_systems",
-          "mentions": 11
+          "mentions": 12
         }
       ]
     }
@@ -254,55 +254,55 @@
   "source_freshness": [
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-06-15 12:00:02"
+      "last_ingested_at": "2026-06-16 18:00:02"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
-      "last_ingested_at": "2026-06-16 00:00:03"
+      "last_ingested_at": "2026-06-17 06:00:03"
     },
     {
       "url": "https://investor.iridium.com/2024-09-25-Iridium-Accelerates-Direct-to-Device-Service-with-Acceptance-into-3GPP-Standards-Announces-Iridium-NTN-Direct?asPDF=1",
-      "last_ingested_at": "2026-06-16 00:00:04"
+      "last_ingested_at": "2026-06-17 06:00:04"
     },
     {
       "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-announces-fourth-quarter-and-full-year-2025-results/",
-      "last_ingested_at": "2026-06-16 00:00:03"
+      "last_ingested_at": "2026-06-17 06:00:03"
     },
     {
       "url": "https://rocketlabcorp.com/missions/launches/sda/",
-      "last_ingested_at": "2026-06-16 00:00:07"
+      "last_ingested_at": "2026-06-17 06:00:06"
     },
     {
       "url": "https://starlink.com/business/direct-to-cell",
-      "last_ingested_at": "2026-06-16 00:00:07"
+      "last_ingested_at": "2026-06-17 06:00:07"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-reports-fourth-quarter-and-full-year-2025-financial-results",
-      "last_ingested_at": "2026-06-16 00:00:05"
+      "last_ingested_at": "2026-06-17 06:00:04"
     },
     {
       "url": "https://www.nasa.gov/commercial-lunar-payload-services/",
-      "last_ingested_at": "2026-06-16 00:00:05"
+      "last_ingested_at": "2026-06-17 06:00:04"
     },
     {
       "url": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
-      "last_ingested_at": "2026-06-16 00:00:06"
+      "last_ingested_at": "2026-06-17 06:00:05"
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-06-16 00:00:01"
+      "last_ingested_at": "2026-06-17 00:00:02"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
-      "last_ingested_at": "2026-06-16 00:00:07"
+      "last_ingested_at": "2026-06-17 06:00:06"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000027/rklb-05072026ex991.htm",
-      "last_ingested_at": "2026-06-16 00:00:07"
+      "last_ingested_at": "2026-06-17 06:00:06"
     },
     {
       "url": "https://www.viasat.com/news/latest-news/corporate/2025/viasat-releases-fourth-quarter-and-fiscal-year-2025-financial-re/",
-      "last_ingested_at": "2026-06-16 06:00:02"
+      "last_ingested_at": "2026-06-17 12:00:02"
     }
   ]
 }
