@@ -1,64 +1,46 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-16T13:41:01Z",
+  "generated_at": "2026-06-17T13:41:02Z",
   "theme_id": "photonic-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1915,
+  "underlying_claim_count": 1981,
   "underlying_source_count": 25,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 9,
+      "claims_total": 4,
       "claims_by_category": {
-        "corporate": 3,
-        "manufacturing": 2,
-        "market": 3,
-        "supply": 1
+        "corporate": 2,
+        "manufacturing": 2
       },
       "top_entities": [
         {
           "slug": "marvell",
-          "mentions": 6
-        },
-        {
-          "slug": "coherent",
           "mentions": 4
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 3
-        },
-        {
-          "slug": "ayar_labs",
-          "mentions": 1
-        },
-        {
-          "slug": "alchip",
-          "mentions": 1
-        },
-        {
-          "slug": "astera_labs",
-          "mentions": 1
+          "mentions": 2
         }
       ]
     },
     "90d": {
-      "claims_total": 819,
+      "claims_total": 839,
       "claims_by_category": {
-        "corporate": 408,
-        "manufacturing": 91,
-        "market": 166,
-        "supply": 33,
-        "research": 121
+        "corporate": 417,
+        "manufacturing": 93,
+        "market": 169,
+        "supply": 34,
+        "research": 126
       },
       "top_entities": [
         {
           "slug": "aeluma",
-          "mentions": 248
+          "mentions": 258
         },
         {
           "slug": "coherent",
@@ -66,11 +48,11 @@
         },
         {
           "slug": "polariton_technologies",
-          "mentions": 170
+          "mentions": 178
         },
         {
           "slug": "marvell",
-          "mentions": 139
+          "mentions": 145
         },
         {
           "slug": "applied_optoelectronics",
@@ -78,7 +60,7 @@
         },
         {
           "slug": "tower_semiconductor",
-          "mentions": 53
+          "mentions": 55
         },
         {
           "slug": "lumentum",
@@ -107,50 +89,50 @@
       ]
     },
     "365d": {
-      "claims_total": 1529,
+      "claims_total": 1579,
       "claims_by_category": {
-        "corporate": 881,
-        "manufacturing": 188,
-        "market": 258,
-        "supply": 52,
-        "research": 150
+        "corporate": 908,
+        "manufacturing": 195,
+        "market": 265,
+        "supply": 55,
+        "research": 156
       },
       "top_entities": [
         {
-          "slug": "coherent",
-          "mentions": 385
+          "slug": "marvell",
+          "mentions": 400
         },
         {
-          "slug": "marvell",
-          "mentions": 384
+          "slug": "coherent",
+          "mentions": 395
         },
         {
           "slug": "aeluma",
-          "mentions": 248
+          "mentions": 258
         },
         {
           "slug": "celestial_ai",
-          "mentions": 240
+          "mentions": 250
         },
         {
           "slug": "tower_semiconductor",
-          "mentions": 209
+          "mentions": 218
         },
         {
           "slug": "polariton_technologies",
-          "mentions": 170
+          "mentions": 178
         },
         {
           "slug": "nvidia_cpo",
           "mentions": 157
         },
         {
-          "slug": "applied_optoelectronics",
-          "mentions": 131
+          "slug": "salience_labs",
+          "mentions": 134
         },
         {
-          "slug": "salience_labs",
-          "mentions": 127
+          "slug": "applied_optoelectronics",
+          "mentions": 131
         },
         {
           "slug": "lumentum",
@@ -158,19 +140,19 @@
         },
         {
           "slug": "stmicroelectronics",
-          "mentions": 15
+          "mentions": 16
         },
         {
           "slug": "delloro_group",
-          "mentions": 14
+          "mentions": 15
+        },
+        {
+          "slug": "nvidia",
+          "mentions": 12
         },
         {
           "slug": "ayar_labs",
           "mentions": 11
-        },
-        {
-          "slug": "nvidia",
-          "mentions": 6
         },
         {
           "slug": "lightmatter",
@@ -202,7 +184,7 @@
   "source_freshness": [
     {
       "url": "https://247wallst.com/investing/2026/05/11/applied-optoelectronics-rips-24-lumentum-jumps-17-coherent-rallies-13-as-optics-trade-catches-fire/",
-      "last_ingested_at": "2026-06-16 06:00:01"
+      "last_ingested_at": "2026-06-17 06:00:01"
     },
     {
       "url": "https://ayarlabs.com/news/",
@@ -214,7 +196,7 @@
     },
     {
       "url": "https://investor.marvell.com/news-events/press-releases/detail/1020/marvell-announces-acquisition-of-polariton-technologies-advancing-optical-performance-scaling-to-3-2t-and-beyond",
-      "last_ingested_at": "2026-06-16 00:00:05"
+      "last_ingested_at": "2026-06-17 06:00:03"
     },
     {
       "url": "https://investor.marvell.com/news-releases",
@@ -226,7 +208,7 @@
     },
     {
       "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
-      "last_ingested_at": "2026-06-16 00:00:08"
+      "last_ingested_at": "2026-06-17 06:00:06"
     },
     {
       "url": "https://investors.ao-inc.com/financial-information/sec-filings",
@@ -234,7 +216,7 @@
     },
     {
       "url": "https://investors.broadcom.com/node/64036/pdf",
-      "last_ingested_at": "2026-06-16 06:00:02"
+      "last_ingested_at": "2026-06-17 12:00:01"
     },
     {
       "url": "https://investors.coherent.com/financial-information/sec-filings",
@@ -242,15 +224,15 @@
     },
     {
       "url": "https://investors.gf.com/node/10706/pdf",
-      "last_ingested_at": "2026-06-15 12:00:02"
+      "last_ingested_at": "2026-06-16 18:00:01"
     },
     {
       "url": "https://lightmatter.co/press-release/lightmatter-announces-passage-l200-the-fastest-co-packaged-optics-for-ai/",
-      "last_ingested_at": "2026-06-15 12:00:02"
+      "last_ingested_at": "2026-06-16 18:00:02"
     },
     {
       "url": "https://lightmatter.co/press-release/lightmatter-raises-400m-series-d-quadruples-valuation-to-4-4b-as-photonics-leader-for-next-gen-ai-data-centers/",
-      "last_ingested_at": "2026-06-16 00:00:02"
+      "last_ingested_at": "2026-06-17 00:00:03"
     },
     {
       "url": "https://lightmatter.co/press-releases/",
@@ -262,19 +244,19 @@
     },
     {
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
-      "last_ingested_at": "2026-06-16 00:00:06"
+      "last_ingested_at": "2026-06-17 06:00:03"
     },
     {
       "url": "https://poet-technologies.com/news/",
-      "last_ingested_at": "2026-06-16 00:00:07"
+      "last_ingested_at": "2026-06-17 06:00:05"
     },
     {
       "url": "https://www.aeluma.com/investors/news-events/press-releases/detail/99/aeluma-secures-more-than-4-million-in-contracts-for",
-      "last_ingested_at": "2026-06-16 06:00:01"
+      "last_ingested_at": "2026-06-17 06:00:01"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260303608615/en/",
-      "last_ingested_at": "2026-06-16 00:00:01"
+      "last_ingested_at": "2026-06-17 00:00:02"
     },
     {
       "url": "https://www.celestial.ai/news",
@@ -282,23 +264,23 @@
     },
     {
       "url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/financial-releases/2026/may-6/earnings-release-fy26-q3.pdf",
-      "last_ingested_at": "2026-06-16 00:00:02"
+      "last_ingested_at": "2026-06-17 00:00:02"
     },
     {
       "url": "https://www.macom.com/investors/sec-filings",
-      "last_ingested_at": "2026-06-16 00:00:04"
+      "last_ingested_at": "2026-06-17 06:00:02"
     },
     {
       "url": "https://www.marvell.com/company/newsroom/marvell-completes-acquisition-of-celestial-ai.html",
-      "last_ingested_at": "2026-06-16 00:00:02"
+      "last_ingested_at": "2026-06-17 00:00:02"
     },
     {
       "url": "https://www.nasdaq.com/press-release/salience-labs-and-tower-semiconductor-partner-manufacture-scale-optical-circuit",
-      "last_ingested_at": "2026-06-16 00:00:08"
+      "last_ingested_at": "2026-06-17 06:00:05"
     },
     {
       "url": "https://www.ofcconference.org/en-us/home/conference/program/technical-program/",
-      "last_ingested_at": "2026-06-16 00:00:07"
+      "last_ingested_at": "2026-06-17 06:00:04"
     }
   ]
 }
