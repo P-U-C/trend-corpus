@@ -1,45 +1,45 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-16T13:33:01Z",
+  "generated_at": "2026-06-17T13:33:01Z",
   "theme_id": "robotics-humanoid",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1674,
+  "underlying_claim_count": 1737,
   "underlying_source_count": 15,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 486,
+      "claims_total": 509,
       "claims_by_category": {
-        "regulatory": 261,
-        "corporate": 104,
-        "manufacturing": 51,
-        "research": 45,
-        "market": 25
+        "manufacturing": 55,
+        "corporate": 108,
+        "research": 49,
+        "market": 26,
+        "regulatory": 271
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 211
+          "mentions": 221
         },
         {
           "slug": "iso",
-          "mentions": 174
+          "mentions": 181
         },
         {
           "slug": "osha",
-          "mentions": 84
+          "mentions": 88
         },
         {
           "slug": "ria",
-          "mentions": 74
+          "mentions": 78
         },
         {
           "slug": "ansi",
-          "mentions": 38
+          "mentions": 39
         },
         {
           "slug": "harmonic_drive_systems",
@@ -47,7 +47,7 @@
         },
         {
           "slug": "csa",
-          "mentions": 18
+          "mentions": 19
         },
         {
           "slug": "ul",
@@ -63,7 +63,7 @@
         },
         {
           "slug": "hugging_face",
-          "mentions": 8
+          "mentions": 9
         },
         {
           "slug": "figure",
@@ -74,19 +74,19 @@
           "mentions": 5
         },
         {
+          "slug": "nasa",
+          "mentions": 5
+        },
+        {
+          "slug": "jpl",
+          "mentions": 5
+        },
+        {
           "slug": "usm",
           "mentions": 5
         },
         {
           "slug": "aws",
-          "mentions": 3
-        },
-        {
-          "slug": "nasa",
-          "mentions": 3
-        },
-        {
-          "slug": "jpl",
           "mentions": 3
         },
         {
@@ -104,34 +104,34 @@
       ]
     },
     "90d": {
-      "claims_total": 530,
+      "claims_total": 553,
       "claims_by_category": {
-        "regulatory": 275,
-        "corporate": 118,
-        "manufacturing": 54,
-        "research": 49,
-        "market": 34
+        "manufacturing": 58,
+        "corporate": 122,
+        "research": 53,
+        "market": 35,
+        "regulatory": 285
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 220
+          "mentions": 230
         },
         {
           "slug": "iso",
-          "mentions": 183
+          "mentions": 190
         },
         {
           "slug": "osha",
-          "mentions": 88
+          "mentions": 92
         },
         {
           "slug": "ria",
-          "mentions": 78
+          "mentions": 82
         },
         {
           "slug": "ansi",
-          "mentions": 40
+          "mentions": 41
         },
         {
           "slug": "harmonic_drive_systems",
@@ -139,7 +139,7 @@
         },
         {
           "slug": "csa",
-          "mentions": 18
+          "mentions": 19
         },
         {
           "slug": "ul",
@@ -159,7 +159,7 @@
         },
         {
           "slug": "hugging_face",
-          "mentions": 8
+          "mentions": 9
         },
         {
           "slug": "hello_robot",
@@ -174,19 +174,19 @@
           "mentions": 5
         },
         {
+          "slug": "nasa",
+          "mentions": 5
+        },
+        {
+          "slug": "jpl",
+          "mentions": 5
+        },
+        {
           "slug": "usm",
           "mentions": 5
         },
         {
           "slug": "aws",
-          "mentions": 3
-        },
-        {
-          "slug": "nasa",
-          "mentions": 3
-        },
-        {
-          "slug": "jpl",
           "mentions": 3
         },
         {
@@ -196,34 +196,34 @@
       ]
     },
     "365d": {
-      "claims_total": 552,
+      "claims_total": 577,
       "claims_by_category": {
-        "regulatory": 275,
-        "corporate": 118,
-        "manufacturing": 66,
-        "research": 55,
-        "market": 38
+        "manufacturing": 71,
+        "corporate": 122,
+        "research": 60,
+        "market": 39,
+        "regulatory": 285
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 220
+          "mentions": 230
         },
         {
           "slug": "iso",
-          "mentions": 183
+          "mentions": 190
         },
         {
           "slug": "osha",
-          "mentions": 88
+          "mentions": 92
         },
         {
           "slug": "ria",
-          "mentions": 78
+          "mentions": 82
         },
         {
           "slug": "ansi",
-          "mentions": 40
+          "mentions": 41
         },
         {
           "slug": "harmonic_drive_systems",
@@ -231,7 +231,7 @@
         },
         {
           "slug": "csa",
-          "mentions": 18
+          "mentions": 19
         },
         {
           "slug": "ul",
@@ -243,7 +243,11 @@
         },
         {
           "slug": "hyundai",
-          "mentions": 12
+          "mentions": 13
+        },
+        {
+          "slug": "nasa",
+          "mentions": 10
         },
         {
           "slug": "c_walton_musser",
@@ -255,15 +259,11 @@
         },
         {
           "slug": "hugging_face",
-          "mentions": 8
+          "mentions": 9
         },
         {
           "slug": "hello_robot",
           "mentions": 8
-        },
-        {
-          "slug": "nasa",
-          "mentions": 7
         },
         {
           "slug": "abb",
@@ -274,16 +274,16 @@
           "mentions": 5
         },
         {
+          "slug": "jpl",
+          "mentions": 5
+        },
+        {
           "slug": "usm",
           "mentions": 5
         },
         {
           "slug": "xprize",
           "mentions": 4
-        },
-        {
-          "slug": "aws",
-          "mentions": 3
         }
       ]
     }
@@ -291,63 +291,63 @@
   "source_freshness": [
     {
       "url": "https://apptronik.com/news-collection/apptronik-and-mercedes-benz-enter-commercial-agreement?_bhlid=8245ad561302e835048adab5d90101ee99733e77",
-      "last_ingested_at": "2026-06-15 18:00:03"
+      "last_ingested_at": "2026-06-17 00:00:03"
     },
     {
       "url": "https://global.abb/group/en/investors/quarterly-results",
-      "last_ingested_at": "2026-06-15 18:00:03"
+      "last_ingested_at": "2026-06-17 00:00:03"
     },
     {
       "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-preliminary-fourth-quarter-and-full-year-5",
-      "last_ingested_at": "2026-06-16 00:00:31"
+      "last_ingested_at": "2026-06-17 06:00:31"
     },
     {
       "url": "https://investors.teradyne.com/financial-results",
-      "last_ingested_at": "2026-06-16 00:01:32"
+      "last_ingested_at": "2026-06-17 06:01:32"
     },
     {
       "url": "https://ir.symbotic.com/investor-relations",
-      "last_ingested_at": "2026-06-16 00:01:32"
+      "last_ingested_at": "2026-06-17 06:01:32"
     },
     {
       "url": "https://ir.tesla.com/#quarterly-disclosure",
-      "last_ingested_at": "2026-06-16 00:01:32"
+      "last_ingested_at": "2026-06-17 06:01:32"
     },
     {
       "url": "https://serverobotics.gcs-web.com/",
-      "last_ingested_at": "2026-06-16 00:01:02"
+      "last_ingested_at": "2026-06-17 06:01:02"
     },
     {
       "url": "https://spectrum.ieee.org/topic/robotics/",
-      "last_ingested_at": "2026-06-15 18:00:04"
+      "last_ingested_at": "2026-06-17 00:00:04"
     },
     {
       "url": "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf",
-      "last_ingested_at": "2026-06-15 18:00:03"
+      "last_ingested_at": "2026-06-17 00:00:03"
     },
     {
       "url": "https://www.harmonicdrive.net/about-us",
-      "last_ingested_at": "2026-06-15 18:00:04"
+      "last_ingested_at": "2026-06-17 00:00:04"
     },
     {
       "url": "https://www.iso.org/standard/73933.html",
-      "last_ingested_at": "2026-06-16 00:00:31"
+      "last_ingested_at": "2026-06-17 06:00:31"
     },
     {
       "url": "https://www.osha.gov/robotics/standards",
-      "last_ingested_at": "2026-06-16 00:00:32"
+      "last_ingested_at": "2026-06-17 06:00:32"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-announces-commercial-agreement-with-bmw-manufacturing-to-bring-general-purpose-robots-into-automotive-production-302036263.html",
-      "last_ingested_at": "2026-06-15 18:00:03"
+      "last_ingested_at": "2026-06-17 00:00:04"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
-      "last_ingested_at": "2026-06-15 18:00:03"
+      "last_ingested_at": "2026-06-17 00:00:04"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
-      "last_ingested_at": "2026-06-15 18:00:03"
+      "last_ingested_at": "2026-06-17 00:00:03"
     }
   ]
 }
