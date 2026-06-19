@@ -1,37 +1,37 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-18T13:38:01Z",
+  "generated_at": "2026-06-19T13:38:01Z",
   "theme_id": "solid-state-battery",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2326,
-  "underlying_source_count": 18,
+  "underlying_claim_count": 2337,
+  "underlying_source_count": 19,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 335,
+      "claims_total": 323,
       "claims_by_category": {
-        "manufacturing": 97,
-        "corporate": 68,
-        "research": 92,
-        "regulatory": 76,
-        "supply": 2
+        "manufacturing": 92,
+        "corporate": 66,
+        "research": 91,
+        "regulatory": 73,
+        "supply": 1
       },
       "top_entities": [
         {
           "slug": "ampcera",
-          "mentions": 208
+          "mentions": 201
         },
         {
           "slug": "doe_lpo",
-          "mentions": 78
+          "mentions": 75
         },
         {
           "slug": "mitsui_mining_smelting",
-          "mentions": 45
+          "mentions": 43
         },
         {
           "slug": "mitsui_kinzoku",
@@ -72,11 +72,11 @@
       ]
     },
     "365d": {
-      "claims_total": 1608,
+      "claims_total": 1619,
       "claims_by_category": {
-        "manufacturing": 506,
-        "corporate": 571,
-        "research": 334,
+        "manufacturing": 507,
+        "corporate": 575,
+        "research": 340,
         "regulatory": 171,
         "supply": 2,
         "market": 24
@@ -92,7 +92,7 @@
         },
         {
           "slug": "mercedes_benz",
-          "mentions": 271
+          "mentions": 282
         },
         {
           "slug": "ion_storage_systems",
@@ -112,7 +112,7 @@
         },
         {
           "slug": "factorial",
-          "mentions": 138
+          "mentions": 142
         },
         {
           "slug": "mitsui_mining_smelting",
@@ -143,6 +143,10 @@
   },
   "source_freshness": [
     {
+      "url": "https://corporate.murata.com/newsroom/news/company/general/2025/1008",
+      "last_ingested_at": "2026-06-19 00:00:02"
+    },
+    {
       "url": "https://eng.skinnovation.com/ir/audit_reports.aspx",
       "last_ingested_at": "2026-06-18 12:00:12"
     },
@@ -156,7 +160,7 @@
     },
     {
       "url": "https://group.mercedes-benz.com/technology/e-mobility/electric-drive/eqs-solid-state-battery.html",
-      "last_ingested_at": "2026-06-17 18:00:03"
+      "last_ingested_at": "2026-06-19 00:00:02"
     },
     {
       "url": "https://ir.quantumscape.com/sec-filings",
@@ -176,11 +180,11 @@
     },
     {
       "url": "https://www.energy.gov/lpo/loan-programs-office",
-      "last_ingested_at": "2026-06-17 18:00:01"
+      "last_ingested_at": "2026-06-18 18:00:05"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2024/250227_en.pdf",
-      "last_ingested_at": "2026-06-18 06:00:02"
+      "last_ingested_at": "2026-06-19 12:00:03"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2025/260129_en.pdf",
