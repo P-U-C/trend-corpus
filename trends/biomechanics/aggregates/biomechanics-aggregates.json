@@ -1,55 +1,55 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-19T13:43:01Z",
+  "generated_at": "2026-06-20T13:43:01Z",
   "theme_id": "biomechanics",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1362,
+  "underlying_claim_count": 1461,
   "underlying_source_count": 10,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 188,
+      "claims_total": 203,
       "claims_by_category": {
-        "corporate": 81,
-        "market": 69,
-        "research": 33,
+        "corporate": 85,
+        "market": 79,
+        "research": 34,
         "manufacturing": 5
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 149
+          "mentions": 162
         },
         {
           "slug": "globus_medical",
-          "mentions": 26
+          "mentions": 28
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 13
+          "mentions": 14
         }
       ]
     },
     "90d": {
-      "claims_total": 246,
+      "claims_total": 264,
       "claims_by_category": {
-        "corporate": 139,
-        "market": 69,
-        "research": 33,
+        "corporate": 146,
+        "market": 79,
+        "research": 34,
         "manufacturing": 5
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 149
+          "mentions": 162
         },
         {
           "slug": "globus_medical",
-          "mentions": 52
+          "mentions": 56
         },
         {
           "slug": "lifeward",
@@ -57,7 +57,7 @@
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 13
+          "mentions": 14
         },
         {
           "slug": "oramed",
@@ -66,42 +66,46 @@
         {
           "slug": "oratech",
           "mentions": 3
+        },
+        {
+          "slug": "myomo",
+          "mentions": 1
         }
       ]
     },
     "365d": {
-      "claims_total": 948,
+      "claims_total": 1012,
       "claims_by_category": {
-        "corporate": 371,
-        "market": 473,
-        "research": 45,
-        "manufacturing": 28,
+        "corporate": 392,
+        "market": 512,
+        "research": 47,
+        "manufacturing": 30,
         "regulatory": 31
       },
       "top_entities": [
         {
           "slug": "myomo",
-          "mentions": 207
+          "mentions": 225
         },
         {
           "slug": "ekso_bionics",
-          "mentions": 184
+          "mentions": 197
+        },
+        {
+          "slug": "materialise",
+          "mentions": 182
         },
         {
           "slug": "lifeward",
           "mentions": 170
         },
         {
-          "slug": "materialise",
-          "mentions": 167
-        },
-        {
           "slug": "german_bionic",
-          "mentions": 149
+          "mentions": 162
         },
         {
           "slug": "globus_medical",
-          "mentions": 58
+          "mentions": 63
         },
         {
           "slug": "lifeward_gmbh",
@@ -109,19 +113,19 @@
         },
         {
           "slug": "kulr_technology_group",
+          "mentions": 14
+        },
+        {
+          "slug": "university_of_utah",
+          "mentions": 13
+        },
+        {
+          "slug": "cms",
           "mentions": 13
         },
         {
           "slug": "barmer",
           "mentions": 13
-        },
-        {
-          "slug": "university_of_utah",
-          "mentions": 12
-        },
-        {
-          "slug": "cms",
-          "mentions": 12
         },
         {
           "slug": "rewalk_7",
@@ -161,23 +165,23 @@
   "source_freshness": [
     {
       "url": "https://investors.globusmedical.com",
-      "last_ingested_at": "2026-06-19 00:00:01"
+      "last_ingested_at": "2026-06-20 00:00:02"
     },
     {
       "url": "https://orthofeed.com/2025/03/15/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting/",
-      "last_ingested_at": "2026-06-18 18:00:07"
+      "last_ingested_at": "2026-06-20 00:00:04"
     },
     {
       "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028/",
-      "last_ingested_at": "2026-06-18 18:00:08"
+      "last_ingested_at": "2026-06-20 00:00:08"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260309467133/en/Myomo-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-and-Operating-Results",
-      "last_ingested_at": "2026-06-18 18:00:06"
+      "last_ingested_at": "2026-06-20 00:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/06/11/3097632/0/en/Wandercraft-announces-Series-D-Round-bringing-75M-in-total-funding-secured-for-global-acceleration-of-AI-powered-robotics.html",
-      "last_ingested_at": "2026-06-18 18:00:08"
+      "last_ingested_at": "2026-06-20 00:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/09/08/3146103/32993/en/Lifeward-Achieves-CE-Mark-Approval-for-the-ReWalk-7-Personal-Exoskeleton.html",
@@ -185,19 +189,19 @@
     },
     {
       "url": "https://www.reuters.com/markets/deals/prosthetics-maker-ottobock-owner-seek-709-million-ipo-2025-09-29/",
-      "last_ingested_at": "2026-06-18 18:00:06"
+      "last_ingested_at": "2026-06-20 00:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001091223/000110465925070211/tm2521591d1_ex99-1.htm",
-      "last_ingested_at": "2026-06-18 12:00:03"
+      "last_ingested_at": "2026-06-19 18:00:02"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001549084/000143774925031957/ex_849226.htm",
-      "last_ingested_at": "2026-06-19 06:00:01"
+      "last_ingested_at": "2026-06-20 06:00:02"
     },
     {
       "url": "https://www.therobotreport.com/german-bionic-unveils-exia-ai-augmented-industrial-exoskeleton/",
-      "last_ingested_at": "2026-06-18 12:00:02"
+      "last_ingested_at": "2026-06-19 18:00:02"
     }
   ]
 }
