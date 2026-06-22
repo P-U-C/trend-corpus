@@ -1,71 +1,71 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-21T13:40:01Z",
+  "generated_at": "2026-06-22T13:40:01Z",
   "theme_id": "edge-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 3060,
+  "underlying_claim_count": 3168,
   "underlying_source_count": 20,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 49,
+      "claims_total": 52,
       "claims_by_category": {
-        "corporate": 25,
+        "corporate": 26,
         "regulatory": 2,
-        "market": 22
+        "market": 24
       },
       "top_entities": [
         {
           "slug": "stmicro",
-          "mentions": 49
+          "mentions": 52
         }
       ]
     },
     "90d": {
-      "claims_total": 1150,
+      "claims_total": 1191,
       "claims_by_category": {
-        "corporate": 572,
+        "corporate": 592,
         "regulatory": 4,
-        "market": 546,
+        "market": 566,
         "research": 6,
-        "supply": 22
+        "supply": 23
       },
       "top_entities": [
         {
           "slug": "lattice",
-          "mentions": 476
+          "mentions": 494
         },
         {
           "slug": "mobileye",
-          "mentions": 439
+          "mentions": 454
         },
         {
           "slug": "synaptics",
-          "mentions": 121
+          "mentions": 125
         },
         {
           "slug": "stmicro",
-          "mentions": 112
+          "mentions": 116
         },
         {
           "slug": "nvidia_jetson",
-          "mentions": 28
+          "mentions": 29
         },
         {
           "slug": "ti",
-          "mentions": 28
+          "mentions": 29
         },
         {
           "slug": "intel",
-          "mentions": 26
+          "mentions": 27
         },
         {
           "slug": "google",
-          "mentions": 25
+          "mentions": 26
         },
         {
           "slug": "ami",
@@ -102,71 +102,71 @@
       ]
     },
     "365d": {
-      "claims_total": 2679,
+      "claims_total": 2773,
       "claims_by_category": {
-        "corporate": 1100,
+        "corporate": 1136,
         "regulatory": 7,
-        "market": 1026,
-        "research": 407,
-        "supply": 22,
-        "manufacturing": 117
+        "market": 1065,
+        "research": 422,
+        "supply": 23,
+        "manufacturing": 120
       },
       "top_entities": [
         {
           "slug": "synaptics",
-          "mentions": 477
+          "mentions": 495
         },
         {
           "slug": "lattice",
-          "mentions": 476
+          "mentions": 494
         },
         {
           "slug": "mobileye",
-          "mentions": 439
+          "mentions": 454
         },
         {
           "slug": "ambarella",
-          "mentions": 376
+          "mentions": 389
         },
         {
           "slug": "hailo",
-          "mentions": 349
+          "mentions": 360
         },
         {
           "slug": "axelera_ai",
-          "mentions": 340
+          "mentions": 350
         },
         {
           "slug": "stmicro",
-          "mentions": 163
+          "mentions": 169
         },
         {
           "slug": "arm",
-          "mentions": 58
+          "mentions": 60
         },
         {
           "slug": "samsung",
-          "mentions": 53
+          "mentions": 55
         },
         {
           "slug": "google",
-          "mentions": 40
+          "mentions": 42
         },
         {
           "slug": "tsmc",
-          "mentions": 29
+          "mentions": 30
         },
         {
           "slug": "nvidia_jetson",
-          "mentions": 28
+          "mentions": 29
         },
         {
           "slug": "ti",
-          "mentions": 28
+          "mentions": 29
         },
         {
           "slug": "intel",
-          "mentions": 26
+          "mentions": 27
         },
         {
           "slug": "bitfury",
@@ -178,19 +178,19 @@
         },
         {
           "slug": "cisco",
-          "mentions": 14
+          "mentions": 15
         },
         {
           "slug": "sonos",
-          "mentions": 13
+          "mentions": 14
         },
         {
           "slug": "deutsche_telekom",
-          "mentions": 13
+          "mentions": 14
         },
         {
           "slug": "toradex",
-          "mentions": 13
+          "mentions": 14
         }
       ]
     }
@@ -198,15 +198,15 @@
   "source_freshness": [
     {
       "url": "https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth",
-      "last_ingested_at": "2026-06-21 00:00:02"
+      "last_ingested_at": "2026-06-22 06:00:02"
     },
     {
       "url": "https://hailo.ai/company-overview/newsroom/news/hailo-announces-general-availability-of-hailo-10h-edge-ai-accelerator-with-generative-ai-capabilities/",
-      "last_ingested_at": "2026-06-21 00:00:02"
+      "last_ingested_at": "2026-06-22 06:00:02"
     },
     {
       "url": "https://hailo.ai/company-overview/newsroom/news/hailo-closes-new-120-million-funding-round-and-debuts-hailo-10-a-new-powerful-ai-accelerator-bringing-generative-ai-to-edge-devices/",
-      "last_ingested_at": "2026-06-21 06:00:02"
+      "last_ingested_at": "2026-06-22 12:00:02"
     },
     {
       "url": "https://investor.ambarella.com/news-releases",
@@ -214,39 +214,39 @@
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-launches-powerful-edge-ai-8k-vision-soc-industry",
-      "last_ingested_at": "2026-06-20 18:00:02"
+      "last_ingested_at": "2026-06-22 00:00:01"
     },
     {
       "url": "https://investor.ambarella.com/static-files/309cc9ba-e8e5-45ba-a2e7-f64f7311eb24",
-      "last_ingested_at": "2026-06-21 00:00:01"
+      "last_ingested_at": "2026-06-22 00:00:02"
     },
     {
       "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-04/3cef85204275f94fd111485cfdf4adb3c0263c45/TSMC%201Q26%20Transcript.pdf",
-      "last_ingested_at": "2026-06-21 00:00:05"
+      "last_ingested_at": "2026-06-22 06:00:06"
     },
     {
       "url": "https://investors.arm.com/news-events/press-releases",
-      "last_ingested_at": "2026-06-21 00:00:02"
+      "last_ingested_at": "2026-06-22 06:00:02"
     },
     {
       "url": "https://investors.nxp.com/news-events/press-releases",
-      "last_ingested_at": "2026-06-20 18:00:04"
+      "last_ingested_at": "2026-06-22 00:00:04"
     },
     {
       "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-semiconductor-reports-42-yoy-first-quarter-2026-revenue",
-      "last_ingested_at": "2026-06-21 06:00:02"
+      "last_ingested_at": "2026-06-22 12:00:02"
     },
     {
       "url": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-first-quarter-2026-results-updates-full-year",
-      "last_ingested_at": "2026-06-20 18:00:03"
+      "last_ingested_at": "2026-06-22 00:00:03"
     },
     {
       "url": "https://newsroom.st.com/",
-      "last_ingested_at": "2026-06-21 00:00:04"
+      "last_ingested_at": "2026-06-22 06:00:05"
     },
     {
       "url": "https://s21.q4cdn.com/900030961/files/doc_news/indie-Reports-First-Quarter-2026-Results-2026.pdf",
-      "last_ingested_at": "2026-06-21 06:00:02"
+      "last_ingested_at": "2026-06-22 12:00:02"
     },
     {
       "url": "https://siliconangle.com/2025/07/22/hailo-launches-hailo-10h-chip-support-generative-ai-edge/",
@@ -254,7 +254,7 @@
     },
     {
       "url": "https://tenstorrent.com/news",
-      "last_ingested_at": "2026-06-21 00:00:05"
+      "last_ingested_at": "2026-06-22 06:00:06"
     },
     {
       "url": "https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear",
@@ -262,19 +262,19 @@
     },
     {
       "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
-      "last_ingested_at": "2026-06-21 00:00:02"
+      "last_ingested_at": "2026-06-22 06:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/05/12/3293446/0/en/Synaptics-to-Showcase-Real-World-Edge-AI-Use-Cases-at-COMPUTEX-2026.html",
-      "last_ingested_at": "2026-06-21 00:00:05"
+      "last_ingested_at": "2026-06-22 06:00:06"
     },
     {
       "url": "https://www.synaptics.com/company/news/synaptics-launches-next-generation-astra-multimodal-genai-processors-to-power-future-intelligent-iot-edge",
-      "last_ingested_at": "2026-06-21 00:00:04"
+      "last_ingested_at": "2026-06-22 06:00:05"
     },
     {
       "url": "https://www.ti.com/about-ti/newsroom/news.html",
-      "last_ingested_at": "2026-06-21 00:00:05"
+      "last_ingested_at": "2026-06-22 06:00:06"
     }
   ]
 }
