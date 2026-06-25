@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-24T13:42:01Z",
+  "generated_at": "2026-06-25T13:42:01Z",
   "theme_id": "longevity",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,17 +12,16 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 158,
+      "claims_total": 146,
       "claims_by_category": {
-        "corporate": 32,
-        "research": 86,
-        "clinical": 39,
-        "manufacturing": 1
+        "corporate": 26,
+        "research": 81,
+        "clinical": 39
       },
       "top_entities": [
         {
           "slug": "newlimit",
-          "mentions": 145
+          "mentions": 133
         },
         {
           "slug": "life_bio",
@@ -30,15 +29,15 @@
         },
         {
           "slug": "dimension",
-          "mentions": 4
+          "mentions": 3
         },
         {
           "slug": "founders_fund",
-          "mentions": 4
+          "mentions": 3
         },
         {
           "slug": "kleiner_perkins",
-          "mentions": 4
+          "mentions": 3
         }
       ]
     },
@@ -200,7 +199,7 @@
   "source_freshness": [
     {
       "url": "https://altoslabs.com/news/",
-      "last_ingested_at": "2026-06-23 18:00:01"
+      "last_ingested_at": "2026-06-24 18:00:01"
     },
     {
       "url": "https://insilico.com/news",
@@ -208,11 +207,11 @@
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-announces-discontinuation-strides-phase-2-clinical",
-      "last_ingested_at": "2026-06-24 06:00:31"
+      "last_ingested_at": "2026-06-25 12:00:31"
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-reports-first-quarter-2026-financial-results-and",
-      "last_ingested_at": "2026-06-24 06:01:01"
+      "last_ingested_at": "2026-06-25 12:01:01"
     },
     {
       "url": "https://ir.unitybiotechnology.com/news-releases",
@@ -256,7 +255,7 @@
     },
     {
       "url": "https://www.newlimit.com/operating-plan",
-      "last_ingested_at": "2026-06-23 12:00:03"
+      "last_ingested_at": "2026-06-24 18:00:02"
     },
     {
       "url": "https://www.retro.bio/news",
