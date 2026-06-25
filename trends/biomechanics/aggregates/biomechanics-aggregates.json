@@ -1,28 +1,28 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-24T13:43:01Z",
+  "generated_at": "2026-06-25T13:43:01Z",
   "theme_id": "biomechanics",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1816,
+  "underlying_claim_count": 1863,
   "underlying_source_count": 10,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 260,
+      "claims_total": 273,
       "claims_by_category": {
-        "corporate": 111,
-        "research": 47,
-        "market": 97,
-        "manufacturing": 5
+        "corporate": 116,
+        "research": 50,
+        "market": 101,
+        "manufacturing": 6
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 207
+          "mentions": 218
         },
         {
           "slug": "globus_medical",
@@ -30,22 +30,22 @@
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 18
+          "mentions": 19
         }
       ]
     },
     "90d": {
-      "claims_total": 322,
+      "claims_total": 335,
       "claims_by_category": {
-        "corporate": 173,
-        "research": 47,
-        "market": 97,
-        "manufacturing": 5
+        "corporate": 178,
+        "research": 50,
+        "market": 101,
+        "manufacturing": 6
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 207
+          "mentions": 218
         },
         {
           "slug": "globus_medical",
@@ -57,7 +57,7 @@
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 18
+          "mentions": 19
         },
         {
           "slug": "oramed",
@@ -74,12 +74,12 @@
       ]
     },
     "365d": {
-      "claims_total": 1261,
+      "claims_total": 1274,
       "claims_by_category": {
-        "corporate": 495,
-        "research": 65,
-        "market": 623,
-        "manufacturing": 38,
+        "corporate": 500,
+        "research": 68,
+        "market": 627,
+        "manufacturing": 39,
         "regulatory": 40
       },
       "top_entities": [
@@ -101,7 +101,7 @@
         },
         {
           "slug": "german_bionic",
-          "mentions": 207
+          "mentions": 218
         },
         {
           "slug": "globus_medical",
@@ -113,7 +113,7 @@
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 18
+          "mentions": 19
         },
         {
           "slug": "barmer",
@@ -165,23 +165,23 @@
   "source_freshness": [
     {
       "url": "https://investors.globusmedical.com",
-      "last_ingested_at": "2026-06-23 18:00:01"
+      "last_ingested_at": "2026-06-24 18:00:32"
     },
     {
       "url": "https://orthofeed.com/2025/03/15/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting/",
-      "last_ingested_at": "2026-06-23 18:00:05"
+      "last_ingested_at": "2026-06-25 00:00:34"
     },
     {
       "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028/",
-      "last_ingested_at": "2026-06-23 18:00:06"
+      "last_ingested_at": "2026-06-25 00:00:36"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260309467133/en/Myomo-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-and-Operating-Results",
-      "last_ingested_at": "2026-06-23 18:00:04"
+      "last_ingested_at": "2026-06-25 00:00:33"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/06/11/3097632/0/en/Wandercraft-announces-Series-D-Round-bringing-75M-in-total-funding-secured-for-global-acceleration-of-AI-powered-robotics.html",
-      "last_ingested_at": "2026-06-23 18:00:07"
+      "last_ingested_at": "2026-06-25 00:00:36"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/09/08/3146103/32993/en/Lifeward-Achieves-CE-Mark-Approval-for-the-ReWalk-7-Personal-Exoskeleton.html",
@@ -189,7 +189,7 @@
     },
     {
       "url": "https://www.reuters.com/markets/deals/prosthetics-maker-ottobock-owner-seek-709-million-ipo-2025-09-29/",
-      "last_ingested_at": "2026-06-23 18:00:04"
+      "last_ingested_at": "2026-06-25 00:00:33"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001091223/000110465925070211/tm2521591d1_ex99-1.htm",
@@ -197,11 +197,11 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001549084/000143774925031957/ex_849226.htm",
-      "last_ingested_at": "2026-06-23 18:00:01"
+      "last_ingested_at": "2026-06-24 18:00:01"
     },
     {
       "url": "https://www.therobotreport.com/german-bionic-unveils-exia-ai-augmented-industrial-exoskeleton/",
-      "last_ingested_at": "2026-06-24 06:00:02"
+      "last_ingested_at": "2026-06-25 12:00:01"
     }
   ]
 }
