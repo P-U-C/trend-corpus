@@ -1,27 +1,27 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-29T13:42:01Z",
+  "generated_at": "2026-06-30T13:42:01Z",
   "theme_id": "longevity",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 3571,
+  "underlying_claim_count": 3616,
   "underlying_source_count": 16,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 115,
+      "claims_total": 104,
       "claims_by_category": {
-        "corporate": 19,
-        "research": 63,
-        "clinical": 33
+        "corporate": 17,
+        "research": 55,
+        "clinical": 32
       },
       "top_entities": [
         {
           "slug": "newlimit",
-          "mentions": 98
+          "mentions": 87
         },
         {
           "slug": "life_bio",
@@ -42,19 +42,19 @@
       ]
     },
     "90d": {
-      "claims_total": 935,
+      "claims_total": 873,
       "claims_by_category": {
-        "corporate": 373,
+        "corporate": 305,
         "research": 201,
-        "clinical": 305,
+        "clinical": 310,
         "manufacturing": 2,
-        "regulatory": 35,
+        "regulatory": 36,
         "market": 19
       },
       "top_entities": [
         {
           "slug": "bioage",
-          "mentions": 463
+          "mentions": 401
         },
         {
           "slug": "life_bio",
@@ -66,15 +66,15 @@
         },
         {
           "slug": "novartis",
-          "mentions": 63
+          "mentions": 53
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 33
+          "mentions": 34
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 33
+          "mentions": 34
         },
         {
           "slug": "dimension",
@@ -103,13 +103,13 @@
       ]
     },
     "365d": {
-      "claims_total": 2493,
+      "claims_total": 2521,
       "claims_by_category": {
-        "corporate": 1013,
-        "research": 521,
-        "clinical": 686,
-        "manufacturing": 26,
-        "regulatory": 193,
+        "corporate": 1030,
+        "research": 524,
+        "clinical": 691,
+        "manufacturing": 27,
+        "regulatory": 195,
         "market": 54
       },
       "top_entities": [
@@ -119,11 +119,11 @@
         },
         {
           "slug": "bioage",
-          "mentions": 496
+          "mentions": 510
         },
         {
           "slug": "insilico",
-          "mentions": 443
+          "mentions": 457
         },
         {
           "slug": "calico",
@@ -147,11 +147,11 @@
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 71
+          "mentions": 73
         },
         {
           "slug": "novartis",
-          "mentions": 63
+          "mentions": 65
         },
         {
           "slug": "alphabet",
@@ -159,7 +159,7 @@
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 33
+          "mentions": 34
         },
         {
           "slug": "bryan_johnson",
@@ -199,7 +199,7 @@
   "source_freshness": [
     {
       "url": "https://altoslabs.com/news/",
-      "last_ingested_at": "2026-06-29 06:00:01"
+      "last_ingested_at": "2026-06-30 06:00:01"
     },
     {
       "url": "https://insilico.com/news",
@@ -207,11 +207,11 @@
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-announces-discontinuation-strides-phase-2-clinical",
-      "last_ingested_at": "2026-06-29 06:00:01"
+      "last_ingested_at": "2026-06-30 06:00:02"
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-reports-first-quarter-2026-financial-results-and",
-      "last_ingested_at": "2026-06-29 06:00:02"
+      "last_ingested_at": "2026-06-30 12:00:01"
     },
     {
       "url": "https://ir.unitybiotechnology.com/news-releases",
@@ -231,15 +231,15 @@
     },
     {
       "url": "https://www.eurekalert.org/news-releases/1111220",
-      "last_ingested_at": "2026-06-29 12:00:01"
+      "last_ingested_at": "2026-06-30 12:00:02"
     },
     {
       "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products",
-      "last_ingested_at": "2026-06-29 06:00:02"
+      "last_ingested_at": "2026-06-30 12:00:01"
     },
     {
       "url": "https://www.fiercebiotech.com/biotech/abbvie-cuts-ties-calico-100-scientists-after-11-year-partnership",
-      "last_ingested_at": "2026-06-29 06:00:01"
+      "last_ingested_at": "2026-06-30 06:00:01"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/04/08/3270043/0/en/Life-Biosciences-Secures-80-Million-Series-D-Financing.html",
