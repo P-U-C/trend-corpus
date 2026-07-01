@@ -1,46 +1,46 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-06-30T13:34:01Z",
+  "generated_at": "2026-07-01T13:34:01Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 1764,
+  "underlying_claim_count": 1808,
   "underlying_source_count": 13,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 984,
+      "claims_total": 1016,
       "claims_by_category": {
-        "corporate": 481,
-        "research": 109,
-        "regulatory": 156,
-        "market": 112,
-        "manufacturing": 116,
-        "supply": 10
+        "corporate": 499,
+        "manufacturing": 123,
+        "research": 112,
+        "regulatory": 158,
+        "market": 113,
+        "supply": 11
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 370
+          "mentions": 374
         },
         {
           "slug": "kratos",
-          "mentions": 105
+          "mentions": 112
         },
         {
           "slug": "aerovironment",
-          "mentions": 103
+          "mentions": 109
         },
         {
           "slug": "leidos",
-          "mentions": 78
+          "mentions": 82
         },
         {
           "slug": "lockheed_martin",
-          "mentions": 39
+          "mentions": 40
         },
         {
           "slug": "anduril",
@@ -55,31 +55,35 @@
           "mentions": 18
         },
         {
+          "slug": "saab",
+          "mentions": 17
+        },
+        {
           "slug": "iai",
           "mentions": 17
         },
         {
-          "slug": "saab",
-          "mentions": 16
+          "slug": "germany",
+          "mentions": 15
         },
         {
           "slug": "france",
           "mentions": 15
         },
         {
+          "slug": "poland",
+          "mentions": 14
+        },
+        {
+          "slug": "knds",
+          "mentions": 14
+        },
+        {
           "slug": "general_atomics",
           "mentions": 14
         },
         {
-          "slug": "poland",
-          "mentions": 13
-        },
-        {
-          "slug": "germany",
-          "mentions": 13
-        },
-        {
-          "slug": "knds",
+          "slug": "northrop_grumman",
           "mentions": 13
         },
         {
@@ -87,7 +91,7 @@
           "mentions": 12
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "ukraine",
           "mentions": 12
         },
         {
@@ -97,43 +101,39 @@
         {
           "slug": "shield_ai",
           "mentions": 11
-        },
-        {
-          "slug": "ukraine",
-          "mentions": 11
         }
       ]
     },
     "90d": {
-      "claims_total": 1605,
+      "claims_total": 1641,
       "claims_by_category": {
-        "corporate": 857,
-        "research": 161,
-        "regulatory": 218,
-        "market": 168,
-        "manufacturing": 190,
-        "supply": 11
+        "corporate": 879,
+        "manufacturing": 197,
+        "research": 164,
+        "regulatory": 220,
+        "market": 169,
+        "supply": 12
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 649
+          "mentions": 654
         },
         {
           "slug": "kratos",
-          "mentions": 239
+          "mentions": 248
         },
         {
           "slug": "leidos",
-          "mentions": 190
+          "mentions": 195
         },
         {
           "slug": "aerovironment",
-          "mentions": 160
+          "mentions": 167
         },
         {
           "slug": "lockheed_martin",
-          "mentions": 52
+          "mentions": 53
         },
         {
           "slug": "anduril",
@@ -141,7 +141,7 @@
         },
         {
           "slug": "saab",
-          "mentions": 26
+          "mentions": 27
         },
         {
           "slug": "airbus",
@@ -153,6 +153,10 @@
         },
         {
           "slug": "iai",
+          "mentions": 18
+        },
+        {
+          "slug": "germany",
           "mentions": 18
         },
         {
@@ -168,7 +172,7 @@
           "mentions": 17
         },
         {
-          "slug": "germany",
+          "slug": "northrop_grumman",
           "mentions": 16
         },
         {
@@ -184,49 +188,45 @@
           "mentions": 15
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "ukraine",
           "mentions": 15
         },
         {
           "slug": "spacex",
           "mentions": 15
-        },
-        {
-          "slug": "ukraine",
-          "mentions": 14
         }
       ]
     },
     "365d": {
-      "claims_total": 1608,
+      "claims_total": 1644,
       "claims_by_category": {
-        "corporate": 859,
-        "research": 161,
-        "regulatory": 219,
-        "market": 168,
-        "manufacturing": 190,
-        "supply": 11
+        "corporate": 881,
+        "manufacturing": 197,
+        "research": 164,
+        "regulatory": 221,
+        "market": 169,
+        "supply": 12
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 649
+          "mentions": 654
         },
         {
           "slug": "kratos",
-          "mentions": 240
+          "mentions": 249
         },
         {
           "slug": "leidos",
-          "mentions": 190
+          "mentions": 195
         },
         {
           "slug": "aerovironment",
-          "mentions": 160
+          "mentions": 167
         },
         {
           "slug": "lockheed_martin",
-          "mentions": 52
+          "mentions": 53
         },
         {
           "slug": "anduril",
@@ -234,7 +234,7 @@
         },
         {
           "slug": "saab",
-          "mentions": 26
+          "mentions": 27
         },
         {
           "slug": "airbus",
@@ -246,6 +246,10 @@
         },
         {
           "slug": "iai",
+          "mentions": 18
+        },
+        {
+          "slug": "germany",
           "mentions": 18
         },
         {
@@ -261,7 +265,7 @@
           "mentions": 17
         },
         {
-          "slug": "germany",
+          "slug": "northrop_grumman",
           "mentions": 16
         },
         {
@@ -277,16 +281,12 @@
           "mentions": 15
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "ukraine",
           "mentions": 15
         },
         {
           "slug": "spacex",
           "mentions": 15
-        },
-        {
-          "slug": "ukraine",
-          "mentions": 14
         }
       ]
     }
@@ -298,27 +298,27 @@
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-06-30 12:00:01"
+      "last_ingested_at": "2026-07-01 12:00:02"
     },
     {
       "url": "https://investors.leidos.com/",
-      "last_ingested_at": "2026-06-29 12:00:02"
+      "last_ingested_at": "2026-06-30 18:00:03"
     },
     {
       "url": "https://investors.palantir.com/",
-      "last_ingested_at": "2026-06-29 12:00:03"
+      "last_ingested_at": "2026-06-30 18:00:04"
     },
     {
       "url": "https://ir.kratosdefense.com/",
-      "last_ingested_at": "2026-06-29 12:00:02"
+      "last_ingested_at": "2026-06-30 18:00:03"
     },
     {
       "url": "https://shield.ai/news/",
-      "last_ingested_at": "2026-06-29 12:00:03"
+      "last_ingested_at": "2026-06-30 18:00:04"
     },
     {
       "url": "https://warontherocks.com/",
-      "last_ingested_at": "2026-06-29 12:00:04"
+      "last_ingested_at": "2026-06-30 18:00:04"
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
@@ -342,7 +342,7 @@
     },
     {
       "url": "https://www.defensenews.com/",
-      "last_ingested_at": "2026-06-29 12:00:02"
+      "last_ingested_at": "2026-06-30 18:00:02"
     }
   ]
 }
