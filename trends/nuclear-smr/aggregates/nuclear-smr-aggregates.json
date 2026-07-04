@@ -1,38 +1,38 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-03T13:32:01Z",
+  "generated_at": "2026-07-04T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 4533,
+  "underlying_claim_count": 4632,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 955,
+      "claims_total": 970,
       "claims_by_category": {
-        "research": 87,
-        "corporate": 115,
-        "regulatory": 471,
-        "market": 132,
-        "manufacturing": 78,
+        "regulatory": 482,
+        "corporate": 116,
+        "research": 85,
+        "market": 134,
+        "manufacturing": 81,
         "supply": 72
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 374
+          "mentions": 381
         },
         {
           "slug": "nrc",
-          "mentions": 291
+          "mentions": 299
         },
         {
           "slug": "ge_vernova",
-          "mentions": 131
+          "mentions": 136
         },
         {
           "slug": "nuscale",
@@ -44,7 +44,7 @@
         },
         {
           "slug": "bwxt",
-          "mentions": 26
+          "mentions": 27
         },
         {
           "slug": "uamps",
@@ -52,7 +52,7 @@
         },
         {
           "slug": "antares_nuclear",
-          "mentions": 22
+          "mentions": 23
         },
         {
           "slug": "terrapower",
@@ -92,7 +92,7 @@
         },
         {
           "slug": "duke_energy",
-          "mentions": 6
+          "mentions": 7
         },
         {
           "slug": "bruce_power",
@@ -105,60 +105,60 @@
       ]
     },
     "90d": {
-      "claims_total": 2617,
+      "claims_total": 2682,
       "claims_by_category": {
-        "research": 125,
-        "corporate": 776,
-        "regulatory": 919,
-        "market": 244,
-        "manufacturing": 205,
-        "supply": 312,
-        "pricing": 36
+        "regulatory": 948,
+        "corporate": 794,
+        "research": 127,
+        "market": 248,
+        "manufacturing": 213,
+        "supply": 315,
+        "pricing": 37
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 737
+          "mentions": 755
         },
         {
           "slug": "nrc",
-          "mentions": 663
+          "mentions": 682
         },
         {
           "slug": "doe",
-          "mentions": 549
+          "mentions": 568
         },
         {
           "slug": "bwxt",
-          "mentions": 261
+          "mentions": 268
         },
         {
           "slug": "ge_vernova",
-          "mentions": 201
+          "mentions": 207
         },
         {
           "slug": "westinghouse",
-          "mentions": 102
+          "mentions": 105
         },
         {
           "slug": "jv_inkai",
-          "mentions": 100
+          "mentions": 102
         },
         {
           "slug": "nuscale",
-          "mentions": 61
+          "mentions": 63
         },
         {
           "slug": "idaho_national_laboratory",
-          "mentions": 56
+          "mentions": 58
         },
         {
           "slug": "terrapower",
-          "mentions": 42
+          "mentions": 43
         },
         {
           "slug": "uamps",
-          "mentions": 37
+          "mentions": 38
         },
         {
           "slug": "rosatom",
@@ -166,15 +166,23 @@
         },
         {
           "slug": "antares_nuclear",
-          "mentions": 22
+          "mentions": 23
+        },
+        {
+          "slug": "duke_energy",
+          "mentions": 21
         },
         {
           "slug": "nuclear_fuel_services",
           "mentions": 21
         },
         {
-          "slug": "duke_energy",
-          "mentions": 20
+          "slug": "mcarthur_river",
+          "mentions": 16
+        },
+        {
+          "slug": "key_lake",
+          "mentions": 16
         },
         {
           "slug": "rolls_royce",
@@ -186,73 +194,65 @@
         },
         {
           "slug": "edf",
-          "mentions": 14
-        },
-        {
-          "slug": "mcarthur_river",
-          "mentions": 14
-        },
-        {
-          "slug": "key_lake",
           "mentions": 14
         }
       ]
     },
     "365d": {
-      "claims_total": 3044,
+      "claims_total": 3118,
       "claims_by_category": {
-        "research": 127,
-        "corporate": 1006,
-        "regulatory": 1061,
-        "market": 247,
-        "manufacturing": 213,
-        "supply": 350,
-        "pricing": 40
+        "regulatory": 1091,
+        "corporate": 1031,
+        "research": 129,
+        "market": 251,
+        "manufacturing": 221,
+        "supply": 354,
+        "pricing": 41
       },
       "top_entities": [
         {
           "slug": "cameco",
-          "mentions": 811
+          "mentions": 832
         },
         {
           "slug": "nrc",
-          "mentions": 691
+          "mentions": 711
         },
         {
           "slug": "doe",
-          "mentions": 674
+          "mentions": 693
         },
         {
           "slug": "bwxt",
-          "mentions": 458
+          "mentions": 470
         },
         {
           "slug": "ge_vernova",
-          "mentions": 201
+          "mentions": 207
         },
         {
           "slug": "westinghouse",
-          "mentions": 108
+          "mentions": 111
         },
         {
           "slug": "jv_inkai",
-          "mentions": 104
+          "mentions": 106
         },
         {
           "slug": "nuscale",
-          "mentions": 61
+          "mentions": 63
         },
         {
           "slug": "idaho_national_laboratory",
-          "mentions": 56
+          "mentions": 58
         },
         {
           "slug": "terrapower",
-          "mentions": 42
+          "mentions": 43
         },
         {
           "slug": "uamps",
-          "mentions": 37
+          "mentions": 38
         },
         {
           "slug": "rosatom",
@@ -260,15 +260,23 @@
         },
         {
           "slug": "antares_nuclear",
-          "mentions": 22
+          "mentions": 23
+        },
+        {
+          "slug": "duke_energy",
+          "mentions": 21
         },
         {
           "slug": "nuclear_fuel_services",
           "mentions": 21
         },
         {
-          "slug": "duke_energy",
-          "mentions": 20
+          "slug": "mcarthur_river",
+          "mentions": 16
+        },
+        {
+          "slug": "key_lake",
+          "mentions": 16
         },
         {
           "slug": "rolls_royce",
@@ -280,14 +288,6 @@
         },
         {
           "slug": "edf",
-          "mentions": 14
-        },
-        {
-          "slug": "mcarthur_river",
-          "mentions": 14
-        },
-        {
-          "slug": "key_lake",
           "mentions": 14
         }
       ]
@@ -296,11 +296,11 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-07-03 06:00:02"
+      "last_ingested_at": "2026-07-04 12:00:02"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-07-03 06:00:02"
+      "last_ingested_at": "2026-07-04 12:00:02"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
@@ -308,39 +308,39 @@
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-07-03 00:00:02"
+      "last_ingested_at": "2026-07-04 06:00:02"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
-      "last_ingested_at": "2026-07-03 12:00:01"
+      "last_ingested_at": "2026-07-04 12:00:03"
     },
     {
       "url": "https://www.energy.gov/ne/haleu-availability-program",
-      "last_ingested_at": "2026-07-02 12:00:03"
+      "last_ingested_at": "2026-07-03 18:00:01"
     },
     {
       "url": "https://www.energy.gov/ne/nuclear-reactor-technologies/small-modular-nuclear-reactors",
-      "last_ingested_at": "2026-07-03 06:00:02"
+      "last_ingested_at": "2026-07-04 12:00:03"
     },
     {
       "url": "https://www.gevernova.com/investors",
-      "last_ingested_at": "2026-07-03 06:00:03"
+      "last_ingested_at": "2026-07-04 12:00:03"
     },
     {
       "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
-      "last_ingested_at": "2026-07-03 06:00:03"
+      "last_ingested_at": "2026-07-04 12:00:03"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "last_ingested_at": "2026-07-03 06:00:03"
+      "last_ingested_at": "2026-07-04 12:00:03"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced/new-app/general-guidance/pre-app-process.html",
-      "last_ingested_at": "2026-07-03 06:00:04"
+      "last_ingested_at": "2026-07-04 12:00:04"
     },
     {
       "url": "https://www.nuscalepower.com/en/investors/financials/quarterly-results",
-      "last_ingested_at": "2026-07-03 06:00:04"
+      "last_ingested_at": "2026-07-04 12:00:04"
     },
     {
       "url": "https://www.world-nuclear-news.org/",
