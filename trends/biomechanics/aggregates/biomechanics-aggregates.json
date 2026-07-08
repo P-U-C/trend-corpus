@@ -1,22 +1,22 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-07T13:43:01Z",
+  "generated_at": "2026-07-08T13:43:01Z",
   "theme_id": "biomechanics",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2875,
+  "underlying_claim_count": 2931,
   "underlying_source_count": 10,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 391,
+      "claims_total": 392,
       "claims_by_category": {
-        "market": 153,
-        "corporate": 163,
-        "research": 69,
+        "corporate": 166,
+        "research": 71,
+        "market": 149,
         "manufacturing": 6
       },
       "top_entities": [
@@ -39,33 +39,37 @@
         {
           "slug": "national_seating_and_mobility",
           "mentions": 4
+        },
+        {
+          "slug": "lifeward",
+          "mentions": 1
         }
       ]
     },
     "90d": {
-      "claims_total": 513,
+      "claims_total": 531,
       "claims_by_category": {
-        "market": 165,
-        "corporate": 268,
-        "research": 71,
+        "corporate": 278,
+        "research": 76,
+        "market": 168,
         "manufacturing": 9
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 335
+          "mentions": 346
         },
         {
           "slug": "globus_medical",
-          "mentions": 75
+          "mentions": 78
         },
         {
           "slug": "lifeward",
-          "mentions": 67
+          "mentions": 69
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 29
+          "mentions": 30
         },
         {
           "slug": "oramed",
@@ -90,13 +94,13 @@
       ]
     },
     "365d": {
-      "claims_total": 1936,
+      "claims_total": 1992,
       "claims_by_category": {
-        "market": 939,
-        "corporate": 779,
-        "research": 97,
+        "corporate": 813,
+        "research": 102,
+        "market": 953,
         "manufacturing": 57,
-        "regulatory": 64
+        "regulatory": 67
       },
       "top_entities": [
         {
@@ -105,35 +109,35 @@
         },
         {
           "slug": "ekso_bionics",
-          "mentions": 357
+          "mentions": 370
         },
         {
           "slug": "lifeward",
-          "mentions": 350
+          "mentions": 362
         },
         {
           "slug": "german_bionic",
-          "mentions": 335
+          "mentions": 346
         },
         {
           "slug": "materialise",
-          "mentions": 326
+          "mentions": 339
         },
         {
           "slug": "globus_medical",
-          "mentions": 113
+          "mentions": 118
         },
         {
           "slug": "lifeward_gmbh",
-          "mentions": 30
+          "mentions": 32
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 29
+          "mentions": 30
         },
         {
           "slug": "barmer",
-          "mentions": 27
+          "mentions": 28
         },
         {
           "slug": "university_of_utah",
@@ -185,7 +189,7 @@
   "source_freshness": [
     {
       "url": "https://investors.globusmedical.com",
-      "last_ingested_at": "2026-07-06 18:00:03"
+      "last_ingested_at": "2026-07-08 00:00:02"
     },
     {
       "url": "https://orthofeed.com/2025/03/15/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting/",
@@ -205,7 +209,7 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/09/08/3146103/32993/en/Lifeward-Achieves-CE-Mark-Approval-for-the-ReWalk-7-Personal-Exoskeleton.html",
-      "last_ingested_at": "2026-07-06 18:00:04"
+      "last_ingested_at": "2026-07-08 00:00:04"
     },
     {
       "url": "https://www.reuters.com/markets/deals/prosthetics-maker-ottobock-owner-seek-709-million-ipo-2025-09-29/",
@@ -213,15 +217,15 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001091223/000110465925070211/tm2521591d1_ex99-1.htm",
-      "last_ingested_at": "2026-07-06 18:00:04"
+      "last_ingested_at": "2026-07-08 00:00:04"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001549084/000143774925031957/ex_849226.htm",
-      "last_ingested_at": "2026-07-07 12:00:01"
+      "last_ingested_at": "2026-07-08 12:00:01"
     },
     {
       "url": "https://www.therobotreport.com/german-bionic-unveils-exia-ai-augmented-industrial-exoskeleton/",
-      "last_ingested_at": "2026-07-06 18:00:02"
+      "last_ingested_at": "2026-07-08 00:00:02"
     }
   ]
 }
