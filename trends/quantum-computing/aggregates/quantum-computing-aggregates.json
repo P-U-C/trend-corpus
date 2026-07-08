@@ -1,25 +1,25 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-07T13:31:02Z",
+  "generated_at": "2026-07-08T13:31:01Z",
   "theme_id": "quantum-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 5246,
+  "underlying_claim_count": 5353,
   "underlying_source_count": 13,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 1341,
+      "claims_total": 1360,
       "claims_by_category": {
-        "manufacturing": 347,
-        "market": 96,
-        "research": 435,
-        "corporate": 306,
-        "supply": 1,
-        "regulatory": 156
+        "manufacturing": 346,
+        "market": 100,
+        "research": 442,
+        "corporate": 308,
+        "regulatory": 163,
+        "supply": 1
       },
       "top_entities": [
         {
@@ -32,15 +32,15 @@
         },
         {
           "slug": "quantum_computing_inc",
-          "mentions": 174
+          "mentions": 177
         },
         {
           "slug": "nist",
-          "mentions": 151
+          "mentions": 157
         },
         {
           "slug": "bluefors",
-          "mentions": 136
+          "mentions": 135
         },
         {
           "slug": "brookhaven_national_laboratory",
@@ -68,19 +68,23 @@
         },
         {
           "slug": "andor",
-          "mentions": 26
-        },
-        {
-          "slug": "university_of_vienna",
-          "mentions": 18
+          "mentions": 31
         },
         {
           "slug": "nccoe",
-          "mentions": 18
+          "mentions": 19
+        },
+        {
+          "slug": "university_of_vienna",
+          "mentions": 19
         },
         {
           "slug": "planck_dynamics",
-          "mentions": 15
+          "mentions": 16
+        },
+        {
+          "slug": "the_quantum_insider",
+          "mentions": 13
         },
         {
           "slug": "nsf",
@@ -91,177 +95,80 @@
           "mentions": 13
         },
         {
-          "slug": "eigenq",
+          "slug": "nhanced_semiconductors",
           "mentions": 12
         },
         {
-          "slug": "nhanced_semiconductors",
-          "mentions": 11
-        },
-        {
           "slug": "iqm",
-          "mentions": 11
+          "mentions": 12
         }
       ]
     },
     "90d": {
-      "claims_total": 2297,
+      "claims_total": 2358,
       "claims_by_category": {
-        "manufacturing": 556,
-        "market": 165,
-        "research": 696,
-        "corporate": 652,
-        "supply": 6,
-        "regulatory": 222
+        "manufacturing": 569,
+        "market": 171,
+        "research": 714,
+        "corporate": 665,
+        "regulatory": 233,
+        "supply": 6
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 492
+          "mentions": 504
         },
         {
           "slug": "oxford_instruments",
-          "mentions": 467
+          "mentions": 479
         },
         {
           "slug": "quantum_computing_inc",
-          "mentions": 303
+          "mentions": 311
         },
         {
           "slug": "bluefors",
-          "mentions": 219
+          "mentions": 224
         },
         {
           "slug": "nist",
-          "mentions": 194
+          "mentions": 205
         },
         {
           "slug": "qphoton",
-          "mentions": 87
+          "mentions": 90
         },
         {
           "slug": "brookhaven_national_laboratory",
-          "mentions": 79
+          "mentions": 81
         },
         {
           "slug": "lawrence_berkeley_national_laboratory",
-          "mentions": 79
+          "mentions": 81
         },
         {
           "slug": "oak_ridge_national_laboratory",
-          "mentions": 79
+          "mentions": 81
         },
         {
           "slug": "arqit",
-          "mentions": 79
+          "mentions": 81
         },
         {
           "slug": "argonne_national_laboratory",
-          "mentions": 73
+          "mentions": 75
         },
         {
           "slug": "fermilab",
-          "mentions": 72
+          "mentions": 74
         },
         {
           "slug": "vodafone",
-          "mentions": 56
-        },
-        {
-          "slug": "tomorrow_street",
-          "mentions": 44
-        },
-        {
-          "slug": "quantinuum",
-          "mentions": 41
+          "mentions": 57
         },
         {
           "slug": "andor",
-          "mentions": 41
-        },
-        {
-          "slug": "university_of_vienna",
-          "mentions": 30
-        },
-        {
-          "slug": "atom_computing",
-          "mentions": 25
-        },
-        {
-          "slug": "nccoe",
-          "mentions": 23
-        },
-        {
-          "slug": "iqm",
-          "mentions": 21
-        }
-      ]
-    },
-    "365d": {
-      "claims_total": 2685,
-      "claims_by_category": {
-        "manufacturing": 557,
-        "market": 214,
-        "research": 733,
-        "corporate": 899,
-        "supply": 6,
-        "regulatory": 276
-      },
-      "top_entities": [
-        {
-          "slug": "doe",
-          "mentions": 492
-        },
-        {
-          "slug": "oxford_instruments",
-          "mentions": 467
-        },
-        {
-          "slug": "arqit",
-          "mentions": 349
-        },
-        {
-          "slug": "quantum_computing_inc",
-          "mentions": 304
-        },
-        {
-          "slug": "bluefors",
-          "mentions": 282
-        },
-        {
-          "slug": "nist",
-          "mentions": 248
-        },
-        {
-          "slug": "qphoton",
-          "mentions": 87
-        },
-        {
-          "slug": "brookhaven_national_laboratory",
-          "mentions": 79
-        },
-        {
-          "slug": "lawrence_berkeley_national_laboratory",
-          "mentions": 79
-        },
-        {
-          "slug": "oak_ridge_national_laboratory",
-          "mentions": 79
-        },
-        {
-          "slug": "argonne_national_laboratory",
-          "mentions": 73
-        },
-        {
-          "slug": "fermilab",
-          "mentions": 72
-        },
-        {
-          "slug": "vodafone",
-          "mentions": 56
-        },
-        {
-          "slug": "intel",
           "mentions": 46
         },
         {
@@ -270,23 +177,116 @@
         },
         {
           "slug": "quantinuum",
-          "mentions": 41
+          "mentions": 42
+        },
+        {
+          "slug": "university_of_vienna",
+          "mentions": 31
+        },
+        {
+          "slug": "atom_computing",
+          "mentions": 25
+        },
+        {
+          "slug": "nccoe",
+          "mentions": 24
+        },
+        {
+          "slug": "iqm",
+          "mentions": 22
+        }
+      ]
+    },
+    "365d": {
+      "claims_total": 2754,
+      "claims_by_category": {
+        "manufacturing": 570,
+        "market": 221,
+        "research": 753,
+        "corporate": 917,
+        "regulatory": 287,
+        "supply": 6
+      },
+      "top_entities": [
+        {
+          "slug": "doe",
+          "mentions": 504
+        },
+        {
+          "slug": "oxford_instruments",
+          "mentions": 479
+        },
+        {
+          "slug": "arqit",
+          "mentions": 357
+        },
+        {
+          "slug": "quantum_computing_inc",
+          "mentions": 312
+        },
+        {
+          "slug": "bluefors",
+          "mentions": 289
+        },
+        {
+          "slug": "nist",
+          "mentions": 259
+        },
+        {
+          "slug": "qphoton",
+          "mentions": 90
+        },
+        {
+          "slug": "brookhaven_national_laboratory",
+          "mentions": 81
+        },
+        {
+          "slug": "lawrence_berkeley_national_laboratory",
+          "mentions": 81
+        },
+        {
+          "slug": "oak_ridge_national_laboratory",
+          "mentions": 81
+        },
+        {
+          "slug": "argonne_national_laboratory",
+          "mentions": 75
+        },
+        {
+          "slug": "fermilab",
+          "mentions": 74
+        },
+        {
+          "slug": "vodafone",
+          "mentions": 57
+        },
+        {
+          "slug": "intel",
+          "mentions": 47
         },
         {
           "slug": "andor",
-          "mentions": 41
+          "mentions": 46
+        },
+        {
+          "slug": "tomorrow_street",
+          "mentions": 44
+        },
+        {
+          "slug": "quantinuum",
+          "mentions": 42
         },
         {
           "slug": "qphox",
-          "mentions": 38
+          "mentions": 39
         },
         {
           "slug": "rad",
-          "mentions": 38
+          "mentions": 39
         },
         {
           "slug": "6wind",
-          "mentions": 38
+          "mentions": 39
         }
       ]
     }
@@ -298,39 +298,39 @@
     },
     {
       "url": "https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/",
-      "last_ingested_at": "2026-07-07 06:00:08"
+      "last_ingested_at": "2026-07-08 12:00:03"
     },
     {
       "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
-      "last_ingested_at": "2026-07-07 00:00:05"
+      "last_ingested_at": "2026-07-08 06:00:03"
     },
     {
       "url": "https://bluefors.com/applications/quantum-technology/",
-      "last_ingested_at": "2026-07-07 00:00:03"
+      "last_ingested_at": "2026-07-08 06:00:02"
     },
     {
       "url": "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography",
-      "last_ingested_at": "2026-07-07 06:00:38"
+      "last_ingested_at": "2026-07-08 12:00:05"
     },
     {
       "url": "https://investors.rigetti.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-07-07 06:00:40"
+      "last_ingested_at": "2026-07-08 12:00:08"
     },
     {
       "url": "https://ir.arqit.uk/news-events/press-releases",
-      "last_ingested_at": "2026-07-07 12:00:01"
+      "last_ingested_at": "2026-07-08 12:00:01"
     },
     {
       "url": "https://quantumcomputinginc.com/investor-relations",
-      "last_ingested_at": "2026-07-07 06:00:40"
+      "last_ingested_at": "2026-07-08 12:00:07"
     },
     {
       "url": "https://science.osti.gov/Initiatives/QIS/QIS-Centers",
-      "last_ingested_at": "2026-07-07 00:00:03"
+      "last_ingested_at": "2026-07-08 06:00:03"
     },
     {
       "url": "https://thequantuminsider.com/",
-      "last_ingested_at": "2026-07-07 06:00:40"
+      "last_ingested_at": "2026-07-08 12:00:08"
     },
     {
       "url": "https://www.bis.gov/press-release/department-commerce-implements-controls-quantum-computing-other-advanced-technologies-alongside",
@@ -338,11 +338,11 @@
     },
     {
       "url": "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
-      "last_ingested_at": "2026-07-07 00:00:05"
+      "last_ingested_at": "2026-07-08 06:00:03"
     },
     {
       "url": "https://www.oxinst.com/applications/quantum-computing",
-      "last_ingested_at": "2026-07-07 06:00:40"
+      "last_ingested_at": "2026-07-08 12:00:07"
     }
   ]
 }
