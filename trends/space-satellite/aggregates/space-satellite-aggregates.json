@@ -1,46 +1,46 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-08T13:35:01Z",
+  "generated_at": "2026-07-09T13:35:01Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 5535,
+  "underlying_claim_count": 5555,
   "underlying_source_count": 15,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 359,
+      "claims_total": 346,
       "claims_by_category": {
-        "corporate": 228,
-        "market": 21,
-        "manufacturing": 58,
-        "regulatory": 25,
+        "corporate": 219,
+        "market": 20,
+        "manufacturing": 56,
+        "regulatory": 24,
         "research": 24,
         "supply": 3
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 195
+          "mentions": 188
         },
         {
           "slug": "sda",
-          "mentions": 191
+          "mentions": 184
         },
         {
           "slug": "nasa",
-          "mentions": 138
+          "mentions": 133
         },
         {
           "slug": "dod",
-          "mentions": 63
+          "mentions": 60
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 9
+          "mentions": 8
         },
         {
           "slug": "clps",
@@ -53,13 +53,13 @@
       ]
     },
     "90d": {
-      "claims_total": 2100,
+      "claims_total": 2116,
       "claims_by_category": {
-        "corporate": 1159,
-        "market": 173,
-        "manufacturing": 513,
-        "regulatory": 93,
-        "research": 130,
+        "corporate": 1162,
+        "market": 177,
+        "manufacturing": 519,
+        "regulatory": 94,
+        "research": 132,
         "supply": 32
       },
       "top_entities": [
@@ -69,7 +69,7 @@
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 752
+          "mentions": 768
         },
         {
           "slug": "sda",
@@ -85,11 +85,11 @@
         },
         {
           "slug": "spacex",
-          "mentions": 122
+          "mentions": 124
         },
         {
           "slug": "fcc",
-          "mentions": 52
+          "mentions": 53
         },
         {
           "slug": "blue_origin",
@@ -134,13 +134,13 @@
       ]
     },
     "365d": {
-      "claims_total": 5185,
+      "claims_total": 5205,
       "claims_by_category": {
-        "corporate": 3218,
-        "market": 556,
-        "manufacturing": 839,
-        "regulatory": 93,
-        "research": 419,
+        "corporate": 3225,
+        "market": 560,
+        "manufacturing": 845,
+        "regulatory": 94,
+        "research": 421,
         "supply": 60
       },
       "top_entities": [
@@ -150,7 +150,7 @@
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 919
+          "mentions": 939
         },
         {
           "slug": "nasa",
@@ -182,11 +182,11 @@
         },
         {
           "slug": "spacex",
-          "mentions": 122
+          "mentions": 124
         },
         {
           "slug": "fcc",
-          "mentions": 52
+          "mentions": 53
         },
         {
           "slug": "blue_origin",
@@ -230,7 +230,7 @@
   "source_freshness": [
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-07-07 12:00:02"
+      "last_ingested_at": "2026-07-08 18:00:03"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
@@ -270,7 +270,7 @@
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-07-08 00:00:02"
+      "last_ingested_at": "2026-07-09 06:00:04"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
