@@ -1,28 +1,28 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-10T13:43:01Z",
+  "generated_at": "2026-07-11T13:43:01Z",
   "theme_id": "biomechanics",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 3115,
+  "underlying_claim_count": 3203,
   "underlying_source_count": 10,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 398,
+      "claims_total": 400,
       "claims_by_category": {
-        "corporate": 170,
-        "manufacturing": 10,
-        "research": 66,
-        "market": 152
+        "corporate": 174,
+        "research": 67,
+        "market": 150,
+        "manufacturing": 9
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 315
+          "mentions": 316
         },
         {
           "slug": "globus_medical",
@@ -42,7 +42,7 @@
         },
         {
           "slug": "lifeward",
-          "mentions": 3
+          "mentions": 4
         },
         {
           "slug": "armin_g_schmidt",
@@ -51,29 +51,29 @@
       ]
     },
     "90d": {
-      "claims_total": 569,
+      "claims_total": 587,
       "claims_by_category": {
-        "corporate": 298,
-        "manufacturing": 13,
-        "research": 78,
-        "market": 180
+        "corporate": 309,
+        "research": 82,
+        "market": 183,
+        "manufacturing": 13
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 371
+          "mentions": 382
         },
         {
           "slug": "globus_medical",
-          "mentions": 84
+          "mentions": 87
         },
         {
           "slug": "lifeward",
-          "mentions": 73
+          "mentions": 75
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 32
+          "mentions": 33
         },
         {
           "slug": "oramed",
@@ -102,13 +102,13 @@
       ]
     },
     "365d": {
-      "claims_total": 2109,
+      "claims_total": 2164,
       "claims_by_category": {
-        "corporate": 865,
-        "manufacturing": 61,
-        "research": 106,
-        "market": 1006,
-        "regulatory": 71
+        "corporate": 891,
+        "research": 110,
+        "market": 1028,
+        "manufacturing": 62,
+        "regulatory": 73
       },
       "top_entities": [
         {
@@ -116,36 +116,36 @@
           "mentions": 434
         },
         {
-          "slug": "lifeward",
-          "mentions": 385
+          "slug": "ekso_bionics",
+          "mentions": 397
         },
         {
-          "slug": "ekso_bionics",
-          "mentions": 384
+          "slug": "lifeward",
+          "mentions": 396
         },
         {
           "slug": "german_bionic",
-          "mentions": 371
+          "mentions": 382
         },
         {
           "slug": "materialise",
-          "mentions": 367
+          "mentions": 381
         },
         {
           "slug": "globus_medical",
-          "mentions": 127
-        },
-        {
-          "slug": "kulr_technology_group",
-          "mentions": 32
+          "mentions": 131
         },
         {
           "slug": "lifeward_gmbh",
-          "mentions": 32
+          "mentions": 34
+        },
+        {
+          "slug": "kulr_technology_group",
+          "mentions": 33
         },
         {
           "slug": "barmer",
-          "mentions": 30
+          "mentions": 31
         },
         {
           "slug": "university_of_utah",
@@ -197,43 +197,43 @@
   "source_freshness": [
     {
       "url": "https://investors.globusmedical.com",
-      "last_ingested_at": "2026-07-10 06:00:02"
+      "last_ingested_at": "2026-07-11 12:00:02"
     },
     {
       "url": "https://orthofeed.com/2025/03/15/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting/",
-      "last_ingested_at": "2026-07-10 00:00:05"
+      "last_ingested_at": "2026-07-11 06:00:03"
     },
     {
       "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028/",
-      "last_ingested_at": "2026-07-10 00:00:09"
+      "last_ingested_at": "2026-07-11 06:00:04"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260309467133/en/Myomo-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-and-Operating-Results",
-      "last_ingested_at": "2026-07-10 00:00:03"
+      "last_ingested_at": "2026-07-11 06:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/06/11/3097632/0/en/Wandercraft-announces-Series-D-Round-bringing-75M-in-total-funding-secured-for-global-acceleration-of-AI-powered-robotics.html",
-      "last_ingested_at": "2026-07-10 00:00:09"
+      "last_ingested_at": "2026-07-11 06:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/09/08/3146103/32993/en/Lifeward-Achieves-CE-Mark-Approval-for-the-ReWalk-7-Personal-Exoskeleton.html",
-      "last_ingested_at": "2026-07-10 06:00:04"
+      "last_ingested_at": "2026-07-11 12:00:03"
     },
     {
       "url": "https://www.reuters.com/markets/deals/prosthetics-maker-ottobock-owner-seek-709-million-ipo-2025-09-29/",
-      "last_ingested_at": "2026-07-10 00:00:04"
+      "last_ingested_at": "2026-07-11 06:00:02"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001091223/000110465925070211/tm2521591d1_ex99-1.htm",
-      "last_ingested_at": "2026-07-10 06:00:04"
+      "last_ingested_at": "2026-07-11 12:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001549084/000143774925031957/ex_849226.htm",
-      "last_ingested_at": "2026-07-09 12:00:02"
+      "last_ingested_at": "2026-07-10 18:00:01"
     },
     {
       "url": "https://www.therobotreport.com/german-bionic-unveils-exia-ai-augmented-industrial-exoskeleton/",
-      "last_ingested_at": "2026-07-10 06:00:02"
+      "last_ingested_at": "2026-07-11 12:00:02"
     }
   ]
 }
