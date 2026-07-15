@@ -1,83 +1,83 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-14T13:38:01Z",
+  "generated_at": "2026-07-15T13:38:01Z",
   "theme_id": "solid-state-battery",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 4217,
+  "underlying_claim_count": 4308,
   "underlying_source_count": 19,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 393,
+      "claims_total": 399,
       "claims_by_category": {
-        "manufacturing": 81,
-        "corporate": 83,
+        "corporate": 82,
+        "manufacturing": 79,
         "research": 108,
-        "supply": 3,
-        "market": 25,
-        "regulatory": 93
+        "market": 28,
+        "regulatory": 99,
+        "supply": 3
       },
       "top_entities": [
         {
           "slug": "ampcera",
-          "mentions": 229
+          "mentions": 226
         },
         {
           "slug": "doe_lpo",
-          "mentions": 102
+          "mentions": 108
         },
         {
           "slug": "mitsui_mining_smelting",
           "mentions": 47
         },
         {
-          "slug": "doe_edf",
+          "slug": "southern_company",
           "mentions": 5
         },
         {
-          "slug": "southern_company",
-          "mentions": 4
+          "slug": "doe_edf",
+          "mentions": 5
         }
       ]
     },
     "90d": {
-      "claims_total": 705,
+      "claims_total": 725,
       "claims_by_category": {
-        "manufacturing": 160,
-        "corporate": 181,
-        "research": 180,
-        "supply": 5,
-        "market": 25,
-        "regulatory": 154
+        "corporate": 183,
+        "manufacturing": 162,
+        "research": 185,
+        "market": 28,
+        "regulatory": 162,
+        "supply": 5
       },
       "top_entities": [
         {
           "slug": "ampcera",
-          "mentions": 391
+          "mentions": 398
         },
         {
           "slug": "doe_lpo",
-          "mentions": 164
+          "mentions": 172
         },
         {
           "slug": "mitsui_mining_smelting",
-          "mentions": 84
+          "mentions": 86
         },
         {
           "slug": "ion_storage_systems",
           "mentions": 46
         },
         {
-          "slug": "doe_edf",
+          "slug": "southern_company",
           "mentions": 5
         },
         {
-          "slug": "southern_company",
-          "mentions": 4
+          "slug": "doe_edf",
+          "mentions": 5
         },
         {
           "slug": "mitsui_kinzoku",
@@ -90,27 +90,27 @@
       ]
     },
     "365d": {
-      "claims_total": 2917,
+      "claims_total": 2978,
       "claims_by_category": {
-        "manufacturing": 901,
-        "corporate": 1052,
-        "research": 607,
-        "supply": 7,
-        "market": 72,
-        "regulatory": 278
+        "corporate": 1070,
+        "manufacturing": 918,
+        "research": 620,
+        "market": 75,
+        "regulatory": 288,
+        "supply": 7
       },
       "top_entities": [
         {
           "slug": "quantumscape",
-          "mentions": 659
+          "mentions": 676
         },
         {
           "slug": "prologium",
-          "mentions": 571
+          "mentions": 583
         },
         {
           "slug": "mercedes_benz",
-          "mentions": 478
+          "mentions": 489
         },
         {
           "slug": "ion_storage_systems",
@@ -118,23 +118,23 @@
         },
         {
           "slug": "ampcera",
-          "mentions": 391
+          "mentions": 398
         },
         {
           "slug": "powerco",
-          "mentions": 350
+          "mentions": 359
         },
         {
           "slug": "doe_lpo",
-          "mentions": 239
+          "mentions": 247
         },
         {
           "slug": "factorial",
-          "mentions": 228
+          "mentions": 235
         },
         {
           "slug": "mitsui_mining_smelting",
-          "mentions": 84
+          "mentions": 86
         },
         {
           "slug": "rte",
@@ -146,11 +146,11 @@
         },
         {
           "slug": "volkswagen_group",
-          "mentions": 17
+          "mentions": 18
         },
         {
           "slug": "southern_company",
-          "mentions": 16
+          "mentions": 17
         },
         {
           "slug": "factorial_energy",
@@ -178,11 +178,11 @@
     },
     {
       "url": "https://eng.skinnovation.com/ir/audit_reports.aspx",
-      "last_ingested_at": "2026-07-13 12:00:10"
+      "last_ingested_at": "2026-07-14 18:00:10"
     },
     {
       "url": "https://global.toyota/en/newsroom/corporate/39865919.html",
-      "last_ingested_at": "2026-07-13 12:00:12"
+      "last_ingested_at": "2026-07-14 18:00:11"
     },
     {
       "url": "https://group.mercedes-benz.com/innovation/product-innovation/technology/solid-state-battery-test.html",
@@ -190,11 +190,11 @@
     },
     {
       "url": "https://group.mercedes-benz.com/technology/e-mobility/electric-drive/eqs-solid-state-battery.html",
-      "last_ingested_at": "2026-07-14 06:00:02"
+      "last_ingested_at": "2026-07-15 12:00:02"
     },
     {
       "url": "https://ir.quantumscape.com/sec-filings",
-      "last_ingested_at": "2026-07-13 12:00:08"
+      "last_ingested_at": "2026-07-14 18:00:07"
     },
     {
       "url": "https://news.metal.com/newscontent/103751094-Idemitsu-Kosan-Launches-Sulfide-Solid-State-Battery-Pilot-Plant-Aiming-for-Toyota-Mass-Production-in-2027",
@@ -202,19 +202,19 @@
     },
     {
       "url": "https://prologium.com/prologium-breaks-ground-on-dunkirk-gigafactory-in-france/",
-      "last_ingested_at": "2026-07-13 12:00:08"
+      "last_ingested_at": "2026-07-14 18:00:07"
     },
     {
       "url": "https://www.ampcera.com/",
-      "last_ingested_at": "2026-07-13 12:00:02"
+      "last_ingested_at": "2026-07-14 18:00:02"
     },
     {
       "url": "https://www.energy.gov/lpo/loan-programs-office",
-      "last_ingested_at": "2026-07-13 12:00:04"
+      "last_ingested_at": "2026-07-14 18:00:02"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2024/250227_en.pdf",
-      "last_ingested_at": "2026-07-14 06:00:03"
+      "last_ingested_at": "2026-07-15 12:00:03"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2025/260129_en.pdf",
@@ -222,7 +222,7 @@
     },
     {
       "url": "https://www.mitsui-kinzoku.co.jp/mlab/en/attempt/asolid/",
-      "last_ingested_at": "2026-07-13 12:00:05"
+      "last_ingested_at": "2026-07-14 18:00:03"
     },
     {
       "url": "https://www.mitsui-kinzoku.com/en/business/functional-materials/a-solid",
@@ -234,19 +234,19 @@
     },
     {
       "url": "https://www.quantumscape.com/quantumscape-and-powerco-expand-collaboration-to-accelerate-solid-state-battery-technology-commercialization/",
-      "last_ingested_at": "2026-07-13 12:00:08"
+      "last_ingested_at": "2026-07-14 18:00:07"
     },
     {
       "url": "https://www.quantumscape.com/quantumscape-inaugurates-eagle-line-for-solid-state-battery-pilot-production/",
-      "last_ingested_at": "2026-07-13 12:00:08"
+      "last_ingested_at": "2026-07-14 18:00:07"
     },
     {
       "url": "https://www.samsungsdi.com/sustainable-management/sustainability-information/sustainability-reports.html",
-      "last_ingested_at": "2026-07-13 12:00:09"
+      "last_ingested_at": "2026-07-14 18:00:08"
     },
     {
       "url": "https://www.volkswagen-group.com/en/press-releases/powerco-confirms-results-quantumscapes-solid-state-cell-passes-first-endurance-test-18031",
-      "last_ingested_at": "2026-07-13 12:00:07"
+      "last_ingested_at": "2026-07-14 18:00:05"
     }
   ]
 }
