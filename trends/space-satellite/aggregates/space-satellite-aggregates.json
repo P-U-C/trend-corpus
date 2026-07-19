@@ -1,46 +1,46 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-18T13:35:01Z",
+  "generated_at": "2026-07-19T13:35:01Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 6656,
+  "underlying_claim_count": 6681,
   "underlying_source_count": 15,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 358,
+      "claims_total": 343,
       "claims_by_category": {
-        "corporate": 220,
+        "corporate": 210,
         "market": 24,
-        "manufacturing": 59,
-        "regulatory": 31,
-        "research": 22,
+        "manufacturing": 57,
+        "regulatory": 30,
+        "research": 20,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 198
+          "mentions": 190
         },
         {
           "slug": "sda",
-          "mentions": 193
+          "mentions": 184
         },
         {
           "slug": "nasa",
-          "mentions": 135
+          "mentions": 129
         },
         {
           "slug": "dod",
-          "mentions": 63
+          "mentions": 60
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 9
+          "mentions": 8
         },
         {
           "slug": "rocket_lab_national_security",
@@ -49,13 +49,13 @@
       ]
     },
     "90d": {
-      "claims_total": 2534,
+      "claims_total": 2554,
       "claims_by_category": {
-        "corporate": 1395,
-        "market": 212,
-        "manufacturing": 615,
-        "regulatory": 119,
-        "research": 153,
+        "corporate": 1401,
+        "market": 215,
+        "manufacturing": 621,
+        "regulatory": 121,
+        "research": 156,
         "supply": 40
       },
       "top_entities": [
@@ -65,7 +65,7 @@
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 901
+          "mentions": 921
         },
         {
           "slug": "sda",
@@ -77,15 +77,15 @@
         },
         {
           "slug": "dod",
-          "mentions": 202
+          "mentions": 203
         },
         {
           "slug": "spacex",
-          "mentions": 146
+          "mentions": 148
         },
         {
           "slug": "fcc",
-          "mentions": 63
+          "mentions": 65
         },
         {
           "slug": "blue_origin",
@@ -130,13 +130,13 @@
       ]
     },
     "365d": {
-      "claims_total": 6233,
+      "claims_total": 6258,
       "claims_by_category": {
-        "corporate": 3865,
-        "market": 670,
-        "manufacturing": 1006,
-        "regulatory": 119,
-        "research": 499,
+        "corporate": 3876,
+        "market": 673,
+        "manufacturing": 1012,
+        "regulatory": 121,
+        "research": 502,
         "supply": 74
       },
       "top_entities": [
@@ -146,7 +146,7 @@
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 1103
+          "mentions": 1128
         },
         {
           "slug": "nasa",
@@ -174,15 +174,15 @@
         },
         {
           "slug": "dod",
-          "mentions": 351
+          "mentions": 352
         },
         {
           "slug": "spacex",
-          "mentions": 146
+          "mentions": 148
         },
         {
           "slug": "fcc",
-          "mentions": 63
+          "mentions": 65
         },
         {
           "slug": "blue_origin",
@@ -226,7 +226,7 @@
   "source_freshness": [
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-07-17 12:00:02"
+      "last_ingested_at": "2026-07-18 18:00:02"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
@@ -266,7 +266,7 @@
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-07-18 12:00:01"
+      "last_ingested_at": "2026-07-19 12:00:01"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
