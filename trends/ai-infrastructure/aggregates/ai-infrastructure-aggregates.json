@@ -1,39 +1,39 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-18T13:30:01Z",
+  "generated_at": "2026-07-19T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2169,
+  "underlying_claim_count": 2187,
   "underlying_source_count": 11,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 438,
+      "claims_total": 425,
       "claims_by_category": {
-        "regulatory": 66,
-        "corporate": 190,
-        "market": 182
+        "regulatory": 63,
+        "corporate": 188,
+        "market": 174
       },
       "top_entities": [
         {
-          "slug": "taiwan_semiconductor",
-          "mentions": 150
+          "slug": "doc",
+          "mentions": 142
         },
         {
-          "slug": "doc",
-          "mentions": 148
+          "slug": "taiwan_semiconductor",
+          "mentions": 142
         },
         {
           "slug": "astera_labs",
-          "mentions": 99
+          "mentions": 100
         },
         {
           "slug": "nist",
-          "mentions": 32
+          "mentions": 30
         },
         {
           "slug": "broadcom",
@@ -41,19 +41,19 @@
         },
         {
           "slug": "coherent",
-          "mentions": 23
+          "mentions": 22
         },
         {
           "slug": "sandboxaq",
-          "mentions": 19
-        },
-        {
-          "slug": "powerex",
-          "mentions": 17
+          "mentions": 18
         },
         {
           "slug": "openai",
           "mentions": 17
+        },
+        {
+          "slug": "powerex",
+          "mentions": 16
         },
         {
           "slug": "i-pulse",
@@ -98,16 +98,16 @@
       ]
     },
     "90d": {
-      "claims_total": 1070,
+      "claims_total": 1077,
       "claims_by_category": {
         "regulatory": 176,
-        "corporate": 494,
-        "market": 400
+        "corporate": 499,
+        "market": 402
       },
       "top_entities": [
         {
           "slug": "astera_labs",
-          "mentions": 301
+          "mentions": 308
         },
         {
           "slug": "doc",
@@ -188,18 +188,18 @@
       ]
     },
     "365d": {
-      "claims_total": 1280,
+      "claims_total": 1287,
       "claims_by_category": {
         "regulatory": 186,
-        "corporate": 553,
-        "market": 443,
+        "corporate": 558,
+        "market": 445,
         "manufacturing": 51,
         "supply": 47
       },
       "top_entities": [
         {
           "slug": "astera_labs",
-          "mentions": 301
+          "mentions": 308
         },
         {
           "slug": "taiwan_semiconductor",
@@ -299,11 +299,11 @@
     },
     {
       "url": "https://ir.amd.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-07-18 12:00:01"
+      "last_ingested_at": "2026-07-19 12:00:02"
     },
     {
       "url": "https://ir.asteralabs.com/",
-      "last_ingested_at": "2026-07-17 12:00:02"
+      "last_ingested_at": "2026-07-18 18:00:03"
     },
     {
       "url": "https://semianalysis.com/tag/ai-infrastructure/",
@@ -315,11 +315,11 @@
     },
     {
       "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
-      "last_ingested_at": "2026-07-18 00:00:02"
+      "last_ingested_at": "2026-07-19 06:00:02"
     },
     {
       "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing-and",
-      "last_ingested_at": "2026-07-18 06:00:02"
+      "last_ingested_at": "2026-07-19 12:00:03"
     },
     {
       "url": "https://www.nist.gov/chips",
