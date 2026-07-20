@@ -1,35 +1,35 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-19T13:30:01Z",
+  "generated_at": "2026-07-20T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2187,
+  "underlying_claim_count": 2227,
   "underlying_source_count": 11,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
       "claims_total": 425,
       "claims_by_category": {
-        "regulatory": 63,
-        "corporate": 188,
-        "market": 174
+        "corporate": 190,
+        "market": 173,
+        "regulatory": 62
       },
       "top_entities": [
-        {
-          "slug": "doc",
-          "mentions": 142
-        },
         {
           "slug": "taiwan_semiconductor",
           "mentions": 142
         },
         {
+          "slug": "doc",
+          "mentions": 139
+        },
+        {
           "slug": "astera_labs",
-          "mentions": 100
+          "mentions": 101
         },
         {
           "slug": "nist",
@@ -37,23 +37,23 @@
         },
         {
           "slug": "broadcom",
-          "mentions": 24
+          "mentions": 25
         },
         {
           "slug": "coherent",
-          "mentions": 22
-        },
-        {
-          "slug": "sandboxaq",
-          "mentions": 18
+          "mentions": 21
         },
         {
           "slug": "openai",
+          "mentions": 18
+        },
+        {
+          "slug": "sandboxaq",
           "mentions": 17
         },
         {
           "slug": "powerex",
-          "mentions": 16
+          "mentions": 15
         },
         {
           "slug": "i-pulse",
@@ -68,24 +68,24 @@
           "mentions": 5
         },
         {
+          "slug": "marvell",
+          "mentions": 4
+        },
+        {
           "slug": "semianalysis",
           "mentions": 4
         },
         {
-          "slug": "marvell",
+          "slug": "standard_chartered",
           "mentions": 3
+        },
+        {
+          "slug": "celestial_ai",
+          "mentions": 2
         },
         {
           "slug": "bosch",
           "mentions": 2
-        },
-        {
-          "slug": "standard_chartered",
-          "mentions": 2
-        },
-        {
-          "slug": "celestial_ai",
-          "mentions": 1
         },
         {
           "slug": "nvidia",
@@ -98,20 +98,20 @@
       ]
     },
     "90d": {
-      "claims_total": 1077,
+      "claims_total": 1092,
       "claims_by_category": {
-        "regulatory": 176,
-        "corporate": 499,
-        "market": 402
+        "corporate": 511,
+        "market": 403,
+        "regulatory": 178
       },
       "top_entities": [
         {
           "slug": "astera_labs",
-          "mentions": 308
+          "mentions": 315
         },
         {
           "slug": "doc",
-          "mentions": 280
+          "mentions": 283
         },
         {
           "slug": "taiwan_semiconductor",
@@ -119,7 +119,7 @@
         },
         {
           "slug": "broadcom",
-          "mentions": 208
+          "mentions": 212
         },
         {
           "slug": "nist",
@@ -135,7 +135,7 @@
         },
         {
           "slug": "marvell",
-          "mentions": 22
+          "mentions": 23
         },
         {
           "slug": "sandboxaq",
@@ -143,7 +143,7 @@
         },
         {
           "slug": "openai",
-          "mentions": 17
+          "mentions": 18
         },
         {
           "slug": "apollo",
@@ -178,48 +178,48 @@
           "mentions": 6
         },
         {
-          "slug": "semianalysis",
+          "slug": "celestial_ai",
           "mentions": 5
         },
         {
-          "slug": "i_pulse",
+          "slug": "semianalysis",
           "mentions": 5
         }
       ]
     },
     "365d": {
-      "claims_total": 1287,
+      "claims_total": 1307,
       "claims_by_category": {
-        "regulatory": 186,
-        "corporate": 558,
-        "market": 445,
-        "manufacturing": 51,
-        "supply": 47
+        "corporate": 571,
+        "market": 446,
+        "regulatory": 190,
+        "manufacturing": 52,
+        "supply": 48
       },
       "top_entities": [
         {
           "slug": "astera_labs",
-          "mentions": 308
+          "mentions": 315
         },
         {
           "slug": "taiwan_semiconductor",
-          "mentions": 289
+          "mentions": 291
         },
         {
           "slug": "doc",
-          "mentions": 280
+          "mentions": 283
         },
         {
           "slug": "broadcom",
-          "mentions": 210
+          "mentions": 214
         },
         {
           "slug": "huawei",
-          "mentions": 85
+          "mentions": 87
         },
         {
           "slug": "marvell",
-          "mentions": 75
+          "mentions": 76
         },
         {
           "slug": "nist",
@@ -227,18 +227,18 @@
         },
         {
           "slug": "celestial_ai",
-          "mentions": 49
+          "mentions": 50
         },
         {
           "slug": "samsung",
           "mentions": 33
         },
         {
-          "slug": "powerex",
-          "mentions": 26
+          "slug": "nvidia",
+          "mentions": 27
         },
         {
-          "slug": "nvidia",
+          "slug": "powerex",
           "mentions": 26
         },
         {
@@ -267,11 +267,11 @@
         },
         {
           "slug": "openai",
-          "mentions": 17
+          "mentions": 18
         },
         {
           "slug": "bis",
-          "mentions": 12
+          "mentions": 13
         },
         {
           "slug": "apollo",
@@ -283,19 +283,19 @@
   "source_freshness": [
     {
       "url": "https://investor.marvell.com/financial-information/financial-results",
-      "last_ingested_at": "2026-07-18 12:00:03"
+      "last_ingested_at": "2026-07-19 18:00:03"
     },
     {
       "url": "https://investor.tsmc.com/english/quarterly-results",
-      "last_ingested_at": "2026-07-18 12:00:04"
+      "last_ingested_at": "2026-07-19 18:00:03"
     },
     {
       "url": "https://investors.broadcom.com/",
-      "last_ingested_at": "2026-07-18 12:00:02"
+      "last_ingested_at": "2026-07-19 18:00:02"
     },
     {
       "url": "https://investors.delltechnologies.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-07-18 12:00:03"
+      "last_ingested_at": "2026-07-19 18:00:02"
     },
     {
       "url": "https://ir.amd.com/financial-information/quarterly-results",
@@ -303,19 +303,19 @@
     },
     {
       "url": "https://ir.asteralabs.com/",
-      "last_ingested_at": "2026-07-18 18:00:03"
+      "last_ingested_at": "2026-07-20 00:00:02"
     },
     {
       "url": "https://semianalysis.com/tag/ai-infrastructure/",
-      "last_ingested_at": "2026-07-18 12:00:04"
+      "last_ingested_at": "2026-07-19 18:00:03"
     },
     {
       "url": "https://spectrum.ieee.org/tag/data-centers",
-      "last_ingested_at": "2026-07-18 12:00:03"
+      "last_ingested_at": "2026-07-19 18:00:02"
     },
     {
       "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
-      "last_ingested_at": "2026-07-19 06:00:02"
+      "last_ingested_at": "2026-07-20 12:00:02"
     },
     {
       "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing-and",
@@ -323,7 +323,7 @@
     },
     {
       "url": "https://www.nist.gov/chips",
-      "last_ingested_at": "2026-07-18 12:00:02"
+      "last_ingested_at": "2026-07-19 18:00:02"
     }
   ]
 }
