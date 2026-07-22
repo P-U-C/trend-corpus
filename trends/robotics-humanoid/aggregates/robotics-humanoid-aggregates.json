@@ -1,29 +1,29 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-21T13:33:01Z",
+  "generated_at": "2026-07-22T13:33:01Z",
   "theme_id": "robotics-humanoid",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 3609,
+  "underlying_claim_count": 3679,
   "underlying_source_count": 15,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 525,
+      "claims_total": 538,
       "claims_by_category": {
-        "regulatory": 293,
-        "corporate": 119,
-        "manufacturing": 50,
-        "research": 38,
-        "market": 25
+        "regulatory": 294,
+        "manufacturing": 53,
+        "corporate": 125,
+        "research": 39,
+        "market": 27
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 231
+          "mentions": 241
         },
         {
           "slug": "iso",
@@ -31,27 +31,27 @@
         },
         {
           "slug": "osha",
-          "mentions": 95
+          "mentions": 92
         },
         {
           "slug": "ria",
-          "mentions": 87
+          "mentions": 91
         },
         {
           "slug": "ansi",
-          "mentions": 39
-        },
-        {
-          "slug": "csa",
-          "mentions": 19
+          "mentions": 41
         },
         {
           "slug": "harmonic_drive_systems",
-          "mentions": 18
+          "mentions": 21
+        },
+        {
+          "slug": "csa",
+          "mentions": 20
         },
         {
           "slug": "ul",
-          "mentions": 17
+          "mentions": 18
         },
         {
           "slug": "figure",
@@ -59,7 +59,7 @@
         },
         {
           "slug": "harmonic_drive_se",
-          "mentions": 9
+          "mentions": 11
         },
         {
           "slug": "c_walton_musser",
@@ -75,7 +75,7 @@
         },
         {
           "slug": "abb",
-          "mentions": 3
+          "mentions": 5
         },
         {
           "slug": "aws",
@@ -88,50 +88,50 @@
       ]
     },
     "90d": {
-      "claims_total": 1140,
+      "claims_total": 1155,
       "claims_by_category": {
-        "regulatory": 602,
+        "regulatory": 611,
+        "manufacturing": 121,
         "corporate": 253,
-        "manufacturing": 118,
-        "research": 101,
-        "market": 66
+        "research": 102,
+        "market": 68
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 491
+          "mentions": 501
         },
         {
           "slug": "iso",
-          "mentions": 411
+          "mentions": 417
         },
         {
           "slug": "osha",
-          "mentions": 197
+          "mentions": 200
         },
         {
           "slug": "ria",
-          "mentions": 173
+          "mentions": 177
         },
         {
           "slug": "ansi",
-          "mentions": 82
+          "mentions": 84
         },
         {
           "slug": "harmonic_drive_systems",
-          "mentions": 48
+          "mentions": 51
         },
         {
           "slug": "csa",
-          "mentions": 39
+          "mentions": 40
         },
         {
           "slug": "ul",
-          "mentions": 34
+          "mentions": 35
         },
         {
           "slug": "harmonic_drive_se",
-          "mentions": 25
+          "mentions": 27
         },
         {
           "slug": "figure",
@@ -148,10 +148,6 @@
         {
           "slug": "hasegawa_gear_works",
           "mentions": 12
-        },
-        {
-          "slug": "abb",
-          "mentions": 10
         },
         {
           "slug": "nasa",
@@ -174,56 +170,60 @@
           "mentions": 7
         },
         {
+          "slug": "abb",
+          "mentions": 6
+        },
+        {
           "slug": "agilink",
           "mentions": 6
         }
       ]
     },
     "365d": {
-      "claims_total": 1173,
+      "claims_total": 1195,
       "claims_by_category": {
-        "regulatory": 602,
-        "corporate": 253,
-        "manufacturing": 135,
-        "research": 111,
-        "market": 72
+        "regulatory": 612,
+        "manufacturing": 138,
+        "corporate": 259,
+        "research": 112,
+        "market": 74
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 491
+          "mentions": 501
         },
         {
           "slug": "iso",
-          "mentions": 411
+          "mentions": 417
         },
         {
           "slug": "osha",
-          "mentions": 197
+          "mentions": 200
         },
         {
           "slug": "ria",
-          "mentions": 173
+          "mentions": 177
         },
         {
           "slug": "ansi",
-          "mentions": 82
+          "mentions": 84
         },
         {
           "slug": "harmonic_drive_systems",
-          "mentions": 48
+          "mentions": 51
         },
         {
           "slug": "csa",
-          "mentions": 39
+          "mentions": 40
         },
         {
           "slug": "ul",
-          "mentions": 34
+          "mentions": 35
         },
         {
           "slug": "harmonic_drive_se",
-          "mentions": 25
+          "mentions": 27
         },
         {
           "slug": "figure",
@@ -250,12 +250,12 @@
           "mentions": 12
         },
         {
-          "slug": "jpl",
-          "mentions": 11
+          "slug": "abb",
+          "mentions": 12
         },
         {
-          "slug": "abb",
-          "mentions": 10
+          "slug": "jpl",
+          "mentions": 11
         },
         {
           "slug": "hugging_face",
@@ -275,63 +275,63 @@
   "source_freshness": [
     {
       "url": "https://apptronik.com/news-collection/apptronik-and-mercedes-benz-enter-commercial-agreement?_bhlid=8245ad561302e835048adab5d90101ee99733e77",
-      "last_ingested_at": "2026-07-21 06:00:03"
+      "last_ingested_at": "2026-07-22 12:00:02"
     },
     {
       "url": "https://global.abb/group/en/investors/quarterly-results",
-      "last_ingested_at": "2026-07-21 06:00:03"
+      "last_ingested_at": "2026-07-22 12:00:02"
     },
     {
       "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-preliminary-fourth-quarter-and-full-year-5",
-      "last_ingested_at": "2026-07-21 00:00:31"
+      "last_ingested_at": "2026-07-22 06:00:31"
     },
     {
       "url": "https://investors.teradyne.com/financial-results",
-      "last_ingested_at": "2026-07-21 00:01:32"
+      "last_ingested_at": "2026-07-22 06:01:32"
     },
     {
       "url": "https://ir.symbotic.com/investor-relations",
-      "last_ingested_at": "2026-07-21 00:01:32"
+      "last_ingested_at": "2026-07-22 06:01:32"
     },
     {
       "url": "https://ir.tesla.com/#quarterly-disclosure",
-      "last_ingested_at": "2026-07-21 00:01:32"
+      "last_ingested_at": "2026-07-22 06:01:32"
     },
     {
       "url": "https://serverobotics.gcs-web.com/",
-      "last_ingested_at": "2026-07-21 00:01:02"
+      "last_ingested_at": "2026-07-22 06:01:02"
     },
     {
       "url": "https://spectrum.ieee.org/topic/robotics/",
-      "last_ingested_at": "2026-07-21 06:00:04"
+      "last_ingested_at": "2026-07-22 12:00:03"
     },
     {
       "url": "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf",
-      "last_ingested_at": "2026-07-21 06:00:03"
+      "last_ingested_at": "2026-07-22 12:00:02"
     },
     {
       "url": "https://www.harmonicdrive.net/about-us",
-      "last_ingested_at": "2026-07-21 06:00:04"
+      "last_ingested_at": "2026-07-22 12:00:03"
     },
     {
       "url": "https://www.iso.org/standard/73933.html",
-      "last_ingested_at": "2026-07-21 00:00:31"
+      "last_ingested_at": "2026-07-22 06:00:31"
     },
     {
       "url": "https://www.osha.gov/robotics/standards",
-      "last_ingested_at": "2026-07-21 00:00:32"
+      "last_ingested_at": "2026-07-22 06:00:32"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-announces-commercial-agreement-with-bmw-manufacturing-to-bring-general-purpose-robots-into-automotive-production-302036263.html",
-      "last_ingested_at": "2026-07-21 06:00:03"
+      "last_ingested_at": "2026-07-22 12:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
-      "last_ingested_at": "2026-07-21 06:00:03"
+      "last_ingested_at": "2026-07-22 12:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
-      "last_ingested_at": "2026-07-21 06:00:03"
+      "last_ingested_at": "2026-07-22 12:00:02"
     }
   ]
 }
