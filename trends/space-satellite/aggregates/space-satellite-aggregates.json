@@ -1,42 +1,42 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-23T13:35:01Z",
+  "generated_at": "2026-07-24T13:35:01Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 7233,
+  "underlying_claim_count": 7253,
   "underlying_source_count": 15,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 357,
+      "claims_total": 341,
       "claims_by_category": {
-        "regulatory": 33,
-        "corporate": 217,
-        "manufacturing": 61,
-        "market": 25,
+        "regulatory": 32,
+        "corporate": 208,
+        "manufacturing": 59,
+        "market": 24,
         "supply": 3,
-        "research": 18
+        "research": 15
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 199
+          "mentions": 191
         },
         {
           "slug": "sda",
-          "mentions": 192
+          "mentions": 184
         },
         {
           "slug": "nasa",
-          "mentions": 133
+          "mentions": 126
         },
         {
           "slug": "dod",
-          "mentions": 62
+          "mentions": 58
         },
         {
           "slug": "intuitive_machines",
@@ -53,14 +53,14 @@
       ]
     },
     "90d": {
-      "claims_total": 2763,
+      "claims_total": 2780,
       "claims_by_category": {
-        "regulatory": 131,
-        "corporate": 1527,
-        "manufacturing": 667,
-        "market": 230,
+        "regulatory": 133,
+        "corporate": 1531,
+        "manufacturing": 672,
+        "market": 233,
         "supply": 44,
-        "research": 164
+        "research": 167
       },
       "top_entities": [
         {
@@ -69,7 +69,7 @@
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 974
+          "mentions": 991
         },
         {
           "slug": "sda",
@@ -85,11 +85,11 @@
         },
         {
           "slug": "spacex",
-          "mentions": 158
+          "mentions": 160
         },
         {
           "slug": "fcc",
-          "mentions": 69
+          "mentions": 71
         },
         {
           "slug": "blue_origin",
@@ -134,14 +134,14 @@
       ]
     },
     "365d": {
-      "claims_total": 6774,
+      "claims_total": 6794,
       "claims_by_category": {
-        "regulatory": 131,
-        "corporate": 4206,
-        "manufacturing": 1092,
-        "market": 720,
+        "regulatory": 133,
+        "corporate": 4213,
+        "manufacturing": 1097,
+        "market": 723,
         "supply": 83,
-        "research": 542
+        "research": 545
       },
       "top_entities": [
         {
@@ -150,7 +150,7 @@
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 1193
+          "mentions": 1213
         },
         {
           "slug": "nasa",
@@ -182,11 +182,11 @@
         },
         {
           "slug": "spacex",
-          "mentions": 158
+          "mentions": 160
         },
         {
           "slug": "fcc",
-          "mentions": 69
+          "mentions": 71
         },
         {
           "slug": "blue_origin",
@@ -230,11 +230,11 @@
   "source_freshness": [
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-07-22 12:00:02"
+      "last_ingested_at": "2026-07-23 18:00:02"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
-      "last_ingested_at": "2026-07-23 06:00:03"
+      "last_ingested_at": "2026-07-24 12:00:03"
     },
     {
       "url": "https://investor.iridium.com/2024-09-25-Iridium-Accelerates-Direct-to-Device-Service-with-Acceptance-into-3GPP-Standards-Announces-Iridium-NTN-Direct?asPDF=1",
@@ -270,7 +270,7 @@
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-07-22 18:00:01"
+      "last_ingested_at": "2026-07-23 18:00:01"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
