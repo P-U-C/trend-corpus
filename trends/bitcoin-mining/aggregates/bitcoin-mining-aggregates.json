@@ -1,69 +1,69 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-25T13:36:01Z",
+  "generated_at": "2026-07-26T13:36:01Z",
   "theme_id": "bitcoin-mining",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 8864,
+  "underlying_claim_count": 8972,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 755,
+      "claims_total": 761,
       "claims_by_category": {
-        "market": 308,
-        "regulatory": 441,
+        "regulatory": 459,
+        "market": 296,
         "corporate": 4,
         "pricing": 2
       },
       "top_entities": [
         {
           "slug": "texas_puc",
-          "mentions": 374
+          "mentions": 393
         },
         {
           "slug": "ercot",
-          "mentions": 312
+          "mentions": 325
         },
         {
           "slug": "luxor",
-          "mentions": 156
+          "mentions": 150
         },
         {
           "slug": "nysdec",
-          "mentions": 60
+          "mentions": 59
         }
       ]
     },
     "90d": {
-      "claims_total": 4025,
+      "claims_total": 4094,
       "claims_by_category": {
-        "market": 1136,
-        "regulatory": 1048,
-        "corporate": 1580,
-        "pricing": 188,
-        "manufacturing": 51,
-        "supply": 22
+        "regulatory": 1069,
+        "market": 1146,
+        "corporate": 1611,
+        "pricing": 193,
+        "manufacturing": 52,
+        "supply": 23
       },
       "top_entities": [
         {
           "slug": "mara",
-          "mentions": 1179
+          "mentions": 1212
         },
         {
           "slug": "texas_puc",
-          "mentions": 845
+          "mentions": 864
         },
         {
           "slug": "riot",
-          "mentions": 815
+          "mentions": 831
         },
         {
           "slug": "ercot",
-          "mentions": 754
+          "mentions": 769
         },
         {
           "slug": "hut8",
@@ -75,7 +75,7 @@
         },
         {
           "slug": "nysdec",
-          "mentions": 126
+          "mentions": 127
         },
         {
           "slug": "fluidstack",
@@ -112,19 +112,19 @@
       ]
     },
     "365d": {
-      "claims_total": 7899,
+      "claims_total": 7994,
       "claims_by_category": {
-        "market": 1724,
-        "regulatory": 1090,
-        "corporate": 4509,
-        "pricing": 292,
-        "manufacturing": 253,
-        "supply": 31
+        "regulatory": 1112,
+        "market": 1738,
+        "corporate": 4557,
+        "pricing": 298,
+        "manufacturing": 257,
+        "supply": 32
       },
       "top_entities": [
         {
           "slug": "mara",
-          "mentions": 2071
+          "mentions": 2109
         },
         {
           "slug": "hive",
@@ -136,19 +136,19 @@
         },
         {
           "slug": "riot",
-          "mentions": 956
+          "mentions": 976
         },
         {
           "slug": "texas_puc",
-          "mentions": 845
+          "mentions": 864
         },
         {
           "slug": "ercot",
-          "mentions": 754
+          "mentions": 769
         },
         {
           "slug": "canaan",
-          "mentions": 501
+          "mentions": 517
         },
         {
           "slug": "hut8",
@@ -160,7 +160,7 @@
         },
         {
           "slug": "nysdec",
-          "mentions": 157
+          "mentions": 159
         },
         {
           "slug": "fluidstack",
@@ -168,11 +168,11 @@
         },
         {
           "slug": "cipher_mining",
-          "mentions": 44
+          "mentions": 45
         },
         {
           "slug": "cleanspark",
-          "mentions": 44
+          "mentions": 45
         },
         {
           "slug": "amd",
@@ -208,19 +208,19 @@
   "source_freshness": [
     {
       "url": "https://bit-digital.com/press-releases/bit-digital-inc-announces-first-quarter-2026-financial-results/",
-      "last_ingested_at": "2026-07-25 06:00:02"
+      "last_ingested_at": "2026-07-26 12:00:02"
     },
     {
       "url": "https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-reports-unaudited-second-quarter-2025-financial",
-      "last_ingested_at": "2026-07-25 00:00:02"
+      "last_ingested_at": "2026-07-26 06:00:02"
     },
     {
       "url": "https://capitol.texas.gov/billlookup/BillSummary.aspx?Bill=SB6&LegSess=89R",
-      "last_ingested_at": "2026-07-24 18:00:02"
+      "last_ingested_at": "2026-07-26 00:00:03"
     },
     {
       "url": "https://dec.ny.gov/environmental-protection/climate-change/statutes-regulations-policies",
-      "last_ingested_at": "2026-07-24 12:00:02"
+      "last_ingested_at": "2026-07-25 18:00:02"
     },
     {
       "url": "https://docs.luxor.tech/hashrateindex/hashprice",
@@ -228,11 +228,11 @@
     },
     {
       "url": "https://investors.corescientific.com/financial-information/financial-results",
-      "last_ingested_at": "2026-07-25 00:00:03"
+      "last_ingested_at": "2026-07-26 06:00:03"
     },
     {
       "url": "https://ir.mara.com/sec-filings/all-sec-filings/content/0001507605-26-000014/q126shareholderletter.htm",
-      "last_ingested_at": "2026-07-24 12:00:02"
+      "last_ingested_at": "2026-07-25 18:00:02"
     },
     {
       "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q2-fy26-results",
@@ -240,11 +240,11 @@
     },
     {
       "url": "https://support.bitmain.com/hc/en-us/articles/38059223529241-Antminer-S21-XP",
-      "last_ingested_at": "2026-07-25 06:00:02"
+      "last_ingested_at": "2026-07-26 12:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/04/30/3285410/0/en/Riot-Platforms-Reports-First-Quarter-2026-Financial-Results-and-Strategic-Highlights.html",
-      "last_ingested_at": "2026-07-24 12:00:32"
+      "last_ingested_at": "2026-07-25 18:00:04"
     },
     {
       "url": "https://www.hivedigitaltechnologies.com/news/hive-delivers-record-q3-revenue-of-931-million-with-321-million-gross-operating-margin-up-over-6x-year-over-year/",
@@ -260,7 +260,7 @@
     },
     {
       "url": "https://www.puc.texas.gov/industry/electric/business/vcm/Default.aspx",
-      "last_ingested_at": "2026-07-24 18:00:02"
+      "last_ingested_at": "2026-07-26 00:00:02"
     }
   ]
 }
