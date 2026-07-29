@@ -1,13 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-28T13:41:01Z",
+  "generated_at": "2026-07-29T13:41:01Z",
   "theme_id": "photonic-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 4643,
+  "underlying_claim_count": 4713,
   "underlying_source_count": 25,
   "min_count_threshold": 1,
   "windows": {
@@ -29,21 +29,21 @@
       ]
     },
     "90d": {
-      "claims_total": 855,
+      "claims_total": 867,
       "claims_by_category": {
-        "corporate": 563,
-        "manufacturing": 72,
-        "market": 219,
+        "corporate": 570,
+        "manufacturing": 73,
+        "market": 223,
         "supply": 1
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 449
+          "mentions": 456
         },
         {
           "slug": "applied_optoelectronics",
-          "mentions": 321
+          "mentions": 326
         },
         {
           "slug": "lumentum",
@@ -51,7 +51,7 @@
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 72
+          "mentions": 73
         },
         {
           "slug": "marvell",
@@ -72,54 +72,54 @@
       ]
     },
     "365d": {
-      "claims_total": 3684,
+      "claims_total": 3737,
       "claims_by_category": {
-        "corporate": 2153,
-        "manufacturing": 451,
-        "market": 599,
-        "supply": 125,
-        "research": 356
+        "corporate": 2184,
+        "manufacturing": 457,
+        "market": 609,
+        "supply": 127,
+        "research": 360
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 928
+          "mentions": 944
         },
         {
           "slug": "marvell",
-          "mentions": 905
+          "mentions": 921
         },
         {
           "slug": "aeluma",
-          "mentions": 607
+          "mentions": 616
         },
         {
           "slug": "celestial_ai",
-          "mentions": 559
+          "mentions": 569
         },
         {
           "slug": "tower_semiconductor",
-          "mentions": 525
+          "mentions": 527
         },
         {
           "slug": "polariton_technologies",
-          "mentions": 423
+          "mentions": 431
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 371
+          "mentions": 378
+        },
+        {
+          "slug": "applied_optoelectronics",
+          "mentions": 326
         },
         {
           "slug": "salience_labs",
           "mentions": 324
         },
         {
-          "slug": "applied_optoelectronics",
-          "mentions": 321
-        },
-        {
           "slug": "lumentum",
-          "mentions": 215
+          "mentions": 218
         },
         {
           "slug": "stmicroelectronics",
@@ -167,7 +167,7 @@
   "source_freshness": [
     {
       "url": "https://247wallst.com/investing/2026/05/11/applied-optoelectronics-rips-24-lumentum-jumps-17-coherent-rallies-13-as-optics-trade-catches-fire/",
-      "last_ingested_at": "2026-07-28 00:00:02"
+      "last_ingested_at": "2026-07-29 06:00:01"
     },
     {
       "url": "https://ayarlabs.com/news/",
@@ -179,7 +179,7 @@
     },
     {
       "url": "https://investor.marvell.com/news-events/press-releases/detail/1020/marvell-announces-acquisition-of-polariton-technologies-advancing-optical-performance-scaling-to-3-2t-and-beyond",
-      "last_ingested_at": "2026-07-28 06:00:03"
+      "last_ingested_at": "2026-07-29 12:00:02"
     },
     {
       "url": "https://investor.marvell.com/news-releases",
@@ -199,7 +199,7 @@
     },
     {
       "url": "https://investors.broadcom.com/node/64036/pdf",
-      "last_ingested_at": "2026-07-27 18:00:02"
+      "last_ingested_at": "2026-07-29 00:00:01"
     },
     {
       "url": "https://investors.coherent.com/financial-information/sec-filings",
@@ -207,15 +207,15 @@
     },
     {
       "url": "https://investors.gf.com/node/10706/pdf",
-      "last_ingested_at": "2026-07-28 00:00:04"
+      "last_ingested_at": "2026-07-29 06:00:03"
     },
     {
       "url": "https://lightmatter.co/press-release/lightmatter-announces-passage-l200-the-fastest-co-packaged-optics-for-ai/",
-      "last_ingested_at": "2026-07-28 06:00:02"
+      "last_ingested_at": "2026-07-29 12:00:01"
     },
     {
       "url": "https://lightmatter.co/press-release/lightmatter-raises-400m-series-d-quadruples-valuation-to-4-4b-as-photonics-leader-for-next-gen-ai-data-centers/",
-      "last_ingested_at": "2026-07-28 06:00:02"
+      "last_ingested_at": "2026-07-29 12:00:02"
     },
     {
       "url": "https://lightmatter.co/press-releases/",
@@ -227,7 +227,7 @@
     },
     {
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
-      "last_ingested_at": "2026-07-28 06:00:03"
+      "last_ingested_at": "2026-07-29 12:00:03"
     },
     {
       "url": "https://poet-technologies.com/news/",
@@ -235,11 +235,11 @@
     },
     {
       "url": "https://www.aeluma.com/investors/news-events/press-releases/detail/99/aeluma-secures-more-than-4-million-in-contracts-for",
-      "last_ingested_at": "2026-07-28 06:00:01"
+      "last_ingested_at": "2026-07-29 06:00:02"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260303608615/en/",
-      "last_ingested_at": "2026-07-28 06:00:01"
+      "last_ingested_at": "2026-07-29 06:00:02"
     },
     {
       "url": "https://www.celestial.ai/news",
@@ -247,15 +247,15 @@
     },
     {
       "url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/financial-releases/2026/may-6/earnings-release-fy26-q3.pdf",
-      "last_ingested_at": "2026-07-28 00:00:04"
+      "last_ingested_at": "2026-07-29 06:00:02"
     },
     {
       "url": "https://www.macom.com/investors/sec-filings",
-      "last_ingested_at": "2026-07-28 00:00:05"
+      "last_ingested_at": "2026-07-29 06:00:04"
     },
     {
       "url": "https://www.marvell.com/company/newsroom/marvell-completes-acquisition-of-celestial-ai.html",
-      "last_ingested_at": "2026-07-28 00:00:03"
+      "last_ingested_at": "2026-07-29 06:00:02"
     },
     {
       "url": "https://www.nasdaq.com/press-release/salience-labs-and-tower-semiconductor-partner-manufacture-scale-optical-circuit",
