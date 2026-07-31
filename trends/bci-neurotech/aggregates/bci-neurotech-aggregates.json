@@ -1,74 +1,74 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-30T13:37:01Z",
+  "generated_at": "2026-07-31T13:37:01Z",
   "theme_id": "bci-neurotech",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 8544,
+  "underlying_claim_count": 8665,
   "underlying_source_count": 13,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
       "claims_total": 288,
       "claims_by_category": {
-        "corporate": 28,
+        "market": 37,
+        "regulatory": 121,
+        "manufacturing": 32,
         "clinical": 68,
-        "regulatory": 122,
-        "market": 40,
-        "manufacturing": 30
+        "corporate": 30
       },
       "top_entities": [
         {
           "slug": "boston_scientific",
-          "mentions": 192
+          "mentions": 189
         },
         {
           "slug": "fda",
-          "mentions": 95
+          "mentions": 96
         },
         {
           "slug": "paradromics",
-          "mentions": 19
+          "mentions": 20
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 3
+          "mentions": 4
         },
         {
           "slug": "cdrh",
-          "mentions": 1
+          "mentions": 2
         }
       ]
     },
     "90d": {
-      "claims_total": 1323,
+      "claims_total": 1346,
       "claims_by_category": {
-        "corporate": 459,
-        "clinical": 185,
-        "regulatory": 299,
-        "market": 163,
-        "manufacturing": 78,
-        "research": 139
+        "market": 165,
+        "regulatory": 302,
+        "manufacturing": 80,
+        "clinical": 187,
+        "corporate": 470,
+        "research": 142
       },
       "top_entities": [
         {
           "slug": "quantum_si",
-          "mentions": 613
+          "mentions": 626
         },
         {
           "slug": "boston_scientific",
-          "mentions": 455
+          "mentions": 461
         },
         {
           "slug": "fda",
-          "mentions": 236
+          "mentions": 239
         },
         {
           "slug": "paradromics",
-          "mentions": 43
+          "mentions": 44
         },
         {
           "slug": "braingate",
@@ -80,11 +80,11 @@
         },
         {
           "slug": "cdrh",
-          "mentions": 6
+          "mentions": 7
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 3
+          "mentions": 4
         },
         {
           "slug": "cber",
@@ -137,14 +137,14 @@
       ]
     },
     "365d": {
-      "claims_total": 4409,
+      "claims_total": 4412,
       "claims_by_category": {
-        "corporate": 1526,
-        "clinical": 835,
-        "regulatory": 1088,
-        "market": 401,
-        "manufacturing": 169,
-        "research": 390
+        "market": 403,
+        "regulatory": 1051,
+        "manufacturing": 172,
+        "clinical": 843,
+        "corporate": 1546,
+        "research": 397
       },
       "top_entities": [
         {
@@ -153,23 +153,23 @@
         },
         {
           "slug": "fda",
-          "mentions": 987
+          "mentions": 950
         },
         {
           "slug": "livanova",
-          "mentions": 763
+          "mentions": 776
         },
         {
           "slug": "paradromics",
-          "mentions": 729
+          "mentions": 741
         },
         {
           "slug": "quantum_si",
-          "mentions": 670
+          "mentions": 683
         },
         {
           "slug": "boston_scientific",
-          "mentions": 455
+          "mentions": 461
         },
         {
           "slug": "merge_labs",
@@ -181,7 +181,7 @@
         },
         {
           "slug": "cdrh",
-          "mentions": 66
+          "mentions": 70
         },
         {
           "slug": "cms",
@@ -189,23 +189,19 @@
         },
         {
           "slug": "cber",
-          "mentions": 63
+          "mentions": 66
         },
         {
           "slug": "flow_neuroscience",
-          "mentions": 56
-        },
-        {
-          "slug": "setpoint_medical",
-          "mentions": 50
+          "mentions": 57
         },
         {
           "slug": "ceribell",
-          "mentions": 37
+          "mentions": 38
         },
         {
           "slug": "neurolief",
-          "mentions": 37
+          "mentions": 38
         },
         {
           "slug": "braingate",
@@ -213,7 +209,7 @@
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 7
+          "mentions": 8
         },
         {
           "slug": "neuro_event_labs",
@@ -226,6 +222,10 @@
         {
           "slug": "michael_j_fox_foundation",
           "mentions": 3
+        },
+        {
+          "slug": "runway_growth",
+          "mentions": 3
         }
       ]
     }
@@ -233,7 +233,7 @@
   "source_freshness": [
     {
       "url": "https://blackrockneurotech.com/insights/blackrock-neurotechs-moveagain-brain-computer-interface-system-receives-breakthrough-device-designation-from-the-fda/",
-      "last_ingested_at": "2026-07-30 00:00:03"
+      "last_ingested_at": "2026-07-31 06:00:03"
     },
     {
       "url": "https://live.euronext.com/en/products/equities/company-news/2026-03-31-onward-medical-reports-full-year-2025-financial-and",
@@ -241,47 +241,47 @@
     },
     {
       "url": "https://news.medtronic.com/2025-05-21-Medtronic-reports-strong-finish-to-its-fiscal-year-with-its-fourth-quarter-financial-results-announces-dividend-increase",
-      "last_ingested_at": "2026-07-30 00:00:06"
+      "last_ingested_at": "2026-07-31 06:00:04"
     },
     {
       "url": "https://openai.com/index/investing-in-merge-labs/",
-      "last_ingested_at": "2026-07-30 06:00:01"
+      "last_ingested_at": "2026-07-31 06:00:05"
     },
     {
       "url": "https://www.bostonscientific.com/en-US/about-us/core-businesses/neuromodulation.html",
-      "last_ingested_at": "2026-07-30 00:00:05"
+      "last_ingested_at": "2026-07-31 06:00:04"
     },
     {
       "url": "https://www.businesswire.com/news/home/20240930433219/en/Synchron-Announces-Positive-Results-from-U.S.-COMMAND-Study-of-Endovascular-Brain-Computer-Interface",
-      "last_ingested_at": "2026-07-29 18:00:04"
+      "last_ingested_at": "2026-07-31 00:00:05"
     },
     {
       "url": "https://www.butterflynetwork.com/press-releases/co-development-agreement-with-forest-neurotech",
-      "last_ingested_at": "2026-07-30 00:00:05"
+      "last_ingested_at": "2026-07-31 06:00:04"
     },
     {
       "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program",
-      "last_ingested_at": "2026-07-30 00:00:05"
+      "last_ingested_at": "2026-07-31 06:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/4/17/3063418/0/en/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array.html",
-      "last_ingested_at": "2026-07-29 18:00:02"
+      "last_ingested_at": "2026-07-31 00:00:03"
     },
     {
       "url": "https://www.nasdaq.com/press-release/livanova-reports-fourth-quarter-and-full-year-2025-results-issues-2026-guidance-2026",
-      "last_ingested_at": "2026-07-30 00:00:05"
+      "last_ingested_at": "2026-07-31 06:00:04"
     },
     {
       "url": "https://www.nature.com/articles/s41586-023-06377-x",
-      "last_ingested_at": "2026-07-30 00:00:06"
+      "last_ingested_at": "2026-07-31 06:00:05"
     },
     {
       "url": "https://www.paradromics.com/news/paradromics-receives-fda-approval-for-the-connect-one-clinical-study-with-the-connexus-brain-computer-interface",
-      "last_ingested_at": "2026-07-30 06:00:01"
+      "last_ingested_at": "2026-07-31 06:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000032/qsi572026ex991.htm",
-      "last_ingested_at": "2026-07-29 18:00:02"
+      "last_ingested_at": "2026-07-31 00:00:03"
     }
   ]
 }
