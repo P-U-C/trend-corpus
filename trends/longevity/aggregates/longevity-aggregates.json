@@ -1,13 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-07-31T13:42:01Z",
+  "generated_at": "2026-08-01T13:42:01Z",
   "theme_id": "longevity",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 5741,
+  "underlying_claim_count": 5816,
   "underlying_source_count": 16,
   "min_count_threshold": 1,
   "windows": {
@@ -24,18 +24,18 @@
       ]
     },
     "90d": {
-      "claims_total": 768,
+      "claims_total": 775,
       "claims_by_category": {
         "research": 135,
-        "corporate": 370,
-        "clinical": 199,
+        "corporate": 374,
+        "clinical": 201,
         "manufacturing": 2,
-        "regulatory": 62
+        "regulatory": 63
       },
       "top_entities": [
         {
           "slug": "bioage",
-          "mentions": 513
+          "mentions": 520
         },
         {
           "slug": "newlimit",
@@ -43,15 +43,15 @@
         },
         {
           "slug": "novartis",
-          "mentions": 91
+          "mentions": 92
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 60
+          "mentions": 61
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 59
+          "mentions": 60
         },
         {
           "slug": "life_bio",
@@ -84,27 +84,27 @@
       ]
     },
     "365d": {
-      "claims_total": 3902,
+      "claims_total": 3946,
       "claims_by_category": {
-        "research": 821,
-        "corporate": 1546,
-        "clinical": 1096,
-        "manufacturing": 45,
-        "regulatory": 308,
-        "market": 86
+        "research": 829,
+        "corporate": 1565,
+        "clinical": 1108,
+        "manufacturing": 46,
+        "regulatory": 311,
+        "market": 87
       },
       "top_entities": [
         {
           "slug": "life_bio",
-          "mentions": 983
+          "mentions": 991
         },
         {
           "slug": "bioage",
-          "mentions": 897
+          "mentions": 912
         },
         {
           "slug": "insilico",
-          "mentions": 791
+          "mentions": 804
         },
         {
           "slug": "calico",
@@ -116,7 +116,7 @@
         },
         {
           "slug": "oxford_university",
-          "mentions": 252
+          "mentions": 259
         },
         {
           "slug": "newlimit",
@@ -124,23 +124,23 @@
         },
         {
           "slug": "fda_cber",
-          "mentions": 167
+          "mentions": 168
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 130
+          "mentions": 132
         },
         {
           "slug": "novartis",
-          "mentions": 114
+          "mentions": 116
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 59
+          "mentions": 60
         },
         {
           "slug": "bryan_johnson",
-          "mentions": 53
+          "mentions": 54
         },
         {
           "slug": "alphabet",
@@ -180,7 +180,7 @@
   "source_freshness": [
     {
       "url": "https://altoslabs.com/news/",
-      "last_ingested_at": "2026-07-31 06:00:01"
+      "last_ingested_at": "2026-08-01 06:00:02"
     },
     {
       "url": "https://insilico.com/news",
@@ -188,11 +188,11 @@
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-announces-discontinuation-strides-phase-2-clinical",
-      "last_ingested_at": "2026-07-30 12:00:02"
+      "last_ingested_at": "2026-07-31 18:00:01"
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-reports-first-quarter-2026-financial-results-and",
-      "last_ingested_at": "2026-07-30 12:00:02"
+      "last_ingested_at": "2026-07-31 18:00:01"
     },
     {
       "url": "https://ir.unitybiotechnology.com/news-releases",
@@ -200,7 +200,7 @@
     },
     {
       "url": "https://loyal.com/posts/loy-002-receives-rxe-from-the-fda",
-      "last_ingested_at": "2026-07-30 18:00:03"
+      "last_ingested_at": "2026-08-01 00:00:31"
     },
     {
       "url": "https://loyalfordogs.com/post/",
@@ -212,35 +212,35 @@
     },
     {
       "url": "https://www.eurekalert.org/news-releases/1111220",
-      "last_ingested_at": "2026-07-30 12:00:02"
+      "last_ingested_at": "2026-07-31 18:00:02"
     },
     {
       "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products",
-      "last_ingested_at": "2026-07-30 12:00:02"
+      "last_ingested_at": "2026-07-31 18:00:02"
     },
     {
       "url": "https://www.fiercebiotech.com/biotech/abbvie-cuts-ties-calico-100-scientists-after-11-year-partnership",
-      "last_ingested_at": "2026-07-31 06:00:01"
+      "last_ingested_at": "2026-08-01 06:00:01"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/04/08/3270043/0/en/Life-Biosciences-Secures-80-Million-Series-D-Financing.html",
-      "last_ingested_at": "2026-07-30 18:00:03"
+      "last_ingested_at": "2026-08-01 00:00:31"
     },
     {
       "url": "https://www.lifebiosciences.com/life-biosciences-announces-fda-clearance-of-ind-application-for-er-100-in-optic-neuropathies/",
-      "last_ingested_at": "2026-07-30 18:00:03"
+      "last_ingested_at": "2026-08-01 00:00:31"
     },
     {
       "url": "https://www.nad.com/news/new-oxford-study-powerful-longevity-drug-rapamycin-targets-cell-senescence",
-      "last_ingested_at": "2026-07-30 12:00:03"
+      "last_ingested_at": "2026-07-31 18:00:03"
     },
     {
       "url": "https://www.newlimit.com/operating-plan",
-      "last_ingested_at": "2026-07-30 18:00:03"
+      "last_ingested_at": "2026-08-01 00:00:31"
     },
     {
       "url": "https://www.retro.bio/news",
-      "last_ingested_at": "2026-07-30 12:00:05"
+      "last_ingested_at": "2026-07-31 18:00:04"
     }
   ]
 }
