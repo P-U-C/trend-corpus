@@ -1,30 +1,30 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-01T13:39:01Z",
+  "generated_at": "2026-08-02T13:39:01Z",
   "theme_id": "synthetic-biology",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 12194,
+  "underlying_claim_count": 12310,
   "underlying_source_count": 23,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 21,
+      "claims_total": 20,
       "claims_by_category": {
-        "corporate": 20,
+        "corporate": 19,
         "market": 1
       },
       "top_entities": [
         {
           "slug": "lilly",
-          "mentions": 20
+          "mentions": 19
         },
         {
           "slug": "verve_therapeutics",
-          "mentions": 20
+          "mentions": 19
         },
         {
           "slug": "benchling",
@@ -33,20 +33,20 @@
       ]
     },
     "90d": {
-      "claims_total": 7828,
+      "claims_total": 7911,
       "claims_by_category": {
-        "corporate": 2868,
-        "market": 669,
-        "clinical": 1916,
-        "regulatory": 1118,
-        "research": 1000,
-        "manufacturing": 253,
+        "corporate": 2891,
+        "market": 682,
+        "clinical": 1934,
+        "regulatory": 1131,
+        "research": 1012,
+        "manufacturing": 257,
         "supply": 4
       },
       "top_entities": [
         {
           "slug": "crispr_therapeutics",
-          "mentions": 1567
+          "mentions": 1597
         },
         {
           "slug": "recursion",
@@ -54,43 +54,43 @@
         },
         {
           "slug": "fda",
-          "mentions": 954
+          "mentions": 964
         },
         {
           "slug": "ginkgo",
-          "mentions": 946
+          "mentions": 961
+        },
+        {
+          "slug": "caribou",
+          "mentions": 829
         },
         {
           "slug": "intellia",
           "mentions": 828
         },
         {
-          "slug": "caribou",
-          "mentions": 817
-        },
-        {
           "slug": "beam_therapeutics",
-          "mentions": 736
+          "mentions": 746
         },
         {
           "slug": "benchling",
-          "mentions": 609
+          "mentions": 619
+        },
+        {
+          "slug": "editas",
+          "mentions": 576
         },
         {
           "slug": "prime_medicine",
           "mentions": 569
         },
         {
-          "slug": "editas",
-          "mentions": 568
-        },
-        {
           "slug": "vertex",
-          "mentions": 552
+          "mentions": 562
         },
         {
           "slug": "adaptyv",
-          "mentions": 195
+          "mentions": 198
         },
         {
           "slug": "caribou_biosciences",
@@ -98,11 +98,11 @@
         },
         {
           "slug": "lilly",
-          "mentions": 146
+          "mentions": 148
         },
         {
           "slug": "sirius_therapeutics",
-          "mentions": 127
+          "mentions": 129
         },
         {
           "slug": "roche",
@@ -118,7 +118,7 @@
         },
         {
           "slug": "twist_bioscience",
-          "mentions": 79
+          "mentions": 82
         },
         {
           "slug": "regeneron",
@@ -127,24 +127,24 @@
       ]
     },
     "365d": {
-      "claims_total": 10987,
+      "claims_total": 11094,
       "claims_by_category": {
-        "corporate": 4338,
-        "market": 713,
-        "clinical": 3131,
-        "regulatory": 1534,
-        "research": 1002,
-        "manufacturing": 265,
+        "corporate": 4379,
+        "market": 726,
+        "clinical": 3153,
+        "regulatory": 1549,
+        "research": 1014,
+        "manufacturing": 269,
         "supply": 4
       },
       "top_entities": [
         {
           "slug": "crispr_therapeutics",
-          "mentions": 1916
+          "mentions": 1946
         },
         {
           "slug": "beam_therapeutics",
-          "mentions": 1260
+          "mentions": 1276
         },
         {
           "slug": "intellia",
@@ -152,7 +152,7 @@
         },
         {
           "slug": "fda",
-          "mentions": 1190
+          "mentions": 1201
         },
         {
           "slug": "recursion",
@@ -160,11 +160,11 @@
         },
         {
           "slug": "ginkgo",
-          "mentions": 1138
+          "mentions": 1156
         },
         {
           "slug": "caribou",
-          "mentions": 1082
+          "mentions": 1101
         },
         {
           "slug": "prime_medicine",
@@ -172,15 +172,15 @@
         },
         {
           "slug": "editas",
-          "mentions": 954
+          "mentions": 970
         },
         {
           "slug": "benchling",
-          "mentions": 609
+          "mentions": 619
         },
         {
           "slug": "vertex",
-          "mentions": 596
+          "mentions": 606
         },
         {
           "slug": "caribou_biosciences",
@@ -188,19 +188,19 @@
         },
         {
           "slug": "adaptyv",
-          "mentions": 195
+          "mentions": 198
         },
         {
           "slug": "lilly",
-          "mentions": 147
+          "mentions": 149
         },
         {
           "slug": "sirius_therapeutics",
-          "mentions": 127
+          "mentions": 129
         },
         {
           "slug": "broad_institute",
-          "mentions": 125
+          "mentions": 126
         },
         {
           "slug": "roche",
@@ -224,11 +224,11 @@
   "source_freshness": [
     {
       "url": "https://innovativegenomics.org/news/crispr-clinical-trials-2026/",
-      "last_ingested_at": "2026-08-01 12:00:01"
+      "last_ingested_at": "2026-08-02 12:00:01"
     },
     {
       "url": "https://investor.cariboubio.com/news-releases/news-release-details/caribou-biosciences-reports-first-quarter-2026-financial-results",
-      "last_ingested_at": "2026-08-01 00:00:01"
+      "last_ingested_at": "2026-08-02 00:00:01"
     },
     {
       "url": "https://investor.lilly.com/news-releases",
@@ -244,7 +244,7 @@
     },
     {
       "url": "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-reports-first-quarter-2026-financial-results/",
-      "last_ingested_at": "2026-07-31 18:00:01"
+      "last_ingested_at": "2026-08-01 18:00:01"
     },
     {
       "url": "https://investors.ginkgo.bio/financial-information/sec-filings",
@@ -252,7 +252,7 @@
     },
     {
       "url": "https://investors.twistbioscience.com/news-releases/news-release-details/twist-bioscience-and-ginkgo-bioworks-revise-collaboration/",
-      "last_ingested_at": "2026-07-31 18:00:02"
+      "last_ingested_at": "2026-08-02 00:00:02"
     },
     {
       "url": "https://ir.cariboubio.com/financial-information/sec-filings",
@@ -268,7 +268,7 @@
     },
     {
       "url": "https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-announces-first-quarter-2026-results-and",
-      "last_ingested_at": "2026-08-01 06:00:02"
+      "last_ingested_at": "2026-08-02 12:00:01"
     },
     {
       "url": "https://ir.intelliatx.com/financial-information/sec-filings",
@@ -288,11 +288,11 @@
     },
     {
       "url": "https://www.benchling.com/blog/one-click-ordering-for-experiments-and-data",
-      "last_ingested_at": "2026-07-31 18:00:01"
+      "last_ingested_at": "2026-08-01 18:00:02"
     },
     {
       "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products",
-      "last_ingested_at": "2026-08-01 12:00:01"
+      "last_ingested_at": "2026-08-02 12:00:01"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/05/11/3291773/0/en/Intellia-Therapeutics-Announces-First-Quarter-2026-Financial-Results-and-Business-Updates.html",
@@ -300,11 +300,11 @@
     },
     {
       "url": "https://www.prnewswire.com/news-releases/ginkgo-bioworks-reports-first-quarter-2026-financial-results-completes-divestiture-of-biosecurity-and-continues-to-scale-autonomous-lab-302766171.html",
-      "last_ingested_at": "2026-07-31 18:00:01"
+      "last_ingested_at": "2026-08-01 18:00:02"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526204147/crsp-ex99_1.htm",
-      "last_ingested_at": "2026-08-01 00:00:01"
+      "last_ingested_at": "2026-08-02 00:00:01"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1894562/000162828026031719/q120268-kex991xpressrelease.htm",
