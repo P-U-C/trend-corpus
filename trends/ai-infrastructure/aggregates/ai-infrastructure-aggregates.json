@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-03T13:30:01Z",
+  "generated_at": "2026-08-04T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,26 +12,26 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 413,
+      "claims_total": 402,
       "claims_by_category": {
-        "regulatory": 69,
-        "corporate": 187,
-        "market": 155,
+        "regulatory": 67,
+        "corporate": 180,
+        "market": 153,
         "manufacturing": 1,
         "supply": 1
       },
       "top_entities": [
         {
-          "slug": "astera_labs",
-          "mentions": 130
-        },
-        {
           "slug": "taiwan_semiconductor",
           "mentions": 128
         },
         {
+          "slug": "astera_labs",
+          "mentions": 126
+        },
+        {
           "slug": "doc",
-          "mentions": 127
+          "mentions": 121
         },
         {
           "slug": "nist",
@@ -39,7 +39,7 @@
         },
         {
           "slug": "broadcom",
-          "mentions": 18
+          "mentions": 17
         },
         {
           "slug": "standard_chartered",
@@ -47,11 +47,11 @@
         },
         {
           "slug": "sandboxaq",
-          "mentions": 10
+          "mentions": 9
         },
         {
           "slug": "coherent",
-          "mentions": 10
+          "mentions": 9
         },
         {
           "slug": "i-pulse",
@@ -63,7 +63,7 @@
         },
         {
           "slug": "powerex",
-          "mentions": 6
+          "mentions": 5
         },
         {
           "slug": "celestial_ai",
@@ -78,28 +78,28 @@
           "mentions": 3
         },
         {
-          "slug": "i_pulse",
-          "mentions": 3
+          "slug": "semianalysis",
+          "mentions": 2
         },
         {
-          "slug": "semianalysis",
+          "slug": "i_pulse",
           "mentions": 2
         }
       ]
     },
     "90d": {
-      "claims_total": 1292,
+      "claims_total": 1258,
       "claims_by_category": {
         "regulatory": 223,
-        "corporate": 611,
-        "market": 456,
+        "corporate": 594,
+        "market": 439,
         "manufacturing": 1,
         "supply": 1
       },
       "top_entities": [
         {
           "slug": "astera_labs",
-          "mentions": 389
+          "mentions": 367
         },
         {
           "slug": "doc",
@@ -111,7 +111,7 @@
         },
         {
           "slug": "broadcom",
-          "mentions": 232
+          "mentions": 220
         },
         {
           "slug": "nist",
@@ -275,11 +275,11 @@
   "source_freshness": [
     {
       "url": "https://investor.marvell.com/financial-information/financial-results",
-      "last_ingested_at": "2026-08-02 12:00:02"
+      "last_ingested_at": "2026-08-03 18:00:02"
     },
     {
       "url": "https://investor.tsmc.com/english/quarterly-results",
-      "last_ingested_at": "2026-08-02 12:00:02"
+      "last_ingested_at": "2026-08-03 18:00:03"
     },
     {
       "url": "https://investors.broadcom.com/",
@@ -291,15 +291,15 @@
     },
     {
       "url": "https://ir.amd.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-03 00:00:01"
+      "last_ingested_at": "2026-08-04 00:00:02"
     },
     {
       "url": "https://ir.asteralabs.com/",
-      "last_ingested_at": "2026-08-02 18:00:02"
+      "last_ingested_at": "2026-08-04 00:00:03"
     },
     {
       "url": "https://semianalysis.com/tag/ai-infrastructure/",
-      "last_ingested_at": "2026-08-02 12:00:02"
+      "last_ingested_at": "2026-08-03 18:00:03"
     },
     {
       "url": "https://spectrum.ieee.org/tag/data-centers",
@@ -307,11 +307,11 @@
     },
     {
       "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
-      "last_ingested_at": "2026-08-03 06:00:02"
+      "last_ingested_at": "2026-08-04 12:00:02"
     },
     {
       "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing-and",
-      "last_ingested_at": "2026-08-03 06:00:02"
+      "last_ingested_at": "2026-08-04 12:00:02"
     },
     {
       "url": "https://www.nist.gov/chips",
