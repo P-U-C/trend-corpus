@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-03T13:34:01Z",
+  "generated_at": "2026-08-04T13:34:01Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,31 +12,31 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 1165,
+      "claims_total": 1128,
       "claims_by_category": {
-        "corporate": 701,
-        "market": 77,
-        "manufacturing": 140,
-        "regulatory": 146,
+        "corporate": 681,
+        "market": 70,
+        "manufacturing": 136,
+        "regulatory": 141,
         "research": 91,
-        "supply": 10
+        "supply": 9
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 398
+          "mentions": 388
         },
         {
           "slug": "aerovironment",
-          "mentions": 130
+          "mentions": 127
         },
         {
           "slug": "leidos",
-          "mentions": 119
+          "mentions": 117
         },
         {
           "slug": "kratos",
-          "mentions": 118
+          "mentions": 113
         },
         {
           "slug": "lockheed_martin",
@@ -44,7 +44,7 @@
         },
         {
           "slug": "ukraine",
-          "mentions": 31
+          "mentions": 29
         },
         {
           "slug": "nato",
@@ -55,12 +55,12 @@
           "mentions": 22
         },
         {
-          "slug": "overland_ai",
-          "mentions": 21
-        },
-        {
           "slug": "boeing",
           "mentions": 20
+        },
+        {
+          "slug": "overland_ai",
+          "mentions": 19
         },
         {
           "slug": "anthropic",
@@ -79,16 +79,16 @@
           "mentions": 16
         },
         {
-          "slug": "saab",
-          "mentions": 16
-        },
-        {
           "slug": "northrop_grumman",
           "mentions": 15
         },
         {
           "slug": "mbda",
           "mentions": 15
+        },
+        {
+          "slug": "saab",
+          "mentions": 14
         },
         {
           "slug": "germany",
@@ -105,9 +105,9 @@
       ]
     },
     "90d": {
-      "claims_total": 2963,
+      "claims_total": 2946,
       "claims_by_category": {
-        "corporate": 1684,
+        "corporate": 1667,
         "market": 262,
         "manufacturing": 351,
         "regulatory": 378,
@@ -125,7 +125,7 @@
         },
         {
           "slug": "leidos",
-          "mentions": 346
+          "mentions": 329
         },
         {
           "slug": "aerovironment",
@@ -294,27 +294,27 @@
   "source_freshness": [
     {
       "url": "https://breakingdefense.com/",
-      "last_ingested_at": "2026-08-03 06:00:04"
+      "last_ingested_at": "2026-08-04 12:00:02"
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-08-03 00:00:02"
+      "last_ingested_at": "2026-08-04 06:00:02"
     },
     {
       "url": "https://investors.leidos.com/",
-      "last_ingested_at": "2026-08-03 06:00:05"
+      "last_ingested_at": "2026-08-04 12:00:04"
     },
     {
       "url": "https://investors.palantir.com/",
-      "last_ingested_at": "2026-08-03 06:00:06"
+      "last_ingested_at": "2026-08-04 12:00:05"
     },
     {
       "url": "https://ir.kratosdefense.com/",
-      "last_ingested_at": "2026-08-03 06:00:05"
+      "last_ingested_at": "2026-08-04 12:00:04"
     },
     {
       "url": "https://shield.ai/news/",
-      "last_ingested_at": "2026-08-03 06:00:06"
+      "last_ingested_at": "2026-08-04 12:00:05"
     },
     {
       "url": "https://warontherocks.com/",
@@ -322,11 +322,11 @@
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
-      "last_ingested_at": "2026-08-03 06:00:04"
+      "last_ingested_at": "2026-08-04 12:00:02"
     },
     {
       "url": "https://www.darpa.mil/news",
-      "last_ingested_at": "2026-08-03 06:00:04"
+      "last_ingested_at": "2026-08-04 12:00:03"
     },
     {
       "url": "https://www.defense.gov/News/Contracts/",
@@ -342,7 +342,7 @@
     },
     {
       "url": "https://www.defensenews.com/",
-      "last_ingested_at": "2026-08-03 06:00:05"
+      "last_ingested_at": "2026-08-04 12:00:04"
     }
   ]
 }
