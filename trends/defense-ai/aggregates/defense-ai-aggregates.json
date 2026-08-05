@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-04T13:34:01Z",
+  "generated_at": "2026-08-05T13:34:01Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,31 +12,31 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 1128,
+      "claims_total": 1090,
       "claims_by_category": {
-        "corporate": 681,
-        "market": 70,
-        "manufacturing": 136,
-        "regulatory": 141,
-        "research": 91,
-        "supply": 9
+        "corporate": 663,
+        "market": 63,
+        "manufacturing": 131,
+        "regulatory": 135,
+        "research": 90,
+        "supply": 8
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 388
+          "mentions": 377
         },
         {
           "slug": "aerovironment",
-          "mentions": 127
+          "mentions": 124
         },
         {
           "slug": "leidos",
-          "mentions": 117
+          "mentions": 115
         },
         {
           "slug": "kratos",
-          "mentions": 113
+          "mentions": 108
         },
         {
           "slug": "lockheed_martin",
@@ -44,7 +44,7 @@
         },
         {
           "slug": "ukraine",
-          "mentions": 29
+          "mentions": 27
         },
         {
           "slug": "nato",
@@ -59,16 +59,16 @@
           "mentions": 20
         },
         {
-          "slug": "overland_ai",
-          "mentions": 19
-        },
-        {
           "slug": "anthropic",
           "mentions": 18
         },
         {
-          "slug": "iceye",
+          "slug": "overland_ai",
           "mentions": 18
+        },
+        {
+          "slug": "iceye",
+          "mentions": 17
         },
         {
           "slug": "canada",
@@ -87,31 +87,31 @@
           "mentions": 15
         },
         {
-          "slug": "saab",
-          "mentions": 14
+          "slug": "anduril",
+          "mentions": 13
         },
         {
           "slug": "germany",
-          "mentions": 14
-        },
-        {
-          "slug": "anduril",
           "mentions": 13
         },
         {
           "slug": "elroy_air",
           "mentions": 12
+        },
+        {
+          "slug": "saab",
+          "mentions": 11
         }
       ]
     },
     "90d": {
-      "claims_total": 2946,
+      "claims_total": 2823,
       "claims_by_category": {
-        "corporate": 1667,
-        "market": 262,
-        "manufacturing": 351,
+        "corporate": 1552,
+        "market": 257,
+        "manufacturing": 349,
         "regulatory": 378,
-        "research": 262,
+        "research": 261,
         "supply": 26
       },
       "top_entities": [
@@ -120,16 +120,16 @@
           "mentions": 1082
         },
         {
-          "slug": "kratos",
-          "mentions": 410
-        },
-        {
           "slug": "leidos",
           "mentions": 329
         },
         {
           "slug": "aerovironment",
-          "mentions": 312
+          "mentions": 310
+        },
+        {
+          "slug": "kratos",
+          "mentions": 289
         },
         {
           "slug": "lockheed_martin",
@@ -294,11 +294,11 @@
   "source_freshness": [
     {
       "url": "https://breakingdefense.com/",
-      "last_ingested_at": "2026-08-04 12:00:02"
+      "last_ingested_at": "2026-08-05 12:00:03"
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-08-04 06:00:02"
+      "last_ingested_at": "2026-08-05 12:00:02"
     },
     {
       "url": "https://investors.leidos.com/",
@@ -318,11 +318,11 @@
     },
     {
       "url": "https://warontherocks.com/",
-      "last_ingested_at": "2026-08-03 12:00:02"
+      "last_ingested_at": "2026-08-04 18:00:03"
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
-      "last_ingested_at": "2026-08-04 12:00:02"
+      "last_ingested_at": "2026-08-05 12:00:03"
     },
     {
       "url": "https://www.darpa.mil/news",
