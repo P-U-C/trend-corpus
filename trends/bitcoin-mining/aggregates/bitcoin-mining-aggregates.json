@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-04T13:36:01Z",
+  "generated_at": "2026-08-05T13:36:01Z",
   "theme_id": "bitcoin-mining",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,10 +12,10 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 728,
+      "claims_total": 721,
       "claims_by_category": {
         "market": 280,
-        "regulatory": 441,
+        "regulatory": 434,
         "corporate": 3,
         "pricing": 4
       },
@@ -34,16 +34,16 @@
         },
         {
           "slug": "nysdec",
-          "mentions": 82
+          "mentions": 75
         }
       ]
     },
     "90d": {
-      "claims_total": 3573,
+      "claims_total": 3180,
       "claims_by_category": {
         "market": 942,
         "regulatory": 1181,
-        "corporate": 1249,
+        "corporate": 856,
         "pricing": 158,
         "manufacturing": 42,
         "supply": 1
@@ -62,20 +62,12 @@
           "mentions": 782
         },
         {
-          "slug": "hut8",
-          "mentions": 393
-        },
-        {
           "slug": "luxor",
           "mentions": 365
         },
         {
           "slug": "nysdec",
           "mentions": 159
-        },
-        {
-          "slug": "fluidstack",
-          "mentions": 62
         },
         {
           "slug": "new_york_state",
@@ -200,59 +192,59 @@
   "source_freshness": [
     {
       "url": "https://bit-digital.com/press-releases/bit-digital-inc-announces-first-quarter-2026-financial-results/",
-      "last_ingested_at": "2026-08-03 12:00:02"
+      "last_ingested_at": "2026-08-04 18:00:02"
     },
     {
       "url": "https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-reports-unaudited-second-quarter-2025-financial",
-      "last_ingested_at": "2026-08-04 00:00:02"
+      "last_ingested_at": "2026-08-05 06:00:02"
     },
     {
       "url": "https://capitol.texas.gov/billlookup/BillSummary.aspx?Bill=SB6&LegSess=89R",
-      "last_ingested_at": "2026-08-03 12:00:04"
+      "last_ingested_at": "2026-08-04 18:00:04"
     },
     {
       "url": "https://dec.ny.gov/environmental-protection/climate-change/statutes-regulations-policies",
-      "last_ingested_at": "2026-08-04 12:00:02"
+      "last_ingested_at": "2026-08-05 12:00:05"
     },
     {
       "url": "https://docs.luxor.tech/hashrateindex/hashprice",
-      "last_ingested_at": "2026-08-04 06:00:02"
+      "last_ingested_at": "2026-08-05 12:00:02"
     },
     {
       "url": "https://investors.corescientific.com/financial-information/financial-results",
-      "last_ingested_at": "2026-08-04 00:00:03"
+      "last_ingested_at": "2026-08-05 06:00:03"
     },
     {
       "url": "https://ir.mara.com/sec-filings/all-sec-filings/content/0001507605-26-000014/q126shareholderletter.htm",
-      "last_ingested_at": "2026-08-04 12:00:02"
+      "last_ingested_at": "2026-08-05 12:00:04"
     },
     {
       "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q2-fy26-results",
-      "last_ingested_at": "2026-08-04 12:00:01"
+      "last_ingested_at": "2026-08-05 12:00:03"
     },
     {
       "url": "https://support.bitmain.com/hc/en-us/articles/38059223529241-Antminer-S21-XP",
-      "last_ingested_at": "2026-08-03 12:00:02"
+      "last_ingested_at": "2026-08-04 18:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/04/30/3285410/0/en/Riot-Platforms-Reports-First-Quarter-2026-Financial-Results-and-Strategic-Highlights.html",
-      "last_ingested_at": "2026-08-03 12:00:03"
+      "last_ingested_at": "2026-08-04 18:00:03"
     },
     {
       "url": "https://www.hivedigitaltechnologies.com/news/hive-delivers-record-q3-revenue-of-931-million-with-321-million-gross-operating-margin-up-over-6x-year-over-year/",
-      "last_ingested_at": "2026-08-04 06:00:02"
+      "last_ingested_at": "2026-08-05 12:00:02"
     },
     {
       "url": "https://www.hut8.com/news-insights/press-releases/hut-8-reports-first-quarter-2026-results",
-      "last_ingested_at": "2026-08-04 12:00:01"
+      "last_ingested_at": "2026-08-05 12:00:03"
     },
     {
       "url": "https://www.irs.gov/irb/2024-06_IRB",
-      "last_ingested_at": "2026-08-04 12:00:02"
+      "last_ingested_at": "2026-08-05 12:00:03"
     },
     {
       "url": "https://www.puc.texas.gov/industry/electric/business/vcm/Default.aspx",
-      "last_ingested_at": "2026-08-03 12:00:04"
+      "last_ingested_at": "2026-08-04 18:00:04"
     }
   ]
 }
