@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-05T13:35:01Z",
+  "generated_at": "2026-08-06T13:35:02Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,31 +12,31 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 324,
+      "claims_total": 309,
       "claims_by_category": {
-        "corporate": 199,
-        "market": 26,
-        "manufacturing": 53,
+        "corporate": 190,
+        "market": 25,
+        "manufacturing": 49,
         "regulatory": 30,
-        "research": 14,
+        "research": 13,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 184
+          "mentions": 176
         },
         {
           "slug": "sda",
-          "mentions": 175
+          "mentions": 168
         },
         {
           "slug": "nasa",
-          "mentions": 117
+          "mentions": 111
         },
         {
           "slug": "dod",
-          "mentions": 52
+          "mentions": 51
         },
         {
           "slug": "intuitive_machines",
@@ -45,31 +45,27 @@
         {
           "slug": "clps",
           "mentions": 6
-        },
-        {
-          "slug": "rocket_lab_national_security",
-          "mentions": 1
         }
       ]
     },
     "90d": {
-      "claims_total": 3119,
+      "claims_total": 2059,
       "claims_by_category": {
-        "corporate": 1758,
-        "market": 271,
-        "manufacturing": 700,
+        "corporate": 873,
+        "market": 253,
+        "manufacturing": 585,
         "regulatory": 152,
-        "research": 191,
-        "supply": 47
+        "research": 188,
+        "supply": 8
       },
       "top_entities": [
         {
-          "slug": "rocket_lab",
-          "mentions": 1531
-        },
-        {
           "slug": "ast_spacemobile",
           "mentions": 1146
+        },
+        {
+          "slug": "rocket_lab",
+          "mentions": 471
         },
         {
           "slug": "sda",
@@ -77,11 +73,11 @@
         },
         {
           "slug": "nasa",
-          "mentions": 329
+          "mentions": 327
         },
         {
           "slug": "dod",
-          "mentions": 250
+          "mentions": 186
         },
         {
           "slug": "spacex",
@@ -92,20 +88,8 @@
           "mentions": 83
         },
         {
-          "slug": "mynaric",
-          "mentions": 56
-        },
-        {
           "slug": "globalstar",
           "mentions": 50
-        },
-        {
-          "slug": "raytheon",
-          "mentions": 46
-        },
-        {
-          "slug": "motiv_space_systems",
-          "mentions": 28
         },
         {
           "slug": "intuitive_machines",
@@ -230,27 +214,27 @@
   "source_freshness": [
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-08-05 06:00:02"
+      "last_ingested_at": "2026-08-06 12:00:03"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
-      "last_ingested_at": "2026-08-04 18:00:05"
+      "last_ingested_at": "2026-08-06 00:00:02"
     },
     {
       "url": "https://investor.iridium.com/2024-09-25-Iridium-Accelerates-Direct-to-Device-Service-with-Acceptance-into-3GPP-Standards-Announces-Iridium-NTN-Direct?asPDF=1",
-      "last_ingested_at": "2026-08-05 00:00:03"
+      "last_ingested_at": "2026-08-06 06:00:02"
     },
     {
       "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-announces-fourth-quarter-and-full-year-2025-results/",
-      "last_ingested_at": "2026-08-04 18:00:06"
+      "last_ingested_at": "2026-08-06 00:00:03"
     },
     {
       "url": "https://rocketlabcorp.com/missions/launches/sda/",
-      "last_ingested_at": "2026-08-05 00:00:07"
+      "last_ingested_at": "2026-08-06 06:00:04"
     },
     {
       "url": "https://starlink.com/business/direct-to-cell",
-      "last_ingested_at": "2026-08-05 00:00:07"
+      "last_ingested_at": "2026-08-06 06:00:04"
     },
     {
       "url": "https://www.defense.gov/News/Releases/Release/Article/3728370/dod-releases-2024-dod-commercial-space-integration-strategy/",
@@ -258,23 +242,23 @@
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-reports-fourth-quarter-and-full-year-2025-financial-results",
-      "last_ingested_at": "2026-08-05 00:00:04"
+      "last_ingested_at": "2026-08-06 06:00:03"
     },
     {
       "url": "https://www.nasa.gov/commercial-lunar-payload-services/",
-      "last_ingested_at": "2026-08-05 00:00:04"
+      "last_ingested_at": "2026-08-06 06:00:03"
     },
     {
       "url": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
-      "last_ingested_at": "2026-08-05 00:00:05"
+      "last_ingested_at": "2026-08-06 06:00:03"
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-08-05 00:00:02"
+      "last_ingested_at": "2026-08-06 06:00:01"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
-      "last_ingested_at": "2026-08-05 00:00:06"
+      "last_ingested_at": "2026-08-06 06:00:04"
     },
     {
       "url": "https://www.nro.gov/news-media-featured-stories/news-media-archive/News-Article/Article/3135765/nro-announces-largest-award-of-commercial-imagery-contracts/",
@@ -282,11 +266,11 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000027/rklb-05072026ex991.htm",
-      "last_ingested_at": "2026-08-05 00:00:06"
+      "last_ingested_at": "2026-08-06 06:00:04"
     },
     {
       "url": "https://www.viasat.com/news/latest-news/corporate/2025/viasat-releases-fourth-quarter-and-fiscal-year-2025-financial-re/",
-      "last_ingested_at": "2026-08-05 00:00:07"
+      "last_ingested_at": "2026-08-06 06:00:05"
     }
   ]
 }
