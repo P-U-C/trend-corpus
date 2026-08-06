@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-05T13:30:01Z",
+  "generated_at": "2026-08-06T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,30 +12,30 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 398,
+      "claims_total": 376,
       "claims_by_category": {
-        "regulatory": 67,
-        "corporate": 178,
-        "market": 151,
+        "regulatory": 65,
+        "corporate": 170,
+        "market": 139,
         "manufacturing": 1,
         "supply": 1
       },
       "top_entities": [
         {
-          "slug": "taiwan_semiconductor",
-          "mentions": 128
+          "slug": "astera_labs",
+          "mentions": 118
         },
         {
-          "slug": "astera_labs",
-          "mentions": 122
+          "slug": "taiwan_semiconductor",
+          "mentions": 116
         },
         {
           "slug": "doc",
-          "mentions": 121
+          "mentions": 115
         },
         {
           "slug": "nist",
-          "mentions": 33
+          "mentions": 27
         },
         {
           "slug": "broadcom",
@@ -47,26 +47,26 @@
         },
         {
           "slug": "sandboxaq",
-          "mentions": 9
+          "mentions": 8
         },
         {
           "slug": "coherent",
-          "mentions": 9
-        },
-        {
-          "slug": "i-pulse",
-          "mentions": 6
+          "mentions": 8
         },
         {
           "slug": "marvell",
           "mentions": 6
         },
         {
-          "slug": "powerex",
+          "slug": "i-pulse",
           "mentions": 5
         },
         {
           "slug": "celestial_ai",
+          "mentions": 4
+        },
+        {
+          "slug": "powerex",
           "mentions": 4
         },
         {
@@ -275,35 +275,35 @@
   "source_freshness": [
     {
       "url": "https://investor.marvell.com/financial-information/financial-results",
-      "last_ingested_at": "2026-08-05 00:00:02"
+      "last_ingested_at": "2026-08-06 06:00:02"
     },
     {
       "url": "https://investor.tsmc.com/english/quarterly-results",
-      "last_ingested_at": "2026-08-05 00:00:07"
+      "last_ingested_at": "2026-08-06 06:00:02"
     },
     {
       "url": "https://investors.broadcom.com/",
-      "last_ingested_at": "2026-08-04 18:00:02"
+      "last_ingested_at": "2026-08-06 00:00:02"
     },
     {
       "url": "https://investors.delltechnologies.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-04 18:00:02"
+      "last_ingested_at": "2026-08-06 00:00:02"
     },
     {
       "url": "https://ir.amd.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-05 06:00:02"
+      "last_ingested_at": "2026-08-06 12:00:02"
     },
     {
       "url": "https://ir.asteralabs.com/",
-      "last_ingested_at": "2026-08-05 06:00:03"
+      "last_ingested_at": "2026-08-06 12:00:03"
     },
     {
       "url": "https://semianalysis.com/tag/ai-infrastructure/",
-      "last_ingested_at": "2026-08-05 00:00:04"
+      "last_ingested_at": "2026-08-06 06:00:02"
     },
     {
       "url": "https://spectrum.ieee.org/tag/data-centers",
-      "last_ingested_at": "2026-08-04 18:00:02"
+      "last_ingested_at": "2026-08-06 00:00:03"
     },
     {
       "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
@@ -315,7 +315,7 @@
     },
     {
       "url": "https://www.nist.gov/chips",
-      "last_ingested_at": "2026-08-04 18:00:02"
+      "last_ingested_at": "2026-08-06 00:00:02"
     }
   ]
 }
