@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-07T13:35:01Z",
+  "generated_at": "2026-08-08T13:35:01Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,31 +12,31 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 295,
+      "claims_total": 281,
       "claims_by_category": {
-        "corporate": 180,
-        "market": 25,
-        "manufacturing": 47,
-        "regulatory": 29,
+        "corporate": 171,
+        "market": 23,
+        "manufacturing": 45,
+        "regulatory": 28,
         "research": 12,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 168
-        },
-        {
-          "slug": "sda",
           "mentions": 160
         },
         {
+          "slug": "sda",
+          "mentions": 152
+        },
+        {
           "slug": "nasa",
-          "mentions": 106
+          "mentions": 101
         },
         {
           "slug": "dod",
-          "mentions": 49
+          "mentions": 47
         },
         {
           "slug": "intuitive_machines",
@@ -214,11 +214,11 @@
   "source_freshness": [
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-08-06 12:00:03"
+      "last_ingested_at": "2026-08-07 18:00:03"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
-      "last_ingested_at": "2026-08-07 06:00:04"
+      "last_ingested_at": "2026-08-08 12:00:03"
     },
     {
       "url": "https://investor.iridium.com/2024-09-25-Iridium-Accelerates-Direct-to-Device-Service-with-Acceptance-into-3GPP-Standards-Announces-Iridium-NTN-Direct?asPDF=1",
@@ -226,7 +226,7 @@
     },
     {
       "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-announces-fourth-quarter-and-full-year-2025-results/",
-      "last_ingested_at": "2026-08-07 06:00:05"
+      "last_ingested_at": "2026-08-08 12:00:04"
     },
     {
       "url": "https://rocketlabcorp.com/missions/launches/sda/",
@@ -254,7 +254,7 @@
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-08-07 06:00:02"
+      "last_ingested_at": "2026-08-08 12:00:01"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
