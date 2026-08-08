@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-07T13:30:01Z",
+  "generated_at": "2026-08-08T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,26 +12,26 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 360,
+      "claims_total": 329,
       "claims_by_category": {
-        "regulatory": 63,
-        "corporate": 165,
-        "market": 130,
+        "regulatory": 61,
+        "corporate": 140,
+        "market": 126,
         "manufacturing": 1,
         "supply": 1
       },
       "top_entities": [
         {
-          "slug": "astera_labs",
-          "mentions": 118
+          "slug": "taiwan_semiconductor",
+          "mentions": 106
         },
         {
           "slug": "doc",
-          "mentions": 109
+          "mentions": 103
         },
         {
-          "slug": "taiwan_semiconductor",
-          "mentions": 106
+          "slug": "astera_labs",
+          "mentions": 93
         },
         {
           "slug": "nist",
@@ -50,11 +50,11 @@
           "mentions": 7
         },
         {
-          "slug": "coherent",
-          "mentions": 7
+          "slug": "marvell",
+          "mentions": 6
         },
         {
-          "slug": "marvell",
+          "slug": "coherent",
           "mentions": 6
         },
         {
@@ -283,19 +283,19 @@
     },
     {
       "url": "https://investors.broadcom.com/",
-      "last_ingested_at": "2026-08-07 06:00:02"
+      "last_ingested_at": "2026-08-08 12:00:02"
     },
     {
       "url": "https://investors.delltechnologies.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-07 06:00:03"
+      "last_ingested_at": "2026-08-08 12:00:02"
     },
     {
       "url": "https://ir.amd.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-06 12:00:02"
+      "last_ingested_at": "2026-08-07 18:00:02"
     },
     {
       "url": "https://ir.asteralabs.com/",
-      "last_ingested_at": "2026-08-06 12:00:03"
+      "last_ingested_at": "2026-08-07 18:00:03"
     },
     {
       "url": "https://semianalysis.com/tag/ai-infrastructure/",
@@ -303,19 +303,19 @@
     },
     {
       "url": "https://spectrum.ieee.org/tag/data-centers",
-      "last_ingested_at": "2026-08-07 06:00:03"
+      "last_ingested_at": "2026-08-08 12:00:03"
     },
     {
       "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
-      "last_ingested_at": "2026-08-06 18:00:03"
+      "last_ingested_at": "2026-08-08 00:00:02"
     },
     {
       "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing-and",
-      "last_ingested_at": "2026-08-06 18:00:03"
+      "last_ingested_at": "2026-08-08 00:00:02"
     },
     {
       "url": "https://www.nist.gov/chips",
-      "last_ingested_at": "2026-08-07 06:00:02"
+      "last_ingested_at": "2026-08-08 12:00:02"
     }
   ]
 }
