@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-08T13:31:01Z",
+  "generated_at": "2026-08-09T13:31:01Z",
   "theme_id": "quantum-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,59 +12,59 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 894,
+      "claims_total": 848,
       "claims_by_category": {
-        "manufacturing": 276,
-        "research": 301,
-        "corporate": 209,
-        "market": 63,
+        "manufacturing": 262,
+        "research": 284,
+        "corporate": 200,
+        "market": 57,
         "regulatory": 42,
         "supply": 3
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 241
+          "mentions": 229
         },
         {
           "slug": "oxford_instruments",
-          "mentions": 227
+          "mentions": 217
         },
         {
           "slug": "quantum_computing_inc",
-          "mentions": 156
+          "mentions": 147
         },
         {
           "slug": "bluefors",
-          "mentions": 115
-        },
-        {
-          "slug": "brookhaven_national_laboratory",
-          "mentions": 40
-        },
-        {
-          "slug": "lawrence_berkeley_national_laboratory",
-          "mentions": 40
-        },
-        {
-          "slug": "oak_ridge_national_laboratory",
-          "mentions": 40
+          "mentions": 109
         },
         {
           "slug": "nist",
           "mentions": 40
         },
         {
-          "slug": "argonne_national_laboratory",
+          "slug": "brookhaven_national_laboratory",
           "mentions": 38
         },
         {
+          "slug": "lawrence_berkeley_national_laboratory",
+          "mentions": 38
+        },
+        {
+          "slug": "oak_ridge_national_laboratory",
+          "mentions": 38
+        },
+        {
+          "slug": "argonne_national_laboratory",
+          "mentions": 36
+        },
+        {
           "slug": "fermilab",
-          "mentions": 34
+          "mentions": 32
         },
         {
           "slug": "qphoton",
-          "mentions": 32
+          "mentions": 29
         },
         {
           "slug": "andor",
@@ -72,7 +72,7 @@
         },
         {
           "slug": "nhanced_semiconductors",
-          "mentions": 20
+          "mentions": 19
         },
         {
           "slug": "arqit",
@@ -80,10 +80,6 @@
         },
         {
           "slug": "planck_dynamics",
-          "mentions": 15
-        },
-        {
-          "slug": "university_of_vienna",
           "mentions": 14
         },
         {
@@ -91,16 +87,20 @@
           "mentions": 14
         },
         {
-          "slug": "the_quantum_insider",
-          "mentions": 9
+          "slug": "university_of_vienna",
+          "mentions": 13
         },
         {
-          "slug": "cryomech",
+          "slug": "the_quantum_insider",
           "mentions": 6
         },
         {
           "slug": "fermi_national_accelerator_laboratory",
           "mentions": 6
+        },
+        {
+          "slug": "cryomech",
+          "mentions": 5
         }
       ]
     },
@@ -294,55 +294,55 @@
   "source_freshness": [
     {
       "url": "https://arxiv.org/archive/quant-ph",
-      "last_ingested_at": "2026-08-07 18:00:01"
+      "last_ingested_at": "2026-08-08 18:00:02"
     },
     {
       "url": "https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/",
-      "last_ingested_at": "2026-08-07 12:00:03"
+      "last_ingested_at": "2026-08-08 18:00:05"
     },
     {
       "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
-      "last_ingested_at": "2026-08-08 06:00:03"
+      "last_ingested_at": "2026-08-09 12:00:03"
     },
     {
       "url": "https://bluefors.com/applications/quantum-technology/",
-      "last_ingested_at": "2026-08-08 00:00:02"
+      "last_ingested_at": "2026-08-09 00:00:03"
     },
     {
       "url": "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography",
-      "last_ingested_at": "2026-08-07 12:00:04"
+      "last_ingested_at": "2026-08-08 18:00:06"
     },
     {
       "url": "https://investors.rigetti.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-07 12:00:07"
+      "last_ingested_at": "2026-08-08 18:00:08"
     },
     {
       "url": "https://ir.arqit.uk/news-events/press-releases",
-      "last_ingested_at": "2026-08-08 12:00:01"
+      "last_ingested_at": "2026-08-09 12:00:02"
     },
     {
       "url": "https://quantumcomputinginc.com/investor-relations",
-      "last_ingested_at": "2026-08-07 12:00:06"
+      "last_ingested_at": "2026-08-08 18:00:07"
     },
     {
       "url": "https://science.osti.gov/Initiatives/QIS/QIS-Centers",
-      "last_ingested_at": "2026-08-08 06:00:02"
+      "last_ingested_at": "2026-08-09 12:00:02"
     },
     {
       "url": "https://thequantuminsider.com/",
-      "last_ingested_at": "2026-08-07 12:00:07"
+      "last_ingested_at": "2026-08-08 18:00:08"
     },
     {
       "url": "https://www.bis.gov/press-release/department-commerce-implements-controls-quantum-computing-other-advanced-technologies-alongside",
-      "last_ingested_at": "2026-08-08 00:00:01"
+      "last_ingested_at": "2026-08-09 00:00:02"
     },
     {
       "url": "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
-      "last_ingested_at": "2026-08-08 06:00:03"
+      "last_ingested_at": "2026-08-09 12:00:03"
     },
     {
       "url": "https://www.oxinst.com/applications/quantum-computing",
-      "last_ingested_at": "2026-08-07 12:00:06"
+      "last_ingested_at": "2026-08-08 18:00:07"
     }
   ]
 }
