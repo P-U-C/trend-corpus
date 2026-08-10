@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-09T13:34:01Z",
+  "generated_at": "2026-08-10T13:34:01Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,47 +12,43 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 906,
+      "claims_total": 867,
       "claims_by_category": {
-        "corporate": 524,
-        "market": 55,
-        "manufacturing": 116,
-        "regulatory": 119,
-        "research": 85,
+        "corporate": 504,
+        "market": 51,
+        "manufacturing": 109,
+        "regulatory": 113,
+        "research": 83,
         "supply": 7
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 346
+          "mentions": 329
         },
         {
           "slug": "kratos",
-          "mentions": 97
+          "mentions": 93
         },
         {
           "slug": "aerovironment",
-          "mentions": 78
-        },
-        {
-          "slug": "leidos",
           "mentions": 77
         },
         {
+          "slug": "leidos",
+          "mentions": 74
+        },
+        {
           "slug": "lockheed_martin",
-          "mentions": 36
+          "mentions": 34
         },
         {
           "slug": "ukraine",
-          "mentions": 23
-        },
-        {
-          "slug": "nato",
-          "mentions": 20
+          "mentions": 21
         },
         {
           "slug": "ondas",
-          "mentions": 19
+          "mentions": 18
         },
         {
           "slug": "anthropic",
@@ -63,31 +59,35 @@
           "mentions": 17
         },
         {
+          "slug": "nato",
+          "mentions": 17
+        },
+        {
           "slug": "auterion",
           "mentions": 16
         },
         {
           "slug": "iceye",
-          "mentions": 15
+          "mentions": 14
         },
         {
           "slug": "overland_ai",
-          "mentions": 15
+          "mentions": 14
         },
         {
           "slug": "canada",
-          "mentions": 15
+          "mentions": 14
         },
         {
           "slug": "mbda",
-          "mentions": 15
-        },
-        {
-          "slug": "northrop_grumman",
           "mentions": 13
         },
         {
           "slug": "elroy_air",
+          "mentions": 12
+        },
+        {
+          "slug": "northrop_grumman",
           "mentions": 12
         },
         {
@@ -294,11 +294,11 @@
   "source_freshness": [
     {
       "url": "https://breakingdefense.com/",
-      "last_ingested_at": "2026-08-09 06:00:02"
+      "last_ingested_at": "2026-08-10 12:00:03"
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-08-09 00:00:02"
+      "last_ingested_at": "2026-08-10 06:00:02"
     },
     {
       "url": "https://investors.leidos.com/",
@@ -318,11 +318,11 @@
     },
     {
       "url": "https://warontherocks.com/",
-      "last_ingested_at": "2026-08-08 12:00:02"
+      "last_ingested_at": "2026-08-09 18:00:02"
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
-      "last_ingested_at": "2026-08-09 06:00:02"
+      "last_ingested_at": "2026-08-10 12:00:03"
     },
     {
       "url": "https://www.darpa.mil/news",
