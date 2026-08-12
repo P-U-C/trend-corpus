@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-11T13:37:02Z",
+  "generated_at": "2026-08-12T13:37:01Z",
   "theme_id": "bci-neurotech",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,22 +12,22 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 208,
+      "claims_total": 199,
       "claims_by_category": {
         "manufacturing": 29,
-        "regulatory": 88,
-        "clinical": 50,
-        "market": 33,
+        "regulatory": 83,
+        "clinical": 48,
+        "market": 31,
         "corporate": 8
       },
       "top_entities": [
         {
           "slug": "boston_scientific",
-          "mentions": 146
+          "mentions": 139
         },
         {
           "slug": "fda",
-          "mentions": 73
+          "mentions": 70
         },
         {
           "slug": "precision_neuroscience",
@@ -35,7 +35,7 @@
         },
         {
           "slug": "cdrh",
-          "mentions": 2
+          "mentions": 1
         }
       ]
     },
@@ -229,7 +229,7 @@
   "source_freshness": [
     {
       "url": "https://blackrockneurotech.com/insights/blackrock-neurotechs-moveagain-brain-computer-interface-system-receives-breakthrough-device-designation-from-the-fda/",
-      "last_ingested_at": "2026-08-11 00:00:09"
+      "last_ingested_at": "2026-08-12 06:00:04"
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT07357428",
@@ -253,7 +253,7 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20240930433219/en/Synchron-Announces-Positive-Results-from-U.S.-COMMAND-Study-of-Endovascular-Brain-Computer-Interface",
-      "last_ingested_at": "2026-08-11 06:00:03"
+      "last_ingested_at": "2026-08-12 12:00:06"
     },
     {
       "url": "https://www.butterflynetwork.com/press-releases/co-development-agreement-with-forest-neurotech",
@@ -265,7 +265,7 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/4/17/3063418/0/en/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array.html",
-      "last_ingested_at": "2026-08-11 06:00:02"
+      "last_ingested_at": "2026-08-12 12:00:02"
     },
     {
       "url": "https://www.nasdaq.com/press-release/livanova-reports-fourth-quarter-and-full-year-2025-results-issues-2026-guidance-2026",
@@ -281,7 +281,7 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000032/qsi572026ex991.htm",
-      "last_ingested_at": "2026-08-11 06:00:02"
+      "last_ingested_at": "2026-08-12 12:00:02"
     }
   ]
 }
