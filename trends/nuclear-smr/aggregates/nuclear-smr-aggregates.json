@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-13T13:32:01Z",
+  "generated_at": "2026-08-14T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,43 +12,43 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 615,
+      "claims_total": 577,
       "claims_by_category": {
-        "regulatory": 322,
-        "supply": 46,
-        "market": 85,
-        "research": 53,
-        "corporate": 79,
-        "manufacturing": 30
+        "regulatory": 310,
+        "supply": 43,
+        "market": 80,
+        "research": 49,
+        "corporate": 69,
+        "manufacturing": 26
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 292
+          "mentions": 277
         },
         {
           "slug": "nrc",
-          "mentions": 164
+          "mentions": 154
         },
         {
           "slug": "ge_vernova",
-          "mentions": 67
-        },
-        {
-          "slug": "nuscale",
-          "mentions": 28
+          "mentions": 61
         },
         {
           "slug": "terrapower",
-          "mentions": 27
+          "mentions": 26
+        },
+        {
+          "slug": "nuscale",
+          "mentions": 26
         },
         {
           "slug": "idaho_national_laboratory",
-          "mentions": 27
+          "mentions": 25
         },
         {
           "slug": "uamps",
-          "mentions": 17
+          "mentions": 16
         },
         {
           "slug": "westinghouse",
@@ -83,14 +83,6 @@
           "mentions": 5
         },
         {
-          "slug": "hyundai_ec",
-          "mentions": 5
-        },
-        {
-          "slug": "fanco",
-          "mentions": 5
-        },
-        {
           "slug": "cameco",
           "mentions": 4
         },
@@ -101,23 +93,31 @@
         {
           "slug": "rolls_royce_smr",
           "mentions": 4
+        },
+        {
+          "slug": "almaraz",
+          "mentions": 4
+        },
+        {
+          "slug": "constellation",
+          "mentions": 4
         }
       ]
     },
     "90d": {
-      "claims_total": 2692,
+      "claims_total": 2682,
       "claims_by_category": {
-        "regulatory": 1408,
+        "regulatory": 1405,
         "supply": 180,
-        "market": 338,
-        "research": 216,
+        "market": 332,
+        "research": 215,
         "corporate": 335,
         "manufacturing": 215
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 1024
+          "mentions": 1016
         },
         {
           "slug": "nrc",
@@ -295,59 +295,59 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-08-12 18:00:01"
+      "last_ingested_at": "2026-08-13 18:00:02"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-12 18:00:02"
+      "last_ingested_at": "2026-08-14 00:00:01"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-13 06:00:02"
+      "last_ingested_at": "2026-08-14 12:00:02"
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-08-12 12:00:02"
+      "last_ingested_at": "2026-08-13 18:00:02"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
-      "last_ingested_at": "2026-08-13 06:00:01"
+      "last_ingested_at": "2026-08-14 06:00:02"
     },
     {
       "url": "https://www.energy.gov/ne/haleu-availability-program",
-      "last_ingested_at": "2026-08-13 12:00:01"
+      "last_ingested_at": "2026-08-14 12:00:02"
     },
     {
       "url": "https://www.energy.gov/ne/nuclear-reactor-technologies/small-modular-nuclear-reactors",
-      "last_ingested_at": "2026-08-12 18:00:03"
+      "last_ingested_at": "2026-08-14 00:00:04"
     },
     {
       "url": "https://www.gevernova.com/investors",
-      "last_ingested_at": "2026-08-12 18:00:03"
+      "last_ingested_at": "2026-08-14 00:00:04"
     },
     {
       "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
-      "last_ingested_at": "2026-08-12 18:00:03"
+      "last_ingested_at": "2026-08-14 00:00:04"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "last_ingested_at": "2026-08-12 18:00:04"
+      "last_ingested_at": "2026-08-14 00:00:04"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced/new-app/general-guidance/pre-app-process.html",
-      "last_ingested_at": "2026-08-13 12:00:01"
+      "last_ingested_at": "2026-08-14 12:00:02"
     },
     {
       "url": "https://www.nuscalepower.com/en/investors/financials/quarterly-results",
-      "last_ingested_at": "2026-08-13 12:00:02"
+      "last_ingested_at": "2026-08-14 12:00:03"
     },
     {
       "url": "https://www.world-nuclear-news.org/",
-      "last_ingested_at": "2026-08-12 12:00:03"
+      "last_ingested_at": "2026-08-13 18:00:03"
     },
     {
       "url": "https://x-energy.com/amazon-expanding-zero-carbon-power",
-      "last_ingested_at": "2026-08-12 12:00:03"
+      "last_ingested_at": "2026-08-13 18:00:04"
     }
   ]
 }
