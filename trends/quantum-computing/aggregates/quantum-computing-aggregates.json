@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-15T13:31:01Z",
+  "generated_at": "2026-08-16T13:31:01Z",
   "theme_id": "quantum-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,31 +12,31 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 644,
+      "claims_total": 614,
       "claims_by_category": {
-        "manufacturing": 203,
-        "research": 208,
-        "corporate": 148,
-        "market": 41,
+        "manufacturing": 189,
+        "research": 203,
+        "corporate": 140,
+        "market": 38,
         "regulatory": 41,
         "supply": 3
       },
       "top_entities": [
         {
-          "slug": "oxford_instruments",
-          "mentions": 174
-        },
-        {
           "slug": "doe",
           "mentions": 167
         },
         {
+          "slug": "oxford_instruments",
+          "mentions": 163
+        },
+        {
           "slug": "quantum_computing_inc",
-          "mentions": 118
+          "mentions": 111
         },
         {
           "slug": "bluefors",
-          "mentions": 79
+          "mentions": 72
         },
         {
           "slug": "nist",
@@ -72,15 +72,15 @@
         },
         {
           "slug": "nhanced_semiconductors",
-          "mentions": 15
+          "mentions": 14
         },
         {
           "slug": "university_of_vienna",
-          "mentions": 11
+          "mentions": 10
         },
         {
           "slug": "planck_dynamics",
-          "mentions": 10
+          "mentions": 9
         },
         {
           "slug": "the_quantum_insider",
@@ -294,55 +294,55 @@
   "source_freshness": [
     {
       "url": "https://arxiv.org/archive/quant-ph",
-      "last_ingested_at": "2026-08-15 06:00:01"
+      "last_ingested_at": "2026-08-16 06:00:02"
     },
     {
       "url": "https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/",
-      "last_ingested_at": "2026-08-15 00:00:32"
+      "last_ingested_at": "2026-08-16 06:00:04"
     },
     {
       "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
-      "last_ingested_at": "2026-08-14 12:00:03"
+      "last_ingested_at": "2026-08-15 18:00:02"
     },
     {
       "url": "https://bluefors.com/applications/quantum-technology/",
-      "last_ingested_at": "2026-08-15 06:00:03"
+      "last_ingested_at": "2026-08-16 12:00:02"
     },
     {
       "url": "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography",
-      "last_ingested_at": "2026-08-15 00:00:33"
+      "last_ingested_at": "2026-08-16 06:00:34"
     },
     {
       "url": "https://investors.rigetti.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-15 00:00:37"
+      "last_ingested_at": "2026-08-16 06:00:36"
     },
     {
       "url": "https://ir.arqit.uk/news-events/press-releases",
-      "last_ingested_at": "2026-08-14 18:00:02"
+      "last_ingested_at": "2026-08-16 00:00:02"
     },
     {
       "url": "https://quantumcomputinginc.com/investor-relations",
-      "last_ingested_at": "2026-08-15 00:00:36"
+      "last_ingested_at": "2026-08-16 06:00:36"
     },
     {
       "url": "https://science.osti.gov/Initiatives/QIS/QIS-Centers",
-      "last_ingested_at": "2026-08-14 12:00:02"
+      "last_ingested_at": "2026-08-15 18:00:02"
     },
     {
       "url": "https://thequantuminsider.com/",
-      "last_ingested_at": "2026-08-15 00:00:36"
+      "last_ingested_at": "2026-08-16 06:00:36"
     },
     {
       "url": "https://www.bis.gov/press-release/department-commerce-implements-controls-quantum-computing-other-advanced-technologies-alongside",
-      "last_ingested_at": "2026-08-15 00:00:02"
+      "last_ingested_at": "2026-08-16 06:00:02"
     },
     {
       "url": "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
-      "last_ingested_at": "2026-08-14 12:00:03"
+      "last_ingested_at": "2026-08-15 18:00:03"
     },
     {
       "url": "https://www.oxinst.com/applications/quantum-computing",
-      "last_ingested_at": "2026-08-15 00:00:36"
+      "last_ingested_at": "2026-08-16 06:00:35"
     }
   ]
 }
