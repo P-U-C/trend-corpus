@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-15T13:32:01Z",
+  "generated_at": "2026-08-16T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,43 +12,43 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 551,
+      "claims_total": 512,
       "claims_by_category": {
-        "regulatory": 299,
-        "supply": 43,
-        "market": 75,
-        "research": 46,
-        "corporate": 64,
-        "manufacturing": 24
+        "regulatory": 278,
+        "supply": 41,
+        "market": 70,
+        "research": 43,
+        "corporate": 60,
+        "manufacturing": 20
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 268
+          "mentions": 250
         },
         {
           "slug": "nrc",
-          "mentions": 143
+          "mentions": 135
         },
         {
           "slug": "ge_vernova",
-          "mentions": 55
+          "mentions": 49
         },
         {
           "slug": "terrapower",
-          "mentions": 25
+          "mentions": 24
         },
         {
           "slug": "idaho_national_laboratory",
-          "mentions": 24
+          "mentions": 23
         },
         {
           "slug": "nuscale",
-          "mentions": 24
+          "mentions": 23
         },
         {
           "slug": "uamps",
-          "mentions": 15
+          "mentions": 14
         },
         {
           "slug": "westinghouse",
@@ -295,59 +295,59 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-08-15 00:00:02"
+      "last_ingested_at": "2026-08-16 06:00:02"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-15 00:00:02"
+      "last_ingested_at": "2026-08-16 06:00:03"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-14 12:00:02"
+      "last_ingested_at": "2026-08-15 18:00:01"
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-08-15 00:00:02"
+      "last_ingested_at": "2026-08-16 06:00:02"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
-      "last_ingested_at": "2026-08-15 12:00:01"
+      "last_ingested_at": "2026-08-16 12:00:02"
     },
     {
       "url": "https://www.energy.gov/ne/haleu-availability-program",
-      "last_ingested_at": "2026-08-14 12:00:02"
+      "last_ingested_at": "2026-08-15 18:00:01"
     },
     {
       "url": "https://www.energy.gov/ne/nuclear-reactor-technologies/small-modular-nuclear-reactors",
-      "last_ingested_at": "2026-08-15 06:00:01"
+      "last_ingested_at": "2026-08-16 06:00:05"
     },
     {
       "url": "https://www.gevernova.com/investors",
-      "last_ingested_at": "2026-08-15 06:00:02"
+      "last_ingested_at": "2026-08-16 12:00:03"
     },
     {
       "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
-      "last_ingested_at": "2026-08-15 06:00:02"
+      "last_ingested_at": "2026-08-16 12:00:03"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced.html",
-      "last_ingested_at": "2026-08-15 06:00:02"
+      "last_ingested_at": "2026-08-16 12:00:03"
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced/new-app/general-guidance/pre-app-process.html",
-      "last_ingested_at": "2026-08-14 12:00:02"
+      "last_ingested_at": "2026-08-15 18:00:02"
     },
     {
       "url": "https://www.nuscalepower.com/en/investors/financials/quarterly-results",
-      "last_ingested_at": "2026-08-14 12:00:03"
+      "last_ingested_at": "2026-08-15 18:00:02"
     },
     {
       "url": "https://www.world-nuclear-news.org/",
-      "last_ingested_at": "2026-08-15 00:00:04"
+      "last_ingested_at": "2026-08-16 06:00:06"
     },
     {
       "url": "https://x-energy.com/amazon-expanding-zero-carbon-power",
-      "last_ingested_at": "2026-08-15 00:00:04"
+      "last_ingested_at": "2026-08-16 06:00:06"
     }
   ]
 }
