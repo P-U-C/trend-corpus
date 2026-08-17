@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-16T13:32:01Z",
+  "generated_at": "2026-08-17T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,19 +12,19 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 512,
+      "claims_total": 480,
       "claims_by_category": {
-        "regulatory": 278,
-        "supply": 41,
-        "market": 70,
+        "regulatory": 261,
+        "supply": 39,
+        "market": 67,
         "research": 43,
-        "corporate": 60,
-        "manufacturing": 20
+        "corporate": 51,
+        "manufacturing": 19
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 250
+          "mentions": 239
         },
         {
           "slug": "nrc",
@@ -39,12 +39,12 @@
           "mentions": 24
         },
         {
-          "slug": "idaho_national_laboratory",
+          "slug": "nuscale",
           "mentions": 23
         },
         {
-          "slug": "nuscale",
-          "mentions": 23
+          "slug": "idaho_national_laboratory",
+          "mentions": 22
         },
         {
           "slug": "uamps",
@@ -59,16 +59,12 @@
           "mentions": 7
         },
         {
-          "slug": "romania",
-          "mentions": 6
-        },
-        {
           "slug": "edf",
           "mentions": 6
         },
         {
-          "slug": "south_korea",
-          "mentions": 6
+          "slug": "romania",
+          "mentions": 5
         },
         {
           "slug": "nuclearelectrica",
@@ -91,23 +87,27 @@
           "mentions": 4
         },
         {
-          "slug": "almaraz",
-          "mentions": 4
+          "slug": "saudi_arabia",
+          "mentions": 3
         },
         {
-          "slug": "constellation",
-          "mentions": 4
+          "slug": "hungary",
+          "mentions": 2
         },
         {
-          "slug": "blue_energy",
-          "mentions": 4
+          "slug": "china",
+          "mentions": 2
+        },
+        {
+          "slug": "world_nuclear_association",
+          "mentions": 2
         }
       ]
     },
     "90d": {
-      "claims_total": 2660,
+      "claims_total": 2654,
       "claims_by_category": {
-        "regulatory": 1395,
+        "regulatory": 1389,
         "supply": 177,
         "market": 329,
         "research": 212,
@@ -295,19 +295,19 @@
   "source_freshness": [
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-08-16 06:00:02"
+      "last_ingested_at": "2026-08-17 12:00:02"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-16 06:00:03"
+      "last_ingested_at": "2026-08-17 12:00:02"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-15 18:00:01"
+      "last_ingested_at": "2026-08-16 18:00:02"
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-08-16 06:00:02"
+      "last_ingested_at": "2026-08-17 12:00:02"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
@@ -315,11 +315,11 @@
     },
     {
       "url": "https://www.energy.gov/ne/haleu-availability-program",
-      "last_ingested_at": "2026-08-15 18:00:01"
+      "last_ingested_at": "2026-08-16 18:00:02"
     },
     {
       "url": "https://www.energy.gov/ne/nuclear-reactor-technologies/small-modular-nuclear-reactors",
-      "last_ingested_at": "2026-08-16 06:00:05"
+      "last_ingested_at": "2026-08-17 12:00:03"
     },
     {
       "url": "https://www.gevernova.com/investors",
@@ -335,19 +335,19 @@
     },
     {
       "url": "https://www.nrc.gov/reactors/new-reactors/advanced/new-app/general-guidance/pre-app-process.html",
-      "last_ingested_at": "2026-08-15 18:00:02"
+      "last_ingested_at": "2026-08-16 18:00:03"
     },
     {
       "url": "https://www.nuscalepower.com/en/investors/financials/quarterly-results",
-      "last_ingested_at": "2026-08-15 18:00:02"
+      "last_ingested_at": "2026-08-16 18:00:03"
     },
     {
       "url": "https://www.world-nuclear-news.org/",
-      "last_ingested_at": "2026-08-16 06:00:06"
+      "last_ingested_at": "2026-08-17 12:00:04"
     },
     {
       "url": "https://x-energy.com/amazon-expanding-zero-carbon-power",
-      "last_ingested_at": "2026-08-16 06:00:06"
+      "last_ingested_at": "2026-08-17 12:00:04"
     }
   ]
 }
