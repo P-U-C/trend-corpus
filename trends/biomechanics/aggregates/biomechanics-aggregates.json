@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-16T13:43:01Z",
+  "generated_at": "2026-08-17T13:43:01Z",
   "theme_id": "biomechanics",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -12,26 +12,26 @@
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 224,
+      "claims_total": 209,
       "claims_by_category": {
-        "corporate": 91,
-        "research": 27,
-        "market": 91,
-        "manufacturing": 10,
+        "corporate": 84,
+        "research": 26,
+        "market": 88,
+        "manufacturing": 6,
         "regulatory": 5
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 179
+          "mentions": 166
         },
         {
           "slug": "globus_medical",
-          "mentions": 28
+          "mentions": 26
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 15
+          "mentions": 14
         },
         {
           "slug": "wandercraft",
@@ -195,7 +195,7 @@
   "source_freshness": [
     {
       "url": "https://investors.globusmedical.com",
-      "last_ingested_at": "2026-08-16 00:00:02"
+      "last_ingested_at": "2026-08-17 06:00:02"
     },
     {
       "url": "https://orthofeed.com/2025/03/15/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting/",
@@ -227,11 +227,11 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001549084/000143774925031957/ex_849226.htm",
-      "last_ingested_at": "2026-08-15 18:00:01"
+      "last_ingested_at": "2026-08-16 18:00:02"
     },
     {
       "url": "https://www.therobotreport.com/german-bionic-unveils-exia-ai-augmented-industrial-exoskeleton/",
-      "last_ingested_at": "2026-08-15 18:00:02"
+      "last_ingested_at": "2026-08-16 18:00:02"
     }
   ]
 }
