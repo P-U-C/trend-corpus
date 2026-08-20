@@ -1,24 +1,24 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-19T13:37:01Z",
+  "generated_at": "2026-08-20T13:37:02Z",
   "theme_id": "bci-neurotech",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 9163,
+  "underlying_claim_count": 9285,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
       "claims_total": 158,
       "claims_by_category": {
-        "manufacturing": 23,
-        "regulatory": 64,
+        "manufacturing": 25,
+        "regulatory": 62,
         "clinical": 40,
-        "market": 22,
-        "corporate": 9
+        "market": 21,
+        "corporate": 10
       },
       "top_entities": [
         {
@@ -31,7 +31,7 @@
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 5
+          "mentions": 6
         },
         {
           "slug": "cdrh",
@@ -40,13 +40,13 @@
       ]
     },
     "90d": {
-      "claims_total": 731,
+      "claims_total": 733,
       "claims_by_category": {
-        "manufacturing": 85,
+        "manufacturing": 87,
         "regulatory": 311,
-        "clinical": 191,
-        "market": 94,
-        "corporate": 48,
+        "clinical": 188,
+        "market": 95,
+        "corporate": 50,
         "research": 2
       },
       "top_entities": [
@@ -60,7 +60,7 @@
         },
         {
           "slug": "paradromics",
-          "mentions": 48
+          "mentions": 49
         },
         {
           "slug": "livanova",
@@ -72,7 +72,7 @@
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 5
+          "mentions": 6
         },
         {
           "slug": "cber",
@@ -133,14 +133,14 @@
       ]
     },
     "365d": {
-      "claims_total": 4644,
+      "claims_total": 4692,
       "claims_by_category": {
-        "manufacturing": 191,
-        "regulatory": 1101,
-        "clinical": 873,
-        "market": 421,
-        "corporate": 1635,
-        "research": 423
+        "manufacturing": 196,
+        "regulatory": 1114,
+        "clinical": 879,
+        "market": 423,
+        "corporate": 1653,
+        "research": 427
       },
       "top_entities": [
         {
@@ -149,15 +149,15 @@
         },
         {
           "slug": "fda",
-          "mentions": 1002
+          "mentions": 1016
         },
         {
           "slug": "livanova",
-          "mentions": 827
+          "mentions": 841
         },
         {
           "slug": "paradromics",
-          "mentions": 785
+          "mentions": 796
         },
         {
           "slug": "quantum_si",
@@ -165,39 +165,39 @@
         },
         {
           "slug": "boston_scientific",
-          "mentions": 493
+          "mentions": 500
         },
         {
           "slug": "merge_labs",
-          "mentions": 213
+          "mentions": 219
         },
         {
           "slug": "openai",
-          "mentions": 81
+          "mentions": 83
         },
         {
           "slug": "cdrh",
-          "mentions": 73
+          "mentions": 76
         },
         {
           "slug": "cms",
-          "mentions": 72
+          "mentions": 73
         },
         {
           "slug": "cber",
-          "mentions": 69
+          "mentions": 72
         },
         {
           "slug": "flow_neuroscience",
-          "mentions": 61
+          "mentions": 62
         },
         {
           "slug": "neurolief",
-          "mentions": 42
+          "mentions": 43
         },
         {
           "slug": "ceribell",
-          "mentions": 40
+          "mentions": 41
         },
         {
           "slug": "braingate",
@@ -205,7 +205,7 @@
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 9
+          "mentions": 10
         },
         {
           "slug": "neuro_event_labs",
@@ -229,7 +229,7 @@
   "source_freshness": [
     {
       "url": "https://blackrockneurotech.com/insights/blackrock-neurotechs-moveagain-brain-computer-interface-system-receives-breakthrough-device-designation-from-the-fda/",
-      "last_ingested_at": "2026-08-18 12:00:02"
+      "last_ingested_at": "2026-08-19 18:00:03"
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT07357428",
@@ -241,47 +241,47 @@
     },
     {
       "url": "https://news.medtronic.com/2025-05-21-Medtronic-reports-strong-finish-to-its-fiscal-year-with-its-fourth-quarter-financial-results-announces-dividend-increase",
-      "last_ingested_at": "2026-08-19 00:00:03"
+      "last_ingested_at": "2026-08-20 06:00:04"
     },
     {
       "url": "https://openai.com/index/investing-in-merge-labs/",
-      "last_ingested_at": "2026-08-19 00:00:04"
+      "last_ingested_at": "2026-08-20 06:00:05"
     },
     {
       "url": "https://www.bostonscientific.com/en-US/about-us/core-businesses/neuromodulation.html",
-      "last_ingested_at": "2026-08-19 00:00:02"
+      "last_ingested_at": "2026-08-20 06:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20240930433219/en/Synchron-Announces-Positive-Results-from-U.S.-COMMAND-Study-of-Endovascular-Brain-Computer-Interface",
-      "last_ingested_at": "2026-08-18 18:00:03"
+      "last_ingested_at": "2026-08-20 00:00:03"
     },
     {
       "url": "https://www.butterflynetwork.com/press-releases/co-development-agreement-with-forest-neurotech",
-      "last_ingested_at": "2026-08-19 00:00:02"
+      "last_ingested_at": "2026-08-20 06:00:03"
     },
     {
       "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program",
-      "last_ingested_at": "2026-08-19 00:00:02"
+      "last_ingested_at": "2026-08-20 06:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/4/17/3063418/0/en/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array.html",
-      "last_ingested_at": "2026-08-18 18:00:01"
+      "last_ingested_at": "2026-08-19 18:00:03"
     },
     {
       "url": "https://www.nasdaq.com/press-release/livanova-reports-fourth-quarter-and-full-year-2025-results-issues-2026-guidance-2026",
-      "last_ingested_at": "2026-08-19 00:00:03"
+      "last_ingested_at": "2026-08-20 06:00:04"
     },
     {
       "url": "https://www.nature.com/articles/s41586-023-06377-x",
-      "last_ingested_at": "2026-08-19 00:00:03"
+      "last_ingested_at": "2026-08-20 06:00:04"
     },
     {
       "url": "https://www.paradromics.com/news/paradromics-receives-fda-approval-for-the-connect-one-clinical-study-with-the-connexus-brain-computer-interface",
-      "last_ingested_at": "2026-08-19 00:00:04"
+      "last_ingested_at": "2026-08-20 06:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000032/qsi572026ex991.htm",
-      "last_ingested_at": "2026-08-18 18:00:01"
+      "last_ingested_at": "2026-08-19 18:00:04"
     }
   ]
 }
