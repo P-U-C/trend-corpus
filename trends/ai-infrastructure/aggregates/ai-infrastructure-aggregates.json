@@ -1,36 +1,36 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-20T13:30:01Z",
+  "generated_at": "2026-08-21T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 2824,
+  "underlying_claim_count": 2853,
   "underlying_source_count": 12,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 226,
+      "claims_total": 207,
       "claims_by_category": {
-        "corporate": 84,
-        "market": 93,
-        "regulatory": 48,
+        "corporate": 82,
+        "market": 80,
+        "regulatory": 44,
         "manufacturing": 1
       },
       "top_entities": [
         {
           "slug": "taiwan_semiconductor",
-          "mentions": 74
-        },
-        {
-          "slug": "astera_labs",
-          "mentions": 71
+          "mentions": 73
         },
         {
           "slug": "doc",
-          "mentions": 69
+          "mentions": 64
+        },
+        {
+          "slug": "astera_labs",
+          "mentions": 59
         },
         {
           "slug": "nist",
@@ -38,7 +38,7 @@
         },
         {
           "slug": "broadcom",
-          "mentions": 11
+          "mentions": 10
         },
         {
           "slug": "vmware",
@@ -71,22 +71,22 @@
       ]
     },
     "90d": {
-      "claims_total": 1261,
+      "claims_total": 1258,
       "claims_by_category": {
         "corporate": 591,
-        "market": 448,
-        "regulatory": 220,
+        "market": 450,
+        "regulatory": 215,
         "manufacturing": 1,
         "supply": 1
       },
       "top_entities": [
         {
           "slug": "astera_labs",
-          "mentions": 365
+          "mentions": 367
         },
         {
           "slug": "doc",
-          "mentions": 336
+          "mentions": 331
         },
         {
           "slug": "taiwan_semiconductor",
@@ -145,11 +145,11 @@
           "mentions": 10
         },
         {
-          "slug": "korea_zinc",
-          "mentions": 8
+          "slug": "semianalysis",
+          "mentions": 7
         },
         {
-          "slug": "semianalysis",
+          "slug": "korea_zinc",
           "mentions": 7
         },
         {
@@ -163,22 +163,22 @@
       ]
     },
     "365d": {
-      "claims_total": 1662,
+      "claims_total": 1653,
       "claims_by_category": {
-        "corporate": 739,
-        "market": 545,
-        "regulatory": 247,
-        "manufacturing": 68,
-        "supply": 63
+        "corporate": 743,
+        "market": 529,
+        "regulatory": 248,
+        "manufacturing": 69,
+        "supply": 64
       },
       "top_entities": [
         {
           "slug": "astera_labs",
-          "mentions": 408
+          "mentions": 414
         },
         {
           "slug": "taiwan_semiconductor",
-          "mentions": 379
+          "mentions": 380
         },
         {
           "slug": "doc",
@@ -190,11 +190,11 @@
         },
         {
           "slug": "huawei",
-          "mentions": 111
+          "mentions": 113
         },
         {
           "slug": "marvell",
-          "mentions": 92
+          "mentions": 93
         },
         {
           "slug": "nist",
@@ -202,19 +202,19 @@
         },
         {
           "slug": "celestial_ai",
-          "mentions": 64
+          "mentions": 65
         },
         {
           "slug": "samsung",
           "mentions": 41
         },
         {
-          "slug": "nvidia",
-          "mentions": 37
-        },
-        {
           "slug": "openai",
           "mentions": 32
+        },
+        {
+          "slug": "smic",
+          "mentions": 31
         },
         {
           "slug": "sk_hynix",
@@ -225,12 +225,8 @@
           "mentions": 31
         },
         {
-          "slug": "smic",
-          "mentions": 30
-        },
-        {
           "slug": "cxmt",
-          "mentions": 27
+          "mentions": 28
         },
         {
           "slug": "powerex",
@@ -245,11 +241,15 @@
           "mentions": 21
         },
         {
-          "slug": "standard_chartered",
-          "mentions": 17
+          "slug": "nvidia",
+          "mentions": 18
         },
         {
           "slug": "bis",
+          "mentions": 18
+        },
+        {
+          "slug": "standard_chartered",
           "mentions": 17
         }
       ]
@@ -258,7 +258,7 @@
   "source_freshness": [
     {
       "url": "https://investor.marvell.com/financial-information/financial-results",
-      "last_ingested_at": "2026-08-20 00:00:05"
+      "last_ingested_at": "2026-08-21 06:00:03"
     },
     {
       "url": "https://investor.nvidia.com/financial-info/quarterly-results/default.aspx",
@@ -266,7 +266,7 @@
     },
     {
       "url": "https://investor.tsmc.com/english/quarterly-results",
-      "last_ingested_at": "2026-08-20 00:00:09"
+      "last_ingested_at": "2026-08-21 06:00:05"
     },
     {
       "url": "https://investors.broadcom.com/",
@@ -282,23 +282,23 @@
     },
     {
       "url": "https://ir.asteralabs.com/",
-      "last_ingested_at": "2026-08-20 00:00:02"
+      "last_ingested_at": "2026-08-21 06:00:02"
     },
     {
       "url": "https://semianalysis.com/tag/ai-infrastructure/",
-      "last_ingested_at": "2026-08-20 00:00:08"
+      "last_ingested_at": "2026-08-21 06:00:05"
     },
     {
       "url": "https://spectrum.ieee.org/tag/data-centers",
-      "last_ingested_at": "2026-08-19 12:00:03"
+      "last_ingested_at": "2026-08-20 18:00:02"
     },
     {
       "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
-      "last_ingested_at": "2026-08-20 00:00:05"
+      "last_ingested_at": "2026-08-21 06:00:02"
     },
     {
       "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing-and",
-      "last_ingested_at": "2026-08-20 06:00:03"
+      "last_ingested_at": "2026-08-21 12:00:02"
     },
     {
       "url": "https://www.nist.gov/chips",
