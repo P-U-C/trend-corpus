@@ -1,33 +1,33 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-21T13:33:01Z",
+  "generated_at": "2026-08-22T13:33:01Z",
   "theme_id": "robotics-humanoid",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 4533,
+  "underlying_claim_count": 4554,
   "underlying_source_count": 15,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 315,
+      "claims_total": 306,
       "claims_by_category": {
-        "regulatory": 158,
-        "corporate": 71,
-        "manufacturing": 32,
-        "research": 35,
-        "market": 19
+        "regulatory": 159,
+        "corporate": 66,
+        "manufacturing": 29,
+        "research": 34,
+        "market": 18
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 134
+          "mentions": 124
         },
         {
           "slug": "iso",
-          "mentions": 103
+          "mentions": 104
         },
         {
           "slug": "osha",
@@ -39,11 +39,11 @@
         },
         {
           "slug": "harmonic_drive_systems",
-          "mentions": 18
+          "mentions": 15
         },
         {
-          "slug": "harmonic_drive_se",
-          "mentions": 10
+          "slug": "ansi",
+          "mentions": 9
         },
         {
           "slug": "ul",
@@ -54,7 +54,7 @@
           "mentions": 8
         },
         {
-          "slug": "ansi",
+          "slug": "harmonic_drive_se",
           "mentions": 8
         },
         {
@@ -104,18 +104,18 @@
       ]
     },
     "90d": {
-      "claims_total": 1351,
+      "claims_total": 1339,
       "claims_by_category": {
         "regulatory": 705,
-        "corporate": 306,
-        "manufacturing": 141,
-        "research": 123,
-        "market": 76
+        "corporate": 300,
+        "manufacturing": 138,
+        "research": 121,
+        "market": 75
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 590
+          "mentions": 579
         },
         {
           "slug": "iso",
@@ -123,15 +123,15 @@
         },
         {
           "slug": "osha",
-          "mentions": 256
+          "mentions": 254
         },
         {
           "slug": "ria",
-          "mentions": 194
+          "mentions": 193
         },
         {
           "slug": "ansi",
-          "mentions": 81
+          "mentions": 84
         },
         {
           "slug": "harmonic_drive_systems",
@@ -143,7 +143,7 @@
         },
         {
           "slug": "ul",
-          "mentions": 39
+          "mentions": 40
         },
         {
           "slug": "harmonic_drive_se",
@@ -155,7 +155,7 @@
         },
         {
           "slug": "figure",
-          "mentions": 21
+          "mentions": 20
         },
         {
           "slug": "usm",
@@ -196,9 +196,9 @@
       ]
     },
     "365d": {
-      "claims_total": 1517,
+      "claims_total": 1528,
       "claims_by_category": {
-        "regulatory": 760,
+        "regulatory": 771,
         "corporate": 334,
         "manufacturing": 172,
         "research": 152,
@@ -211,19 +211,19 @@
         },
         {
           "slug": "iso",
-          "mentions": 514
+          "mentions": 521
         },
         {
           "slug": "osha",
-          "mentions": 268
+          "mentions": 271
         },
         {
           "slug": "ria",
-          "mentions": 210
+          "mentions": 214
         },
         {
           "slug": "ansi",
-          "mentions": 90
+          "mentions": 93
         },
         {
           "slug": "harmonic_drive_systems",
@@ -231,11 +231,11 @@
         },
         {
           "slug": "csa",
-          "mentions": 47
+          "mentions": 48
         },
         {
           "slug": "ul",
-          "mentions": 42
+          "mentions": 43
         },
         {
           "slug": "harmonic_drive_se",
@@ -291,31 +291,31 @@
   "source_freshness": [
     {
       "url": "https://apptronik.com/news-collection/apptronik-and-mercedes-benz-enter-commercial-agreement?_bhlid=8245ad561302e835048adab5d90101ee99733e77",
-      "last_ingested_at": "2026-08-21 12:00:02"
+      "last_ingested_at": "2026-08-22 12:00:03"
     },
     {
       "url": "https://global.abb/group/en/investors/quarterly-results",
-      "last_ingested_at": "2026-08-21 12:00:02"
+      "last_ingested_at": "2026-08-22 12:00:03"
     },
     {
       "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-preliminary-fourth-quarter-and-full-year-5",
-      "last_ingested_at": "2026-08-21 06:00:31"
+      "last_ingested_at": "2026-08-22 12:00:33"
     },
     {
       "url": "https://investors.teradyne.com/financial-results",
-      "last_ingested_at": "2026-08-21 06:01:32"
+      "last_ingested_at": "2026-08-22 12:01:34"
     },
     {
       "url": "https://ir.symbotic.com/investor-relations",
-      "last_ingested_at": "2026-08-21 06:01:32"
+      "last_ingested_at": "2026-08-22 12:01:34"
     },
     {
       "url": "https://ir.tesla.com/#quarterly-disclosure",
-      "last_ingested_at": "2026-08-21 06:01:32"
+      "last_ingested_at": "2026-08-22 12:01:34"
     },
     {
       "url": "https://serverobotics.gcs-web.com/",
-      "last_ingested_at": "2026-08-21 06:01:02"
+      "last_ingested_at": "2026-08-22 12:01:04"
     },
     {
       "url": "https://spectrum.ieee.org/topic/robotics/",
@@ -331,11 +331,11 @@
     },
     {
       "url": "https://www.iso.org/standard/73933.html",
-      "last_ingested_at": "2026-08-21 06:00:31"
+      "last_ingested_at": "2026-08-22 12:00:33"
     },
     {
       "url": "https://www.osha.gov/robotics/standards",
-      "last_ingested_at": "2026-08-21 06:00:32"
+      "last_ingested_at": "2026-08-22 12:00:34"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-announces-commercial-agreement-with-bmw-manufacturing-to-bring-general-purpose-robots-into-automotive-production-302036263.html",
