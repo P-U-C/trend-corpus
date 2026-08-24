@@ -200,7 +200,7 @@ def _tokens(text: str) -> set[str]:
 
 
 def verify(url: str, claimed_title: str, timeout: int = 25,
-           attempts: int = 2) -> tuple[bool, str]:
+           attempts: int = 2, tier: str = "secondary") -> tuple[bool, str]:
     """Does this page exist, and is it the page we were told it was?
 
     Two separate questions, and the second is the one that matters. A status of
@@ -233,6 +233,13 @@ def verify(url: str, claimed_title: str, timeout: int = 25,
                 return True, ""
             want, got = _tokens(claimed_title), _tokens(page_title)
             if want and len(want & got) < max(2, len(want) // 4):
+                if tier == "primary":
+                    # SEC filings title themselves "6-K" and "EdgarFiling";
+                    # wire services and IR pages often title the site, not the
+                    # release. Rejecting those loses the best evidence in the
+                    # set to a heuristic aimed at a different problem -- a
+                    # low-quality link quietly resolving to something else.
+                    return True, f"(title unmatched) {page_title[:120]}"
                 return False, f"title mismatch: page says {page_title[:70]!r}"
             return True, page_title[:180]
         except urllib.error.HTTPError as e:
@@ -329,10 +336,11 @@ def main() -> int:
 
         kept = []
         for c in unique[: args.limit]:
-            ok, detail = verify(c["url"], c["title"])
+            tier = publisher_tier(c["url"])
+            ok, detail = verify(c["url"], c["title"], tier=tier)
             if ok:
                 c["verified_title"] = detail
-                c["publisher_tier"] = publisher_tier(c["url"])
+                c["publisher_tier"] = tier
                 kept.append(c)
             else:
                 print(f"  {theme_id}: dropped {c['url'][:70]} ({detail})",
