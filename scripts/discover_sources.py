@@ -170,9 +170,14 @@ def parse(text: str) -> list[dict]:
         parts = [p.strip() for p in line.split("|")]
         if len(parts) < 3:
             continue
-        url = parts[0]
+        # Models wrap URLs in markdown even when told not to, and a stray
+        # backtick turns a real investor-relations link into a DNS failure that
+        # reads like a dead source. Strip the decoration before judging it.
+        url = parts[0].strip().strip("`<>\"'").strip()
+        url = re.sub(r"^\[.*?\]\(", "", url).rstrip(")")
+        url = re.sub(r"^https?://[`'\"]+", "https://", url)
         if not re.match(r"^https?://", url):
-            url = "https://" + url
+            url = "https://" + url.lstrip("`")
         if "." not in url.split("//", 1)[-1].split("/")[0]:
             continue
         out.append({
