@@ -1,33 +1,33 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-23T13:37:01Z",
+  "generated_at": "2026-08-24T13:37:01Z",
   "theme_id": "bci-neurotech",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 9556,
+  "underlying_claim_count": 9643,
   "underlying_source_count": 14,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 135,
+      "claims_total": 145,
       "claims_by_category": {
-        "manufacturing": 25,
-        "regulatory": 56,
-        "market": 15,
-        "clinical": 36,
-        "corporate": 3
+        "corporate": 4,
+        "regulatory": 58,
+        "clinical": 42,
+        "market": 16,
+        "manufacturing": 25
       },
       "top_entities": [
         {
           "slug": "boston_scientific",
-          "mentions": 96
+          "mentions": 105
         },
         {
           "slug": "fda",
-          "mentions": 51
+          "mentions": 53
         },
         {
           "slug": "cdrh",
@@ -36,27 +36,27 @@
       ]
     },
     "90d": {
-      "claims_total": 735,
+      "claims_total": 736,
       "claims_by_category": {
-        "manufacturing": 88,
-        "regulatory": 311,
+        "corporate": 54,
+        "regulatory": 307,
+        "clinical": 190,
         "market": 96,
-        "clinical": 186,
-        "corporate": 52,
+        "manufacturing": 87,
         "research": 2
       },
       "top_entities": [
         {
           "slug": "boston_scientific",
-          "mentions": 477
+          "mentions": 479
         },
         {
           "slug": "fda",
-          "mentions": 248
+          "mentions": 246
         },
         {
           "slug": "paradromics",
-          "mentions": 51
+          "mentions": 52
         },
         {
           "slug": "livanova",
@@ -129,19 +129,19 @@
       ]
     },
     "365d": {
-      "claims_total": 4808,
+      "claims_total": 4846,
       "claims_by_category": {
-        "manufacturing": 205,
-        "regulatory": 1143,
-        "market": 429,
-        "clinical": 893,
-        "corporate": 1697,
-        "research": 441
+        "corporate": 1704,
+        "regulatory": 1153,
+        "clinical": 904,
+        "market": 434,
+        "manufacturing": 208,
+        "research": 443
       },
       "top_entities": [
         {
           "slug": "fda",
-          "mentions": 1042
+          "mentions": 1052
         },
         {
           "slug": "onward_medical",
@@ -149,11 +149,11 @@
         },
         {
           "slug": "livanova",
-          "mentions": 866
+          "mentions": 877
         },
         {
           "slug": "paradromics",
-          "mentions": 819
+          "mentions": 831
         },
         {
           "slug": "quantum_si",
@@ -161,7 +161,7 @@
         },
         {
           "slug": "boston_scientific",
-          "mentions": 514
+          "mentions": 523
         },
         {
           "slug": "merge_labs",
@@ -173,23 +173,23 @@
         },
         {
           "slug": "cdrh",
-          "mentions": 79
-        },
-        {
-          "slug": "cms",
-          "mentions": 75
+          "mentions": 82
         },
         {
           "slug": "cber",
-          "mentions": 75
+          "mentions": 78
+        },
+        {
+          "slug": "cms",
+          "mentions": 77
         },
         {
           "slug": "flow_neuroscience",
-          "mentions": 64
+          "mentions": 65
         },
         {
           "slug": "neurolief",
-          "mentions": 44
+          "mentions": 45
         },
         {
           "slug": "ceribell",
@@ -237,27 +237,27 @@
     },
     {
       "url": "https://news.medtronic.com/2025-05-21-Medtronic-reports-strong-finish-to-its-fiscal-year-with-its-fourth-quarter-financial-results-announces-dividend-increase",
-      "last_ingested_at": "2026-08-22 18:00:02"
+      "last_ingested_at": "2026-08-24 00:00:02"
     },
     {
       "url": "https://openai.com/index/investing-in-merge-labs/",
-      "last_ingested_at": "2026-08-22 18:00:03"
+      "last_ingested_at": "2026-08-24 00:00:02"
     },
     {
       "url": "https://www.bostonscientific.com/en-US/about-us/core-businesses/neuromodulation.html",
-      "last_ingested_at": "2026-08-22 12:00:03"
+      "last_ingested_at": "2026-08-23 18:00:02"
     },
     {
       "url": "https://www.businesswire.com/news/home/20240930433219/en/Synchron-Announces-Positive-Results-from-U.S.-COMMAND-Study-of-Endovascular-Brain-Computer-Interface",
-      "last_ingested_at": "2026-08-22 12:00:09"
+      "last_ingested_at": "2026-08-23 18:00:04"
     },
     {
       "url": "https://www.butterflynetwork.com/press-releases/co-development-agreement-with-forest-neurotech",
-      "last_ingested_at": "2026-08-22 12:00:03"
+      "last_ingested_at": "2026-08-23 18:00:02"
     },
     {
       "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program",
-      "last_ingested_at": "2026-08-22 12:00:03"
+      "last_ingested_at": "2026-08-23 18:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/4/17/3063418/0/en/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array.html",
@@ -265,15 +265,15 @@
     },
     {
       "url": "https://www.nasdaq.com/press-release/livanova-reports-fourth-quarter-and-full-year-2025-results-issues-2026-guidance-2026",
-      "last_ingested_at": "2026-08-22 18:00:02"
+      "last_ingested_at": "2026-08-24 00:00:02"
     },
     {
       "url": "https://www.nature.com/articles/s41586-023-06377-x",
-      "last_ingested_at": "2026-08-22 18:00:02"
+      "last_ingested_at": "2026-08-24 00:00:02"
     },
     {
       "url": "https://www.paradromics.com/news/paradromics-receives-fda-approval-for-the-connect-one-clinical-study-with-the-connexus-brain-computer-interface",
-      "last_ingested_at": "2026-08-22 18:00:03"
+      "last_ingested_at": "2026-08-24 00:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000032/qsi572026ex991.htm",
