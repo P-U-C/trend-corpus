@@ -1,0 +1,17 @@
+id: clm_ai_infrastruct_marvell_advances_ai_memory_infrastructur
+type: claim
+theme_id: ai-infrastructure
+claim: "On August 4, 2026, Marvell announced the Bravera SC6 PCIe 6.0 SSD controller (sampling Q4 2026, doubling the performance of the prior Bravera SC5 PCIe 5.0 controller) alongside Structera X CXL memory expansion/pooling solutions and Photonic Fabric optical shared-memory products. Marvell states the Photonic Fabric architecture supports up to 32TB of shared KV cache offload across racks spanning up to 50 meters, with a claimed 2-3x token throughput improvement for agentic AI inference workloads; no named hyperscaler customers or partnerships were disclosed."
+category: technical
+source_ids:
+  - src_ai_infrastructur_marvell_advances_ai_memory_infrastructur
+date_of_evidence: "2026-08-04"
+evidence_at: "2026-08-04"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
