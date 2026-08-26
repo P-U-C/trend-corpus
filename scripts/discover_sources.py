@@ -74,6 +74,13 @@ Rules:
 - Do NOT return any of these URLs, which are already held:
 {known}
 
+Search budget: at most 6 web searches, then answer with what you have. This
+is a hard budget, not a target. Cost here scales with turns, not with quality:
+every search you run is re-read on every turn that follows it, so the 43rd
+search on a theme costs more than the first five combined and has never once
+changed the answer. If six searches did not find {limit} sources inside the
+window, return fewer.
+
 Return at most {limit} lines, nothing else. No preamble, no numbering, no
 commentary. One line each, pipe-separated, exactly:
 
@@ -295,6 +302,10 @@ def main() -> int:
     ap.add_argument("--window", type=int, default=WINDOW_DAYS)
     ap.add_argument("--model", default="sonnet")
     ap.add_argument("--timeout", type=int, default=300)
+    ap.add_argument("--shard", default="",
+                    help="i/n -- take every nth theme starting at i. Lets cron "
+                         "spread the fleet across hours instead of firing every "
+                         "session inside one rate-limit window.")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--commit", action="store_true")
     args = ap.parse_args()
@@ -305,6 +316,9 @@ def main() -> int:
         if d.is_dir() and not d.name.startswith("_") and (d / "trend.yaml").exists()
         and (not wanted or d.name in wanted)
     )
+    if args.shard:
+        i, _, n = args.shard.partition("/")
+        themes = themes[int(i)::int(n)]
 
     added_total = 0
     written: list[Path] = []

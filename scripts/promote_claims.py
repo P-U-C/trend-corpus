@@ -29,6 +29,8 @@ import json
 import re
 import subprocess
 import sys
+import urllib.error
+import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -59,6 +61,15 @@ Write ONE claim. Rules:
 Output exactly two lines and nothing else:
 CATEGORY: <one of the categories>
 CLAIM: <the claim text on a single line>"""
+
+# Same question, with the page already read. The model sees exactly what
+# WebFetch would have shown it; the difference is that it costs one turn
+# instead of three.
+PROMPT_INLINE = PROMPT.replace(
+    "PUBLISHED: {published}",
+    "PUBLISHED: {published}\n\nSOURCE TEXT (already retrieved -- do not fetch "
+    "anything, and judge only what is below):\n{body}",
+)
 
 
 def slugify(text: str, limit: int = 44) -> str:
@@ -96,11 +107,53 @@ def pending_sources(theme_dir: Path) -> list[dict]:
     return out
 
 
-def ask(prompt: str, model: str, timeout: int) -> str:
+_TAGS = re.compile(r"<(script|style|noscript)[^>]*>.*?</\1>", re.S | re.I)
+
+
+def fetch_text(url: str, timeout: int = 25, cap: int = 24_000) -> str:
+    """Pull the readable body of a page here, so the model does not have to.
+
+    Handing a model a URL and a WebFetch tool turns a one-turn question into a
+    three-turn session: fetch, read, answer. Every one of those turns re-reads
+    the entire context, and the fixed preamble on this box is ~39k tokens
+    before a single word of the article -- so the retrieval costs several times
+    what the judgement does. Measured 2026-08-26: 64 of these ran in one burst
+    and spent 7.2M tokens, almost all of it on re-reading the preamble while
+    the model waited for a page Python could have handed it.
+
+    Returns "" on any failure, and the caller falls back to WebFetch. A bot
+    wall is a real page behind an unfriendly door, and the model's fetcher gets
+    through some of them that urllib does not.
+    """
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; trend-corpus reader)",
+        "Accept": "text/html,application/xhtml+xml,*/*",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            if not (200 <= r.status < 400):
+                return ""
+            raw = r.read(400_000).decode("utf-8", "replace")
+    except Exception:
+        return ""
+    body = _TAGS.sub(" ", raw)
+    body = re.sub(r"<[^>]+>", " ", body)
+    body = re.sub(r"&nbsp;?", " ", body)
+    body = re.sub(r"\s+", " ", body).strip()
+    # Under a few hundred characters is a cookie wall or a JS shell, not an
+    # article. Say nothing rather than ask the model to judge boilerplate.
+    return body[:cap] if len(body) > 400 else ""
+
+
+def ask(prompt: str, model: str, timeout: int, offline: bool = False) -> str:
+    cmd = ["claude", "-p", prompt, "--model", model, "--output-format", "text"]
+    # With the text already inlined there is nothing to reach for, so close the
+    # door: a model that decides to "check" the URL anyway would put the three
+    # turns straight back.
+    cmd += (["--disallowed-tools", "WebFetch", "WebSearch"] if offline
+            else ["--allowed-tools", "WebFetch"])
     result = subprocess.run(
-        ["claude", "-p", prompt, "--model", model,
-         "--output-format", "text", "--allowed-tools", "WebFetch"],
-        capture_output=True, text=True, timeout=timeout,
+        cmd, capture_output=True, text=True, timeout=timeout,
     )
     if result.returncode != 0:
         blob = ((result.stdout or "") + " " + (result.stderr or "")).lower()
@@ -165,6 +218,10 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=PER_THEME)
     ap.add_argument("--model", default="sonnet")
     ap.add_argument("--timeout", type=int, default=240)
+    ap.add_argument("--shard", default="",
+                    help="i/n -- take every nth theme starting at i. Lets cron "
+                         "spread the fleet across hours instead of firing every "
+                         "session inside one rate-limit window.")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--commit", action="store_true")
     args = ap.parse_args()
@@ -175,6 +232,9 @@ def main() -> int:
         if d.is_dir() and not d.name.startswith("_") and (d / "trend.yaml").exists()
         and (not wanted or d.name in wanted)
     )
+    if args.shard:
+        i, _, n = args.shard.partition("/")
+        themes = themes[int(i)::int(n)]
 
     written: list[Path] = []
     skipped = 0
@@ -185,12 +245,21 @@ def main() -> int:
             continue
         made = 0
         for src in sources:
-            prompt = PROMPT.format(
-                theme=theme_id, title=src["title"], url=src["url"],
-                published=src["published"], categories=", ".join(CATEGORIES),
-            )
+            body = fetch_text(src["url"])
+            if body:
+                prompt = PROMPT_INLINE.format(
+                    theme=theme_id, title=src["title"], url=src["url"],
+                    published=src["published"], body=body,
+                    categories=", ".join(CATEGORIES),
+                )
+            else:
+                prompt = PROMPT.format(
+                    theme=theme_id, title=src["title"], url=src["url"],
+                    published=src["published"], categories=", ".join(CATEGORIES),
+                )
             try:
-                parsed = parse(ask(prompt, args.model, args.timeout))
+                parsed = parse(ask(prompt, args.model, args.timeout,
+                                   offline=bool(body)))
             except (subprocess.TimeoutExpired, RuntimeError) as exc:
                 print(f"  {theme_id}/{src['id']}: {exc}", file=sys.stderr)
                 continue
