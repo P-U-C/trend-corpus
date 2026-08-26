@@ -31,8 +31,12 @@ import subprocess
 import sys
 import urllib.error
 import urllib.request
+
+import runner
 from datetime import date, datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 ROOT = Path.home() / "trend-corpus"
 TRENDS = ROOT / "trends"
@@ -113,17 +117,17 @@ _TAGS = re.compile(r"<(script|style|noscript)[^>]*>.*?</\1>", re.S | re.I)
 def fetch_text(url: str, timeout: int = 25, cap: int = 24_000) -> str:
     """Pull the readable body of a page here, so the model does not have to.
 
-    Handing a model a URL and a WebFetch tool turns a one-turn question into a
+    Handing a model a URL and a fetch tool turns a one-turn question into a
     three-turn session: fetch, read, answer. Every one of those turns re-reads
-    the entire context, and the fixed preamble on this box is ~39k tokens
-    before a single word of the article -- so the retrieval costs several times
-    what the judgement does. Measured 2026-08-26: 64 of these ran in one burst
-    and spent 7.2M tokens, almost all of it on re-reading the preamble while
-    the model waited for a page Python could have handed it.
+    the entire context, and the fixed preamble on the Claude path is ~39k
+    tokens before a single word of the article -- so the retrieval cost several
+    times what the judgement did. Measured 2026-08-26: 64 of these ran in one
+    burst and spent 7.2M tokens, most of it re-reading preamble while the model
+    waited for a page Python could have handed it.
 
-    Returns "" on any failure, and the caller falls back to WebFetch. A bot
-    wall is a real page behind an unfriendly door, and the model's fetcher gets
-    through some of them that urllib does not.
+    Returns "" on any failure, and the caller lets the model go and get it. A
+    bot wall is a real page behind an unfriendly door, and a browser-shaped
+    fetcher gets through some that urllib does not.
     """
     req = urllib.request.Request(url, headers={
         "User-Agent": "Mozilla/5.0 (compatible; trend-corpus reader)",
@@ -143,25 +147,6 @@ def fetch_text(url: str, timeout: int = 25, cap: int = 24_000) -> str:
     # Under a few hundred characters is a cookie wall or a JS shell, not an
     # article. Say nothing rather than ask the model to judge boilerplate.
     return body[:cap] if len(body) > 400 else ""
-
-
-def ask(prompt: str, model: str, timeout: int, offline: bool = False) -> str:
-    cmd = ["claude", "-p", prompt, "--model", model, "--output-format", "text"]
-    # With the text already inlined there is nothing to reach for, so close the
-    # door: a model that decides to "check" the URL anyway would put the three
-    # turns straight back.
-    cmd += (["--disallowed-tools", "WebFetch", "WebSearch"] if offline
-            else ["--allowed-tools", "WebFetch"])
-    result = subprocess.run(
-        cmd, capture_output=True, text=True, timeout=timeout,
-    )
-    if result.returncode != 0:
-        blob = ((result.stdout or "") + " " + (result.stderr or "")).lower()
-        if any(m in blob for m in ("authenticate", "oauth", "revoked", "401", "login")):
-            raise SystemExit("claude auth failed — stopping rather than writing "
-                             "a run of empty results and exiting 0.")
-        raise RuntimeError((result.stderr or result.stdout or "")[:300])
-    return result.stdout
 
 
 def parse(text: str) -> dict | None:
@@ -216,7 +201,12 @@ def main() -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--themes", default="")
     ap.add_argument("--limit", type=int, default=PER_THEME)
-    ap.add_argument("--model", default="sonnet")
+    ap.add_argument("--model", default="sonnet",
+                    help="model for the claude fallback path only")
+    ap.add_argument("--engine", default="auto",
+                    choices=["auto", "pfterminal", "claude"],
+                    help="auto tries pfterminal (a different subscription, and "
+                         "2.5x cheaper on this task) and falls back to claude")
     ap.add_argument("--timeout", type=int, default=240)
     ap.add_argument("--shard", default="",
                     help="i/n -- take every nth theme starting at i. Lets cron "
@@ -258,8 +248,11 @@ def main() -> int:
                     published=src["published"], categories=", ".join(CATEGORIES),
                 )
             try:
-                parsed = parse(ask(prompt, args.model, args.timeout,
-                                   offline=bool(body)))
+                parsed = parse(runner.ask(
+                    prompt, stage="promote", web=not body, engine=args.engine,
+                    effort="low", claude_model=args.model, timeout=args.timeout))
+            except runner.AuthFailure:
+                raise
             except (subprocess.TimeoutExpired, RuntimeError) as exc:
                 print(f"  {theme_id}/{src['id']}: {exc}", file=sys.stderr)
                 continue

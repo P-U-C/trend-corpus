@@ -39,8 +39,12 @@ import subprocess
 import sys
 import urllib.error
 import urllib.request
+
+import runner
 from datetime import date, datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 ROOT = Path.home() / "trend-corpus"
 TRENDS = ROOT / "trends"
@@ -152,23 +156,6 @@ def theme_meta(theme_dir: Path) -> tuple[str, str]:
     if m:
         summary = re.sub(r"\s+", " ", m.group(1)).strip()
     return title or theme_dir.name, summary[:1800]
-
-
-def ask(prompt: str, model: str, timeout: int) -> str:
-    result = subprocess.run(
-        ["claude", "-p", prompt, "--model", model,
-         "--output-format", "text", "--allowed-tools", "WebSearch"],
-        capture_output=True, text=True, timeout=timeout,
-    )
-    if result.returncode != 0:
-        blob = ((result.stdout or "") + " " + (result.stderr or "")).lower()
-        if any(m in blob for m in ("authenticate", "oauth", "revoked", "401", "login")):
-            # Same failure that cost the swell corpus fifty days. Stop the run
-            # rather than write a day of empty results and exit 0.
-            raise SystemExit("claude auth failed — this run would find nothing "
-                             "and report success. Fix the login first.")
-        raise RuntimeError((result.stderr or result.stdout or "")[:300])
-    return result.stdout
 
 
 def parse(text: str) -> list[dict]:
@@ -300,7 +287,12 @@ def main() -> int:
     ap.add_argument("--themes", default="", help="comma-separated; default all")
     ap.add_argument("--limit", type=int, default=PER_THEME)
     ap.add_argument("--window", type=int, default=WINDOW_DAYS)
-    ap.add_argument("--model", default="sonnet")
+    ap.add_argument("--model", default="sonnet",
+                    help="model for the claude fallback path only")
+    ap.add_argument("--engine", default="auto",
+                    choices=["auto", "pfterminal", "claude"],
+                    help="auto tries pfterminal (a different subscription, and "
+                         "~24x cheaper on this task) and falls back to claude")
     ap.add_argument("--timeout", type=int, default=300)
     ap.add_argument("--shard", default="",
                     help="i/n -- take every nth theme starting at i. Lets cron "
@@ -333,7 +325,11 @@ def main() -> int:
             limit=args.limit,
         )
         try:
-            raw = ask(prompt, args.model, args.timeout)
+            raw = runner.ask(prompt, stage="discover", web=True,
+                             engine=args.engine, effort="medium",
+                             claude_model=args.model, timeout=args.timeout)
+        except runner.AuthFailure:
+            raise
         except (subprocess.TimeoutExpired, RuntimeError) as exc:
             print(f"{theme_id}: search failed ({exc})", file=sys.stderr)
             continue
