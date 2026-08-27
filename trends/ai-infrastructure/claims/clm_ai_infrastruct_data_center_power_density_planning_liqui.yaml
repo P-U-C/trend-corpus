@@ -1,0 +1,17 @@
+id: clm_ai_infrastruct_data_center_power_density_planning_liqui
+type: claim
+theme_id: ai-infrastructure
+claim: "Schneider Electric said on July 28, 2026 that average data center rack density rose from approximately 16 kW in 2025 to 27 kW in 2026, while NVIDIA\u2019s Vera Rubin platform can require up to 246 kW per rack. Schneider Electric said direct-to-chip liquid cooling commonly achieves PUE values around 1.10-1.20 versus 1.55-1.67 for legacy air-cooled facilities, and that its direct-to-chip architectures can reduce cooling energy use by 30-60% in appropriate applications."
+category: technical
+source_ids:
+  - src_ai_infrastructur_data_center_power_density_planning_liqui
+date_of_evidence: "2026-07-28"
+evidence_at: "2026-07-28"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

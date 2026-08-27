@@ -1,0 +1,17 @@
+id: clm_nuclear_smr_title_unmatched_leu_20260806
+type: claim
+theme_id: nuclear-smr
+claim: "Centrus Energy Corp. filed a Form 8-K dated August 6, 2026 reporting that it signed a contract with X-energy, LLC to supply low enriched uranium and high-assay low-enriched uranium for advanced reactors. The filing states that some or all uranium under the contract is expected to be produced at Centrus Energy Corp.\u2019s American Centrifuge Plant in Pike County, Ohio, with deliveries scheduled to begin in 2030."
+category: corporate
+source_ids:
+  - src_nuclear_smr_centrus_energy_8_k_leu_and_haleu_supply
+date_of_evidence: "2026-08-06"
+evidence_at: "2026-08-06"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

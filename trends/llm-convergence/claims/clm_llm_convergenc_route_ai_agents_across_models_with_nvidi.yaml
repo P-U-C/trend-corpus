@@ -1,0 +1,17 @@
+id: clm_llm_convergenc_route_ai_agents_across_models_with_nvidi
+type: claim
+theme_id: llm-convergence
+claim: "On August 11, 2026, NVIDIA published NeMo Switchyard, an open-source orchestration layer for routing AI-agent workloads across model endpoints using tuning-free routers such as LLM classifier, stage router, and escalation router, plus tunable prefill routers. NVIDIA reported LangChain benchmarks routing between NVIDIA Nemotron 3.5 Lightning and Claude Opus 4.8 with a 74% cost reduction versus a frontier-only baseline, and Cognition reported Devin Desktop staged routing between Opus 5 and Kimi K2.7 at 50.6% FrontierCode Main accuracy with a $3.11 mean cost."
+category: technical
+source_ids:
+  - src_llm_convergence_route_ai_agent_workloads_across_models_w
+date_of_evidence: "2026-08-11"
+evidence_at: "2026-08-11"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
