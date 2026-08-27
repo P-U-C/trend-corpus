@@ -1,25 +1,25 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-26T13:37:01Z",
+  "generated_at": "2026-08-27T13:37:01Z",
   "theme_id": "bci-neurotech",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 10090,
-  "underlying_source_count": 27,
+  "underlying_claim_count": 10239,
+  "underlying_source_count": 28,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 262,
+      "claims_total": 267,
       "claims_by_category": {
-        "manufacturing": 31,
-        "regulatory": 70,
-        "clinical": 46,
-        "research": 12,
-        "market": 26,
-        "corporate": 75,
+        "regulatory": 72,
+        "manufacturing": 33,
+        "clinical": 45,
+        "market": 24,
+        "research": 15,
+        "corporate": 76,
         "supply": 2
       },
       "top_entities": [
@@ -44,15 +44,15 @@
           "mentions": 25
         },
         {
+          "slug": "neuralink",
+          "mentions": 14
+        },
+        {
           "slug": "paradromics",
           "mentions": 10
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 8
-        },
-        {
-          "slug": "neuralink",
           "mentions": 8
         },
         {
@@ -74,64 +74,76 @@
       ]
     },
     "90d": {
-      "claims_total": 923,
+      "claims_total": 982,
       "claims_by_category": {
-        "manufacturing": 93,
-        "regulatory": 333,
-        "clinical": 208,
-        "research": 27,
-        "market": 116,
-        "corporate": 144,
+        "regulatory": 346,
+        "manufacturing": 92,
+        "clinical": 222,
+        "market": 127,
+        "research": 34,
+        "corporate": 159,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "boston_scientific",
-          "mentions": 493
+          "mentions": 494
         },
         {
           "slug": "fda",
-          "mentions": 263
+          "mentions": 269
         },
         {
           "slug": "paradromics",
           "mentions": 63
         },
         {
+          "slug": "precision_neuroscience",
+          "mentions": 40
+        },
+        {
           "slug": "livanova",
           "mentions": 40
+        },
+        {
+          "slug": "neuralink",
+          "mentions": 32
         },
         {
           "slug": "butterfly_network",
           "mentions": 32
         },
         {
-          "slug": "precision_neuroscience",
-          "mentions": 30
-        },
-        {
           "slug": "quantum_si",
           "mentions": 25
         },
         {
-          "slug": "neuralink",
+          "slug": "abbott",
           "mentions": 24
         },
         {
-          "slug": "abbott",
-          "mentions": 10
+          "slug": "brainco",
+          "mentions": 13
+        },
+        {
+          "slug": "science_corporation",
+          "mentions": 12
         },
         {
           "slug": "cdrh",
           "mentions": 7
         },
         {
-          "slug": "brainco",
-          "mentions": 6
-        },
-        {
           "slug": "braingate",
           "mentions": 4
+        },
+        {
+          "slug": "walden_international",
+          "mentions": 4
+        },
+        {
+          "slug": "jefferies",
+          "mentions": 3
         },
         {
           "slug": "cber",
@@ -142,46 +154,34 @@
           "mentions": 2
         },
         {
-          "slug": "walden_international",
-          "mentions": 2
-        },
-        {
-          "slug": "cms",
-          "mentions": 2
-        },
-        {
-          "slug": "ceribell",
-          "mentions": 2
-        },
-        {
-          "slug": "synchron",
-          "mentions": 1
-        },
-        {
-          "slug": "aleph_neuro",
-          "mentions": 1
-        },
-        {
           "slug": "idg_capital",
-          "mentions": 1
+          "mentions": 2
+        },
+        {
+          "slug": "neuracle_medical_technology",
+          "mentions": 2
+        },
+        {
+          "slug": "huashan_hospital",
+          "mentions": 2
         }
       ]
     },
     "365d": {
-      "claims_total": 5141,
+      "claims_total": 5231,
       "claims_by_category": {
-        "manufacturing": 217,
-        "regulatory": 1200,
-        "clinical": 947,
-        "research": 483,
-        "market": 463,
-        "corporate": 1829,
+        "regulatory": 1222,
+        "manufacturing": 219,
+        "clinical": 965,
+        "market": 478,
+        "research": 493,
+        "corporate": 1852,
         "supply": 2
       },
       "top_entities": [
         {
           "slug": "fda",
-          "mentions": 1091
+          "mentions": 1106
         },
         {
           "slug": "onward_medical",
@@ -197,27 +197,27 @@
         },
         {
           "slug": "quantum_si",
-          "mentions": 817
+          "mentions": 830
         },
         {
           "slug": "boston_scientific",
-          "mentions": 544
+          "mentions": 553
         },
         {
           "slug": "merge_labs",
-          "mentions": 227
+          "mentions": 228
         },
         {
           "slug": "cdrh",
-          "mentions": 88
+          "mentions": 91
+        },
+        {
+          "slug": "cber",
+          "mentions": 87
         },
         {
           "slug": "openai",
           "mentions": 85
-        },
-        {
-          "slug": "cber",
-          "mentions": 84
         },
         {
           "slug": "cms",
@@ -225,39 +225,39 @@
         },
         {
           "slug": "flow_neuroscience",
-          "mentions": 67
+          "mentions": 68
         },
         {
           "slug": "neurolief",
           "mentions": 45
         },
         {
-          "slug": "ceribell",
-          "mentions": 43
+          "slug": "precision_neuroscience",
+          "mentions": 44
         },
         {
-          "slug": "precision_neuroscience",
-          "mentions": 34
+          "slug": "ceribell",
+          "mentions": 44
+        },
+        {
+          "slug": "neuralink",
+          "mentions": 41
         },
         {
           "slug": "butterfly_network",
           "mentions": 32
         },
         {
-          "slug": "neuralink",
-          "mentions": 31
+          "slug": "abbott",
+          "mentions": 26
         },
         {
           "slug": "braingate",
           "mentions": 22
         },
         {
-          "slug": "abbott",
-          "mentions": 12
-        },
-        {
           "slug": "brainco",
-          "mentions": 6
+          "mentions": 13
         }
       ]
     }
@@ -265,7 +265,7 @@
   "source_freshness": [
     {
       "url": "https://abbott.mediaroom.com/2026-07-16-Abbott-Reports-Second-Quarter-2026-Results-and-Raises-Full-Year-EPS-Guidance",
-      "last_ingested_at": "2026-08-26 06:00:01"
+      "last_ingested_at": "2026-08-27 06:00:01"
     },
     {
       "url": "https://benzinga.com/markets/tech/26/07/60663278/elon-musk-shows-off-neuralink-patients-navigating-wheelchairs-by-thought-alone-says-implant-helps-those-who-lost-their-mind-to-body-connection",
@@ -273,7 +273,11 @@
     },
     {
       "url": "https://blackrockneurotech.com/insights/blackrock-neurotechs-moveagain-brain-computer-interface-system-receives-breakthrough-device-designation-from-the-fda/",
-      "last_ingested_at": "2026-08-26 00:00:04"
+      "last_ingested_at": "2026-08-27 06:00:03"
+    },
+    {
+      "url": "https://businesswire.com/news/home/20260722965902/en/Science-Corp.-Announces-European-Commercial-Launch-of-PRIMA-the-Only-Treatment-to-Restore-Functional-Central-Vision-to-Patients-with-Geographic-Atrophy-Caused-by-Age-Related-Macular-Degeneration-a-Leading-Cause-of-Blindness",
+      "last_ingested_at": "2026-08-27 06:00:09"
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT07357428",
@@ -281,7 +285,7 @@
     },
     {
       "url": "https://interestingengineering.com/science/brain-implant-allows-to-control-wheelchairs",
-      "last_ingested_at": "2026-08-26 06:00:05"
+      "last_ingested_at": "2026-08-27 12:00:07"
     },
     {
       "url": "https://investor.livanova.com/news-releases/news-release-details/livanova-reports-second-quarter-2026-results-raises-full-year",
@@ -309,7 +313,7 @@
     },
     {
       "url": "https://pharmaphorum.com/news/precision-neuro-breaks-new-ground-bci-technology",
-      "last_ingested_at": "2026-08-26 06:00:02"
+      "last_ingested_at": "2026-08-27 12:00:05"
     },
     {
       "url": "https://science.org/doi/10.1126/scitranslmed.aec3728",
@@ -321,27 +325,27 @@
     },
     {
       "url": "https://www.bostonscientific.com/en-US/about-us/core-businesses/neuromodulation.html",
-      "last_ingested_at": "2026-08-26 00:00:05"
+      "last_ingested_at": "2026-08-27 06:00:05"
     },
     {
       "url": "https://www.businesswire.com/news/home/20240930433219/en/Synchron-Announces-Positive-Results-from-U.S.-COMMAND-Study-of-Endovascular-Brain-Computer-Interface",
-      "last_ingested_at": "2026-08-26 06:00:03"
+      "last_ingested_at": "2026-08-27 12:00:05"
     },
     {
       "url": "https://www.butterflynetwork.com/press-releases/co-development-agreement-with-forest-neurotech",
-      "last_ingested_at": "2026-08-26 00:00:05"
+      "last_ingested_at": "2026-08-27 06:00:05"
     },
     {
       "url": "https://www.cnbc.com/2026/07/11/chinas-brainco-bets-on-wearable-brain-tech.html",
-      "last_ingested_at": "2026-08-26 06:00:05"
+      "last_ingested_at": "2026-08-27 12:00:07"
     },
     {
       "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program",
-      "last_ingested_at": "2026-08-26 00:00:05"
+      "last_ingested_at": "2026-08-27 06:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/4/17/3063418/0/en/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array.html",
-      "last_ingested_at": "2026-08-26 00:00:06"
+      "last_ingested_at": "2026-08-27 06:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/07/23/3332195/0/en/Precision-Neuroscience-Appoints-John-Donoghue-Pioneer-of-Brain-Computer-Interfaces-as-Scientific-Advisor.html",
@@ -365,11 +369,11 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000051/bsx-20260729.htm",
-      "last_ingested_at": "2026-08-26 06:00:01"
+      "last_ingested_at": "2026-08-27 06:00:04"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000032/qsi572026ex991.htm",
-      "last_ingested_at": "2026-08-26 00:00:06"
+      "last_ingested_at": "2026-08-27 06:00:08"
     }
   ]
 }
