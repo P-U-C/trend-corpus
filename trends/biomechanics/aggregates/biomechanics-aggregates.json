@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-28T13:43:01Z",
+  "generated_at": "2026-08-29T13:43:01Z",
   "theme_id": "biomechanics",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -8,29 +8,28 @@
     "host_alias": "worker-1"
   },
   "underlying_claim_count": 4921,
-  "underlying_source_count": 24,
+  "underlying_source_count": 29,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 70,
+      "claims_total": 56,
       "claims_by_category": {
-        "corporate": 27,
-        "research": 8,
-        "market": 32,
-        "manufacturing": 3
+        "corporate": 20,
+        "research": 7,
+        "market": 29
       },
       "top_entities": [
         {
           "slug": "german_bionic",
-          "mentions": 58
+          "mentions": 46
         },
         {
           "slug": "globus_medical",
-          "mentions": 8
+          "mentions": 6
         },
         {
           "slug": "kulr_technology_group",
-          "mentions": 5
+          "mentions": 4
         }
       ]
     },
@@ -182,31 +181,39 @@
     },
     {
       "url": "https://corporate.ottobock.com/en/media/newsroom/h1-2026-financial-results",
-      "last_ingested_at": "2026-08-28 06:00:04"
+      "last_ingested_at": "2026-08-29 12:00:02"
     },
     {
       "url": "https://corporate.ottobock.com/en/media/newsroom/ottobock-continues-growth-trajectory-with-significant-margin-increase",
-      "last_ingested_at": "2026-08-27 18:00:03"
+      "last_ingested_at": "2026-08-29 00:00:04"
+    },
+    {
+      "url": "https://exoskeletonreport.com/2026/08/fda-clearance-for-eve-wandercrafts-personal-use-self-balancing-walking-exoskeleton/",
+      "last_ingested_at": "2026-08-29 06:00:02"
     },
     {
       "url": "https://investors.globusmedical.com",
-      "last_ingested_at": "2026-08-27 12:00:06"
+      "last_ingested_at": "2026-08-28 18:00:03"
     },
     {
       "url": "https://investors.stryker.com/press-releases/news-details/2026/Stryker-reports-second-quarter-2026-operating-results/default.aspx",
       "last_ingested_at": "2026-08-28 12:00:34"
     },
     {
+      "url": "https://kesslerfoundation.org/In-The-News/fda-clears-first-self-balancing-personal-exoskeleton-people-spinal-cord-injury",
+      "last_ingested_at": "2026-08-29 06:00:02"
+    },
+    {
       "url": "https://mobihealthnews.com/news/fda-clears-wandercrafts-eve-exoskeleton-wheelchair-users",
-      "last_ingested_at": "2026-08-28 06:00:01"
+      "last_ingested_at": "2026-08-29 06:00:02"
     },
     {
       "url": "https://orthofeed.com/2025/03/15/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting/",
-      "last_ingested_at": "2026-08-27 18:00:04"
+      "last_ingested_at": "2026-08-29 00:00:06"
     },
     {
       "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028/",
-      "last_ingested_at": "2026-08-27 18:00:05"
+      "last_ingested_at": "2026-08-29 00:00:09"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260309467133/en/Myomo-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-and-Operating-Results",
@@ -214,15 +221,19 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260804672898/en/Hinge-Health-reports-record-second-quarter-2026-financial-results-signs-definitive-agreement-to-acquire-Cylinder-Health",
-      "last_ingested_at": "2026-08-27 18:00:02"
+      "last_ingested_at": "2026-08-29 00:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260805360556/en/Myomo-Reports-Second-Quarter-2026-Financial-and-Operating-Results",
-      "last_ingested_at": "2026-08-27 18:00:02"
+      "last_ingested_at": "2026-08-29 00:00:03"
+    },
+    {
+      "url": "https://www.expresshealthcare.in/news/srv-hospitals-chembur-launches-advanced-robotic-assisted-joint-replacement-centre/454880/",
+      "last_ingested_at": "2026-08-29 06:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/06/11/3097632/0/en/Wandercraft-announces-Series-D-Round-bringing-75M-in-total-funding-secured-for-global-acceleration-of-AI-powered-robotics.html",
-      "last_ingested_at": "2026-08-27 18:00:06"
+      "last_ingested_at": "2026-08-29 00:00:09"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/09/08/3146103/32993/en/Lifeward-Achieves-CE-Mark-Approval-for-the-ReWalk-7-Personal-Exoskeleton.html",
@@ -234,7 +245,7 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/06/3340797/0/en/globus-medical-reports-second-quarter-2026-results.html",
-      "last_ingested_at": "2026-08-27 12:00:05"
+      "last_ingested_at": "2026-08-28 18:00:02"
     },
     {
       "url": "https://www.hingehealth.com/resources/press-releases/hinge-health-to-acquire-cylinder-health-expanding-into-gastrointestinal-care/",
@@ -242,7 +253,7 @@
     },
     {
       "url": "https://www.massdevice.com/wandercraft-wins-fda-clearance-for-self-balancing-exoskeleton/",
-      "last_ingested_at": "2026-08-27 18:00:06"
+      "last_ingested_at": "2026-08-29 00:00:09"
     },
     {
       "url": "https://www.medicaldevice-network.com/news/wandercraft-self-balancing-exoskeleton-wins-fda-clearance/",
@@ -258,19 +269,27 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001549084/000143774925031957/ex_849226.htm",
-      "last_ingested_at": "2026-08-28 06:00:01"
+      "last_ingested_at": "2026-08-29 06:00:02"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001607962/000117891326004140/exhibit_99-1.htm",
-      "last_ingested_at": "2026-08-27 18:00:02"
+      "last_ingested_at": "2026-08-29 00:00:03"
+    },
+    {
+      "url": "https://www.smith-nephew.com/en/news/2026/08/04/second-quarter-2026-results",
+      "last_ingested_at": "2026-08-29 06:00:07"
+    },
+    {
+      "url": "https://www.smith-nephew.com/en/news/2026/08/18/sn-and-imperial-college-london-launch-innovation-centre",
+      "last_ingested_at": "2026-08-29 06:00:06"
     },
     {
       "url": "https://www.therobotreport.com/german-bionic-unveils-exia-ai-augmented-industrial-exoskeleton/",
-      "last_ingested_at": "2026-08-27 12:00:04"
+      "last_ingested_at": "2026-08-28 18:00:02"
     },
     {
       "url": "https://www.wandercraft.eu/articles/wandercraft-receives-fda-clearance-for-eve-the-worlds-first-self-balancing-personal-exoskeleton-for-eligible-wheelchair-users-living-with-spinal-cord-injuries-at-any-level",
-      "last_ingested_at": "2026-08-28 06:00:04"
+      "last_ingested_at": "2026-08-29 12:00:02"
     }
   ]
 }
