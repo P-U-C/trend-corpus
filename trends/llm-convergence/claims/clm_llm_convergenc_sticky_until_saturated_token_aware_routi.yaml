@@ -1,0 +1,17 @@
+id: clm_llm_convergenc_sticky_until_saturated_token_aware_routi
+type: claim
+theme_id: llm-convergence
+claim: "On August 17, 2026, llm-d published that its router default changed to token-aware routing: prefix-cache affinity is prioritized until an endpoint exceeds a calibrated token-load saturation limit, after which routing uses load alone. The post states the configuration ships by default across llm-d optimized-baseline, agentic-serving, multimodal-serving, and P/D-disaggregation guides, and is running on production serving fleets including Google Cloud Vertex AI, Red Hat, and Mistral."
+category: technical
+source_ids:
+  - src_llm_convergence_sticky_until_saturated_token_aware_routi
+date_of_evidence: "2026-08-17"
+evidence_at: "2026-08-17"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

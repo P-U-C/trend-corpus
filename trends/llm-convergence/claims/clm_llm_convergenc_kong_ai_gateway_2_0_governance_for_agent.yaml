@@ -1,0 +1,17 @@
+id: clm_llm_convergenc_kong_ai_gateway_2_0_governance_for_agent
+type: claim
+theme_id: llm-convergence
+claim: "Kong announced on July 16, 2026 that Kong AI Gateway 2.0 was available in private beta as a separate product from Kong Gateway 3.x, with its own runtime, control plane, admin API, version number, analytics pipeline, and release cadence. The release treats Models, MCP Servers, and Agents as first-class entities, supports configuration through kongctl, and includes support for OpenAI, major hyperscaler model platforms, and Claude Code as governed consumers."
+category: technical
+source_ids:
+  - src_llm_convergence_announcing_kong_ai_gateway_2_0_built_for
+date_of_evidence: "2026-07-16"
+evidence_at: "2026-07-16"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

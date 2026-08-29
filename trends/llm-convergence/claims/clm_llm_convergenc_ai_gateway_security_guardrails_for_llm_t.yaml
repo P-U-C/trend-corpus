@@ -1,0 +1,17 @@
+id: clm_llm_convergenc_ai_gateway_security_guardrails_for_llm_t
+type: claim
+theme_id: llm-convergence
+claim: "On August 21, 2026, WSO2 published that its WSO2 AI Gateway provides a single control plane for outbound LLM traffic and inbound MCP/agent traffic through the WSO2 API Platform, with guardrails including semantic prompt validation, PII masking, URL and JSON Schema checks, semantic caching, and routing across OpenAI, Azure AI, AWS Bedrock, Anthropic, and Mistral AI. WSO2 also stated that WSO2 Identity Server provides OAuth 2.1, RBAC, and token lifecycle management, and that WSO2 Agent ID enforces OAuth 2.1 for MCP connections while defining which agents can connect to which MCP servers."
+category: technical
+source_ids:
+  - src_llm_convergence_ai_gateway_security_guardrails_for_llm_t
+date_of_evidence: "2026-08-21"
+evidence_at: "2026-08-21"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
