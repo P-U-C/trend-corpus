@@ -1,123 +1,123 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-28T13:33:01Z",
+  "generated_at": "2026-08-29T13:33:02Z",
   "theme_id": "robotics-humanoid",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 5412,
-  "underlying_source_count": 40,
+  "underlying_claim_count": 5700,
+  "underlying_source_count": 45,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 753,
+      "claims_total": 890,
       "claims_by_category": {
-        "regulatory": 176,
-        "corporate": 246,
-        "manufacturing": 65,
-        "research": 65,
-        "market": 195,
-        "supply": 6
+        "manufacturing": 89,
+        "corporate": 280,
+        "research": 71,
+        "market": 267,
+        "regulatory": 181,
+        "supply": 2
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 122
+          "mentions": 131
         },
         {
           "slug": "iso",
-          "mentions": 97
-        },
-        {
-          "slug": "agility",
-          "mentions": 74
-        },
-        {
-          "slug": "osha",
-          "mentions": 69
+          "mentions": 96
         },
         {
           "slug": "unitree",
-          "mentions": 61
+          "mentions": 84
         },
         {
-          "slug": "ria",
-          "mentions": 41
+          "slug": "osha",
+          "mentions": 64
         },
         {
           "slug": "symbotic",
-          "mentions": 41
+          "mentions": 55
         },
         {
-          "slug": "nvidia",
-          "mentions": 30
+          "slug": "ria",
+          "mentions": 45
         },
         {
           "slug": "stereotaxis",
-          "mentions": 27
+          "mentions": 42
         },
         {
           "slug": "amc_robotics",
-          "mentions": 26
+          "mentions": 38
+        },
+        {
+          "slug": "delta_electronics",
+          "mentions": 28
+        },
+        {
+          "slug": "nvidia",
+          "mentions": 28
+        },
+        {
+          "slug": "harmonic_drive_systems",
+          "mentions": 27
+        },
+        {
+          "slug": "lg_electronics",
+          "mentions": 27
         },
         {
           "slug": "lg",
           "mentions": 26
         },
         {
-          "slug": "harmonic_drive_systems",
-          "mentions": 24
+          "slug": "ss_innovations",
+          "mentions": 25
         },
         {
           "slug": "world_humanoid_robot_games",
           "mentions": 22
         },
         {
+          "slug": "hesai",
+          "mentions": 20
+        },
+        {
           "slug": "vpg",
           "mentions": 20
         },
         {
-          "slug": "churchill_capital",
-          "mentions": 17
-        },
-        {
-          "slug": "delta_electronics",
-          "mentions": 15
-        },
-        {
-          "slug": "lg_electronics",
-          "mentions": 15
+          "slug": "agibot",
+          "mentions": 19
         },
         {
           "slug": "harmonic_drive_se",
-          "mentions": 14
+          "mentions": 16
         },
         {
           "slug": "ansi",
-          "mentions": 14
-        },
-        {
-          "slug": "serve",
-          "mentions": 14
+          "mentions": 16
         }
       ]
     },
     "90d": {
-      "claims_total": 1901,
+      "claims_total": 2139,
       "claims_by_category": {
-        "regulatory": 744,
-        "corporate": 516,
-        "manufacturing": 186,
-        "research": 174,
-        "market": 275,
+        "manufacturing": 220,
+        "corporate": 594,
+        "research": 192,
+        "market": 370,
+        "regulatory": 757,
         "supply": 6
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 592
+          "mentions": 593
         },
         {
           "slug": "iso",
@@ -125,7 +125,7 @@
         },
         {
           "slug": "osha",
-          "mentions": 256
+          "mentions": 258
         },
         {
           "slug": "ria",
@@ -136,157 +136,157 @@
           "mentions": 86
         },
         {
+          "slug": "unitree",
+          "mentions": 84
+        },
+        {
           "slug": "agility",
           "mentions": 84
         },
         {
           "slug": "harmonic_drive_systems",
-          "mentions": 67
+          "mentions": 68
         },
         {
-          "slug": "unitree",
-          "mentions": 61
+          "slug": "symbotic",
+          "mentions": 56
+        },
+        {
+          "slug": "nvidia",
+          "mentions": 55
         },
         {
           "slug": "csa",
           "mentions": 46
         },
         {
-          "slug": "nvidia",
-          "mentions": 46
-        },
-        {
-          "slug": "symbotic",
-          "mentions": 42
+          "slug": "stereotaxis",
+          "mentions": 44
         },
         {
           "slug": "ul",
           "mentions": 41
         },
         {
-          "slug": "harmonic_drive_se",
-          "mentions": 37
+          "slug": "amc_robotics",
+          "mentions": 40
         },
         {
-          "slug": "stereotaxis",
-          "mentions": 29
+          "slug": "harmonic_drive_se",
+          "mentions": 38
         },
         {
           "slug": "medtronic",
+          "mentions": 38
+        },
+        {
+          "slug": "ss_innovations",
+          "mentions": 32
+        },
+        {
+          "slug": "delta_electronics",
           "mentions": 28
         },
         {
-          "slug": "amc_robotics",
+          "slug": "lg_electronics",
           "mentions": 27
         },
         {
           "slug": "lg",
           "mentions": 26
-        },
-        {
-          "slug": "figure",
-          "mentions": 25
-        },
-        {
-          "slug": "world_humanoid_robot_games",
-          "mentions": 22
-        },
-        {
-          "slug": "abb",
-          "mentions": 21
         }
       ]
     },
     "365d": {
-      "claims_total": 2187,
+      "claims_total": 2446,
       "claims_by_category": {
-        "regulatory": 857,
-        "corporate": 569,
-        "manufacturing": 230,
-        "research": 211,
-        "market": 314,
+        "manufacturing": 266,
+        "corporate": 652,
+        "research": 232,
+        "market": 410,
+        "regulatory": 880,
         "supply": 6
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 675
+          "mentions": 684
         },
         {
           "slug": "iso",
-          "mentions": 553
+          "mentions": 560
         },
         {
           "slug": "osha",
-          "mentions": 292
+          "mentions": 296
         },
         {
           "slug": "ria",
-          "mentions": 231
+          "mentions": 235
         },
         {
           "slug": "ansi",
-          "mentions": 100
+          "mentions": 102
         },
         {
           "slug": "agility",
           "mentions": 92
         },
         {
-          "slug": "harmonic_drive_systems",
-          "mentions": 77
-        },
-        {
           "slug": "unitree",
-          "mentions": 61
+          "mentions": 84
         },
         {
-          "slug": "csa",
-          "mentions": 52
-        },
-        {
-          "slug": "ul",
-          "mentions": 46
-        },
-        {
-          "slug": "nvidia",
-          "mentions": 46
-        },
-        {
-          "slug": "harmonic_drive_se",
-          "mentions": 42
+          "slug": "harmonic_drive_systems",
+          "mentions": 80
         },
         {
           "slug": "symbotic",
-          "mentions": 42
+          "mentions": 56
+        },
+        {
+          "slug": "nvidia",
+          "mentions": 55
+        },
+        {
+          "slug": "csa",
+          "mentions": 53
+        },
+        {
+          "slug": "ul",
+          "mentions": 47
+        },
+        {
+          "slug": "harmonic_drive_se",
+          "mentions": 44
+        },
+        {
+          "slug": "stereotaxis",
+          "mentions": 44
+        },
+        {
+          "slug": "amc_robotics",
+          "mentions": 40
+        },
+        {
+          "slug": "medtronic",
+          "mentions": 39
+        },
+        {
+          "slug": "ss_innovations",
+          "mentions": 34
         },
         {
           "slug": "figure",
           "mentions": 30
         },
         {
-          "slug": "stereotaxis",
-          "mentions": 29
+          "slug": "delta_electronics",
+          "mentions": 28
         },
         {
-          "slug": "medtronic",
-          "mentions": 29
-        },
-        {
-          "slug": "amc_robotics",
+          "slug": "lg_electronics",
           "mentions": 27
-        },
-        {
-          "slug": "abb",
-          "mentions": 27
-        },
-        {
-          "slug": "lg",
-          "mentions": 26
-        },
-        {
-          "slug": "hyundai",
-          "mentions": 24
         }
       ]
     }
@@ -298,19 +298,19 @@
     },
     {
       "url": "https://bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo",
-      "last_ingested_at": "2026-08-27 18:00:03"
+      "last_ingested_at": "2026-08-29 00:00:03"
     },
     {
       "url": "https://bloomberg.com/news/articles/2026-08-21/top-chinese-magnet-maker-says-evs-robots-fuel-record-revenue",
-      "last_ingested_at": "2026-08-27 18:00:03"
+      "last_ingested_at": "2026-08-29 00:00:02"
     },
     {
       "url": "https://cnbc.com/2026/08/06/chinese-humanoid-robot-maker-unitree-prices-ipo-at-9-billion-valuation.html",
-      "last_ingested_at": "2026-08-27 12:00:04"
+      "last_ingested_at": "2026-08-28 18:00:03"
     },
     {
       "url": "https://cnevpost.com/2026/07/28/byd-confirms-plan-humanoid-robot-aug/",
-      "last_ingested_at": "2026-08-27 12:00:03"
+      "last_ingested_at": "2026-08-28 18:00:02"
     },
     {
       "url": "https://global.abb/group/en/investors/quarterly-results",
@@ -325,24 +325,32 @@
       "last_ingested_at": "2026-08-28 12:00:04"
     },
     {
+      "url": "https://gxo.com/news_article/gxo-reports-second-quarter-2026-results/",
+      "last_ingested_at": "2026-08-29 06:00:02"
+    },
+    {
       "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-preliminary-fourth-quarter-and-full-year-5",
-      "last_ingested_at": "2026-08-27 12:00:35"
+      "last_ingested_at": "2026-08-28 18:00:35"
     },
     {
       "url": "https://investors.teradyne.com/financial-results",
-      "last_ingested_at": "2026-08-27 12:01:36"
+      "last_ingested_at": "2026-08-28 18:01:36"
+    },
+    {
+      "url": "https://ir.nauticusrobotics.com/news-events/press-releases/detail/122/nauticus-robotics-inc-reports-second-quarter-2026-results",
+      "last_ingested_at": "2026-08-29 06:00:02"
     },
     {
       "url": "https://ir.symbotic.com/investor-relations",
-      "last_ingested_at": "2026-08-27 12:01:36"
+      "last_ingested_at": "2026-08-28 18:01:35"
     },
     {
       "url": "https://ir.tesla.com/#quarterly-disclosure",
-      "last_ingested_at": "2026-08-27 12:01:36"
+      "last_ingested_at": "2026-08-28 18:01:36"
     },
     {
       "url": "https://news.cgtn.com/news/2026-08-22/What-to-expect-as-second-World-Humanoid-Robot-Games-set-to-open-1POkO95wrWo/p.html",
-      "last_ingested_at": "2026-08-27 12:00:05"
+      "last_ingested_at": "2026-08-28 18:00:05"
     },
     {
       "url": "https://news.cgtn.com/news/2026-08-22/World-Robot-Conference-What-can-humanoid-robots-actually-do--1POVSXuLR8Q/p.html",
@@ -350,7 +358,7 @@
     },
     {
       "url": "https://news.medtronic.com/2026-07-21-A-new-era-for-surgery-with-real-time-AI-Medtronic-to-unveil-Touch-Surgery-TM-Aide,-the-next-generation-compute-platform-for-the-operating-room-at-Society-of-Robotic-Surgery-2026",
-      "last_ingested_at": "2026-08-27 18:00:02"
+      "last_ingested_at": "2026-08-29 00:00:01"
     },
     {
       "url": "https://roboticstomorrow.com/news/2026/08/14/lg-to-unveil-its-next-gen-humanoid-robot-built-on-nvidia-isaac-gr00t/26953/",
@@ -362,15 +370,15 @@
     },
     {
       "url": "https://serverobotics.gcs-web.com/",
-      "last_ingested_at": "2026-08-27 12:01:05"
+      "last_ingested_at": "2026-08-28 18:01:05"
     },
     {
       "url": "https://smartanalyticsglobal.com/global-humanoid-robot-shipments-2026-agibot-unitree/",
-      "last_ingested_at": "2026-08-27 12:00:04"
+      "last_ingested_at": "2026-08-28 18:00:04"
     },
     {
       "url": "https://spectrum.ieee.org/topic/robotics/",
-      "last_ingested_at": "2026-08-27 18:00:04"
+      "last_ingested_at": "2026-08-29 00:00:04"
     },
     {
       "url": "https://techtimes.com/articles/322086/20260729/agility-robotics-opens-fremont-hub-train-digit-ai-ahead-nasdaq-listing.htm",
@@ -378,79 +386,91 @@
     },
     {
       "url": "https://www.bloomberg.com/news/articles/2026-08-17/serve-robotics-expands-doordash-deal-in-two-cities-adds-grubhub-post-uber-riff",
-      "last_ingested_at": "2026-08-27 18:00:02"
+      "last_ingested_at": "2026-08-29 00:00:01"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260826975448/en/Formic-Opens-Oakland-Facility-Anchoring-Humanoid-and-Physical-AI-Expansion-in-the-Bay-Area-Alongside-Tesla-and-Amazon",
+      "last_ingested_at": "2026-08-29 06:00:01"
     },
     {
       "url": "https://www.cnbc.com/2026/08/21/chinese-humanoid-robots-face-challenge-of-their-own-capabilities.html",
-      "last_ingested_at": "2026-08-27 12:00:04"
+      "last_ingested_at": "2026-08-28 18:00:04"
     },
     {
       "url": "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf",
-      "last_ingested_at": "2026-08-27 18:00:03"
+      "last_ingested_at": "2026-08-29 00:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/05/3339646/0/en/Symbotic-Reports-Third-Quarter-Fiscal-Year-2026-Results.html",
-      "last_ingested_at": "2026-08-27 18:00:03"
+      "last_ingested_at": "2026-08-29 00:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/11/3343137/21634/en/stereotaxis-reports-2026-second-quarter-financial-results-business-updates.html",
-      "last_ingested_at": "2026-08-27 12:00:05"
+      "last_ingested_at": "2026-08-28 18:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/13/3344494/0/en/ss-innovations-reports-second-quarter-2026-financial-results.html",
-      "last_ingested_at": "2026-08-28 06:00:32"
+      "last_ingested_at": "2026-08-29 12:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/17/3346087/0/en/amc-robotics-reports-second-quarter-2026-financial-results.html",
-      "last_ingested_at": "2026-08-27 12:00:03"
+      "last_ingested_at": "2026-08-28 18:00:01"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/18/3346621/0/en/hesai-group-reports-second-quarter-2026-unaudited-financial-results.html",
-      "last_ingested_at": "2026-08-28 06:00:31"
+      "last_ingested_at": "2026-08-29 12:00:02"
     },
     {
       "url": "https://www.harmonicdrive.net/about-us",
-      "last_ingested_at": "2026-08-27 18:00:04"
+      "last_ingested_at": "2026-08-29 00:00:04"
     },
     {
       "url": "https://www.iso.org/standard/73933.html",
-      "last_ingested_at": "2026-08-27 12:00:35"
+      "last_ingested_at": "2026-08-28 18:00:35"
     },
     {
       "url": "https://www.manufacturingdive.com/news/mp-materials-critical-minerals-initiative-project-swarm-james-litinsky/827021/",
-      "last_ingested_at": "2026-08-27 18:00:02"
+      "last_ingested_at": "2026-08-29 00:00:01"
     },
     {
       "url": "https://www.medtechdive.com/news/medtronic-adds-real-time-ai-to-hugo-robot/825793/",
-      "last_ingested_at": "2026-08-27 18:00:01"
+      "last_ingested_at": "2026-08-28 18:00:04"
     },
     {
       "url": "https://www.osha.gov/robotics/standards",
-      "last_ingested_at": "2026-08-27 12:00:35"
+      "last_ingested_at": "2026-08-28 18:00:35"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/delta-showcases-embodied-ai-dual-arm-robot-platform-and-ai-enhanced-production-line-digital-twin-at-automation-taipei-2026-302855258.html",
-      "last_ingested_at": "2026-08-28 06:00:01"
+      "last_ingested_at": "2026-08-29 06:00:01"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-announces-commercial-agreement-with-bmw-manufacturing-to-bring-general-purpose-robots-into-automotive-production-302036263.html",
-      "last_ingested_at": "2026-08-27 18:00:03"
+      "last_ingested_at": "2026-08-29 00:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
-      "last_ingested_at": "2026-08-27 18:00:04"
+      "last_ingested_at": "2026-08-29 00:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
-      "last_ingested_at": "2026-08-27 18:00:03"
+      "last_ingested_at": "2026-08-29 00:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/lg-electronics-accelerates-robotics-collaboration-with-nvidia-302853855.html",
-      "last_ingested_at": "2026-08-28 06:00:31"
+      "last_ingested_at": "2026-08-29 12:00:02"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/molex-introduces-minimix-hybrid-power-and-signal-connectors-to-accelerate-humanoid-robotics-mass-production-scaling-302843651.html",
+      "last_ingested_at": "2026-08-29 06:00:02"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/primax-tymphany-group-advances-intelligent-robotics-and-automation-with-ai-sensor-fusion-at-automation-taipei-2026-302852351.html",
-      "last_ingested_at": "2026-08-28 06:00:31"
+      "last_ingested_at": "2026-08-29 12:00:02"
+    },
+    {
+      "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Reports-Third-Quarter-2026-Results.html",
+      "last_ingested_at": "2026-08-29 06:00:02"
     }
   ]
 }
