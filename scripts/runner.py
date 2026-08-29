@@ -23,14 +23,14 @@ Being able to move a job between pools is the lever; being able to fall back
 automatically is what stops the move from becoming a new single point of
 failure.
 
-The auth footgun, and why fallback is not optional
---------------------------------------------------
+The auth footgun, and why fallback is explicit
+----------------------------------------------
 Corbanu shares ONE `~/.pfterminal/auth.json` with the always-on Telegram
 connector, and two processes refreshing that OAuth token at once produces
 "unauthorized / refresh token already used". Adding cron jobs makes a third
-consumer. So a pfterminal failure here is expected occasionally and must not
-cost a day of corpus: on any non-zero exit or empty answer, this falls through
-to `claude -p` and the run continues.
+consumer. So a pfterminal failure here is expected occasionally. Cron should
+not convert that failure into surprise paid-Claude burn: the default engine is
+pfterminal, and `--engine auto` is the explicit opt-in to Claude fallback.
 
 Neither path is trusted blindly downstream. Every discovered URL is fetched and
 title-checked before it is written, and every claim lands `review_state:
@@ -55,6 +55,7 @@ LEDGER = Path.home() / "logs" / "model-usage.jsonl"
 _TOKENS = re.compile(r"tokens used\s*[\r\n]*\s*([\d,]+)")
 AUTH_MARKERS = ("authenticate", "oauth", "revoked", "401", "login",
                 "refresh token", "unauthorized")
+DEFAULT_ENGINE = os.environ.get("TREND_CORPUS_MODEL_ENGINE", "pfterminal")
 
 
 class AuthFailure(RuntimeError):
@@ -109,6 +110,7 @@ def _pfterminal(prompt: str, *, web: bool, effort: str, timeout: int) -> tuple[s
 
 
 def _claude(prompt: str, *, web: bool, model: str, timeout: int) -> str:
+    prompt = prompt.replace("\x00", "")
     cmd = ["claude", "-p", prompt, "--model", model, "--output-format", "text"]
     # With no tool needed, close the door: a model that decides to "check"
     # something anyway puts three turns back where one belongs.
@@ -125,10 +127,19 @@ def _claude(prompt: str, *, web: bool, model: str, timeout: int) -> str:
     return result.stdout
 
 
-def ask(prompt: str, *, stage: str, web: bool = False, engine: str = "auto",
+def ask(prompt: str, *, stage: str, web: bool = False, engine: str | None = None,
         effort: str = "low", claude_model: str = "sonnet",
         timeout: int = 300) -> str:
     """One question, one answer. `engine` is auto | pfterminal | claude."""
+    # Sanitise once, here, rather than per engine. A NUL cannot exist in argv at
+    # all, so a page title carrying one killed the whole 12:40 promotion run
+    # with ValueError: embedded null byte -- a scraped byte taking down a cron
+    # job. Other control characters are noise in a prompt and are dropped with
+    # it; tab and newline are kept because they carry meaning.
+    prompt = "".join(c for c in prompt
+                     if c in "\t\n" or ord(c) >= 32)
+    if engine is None:
+        engine = DEFAULT_ENGINE
     started = time.time()
     if engine in ("auto", "pfterminal"):
         try:
@@ -136,7 +147,7 @@ def ask(prompt: str, *, stage: str, web: bool = False, engine: str = "auto",
                                          timeout=timeout)
             _record(stage, "pfterminal", tokens, time.time() - started, True)
             return answer
-        except (subprocess.TimeoutExpired, RuntimeError) as exc:
+        except (subprocess.TimeoutExpired, RuntimeError, ValueError) as exc:
             _record(stage, "pfterminal", 0, time.time() - started, False)
             if engine == "pfterminal":
                 raise

@@ -289,10 +289,10 @@ def main() -> int:
     ap.add_argument("--window", type=int, default=WINDOW_DAYS)
     ap.add_argument("--model", default="sonnet",
                     help="model for the claude fallback path only")
-    ap.add_argument("--engine", default="auto",
+    ap.add_argument("--engine", default=None,
                     choices=["auto", "pfterminal", "claude"],
-                    help="auto tries pfterminal (a different subscription, and "
-                         "~24x cheaper on this task) and falls back to claude")
+                    help="default is pfterminal; auto explicitly falls back to "
+                         "claude")
     ap.add_argument("--timeout", type=int, default=300)
     ap.add_argument("--shard", default="",
                     help="i/n -- take every nth theme starting at i. Lets cron "
