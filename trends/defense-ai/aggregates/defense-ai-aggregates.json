@@ -1,58 +1,62 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-29T13:34:01Z",
+  "generated_at": "2026-08-30T13:34:01Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 4524,
-  "underlying_source_count": 38,
+  "underlying_claim_count": 4812,
+  "underlying_source_count": 43,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 1046,
+      "claims_total": 1243,
       "claims_by_category": {
-        "market": 67,
-        "corporate": 649,
-        "manufacturing": 93,
-        "regulatory": 112,
-        "research": 114,
-        "supply": 11
+        "corporate": 781,
+        "research": 143,
+        "regulatory": 121,
+        "market": 79,
+        "manufacturing": 107,
+        "supply": 12
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 394
+          "mentions": 458
         },
         {
           "slug": "kratos",
-          "mentions": 176
+          "mentions": 206
         },
         {
           "slug": "palantir",
-          "mentions": 90
-        },
-        {
-          "slug": "leidos",
-          "mentions": 82
+          "mentions": 113
         },
         {
           "slug": "aerovironment",
-          "mentions": 79
+          "mentions": 95
+        },
+        {
+          "slug": "leidos",
+          "mentions": 86
         },
         {
           "slug": "axon",
-          "mentions": 42
-        },
-        {
-          "slug": "boeing",
-          "mentions": 35
+          "mentions": 60
         },
         {
           "slug": "booz_allen",
-          "mentions": 32
+          "mentions": 49
+        },
+        {
+          "slug": "boeing",
+          "mentions": 39
+        },
+        {
+          "slug": "nga",
+          "mentions": 28
         },
         {
           "slug": "raytheon",
@@ -60,11 +64,27 @@
         },
         {
           "slug": "anduril",
-          "mentions": 21
+          "mentions": 25
         },
         {
-          "slug": "nga",
-          "mentions": 21
+          "slug": "lockheed_martin",
+          "mentions": 24
+        },
+        {
+          "slug": "eyeonix_sa",
+          "mentions": 23
+        },
+        {
+          "slug": "saic",
+          "mentions": 22
+        },
+        {
+          "slug": "northrop_grumman",
+          "mentions": 20
+        },
+        {
+          "slug": "saildrone",
+          "mentions": 19
         },
         {
           "slug": "ge_aerospace",
@@ -75,158 +95,45 @@
           "mentions": 18
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "accrete",
           "mentions": 16
         },
         {
-          "slug": "saic",
-          "mentions": 15
-        },
-        {
-          "slug": "navy",
-          "mentions": 14
-        },
-        {
-          "slug": "centcom",
-          "mentions": 14
-        },
-        {
-          "slug": "eyeonix_sa",
-          "mentions": 14
-        },
-        {
-          "slug": "lockheed_martin",
-          "mentions": 13
-        },
-        {
-          "slug": "darpa",
-          "mentions": 13
+          "slug": "caci",
+          "mentions": 16
         }
       ]
     },
     "90d": {
-      "claims_total": 3348,
+      "claims_total": 3631,
       "claims_by_category": {
-        "market": 272,
-        "corporate": 1929,
-        "manufacturing": 359,
-        "regulatory": 422,
-        "research": 333,
-        "supply": 33
-      },
-      "top_entities": [
-        {
-          "slug": "dod",
-          "mentions": 1161
-        },
-        {
-          "slug": "kratos",
-          "mentions": 451
-        },
-        {
-          "slug": "aerovironment",
-          "mentions": 337
-        },
-        {
-          "slug": "leidos",
-          "mentions": 296
-        },
-        {
-          "slug": "palantir",
-          "mentions": 102
-        },
-        {
-          "slug": "lockheed_martin",
-          "mentions": 88
-        },
-        {
-          "slug": "anduril",
-          "mentions": 80
-        },
-        {
-          "slug": "boeing",
-          "mentions": 65
-        },
-        {
-          "slug": "ukraine",
-          "mentions": 50
-        },
-        {
-          "slug": "axon",
-          "mentions": 46
-        },
-        {
-          "slug": "northrop_grumman",
-          "mentions": 45
-        },
-        {
-          "slug": "doe",
-          "mentions": 37
-        },
-        {
-          "slug": "saab",
-          "mentions": 36
-        },
-        {
-          "slug": "iceye",
-          "mentions": 35
-        },
-        {
-          "slug": "rheinmetall",
-          "mentions": 35
-        },
-        {
-          "slug": "raytheon",
-          "mentions": 34
-        },
-        {
-          "slug": "nato",
-          "mentions": 34
-        },
-        {
-          "slug": "booz_allen",
-          "mentions": 32
-        },
-        {
-          "slug": "germany",
-          "mentions": 30
-        },
-        {
-          "slug": "anthropic",
-          "mentions": 27
-        }
-      ]
-    },
-    "365d": {
-      "claims_total": 4028,
-      "claims_by_category": {
-        "market": 329,
-        "corporate": 2355,
-        "manufacturing": 433,
-        "regulatory": 489,
-        "research": 388,
+        "corporate": 2111,
+        "research": 371,
+        "regulatory": 440,
+        "market": 288,
+        "manufacturing": 387,
         "supply": 34
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 1457
+          "mentions": 1258
         },
         {
           "slug": "kratos",
-          "mentions": 614
-        },
-        {
-          "slug": "leidos",
-          "mentions": 418
+          "mentions": 504
         },
         {
           "slug": "aerovironment",
-          "mentions": 394
+          "mentions": 362
+        },
+        {
+          "slug": "leidos",
+          "mentions": 304
         },
         {
           "slug": "palantir",
-          "mentions": 106
+          "mentions": 127
         },
         {
           "slug": "lockheed_martin",
@@ -234,18 +141,119 @@
         },
         {
           "slug": "anduril",
-          "mentions": 91
+          "mentions": 84
         },
         {
           "slug": "boeing",
           "mentions": 70
         },
         {
+          "slug": "axon",
+          "mentions": 64
+        },
+        {
+          "slug": "booz_allen",
+          "mentions": 50
+        },
+        {
+          "slug": "ukraine",
+          "mentions": 50
+        },
+        {
+          "slug": "northrop_grumman",
+          "mentions": 49
+        },
+        {
+          "slug": "doe",
+          "mentions": 46
+        },
+        {
+          "slug": "rheinmetall",
+          "mentions": 43
+        },
+        {
+          "slug": "iceye",
+          "mentions": 36
+        },
+        {
+          "slug": "saab",
+          "mentions": 36
+        },
+        {
+          "slug": "raytheon",
+          "mentions": 35
+        },
+        {
+          "slug": "nato",
+          "mentions": 34
+        },
+        {
+          "slug": "saic",
+          "mentions": 32
+        },
+        {
+          "slug": "germany",
+          "mentions": 30
+        }
+      ]
+    },
+    "365d": {
+      "claims_total": 4315,
+      "claims_by_category": {
+        "corporate": 2541,
+        "research": 426,
+        "regulatory": 507,
+        "market": 345,
+        "manufacturing": 461,
+        "supply": 35
+      },
+      "top_entities": [
+        {
+          "slug": "dod",
+          "mentions": 1555
+        },
+        {
+          "slug": "kratos",
+          "mentions": 668
+        },
+        {
+          "slug": "leidos",
+          "mentions": 426
+        },
+        {
+          "slug": "aerovironment",
+          "mentions": 420
+        },
+        {
+          "slug": "palantir",
+          "mentions": 131
+        },
+        {
+          "slug": "lockheed_martin",
+          "mentions": 117
+        },
+        {
+          "slug": "anduril",
+          "mentions": 95
+        },
+        {
+          "slug": "boeing",
+          "mentions": 75
+        },
+        {
+          "slug": "axon",
+          "mentions": 64
+        },
+        {
+          "slug": "northrop_grumman",
+          "mentions": 56
+        },
+        {
           "slug": "ukraine",
           "mentions": 53
         },
         {
-          "slug": "northrop_grumman",
+          "slug": "booz_allen",
           "mentions": 51
         },
         {
@@ -253,40 +261,32 @@
           "mentions": 46
         },
         {
-          "slug": "axon",
+          "slug": "doe",
           "mentions": 46
         },
         {
+          "slug": "rheinmetall",
+          "mentions": 43
+        },
+        {
           "slug": "raytheon",
-          "mentions": 41
+          "mentions": 42
         },
         {
           "slug": "nato",
           "mentions": 39
         },
         {
-          "slug": "doe",
-          "mentions": 37
-        },
-        {
           "slug": "iceye",
-          "mentions": 35
-        },
-        {
-          "slug": "rheinmetall",
-          "mentions": 35
+          "mentions": 36
         },
         {
           "slug": "germany",
           "mentions": 33
         },
         {
-          "slug": "booz_allen",
+          "slug": "saic",
           "mentions": 32
-        },
-        {
-          "slug": "darpa",
-          "mentions": 30
         }
       ]
     }
@@ -294,59 +294,67 @@
   "source_freshness": [
     {
       "url": "https://breakingdefense.com/",
-      "last_ingested_at": "2026-08-29 06:00:05"
+      "last_ingested_at": "2026-08-30 12:00:05"
     },
     {
       "url": "https://federalnewsnetwork.com/contracting/2026/08/pentagon-wants-to-spend-millions-on-palantir-with-few-details/",
-      "last_ingested_at": "2026-08-29 00:00:03"
+      "last_ingested_at": "2026-08-30 06:00:05"
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-08-28 12:00:02"
+      "last_ingested_at": "2026-08-29 18:00:02"
     },
     {
       "url": "https://investor.axon.com/2026-08-05-Axon-reports-Q2-2026-revenue-of-904-million,-up-35-year-over-year",
-      "last_ingested_at": "2026-08-28 18:00:02"
+      "last_ingested_at": "2026-08-30 00:00:02"
     },
     {
       "url": "https://investors.leidos.com/",
-      "last_ingested_at": "2026-08-29 06:00:08"
+      "last_ingested_at": "2026-08-30 12:00:08"
     },
     {
       "url": "https://investors.palantir.com/",
-      "last_ingested_at": "2026-08-29 06:00:08"
+      "last_ingested_at": "2026-08-30 12:00:08"
     },
     {
       "url": "https://ir.kratosdefense.com/",
-      "last_ingested_at": "2026-08-29 06:00:07"
+      "last_ingested_at": "2026-08-30 12:00:07"
     },
     {
       "url": "https://news.usni.org/2026/07/15/blue-water-autonomy-saildrone-sue-navy-over-musv-rejection",
-      "last_ingested_at": "2026-08-28 18:00:02"
+      "last_ingested_at": "2026-08-30 00:00:02"
     },
     {
       "url": "https://shield.ai/news/",
       "last_ingested_at": "2026-08-29 12:00:04"
     },
     {
+      "url": "https://shield.ai/shield-ai-and-taiwans-ncsist-complete-autonomous-swarm-exercise-and-expand-sovereign-ai-and-autonomy-efforts/",
+      "last_ingested_at": "2026-08-30 06:00:05"
+    },
+    {
       "url": "https://warontherocks.com/",
       "last_ingested_at": "2026-08-29 12:00:06"
     },
     {
+      "url": "https://www.avinc.com/2026/07/29/av-and-applied-intuition-establish-strategic-collaboration-to-advance-uncrewed-teaming/",
+      "last_ingested_at": "2026-08-30 06:00:03"
+    },
+    {
       "url": "https://www.avinc.com/2026/08/20/aerovironment-to-establish-industrial-presence-in-greece-through-av-eagle/",
-      "last_ingested_at": "2026-08-28 12:00:02"
+      "last_ingested_at": "2026-08-29 18:00:02"
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
-      "last_ingested_at": "2026-08-29 06:00:04"
+      "last_ingested_at": "2026-08-30 12:00:05"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260803712074/en/CentralSquare-and-Skydio-Partner-to-Bring-Native-Drone-as-First-Responder-Operations-Into-Public-Safety-CAD-Workflows",
-      "last_ingested_at": "2026-08-28 18:00:02"
+      "last_ingested_at": "2026-08-30 00:00:02"
     },
     {
       "url": "https://www.darpa.mil/news",
-      "last_ingested_at": "2026-08-29 06:00:06"
+      "last_ingested_at": "2026-08-30 12:00:06"
     },
     {
       "url": "https://www.defense.gov/News/Contracts/",
@@ -362,7 +370,7 @@
     },
     {
       "url": "https://www.defensenews.com/",
-      "last_ingested_at": "2026-08-29 06:00:06"
+      "last_ingested_at": "2026-08-30 12:00:07"
     },
     {
       "url": "https://www.defenseone.com/defense-systems/2026/07/anduril-pitches-robot-wingman-us-army-helicopters/414868/",
@@ -377,52 +385,64 @@
       "last_ingested_at": "2026-08-29 12:00:03"
     },
     {
+      "url": "https://www.executivebiz.com/articles/booz-allen-hamilton-ustranscom-trac2es",
+      "last_ingested_at": "2026-08-30 06:00:05"
+    },
+    {
+      "url": "https://www.executivebiz.com/articles/lockheed-martin-guam-defense-system-battle-manager-prototype-demo",
+      "last_ingested_at": "2026-08-30 06:00:05"
+    },
+    {
       "url": "https://www.executivegov.com/articles/nga-mojave-bridge-contracts-incumbents-booz-caci-mantech-saic",
-      "last_ingested_at": "2026-08-28 18:00:05"
+      "last_ingested_at": "2026-08-30 00:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/04/3338770/224/en/Kratos-Reports-Second-Quarter-2026-Financial-Results.html",
-      "last_ingested_at": "2026-08-29 00:00:03"
+      "last_ingested_at": "2026-08-30 06:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/18/3346686/224/en/usmc-valkyrie-demonstrates-beyond-line-of-sight-command-and-control-in-flight-at-u-s-navy-test-range.html",
-      "last_ingested_at": "2026-08-28 18:00:06"
+      "last_ingested_at": "2026-08-30 00:00:07"
     },
     {
       "url": "https://www.govconwire.com/articles/booz-allen-720m-ultra-ic-mission-solutions-close",
-      "last_ingested_at": "2026-08-28 12:00:03"
+      "last_ingested_at": "2026-08-29 18:00:04"
     },
     {
       "url": "https://www.govconwire.com/articles/kratos-doe-nnsa-156m-solar-shield-c-uas-contract",
-      "last_ingested_at": "2026-08-28 12:00:05"
+      "last_ingested_at": "2026-08-29 18:00:04"
     },
     {
       "url": "https://www.govconwire.com/articles/saic-recomepete-contract-intel-agency",
-      "last_ingested_at": "2026-08-28 12:00:07"
+      "last_ingested_at": "2026-08-29 18:00:05"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-receives-mobile-counter-unmanned-aircraft-system-c-uas-approximate-156-million-single-award-contract-by-u-s-department-of-energy-office-of-secure-transportation",
-      "last_ingested_at": "2026-08-28 18:00:04"
+      "last_ingested_at": "2026-08-30 00:00:05"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/agile-defense-awarded-100-million-for-ai-prototype-supporting-combatant-commands-302826389.html",
-      "last_ingested_at": "2026-08-29 06:00:01"
+      "last_ingested_at": "2026-08-30 06:00:01"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/agile-defense-awarded-250-million-for-navy-logistics-it-modernization-302850907.html",
-      "last_ingested_at": "2026-08-29 06:00:01"
+      "last_ingested_at": "2026-08-30 06:00:01"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/us-army-awards-raft-99m-enterprise-contract-to-accelerate-delivery-of-data-and-ai-capabilities-302855011.html",
-      "last_ingested_at": "2026-08-29 06:00:08"
+      "last_ingested_at": "2026-08-30 12:00:09"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/us-marine-corps-awards-accrete-sole-source-contract-for-argus-for-cognitive-advantage-302857547.html",
-      "last_ingested_at": "2026-08-29 06:00:09"
+      "last_ingested_at": "2026-08-30 12:00:09"
     },
     {
       "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/07/2026-07-31-american-rheinmetall-awarded-us-army-contract-for-project-sustainment",
-      "last_ingested_at": "2026-08-29 06:00:03"
+      "last_ingested_at": "2026-08-30 12:00:03"
+    },
+    {
+      "url": "https://www.saildrone.com/news/us-navy-rimpac-lockheed-martin-advance-autonomous-warfare",
+      "last_ingested_at": "2026-08-30 06:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm",
@@ -434,15 +454,15 @@
     },
     {
       "url": "https://www.theregister.com/public-sector/2026/08/11/palantir-could-receive-244m-pentagon-no-bid-contract/5286438",
-      "last_ingested_at": "2026-08-29 00:00:02"
+      "last_ingested_at": "2026-08-30 06:00:03"
     },
     {
       "url": "https://www.washingtontechnology.com/contracts/2026/08/anduril-wants-both-halves-15-dhs-counter-uas-contract/415428/",
-      "last_ingested_at": "2026-08-28 18:00:01"
+      "last_ingested_at": "2026-08-29 18:00:03"
     },
     {
       "url": "https://www.washingtontechnology.com/contracts/2026/08/palantirs-no-bid-pipeline-just-got-bigger/415377/",
-      "last_ingested_at": "2026-08-28 12:00:06"
+      "last_ingested_at": "2026-08-29 18:00:05"
     }
   ]
 }
