@@ -1,170 +1,81 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-29T13:42:01Z",
+  "generated_at": "2026-08-30T13:42:02Z",
   "theme_id": "longevity",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 7334,
-  "underlying_source_count": 34,
+  "underlying_claim_count": 7648,
+  "underlying_source_count": 35,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 372,
+      "claims_total": 500,
       "claims_by_category": {
-        "corporate": 206,
-        "clinical": 85,
-        "regulatory": 35,
-        "research": 41,
+        "corporate": 275,
+        "clinical": 107,
+        "regulatory": 51,
+        "research": 60,
         "manufacturing": 3,
-        "market": 2
+        "market": 4
       },
       "top_entities": [
         {
           "slug": "insilico",
-          "mentions": 152
+          "mentions": 216
         },
         {
           "slug": "bioage",
-          "mentions": 105
+          "mentions": 144
         },
         {
           "slug": "ardd",
-          "mentions": 30
+          "mentions": 40
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 21
+          "mentions": 26
         },
         {
           "slug": "life_bio",
-          "mentions": 20
+          "mentions": 26
+        },
+        {
+          "slug": "mhra",
+          "mentions": 15
         },
         {
           "slug": "retro",
           "mentions": 14
         },
         {
-          "slug": "hygtia_therapeutics",
-          "mentions": 10
+          "slug": "novartis",
+          "mentions": 12
         },
         {
           "slug": "eli_lilly",
-          "mentions": 10
-        },
-        {
-          "slug": "mhra",
-          "mentions": 10
-        },
-        {
-          "slug": "novartis",
-          "mentions": 9
+          "mentions": 12
         },
         {
           "slug": "spark_therapeutics",
-          "mentions": 9
+          "mentions": 12
+        },
+        {
+          "slug": "hygtia_therapeutics",
+          "mentions": 11
         },
         {
           "slug": "utmb",
           "mentions": 8
         },
         {
-          "slug": "fda_cber",
-          "mentions": 6
+          "slug": "orforglipron",
+          "mentions": 8
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 6
-        },
-        {
-          "slug": "mckinsey_health_institute",
-          "mentions": 5
-        },
-        {
-          "slug": "abbvie",
-          "mentions": 5
-        },
-        {
-          "slug": "gordian_biotechnology",
-          "mentions": 5
-        },
-        {
-          "slug": "astrazeneca",
-          "mentions": 4
-        },
-        {
-          "slug": "ucsd",
-          "mentions": 4
-        },
-        {
-          "slug": "human_longevity",
-          "mentions": 3
-        }
-      ]
-    },
-    "90d": {
-      "claims_total": 578,
-      "claims_by_category": {
-        "corporate": 266,
-        "clinical": 162,
-        "regulatory": 38,
-        "research": 106,
-        "manufacturing": 4,
-        "market": 2
-      },
-      "top_entities": [
-        {
-          "slug": "insilico",
-          "mentions": 177
-        },
-        {
-          "slug": "bioage",
-          "mentions": 133
-        },
-        {
-          "slug": "newlimit",
-          "mentions": 92
-        },
-        {
-          "slug": "life_bio",
-          "mentions": 70
-        },
-        {
-          "slug": "ardd",
-          "mentions": 30
-        },
-        {
-          "slug": "lilly_longevity",
-          "mentions": 23
-        },
-        {
-          "slug": "retro",
-          "mentions": 15
-        },
-        {
-          "slug": "novartis",
-          "mentions": 13
-        },
-        {
-          "slug": "hygtia_therapeutics",
-          "mentions": 12
-        },
-        {
-          "slug": "eli_lilly",
-          "mentions": 10
-        },
-        {
-          "slug": "mhra",
-          "mentions": 10
-        },
-        {
-          "slug": "spark_therapeutics",
-          "mentions": 9
-        },
-        {
-          "slug": "utmb",
           "mentions": 8
         },
         {
@@ -172,81 +83,170 @@
           "mentions": 7
         },
         {
-          "slug": "takeda",
-          "mentions": 6
-        },
-        {
-          "slug": "sk_biopharmaceuticals",
-          "mentions": 6
-        },
-        {
-          "slug": "jikang_therapeutics",
-          "mentions": 6
-        },
-        {
-          "slug": "bryan_johnson",
-          "mentions": 5
+          "slug": "abbvie",
+          "mentions": 7
         },
         {
           "slug": "mckinsey_health_institute",
+          "mentions": 6
+        },
+        {
+          "slug": "astrazeneca",
           "mentions": 5
         },
         {
-          "slug": "abbvie",
+          "slug": "gordian_biotechnology",
           "mentions": 5
+        },
+        {
+          "slug": "human_longevity",
+          "mentions": 4
+        }
+      ]
+    },
+    "90d": {
+      "claims_total": 747,
+      "claims_by_category": {
+        "corporate": 361,
+        "clinical": 193,
+        "regulatory": 57,
+        "research": 127,
+        "manufacturing": 5,
+        "market": 4
+      },
+      "top_entities": [
+        {
+          "slug": "insilico",
+          "mentions": 254
+        },
+        {
+          "slug": "bioage",
+          "mentions": 187
+        },
+        {
+          "slug": "newlimit",
+          "mentions": 95
+        },
+        {
+          "slug": "life_bio",
+          "mentions": 78
+        },
+        {
+          "slug": "ardd",
+          "mentions": 40
+        },
+        {
+          "slug": "lilly_longevity",
+          "mentions": 28
+        },
+        {
+          "slug": "novartis",
+          "mentions": 18
+        },
+        {
+          "slug": "hygtia_therapeutics",
+          "mentions": 16
+        },
+        {
+          "slug": "retro",
+          "mentions": 16
+        },
+        {
+          "slug": "mhra",
+          "mentions": 15
+        },
+        {
+          "slug": "eli_lilly",
+          "mentions": 13
+        },
+        {
+          "slug": "spark_therapeutics",
+          "mentions": 12
+        },
+        {
+          "slug": "fda_cber",
+          "mentions": 10
+        },
+        {
+          "slug": "sk_biopharmaceuticals",
+          "mentions": 9
+        },
+        {
+          "slug": "takeda",
+          "mentions": 8
+        },
+        {
+          "slug": "utmb",
+          "mentions": 8
+        },
+        {
+          "slug": "orforglipron",
+          "mentions": 8
+        },
+        {
+          "slug": "jikang_therapeutics",
+          "mentions": 8
+        },
+        {
+          "slug": "abbvie",
+          "mentions": 7
+        },
+        {
+          "slug": "mckinsey_health_institute",
+          "mentions": 6
         }
       ]
     },
     "365d": {
-      "claims_total": 4483,
+      "claims_total": 4749,
       "claims_by_category": {
-        "corporate": 2107,
-        "clinical": 1088,
-        "regulatory": 384,
-        "research": 743,
-        "manufacturing": 57,
-        "market": 104
+        "corporate": 2253,
+        "clinical": 1141,
+        "regulatory": 413,
+        "research": 775,
+        "manufacturing": 58,
+        "market": 109
       },
       "top_entities": [
         {
           "slug": "bioage",
-          "mentions": 1248
-        },
-        {
-          "slug": "life_bio",
-          "mentions": 1203
+          "mentions": 1325
         },
         {
           "slug": "insilico",
-          "mentions": 1186
+          "mentions": 1303
         },
         {
-          "slug": "calico",
-          "mentions": 446
+          "slug": "life_bio",
+          "mentions": 1229
         },
         {
           "slug": "abbvie",
-          "mentions": 445
+          "mentions": 447
+        },
+        {
+          "slug": "calico",
+          "mentions": 447
         },
         {
           "slug": "newlimit",
-          "mentions": 204
+          "mentions": 207
         },
         {
           "slug": "fda_cber",
-          "mentions": 196
+          "mentions": 205
         },
         {
           "slug": "lilly_longevity",
-          "mentions": 186
+          "mentions": 195
         },
         {
           "slug": "novartis",
-          "mentions": 155
+          "mentions": 162
         },
         {
           "slug": "jikang_therapeutics",
-          "mentions": 79
+          "mentions": 82
         },
         {
           "slug": "alphabet",
@@ -254,39 +254,39 @@
         },
         {
           "slug": "ardd",
-          "mentions": 30
-        },
-        {
-          "slug": "retro",
-          "mentions": 17
+          "mentions": 40
         },
         {
           "slug": "hygtia_therapeutics",
-          "mentions": 16
+          "mentions": 24
         },
         {
-          "slug": "eli_lilly",
-          "mentions": 10
+          "slug": "retro",
+          "mentions": 19
         },
         {
           "slug": "mhra",
-          "mentions": 10
+          "mentions": 15
+        },
+        {
+          "slug": "eli_lilly",
+          "mentions": 14
         },
         {
           "slug": "spark_therapeutics",
+          "mentions": 12
+        },
+        {
+          "slug": "sk_biopharmaceuticals",
           "mentions": 9
+        },
+        {
+          "slug": "takeda",
+          "mentions": 8
         },
         {
           "slug": "utmb",
           "mentions": 8
-        },
-        {
-          "slug": "bryan_johnson",
-          "mentions": 6
-        },
-        {
-          "slug": "takeda",
-          "mentions": 6
         }
       ]
     }
@@ -298,7 +298,7 @@
     },
     {
       "url": "https://altoslabs.com/news/",
-      "last_ingested_at": "2026-08-28 12:00:02"
+      "last_ingested_at": "2026-08-29 18:00:02"
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT04488601",
@@ -310,23 +310,23 @@
     },
     {
       "url": "https://insilico.com/news/0x2bab4j81-insilico-medicine-earns-second-consecuti",
-      "last_ingested_at": "2026-08-29 00:00:01"
+      "last_ingested_at": "2026-08-30 00:00:03"
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-announces-discontinuation-strides-phase-2-clinical",
-      "last_ingested_at": "2026-08-28 12:00:03"
+      "last_ingested_at": "2026-08-29 18:00:02"
     },
     {
       "url": "https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-reports-first-quarter-2026-financial-results-and",
-      "last_ingested_at": "2026-08-28 18:00:01"
+      "last_ingested_at": "2026-08-29 18:00:03"
     },
     {
       "url": "https://ir.unitybiotechnology.com/news-releases",
-      "last_ingested_at": "2026-08-29 06:00:04"
+      "last_ingested_at": "2026-08-30 12:00:04"
     },
     {
       "url": "https://loyal.com/posts/loy-002-receives-rxe-from-the-fda",
-      "last_ingested_at": "2026-08-29 00:00:02"
+      "last_ingested_at": "2026-08-30 06:00:04"
     },
     {
       "url": "https://loyalfordogs.com/post/",
@@ -334,7 +334,7 @@
     },
     {
       "url": "https://prnewswire.com/news-releases/insilico-medicine-announces-2026-interim-earnings-conference-call-dates-302848116.html",
-      "last_ingested_at": "2026-08-28 18:00:02"
+      "last_ingested_at": "2026-08-30 00:00:02"
     },
     {
       "url": "https://www.biopharmatrend.com/news/life-biosciences-gets-80m-as-cellular-rejuvenation-enters-the-clinic-1551/",
@@ -346,87 +346,91 @@
     },
     {
       "url": "https://www.chinamoneynetwork.com/2026/08/17/insilico-medicine-included-in-msci-global-small-cap-index-recognized-for-core-strengths-in-capital-markets",
-      "last_ingested_at": "2026-08-29 00:00:02"
+      "last_ingested_at": "2026-08-30 06:00:03"
     },
     {
       "url": "https://www.eurekalert.org/news-releases/1111220",
-      "last_ingested_at": "2026-08-28 18:00:02"
+      "last_ingested_at": "2026-08-30 00:00:02"
     },
     {
       "url": "https://www.eurekalert.org/news-releases/1138579",
-      "last_ingested_at": "2026-08-28 12:00:04"
+      "last_ingested_at": "2026-08-29 18:00:03"
     },
     {
       "url": "https://www.eurekalert.org/news-releases/1140209",
-      "last_ingested_at": "2026-08-28 12:00:02"
+      "last_ingested_at": "2026-08-29 18:00:02"
     },
     {
       "url": "https://www.eurekalert.org/news-releases/1140762",
-      "last_ingested_at": "2026-08-28 18:00:03"
+      "last_ingested_at": "2026-08-30 00:00:03"
     },
     {
       "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products",
-      "last_ingested_at": "2026-08-28 18:00:02"
+      "last_ingested_at": "2026-08-30 00:00:01"
     },
     {
       "url": "https://www.fiercebiotech.com/biotech/abbvie-cuts-ties-calico-100-scientists-after-11-year-partnership",
-      "last_ingested_at": "2026-08-29 06:00:01"
+      "last_ingested_at": "2026-08-30 06:00:01"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/04/08/3270043/0/en/Life-Biosciences-Secures-80-Million-Series-D-Financing.html",
-      "last_ingested_at": "2026-08-29 00:00:02"
+      "last_ingested_at": "2026-08-30 06:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/05/3339799/0/en/BioAge-Labs-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Updates.html",
-      "last_ingested_at": "2026-08-28 12:00:04"
+      "last_ingested_at": "2026-08-29 18:00:03"
     },
     {
       "url": "https://www.gov.uk/government/news/uk-first-in-europe-to-authorise-orforglipron-for-weight-management-and-type-2-diabetes",
-      "last_ingested_at": "2026-08-28 12:00:05"
+      "last_ingested_at": "2026-08-29 18:00:05"
     },
     {
       "url": "https://www.lifebiosciences.com/life-biosciences-announces-fda-clearance-of-ind-application-for-er-100-in-optic-neuropathies/",
-      "last_ingested_at": "2026-08-29 00:00:02"
+      "last_ingested_at": "2026-08-30 06:00:04"
     },
     {
       "url": "https://www.lifebiosciences.com/life-biosciences-appoints-stephen-webster-to-board-of-directors/",
-      "last_ingested_at": "2026-08-29 12:00:01"
+      "last_ingested_at": "2026-08-30 12:00:02"
     },
     {
       "url": "https://www.nad.com/news/new-oxford-study-powerful-longevity-drug-rapamycin-targets-cell-senescence",
-      "last_ingested_at": "2026-08-29 06:00:04"
+      "last_ingested_at": "2026-08-30 12:00:03"
     },
     {
       "url": "https://www.newlimit.com/operating-plan",
-      "last_ingested_at": "2026-08-29 00:00:03"
+      "last_ingested_at": "2026-08-30 06:00:04"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/ai-empowered-pipeline-in-a-drug-option-insilico-medicine-nominates-ism9077-potential-first-in-class-target-y-inhibitor-as-preclinical-candidate-pcc-for-ocular-diseases-inflammatory-disorders-and-aging-302843754.html",
-      "last_ingested_at": "2026-08-29 06:00:01"
+      "last_ingested_at": "2026-08-30 06:00:01"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/commercialization-roadmap-validated-with-three-digit-million-dollar-revenue-insilico-medicine-announces-interim-results-for-the-first-half-of-2026-302860466.html",
-      "last_ingested_at": "2026-08-28 12:00:04"
+      "last_ingested_at": "2026-08-29 18:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/insilico-medicine-introduces-biological-age-into-virtual-cell-research-launches-virtual-aging-cell-webpage-and-previews-multi-agent-driven-vac-generation-platform-302851856.html",
-      "last_ingested_at": "2026-08-29 06:00:02"
+      "last_ingested_at": "2026-08-30 12:00:01"
     },
     {
       "url": "https://www.regeneration.ai/p/longevity-biotechnology-in-h1-2026",
-      "last_ingested_at": "2026-08-29 06:00:02"
+      "last_ingested_at": "2026-08-30 12:00:02"
     },
     {
       "url": "https://www.retro.bio/news",
-      "last_ingested_at": "2026-08-29 06:00:04"
+      "last_ingested_at": "2026-08-30 12:00:04"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526335368/bioa-20260805.htm",
+      "last_ingested_at": "2026-08-30 06:00:01"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526335407/bioa-20260630.htm",
-      "last_ingested_at": "2026-08-29 06:00:02"
+      "last_ingested_at": "2026-08-30 12:00:01"
     },
     {
       "url": "https://www.stocktitan.net/news/BIOA/bio-age-labs-reports-second-quarter-2026-financial-results-and-sxqfkkjtzl0w.html",
-      "last_ingested_at": "2026-08-28 12:00:03"
+      "last_ingested_at": "2026-08-29 18:00:03"
     }
   ]
 }
