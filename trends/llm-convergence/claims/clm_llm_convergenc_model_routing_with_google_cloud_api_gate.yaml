@@ -1,0 +1,17 @@
+id: clm_llm_convergenc_model_routing_with_google_cloud_api_gate
+type: claim
+theme_id: llm-convergence
+claim: "On August 4, 2026, Google Developers Blog said Google Cloud API Gateway added model routing in Public Preview, accepting OpenAI-compatible requests and routing them to Gemini, Claude, or OpenAI OSS-GPT through Google-hosted Vertex AI/Agent Platform backends. The post describes routing rules configured in an OpenAPI 3.x `x-google-api-management` extension and notes that all backends referenced by a single router must share the same host, such as `aiplatform.googleapis.com`."
+category: technical
+source_ids:
+  - src_llm_convergence_model_routing_with_google_cloud_api_gate
+date_of_evidence: "2026-08-04"
+evidence_at: "2026-08-04"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

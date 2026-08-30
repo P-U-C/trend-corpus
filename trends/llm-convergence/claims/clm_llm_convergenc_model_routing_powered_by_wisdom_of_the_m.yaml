@@ -1,0 +1,17 @@
+id: clm_llm_convergenc_model_routing_powered_by_wisdom_of_the_m
+type: claim
+theme_id: llm-convergence
+claim: "On August 10, 2026, OpenRouter launched a major update to `openrouter/auto`, its Auto router, using aggregate anonymized OpenRouter spend over the past 7 days and prompt classification into about 30 task types to select models by `cost_tier`. OpenRouter said the router is informed by over 55T in weekly token spend on OpenRouter, supports `low`, `medium`, `high`, `xhigh`, and `max` cost tiers, respects account guardrails/privacy settings including ZDR policies, and uses sticky behavior for multi-turn conversations."
+category: technical
+source_ids:
+  - src_llm_convergence_model_routing_powered_by_wisdom_of_the_m
+date_of_evidence: "2026-08-10"
+evidence_at: "2026-08-10"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
