@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_als_nexus_2026_implanted_device_decodes
+type: claim
+theme_id: bci-neurotech
+claim: "At ALS Nexus 2026, held Aug. 23-26, 2026 in Orlando and virtually, Precision Neuroscience presented preliminary Layer 7 data showing its minimally invasive brain-computer interface recorded brain activity from 68 neurosurgery patients, including movement and speech tasks. The source reports that earlier testing in four participants enabled cursor-direction decoding with up to 84% accuracy after about 20 minutes of training, four-word speech classification with 77.5% accuracy, and that 18 participants had the device implanted for an average of three days with fully reversible procedures."
+category: technical
+source_ids:
+  - src_bci_neurotech_als_nexus_2026_implantable_device_decode
+date_of_evidence: "2026-08-26"
+evidence_at: "2026-08-26"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

@@ -10,7 +10,7 @@
     "title": {"type": "string"},
     "source_type": {
       "type": "string",
-      "enum": ["regulatory", "company_ir", "trade_press", "clinical_registry", "earnings_call", "patent", "other"]
+      "enum": ["regulatory", "company_ir", "primary_research", "trade_press", "clinical_registry", "earnings_call", "patent", "other"]
     },
     "url": {"type": "string"},
     "public_locator": {"type": "string"},

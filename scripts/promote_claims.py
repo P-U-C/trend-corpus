@@ -76,6 +76,15 @@ PROMPT_INLINE = PROMPT.replace(
 )
 
 
+# `confidence` is required by schemas/claim.schema.json, and a claim written
+# here is single-source and unreviewed, so it must sit below the floor of the
+# hand-curated claims (which run 0.65-0.90). Tier is the only signal we have at
+# write time. A reviewer raising this is the promotion out of `review_state:
+# pending`; nothing else reads it -- aggregates deliberately ignore per-claim
+# confidence -- so these values do not move any score.
+UNREVIEWED_CONFIDENCE = {"primary": 0.5, "secondary": 0.4}
+
+
 def slugify(text: str, limit: int = 44) -> str:
     s = re.sub(r"[^a-z0-9]+", "_", (text or "").lower()).strip("_")
     return s[:limit].strip("_") or "untitled"
@@ -184,6 +193,7 @@ def write_claim(theme_dir: Path, theme_id: str, source: dict, parsed: dict) -> P
         f'date_of_evidence: "{when}"',
         f'evidence_at: "{when}"',
         "schema_version: 1",
+        f"confidence: {UNREVIEWED_CONFIDENCE.get(source['tier'], 0.4)}",
         "discovery: auto",
         "review_state: pending",
         f"publisher_tier: {source['tier']}",
