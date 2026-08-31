@@ -1,0 +1,17 @@
+id: clm_llm_convergenc_intelligent_model_routing_kong_ai_gatewa
+type: claim
+theme_id: llm-convergence
+claim: "On August 11, 2026, Kong Inc. published an engineering post describing an integration in which Kong AI Gateway invokes NVIDIA NeMo Switchyard as a model-selection service, receives a target model, and then routes the request while applying credentials, guardrails, PII masking, rate limits, metering, auditing, failover, retries, and load balancing. Kong reported that in its OpenThoughts-TBLite test, raising a NVIDIA NeMo Switchyard `stage_router` confidence threshold from 0.3 to 0.5 reduced escalations to Claude Opus 4.8 from 85% to 17% and reduced cost per completed task by 43.7%, with GLM-5.2 used as the efficient tier."
+category: technical
+source_ids:
+  - src_llm_convergence_intelligent_model_routing_kong_ai_gatewa
+date_of_evidence: "2026-08-11"
+evidence_at: "2026-08-11"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
