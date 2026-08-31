@@ -1,0 +1,17 @@
+id: clm_bitcoin_mining_hashrate_index_weekly_roundup
+type: claim
+theme_id: bitcoin-mining
+claim: "Hashrate Index reported that on August 17, 2026 at 20:00 UTC, Bitcoin traded at $64,259, USD hashprice was $31.89 per PH/s/day, BTC hashprice was 0.00049565 BTC per PH/s/day, and Bitcoin network hashrate was 920 EH/s on a 7-day SMA. Miners collected about 3,178 BTC in block rewards over the prior week, including 22 BTC in transaction fees equal to 0.69% of block rewards."
+category: market
+source_ids:
+  - src_bitcoin_mining_hashrate_index_roundup_august_17_2026
+date_of_evidence: "2026-08-17"
+evidence_at: "2026-08-17"
+schema_version: 1
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
