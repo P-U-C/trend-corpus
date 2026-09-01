@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2608_14927_llms_can_predict_failure_risk
+type: claim
+theme_id: llm-convergence
+claim: "On 2026-08-14, Chih-Hsuan Yang, Jingyan Jiang, Cheng-Hau Yang, Vikram Vasudevan, Huihuo Zheng, Venkatram Vishwanath, and Rajeev Thakur submitted arXiv:2608.14927, reporting that multi-agent LLM routing tests across 4,181 competition-level math problems found a post-answer pre-collaboration gpt-oss-120b probe ranked Baseline failures at 0.8847 AUROC. The paper reports the same score was weaker for identifying PER-specific and Broadcast-specific value, at 0.1674 and 0.1041 AUPRC, and concludes that protocol-specific cost-aware routing remains unresolved."
+category: technical
+source_ids:
+  - src_llm_convergence_llms_can_predict_failure_risk_but_strugg
+date_of_evidence: "2026-08-14"
+evidence_at: "2026-08-14"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

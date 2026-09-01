@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_august_townhall_updates_security_stabili
+type: claim
+theme_id: llm-convergence
+claim: "LiteLLM\u2019s August 27, 2026 townhall update states that in August 2026 LiteLLM shipped 79 security fixes, 375 bug fixes, and 142 feature commits, with security fixes backported across the last four minor release lines and current release v1.99. It also states that a design partner ran LiteLLM Auto-Router from April 15 to August 9 across 450+ users, 272,876 requests, and 7.08 billion tokens, reducing spend to $12,249 versus a $23,985 all-flagship baseline, a 51.1% reduction."
+category: technical
+source_ids:
+  - src_llm_convergence_august_townhall_updates_security_stabili
+date_of_evidence: "2026-08-28"
+evidence_at: "2026-08-28"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
