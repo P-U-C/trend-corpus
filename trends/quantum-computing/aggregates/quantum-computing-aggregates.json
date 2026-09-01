@@ -1,58 +1,58 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-31T13:31:01Z",
+  "generated_at": "2026-09-01T13:31:01Z",
   "theme_id": "quantum-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 10642,
-  "underlying_source_count": 41,
+  "underlying_claim_count": 10967,
+  "underlying_source_count": 45,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 1823,
+      "claims_total": 2017,
       "claims_by_category": {
-        "manufacturing": 214,
-        "market": 353,
-        "corporate": 709,
-        "research": 436,
-        "regulatory": 104,
+        "manufacturing": 222,
+        "corporate": 804,
+        "market": 407,
+        "regulatory": 112,
+        "research": 465,
         "supply": 7
       },
       "top_entities": [
         {
           "slug": "rigetti",
-          "mentions": 249
-        },
-        {
-          "slug": "quantinuum",
-          "mentions": 240
+          "mentions": 277
         },
         {
           "slug": "quantum_computing_inc",
-          "mentions": 233
+          "mentions": 250
+        },
+        {
+          "slug": "quantinuum",
+          "mentions": 249
         },
         {
           "slug": "doe",
-          "mentions": 173
+          "mentions": 176
         },
         {
           "slug": "infleqtion",
-          "mentions": 157
-        },
-        {
-          "slug": "oxford_instruments",
-          "mentions": 156
+          "mentions": 169
         },
         {
           "slug": "ionq",
-          "mentions": 140
+          "mentions": 166
         },
         {
           "slug": "d_wave",
-          "mentions": 123
+          "mentions": 160
+        },
+        {
+          "slug": "oxford_instruments",
+          "mentions": 155
         },
         {
           "slug": "pasqal",
@@ -60,19 +60,27 @@
         },
         {
           "slug": "bluefors",
-          "mentions": 75
+          "mentions": 79
         },
         {
           "slug": "nist",
-          "mentions": 64
+          "mentions": 69
         },
         {
           "slug": "ntt_docomo",
-          "mentions": 51
+          "mentions": 63
         },
         {
           "slug": "the_quantum_insider",
-          "mentions": 40
+          "mentions": 46
+        },
+        {
+          "slug": "iqm",
+          "mentions": 33
+        },
+        {
+          "slug": "darpa",
+          "mentions": 30
         },
         {
           "slug": "brookhaven_national_laboratory",
@@ -83,41 +91,33 @@
           "mentions": 28
         },
         {
-          "slug": "lawrence_berkeley_national_laboratory",
-          "mentions": 26
-        },
-        {
           "slug": "oak_ridge_national_laboratory",
-          "mentions": 26
+          "mentions": 27
         },
         {
-          "slug": "darpa",
+          "slug": "lawrence_berkeley_national_laboratory",
           "mentions": 26
         },
         {
           "slug": "argonne_national_laboratory",
           "mentions": 24
-        },
-        {
-          "slug": "qphoton",
-          "mentions": 24
         }
       ]
     },
     "90d": {
-      "claims_total": 4561,
+      "claims_total": 4767,
       "claims_by_category": {
-        "manufacturing": 888,
-        "market": 559,
-        "corporate": 1411,
-        "research": 1306,
-        "regulatory": 386,
+        "manufacturing": 891,
+        "corporate": 1516,
+        "market": 613,
+        "regulatory": 395,
+        "research": 1341,
         "supply": 11
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 765
+          "mentions": 756
         },
         {
           "slug": "oxford_instruments",
@@ -125,59 +125,59 @@
         },
         {
           "slug": "quantum_computing_inc",
-          "mentions": 582
+          "mentions": 600
         },
         {
           "slug": "bluefors",
-          "mentions": 344
+          "mentions": 343
         },
         {
           "slug": "nist",
-          "mentions": 334
-        },
-        {
-          "slug": "quantinuum",
-          "mentions": 277
+          "mentions": 339
         },
         {
           "slug": "rigetti",
-          "mentions": 254
+          "mentions": 282
+        },
+        {
+          "slug": "quantinuum",
+          "mentions": 281
         },
         {
           "slug": "ionq",
-          "mentions": 208
-        },
-        {
-          "slug": "infleqtion",
-          "mentions": 165
+          "mentions": 246
         },
         {
           "slug": "d_wave",
-          "mentions": 150
+          "mentions": 197
+        },
+        {
+          "slug": "infleqtion",
+          "mentions": 177
         },
         {
           "slug": "brookhaven_national_laboratory",
-          "mentions": 125
-        },
-        {
-          "slug": "lawrence_berkeley_national_laboratory",
           "mentions": 123
         },
         {
           "slug": "oak_ridge_national_laboratory",
-          "mentions": 123
+          "mentions": 122
+        },
+        {
+          "slug": "lawrence_berkeley_national_laboratory",
+          "mentions": 121
         },
         {
           "slug": "qphoton",
-          "mentions": 116
+          "mentions": 113
         },
         {
           "slug": "argonne_national_laboratory",
-          "mentions": 114
+          "mentions": 112
         },
         {
           "slug": "fermilab",
-          "mentions": 102
+          "mentions": 100
         },
         {
           "slug": "pasqal",
@@ -185,83 +185,83 @@
         },
         {
           "slug": "ibm",
-          "mentions": 79
+          "mentions": 90
         },
         {
           "slug": "skywater_technology",
-          "mentions": 69
+          "mentions": 81
         },
         {
-          "slug": "andor",
-          "mentions": 64
+          "slug": "the_quantum_insider",
+          "mentions": 68
         }
       ]
     },
     "365d": {
-      "claims_total": 5960,
+      "claims_total": 6242,
       "claims_by_category": {
-        "manufacturing": 1044,
-        "market": 700,
-        "corporate": 2168,
-        "research": 1526,
-        "regulatory": 505,
+        "manufacturing": 1062,
+        "corporate": 2296,
+        "market": 763,
+        "regulatory": 514,
+        "research": 1590,
         "supply": 17
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 913
+          "mentions": 916
         },
         {
           "slug": "oxford_instruments",
-          "mentions": 839
+          "mentions": 851
         },
         {
           "slug": "quantum_computing_inc",
-          "mentions": 684
+          "mentions": 710
         },
         {
           "slug": "arqit",
-          "mentions": 625
+          "mentions": 632
         },
         {
           "slug": "bluefors",
-          "mentions": 482
+          "mentions": 487
         },
         {
           "slug": "nist",
-          "mentions": 421
+          "mentions": 426
         },
         {
           "slug": "quantinuum",
-          "mentions": 302
+          "mentions": 312
         },
         {
           "slug": "rigetti",
-          "mentions": 262
+          "mentions": 290
         },
         {
           "slug": "ionq",
-          "mentions": 210
-        },
-        {
-          "slug": "infleqtion",
-          "mentions": 172
+          "mentions": 248
         },
         {
           "slug": "d_wave",
-          "mentions": 155
+          "mentions": 202
+        },
+        {
+          "slug": "infleqtion",
+          "mentions": 184
         },
         {
           "slug": "brookhaven_national_laboratory",
           "mentions": 147
         },
         {
-          "slug": "lawrence_berkeley_national_laboratory",
-          "mentions": 145
+          "slug": "oak_ridge_national_laboratory",
+          "mentions": 146
         },
         {
-          "slug": "oak_ridge_national_laboratory",
+          "slug": "lawrence_berkeley_national_laboratory",
           "mentions": 145
         },
         {
@@ -282,11 +282,11 @@
         },
         {
           "slug": "vodafone",
-          "mentions": 98
+          "mentions": 99
         },
         {
-          "slug": "intel",
-          "mentions": 84
+          "slug": "ibm",
+          "mentions": 93
         }
       ]
     }
@@ -294,7 +294,7 @@
   "source_freshness": [
     {
       "url": "https://247wallst.com/investing/2026/08/03/d-wave-spikes-11-on-nasdaq-verafin-deal-ionq-gains-9-after-skywater-buyout-rigetti-rises-7/",
-      "last_ingested_at": "2026-08-31 00:00:04"
+      "last_ingested_at": "2026-09-01 06:00:06"
     },
     {
       "url": "https://247wallst.com/investing/2026/08/21/infleqtion-soars-10-rigetti-jumps-9-ionq-climbs-7-whats-driving-quantum-computing-stocks-now/",
@@ -302,15 +302,15 @@
     },
     {
       "url": "https://arxiv.org/archive/quant-ph",
-      "last_ingested_at": "2026-08-31 00:00:02"
+      "last_ingested_at": "2026-09-01 06:00:01"
     },
     {
       "url": "https://aws.amazon.com/blogs/quantum-computing/aws-and-jpmorganchase-collaborate-to-advance-quantum-computing-rd/",
-      "last_ingested_at": "2026-08-31 06:00:01"
+      "last_ingested_at": "2026-09-01 06:00:04"
     },
     {
       "url": "https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/",
-      "last_ingested_at": "2026-08-31 06:00:06"
+      "last_ingested_at": "2026-09-01 12:00:07"
     },
     {
       "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
@@ -318,19 +318,19 @@
     },
     {
       "url": "https://bluefors.com/applications/quantum-technology/",
-      "last_ingested_at": "2026-08-31 00:00:03"
+      "last_ingested_at": "2026-09-01 06:00:03"
     },
     {
       "url": "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography",
-      "last_ingested_at": "2026-08-31 06:00:36"
+      "last_ingested_at": "2026-09-01 12:00:07"
     },
     {
       "url": "https://investors.rigetti.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-08-31 06:00:39"
+      "last_ingested_at": "2026-09-01 12:00:10"
     },
     {
       "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-establishes-dedicated-systems-delivery/",
-      "last_ingested_at": "2026-08-30 18:00:03"
+      "last_ingested_at": "2026-09-01 00:00:04"
     },
     {
       "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-second-quarter-2026-financial-results/",
@@ -338,15 +338,15 @@
     },
     {
       "url": "https://ir.arqit.uk/news-events/press-releases",
-      "last_ingested_at": "2026-08-31 00:00:02"
+      "last_ingested_at": "2026-09-01 06:00:01"
     },
     {
       "url": "https://ir.infleqtion.com/news-events/press-releases/detail/200/infleqtion-selected-by-eaton-to-support-research-advancing-quantum-computing-for-u-s-grid-resilience",
-      "last_ingested_at": "2026-08-31 06:00:04"
+      "last_ingested_at": "2026-09-01 12:00:04"
     },
     {
       "url": "https://ir.quantinuum.com/news-releases/news-release-details/quanta-computer-and-quantinuum-partner-build-industrial",
-      "last_ingested_at": "2026-08-30 12:00:03"
+      "last_ingested_at": "2026-08-31 18:00:03"
     },
     {
       "url": "https://ir.quantinuum.com/news-releases/news-release-details/quantinuum-reports-second-quarter-2026-results",
@@ -354,7 +354,7 @@
     },
     {
       "url": "https://newsroom.ibm.com/2026-07-30-ibm-and-the-university-of-chicago-demonstrate-quantum-advantage,-establishing-trusted-quantum-computation-on-logical-circuits",
-      "last_ingested_at": "2026-08-31 00:00:04"
+      "last_ingested_at": "2026-09-01 06:00:07"
     },
     {
       "url": "https://quantinuum.com/press-releases/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure",
@@ -362,15 +362,15 @@
     },
     {
       "url": "https://quantumcomputinginc.com/investor-relations",
-      "last_ingested_at": "2026-08-31 06:00:38"
+      "last_ingested_at": "2026-09-01 12:00:09"
     },
     {
       "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-reports-second-quarter-2026-financial-results",
-      "last_ingested_at": "2026-08-31 06:00:04"
+      "last_ingested_at": "2026-09-01 12:00:05"
     },
     {
       "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
-      "last_ingested_at": "2026-08-31 06:00:05"
+      "last_ingested_at": "2026-09-01 12:00:05"
     },
     {
       "url": "https://science.osti.gov/Initiatives/QIS/QIS-Centers",
@@ -382,7 +382,7 @@
     },
     {
       "url": "https://sec.gov/Archives/edgar/data/1907982/000190798226000135/qbts-20260818.htm",
-      "last_ingested_at": "2026-08-31 00:00:03"
+      "last_ingested_at": "2026-09-01 06:00:05"
     },
     {
       "url": "https://secure.businesswire.com/news/home/20260817298447/en/Infleqtion-Reports-Updated-Financial-Results-for-Q2-2026-and-FY26-Revenue-Guidance",
@@ -390,35 +390,51 @@
     },
     {
       "url": "https://seekingalpha.com/news/4618880-rigetti-ionq-d-wave-quantum-in-focus-as-benchmark-starts-coverage",
-      "last_ingested_at": "2026-08-31 06:00:05"
+      "last_ingested_at": "2026-09-01 12:00:05"
     },
     {
       "url": "https://thequantuminsider.com/",
-      "last_ingested_at": "2026-08-31 06:00:39"
+      "last_ingested_at": "2026-09-01 12:00:10"
     },
     {
       "url": "https://www.bis.gov/press-release/department-commerce-implements-controls-quantum-computing-other-advanced-technologies-alongside",
-      "last_ingested_at": "2026-08-31 12:00:02"
+      "last_ingested_at": "2026-09-01 12:00:03"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260804772155/en/Horizon-Quantum-Announces-Second-Quarter-2026-Financial-Results",
+      "last_ingested_at": "2026-09-01 06:00:06"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260806602824/en/Eaton-Wins-$7M-Air-Force-Contract-to-Apply-Quantum-Computing-to-Grid-Security",
+      "last_ingested_at": "2026-09-01 06:00:06"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260812752663/en/Infleqtion-Reports-Record-Q2-Revenue-Raises-2026-Outlook-as-Quantum-Commercialization-Accelerates",
-      "last_ingested_at": "2026-08-31 12:00:02"
+      "last_ingested_at": "2026-09-01 12:00:03"
     },
     {
       "url": "https://www.dwavequantum.com/company/newsroom/press-release/at-t-signs-agreement-to-expand-use-of-d-wave-s-quantum-computing-technology/",
-      "last_ingested_at": "2026-08-31 06:00:01"
+      "last_ingested_at": "2026-09-01 06:00:04"
     },
     {
       "url": "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-demonstrates-major-hardware-breakthrough-for-quantum-error-correction/",
-      "last_ingested_at": "2026-08-31 06:00:02"
+      "last_ingested_at": "2026-09-01 12:00:03"
     },
     {
       "url": "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-technology-drives-ntt-docomo-s-second-production-quantum-application-in-network-operations/",
-      "last_ingested_at": "2026-08-30 18:00:02"
+      "last_ingested_at": "2026-09-01 00:00:02"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/08/04/3338012/0/en/iqm-quantum-computers-reports-first-earnings-as-public-company-reporting-first-half-and-second-quarter-2026-results-and-initiates-fy-2026-guidance-supported-by-over-eur-102-million.html",
+      "last_ingested_at": "2026-09-01 06:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/10/3341792/0/en/Pasqal-Brings-Qubit-Control-On-Chip-Advancing-the-Path-to-Fault-Tolerant-Quantum-Computing-at-Scale.html",
       "last_ingested_at": "2026-08-31 12:00:07"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/08/21/3349064/0/en/quantum-x-labs-announces-additional-advancement-in-quantum-error-correction-using-nvidia-cuda-q-with-new-results-on-google-s-dataset.html",
+      "last_ingested_at": "2026-09-01 06:00:09"
     },
     {
       "url": "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
@@ -426,7 +442,7 @@
     },
     {
       "url": "https://www.ionq.com/news/ionq-and-cmc-microsystems-announce-collaboration-to-expand-cloud-quantum-computing-access-in-canada",
-      "last_ingested_at": "2026-08-31 00:00:04"
+      "last_ingested_at": "2026-09-01 06:00:07"
     },
     {
       "url": "https://www.ionq.com/news/ionq-receives-regulatory-approval-to-complete-acquisition-of-skywater-technology",
@@ -434,27 +450,27 @@
     },
     {
       "url": "https://www.ionq.com/news/updated-darpa-selects-ionq-to-produce-next-generation-atomic-clocks",
-      "last_ingested_at": "2026-08-31 06:00:05"
+      "last_ingested_at": "2026-09-01 12:00:05"
     },
     {
       "url": "https://www.oxinst.com/applications/quantum-computing",
-      "last_ingested_at": "2026-08-31 06:00:38"
+      "last_ingested_at": "2026-09-01 12:00:09"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001819974/000119312526321272/d152570dex991.htm",
-      "last_ingested_at": "2026-08-31 00:00:06"
+      "last_ingested_at": "2026-09-01 06:00:09"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926098877/tm2623611d1_8k.htm",
-      "last_ingested_at": "2026-08-30 12:00:03"
+      "last_ingested_at": "2026-08-31 18:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/2113060/000119312526331538/iqmx_6-k_q2_aug_2026_new.htm",
-      "last_ingested_at": "2026-08-31 06:00:04"
+      "last_ingested_at": "2026-09-01 12:00:04"
     },
     {
       "url": "https://www.tipranks.com/news/company-announcements/rigetti-computing-restructures-leadership-for-quantum-systems-growth",
-      "last_ingested_at": "2026-08-31 00:00:06"
+      "last_ingested_at": "2026-09-01 06:00:09"
     }
   ]
 }
