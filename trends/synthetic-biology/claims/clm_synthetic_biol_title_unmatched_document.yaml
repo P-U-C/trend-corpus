@@ -1,0 +1,18 @@
+id: clm_synthetic_biol_title_unmatched_document
+type: claim
+theme_id: synthetic-biology
+claim: "Ginkgo Bioworks Holdings, Inc. reported second quarter 2026 revenue of $20 million for the quarter ended June 30, 2026, down from $39 million in the comparable 2025 period, and a GAAP net loss from continuing operations of $57 million. On August 5, 2026, Ginkgo said Caltech, Northwestern, and the University of Maryland commissioned autonomous labs under the NSF cloud-labs investment, MIT Media Lab awarded a grant supported by Ginkgo RACs, and Ginkgo had begun work on a $47 million, 97-instrument autonomous lab for Pacific Northwest National Laboratory\u2019s Environmental Molecular Sciences Laboratory."
+category: corporate
+source_ids:
+  - src_synthetic_biolog_ginkgo_bioworks_reports_second_quarter_2
+date_of_evidence: "2026-08-05"
+evidence_at: "2026-08-05"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

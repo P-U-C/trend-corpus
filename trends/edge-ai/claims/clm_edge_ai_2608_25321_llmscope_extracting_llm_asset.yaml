@@ -1,0 +1,18 @@
+id: clm_edge_ai_2608_25321_llmscope_extracting_llm_asset
+type: claim
+theme_id: edge-ai
+claim: "On August 26, 2026, Dev Mehta, Lily Dukette, William Folan, Olivia Kochol, Noah Solomon, Shahin Tajik, and Fatemeh Ganji submitted arXiv:2608.25321, \u201cLLMscope,\u201d showing with laser voltage imaging that embeddings, attention, quantized MLP weights, activations, and other inference states can be extracted during inference from localized memories and compute subcircuits on an FPGA-based LLM accelerator. The paper reports full recovery of targeted values and derives lower bounds relating imaging effort to asset dimensions, with direct recovery scaling linearly with the size of the targeted asset."
+category: technical
+source_ids:
+  - src_edge_ai_llmscope_extracting_llm_assets_from_edge
+date_of_evidence: "2026-08-26"
+evidence_at: "2026-08-26"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
