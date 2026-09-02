@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_enterprises_are_overpaying_for_simple_ai
+type: claim
+theme_id: llm-convergence
+claim: "On August 18, 2026, VentureBeat reported that Snowflake\u2019s Cortex AI Gateway added dynamic model routing, letting enterprises choose \u201cauto\u201d instead of a fixed model so tasks are routed by quality and cost. Snowflake said the feature can reduce token costs by as much as 3x on some workloads based on its internal testing, and Baris Gultekin said routing uses a small-model advisor pattern plus a classifier trained on past queries."
+category: technical
+source_ids:
+  - src_llm_convergence_enterprises_are_overpaying_for_simple_ai
+date_of_evidence: "2026-08-18"
+evidence_at: "2026-08-18"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
