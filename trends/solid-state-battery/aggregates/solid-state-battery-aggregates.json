@@ -1,292 +1,292 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-09-01T13:38:01Z",
+  "generated_at": "2026-09-02T13:38:01Z",
   "theme_id": "solid-state-battery",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 8223,
-  "underlying_source_count": 53,
+  "underlying_claim_count": 8545,
+  "underlying_source_count": 56,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 879,
+      "claims_total": 991,
       "claims_by_category": {
-        "corporate": 376,
-        "manufacturing": 187,
-        "research": 141,
-        "supply": 19,
-        "market": 83,
-        "regulatory": 73
+        "corporate": 432,
+        "manufacturing": 212,
+        "supply": 25,
+        "market": 95,
+        "research": 153,
+        "regulatory": 74
       },
       "top_entities": [
         {
-          "slug": "samsung_sdi",
-          "mentions": 143
+          "slug": "ses_ai",
+          "mentions": 166
         },
         {
-          "slug": "ses_ai",
-          "mentions": 139
+          "slug": "samsung_sdi",
+          "mentions": 160
         },
         {
           "slug": "sila_nanotechnologies",
-          "mentions": 116
+          "mentions": 128
         },
         {
           "slug": "ampcera",
-          "mentions": 104
+          "mentions": 103
         },
         {
           "slug": "quantumscape",
-          "mentions": 69
+          "mentions": 91
         },
         {
           "slug": "doe_lpo",
-          "mentions": 59
+          "mentions": 60
         },
         {
           "slug": "lg_energy_solution",
-          "mentions": 39
+          "mentions": 46
         },
         {
           "slug": "factorial",
-          "mentions": 33
+          "mentions": 46
         },
         {
           "slug": "solid_power",
-          "mentions": 24
+          "mentions": 27
+        },
+        {
+          "slug": "catl",
+          "mentions": 22
         },
         {
           "slug": "mitsui_mining_smelting",
           "mentions": 21
         },
         {
-          "slug": "catl",
-          "mentions": 20
-        },
-        {
-          "slug": "bmw",
-          "mentions": 13
-        },
-        {
           "slug": "mercedes_benz",
-          "mentions": 12
+          "mentions": 18
         },
         {
           "slug": "general_motors",
-          "mentions": 12
-        },
-        {
-          "slug": "sk_on",
-          "mentions": 12
-        },
-        {
-          "slug": "byd",
-          "mentions": 11
+          "mentions": 18
         },
         {
           "slug": "stellantis",
-          "mentions": 11
+          "mentions": 16
+        },
+        {
+          "slug": "bmw",
+          "mentions": 15
+        },
+        {
+          "slug": "sk_on",
+          "mentions": 14
+        },
+        {
+          "slug": "byd",
+          "mentions": 13
         },
         {
           "slug": "powerco",
+          "mentions": 12
+        },
+        {
+          "slug": "toyota",
           "mentions": 10
         },
         {
           "slug": "samsung_electronics",
           "mentions": 9
-        },
-        {
-          "slug": "doe_edf",
-          "mentions": 9
         }
       ]
     },
     "90d": {
-      "claims_total": 2176,
+      "claims_total": 2431,
       "claims_by_category": {
-        "corporate": 860,
-        "manufacturing": 445,
-        "research": 398,
-        "supply": 34,
-        "market": 167,
-        "regulatory": 272
+        "corporate": 999,
+        "manufacturing": 496,
+        "supply": 42,
+        "market": 191,
+        "research": 427,
+        "regulatory": 276
       },
       "top_entities": [
         {
           "slug": "ampcera",
-          "mentions": 539
+          "mentions": 545
         },
         {
           "slug": "doe_lpo",
-          "mentions": 268
+          "mentions": 273
         },
         {
           "slug": "quantumscape",
-          "mentions": 181
+          "mentions": 234
         },
         {
           "slug": "ses_ai",
-          "mentions": 181
+          "mentions": 223
         },
         {
           "slug": "samsung_sdi",
-          "mentions": 176
+          "mentions": 202
         },
         {
           "slug": "sila_nanotechnologies",
-          "mentions": 173
+          "mentions": 193
         },
         {
           "slug": "lg_energy_solution",
-          "mentions": 139
-        },
-        {
-          "slug": "mitsui_mining_smelting",
-          "mentions": 109
+          "mentions": 161
         },
         {
           "slug": "factorial",
-          "mentions": 100
+          "mentions": 131
+        },
+        {
+          "slug": "mitsui_mining_smelting",
+          "mentions": 111
         },
         {
           "slug": "sk_on",
-          "mentions": 63
+          "mentions": 80
         },
         {
           "slug": "solid_power",
-          "mentions": 45
+          "mentions": 57
         },
         {
           "slug": "stellantis",
-          "mentions": 41
+          "mentions": 54
+        },
+        {
+          "slug": "mercedes_benz",
+          "mentions": 46
         },
         {
           "slug": "prologium",
           "mentions": 39
         },
         {
-          "slug": "mercedes_benz",
-          "mentions": 34
+          "slug": "hyundai",
+          "mentions": 33
         },
         {
-          "slug": "hyundai",
-          "mentions": 27
+          "slug": "catl",
+          "mentions": 24
+        },
+        {
+          "slug": "honda",
+          "mentions": 24
         },
         {
           "slug": "doe_edf",
           "mentions": 23
         },
         {
-          "slug": "catl",
+          "slug": "bmw",
           "mentions": 21
         },
         {
-          "slug": "bmw",
-          "mentions": 17
-        },
-        {
-          "slug": "honda",
-          "mentions": 17
-        },
-        {
-          "slug": "volkswagen",
-          "mentions": 17
+          "slug": "powerco",
+          "mentions": 19
         }
       ]
     },
     "365d": {
-      "claims_total": 5373,
+      "claims_total": 5663,
       "claims_by_category": {
-        "corporate": 1956,
-        "manufacturing": 1536,
-        "research": 1120,
-        "supply": 39,
-        "market": 254,
-        "regulatory": 468
+        "corporate": 2109,
+        "manufacturing": 1594,
+        "supply": 47,
+        "market": 281,
+        "research": 1156,
+        "regulatory": 476
       },
       "top_entities": [
         {
           "slug": "prologium",
-          "mentions": 921
+          "mentions": 922
         },
         {
           "slug": "mercedes_benz",
-          "mentions": 821
-        },
-        {
-          "slug": "ion_storage_systems",
-          "mentions": 722
+          "mentions": 840
         },
         {
           "slug": "quantumscape",
-          "mentions": 706
+          "mentions": 760
+        },
+        {
+          "slug": "ion_storage_systems",
+          "mentions": 731
         },
         {
           "slug": "ampcera",
-          "mentions": 633
+          "mentions": 639
         },
         {
           "slug": "factorial",
-          "mentions": 506
+          "mentions": 544
         },
         {
           "slug": "doe_lpo",
-          "mentions": 377
+          "mentions": 385
         },
         {
           "slug": "ses_ai",
-          "mentions": 185
+          "mentions": 229
         },
         {
           "slug": "samsung_sdi",
-          "mentions": 183
+          "mentions": 209
         },
         {
           "slug": "sila_nanotechnologies",
-          "mentions": 173
+          "mentions": 193
         },
         {
           "slug": "lg_energy_solution",
-          "mentions": 145
+          "mentions": 167
         },
         {
           "slug": "mitsui_mining_smelting",
-          "mentions": 131
+          "mentions": 133
         },
         {
           "slug": "sk_on",
-          "mentions": 63
+          "mentions": 80
         },
         {
           "slug": "stellantis",
-          "mentions": 53
+          "mentions": 67
         },
         {
           "slug": "solid_power",
-          "mentions": 48
+          "mentions": 62
         },
         {
           "slug": "rte",
           "mentions": 43
         },
         {
-          "slug": "doe_edf",
+          "slug": "hyundai",
+          "mentions": 33
+        },
+        {
+          "slug": "honda",
           "mentions": 27
         },
         {
-          "slug": "hyundai",
+          "slug": "doe_edf",
           "mentions": 27
         },
         {
           "slug": "southern_company",
           "mentions": 26
-        },
-        {
-          "slug": "catl",
-          "mentions": 21
         }
       ]
     }
@@ -294,7 +294,7 @@
   "source_freshness": [
     {
       "url": "https://autonews.gasgoo.com/articles/ev/samsung-sdi-to-start-mass-production-of-all-solid-state-batteries-in-2027-2083191483950661633",
-      "last_ingested_at": "2026-09-01 06:00:05"
+      "last_ingested_at": "2026-09-02 12:00:04"
     },
     {
       "url": "https://battery-news.de/en/2026/08/03/samsung-sdi-plans-mass-production-of-solid-state-batteries-starting-in-2027/",
@@ -302,11 +302,11 @@
     },
     {
       "url": "https://battery-tech.net/battery-markets-news/samsung-sdi-to-mass-produce-solid-state-batteries-by-2027/",
-      "last_ingested_at": "2026-08-31 12:00:06"
+      "last_ingested_at": "2026-09-01 18:00:05"
     },
     {
       "url": "https://businesswire.com/news/home/20260804848365/en/Solid-Power-Reports-Second-Quarter-2026-Results",
-      "last_ingested_at": "2026-08-31 12:00:07"
+      "last_ingested_at": "2026-09-01 18:00:07"
     },
     {
       "url": "https://columbiabasinherald.com/news/2026/aug/20/sila-nanotechnologies-looking-at-possible-moses-lake-expansion/",
@@ -318,7 +318,7 @@
     },
     {
       "url": "https://electrek.co/2026/07/29/solid-state-ev-battery-leaders-team-up/",
-      "last_ingested_at": "2026-09-01 06:00:08"
+      "last_ingested_at": "2026-09-02 12:00:07"
     },
     {
       "url": "https://eng.skinnovation.com/ir/audit_reports.aspx",
@@ -326,15 +326,15 @@
     },
     {
       "url": "https://factorialenergy.com/press-releases/factorial-secures-first-commercial-aerospace-order-for-advanced-battery-cells/",
-      "last_ingested_at": "2026-09-01 06:00:01"
+      "last_ingested_at": "2026-09-02 06:00:02"
     },
     {
       "url": "https://finance.yahoo.com/markets/stocks/articles/quantumscape-sinks-14-solid-power-153732477.html",
-      "last_ingested_at": "2026-09-01 06:00:03"
+      "last_ingested_at": "2026-09-02 12:00:03"
     },
     {
       "url": "https://finance.yahoo.com/markets/stocks/articles/ses-ai-reports-second-quarter-201500524.html",
-      "last_ingested_at": "2026-09-01 00:00:02"
+      "last_ingested_at": "2026-09-02 06:00:04"
     },
     {
       "url": "https://global.toyota/en/newsroom/corporate/39865919.html",
@@ -346,19 +346,19 @@
     },
     {
       "url": "https://group.mercedes-benz.com/technology/e-mobility/electric-drive/eqs-solid-state-battery.html",
-      "last_ingested_at": "2026-09-01 06:00:09"
+      "last_ingested_at": "2026-09-02 12:00:10"
     },
     {
       "url": "https://insideevs.com/news/805750/lges-solid-state-battery-evs-uncomfortable-truth/",
-      "last_ingested_at": "2026-09-01 06:00:02"
+      "last_ingested_at": "2026-09-02 12:00:01"
     },
     {
       "url": "https://ir.factorialenergy.com/news-releases/news-release-details/factorial-announces-second-quarter-2026-results",
-      "last_ingested_at": "2026-09-01 06:00:01"
+      "last_ingested_at": "2026-09-02 06:00:02"
     },
     {
       "url": "https://ir.quantumscape.com/news-releases/news-release-details/quantumscape-reports-second-quarter-2026-business-and-financial",
-      "last_ingested_at": "2026-09-01 06:00:02"
+      "last_ingested_at": "2026-09-02 12:00:01"
     },
     {
       "url": "https://ir.quantumscape.com/sec-filings",
@@ -370,11 +370,11 @@
     },
     {
       "url": "https://news.metal.com/newscontent/104076126-worlds-first-solid-state-battery-international-standard-initiated-%E2%80%93-china-leads-in-both-technology-and-rule%E2%80%90making",
-      "last_ingested_at": "2026-09-01 06:00:09"
+      "last_ingested_at": "2026-09-02 12:00:08"
     },
     {
       "url": "https://prnewswire.com/news-releases/lg-energy-solution-releases-2026-second-quarter-financial-results-302838408.html",
-      "last_ingested_at": "2026-09-01 06:00:01"
+      "last_ingested_at": "2026-09-02 06:00:03"
     },
     {
       "url": "https://prologium.com/prologium-and-translational-development-acquisition-corp-announce-50-million-committed-primary-capital-investment-to-support-proposed-business-combination/",
@@ -386,67 +386,75 @@
     },
     {
       "url": "https://roadethos.com/features/solid-state-battery-timelines-for-2027-and-beyond",
-      "last_ingested_at": "2026-08-31 18:00:02"
+      "last_ingested_at": "2026-09-02 00:00:02"
     },
     {
       "url": "https://silanano.com/press/press-releases/sila-receives-conditional-1-4-billion-loan-commitment-from-u-s-department-of-war-to-accelerate-domestic-battery-technology-manufacturing",
-      "last_ingested_at": "2026-08-31 12:00:07"
+      "last_ingested_at": "2026-09-01 18:00:07"
     },
     {
       "url": "https://silanano.com/press/press-releases/sila-secures-300-million-in-private-funding-to-ramp-gigascale-anode-manufacturing-and-strengthen-americas-technology-sovereignty",
-      "last_ingested_at": "2026-08-31 12:00:07"
+      "last_ingested_at": "2026-09-01 18:00:07"
     },
     {
       "url": "https://techtimes.com/articles/325227/20260821/samsung-sdi-raises-32b-display-sale-power-ai-battery-ambitions.htm",
       "last_ingested_at": "2026-09-01 12:00:05"
     },
     {
+      "url": "https://theelectricviking.com/lg-energy-solution-highlights-ongoing-challenges-solid-state-ev/",
+      "last_ingested_at": "2026-09-02 06:00:03"
+    },
+    {
       "url": "https://thenextweb.com/news/lges-solid-state-batteries-large-format-problem",
-      "last_ingested_at": "2026-09-01 06:00:07"
+      "last_ingested_at": "2026-09-02 12:00:07"
     },
     {
       "url": "https://war.gov/News/Releases/Release/Article/4566579/the-office-of-strategic-capital-signs-14-billion-conditional-loan-commitment-wi",
-      "last_ingested_at": "2026-08-31 12:00:09"
+      "last_ingested_at": "2026-09-01 18:00:08"
     },
     {
       "url": "https://www.ampcera.com/",
-      "last_ingested_at": "2026-08-31 12:00:09"
+      "last_ingested_at": "2026-09-01 18:00:09"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260803821866/en/SES-AI-Enters-into-Framework-Agreement-with-Doroni-Aerospace-to-Design-and-Develop-a-Battery-Pack-for-Doroni-Aerospaces-H1-X-Personal-eVTOL",
+      "last_ingested_at": "2026-09-02 06:00:04"
     },
     {
       "url": "https://www.energy.gov/lpo/loan-programs-office",
-      "last_ingested_at": "2026-09-01 06:00:09"
+      "last_ingested_at": "2026-09-02 12:00:09"
     },
     {
       "url": "https://www.engadget.com/2225030/honda-solid-state-battery-technology-new-partner-quantumscape/",
-      "last_ingested_at": "2026-09-01 06:00:01"
+      "last_ingested_at": "2026-09-02 06:00:02"
     },
     {
       "url": "https://www.fortunebusinessinsights.com/ev-solid-state-battery-market-115751",
-      "last_ingested_at": "2026-09-01 06:00:01"
+      "last_ingested_at": "2026-09-02 06:00:01"
     },
     {
       "url": "https://www.fortunebusinessinsights.com/solid-state-battery-materials-market-116332",
-      "last_ingested_at": "2026-08-31 18:00:02"
+      "last_ingested_at": "2026-09-02 00:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/07/29/3335079/0/en/factorial-and-sk-on-sign-mou-to-explore-solid-state-battery-manufacturing.html",
-      "last_ingested_at": "2026-08-31 18:00:01"
+      "last_ingested_at": "2026-09-01 18:00:01"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2024/250227_en.pdf",
-      "last_ingested_at": "2026-08-31 12:00:11"
+      "last_ingested_at": "2026-09-01 18:00:10"
     },
     {
       "url": "https://www.idemitsu.com/jp/news/2025/260129_en.pdf",
-      "last_ingested_at": "2026-09-01 06:00:11"
+      "last_ingested_at": "2026-09-02 12:00:11"
     },
     {
       "url": "https://www.marketscreener.com/news/ses-ai-corporation-reports-earnings-results-for-the-second-quarter-and-six-months-ended-june-30-202-ce7859dbd180f327",
-      "last_ingested_at": "2026-09-01 06:00:05"
+      "last_ingested_at": "2026-09-02 12:00:05"
     },
     {
       "url": "https://www.mitsui-kinzoku.co.jp/mlab/en/attempt/asolid/",
-      "last_ingested_at": "2026-09-01 06:00:12"
+      "last_ingested_at": "2026-09-02 12:00:12"
     },
     {
       "url": "https://www.mitsui-kinzoku.com/en/business/functional-materials/a-solid",
@@ -454,7 +462,7 @@
     },
     {
       "url": "https://www.prnewswire.com/news-releases/ion-storage-systems-announced-successful-customer-qualification-of-cornerstone-cell-performance-becoming-the-first-us-solid-state-battery-tech-company-to-achieve-this-milestone-302708956.html",
-      "last_ingested_at": "2026-09-01 06:00:11"
+      "last_ingested_at": "2026-09-02 12:00:11"
     },
     {
       "url": "https://www.quantumscape.com/quantumscape-and-powerco-expand-collaboration-to-accelerate-solid-state-battery-technology-commercialization/",
@@ -465,16 +473,20 @@
       "last_ingested_at": "2026-09-01 12:00:10"
     },
     {
+      "url": "https://www.samsungsdi.com/sdi-now/sdi-news/4982.html",
+      "last_ingested_at": "2026-09-02 06:00:04"
+    },
+    {
       "url": "https://www.samsungsdi.com/sustainable-management/sustainability-information/sustainability-reports.html",
       "last_ingested_at": "2026-09-01 12:00:11"
     },
     {
       "url": "https://www.scientificamerican.com/article/can-quantumscape-and-factorial-energy-mass-produce-solid-state-batteries/",
-      "last_ingested_at": "2026-09-01 06:00:06"
+      "last_ingested_at": "2026-09-02 12:00:06"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526312423/qs-ex99_1.htm",
-      "last_ingested_at": "2026-09-01 06:00:02"
+      "last_ingested_at": "2026-09-02 12:00:01"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526316073/qs-20260630.htm",
@@ -482,15 +494,15 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1819142/000181914226000045/ses-20260630x10q.htm",
-      "last_ingested_at": "2026-08-31 12:00:06"
+      "last_ingested_at": "2026-09-01 18:00:06"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1844862/000110465926090634/sldp-20260630x10q.htm",
-      "last_ingested_at": "2026-08-31 18:00:02"
+      "last_ingested_at": "2026-09-02 00:00:02"
     },
     {
       "url": "https://www.silanano.com/press/press-releases/sila-earns-iso-90012015-certification-a-key-requirement-of-global-automakers-and-consumer-electronics-companies",
-      "last_ingested_at": "2026-09-01 06:00:06"
+      "last_ingested_at": "2026-09-02 12:00:06"
     },
     {
       "url": "https://www.stocktitan.net/news/SES/ses-ai-reports-second-quarter-2026-financial-5njuus35vexe.html",
@@ -498,7 +510,7 @@
     },
     {
       "url": "https://www.techradar.com/pro/the-8-hour-challenge-sk-on-says-solid-state-robot-batteries-must-justify-a-4x-manufacturing-cost-jump-to-replace-inferior-lithium-ion",
-      "last_ingested_at": "2026-08-31 12:00:09"
+      "last_ingested_at": "2026-09-01 18:00:08"
     },
     {
       "url": "https://www.volkswagen-group.com/en/press-releases/powerco-confirms-results-quantumscapes-solid-state-cell-passes-first-endurance-test-18031",
