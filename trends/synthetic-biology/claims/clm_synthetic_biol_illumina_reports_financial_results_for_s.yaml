@@ -1,0 +1,18 @@
+id: clm_synthetic_biol_illumina_reports_financial_results_for_s
+type: claim
+theme_id: synthetic-biology
+claim: "Illumina, Inc. reported Q2 FY2026 revenue of $1.159 billion on July 30, 2026, up 9.5% from Q2 FY2025, with GAAP operating margin of 21.1% and non-GAAP operating margin of 22.5%. Illumina raised FY2026 guidance to total revenue of $4.60-$4.64 billion and non-GAAP diluted EPS of $5.30-$5.40, and said demand for NovaSeq X remained high while workflow and multiomics capabilities expanded."
+category: corporate
+source_ids:
+  - src_synthetic_biolog_illumina_reports_financial_results_for_s
+date_of_evidence: "2026-07-30"
+evidence_at: "2026-07-30"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
