@@ -1,0 +1,18 @@
+id: clm_robotics_human_sag_global_humanoid_robot_shipments_surg
+type: claim
+theme_id: robotics-humanoid
+claim: "Smart Analytics Global reported on August 10, 2026 that global humanoid robot shipments reached approximately 19,100 units in 1H 2026, up 272% YoY from 5,100 units in 1H 2025. AGIBOT shipped approximately 8,400 units and captured 44% global shipment share, overtaking Unitree, which shipped approximately 5,900 units and held 31% share."
+category: market
+source_ids:
+  - src_robotics_humanoi_sag_global_humanoid_robot_shipments_surg
+date_of_evidence: "2026-08-10"
+evidence_at: "2026-08-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

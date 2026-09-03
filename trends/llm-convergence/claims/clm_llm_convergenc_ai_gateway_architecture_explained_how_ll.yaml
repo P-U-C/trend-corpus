@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_ai_gateway_architecture_explained_how_ll
+type: claim
+theme_id: llm-convergence
+claim: "On September 2, 2026, NeuralTrust described TrustGate as an open-source AI gateway that implements a split-plane architecture, with a Go data plane running in the customer\u2019s Kubernetes cluster, VPC, or on-premises environment. The source states that TrustGate\u2019s control plane distributes policy updates to the data plane, while routing, security inspection, and logging occur without LLM traffic leaving the customer environment."
+category: technical
+source_ids:
+  - src_llm_convergence_ai_gateway_architecture_explained_how_ll
+date_of_evidence: "2026-09-02"
+evidence_at: "2026-09-02"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
