@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_sec_filing_livanova_plc
+type: claim
+theme_id: bci-neurotech
+claim: "On August 5, 2026, LivaNova PLC filed a Form 8-K and Exhibit 99.1 reporting second-quarter 2026 revenue of $390.6 million, up 10.8% reported and 9.8% constant currency from Q2 2025. LivaNova reported Neuromodulation revenue of $166.9 million for the quarter ended June 30, 2026, up 10.1% reported and 9.5% constant currency, and raised full-year 2026 constant-currency revenue growth guidance to 8% to 9%."
+category: corporate
+source_ids:
+  - src_bci_neurotech_sec_filing
+date_of_evidence: "2026-08-05"
+evidence_at: "2026-08-05"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
