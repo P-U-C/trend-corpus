@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_nvidia_pair_virtual_inference_router_exp
+type: claim
+theme_id: llm-convergence
+claim: "On September 3, 2026, NVIDIA published that its NVIDIA Personal AI Router beta routes independent Ollama and LM Studio inference requests across paired Windows, macOS, and Linux systems on a local network without agent harness changes. NVIDIA stated PAIR supports GeForce RTX 20 Series and newer GPUs, RTX PRO workstation GPUs, DGX Spark, and Apple M4+ silicon, uses mDNS discovery and MTLS-secured pairing, and assigns each request to one eligible node rather than pooling VRAM or splitting a single inference request."
+category: technical
+source_ids:
+  - src_llm_convergence_nvidia_pair_virtual_inference_router_exp
+date_of_evidence: "2026-09-03"
+evidence_at: "2026-09-03"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
