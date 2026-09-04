@@ -1,0 +1,18 @@
+id: clm_longevity_insilico_medicine_and_collaborator_disco
+type: claim
+theme_id: longevity
+claim: "On August 31, 2026, Insilico Medicine announced that its PandaOmics AI biology platform was used with University of Oslo and Akershus University Hospital researchers led by Sofie Lautrup and Evandro Fei Fang to evaluate over 100 NAD+ and mitophagy-pathway candidate genes and prioritize ULK1, OPA1, LAMP2, MFN1, and ATP6V0E1 as potential Alzheimer\u2019s disease therapeutic targets. The source states that the study was published in Alzheimer\u2019s & Dementia as \u201cA combined artificial intelligence-wet lab approach identifies a pivotal role of the NAD+-mitophagy axis on aging and neurodegeneration,\u201d DOI 10.1002/alz.71680."
+category: technical
+source_ids:
+  - src_longevity_insilico_medicine_and_collaborator_disco
+date_of_evidence: "2026-08-31"
+evidence_at: "2026-08-31"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

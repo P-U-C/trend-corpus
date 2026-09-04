@@ -1,0 +1,18 @@
+id: clm_synthetic_biol_further_gains_in_germline_whole_genome_s
+type: claim
+theme_id: synthetic-biology
+claim: "On July 22, 2026, Illumina reported that NovaSeq X Series software v1.4 data processed with DRAGEN v4.5.4 reduced HG002 WGS germline small-variant errors against the NIST T2TQ100 truth set from 78,860 with NovaSeq X Series software v1.3 to 48,923 with v1.4. The study used HG001-HG005 samples prepared with TruSeq PCR-Free 450 libraries, sequenced on a NovaSeq X 10B flow cell, subsampled at 35x raw coverage, and benchmarked against NIST T2TQ100-v1.1-v0.019 for HG002 and NIST v4.2.1 for HG001-HG005."
+category: technical
+source_ids:
+  - src_synthetic_biolog_further_gains_in_germline_whole_genome_s
+date_of_evidence: "2026-07-22"
+evidence_at: "2026-07-22"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
