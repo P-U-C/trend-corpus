@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2608_08265_opportunity_is_not_realizabil
+type: claim
+theme_id: llm-convergence
+claim: "The arXiv paper \u201cOpportunity Is Not Realizability: Selection-Valid Diagnostics for Multi-LLM Routing,\u201d submitted on August 8, 2026 by Ibne Farabi Shihab, Abu Sa-Adat Mohamed Moon-Im Al Ahsan, and Md Najmus Swaqeeb, separates outcome-oracle opportunity, Bayes-optimal gain from a declared pre-answer signal, and held-out gain of a learned router for multi-LLM routing. Across eight checkpoints from six model families over four benchmarks, it reports selection-valid oracle gaps of 9.7 to 30.7 points on every task, while the strongest deployable prompt router recovers only 7.5% to 14.4% of that gap."
+category: technical
+source_ids:
+  - src_llm_convergence_opportunity_is_not_realizability_selecti
+date_of_evidence: "2026-08-08"
+evidence_at: "2026-08-08"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

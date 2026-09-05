@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2608_10605_compute_optimal_is_not_cluste
+type: claim
+theme_id: llm-convergence
+claim: "On August 11, 2026, Soumajyoti Sarkar, Yuxin Tang, and Sheng Zha submitted arXiv:2608.10605, \u201cCompute-Optimal Is Not Cluster-Optimal: Systems-Aware Scaling for Sparse Mixture-of-Experts.\u201d The paper establishes MOSAIC, a framework for sparse Mixture-of-Experts language-model training that couples a predictive scaling law with a calibrated systems performance model estimating Model FLOPs Utilization, communication cost, memory footprint, and parallel layout."
+category: technical
+source_ids:
+  - src_llm_convergence_compute_optimal_is_not_cluster_optimal_s
+date_of_evidence: "2026-08-11"
+evidence_at: "2026-08-11"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

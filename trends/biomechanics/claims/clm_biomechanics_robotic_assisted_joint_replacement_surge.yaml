@@ -1,0 +1,18 @@
+id: clm_biomechanics_robotic_assisted_joint_replacement_surge
+type: claim
+theme_id: biomechanics
+claim: "On August 3, 2026, National Health Executive reported that Orpington Hospital\u2019s Elective Orthopaedic Centre, managed by King\u2019s College Hospital NHS Foundation Trust, introduced the Stryker Mako robotic-arm surgical system for total hip, total knee and partial knee replacement procedures. The system uses pre-operative joint scans, personalised surgical planning, tactile feedback from the robotic arm, and camera-based tracking during surgery; the orthopaedic service expects to carry out around 100 procedures per year using the technology."
+category: technical
+source_ids:
+  - src_biomechanics_robotic_assisted_joint_replacement_surge
+date_of_evidence: "2026-08-03"
+evidence_at: "2026-08-03"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

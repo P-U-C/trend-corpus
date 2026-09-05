@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2608_23023_most_of_the_llm_routing_gap_i
+type: claim
+theme_id: llm-convergence
+claim: "On August 24, 2026, Janghoon Lee of Redrob submitted arXiv:2608.23023, \u201cMost of the LLM Routing Gap Is Task Type,\u201d reporting an LLM routing experiment across 14 models and 294 questions spanning 7 task types in Korean, English, and Hindi. The paper states that a static task-type routing table answered 262 of 294 questions at $3.33 per run, versus 245 questions at $7.69 for the best single model, with all fitting and scoring done on the same 294 questions and no holdout."
+category: technical
+source_ids:
+  - src_llm_convergence_most_of_the_llm_routing_gap_is_task_type
+date_of_evidence: "2026-08-24"
+evidence_at: "2026-08-24"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
