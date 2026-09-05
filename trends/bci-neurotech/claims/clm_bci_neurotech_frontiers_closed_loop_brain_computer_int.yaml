@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_frontiers_closed_loop_brain_computer_int
+type: claim
+theme_id: bci-neurotech
+claim: "On 2026-08-20, Frontiers in Neuroscience published Ran Tao, Can Duan, and Yang-Pu Zhang's review \"Closed-loop brain-computer interfaces for post-stroke sensorimotor loop restoration\" on non-invasive rehabilitation-oriented closed-loop BCI for post-stroke sensorimotor recovery. The review defines closed-loop BCI as real-time EEG-based detection of motor imagery, motor attempt, or sensorimotor rhythms that triggers functional electrical stimulation, robotic assistance, virtual reality feedback, non-invasive brain stimulation, or other external outputs for rehabilitation."
+category: technical
+source_ids:
+  - src_bci_neurotech_closed_loop_brain_computer_interfaces_fo
+date_of_evidence: "2026-08-20"
+evidence_at: "2026-08-20"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
