@@ -1,0 +1,18 @@
+id: clm_peptides_fda_u2019s_concerns_with_unapproved_glp
+type: claim
+theme_id: peptides
+claim: "On September 1, 2026, the U.S. FDA stated that retatrutide and cagrilintide cannot be used in compounding under federal law and are not components of FDA-approved drugs. FDA also stated that, as of May 31, 2026, it had received 990 adverse event reports associated with compounded semaglutide and more than 730 associated with compounded tirzepatide."
+category: regulatory
+source_ids:
+  - src_peptides_fda_s_concerns_with_unapproved_glp_1_dru
+date_of_evidence: "2026-09-01"
+evidence_at: "2026-09-01"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
