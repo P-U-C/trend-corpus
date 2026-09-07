@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2608_06188_routing_llm_inference_to_the
+type: claim
+theme_id: llm-convergence
+claim: "On August 6, 2026, Aleks Bernhard and Arif Baran Yardimci submitted arXiv:2608.06188, reporting a live multi-region GPU validation in which LLM inference requests were routed using marginal operating emissions rate signals with no observed dispatch failures. The paper states that a one-year hourly MOER replay across a CONUS GPU fleet modeled a 50.9% reduction in GPU-attributable operational emissions versus round-robin placement, with a 95% block-bootstrap confidence interval of 48.5% to 53.3%."
+category: technical
+source_ids:
+  - src_llm_convergence_routing_llm_inference_to_the_cleanest_gr
+date_of_evidence: "2026-08-06"
+evidence_at: "2026-08-06"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
