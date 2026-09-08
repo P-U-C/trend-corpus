@@ -1,292 +1,292 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-09-07T13:30:01Z",
+  "generated_at": "2026-09-08T13:30:01Z",
   "theme_id": "ai-infrastructure",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 7539,
-  "underlying_source_count": 74,
+  "underlying_claim_count": 8132,
+  "underlying_source_count": 79,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 2980,
+      "claims_total": 3350,
       "claims_by_category": {
-        "market": 1128,
-        "corporate": 1045,
-        "regulatory": 155,
-        "pricing": 107,
-        "supply": 162,
-        "manufacturing": 383
+        "supply": 176,
+        "manufacturing": 424,
+        "regulatory": 164,
+        "corporate": 1185,
+        "market": 1289,
+        "pricing": 112
       },
       "top_entities": [
         {
           "slug": "nvidia",
-          "mentions": 503
+          "mentions": 565
         },
         {
           "slug": "marvell",
-          "mentions": 362
+          "mentions": 401
         },
         {
           "slug": "sk_hynix",
-          "mentions": 318
+          "mentions": 364
         },
         {
           "slug": "micron",
-          "mentions": 301
+          "mentions": 314
         },
         {
           "slug": "taiwan_semiconductor",
-          "mentions": 244
+          "mentions": 265
         },
         {
           "slug": "broadcom",
-          "mentions": 192
+          "mentions": 227
         },
         {
           "slug": "hyperscale_gcp",
-          "mentions": 150
+          "mentions": 164
+        },
+        {
+          "slug": "amd",
+          "mentions": 144
         },
         {
           "slug": "pjm_interconnection",
           "mentions": 131
         },
         {
-          "slug": "amd",
-          "mentions": 122
-        },
-        {
           "slug": "sb_energy",
-          "mentions": 102
-        },
-        {
-          "slug": "samsung",
-          "mentions": 96
-        },
-        {
-          "slug": "doc",
-          "mentions": 95
+          "mentions": 115
         },
         {
           "slug": "cisco",
-          "mentions": 95
+          "mentions": 107
+        },
+        {
+          "slug": "samsung",
+          "mentions": 103
+        },
+        {
+          "slug": "doc",
+          "mentions": 100
+        },
+        {
+          "slug": "ge_vernova",
+          "mentions": 78
         },
         {
           "slug": "astera_labs",
           "mentions": 76
         },
         {
-          "slug": "ge_vernova",
-          "mentions": 70
+          "slug": "hyperscale_aws",
+          "mentions": 72
+        },
+        {
+          "slug": "slb",
+          "mentions": 71
         },
         {
           "slug": "digital_realty",
           "mentions": 69
         },
         {
-          "slug": "hyperscale_aws",
-          "mentions": 65
-        },
-        {
           "slug": "bitdeer",
           "mentions": 64
         },
         {
-          "slug": "slb",
-          "mentions": 59
-        },
-        {
-          "slug": "openai",
-          "mentions": 55
+          "slug": "riot_platforms",
+          "mentions": 63
         }
       ]
     },
     "90d": {
-      "claims_total": 5183,
+      "claims_total": 5691,
       "claims_by_category": {
-        "market": 1985,
-        "corporate": 2014,
-        "regulatory": 338,
-        "pricing": 111,
-        "supply": 202,
-        "manufacturing": 533
+        "supply": 219,
+        "manufacturing": 601,
+        "regulatory": 346,
+        "corporate": 2210,
+        "market": 2199,
+        "pricing": 116
       },
       "top_entities": [
         {
           "slug": "nvidia",
-          "mentions": 594
+          "mentions": 665
         },
         {
           "slug": "marvell",
-          "mentions": 517
+          "mentions": 568
         },
         {
           "slug": "taiwan_semiconductor",
-          "mentions": 475
+          "mentions": 488
         },
         {
           "slug": "broadcom",
-          "mentions": 459
+          "mentions": 462
         },
         {
           "slug": "doc",
-          "mentions": 412
-        },
-        {
-          "slug": "astera_labs",
-          "mentions": 361
+          "mentions": 422
         },
         {
           "slug": "sk_hynix",
-          "mentions": 321
+          "mentions": 378
+        },
+        {
+          "slug": "astera_labs",
+          "mentions": 374
         },
         {
           "slug": "micron",
-          "mentions": 304
+          "mentions": 317
         },
         {
           "slug": "samsung",
-          "mentions": 277
+          "mentions": 302
         },
         {
           "slug": "amd",
-          "mentions": 239
+          "mentions": 284
         },
         {
           "slug": "hyperscale_gcp",
-          "mentions": 177
+          "mentions": 196
         },
         {
           "slug": "applied_optoelectronics",
-          "mentions": 153
+          "mentions": 167
         },
         {
           "slug": "pjm_interconnection",
           "mentions": 132
         },
         {
-          "slug": "schneider_electric",
-          "mentions": 106
+          "slug": "vertiv",
+          "mentions": 115
         },
         {
           "slug": "sb_energy",
-          "mentions": 102
+          "mentions": 115
         },
         {
-          "slug": "vertiv",
-          "mentions": 98
-        },
-        {
-          "slug": "openai",
-          "mentions": 97
+          "slug": "schneider_electric",
+          "mentions": 113
         },
         {
           "slug": "cisco",
-          "mentions": 95
+          "mentions": 107
         },
         {
-          "slug": "nist",
-          "mentions": 91
+          "slug": "openai",
+          "mentions": 102
         },
         {
           "slug": "amkor",
-          "mentions": 82
+          "mentions": 91
+        },
+        {
+          "slug": "nist",
+          "mentions": 88
         }
       ]
     },
     "365d": {
-      "claims_total": 6043,
+      "claims_total": 6623,
       "claims_by_category": {
-        "market": 2175,
-        "corporate": 2382,
-        "regulatory": 435,
-        "pricing": 113,
-        "supply": 311,
-        "manufacturing": 627
+        "supply": 330,
+        "manufacturing": 699,
+        "regulatory": 449,
+        "corporate": 2601,
+        "market": 2426,
+        "pricing": 118
       },
       "top_entities": [
         {
-          "slug": "marvell",
-          "mentions": 626
+          "slug": "nvidia",
+          "mentions": 699
         },
         {
-          "slug": "nvidia",
-          "mentions": 625
+          "slug": "marvell",
+          "mentions": 681
         },
         {
           "slug": "taiwan_semiconductor",
-          "mentions": 614
+          "mentions": 636
         },
         {
           "slug": "broadcom",
-          "mentions": 567
+          "mentions": 609
         },
         {
           "slug": "astera_labs",
-          "mentions": 550
+          "mentions": 567
         },
         {
           "slug": "doc",
-          "mentions": 505
+          "mentions": 521
         },
         {
           "slug": "sk_hynix",
-          "mentions": 381
-        },
-        {
-          "slug": "micron",
-          "mentions": 365
+          "mentions": 439
         },
         {
           "slug": "samsung",
-          "mentions": 365
+          "mentions": 395
+        },
+        {
+          "slug": "micron",
+          "mentions": 379
         },
         {
           "slug": "amd",
-          "mentions": 239
+          "mentions": 284
         },
         {
           "slug": "hyperscale_gcp",
-          "mentions": 185
+          "mentions": 204
         },
         {
           "slug": "applied_optoelectronics",
-          "mentions": 153
+          "mentions": 167
         },
         {
           "slug": "huawei",
-          "mentions": 137
+          "mentions": 139
         },
         {
           "slug": "pjm_interconnection",
           "mentions": 134
         },
         {
+          "slug": "vertiv",
+          "mentions": 115
+        },
+        {
+          "slug": "sb_energy",
+          "mentions": 115
+        },
+        {
           "slug": "schneider_electric",
-          "mentions": 106
+          "mentions": 113
         },
         {
           "slug": "openai",
-          "mentions": 105
+          "mentions": 110
+        },
+        {
+          "slug": "cisco",
+          "mentions": 107
         },
         {
           "slug": "nist",
           "mentions": 104
-        },
-        {
-          "slug": "sb_energy",
-          "mentions": 102
-        },
-        {
-          "slug": "vertiv",
-          "mentions": 98
-        },
-        {
-          "slug": "cisco",
-          "mentions": 95
         }
       ]
     }
@@ -294,27 +294,27 @@
   "source_freshness": [
     {
       "url": "https://apnews.com/article/nvidia-artificial-intelligence-earnings-dc8d556e709b50915cca9217a60b1991",
-      "last_ingested_at": "2026-09-06 18:00:10"
+      "last_ingested_at": "2026-09-08 00:00:11"
     },
     {
       "url": "https://arxiv.org/abs/2608.24664",
-      "last_ingested_at": "2026-09-07 00:00:05"
+      "last_ingested_at": "2026-09-08 06:00:06"
     },
     {
       "url": "https://blog.se.com/datacenter/2026/07/28/data-center-power-density-planning-liquid-cooled-ai-data-centers-around-grid-and-power-constraints/",
-      "last_ingested_at": "2026-09-06 18:00:05"
+      "last_ingested_at": "2026-09-08 00:00:05"
     },
     {
       "url": "https://ca.finance.yahoo.com/news/ciena-reports-fiscal-third-quarter-110000064.html",
-      "last_ingested_at": "2026-09-06 12:00:07"
+      "last_ingested_at": "2026-09-07 18:00:07"
     },
     {
       "url": "https://cleantechnica.com/2026/08/11/ai-data-center-electricity-demand-us-grid/",
-      "last_ingested_at": "2026-09-06 18:00:03"
+      "last_ingested_at": "2026-09-08 00:00:03"
     },
     {
       "url": "https://corporate.celestica.com/news-releases/news-release-details/celestica-announces-3-billion-equity-offering-accelerate-growth",
-      "last_ingested_at": "2026-09-07 06:00:05"
+      "last_ingested_at": "2026-09-08 12:00:06"
     },
     {
       "url": "https://insidelines.pjm.com/pjm-proposes-framework-to-connect-data-centers-without-compromising-reliability-affordability/",
@@ -326,11 +326,11 @@
     },
     {
       "url": "https://investor.marvell.com/financial-information/financial-results",
-      "last_ingested_at": "2026-09-06 12:00:03"
+      "last_ingested_at": "2026-09-07 18:00:03"
     },
     {
       "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results",
-      "last_ingested_at": "2026-09-07 00:00:06"
+      "last_ingested_at": "2026-09-08 06:00:06"
     },
     {
       "url": "https://investor.nvidia.com/financial-info/quarterly-results/default.aspx",
@@ -338,39 +338,39 @@
     },
     {
       "url": "https://investor.tsmc.com/english/quarterly-results",
-      "last_ingested_at": "2026-09-06 12:00:05"
+      "last_ingested_at": "2026-09-07 18:00:04"
     },
     {
       "url": "https://investors.broadcom.com/",
-      "last_ingested_at": "2026-09-06 12:00:03"
+      "last_ingested_at": "2026-09-07 18:00:02"
     },
     {
       "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-vmware-ai-factory-enabling-faster-time",
-      "last_ingested_at": "2026-09-06 12:00:06"
+      "last_ingested_at": "2026-09-07 18:00:06"
     },
     {
       "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
-      "last_ingested_at": "2026-09-06 18:00:04"
+      "last_ingested_at": "2026-09-08 00:00:04"
     },
     {
       "url": "https://investors.delltechnologies.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-09-07 00:00:02"
+      "last_ingested_at": "2026-09-08 06:00:02"
     },
     {
       "url": "https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-delivers-second-quarter-fiscal-2027-financial",
-      "last_ingested_at": "2026-09-06 18:00:05"
+      "last_ingested_at": "2026-09-08 00:00:06"
     },
     {
       "url": "https://ir.amd.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-09-06 12:00:02"
+      "last_ingested_at": "2026-09-07 18:00:01"
     },
     {
       "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
-      "last_ingested_at": "2026-09-06 12:00:05"
+      "last_ingested_at": "2026-09-07 18:00:05"
     },
     {
       "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-strategic-partnership-nvidia-expand",
-      "last_ingested_at": "2026-09-07 06:00:04"
+      "last_ingested_at": "2026-09-08 12:00:05"
     },
     {
       "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results/",
@@ -382,7 +382,7 @@
     },
     {
       "url": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results",
-      "last_ingested_at": "2026-09-06 18:00:03"
+      "last_ingested_at": "2026-09-08 00:00:03"
     },
     {
       "url": "https://ir.bitdeer.com/news-releases/news-release-details/bitdeer-ai-advances-ai-cloud-build-out-malaysia-and-targets",
@@ -390,39 +390,51 @@
     },
     {
       "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
-      "last_ingested_at": "2026-09-07 06:00:07"
+      "last_ingested_at": "2026-09-08 12:00:07"
     },
     {
       "url": "https://news.samsung.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure",
-      "last_ingested_at": "2026-09-07 06:00:07"
+      "last_ingested_at": "2026-09-08 12:00:07"
     },
     {
       "url": "https://news.skhynix.com/en/cpo-in-nature-electronics/",
-      "last_ingested_at": "2026-09-06 12:00:11"
+      "last_ingested_at": "2026-09-07 18:00:10"
     },
     {
       "url": "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/",
-      "last_ingested_at": "2026-09-06 12:00:11"
+      "last_ingested_at": "2026-09-07 18:00:09"
+    },
+    {
+      "url": "https://news.skhynix.com/en/hbf-at-fms-2026/",
+      "last_ingested_at": "2026-09-08 06:00:07"
     },
     {
       "url": "https://newsroom.amd.com/news/amd-tracks-ahead-of-rack-scale-ai-energy-efficiency-goal/",
-      "last_ingested_at": "2026-09-07 06:00:04"
+      "last_ingested_at": "2026-09-08 12:00:05"
     },
     {
       "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m08/cisco-secure-ai-factory-nvidia-rack-scale.html",
-      "last_ingested_at": "2026-09-07 00:00:04"
+      "last_ingested_at": "2026-09-08 06:00:04"
+    },
+    {
+      "url": "https://newsroom.ibm.com/2026-08-11-IBM-and-Together-AI-Sign-Multi-Year-Agreement-to-Scale-Open-Source-AI-Inference-with-NVIDIA-AI-Infrastructure-on-IBM-Cloud",
+      "last_ingested_at": "2026-09-08 06:00:05"
+    },
+    {
+      "url": "https://pr.tsmc.com/english/news/3329",
+      "last_ingested_at": "2026-09-08 06:00:08"
     },
     {
       "url": "https://semianalysis.com/tag/ai-infrastructure/",
-      "last_ingested_at": "2026-09-06 12:00:04"
+      "last_ingested_at": "2026-09-07 18:00:04"
     },
     {
       "url": "https://spectrum.ieee.org/tag/data-centers",
-      "last_ingested_at": "2026-09-07 00:00:02"
+      "last_ingested_at": "2026-09-08 06:00:02"
     },
     {
       "url": "https://www.axios.com/2026/08/25/exclusive-cisco-expands-nvidia-partnership-for-ai-data-center-boom",
-      "last_ingested_at": "2026-09-06 18:00:05"
+      "last_ingested_at": "2026-09-08 00:00:06"
     },
     {
       "url": "https://www.bis.gov/press-release/bis-updated-public-information-page-export-controls-imposed-advanced-computing-semiconductor",
@@ -434,11 +446,11 @@
     },
     {
       "url": "https://www.bloomberg.com/news/articles/2026-08-24/taiwan-indicts-nvidia-manager-following-chip-smuggling-probe",
-      "last_ingested_at": "2026-09-06 18:00:11"
+      "last_ingested_at": "2026-09-08 00:00:11"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260901825270/en/Credo-Technology-Group-Holding-Ltd-Reports-First-Quarter-of-Fiscal-Year-2027-Financial-Results",
-      "last_ingested_at": "2026-09-07 06:00:05"
+      "last_ingested_at": "2026-09-08 12:00:06"
     },
     {
       "url": "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html",
@@ -446,15 +458,15 @@
     },
     {
       "url": "https://www.coherent.com/news/press-releases/fourth-quarter-and-fiscal-year-2026-results",
-      "last_ingested_at": "2026-09-07 06:00:05"
+      "last_ingested_at": "2026-09-08 12:00:06"
     },
     {
       "url": "https://www.commerce.gov/news/press-releases/2026/07/trump-administration-secures-additional-100-billion-us-semiconductor",
-      "last_ingested_at": "2026-09-07 06:00:11"
+      "last_ingested_at": "2026-09-08 12:00:11"
     },
     {
       "url": "https://www.digitimes.com/news/a20260821PD213/cpo-optics-silicon-photonics-demand.html",
-      "last_ingested_at": "2026-09-06 18:00:05"
+      "last_ingested_at": "2026-09-08 00:00:05"
     },
     {
       "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing-and",
@@ -462,31 +474,39 @@
     },
     {
       "url": "https://www.fool.com/investing/2026/08/09/sk-hynix-and-samsung-just-sent-a-major-warning-to/",
-      "last_ingested_at": "2026-09-06 12:00:09"
+      "last_ingested_at": "2026-09-07 18:00:09"
     },
     {
       "url": "https://www.ft.com/content/9cb63980-cd43-419d-a7e5-42039b9fd01e",
-      "last_ingested_at": "2026-09-06 18:00:11"
+      "last_ingested_at": "2026-09-08 00:00:12"
     },
     {
       "url": "https://www.gevernova.com/news/press-releases/ge-vernova-introduces-medium-voltage-ups-help-accelerate-buildout-ai-factories",
-      "last_ingested_at": "2026-09-07 00:00:05"
+      "last_ingested_at": "2026-09-08 06:00:05"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/08/03/3337571/0/en/fabric-ai-and-kopin-publish-joint-white-paper-on-microled-optical-interconnect-technology-for-next-generation-ai-data-centers.html",
+      "last_ingested_at": "2026-09-08 06:00:04"
     },
     {
       "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html",
-      "last_ingested_at": "2026-09-06 12:00:07"
+      "last_ingested_at": "2026-09-07 18:00:07"
     },
     {
       "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/singapore-launches-worlds-first-liquid-cooling-standard-for-data-centres-in-tropical-climates",
-      "last_ingested_at": "2026-09-06 12:00:08"
+      "last_ingested_at": "2026-09-07 18:00:08"
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-announces-proposed-15-billion-common-stock-offering.html",
+      "last_ingested_at": "2026-09-08 06:00:05"
     },
     {
       "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intels-us-advanced-packaging-enables-next-generation-ai-semiconductors.html",
-      "last_ingested_at": "2026-09-07 06:00:06"
+      "last_ingested_at": "2026-09-08 12:00:06"
     },
     {
       "url": "https://www.jll.com/en-ae/newsroom/ai-boom-redraws-europes-data-centre-map-as-power-access",
-      "last_ingested_at": "2026-09-07 06:00:04"
+      "last_ingested_at": "2026-09-08 12:00:05"
     },
     {
       "url": "https://www.manufacturingdive.com/news/nvidia-chip-supply-shortages-limiting-ai-revenue-growth/829273/",
@@ -494,47 +514,47 @@
     },
     {
       "url": "https://www.marvell.com/company/newsroom/marvell-ai-memory-infrastructure-agentic-ai-inference.html",
-      "last_ingested_at": "2026-09-06 18:00:08"
+      "last_ingested_at": "2026-09-08 00:00:08"
     },
     {
       "url": "https://www.nist.gov/chips",
-      "last_ingested_at": "2026-09-06 12:00:03"
+      "last_ingested_at": "2026-09-07 18:00:03"
     },
     {
       "url": "https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-letters-intent-7-companies-874-million",
-      "last_ingested_at": "2026-09-07 06:00:05"
+      "last_ingested_at": "2026-09-08 12:00:06"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/vertiv-expands-global-manufacturing-capacity-for-ai-ready-data-center-cooling-solutions-302830933.html",
-      "last_ingested_at": "2026-09-06 12:00:12"
+      "last_ingested_at": "2026-09-07 18:00:11"
     },
     {
       "url": "https://www.sdsc.edu/news/2026/PR20260824-CEC-datacenter.html",
-      "last_ingested_at": "2026-09-07 06:00:11"
+      "last_ingested_at": "2026-09-08 12:00:11"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001158114/000168316826006055/aaoi_ex9901.htm",
-      "last_ingested_at": "2026-09-06 18:00:03"
+      "last_ingested_at": "2026-09-08 00:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000119312526356217/d412696d8k.htm",
-      "last_ingested_at": "2026-09-06 12:00:08"
+      "last_ingested_at": "2026-09-07 18:00:08"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm",
-      "last_ingested_at": "2026-09-07 00:00:07"
+      "last_ingested_at": "2026-09-08 06:00:07"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926093406/riot-20260810xex99d1.htm",
-      "last_ingested_at": "2026-09-07 00:00:07"
+      "last_ingested_at": "2026-09-08 06:00:07"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
-      "last_ingested_at": "2026-09-07 00:00:05"
+      "last_ingested_at": "2026-09-08 06:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090041/tm2621890d1_ex99-1.htm",
-      "last_ingested_at": "2026-09-07 00:00:05"
+      "last_ingested_at": "2026-09-08 06:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541926000049/ex991q4-26.htm",
@@ -542,19 +562,19 @@
     },
     {
       "url": "https://www.slb.com/newsroom/press-release/2026/pr-2026-0831",
-      "last_ingested_at": "2026-09-07 06:00:10"
+      "last_ingested_at": "2026-09-08 12:00:11"
     },
     {
       "url": "https://www.techtimes.com/articles/324988/20260819/marvell-lands-google-ai-chip-deal-closing-custom-silicon-hyperscaler-sweep.htm",
-      "last_ingested_at": "2026-09-06 12:00:08"
+      "last_ingested_at": "2026-09-07 18:00:08"
     },
     {
       "url": "https://www.tomshardware.com/pc-components/dram/nvidia-custom-nvhbm-promises-30-percent-higher-bandwidth-15-percent-lower-power-than-commodity-hbm4e-custom-base-die-and-phy-will-be-available-to-nvlink-fusion-partners",
-      "last_ingested_at": "2026-09-06 18:00:10"
+      "last_ingested_at": "2026-09-08 00:00:10"
     },
     {
       "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-breaks-ground-on-the-first-hbm-plant-in-the-us-bringing-key-ai-component-production-to-the-states-says-production-starts-in-2029",
-      "last_ingested_at": "2026-09-06 12:00:10"
+      "last_ingested_at": "2026-09-07 18:00:09"
     },
     {
       "url": "https://www.tomshardware.com/tech-industry/data-centers/new-data-centers-on-americas-largest-grid-face-first-in-line-blackouts-unless-they-bring-their-own-power",
@@ -566,23 +586,23 @@
     },
     {
       "url": "https://www.trendforce.com/news/2026/08/11/news-tsmcs-5-5-reticle-cowos-reportedly-tops-99-yield-flags-memory-abf-as-ai-bottlenecks/",
-      "last_ingested_at": "2026-09-06 18:00:12"
+      "last_ingested_at": "2026-09-08 00:00:13"
     },
     {
       "url": "https://www.trendforce.com/news/2026/08/12/news-micron-flags-hbm4e-as-start-of-custom-hbm-era-hbm-market-could-tilt-toward-dual-or-single-suppliers/",
-      "last_ingested_at": "2026-09-06 18:00:09"
+      "last_ingested_at": "2026-09-08 00:00:10"
     },
     {
       "url": "https://www.trendforce.com/presscenter/news/20260817-13183.html",
-      "last_ingested_at": "2026-09-06 18:00:07"
+      "last_ingested_at": "2026-09-08 00:00:08"
     },
     {
       "url": "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/",
-      "last_ingested_at": "2026-09-06 12:00:08"
+      "last_ingested_at": "2026-09-07 18:00:08"
     },
     {
       "url": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-announces-agreement-to-acquire-utilityinnovation-group-to-accelerate-time-to-power-for-ai-data-centers/",
-      "last_ingested_at": "2026-09-06 12:00:12"
+      "last_ingested_at": "2026-09-07 18:00:11"
     },
     {
       "url": "https://www.wiwynn.com/news/wiwynn-reports-second-quarter-2026-financial-results",
