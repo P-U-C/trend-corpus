@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_sparks_fly_nvidia_accelerates_local_ai_a
+type: claim
+theme_id: llm-convergence
+claim: "NVIDIA announced on September 3, 2026 that llama.cpp and vLLM inference optimizations for NVIDIA local AI platforms are available, with llama.cpp delivering up to 1.9x higher throughput on GeForce RTX 5090 and vLLM delivering 1.2x on RTX PRO 6000 Blackwell Workstation Edition and up to 1.4x on two DGX Spark clusters. NVIDIA also announced NVIDIA PAIR, a free open source Personal AI Router beta for Windows, macOS and Linux that routes local inference requests across compatible PCs and works with Ollama and LM Studio."
+category: technical
+source_ids:
+  - src_llm_convergence_sparks_fly_nvidia_accelerates_local_ai_a
+date_of_evidence: "2026-09-03"
+evidence_at: "2026-09-03"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

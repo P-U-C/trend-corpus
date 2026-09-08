@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_export_ai_gateway_traces_with_vercel_dra
+type: claim
+theme_id: llm-convergence
+claim: "On August 5, 2026, Vercel announced that AI Gateway produces an OpenTelemetry trace for every request, and that Pro and Enterprise teams can export those traces through Vercel Drains to OTLP/HTTP-compatible endpoints including Braintrust, Dash0, Kubiks, Sentry, and Statsig. Vercel said AI Gateway Trace Drains include routing, fallback and retry attempts, token usage and cost, latency, response status, and attribution fields, but exclude prompt and completion content."
+category: technical
+source_ids:
+  - src_llm_convergence_export_ai_gateway_traces_with_vercel_dra
+date_of_evidence: "2026-08-05"
+evidence_at: "2026-08-05"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
