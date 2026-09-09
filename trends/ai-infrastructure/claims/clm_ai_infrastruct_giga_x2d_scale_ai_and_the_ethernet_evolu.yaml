@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_giga_x2d_scale_ai_and_the_ethernet_evolu
+type: claim
+theme_id: ai-infrastructure
+claim: "On August 24, 2026, NVIDIA Technical Blog stated that NVIDIA Spectrum-X Ethernet combines Spectrum-X switches and NVIDIA ConnectX SuperNICs to implement hardware-accelerated adaptive routing, congestion control, and NIC-based Plane Load Balancing for giga-scale AI factory networks. NVIDIA reported that under a 10% fabric link failure scenario, Spectrum-X Ethernet degraded bandwidth by 11% and increased tail latency by 7%, while traditional Ethernet lost 50% or more collective bandwidth."
+category: technical
+source_ids:
+  - src_ai_infrastructur_giga_scale_ai_and_the_ethernet_evolution
+date_of_evidence: "2026-08-24"
+evidence_at: "2026-08-24"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
