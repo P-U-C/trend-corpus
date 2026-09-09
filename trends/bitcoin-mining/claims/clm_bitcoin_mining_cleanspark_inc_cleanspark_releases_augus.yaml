@@ -1,0 +1,18 @@
+id: clm_bitcoin_mining_cleanspark_inc_cleanspark_releases_augus
+type: claim
+theme_id: bitcoin-mining
+claim: "CleanSpark, Inc. reported on September 8, 2026 that it produced 593 bitcoin in August 2026, with 50 EH/s operational hashrate, 808 MW utilized power, and 1.8 GW under contract as of August 31, 2026. CleanSpark also reported 13,703 total bitcoin holdings as of August 31, 2026 after selling 77 bitcoin at spot, 500 bitcoin pursuant to call exercises, and 244 bitcoin related to a delta-neutral basis trade at an average price of $65,420 per bitcoin sold."
+category: corporate
+source_ids:
+  - src_bitcoin_mining_cleanspark_releases_august_2026_operatio
+date_of_evidence: "2026-09-08"
+evidence_at: "2026-09-08"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
