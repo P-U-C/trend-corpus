@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_truefoundry_ai_gateway_integration_with
+type: claim
+theme_id: llm-convergence
+claim: "On September 10, 2026, TrueFoundry announced a native integration between TrueFoundry AI Gateway and LangSmith from LangChain. The integration uses TrueFoundry AI Gateway as the execution boundary for model calls and agent steps, exports traces via OpenTelemetry, and sends them to LangSmith for traces, runs, evaluations, dataset runs, and optional project routing."
+category: technical
+source_ids:
+  - src_llm_convergence_truefoundry_ai_gateway_integration_with
+date_of_evidence: "2026-09-10"
+evidence_at: "2026-09-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

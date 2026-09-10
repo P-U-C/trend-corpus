@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_pjm_dominion_review_large_load_transfer
+type: claim
+theme_id: ai-infrastructure
+claim: "On August 11, 2026, PJM said a July 22, 2026 mechanical failure removed a 230 kV line from service in Northern Virginia, after which data centers in Dominion Energy\u2019s zone unexpectedly disconnected and transferred to backup generation. Brian Starling of Dominion Energy said the event involved a first load drop of 2,970 MW and a second wave of 1,099 MW, totaling approximately 3,800 MW of Large Load disconnected without warning."
+category: technical
+source_ids:
+  - src_ai_infrastructur_pjm_dominion_review_large_load_transfer
+date_of_evidence: "2026-08-11"
+evidence_at: "2026-08-11"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

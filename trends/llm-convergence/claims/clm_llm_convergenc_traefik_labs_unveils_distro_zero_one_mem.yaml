@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_traefik_labs_unveils_distro_zero_one_mem
+type: claim
+theme_id: llm-convergence
+claim: "On July 30, 2026, Traefik Labs introduced the Distro Zero image as an early access release delivered as Traefik Hub in proxy mode. Traefik Labs said Distro Zero ships one static Go binary with zero third-party executable content, uses Go Cryptographic Module v1.0.0 with FIPS 140-3 validation under CMVP Certificate #5247, and unlocks API Gateway, AI Gateway, MCP Gateway, and API Management through licensing on the same binary."
+category: technical
+source_ids:
+  - src_llm_convergence_traefik_labs_unveils_distro_zero_one_mem
+date_of_evidence: "2026-07-30"
+evidence_at: "2026-07-30"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
