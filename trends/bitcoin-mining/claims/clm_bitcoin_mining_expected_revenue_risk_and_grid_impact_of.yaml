@@ -1,0 +1,18 @@
+id: clm_bitcoin_mining_expected_revenue_risk_and_grid_impact_of
+type: claim
+theme_id: bitcoin-mining
+claim: "Yuting Cai, Ruthav Sadali, Korok Ray, and Chao Tian model Bitcoin mining as an ex ante probabilistic process in which each SHA-256 hash is a Bernoulli trial with success probability set by Bitcoin network difficulty. Their Energy Economics article published on August 28, 2026 derives closed-form expected revenue per hash-rate unit, downside-risk metrics, and upside-profit probabilities for direct mining and mining-pool participation."
+category: technical
+source_ids:
+  - src_bitcoin_mining_expected_revenue_risk_and_grid_impact_of
+date_of_evidence: "2026-08-28"
+evidence_at: "2026-08-28"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

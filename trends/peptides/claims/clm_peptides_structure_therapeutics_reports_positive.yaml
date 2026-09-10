@@ -1,0 +1,18 @@
+id: clm_peptides_structure_therapeutics_reports_positive
+type: claim
+theme_id: peptides
+claim: "On September 8, 2026, Structure Therapeutics reported Phase 1/2a single-ascending-dose data for ACCG-2671, its oral small-molecule dual amylin and calcitonin receptor agonist, including an approximately 6-day half-life, no serious adverse events, and 3.3% mean body-weight reduction at Day 24 after a single 10 mg dose in 6 healthy adult participants without obesity. Structure Therapeutics also reported 72-week ACCESS open-label extension data for aleniglipron, its oral small-molecule GLP-1 receptor agonist, with participants originally randomized to the 45 mg, 90 mg, and 120 mg arms achieving 11.6%, 14.4%, and 16.2% weight loss, respectively, after dosing up to 180 mg."
+category: technical
+source_ids:
+  - src_peptides_structure_therapeutics_reports_positive
+date_of_evidence: "2026-09-08"
+evidence_at: "2026-09-08"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
