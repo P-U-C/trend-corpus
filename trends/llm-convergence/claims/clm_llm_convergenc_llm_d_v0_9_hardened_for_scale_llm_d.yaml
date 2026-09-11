@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_llm_d_v0_9_hardened_for_scale_llm_d
+type: claim
+theme_id: llm-convergence
+claim: "On August 28, 2026, llm-d maintainers announced llm-d v0.9 with router high availability, production-safe flow-control defaults, a formal Alpha/Beta/Stable router plugin lifecycle, and a KEDA-based autoscaling path for Kubernetes. The release also added OpenTelemetry tracing across prefill/decode transfer, OpenAI-compatible `/v1/images/generations` routing for diffusion backends such as vLLM-Omni, and tested deployment paths for NVIDIA GB200, NVIDIA GB300, Intel XPU, ROCm, and TPU v7 hardware."
+category: technical
+source_ids:
+  - src_llm_convergence_llm_d_v0_9_hardened_for_scale
+date_of_evidence: "2026-08-28"
+evidence_at: "2026-08-28"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
