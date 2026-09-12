@@ -1,0 +1,18 @@
+id: clm_longevity_insilico_medicine_doses_first_patient_in
+type: claim
+theme_id: longevity
+claim: "On September 10, 2026, Insilico Medicine announced that Rentosertib, also known as ISM001-055 / INS018_055, dosed its first patient in GENESIS-IPF-3, a Phase III trial for idiopathic pulmonary fibrosis at Peking Union Medical College Hospital, with Shanghai Pulmonary Hospital also enrolling its first patient that day. The trial is a 52-week randomized, double-blind, placebo-controlled, parallel-group study expected to enroll 320 participants across 47 centers in China, with annual rate of decline in forced vital capacity as the primary endpoint."
+category: technical
+source_ids:
+  - src_longevity_insilico_medicine_doses_first_patient_in
+date_of_evidence: "2026-09-10"
+evidence_at: "2026-09-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

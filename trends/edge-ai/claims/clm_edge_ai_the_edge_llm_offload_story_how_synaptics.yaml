@@ -1,0 +1,18 @@
+id: clm_edge_ai_the_edge_llm_offload_story_how_synaptics
+type: claim
+theme_id: edge-ai
+claim: "On August 10, 2026, Edge AI and Vision Alliance reprinted a Synaptics blog stating that Synaptics and Google Research integrated Google Research\u2019s Coral NPU into the Synaptics Astra SL2610 IoT Edge AI processor line. The source states that Synaptics\u2019 Torq NPU runs Google\u2019s Gemma 3 270M using static model conversion, hardware-accelerated GELU and Softmax lookup-table approximations, and mixed-precision quantization that compresses 84% of layers to 4-bit precision and 16% to 8-bit precision."
+category: technical
+source_ids:
+  - src_edge_ai_the_edge_llm_offload_story_how_synaptics
+date_of_evidence: "2026-08-10"
+evidence_at: "2026-08-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
