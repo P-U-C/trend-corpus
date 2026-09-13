@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2609_08306_honeyroute_honeypot_model_rou
+type: claim
+theme_id: llm-convergence
+claim: "On September 8, 2026, Han Jin submitted the arXiv preprint \u201cHoneyRoute: Honeypot-Model Routing for Adversarial LLM Serving,\u201d describing an LLM inference-serving layer that detects malicious requests and routes them to a dedicated honeypot model. The source reports HoneyRoute achieving F1=.911 with 38 ms median added latency on a production trace plus seven-domain attack corpus, 0% evasion under 13 adversarial transformations, and a loop-trained correction head raising detection F1 to .933."
+category: technical
+source_ids:
+  - src_llm_convergence_honeyroute_honeypot_model_routing_for_ad
+date_of_evidence: "2026-09-08"
+evidence_at: "2026-09-08"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

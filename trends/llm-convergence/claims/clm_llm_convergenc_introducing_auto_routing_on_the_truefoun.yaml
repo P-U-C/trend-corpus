@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_introducing_auto_routing_on_the_truefoun
+type: claim
+theme_id: llm-convergence
+claim: "On September 9, 2026, TrueFoundry introduced Auto Routing for the TrueFoundry AI Gateway, configured on a virtual model that classifies incoming requests into simple, medium, or complex tiers and routes them to assigned models. The feature supports heuristic classification inside the gateway, optional LLM-based classification, escalation and fallback across tier targets, conversation pinning, and observability through ai_gateway_complexity_routing_decisions_total."
+category: technical
+source_ids:
+  - src_llm_convergence_introducing_auto_routing_on_the_truefoun
+date_of_evidence: "2026-09-09"
+evidence_at: "2026-09-09"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

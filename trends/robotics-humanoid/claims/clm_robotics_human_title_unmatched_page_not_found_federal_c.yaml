@@ -1,0 +1,18 @@
+id: clm_robotics_human_title_unmatched_page_not_found_federal_c
+type: claim
+theme_id: robotics-humanoid
+claim: "On the Federal Communications Commission website, the URL https://www.fcc.gov/document/fcc-adds-foreign-produced-power-inverters-and-robots returned \u201cPage Not Found,\u201d stating that the requested page might have been removed, renamed, or temporarily unavailable."
+category: regulatory
+source_ids:
+  - src_robotics_humanoi_fcc_adds_foreign_produced_power_inverter
+date_of_evidence: "2026-07-28"
+evidence_at: "2026-07-28"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
