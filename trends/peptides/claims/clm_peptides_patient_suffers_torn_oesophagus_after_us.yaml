@@ -1,0 +1,18 @@
+id: clm_peptides_patient_suffers_torn_oesophagus_after_us
+type: claim
+theme_id: peptides
+claim: "On September 14, 2026, ABC News reported that Australia's Therapeutic Goods Administration warned against unapproved peptide products after a patient suffered a torn oesophagus requiring hospitalisation from a product labelled as retatrutide. The TGA said laboratory testing found the product contained no retatrutide and instead contained undeclared semaglutide at approximately eight times the level found in semaglutide products assessed by the TGA, and said retatrutide is not approved by the TGA or any comparable international regulator outside clinical trials."
+category: regulatory
+source_ids:
+  - src_peptides_patient_suffers_torn_oesophagus_after_us
+date_of_evidence: "2026-09-14"
+evidence_at: "2026-09-14"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
