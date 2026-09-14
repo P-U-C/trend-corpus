@@ -1,0 +1,18 @@
+id: clm_nuclear_smr_federal_register_orano_enrichment_usa_ll
+type: claim
+theme_id: nuclear-smr
+claim: "On August 12, 2026, the Nuclear Regulatory Commission published Federal Register notice 2026-16372, 91 FR 52088, for Orano Enrichment USA LLC\u2019s Project IKE Enrichment Facility license application under Docket No. 70-7038 and CLI-26-11. The application seeks authorization to construct and operate a uranium enrichment facility in Roane County, Tennessee, using centrifuge isotope separation to re-enrich depleted uranium hexafluoride tails and enrich natural-grade uranium hexafluoride up to 8 weight percent uranium-235."
+category: regulatory
+source_ids:
+  - src_nuclear_smr_orano_enrichment_usa_llc_project_ike_enr
+date_of_evidence: "2026-08-12"
+evidence_at: "2026-08-12"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

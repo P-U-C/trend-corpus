@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_dynamic_model_routing_amp_open_models_in
+type: claim
+theme_id: llm-convergence
+claim: "On August 18, 2026, Snowflake announced dynamic model routing through Cortex AI Gateway in private preview and expanded Snowflake Cortex AI open-model access with DeepSeek-V4-Flash 0731 in private preview and GLM-5.3 coming soon. Snowflake stated that Cortex AI Gateway routes requests only to administrator-approved models, respects data residency settings, logs each routing decision, and that Snowflake serves these open models itself rather than proxying third-party APIs."
+category: technical
+source_ids:
+  - src_llm_convergence_dynamic_model_routing_open_models_in_sno
+date_of_evidence: "2026-08-18"
+evidence_at: "2026-08-18"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
