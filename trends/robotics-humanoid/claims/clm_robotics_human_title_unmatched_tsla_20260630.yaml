@@ -1,0 +1,18 @@
+id: clm_robotics_human_title_unmatched_tsla_20260630
+type: claim
+theme_id: robotics-humanoid
+claim: "Tesla\u2019s `tsla-20260630` SEC filing for Q2 2026, published July 22, 2026, includes company XBRL elements `tsla:botDelivered` and `tsla:robotaxi`. The same source identifies Tesla, Inc. CIK `0001318605` and reporting periods ending June 30, 2026."
+category: regulatory
+source_ids:
+  - src_robotics_humanoi_tesla_inc_form_10_q_for_the_quarter_ende
+date_of_evidence: "2026-07-22"
+evidence_at: "2026-07-22"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

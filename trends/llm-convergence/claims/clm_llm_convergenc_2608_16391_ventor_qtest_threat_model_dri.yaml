@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2608_16391_ventor_qtest_threat_model_dri
+type: claim
+theme_id: llm-convergence
+claim: "On August 17, 2026, Xiangfan Wu, Zonghao Ying, Huiyu Wu, Xing Zheng, Huangsheng Cheng, Xiaorong Shi, and Jing Guo submitted arXiv:2608.16391, \u201cVentor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs,\u201d introducing Ventor-QTest as a black-box audit for vendor-hosted open-weight LLM inference APIs. The paper defines average fidelity loss (AFL) from repeated constrained-context requests and extreme fidelity loss (EFL) from independent long-sequence runs, and reports that AFL and EFL had little detectable route-level association with GPQA-Diamond accuracy while pronounced EFL coincided with a Terminal-Bench pass-rate decline as task exposure increased."
+category: technical
+source_ids:
+  - src_llm_convergence_ventor_qtest_threat_model_driven_verific
+date_of_evidence: "2026-08-17"
+evidence_at: "2026-08-17"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
