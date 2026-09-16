@@ -1,0 +1,18 @@
+id: clm_peptides_tga_tests_counterfeit_retatrutide_produc
+type: claim
+theme_id: peptides
+claim: "On 14 September 2026, Australia\u2019s Therapeutic Goods Administration published a safety advisory stating that a product sold as retatrutide after a serious adverse event contained undeclared semaglutide and no retatrutide. TGA testing found the semaglutide level was approximately eight times higher than in semaglutide products assessed by the TGA and included in the Australian Register of Therapeutic Goods."
+category: regulatory
+source_ids:
+  - src_peptides_tga_tests_counterfeit_retatrutide_produc
+date_of_evidence: "2026-09-14"
+evidence_at: "2026-09-14"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
