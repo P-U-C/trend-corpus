@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2609_06940_unified_ai_gateway_a_framewor
+type: claim
+theme_id: llm-convergence
+claim: "On September 7, 2026, Jiaxun Lu, Xiang Zhang, and Yunfeng Shao submitted arXiv:2609.06940, \u201cUnified AI Gateway: A Framework for Joint Model Routing and KV Cache Management,\u201d defining a Unified AI Gateway that jointly selects a target LLM, execution site, and KV cache action under task-quality, latency, cost, and resource constraints. The paper reports workload-level analytical simulation results across eight workload profiles, with TTFT speedups of 1.25x-13.28x and input-cost benefits of 1.20x-6.16x."
+category: technical
+source_ids:
+  - src_llm_convergence_unified_ai_gateway_a_framework_for_joint
+date_of_evidence: "2026-09-07"
+evidence_at: "2026-09-07"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

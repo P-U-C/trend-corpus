@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_how_to_use_openrouter_presets_config_as
+type: claim
+theme_id: llm-convergence
+claim: "On September 10, 2026, OpenRouter published a guide stating that OpenRouter Presets let API users reference named, versioned LLM configurations as `@preset/slug` in the OpenAI-compatible `model` field. The guide says a preset can store model choices or fallback arrays, system prompts, provider routing, sampling parameters, and OpenRouter tools, and that saving an existing slug creates a new active version used by subsequent API requests."
+category: technical
+source_ids:
+  - src_llm_convergence_how_to_use_openrouter_presets_config_as
+date_of_evidence: "2026-09-10"
+evidence_at: "2026-09-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
