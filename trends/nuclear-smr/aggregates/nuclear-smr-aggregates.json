@@ -1,39 +1,39 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-09-16T13:32:01Z",
+  "generated_at": "2026-09-17T13:32:01Z",
   "theme_id": "nuclear-smr",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 21469,
-  "underlying_source_count": 114,
+  "underlying_claim_count": 21785,
+  "underlying_source_count": 118,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 6607,
+      "claims_total": 6638,
       "claims_by_category": {
-        "corporate": 2080,
-        "supply": 275,
-        "market": 1082,
-        "pricing": 28,
-        "regulatory": 1326,
-        "research": 647,
-        "manufacturing": 1169
+        "corporate": 2059,
+        "research": 670,
+        "regulatory": 1343,
+        "market": 1090,
+        "supply": 271,
+        "pricing": 27,
+        "manufacturing": 1178
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 883
+          "mentions": 885
         },
         {
           "slug": "nrc",
-          "mentions": 816
+          "mentions": 822
         },
         {
           "slug": "cameco",
-          "mentions": 459
+          "mentions": 446
         },
         {
           "slug": "holtec",
@@ -44,44 +44,44 @@
           "mentions": 339
         },
         {
-          "slug": "ge_vernova",
-          "mentions": 316
-        },
-        {
           "slug": "bwxt",
-          "mentions": 295
+          "mentions": 312
         },
         {
           "slug": "terrapower",
-          "mentions": 293
+          "mentions": 303
         },
         {
           "slug": "nano_nuclear",
-          "mentions": 268
+          "mentions": 279
         },
         {
           "slug": "centrus",
-          "mentions": 219
+          "mentions": 223
+        },
+        {
+          "slug": "ge_vernova",
+          "mentions": 208
         },
         {
           "slug": "nuscale",
-          "mentions": 203
+          "mentions": 201
         },
         {
           "slug": "urenco",
-          "mentions": 189
+          "mentions": 196
         },
         {
           "slug": "x_energy",
-          "mentions": 176
-        },
-        {
-          "slug": "westinghouse",
-          "mentions": 167
+          "mentions": 192
         },
         {
           "slug": "triso_x",
-          "mentions": 167
+          "mentions": 179
+        },
+        {
+          "slug": "westinghouse",
+          "mentions": 166
         },
         {
           "slug": "urenco_usa",
@@ -89,7 +89,7 @@
         },
         {
           "slug": "terra_innovatum",
-          "mentions": 150
+          "mentions": 140
         },
         {
           "slug": "fanco",
@@ -97,73 +97,73 @@
         },
         {
           "slug": "inl",
-          "mentions": 127
+          "mentions": 131
         },
         {
           "slug": "diu",
-          "mentions": 121
+          "mentions": 124
         }
       ]
     },
     "90d": {
-      "claims_total": 13737,
+      "claims_total": 13987,
       "claims_by_category": {
-        "corporate": 4444,
-        "supply": 711,
-        "market": 2295,
-        "pricing": 91,
-        "regulatory": 3116,
-        "research": 1079,
-        "manufacturing": 2001
+        "corporate": 4533,
+        "research": 1100,
+        "regulatory": 3132,
+        "market": 2362,
+        "supply": 716,
+        "pricing": 92,
+        "manufacturing": 2052
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 2218
+          "mentions": 2217
         },
         {
           "slug": "nrc",
-          "mentions": 1928
+          "mentions": 1932
         },
         {
           "slug": "cameco",
-          "mentions": 1024
+          "mentions": 1032
         },
         {
           "slug": "westinghouse",
-          "mentions": 831
+          "mentions": 849
         },
         {
           "slug": "x_energy",
-          "mentions": 744
+          "mentions": 771
         },
         {
           "slug": "bwxt",
-          "mentions": 711
+          "mentions": 733
         },
         {
           "slug": "terrapower",
-          "mentions": 634
-        },
-        {
-          "slug": "ge_vernova",
-          "mentions": 545
+          "mentions": 655
         },
         {
           "slug": "holtec",
           "mentions": 543
         },
         {
+          "slug": "ge_vernova",
+          "mentions": 542
+        },
+        {
           "slug": "nuscale",
-          "mentions": 524
+          "mentions": 523
         },
         {
           "slug": "centrus",
-          "mentions": 495
+          "mentions": 499
         },
         {
           "slug": "triso_x",
-          "mentions": 379
+          "mentions": 391
         },
         {
           "slug": "kairos_power",
@@ -175,73 +175,73 @@
         },
         {
           "slug": "ur_energy",
-          "mentions": 275
+          "mentions": 291
         },
         {
           "slug": "nano_nuclear",
-          "mentions": 268
+          "mentions": 279
         },
         {
           "slug": "radiant",
-          "mentions": 251
+          "mentions": 260
         },
         {
           "slug": "constellation",
-          "mentions": 236
+          "mentions": 237
         },
         {
           "slug": "blue_energy",
-          "mentions": 221
+          "mentions": 228
         },
         {
           "slug": "inl",
-          "mentions": 195
+          "mentions": 200
         }
       ]
     },
     "365d": {
-      "claims_total": 17636,
+      "claims_total": 17936,
       "claims_by_category": {
-        "corporate": 6082,
-        "supply": 1160,
-        "market": 2535,
-        "pricing": 156,
-        "regulatory": 4188,
-        "research": 1188,
-        "manufacturing": 2327
+        "corporate": 6181,
+        "research": 1221,
+        "regulatory": 4220,
+        "market": 2611,
+        "supply": 1166,
+        "pricing": 157,
+        "manufacturing": 2380
       },
       "top_entities": [
         {
           "slug": "doe",
-          "mentions": 2819
+          "mentions": 2835
         },
         {
           "slug": "nrc",
-          "mentions": 2654
+          "mentions": 2666
         },
         {
           "slug": "cameco",
-          "mentions": 2367
+          "mentions": 2375
         },
         {
           "slug": "bwxt",
-          "mentions": 1569
+          "mentions": 1593
         },
         {
           "slug": "westinghouse",
-          "mentions": 1010
+          "mentions": 1028
         },
         {
           "slug": "x_energy",
-          "mentions": 746
-        },
-        {
-          "slug": "ge_vernova",
-          "mentions": 672
+          "mentions": 773
         },
         {
           "slug": "terrapower",
-          "mentions": 669
+          "mentions": 693
+        },
+        {
+          "slug": "ge_vernova",
+          "mentions": 674
         },
         {
           "slug": "nuscale",
@@ -253,11 +253,11 @@
         },
         {
           "slug": "centrus",
-          "mentions": 495
+          "mentions": 499
         },
         {
           "slug": "triso_x",
-          "mentions": 379
+          "mentions": 391
         },
         {
           "slug": "kairos_power",
@@ -273,23 +273,23 @@
         },
         {
           "slug": "ur_energy",
-          "mentions": 275
+          "mentions": 291
         },
         {
           "slug": "nano_nuclear",
-          "mentions": 268
+          "mentions": 279
         },
         {
           "slug": "radiant",
-          "mentions": 267
+          "mentions": 276
         },
         {
           "slug": "constellation",
-          "mentions": 236
+          "mentions": 237
         },
         {
           "slug": "blue_energy",
-          "mentions": 221
+          "mentions": 228
         }
       ]
     }
@@ -297,19 +297,19 @@
   "source_freshness": [
     {
       "url": "https://apnews.com/article/200edd5fb98b6fe04d029a3c1dba1a4a",
-      "last_ingested_at": "2026-09-16 00:00:02"
+      "last_ingested_at": "2026-09-17 06:00:01"
     },
     {
       "url": "https://arxiv.org/abs/2608.10999",
-      "last_ingested_at": "2026-09-15 12:00:04"
+      "last_ingested_at": "2026-09-16 18:00:05"
     },
     {
       "url": "https://denisonmines.com/news/denison-reports-financial-and-operational-results-122850/",
-      "last_ingested_at": "2026-09-16 06:00:06"
+      "last_ingested_at": "2026-09-17 12:00:05"
     },
     {
       "url": "https://holtecinternational.com/hh-41-16/",
-      "last_ingested_at": "2026-09-16 00:00:05"
+      "last_ingested_at": "2026-09-17 06:00:06"
     },
     {
       "url": "https://holtecinternational.com/hh-41-19/",
@@ -324,36 +324,40 @@
       "last_ingested_at": "2026-09-16 12:00:12"
     },
     {
+      "url": "https://info.westinghousenuclear.com/news/westinghouse-evinci-microreactor-achieves-zero-power-criticality",
+      "last_ingested_at": "2026-09-17 06:00:13"
+    },
+    {
       "url": "https://inl.gov/news-release/nric-selects-new-nuclear-energy-launch-pad-participants-to-boost-nuclear-energy/",
       "last_ingested_at": "2026-09-16 12:00:10"
     },
     {
       "url": "https://investors.bwxt.com/news-events/news-releases",
-      "last_ingested_at": "2026-09-15 18:00:06"
+      "last_ingested_at": "2026-09-17 00:00:05"
     },
     {
       "url": "https://investors.bwxt.com/news-releases/news-release-details/bwx-technologies-reports-second-quarter-2026-results/",
-      "last_ingested_at": "2026-09-16 00:00:02"
+      "last_ingested_at": "2026-09-17 06:00:01"
     },
     {
       "url": "https://investors.bwxt.com/news-releases/news-release-details/us-army-chooses-bwxt-advanced-nuclear-reactor-banr-janus-program/",
-      "last_ingested_at": "2026-09-15 18:00:13"
+      "last_ingested_at": "2026-09-17 00:00:12"
     },
     {
       "url": "https://investors.centrusenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-09-16 06:00:04"
+      "last_ingested_at": "2026-09-17 12:00:04"
     },
     {
       "url": "https://investors.centrusenergy.com/news-releases/news-release-details/centrus-hosts-governor-dewine-and-jobsohio-piketon-uranium",
-      "last_ingested_at": "2026-09-16 06:00:04"
+      "last_ingested_at": "2026-09-17 12:00:03"
     },
     {
       "url": "https://investors.constellationenergy.com/financial-information/quarterly-results",
-      "last_ingested_at": "2026-09-16 06:00:05"
+      "last_ingested_at": "2026-09-17 12:00:04"
     },
     {
       "url": "https://investors.energyfuels.com/2026-08-05-Energy-Fuels-Announces-Q2-2026-Results",
-      "last_ingested_at": "2026-09-16 00:00:05"
+      "last_ingested_at": "2026-09-17 06:00:04"
     },
     {
       "url": "https://investors.x-energy.com/news-releases/news-release-details/triso-x-and-oak-ridge-national-laboratory-extend-advanced",
@@ -361,39 +365,39 @@
     },
     {
       "url": "https://investors.x-energy.com/node/7076/pdf",
-      "last_ingested_at": "2026-09-16 00:00:10"
+      "last_ingested_at": "2026-09-17 06:00:14"
     },
     {
       "url": "https://ir.aspisotopes.com/sec-filings/all-sec-filings/content/0001193125-26-354745/aspi-ex99_1.htm",
-      "last_ingested_at": "2026-09-15 18:00:02"
+      "last_ingested_at": "2026-09-16 18:00:02"
     },
     {
       "url": "https://nanonuclearenergy.com/nano-nuclear-and-tillman-digital-gateway-sign-strategic-commercial-framework-to-enable-advanced-nuclear-power-for-gigawatt-scale-u-s-ai-industrial-zones/",
-      "last_ingested_at": "2026-09-16 00:00:09"
+      "last_ingested_at": "2026-09-17 06:00:11"
     },
     {
       "url": "https://oklo.com/investors/financials/quarterly-results/default.aspx",
-      "last_ingested_at": "2026-09-15 12:00:03"
+      "last_ingested_at": "2026-09-16 18:00:03"
     },
     {
       "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Publishes-Second-Quarter-2026-Financial-Results-and-Business-Update/default.aspx",
-      "last_ingested_at": "2026-09-15 12:00:03"
+      "last_ingested_at": "2026-09-16 18:00:03"
     },
     {
       "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Receives-U-S--Department-of-Energy-Startup-Authorization-for-Groves-Reactor-Clearing-Way-for-Fuel-Loading-and-First-Criticality/default.aspx",
-      "last_ingested_at": "2026-09-15 12:00:03"
+      "last_ingested_at": "2026-09-16 18:00:04"
     },
     {
       "url": "https://oklo.com/newsroom/news-details/2026/Oklos-Groves-Reactor-Achieves-First-Criticality-in-Under-a-Year/default.aspx",
-      "last_ingested_at": "2026-09-15 12:00:03"
+      "last_ingested_at": "2026-09-16 18:00:04"
     },
     {
       "url": "https://power-eng.com/nuclear/bill-gates-terrapower-hopes-to-accelerate-natrium-reactor-deployment-with-two-new-collaborations",
-      "last_ingested_at": "2026-09-15 18:00:05"
+      "last_ingested_at": "2026-09-17 00:00:04"
     },
     {
       "url": "https://sec.gov/Archives/edgar/data/0001065059/000162828026053897/leu-20260806.htm",
-      "last_ingested_at": "2026-09-16 06:00:03"
+      "last_ingested_at": "2026-09-17 12:00:03"
     },
     {
       "url": "https://teknovation.biz/kairos-power-launches-nucamp",
@@ -401,47 +405,47 @@
     },
     {
       "url": "https://world-nuclear-news.org/articles/deep-fission-completes-borehole-demonstration",
-      "last_ingested_at": "2026-09-15 18:00:06"
+      "last_ingested_at": "2026-09-17 00:00:05"
     },
     {
       "url": "https://world-nuclear-news.org/articles/google-signs-up-for-electricity-from-finnish-nuclear-power-plant",
-      "last_ingested_at": "2026-09-15 18:00:07"
+      "last_ingested_at": "2026-09-17 00:00:06"
     },
     {
       "url": "https://world-nuclear-news.org/articles/iaeas-projections-suggest-there-could-be-1000-smrs-by-2060",
-      "last_ingested_at": "2026-09-16 06:00:10"
+      "last_ingested_at": "2026-09-17 12:00:38"
     },
     {
       "url": "https://world-nuclear-news.org/articles/india-and-uzbekistan-eye-uranium-deal-as-ties-grow",
-      "last_ingested_at": "2026-09-16 06:00:11"
+      "last_ingested_at": "2026-09-17 12:00:39"
     },
     {
       "url": "https://world-nuclear-news.org/articles/indiana-to-get-its-first-power-producing-nuclear-reactor",
-      "last_ingested_at": "2026-09-16 06:00:11"
+      "last_ingested_at": "2026-09-17 12:00:39"
     },
     {
       "url": "https://world-nuclear-news.org/articles/newcleo-led-consortium-to-develop-floating-nuclear-plant",
-      "last_ingested_at": "2026-09-15 18:00:09"
+      "last_ingested_at": "2026-09-17 00:00:08"
     },
     {
       "url": "https://world-nuclear-news.org/articles/proposal-for-canadian-marine-based-SMR-plant",
-      "last_ingested_at": "2026-09-15 12:00:04"
+      "last_ingested_at": "2026-09-16 18:00:05"
     },
     {
       "url": "https://world-nuclear-news.org/articles/red-book-confident-on-uranium-resources-to-meet-future-growth",
-      "last_ingested_at": "2026-09-16 06:00:12"
+      "last_ingested_at": "2026-09-17 12:00:40"
     },
     {
       "url": "https://world-nuclear-news.org/articles/second-us-port-to-explore-nuclear-maritime-technologies",
-      "last_ingested_at": "2026-09-15 18:00:11"
+      "last_ingested_at": "2026-09-17 00:00:10"
     },
     {
       "url": "https://world-nuclear-news.org/articles/siemens-energy-to-produce-rolls-royce-smr-turbines-in-the-uk",
-      "last_ingested_at": "2026-09-15 18:00:12"
+      "last_ingested_at": "2026-09-17 00:00:11"
     },
     {
       "url": "https://world-nuclear-news.org/articles/uranium-companies-see-new-chapter-for-the-market",
-      "last_ingested_at": "2026-09-15 18:00:14"
+      "last_ingested_at": "2026-09-17 00:00:13"
     },
     {
       "url": "https://www.ans.org/news/2026-07-14/article-8200/nrc-approves-westinghouse-exemption-request-for-ap1000-dc/",
@@ -453,7 +457,7 @@
     },
     {
       "url": "https://www.ans.org/news/2026-08-17/article-8301/agreement-advances-texas-gasplusnuclear-concept-to-next-phase/",
-      "last_ingested_at": "2026-09-16 06:00:02"
+      "last_ingested_at": "2026-09-17 12:00:02"
     },
     {
       "url": "https://www.ans.org/news/2026-08-19/article-8308/fanco-informs-nrc-of-its-intent-to-build-haleu-fuel-fabrication-facility/",
@@ -461,67 +465,67 @@
     },
     {
       "url": "https://www.ans.org/news/2026-08-21/article-8323/panelists-talk-domestic-enrichment-expansion-at-global-2026/",
-      "last_ingested_at": "2026-09-15 12:00:03"
+      "last_ingested_at": "2026-09-16 18:00:04"
     },
     {
       "url": "https://www.ans.org/news/2026-08-24/article-8333/global-2026-draws-attention-to-nuclear-fuel-developments/",
-      "last_ingested_at": "2026-09-16 06:00:09"
+      "last_ingested_at": "2026-09-17 12:00:37"
     },
     {
       "url": "https://www.ans.org/news/2026-09-03/article-8366/studsvik-announces-partnership-to-deploy-four-bwrx300s-in-sweden/",
-      "last_ingested_at": "2026-09-16 00:00:10"
+      "last_ingested_at": "2026-09-17 06:00:13"
     },
     {
       "url": "https://www.ans.org/news/article-8272/westinghouse-updates-ap1000-potential-ipo-amentum-partnership/",
-      "last_ingested_at": "2026-09-15 12:00:06"
+      "last_ingested_at": "2026-09-16 18:00:07"
     },
     {
       "url": "https://www.army.mil/article/294891/army_reaches_agreement_with_private_industry_for_nuclear_micro_reactors",
-      "last_ingested_at": "2026-09-16 00:00:02"
+      "last_ingested_at": "2026-09-17 06:00:01"
     },
     {
       "url": "https://www.axios.com/2026/09/08/bluecore-nuclear-barges",
-      "last_ingested_at": "2026-09-16 06:00:02"
+      "last_ingested_at": "2026-09-17 12:00:02"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260723497546/en/DOE-Selects-Radiant-for-Second-HALEU-Allocation-to-Support-First-Commercial-Microreactor-at-a-U.S.-Military-Installation",
-      "last_ingested_at": "2026-09-16 06:00:08"
+      "last_ingested_at": "2026-09-17 12:00:36"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260806973416/en/Department-of-Energy-Approves-Nuclear-Safety-Design-Agreement-for-Deep-Fissions-Gravity-Reactor-Designed-to-Convert-to-Commercial-Operation",
-      "last_ingested_at": "2026-09-15 18:00:06"
+      "last_ingested_at": "2026-09-17 00:00:05"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260825107021/en/Blykalla-Submits-Application-for-Second-Advanced-Nuclear-Reactor-Park-in-Sweden-with-up-to-440-MW-of-Capacity",
-      "last_ingested_at": "2026-09-15 18:00:05"
+      "last_ingested_at": "2026-09-17 00:00:04"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260910258011/en/Deep-Fission-Installs-and-Retrieves-Full-Scale-Reactor-Canister-Using-Off-the-Shelf-Drilling-Equipment",
-      "last_ingested_at": "2026-09-16 06:00:05"
+      "last_ingested_at": "2026-09-17 12:00:05"
     },
     {
       "url": "https://www.cameco.com/invest/financial-information/quarterly-reports",
-      "last_ingested_at": "2026-09-16 00:00:03"
+      "last_ingested_at": "2026-09-17 06:00:02"
     },
     {
       "url": "https://www.cameco.com/media/news/cameco-reports-2026-second-quarter-results",
-      "last_ingested_at": "2026-09-16 06:00:03"
+      "last_ingested_at": "2026-09-17 12:00:03"
     },
     {
       "url": "https://www.cnl.ca/canadian-nuclear-laboratories-transitions-clean-energy-program-to-support-growing-momentum-in-domestic-nuclear-power-industry/",
-      "last_ingested_at": "2026-09-16 06:00:03"
+      "last_ingested_at": "2026-09-17 12:00:03"
     },
     {
       "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
-      "last_ingested_at": "2026-09-16 06:00:05"
+      "last_ingested_at": "2026-09-17 12:00:04"
     },
     {
       "url": "https://www.constellationenergy.com/news/2026/08/constellation-reports-second-quarter-2026-results.html",
-      "last_ingested_at": "2026-09-16 06:00:05"
+      "last_ingested_at": "2026-09-17 12:00:05"
     },
     {
       "url": "https://www.datacenterdynamics.com/en/news/tva-signs-50mw-ppa-with-smr-developer-kairos-for-google-data-centers-in-tennessee-and-alabama/",
-      "last_ingested_at": "2026-09-16 06:00:14"
+      "last_ingested_at": "2026-09-17 12:00:41"
     },
     {
       "url": "https://www.energy.gov/articles/energy-department-closes-19-billion-loan-restart-duane-arnold-nuclear-plant",
@@ -533,11 +537,11 @@
     },
     {
       "url": "https://www.energy.gov/ne/articles/energy-department-distribute-third-round-haleu-nasa-and-radiant",
-      "last_ingested_at": "2026-09-16 00:00:05"
+      "last_ingested_at": "2026-09-17 06:00:03"
     },
     {
       "url": "https://www.energy.gov/ne/haleu-availability-program",
-      "last_ingested_at": "2026-09-16 06:00:07"
+      "last_ingested_at": "2026-09-17 12:00:36"
     },
     {
       "url": "https://www.energy.gov/ne/nuclear-reactor-technologies/small-modular-nuclear-reactors",
@@ -545,7 +549,7 @@
     },
     {
       "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16369/virginia-electric-and-power-company-doing-business-as-dominion-energy-virginia-north-anna-site-early",
-      "last_ingested_at": "2026-09-16 06:00:08"
+      "last_ingested_at": "2026-09-17 12:00:37"
     },
     {
       "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16372/orano-enrichment-usa-llc-project-ike-enrichment-facility-notice-of-receipt-of-application-for",
@@ -557,11 +561,11 @@
     },
     {
       "url": "https://www.fortum.com/media/2026/09/inside-information-fortum-and-google-partner-drive-sustainable-growth-finland-sign-nuclear-power-purchase-agreement",
-      "last_ingested_at": "2026-09-16 00:00:07"
+      "last_ingested_at": "2026-09-17 06:00:09"
     },
     {
       "url": "https://www.ft.com/content/a2f0e0f8-9350-4124-af77-62219e77e777",
-      "last_ingested_at": "2026-09-16 06:00:12"
+      "last_ingested_at": "2026-09-17 12:00:40"
     },
     {
       "url": "https://www.gevernova.com/investors",
@@ -569,11 +573,11 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/03/3337512/0/en/eagle-nuclear-energy-added-to-the-solactive-global-uranium-nuclear-components-total-return-index-qualifying-eagle-for-inclusion-in-the-global-x-uranium-etf.html",
-      "last_ingested_at": "2026-09-15 18:00:06"
+      "last_ingested_at": "2026-09-17 00:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/04/3338143/0/en/triso-x-announces-70-acre-expansion-of-oak-ridge-nuclear-fuel-campus.html",
-      "last_ingested_at": "2026-09-15 18:00:13"
+      "last_ingested_at": "2026-09-17 00:00:11"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/04/3338218/0/en/holtec-entergy-and-hyundai-e-c-sign-moa-to-evaluate-potential-smr-300-projects-in-gulf-south-region.html",
@@ -581,11 +585,11 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/13/3344306/0/en/x-energy-reports-second-quarter-2026-results.html",
-      "last_ingested_at": "2026-09-16 00:00:10"
+      "last_ingested_at": "2026-09-17 06:00:14"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/18/3346785/0/en/nano-nuclear-and-quadrant-nuclear-industries-sign-memorandum-of-understanding-to-advance-domestic-haleu-fuel-supply.html",
-      "last_ingested_at": "2026-09-16 00:00:07"
+      "last_ingested_at": "2026-09-17 06:00:09"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/19/3347566/0/en/nrc-commences-readiness-assessment-of-terra-innovatum-s-solo-construction-permit-application-cpa.html",
@@ -593,23 +597,23 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/24/3349609/0/en/triso-x-advances-to-next-phase-of-construction-for-tx-1-fuel-fabrication-facility.html",
-      "last_ingested_at": "2026-09-15 12:00:05"
+      "last_ingested_at": "2026-09-16 18:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/01/3353994/0/en/the-global-advanced-nuclear-market-2027-2047-report-now-available-reveals-how-the-binding-constraint-shifted-from-licensing-to-supply-chain.html",
-      "last_ingested_at": "2026-09-15 18:00:12"
+      "last_ingested_at": "2026-09-17 00:00:11"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/03/3355828/0/en/nano-nuclear-and-howden-a-baker-hughes-business-advance-engineering-collaboration-for-the-kronos-mmr-primary-helium-circulator-to-detailed-design-phase.html",
-      "last_ingested_at": "2026-09-15 12:00:02"
+      "last_ingested_at": "2026-09-16 18:00:03"
     },
     {
       "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/html/2026-17253.htm",
-      "last_ingested_at": "2026-09-16 06:00:12"
+      "last_ingested_at": "2026-09-17 12:00:40"
     },
     {
       "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-28/html/2026-17590.htm",
-      "last_ingested_at": "2026-09-16 06:00:09"
+      "last_ingested_at": "2026-09-17 12:00:37"
     },
     {
       "url": "https://www.iaea.org/publications/16072/evaluation-of-the-status-of-national-infrastructure-for-a-uranium-production-cycle-programme",
@@ -633,11 +637,11 @@
     },
     {
       "url": "https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-027-a.pdf",
-      "last_ingested_at": "2026-09-16 00:00:09"
+      "last_ingested_at": "2026-09-17 06:00:12"
     },
     {
       "url": "https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028-a.pdf",
-      "last_ingested_at": "2026-09-16 00:00:09"
+      "last_ingested_at": "2026-09-17 06:00:11"
     },
     {
       "url": "https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-075.pdf",
@@ -645,15 +649,15 @@
     },
     {
       "url": "https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-076.pdf",
-      "last_ingested_at": "2026-09-16 00:00:09"
+      "last_ingested_at": "2026-09-17 06:00:11"
     },
     {
       "url": "https://www.nucnet.org/news/urenco-usa-holds-groundbreaking-for-new-mexico-uranium-enrichment-facility-expansion-8-5-2026",
-      "last_ingested_at": "2026-09-16 06:00:15"
+      "last_ingested_at": "2026-09-17 12:00:42"
     },
     {
       "url": "https://www.nuscalepower.com/en/investors/financials/quarterly-results",
-      "last_ingested_at": "2026-09-15 12:00:03"
+      "last_ingested_at": "2026-09-16 18:00:03"
     },
     {
       "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-and-millennitek-advance-manufacturing-technology-for-first-of-a-kind-reactor-safety-component",
@@ -668,16 +672,20 @@
       "last_ingested_at": "2026-09-16 12:00:10"
     },
     {
+      "url": "https://www.onr.org.uk/news/all-news/2026/09/regulators-asked-to-commence-gda-on-x-energy-reactor-design",
+      "last_ingested_at": "2026-09-17 06:00:12"
+    },
+    {
       "url": "https://www.prnewswire.com/news-releases/blue-energy-ge-vernova-hitachi-sign-agreement-to-launch-next-phase-of-texas-gas-plus-nuclear-project-302850317.html",
-      "last_ingested_at": "2026-09-15 18:00:05"
+      "last_ingested_at": "2026-09-17 00:00:04"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/deployable-energy-welcomes-strategic-investment-and-commercialization-collaboration-with-solaris-energy-infrastructure-302847122.html",
-      "last_ingested_at": "2026-09-16 06:00:06"
+      "last_ingested_at": "2026-09-17 12:00:05"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/hd-hyundai-terrapower-and-hyundai-ec-set-out-to-transform-the-next-generation-nuclear-market-302851746.html",
-      "last_ingested_at": "2026-09-15 18:00:07"
+      "last_ingested_at": "2026-09-17 00:00:06"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/natura-resources-receives-us-doe-approval-of-its-nuclear-safety-design-agreement-for-its-molten-salt-nuclear-reactor-deployment-302830977.html",
@@ -685,11 +693,11 @@
     },
     {
       "url": "https://www.prnewswire.com/news-releases/terrapower-accelerates-natrium-reactor-deployment-following-landmark-meetings-with-korean-leaders-302851765.html",
-      "last_ingested_at": "2026-09-15 12:00:04"
+      "last_ingested_at": "2026-09-16 18:00:05"
     },
     {
       "url": "https://www.rolls-royce-smr.com/press/rolls-royce-smr-partnership-expands-to-additional-sites-in-the-czech-republic",
-      "last_ingested_at": "2026-09-16 00:00:09"
+      "last_ingested_at": "2026-09-17 06:00:12"
     },
     {
       "url": "https://www.rolls-royce-smr.com/press/steam-turbine-components-for-rolls-royce-smr-to-be-manufactured-in-the-uk",
@@ -697,19 +705,19 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001065059/000162828026053897/ex991_080626x-energypr.htm",
-      "last_ingested_at": "2026-09-16 06:00:03"
+      "last_ingested_at": "2026-09-17 12:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1938046/000149315226037797/form425.htm",
-      "last_ingested_at": "2026-09-16 00:00:09"
+      "last_ingested_at": "2026-09-17 06:00:12"
     },
     {
       "url": "https://www.terrapower.com/TerraPower-Awards-Next-Round-of-Vendor-Contracts-for-Natrium-Reactor-Advances-Supply-Chain-for-Kemmerer-Unit-1",
-      "last_ingested_at": "2026-09-16 00:00:10"
+      "last_ingested_at": "2026-09-17 06:00:13"
     },
     {
       "url": "https://www.ur-energy.com/news-media/press-releases/detail/409/ur-energy-reports-second-quarter-2026-results",
-      "last_ingested_at": "2026-09-15 12:00:06"
+      "last_ingested_at": "2026-09-16 18:00:06"
     },
     {
       "url": "https://www.world-nuclear-news.org/",
@@ -717,15 +725,19 @@
     },
     {
       "url": "https://www.world-nuclear-news.org/articles/ampera-llnl-team-up-for-triso-fuel-development",
-      "last_ingested_at": "2026-09-16 00:00:01"
+      "last_ingested_at": "2026-09-17 00:00:02"
     },
     {
       "url": "https://www.world-nuclear-news.org/articles/blykalla-seeks-state-aid-for-second-smr-plant",
-      "last_ingested_at": "2026-09-16 06:00:03"
+      "last_ingested_at": "2026-09-17 12:00:03"
     },
     {
       "url": "https://www.world-nuclear-news.org/articles/consortium-formed-for-swedish-smr-project",
       "last_ingested_at": "2026-09-16 12:00:02"
+    },
+    {
+      "url": "https://www.world-nuclear-news.org/articles/first-smr-investment-by-european-investment-bank",
+      "last_ingested_at": "2026-09-17 06:00:07"
     },
     {
       "url": "https://www.world-nuclear-news.org/articles/holtecs-smr-300-test-facility-taking-shape-at-inl",
@@ -733,23 +745,27 @@
     },
     {
       "url": "https://www.world-nuclear-news.org/articles/kaleidos-microreactor-begins-journey-to-idaho",
-      "last_ingested_at": "2026-09-15 18:00:08"
+      "last_ingested_at": "2026-09-17 00:00:07"
     },
     {
       "url": "https://www.world-nuclear-news.org/articles/reactor-technology-selection-process-progresses-in-netherlands",
-      "last_ingested_at": "2026-09-15 18:00:10"
+      "last_ingested_at": "2026-09-17 00:00:08"
     },
     {
       "url": "https://www.world-nuclear-news.org/articles/russia-plans-to-add-30-gw-nuclear-capacity-expand-exports",
-      "last_ingested_at": "2026-09-15 18:00:10"
+      "last_ingested_at": "2026-09-17 00:00:09"
     },
     {
       "url": "https://www.wsj.com/finance/commodities-futures/data-centers-light-fire-under-uranium-prices-9220990e",
-      "last_ingested_at": "2026-09-15 12:00:02"
+      "last_ingested_at": "2026-09-16 18:00:02"
     },
     {
       "url": "https://x-energy.com/amazon-expanding-zero-carbon-power",
       "last_ingested_at": "2026-09-16 12:00:13"
+    },
+    {
+      "url": "https://x-energy.com/news/centrica-x-energy-advance-nuclear-plans-as-uk-regulators-to-begin-design-review-for-xe-100/",
+      "last_ingested_at": "2026-09-17 06:00:02"
     }
   ]
 }
