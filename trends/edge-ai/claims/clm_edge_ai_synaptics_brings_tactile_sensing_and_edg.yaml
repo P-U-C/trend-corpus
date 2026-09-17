@@ -1,0 +1,18 @@
+id: clm_edge_ai_synaptics_brings_tactile_sensing_and_edg
+type: claim
+theme_id: edge-ai
+claim: "On September 15, 2026, Synaptics Incorporated announced that its CTS module powered by the SN6012T touch controller is supported by NVIDIA Isaac Sim and works with Synaptics Astra Edge AI processors with NVIDIA Holoscan support. The source states that the CTS module targets dexterous robotic hands, grippers, and Physical AI systems, with a 5x12 taxel array, 2.5mm pitch taxel density, force ranges up to 100N, 0.1N resolution, and native support for NVIDIA\u2019s Newton physics simulation engine."
+category: technical
+source_ids:
+  - src_edge_ai_synaptics_brings_tactile_sensing_and_edg
+date_of_evidence: "2026-09-15"
+evidence_at: "2026-09-15"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

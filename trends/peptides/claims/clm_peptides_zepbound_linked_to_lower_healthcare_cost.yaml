@@ -1,0 +1,18 @@
+id: clm_peptides_zepbound_linked_to_lower_healthcare_cost
+type: claim
+theme_id: peptides
+claim: "Eli Lilly and Company announced on August 26, 2026 that a retrospective observational cohort study using Komodo's Healthcare Map found adults over age 55 with overweight or obesity who sustained Zepbound (tirzepatide) use had lower monthly healthcare costs excluding Zepbound costs than matched untreated adults. The study included 15,843 Zepbound initiators from November 2023 to September 2025 and reported six-month cost differences of $145 to $181 per patient per month and 12-month differences of $319 to $607 per patient per month, depending on analytic method."
+category: market
+source_ids:
+  - src_peptides_zepbound_linked_to_lower_healthcare_cost
+date_of_evidence: "2026-08-26"
+evidence_at: "2026-08-26"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
