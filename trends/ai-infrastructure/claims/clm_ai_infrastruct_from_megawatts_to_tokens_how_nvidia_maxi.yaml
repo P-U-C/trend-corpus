@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_from_megawatts_to_tokens_how_nvidia_maxi
+type: claim
+theme_id: ai-infrastructure
+claim: "On September 15, 2026, NVIDIA said Lambda validated NVIDIA DSX MaxLPS on a five-rack, 19-node NVIDIA HGX B200 cluster, running 19 nodes within the same power budget as 16 full-power nodes and increasing cluster-wide token throughput from roughly 4 million tokens per second to 5 million. NVIDIA also said Emerald AI Conductor responded to more than 200 Silicon Valley Power demand signals at NVIDIA\u2019s Eos AI factory, including reducing power from four megawatts to three while keeping high-priority workloads running."
+category: technical
+source_ids:
+  - src_ai_infrastructur_from_megawatts_to_tokens_how_nvidia_maxi
+date_of_evidence: "2026-09-15"
+evidence_at: "2026-09-15"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

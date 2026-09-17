@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_sub_200ms_llm_routing_without_a_judge_mo
+type: claim
+theme_id: llm-convergence
+claim: "On September 04, 2026, GMI Cloud published that GMI Router uses a routing-specific model instead of a judge LLM, passes prompts verbatim to the selected model, and completes routing in under 200 milliseconds. GMI Cloud reported an internal evaluation across 12 benchmarks and 21 models where GMI Router Quality mode scored 84.9% quality at 0.72x the cost of always using GPT-5.5, while Balanced mode matched Claude Opus 4.8 quality at 0.22x the cost."
+category: technical
+source_ids:
+  - src_llm_convergence_routing_without_a_judge_model_why_sub_20
+date_of_evidence: "2026-09-04"
+evidence_at: "2026-09-04"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
