@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_model_strategy_gateways_routing_and_fall
+type: claim
+theme_id: llm-convergence
+claim: "On September 16, 2026, Aakash Ahuja published \u201cModel Strategy: Gateways, Routing and Fallbacks,\u201d describing enterprise LLM architecture around an AI gateway, model registry, provider abstraction, routing, fallbacks, cascades, ensembles, and capacity planning. The article names Amazon Bedrock, Azure OpenAI/Microsoft Foundry, Microsoft Foundry Model Router, Azure API Management, Vertex AI/Google AI Platform, Google Model Garden, Google Provisioned Throughput, and vLLM as instruments in this model-execution layer."
+category: technical
+source_ids:
+  - src_llm_convergence_model_strategy_selection_gateways_routin
+date_of_evidence: "2026-09-16"
+evidence_at: "2026-09-16"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

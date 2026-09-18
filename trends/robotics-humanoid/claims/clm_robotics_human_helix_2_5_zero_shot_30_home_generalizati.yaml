@@ -1,0 +1,18 @@
+id: clm_robotics_human_helix_2_5_zero_shot_30_home_generalizati
+type: claim
+theme_id: robotics-humanoid
+claim: "On September 17, 2026, Figure introduced Helix 2.5, a humanoid robotics foundation model pretrained on Figure\u2019s Index dataset and evaluated zero-shot across 30 unseen Bay Area homes. Figure reported that Index pretraining increased blind zero-shot task success from 9% to 56% for living-room tidying, towel folding, and bed making, with no evaluation-home data collection, fine-tuning, adaptation, or checkpoint selection from evaluation rollouts."
+category: technical
+source_ids:
+  - src_robotics_humanoi_helix_2_5_zero_shot_30_home_generalizati
+date_of_evidence: "2026-09-17"
+evidence_at: "2026-09-17"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_what_is_an_llm_gateway_and_how_does_it_w
+type: claim
+theme_id: llm-convergence
+claim: "On August 12, 2026, TrueFoundry defined an LLM Gateway as middleware between an application and multiple LLM providers, naming OpenAI, Anthropic, Cohere, Mistral, and self-hosted models. TrueFoundry said the gateway provides a single API for routing requests, enforcing authentication and rate limits, standardizing provider responses, logging token usage and cost, and handling failover."
+category: technical
+source_ids:
+  - src_llm_convergence_what_is_an_llm_gateway_a_complete_guide
+date_of_evidence: "2026-08-12"
+evidence_at: "2026-08-12"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
