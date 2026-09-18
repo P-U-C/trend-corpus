@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-09-17T13:33:01Z",
+  "generated_at": "2026-09-18T13:33:01Z",
   "theme_id": "robotics-humanoid",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
@@ -8,35 +8,23 @@
     "host_alias": "worker-1"
   },
   "underlying_claim_count": 16357,
-  "underlying_source_count": 123,
+  "underlying_source_count": 125,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 5411,
+      "claims_total": 4567,
       "claims_by_category": {
-        "corporate": 1728,
-        "manufacturing": 684,
-        "research": 956,
-        "market": 1682,
-        "regulatory": 352,
+        "corporate": 1360,
+        "manufacturing": 580,
+        "research": 874,
+        "market": 1416,
+        "regulatory": 328,
         "supply": 9
       },
       "top_entities": [
         {
-          "slug": "hesai",
-          "mentions": 327
-        },
-        {
-          "slug": "nvidia",
-          "mentions": 303
-        },
-        {
           "slug": "intel",
           "mentions": 279
-        },
-        {
-          "slug": "fort_robotics",
-          "mentions": 274
         },
         {
           "slug": "xpeng",
@@ -47,16 +35,16 @@
           "mentions": 244
         },
         {
+          "slug": "nvidia",
+          "mentions": 239
+        },
+        {
           "slug": "harmonic_drive",
           "mentions": 236
         },
         {
           "slug": "amd",
           "mentions": 224
-        },
-        {
-          "slug": "lg_electronics",
-          "mentions": 217
         },
         {
           "slug": "zoomlion",
@@ -75,16 +63,16 @@
           "mentions": 131
         },
         {
-          "slug": "iso",
-          "mentions": 130
-        },
-        {
           "slug": "cyngn",
           "mentions": 126
         },
         {
           "slug": "medtronic",
           "mentions": 126
+        },
+        {
+          "slug": "iso",
+          "mentions": 122
         },
         {
           "slug": "robot_com",
@@ -101,23 +89,35 @@
         {
           "slug": "aimoga",
           "mentions": 108
+        },
+        {
+          "slug": "agility",
+          "mentions": 87
+        },
+        {
+          "slug": "richtech_robotics",
+          "mentions": 86
+        },
+        {
+          "slug": "figure",
+          "mentions": 84
         }
       ]
     },
     "90d": {
-      "claims_total": 11567,
+      "claims_total": 11549,
       "claims_by_category": {
-        "corporate": 4175,
-        "manufacturing": 1167,
-        "research": 1549,
-        "market": 3587,
-        "regulatory": 1037,
+        "corporate": 4172,
+        "manufacturing": 1164,
+        "research": 1548,
+        "market": 3586,
+        "regulatory": 1027,
         "supply": 52
       },
       "top_entities": [
         {
           "slug": "harmonic_drive",
-          "mentions": 594
+          "mentions": 586
         },
         {
           "slug": "agility",
@@ -132,12 +132,12 @@
           "mentions": 479
         },
         {
-          "slug": "iso",
+          "slug": "unitree",
           "mentions": 432
         },
         {
-          "slug": "unitree",
-          "mentions": 432
+          "slug": "iso",
+          "mentions": 425
         },
         {
           "slug": "hesai",
@@ -188,12 +188,12 @@
           "mentions": 238
         },
         {
-          "slug": "osha",
+          "slug": "lg_electronics",
           "mentions": 228
         },
         {
-          "slug": "lg_electronics",
-          "mentions": 228
+          "slug": "amd",
+          "mentions": 227
         }
       ]
     },
@@ -298,11 +298,11 @@
     },
     {
       "url": "https://bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo",
-      "last_ingested_at": "2026-09-16 12:00:40"
+      "last_ingested_at": "2026-09-17 18:00:42"
     },
     {
       "url": "https://bloomberg.com/news/articles/2026-08-21/top-chinese-magnet-maker-says-evs-robots-fuel-record-revenue",
-      "last_ingested_at": "2026-09-16 12:00:40"
+      "last_ingested_at": "2026-09-17 18:00:41"
     },
     {
       "url": "https://cnbc.com/2026/08/06/chinese-humanoid-robot-maker-unitree-prices-ipo-at-9-billion-valuation.html",
@@ -310,15 +310,15 @@
     },
     {
       "url": "https://cnevpost.com/2026/07/28/byd-confirms-plan-humanoid-robot-aug/",
-      "last_ingested_at": "2026-09-17 00:00:02"
+      "last_ingested_at": "2026-09-18 06:00:08"
     },
     {
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "last_ingested_at": "2026-09-16 18:00:32"
+      "last_ingested_at": "2026-09-18 00:00:32"
     },
     {
       "url": "https://en.prnasia.com/story/544220-0.shtml",
-      "last_ingested_at": "2026-09-16 12:00:37"
+      "last_ingested_at": "2026-09-17 18:00:37"
     },
     {
       "url": "https://global.abb/group/en/investors/quarterly-results",
@@ -334,7 +334,7 @@
     },
     {
       "url": "https://gxo.com/news_article/gxo-reports-second-quarter-2026-results/",
-      "last_ingested_at": "2026-09-16 12:00:05"
+      "last_ingested_at": "2026-09-17 18:00:06"
     },
     {
       "url": "https://humanoidroboticstechnology.com/industry-news/beep-closes-funding-round-led-by-mobileye/",
@@ -346,11 +346,11 @@
     },
     {
       "url": "https://humanoidroboticstechnology.com/industry-news/neura-robotics-and-seco-announce-partnership/",
-      "last_ingested_at": "2026-09-16 18:00:33"
+      "last_ingested_at": "2026-09-18 00:00:32"
     },
     {
       "url": "https://humanoidroboticstechnology.com/industry-news/xpeng-announces-humanoid-robot-manufacturing-facility-in-operation/",
-      "last_ingested_at": "2026-09-16 18:00:34"
+      "last_ingested_at": "2026-09-18 00:00:35"
     },
     {
       "url": "https://humanoidroboticstechnology.com/industry-news/zeroth-launches-humanoid-robot-bridge/",
@@ -358,11 +358,11 @@
     },
     {
       "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-preliminary-fourth-quarter-and-full-year-5",
-      "last_ingested_at": "2026-09-16 12:01:11"
+      "last_ingested_at": "2026-09-17 18:01:13"
     },
     {
       "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6/",
-      "last_ingested_at": "2026-09-16 12:00:36"
+      "last_ingested_at": "2026-09-17 18:00:36"
     },
     {
       "url": "https://investors.cyngn.com/2026-09-04-Cyngn-Highlights-24-Patent-Portfolio-Anchoring-Its-Physical-AI-Platform",
@@ -374,43 +374,43 @@
     },
     {
       "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-launches-robot-delivery-wonder-adding-grubhub-its-growing",
-      "last_ingested_at": "2026-09-17 06:01:03"
+      "last_ingested_at": "2026-09-18 12:01:05"
     },
     {
       "url": "https://investors.teradyne.com/financial-results",
-      "last_ingested_at": "2026-09-16 12:02:11"
+      "last_ingested_at": "2026-09-17 18:02:13"
     },
     {
       "url": "https://ir.nauticusrobotics.com/news-events/press-releases/detail/122/nauticus-robotics-inc-reports-second-quarter-2026-results",
-      "last_ingested_at": "2026-09-17 00:00:34"
+      "last_ingested_at": "2026-09-18 06:00:40"
     },
     {
       "url": "https://ir.procept-biorobotics.com/news-releases/news-release-details/procept-biorobotics-reports-second-quarter-2026-financial/",
-      "last_ingested_at": "2026-09-17 00:01:04"
+      "last_ingested_at": "2026-09-18 06:01:10"
     },
     {
       "url": "https://ir.richtechrobotics.com/news-releases/news-release-details/richtech-robotics-showcase-integrated-industrial-robotics",
-      "last_ingested_at": "2026-09-17 06:00:33"
+      "last_ingested_at": "2026-09-18 12:00:34"
     },
     {
       "url": "https://ir.symbotic.com/investor-relations",
-      "last_ingested_at": "2026-09-16 12:02:11"
+      "last_ingested_at": "2026-09-17 18:02:13"
     },
     {
       "url": "https://ir.tesla.com/#quarterly-disclosure",
-      "last_ingested_at": "2026-09-16 12:02:11"
+      "last_ingested_at": "2026-09-17 18:02:13"
     },
     {
       "url": "https://ir.xiaopeng.com/news-releases/news-release-details/xpeng-reports-second-quarter-2026-unaudited-financial-results/",
-      "last_ingested_at": "2026-09-16 18:01:04"
+      "last_ingested_at": "2026-09-18 00:01:05"
     },
     {
       "url": "https://ir.xiaopeng.com/static-files/1d5a8981-d81f-475b-a13c-3ecdb466f999",
-      "last_ingested_at": "2026-09-17 00:00:33"
+      "last_ingested_at": "2026-09-18 06:00:38"
     },
     {
       "url": "https://news.cgtn.com/news/2026-08-22/What-to-expect-as-second-World-Humanoid-Robot-Games-set-to-open-1POkO95wrWo/p.html",
-      "last_ingested_at": "2026-09-16 12:00:41"
+      "last_ingested_at": "2026-09-17 18:00:43"
     },
     {
       "url": "https://news.cgtn.com/news/2026-08-22/World-Robot-Conference-What-can-humanoid-robots-actually-do--1POVSXuLR8Q/p.html",
@@ -418,31 +418,31 @@
     },
     {
       "url": "https://news.medtronic.com/2026-07-21-A-new-era-for-surgery-with-real-time-AI-Medtronic-to-unveil-Touch-Surgery-TM-Aide,-the-next-generation-compute-platform-for-the-operating-room-at-Society-of-Robotic-Surgery-2026",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:38"
     },
     {
       "url": "https://news.medtronic.com/2026-09-01-Medtronic-Announces-Strategic-Partnership-with-Cornerstone-Robotics-to-Further-Expand-Global-Access-to-Robotic-Assisted-Surgery",
-      "last_ingested_at": "2026-09-17 06:00:03"
+      "last_ingested_at": "2026-09-18 12:00:04"
     },
     {
       "url": "https://news.medtronic.com/2026-09-01-Medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance",
-      "last_ingested_at": "2026-09-16 12:00:37"
+      "last_ingested_at": "2026-09-17 18:00:38"
     },
     {
       "url": "https://newsroom.amd.com/news/aai-2026-ryzen-ai-embedded-x100/",
-      "last_ingested_at": "2026-09-17 12:00:01"
+      "last_ingested_at": "2026-09-18 12:00:02"
     },
     {
       "url": "https://newsroom.intel.com/artificial-intelligence/6-in-10-leaders-bet-big-on-robots-only-4-in-10-are-ready",
-      "last_ingested_at": "2026-09-16 12:00:39"
+      "last_ingested_at": "2026-09-17 18:00:40"
     },
     {
       "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
-      "last_ingested_at": "2026-09-16 18:00:33"
+      "last_ingested_at": "2026-09-18 00:00:33"
     },
     {
       "url": "https://robostrategy.co/news/our-investment-in-maven-robotics",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:39"
     },
     {
       "url": "https://roboticstomorrow.com/news/2026/08/14/lg-to-unveil-its-next-gen-humanoid-robot-built-on-nvidia-isaac-gr00t/26953/",
@@ -454,51 +454,51 @@
     },
     {
       "url": "https://serverobotics.gcs-web.com/",
-      "last_ingested_at": "2026-09-16 12:01:41"
+      "last_ingested_at": "2026-09-17 18:01:43"
     },
     {
       "url": "https://smartanalyticsglobal.com/global-humanoid-robot-shipments-2026-agibot-unitree/",
-      "last_ingested_at": "2026-09-16 12:00:39"
+      "last_ingested_at": "2026-09-17 18:00:39"
     },
     {
       "url": "https://spectrum.ieee.org/topic/robotics/",
-      "last_ingested_at": "2026-09-16 18:01:06"
+      "last_ingested_at": "2026-09-18 00:01:07"
     },
     {
       "url": "https://techtimes.com/articles/322086/20260729/agility-robotics-opens-fremont-hub-train-digit-ai-ahead-nasdaq-listing.htm",
-      "last_ingested_at": "2026-09-17 06:00:01"
+      "last_ingested_at": "2026-09-18 06:00:01"
     },
     {
       "url": "https://www.agilityrobotics.com/content/agility-robotics-to-attend-upcoming-investor-conferences",
-      "last_ingested_at": "2026-09-17 06:00:01"
+      "last_ingested_at": "2026-09-18 06:00:02"
     },
     {
       "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
-      "last_ingested_at": "2026-09-17 06:00:01"
+      "last_ingested_at": "2026-09-18 06:00:02"
     },
     {
       "url": "https://www.bloomberg.com/news/articles/2026-08-17/serve-robotics-expands-doordash-deal-in-two-cities-adds-grubhub-post-uber-riff",
-      "last_ingested_at": "2026-09-16 12:00:39"
+      "last_ingested_at": "2026-09-17 18:00:40"
     },
     {
       "url": "https://www.businessinsider.com/ai-robotics-stocks-where-to-invest-humanoid-robots-actuators-sensors-2026-9",
-      "last_ingested_at": "2026-09-16 12:00:40"
+      "last_ingested_at": "2026-09-17 18:00:42"
     },
     {
       "url": "https://www.businessinsider.com/cost-of-humanoid-robot-factory-worker-agility-robotics-digit-v5-2026-9",
-      "last_ingested_at": "2026-09-17 06:01:03"
+      "last_ingested_at": "2026-09-18 12:01:06"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260805812152/en/Novanta-Announces-Financial-Results-for-the-Second-Quarter-2026",
-      "last_ingested_at": "2026-09-17 00:00:34"
+      "last_ingested_at": "2026-09-18 06:00:40"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260806343526/en/Ouster-Announces-Results-for-Second-Quarter-2026",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:39"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260811859922/en/Robot-Orders-Increase-in-Q2-as-Automation-Demand-Broadens-Across-Industries",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:39"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260812055445/en/Knightscope-Reports-Record-Second-Quarter-2026-Financial-Results",
@@ -506,27 +506,31 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260812607590/en/Realbotix-Reports-Financial-Results-for-Q3-2026",
-      "last_ingested_at": "2026-09-17 00:01:04"
+      "last_ingested_at": "2026-09-18 06:01:10"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260813743465/en/Faraday-Future-Announces-Q2-Results-Record-$1.35-Million-Revenue-in-H1-2026-Robotics-Enters-New-Phase-of-Revenue-Acceleration-with-Positive-Contribution-Margin-Liability-Down-$100-Million-YoY-Upgrades-to-Four-Core-Full-Stack-AI-Strategy",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260826975448/en/Formic-Opens-Oakland-Facility-Anchoring-Humanoid-and-Physical-AI-Expansion-in-the-Bay-Area-Alongside-Tesla-and-Amazon",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:03"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260914974443/en/",
+      "last_ingested_at": "2026-09-18 06:01:11"
     },
     {
       "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-and-fieldai-advance-ai-powered-industrial-innovation.html",
-      "last_ingested_at": "2026-09-16 18:00:32"
+      "last_ingested_at": "2026-09-18 00:00:32"
     },
     {
       "url": "https://www.cnbc.com/2026/08/21/chinese-humanoid-robots-face-challenge-of-their-own-capabilities.html",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:02"
     },
     {
       "url": "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf",
-      "last_ingested_at": "2026-09-16 18:01:05"
+      "last_ingested_at": "2026-09-18 00:01:06"
     },
     {
       "url": "https://www.fcc.gov/document/fcc-adds-foreign-produced-power-inverters-and-robots",
@@ -534,19 +538,19 @@
     },
     {
       "url": "https://www.figure.ai/news/figure-and-nscale-sign-strategic-partnership",
-      "last_ingested_at": "2026-09-17 06:00:02"
+      "last_ingested_at": "2026-09-18 12:00:03"
     },
     {
       "url": "https://www.ft.com/content/fc8f86f2-96ad-4bfb-bba4-75326115aa24",
-      "last_ingested_at": "2026-09-17 00:01:05"
+      "last_ingested_at": "2026-09-18 06:01:11"
     },
     {
       "url": "https://www.globenewswire.com/de/news-release/2026/09/03/3355916/0/en/xtend-confirms-60-million-in-cash-received-as-merger-with-jfb-construction-holdings-advances-towards-closing.html",
-      "last_ingested_at": "2026-09-17 00:01:05"
+      "last_ingested_at": "2026-09-18 06:01:12"
     },
     {
       "url": "https://www.globenewswire.com/de/news-release/2026/09/04/3356410/0/en/axis-robotics-open-sources-one-of-the-largest-franka-arm-simulation-datasets-for-physical-ai.html",
-      "last_ingested_at": "2026-09-17 00:00:02"
+      "last_ingested_at": "2026-09-18 06:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/07/23/3332059/0/en/serve-robotics-to-report-second-quarter-2026-financial-results-host-conference-call-and-webcast-on-august-6.html",
@@ -554,7 +558,7 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/05/3339646/0/en/Symbotic-Reports-Third-Quarter-Fiscal-Year-2026-Results.html",
-      "last_ingested_at": "2026-09-16 12:00:39"
+      "last_ingested_at": "2026-09-17 18:00:40"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/06/3340828/0/en/serve-robotics-announces-second-quarter-2026-results.html",
@@ -562,11 +566,15 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/11/3343137/21634/en/stereotaxis-reports-2026-second-quarter-financial-results-business-updates.html",
-      "last_ingested_at": "2026-09-16 12:00:39"
+      "last_ingested_at": "2026-09-17 18:00:40"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/08/13/3344448/0/en/duke-robotics-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
+      "last_ingested_at": "2026-09-18 06:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/13/3344494/0/en/ss-innovations-reports-second-quarter-2026-financial-results.html",
-      "last_ingested_at": "2026-09-17 06:01:03"
+      "last_ingested_at": "2026-09-18 12:01:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/14/3345615/0/en/foresight-reports-second-quarter-2026-and-first-half-2026-financial-results.html",
@@ -574,11 +582,11 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/17/3346087/0/en/amc-robotics-reports-second-quarter-2026-financial-results.html",
-      "last_ingested_at": "2026-09-17 12:00:01"
+      "last_ingested_at": "2026-09-18 12:00:02"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/18/3346621/0/en/hesai-group-reports-second-quarter-2026-unaudited-financial-results.html",
-      "last_ingested_at": "2026-09-17 00:00:33"
+      "last_ingested_at": "2026-09-18 06:00:40"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/24/3350099/0/en/wearable-devices-announces-first-half-2026-financial-results-and-provides-corporate-update.html",
@@ -586,39 +594,39 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/01/3353906/0/en/enovis-invests-in-innovation-with-binding-offer-to-acquire-ecential-robotics-a-leading-developer-of-enabling-technologies-and-surgical-robotics.html",
-      "last_ingested_at": "2026-09-17 06:00:02"
+      "last_ingested_at": "2026-09-18 12:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/01/3354055/0/en/wetour-robotics-demonstrates-semg-vision-system-targeting-force-and-occlusion-blind-spots-in-physical-ai-training.html",
-      "last_ingested_at": "2026-09-16 18:00:34"
+      "last_ingested_at": "2026-09-18 00:00:35"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/01/3354551/0/en/tuurny-and-sluicebox-ai-pioneer-traceable-ai-driven-recovery-of-rare-earths-and-copper-from-electronic-waste.html",
-      "last_ingested_at": "2026-09-16 12:00:40"
+      "last_ingested_at": "2026-09-17 18:00:41"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/04/3356576/0/en/wandercraft-secures-12-calvin-40-customers-as-it-accelerates-commercial-dominance-in-industrial-humanoids.html",
-      "last_ingested_at": "2026-09-16 18:00:33"
+      "last_ingested_at": "2026-09-18 00:00:34"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/15/3362087/0/en/gix-makes-strategic-investment-in-ottonomy-a-physical-ai-l4-autonomy-and-robotics-technology-company.html",
-      "last_ingested_at": "2026-09-17 06:00:03"
+      "last_ingested_at": "2026-09-18 12:00:04"
     },
     {
       "url": "https://www.harmonicdrive.net/about-us",
-      "last_ingested_at": "2026-09-16 18:01:05"
+      "last_ingested_at": "2026-09-18 00:01:07"
     },
     {
       "url": "https://www.hitachicm.com/global/en/news/press-releases/2026/26-09-09/",
-      "last_ingested_at": "2026-09-16 12:00:05"
+      "last_ingested_at": "2026-09-17 18:00:06"
     },
     {
       "url": "https://www.humanoidhub.ai/blog/from-pilots-production-signals-what-2026-s-humanoid-scaling",
-      "last_ingested_at": "2026-09-16 12:00:04"
+      "last_ingested_at": "2026-09-17 18:00:05"
     },
     {
       "url": "https://www.iso.org/standard/73933.html",
-      "last_ingested_at": "2026-09-16 12:01:11"
+      "last_ingested_at": "2026-09-17 18:01:13"
     },
     {
       "url": "https://www.jnj.com/innovation/johnson-and-johnson-institute-surgery-training",
@@ -626,99 +634,99 @@
     },
     {
       "url": "https://www.khaleejtimes.com/uae/talabat-quikbot-autonomous-delivery-robots-dubai-high-rise-buildings",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:03"
     },
     {
       "url": "https://www.livescience.com/technology/robotics/eerily-humanlike-ai-powered-robot-enters-mass-production-in-china-its-makers-say-it-could-soon-be-helping-you-out-at-home",
-      "last_ingested_at": "2026-09-16 18:00:32"
+      "last_ingested_at": "2026-09-18 00:00:32"
     },
     {
       "url": "https://www.manufacturingdive.com/news/mp-materials-critical-minerals-initiative-project-swarm-james-litinsky/827021/",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:39"
     },
     {
       "url": "https://www.medtechdive.com/news/medtronic-adds-real-time-ai-to-hugo-robot/825793/",
-      "last_ingested_at": "2026-09-16 12:00:37"
+      "last_ingested_at": "2026-09-17 18:00:38"
     },
     {
       "url": "https://www.osha.gov/robotics/standards",
-      "last_ingested_at": "2026-09-16 12:01:11"
+      "last_ingested_at": "2026-09-17 18:01:13"
     },
     {
       "url": "https://www.prnewswire.com/apac/news-releases/agile-robots-brings-physical-ai-into-the-real-world---from-industrial-automation-to-robot-training-data-302867274.html",
-      "last_ingested_at": "2026-09-17 12:00:01"
+      "last_ingested_at": "2026-09-18 12:00:02"
     },
     {
       "url": "https://www.prnewswire.com/apac/news-releases/aimoga-robotics-shines-at-world-robot-conference-wrc-showcasing-real-world-applications-and-global-reach-including-partnerships-in-malaysia-302857177.html",
-      "last_ingested_at": "2026-09-17 06:00:01"
+      "last_ingested_at": "2026-09-18 06:00:06"
     },
     {
       "url": "https://www.prnewswire.com/in/news-releases/2026-world-robot-conference-zoomlion-showcases-industrial-embodied-intelligence-302857166.html",
-      "last_ingested_at": "2026-09-17 00:00:01"
+      "last_ingested_at": "2026-09-18 00:00:01"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/aixcs-roboshare-makes-us-robot-sharing-history-as-seven-robots-share-the-stage-with-duty-and-big-302864740.html",
-      "last_ingested_at": "2026-09-17 06:00:01"
+      "last_ingested_at": "2026-09-18 06:00:07"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/avatar-robotics-raises-6-5-million-seed-to-build-the-unlimited-industrial-workforce-302843349.html",
-      "last_ingested_at": "2026-09-17 06:00:01"
+      "last_ingested_at": "2026-09-18 06:00:07"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/brain-corp-reports-68-growth-in-global-deployments-as-enterprise-robots-log-more-than-5-3-million-autonomous-hours-in-h1-2026--302842609.html",
-      "last_ingested_at": "2026-09-17 06:00:02"
+      "last_ingested_at": "2026-09-18 12:00:02"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/cyngn-reports-2026-2nd-quarter-financial-results-302850061.html",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:02"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/delta-showcases-embodied-ai-dual-arm-robot-platform-and-ai-enhanced-production-line-digital-twin-at-automation-taipei-2026-302855258.html",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/dyna-robotics-unveils-dyna-2-world-action-model-demonstrating-first-true-scaling-law-in-robotics-powered-entirely-by-human-data-302847114.html",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/fanuc-america-brings-robotics-automation-physical-ai-and-cnc-innovation-to-imts-2026-302869146.html",
-      "last_ingested_at": "2026-09-17 00:00:03"
+      "last_ingested_at": "2026-09-18 06:00:08"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-announces-commercial-agreement-with-bmw-manufacturing-to-bring-general-purpose-robots-into-automotive-production-302036263.html",
-      "last_ingested_at": "2026-09-16 18:01:05"
+      "last_ingested_at": "2026-09-18 00:01:06"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
-      "last_ingested_at": "2026-09-16 18:01:05"
+      "last_ingested_at": "2026-09-18 00:01:06"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
-      "last_ingested_at": "2026-09-16 18:01:05"
+      "last_ingested_at": "2026-09-18 00:01:06"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/fort-robotics-to-go-public-via-business-combination-with-newbury-street-ii-acquisition-corp-to-advance-the-safety-of-physical-ai-302854036.html",
-      "last_ingested_at": "2026-09-16 12:00:02"
+      "last_ingested_at": "2026-09-17 18:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/lg-electronics-accelerates-robotics-collaboration-with-nvidia-302853855.html",
-      "last_ingested_at": "2026-09-17 00:00:33"
+      "last_ingested_at": "2026-09-18 06:00:40"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/molex-introduces-minimix-hybrid-power-and-signal-connectors-to-accelerate-humanoid-robotics-mass-production-scaling-302843651.html",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:38"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/nauticus-robotics-inc-announces-substantially-stronger-q3-offshore-activity-with-both-rov-systems-deployed-302866868.html",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:39"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/primax-tymphany-group-advances-intelligent-robotics-and-automation-with-ai-sensor-fusion-at-automation-taipei-2026-302852351.html",
-      "last_ingested_at": "2026-09-17 00:00:34"
+      "last_ingested_at": "2026-09-18 06:00:40"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/reudyn-launches-wearable-robotics-brand-focused-on-human-centered-mobility-302849680.html",
-      "last_ingested_at": "2026-09-16 12:00:38"
+      "last_ingested_at": "2026-09-17 18:00:39"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/seeing-machines-launches-physical-ai-platform-to-power-the-next-generation-of-humanoid-robots-302852638.html",
@@ -730,59 +738,59 @@
     },
     {
       "url": "https://www.prnewswire.com/news-releases/worlds-first-autonomous-humanoid-tennis-match-galbot-robots-complete-100-consecutive-rallies-302857810.html",
-      "last_ingested_at": "2026-09-16 12:00:41"
+      "last_ingested_at": "2026-09-17 18:00:43"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/x-square-robot-shows-the-full-embodied-ai-loop-at-wrc-2026-from-foundation-model-to-real-world-deployment-302855287.html",
-      "last_ingested_at": "2026-09-16 12:00:41"
+      "last_ingested_at": "2026-09-17 18:00:43"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/xpeng-robotics-business-raises-over-us900-million-at-a-post-money-valuation-of-over-us6-3-billion-accelerating-physical-ai-deployment-302858203.html",
-      "last_ingested_at": "2026-09-16 18:01:04"
+      "last_ingested_at": "2026-09-18 00:01:05"
     },
     {
       "url": "https://www.robot.com/blog/robot-com-and-sodexo-sign-seven-year-agreement",
-      "last_ingested_at": "2026-09-17 00:01:05"
+      "last_ingested_at": "2026-09-18 06:01:11"
     },
     {
       "url": "https://www.robotics247.com/article/imts-2026-vention-facilitates-manufacturing-with-physical-ai-and-agentic-ai-in-one-platform",
-      "last_ingested_at": "2026-09-16 12:00:05"
+      "last_ingested_at": "2026-09-17 18:00:06"
     },
     {
       "url": "https://www.robotics247.com/article/vecna-robotics-announces-31m-funding-round-to-meet-demand-for-flexible-dock-to-dock-automation",
-      "last_ingested_at": "2026-09-16 12:00:40"
+      "last_ingested_at": "2026-09-17 18:00:42"
     },
     {
       "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Reports-Third-Quarter-2026-Results.html",
-      "last_ingested_at": "2026-09-17 00:01:05"
+      "last_ingested_at": "2026-09-18 06:01:11"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
-      "last_ingested_at": "2026-09-16 12:00:39"
+      "last_ingested_at": "2026-09-17 18:00:40"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926086264/mbly-20260627x10q.htm",
-      "last_ingested_at": "2026-09-17 00:00:34"
+      "last_ingested_at": "2026-09-18 06:00:40"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026089245/ea0300779-10q_churchill11.htm",
-      "last_ingested_at": "2026-09-17 00:00:02"
+      "last_ingested_at": "2026-09-18 06:00:08"
     },
     {
       "url": "https://www.wsj.com/business/regulatory-uncertainty-clouds-chinese-robot-firm-galaxea-ais-ipo-plan-b6dab954",
-      "last_ingested_at": "2026-09-16 18:00:33"
+      "last_ingested_at": "2026-09-18 00:00:33"
     },
     {
       "url": "https://www.wsj.com/finance/chinese-regulators-seek-higher-bar-for-humanoid-robotics-listings-95773ce4",
-      "last_ingested_at": "2026-09-17 06:00:02"
+      "last_ingested_at": "2026-09-18 12:00:03"
     },
     {
       "url": "https://www.xpeng.com/news/01a03797fccda01e0de68a02a256006a",
-      "last_ingested_at": "2026-09-17 06:01:06"
+      "last_ingested_at": "2026-09-18 12:01:08"
     },
     {
       "url": "https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b",
-      "last_ingested_at": "2026-09-17 06:01:05"
+      "last_ingested_at": "2026-09-18 12:01:07"
     }
   ]
 }
