@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_one_brain_implant_could_give_people_with
+type: claim
+theme_id: bci-neurotech
+claim: "On September 16, 2026, News-Medical reported a Nature Neuroscience study by Brosler, Liu, Silva, Hallinan, Kurtz-Miott, Dunkel Wilker, Tu-Chan, Ganguly, and Edward F. Chang showing that a single 253-electrode high-density ECoG implant in the BRAVO clinical trial decoded attempted speech and gestures concurrently in two people with severe paralysis. The system used participant-specific convolutional recurrent neural network decoders and a personalized full-body virtual avatar; in real-time concurrent decoding, Bravo-6 reached 66.0% gesture accuracy and 70.0% speech accuracy, while structured conversation testing reached 85.0% gesture and 75.0% speech accuracy for Bravo-6 and 100.0% median accuracy for both modalities in Bravo-1r."
+category: technical
+source_ids:
+  - src_bci_neurotech_one_brain_implant_could_give_people_with
+date_of_evidence: "2026-09-16"
+evidence_at: "2026-09-16"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
