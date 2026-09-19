@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_when_ai_infrastructure_becomes_the_targe
+type: claim
+theme_id: llm-convergence
+claim: "On August 26, 2026, Microsoft Security Research reported observed compromises of LiteLLM, RAGFlow, and Kestra AI infrastructure deployments in which attackers targeted gateway, retrieval, and orchestration control points for credential theft, persistence, database or container-environment access, and XMRig-style compute monetization. Microsoft attributed likely LiteLLM initial access to an exposed gateway path involving CVE-2026-42271 and CVE-2026-48710, attributed likely Kestra initial access to CVE-2026-49869, and did not attribute the RAGFlow intrusion to a specific vulnerability."
+category: technical
+source_ids:
+  - src_llm_convergence_when_ai_infrastructure_becomes_the_targe
+date_of_evidence: "2026-08-26"
+evidence_at: "2026-08-26"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

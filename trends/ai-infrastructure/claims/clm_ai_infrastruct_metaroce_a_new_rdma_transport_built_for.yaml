@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_metaroce_a_new_rdma_transport_built_for
+type: claim
+theme_id: ai-infrastructure
+claim: "On August 24, 2026, Meta said it designed MetaRoCE, an RDMA transport protocol for AI workloads on commodity Ethernet, and would release the MetaRoCE specification, a reference software implementation, and a compliance test suite through the Open Compute Project. Meta said it validated MetaRoCE with AMD on Pensando programmable NICs in a 64-node AMD GPU cluster running RCCL collectives, where it maintained about 86% throughput at 1% packet loss and scaled linearly across 4-plane and 8-plane topologies with up to 4,000 concurrent connections."
+category: technical
+source_ids:
+  - src_ai_infrastructur_metaroce_a_new_rdma_transport_built_for
+date_of_evidence: "2026-08-24"
+evidence_at: "2026-08-24"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

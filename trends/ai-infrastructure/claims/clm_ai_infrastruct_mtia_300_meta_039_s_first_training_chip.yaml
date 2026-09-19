@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_mtia_300_meta_039_s_first_training_chip
+type: claim
+theme_id: ai-infrastructure
+claim: "On August 24, 2026, Meta Engineering said MTIA 300 is Meta\u2019s first in-house training chip optimized for ranking and recommendation models, integrating two network chiplets with 12 custom 800 Gbps RDMA NICs for 1.2 TB/s total I/O bandwidth. Meta said MTIA 300 uses HCCL and 16 dedicated message engines to offload collective communication, achieving up to 940 GB/s within a rack and 3.9x faster total communication time than an equivalent GPU cluster on a 150-billion-parameter production recommendation model across 40 accelerators."
+category: technical
+source_ids:
+  - src_ai_infrastructur_mtia_300_meta_s_first_training_chip_with
+date_of_evidence: "2026-08-24"
+evidence_at: "2026-08-24"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

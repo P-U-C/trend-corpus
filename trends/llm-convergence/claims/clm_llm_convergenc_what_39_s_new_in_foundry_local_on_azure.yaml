@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_what_39_s_new_in_foundry_local_on_azure
+type: claim
+theme_id: llm-convergence
+claim: "Microsoft Learn states that Foundry Local on Azure Local, in preview, added Kubernetes service account token authentication for data-plane inference in extension version 2609 in September 2026, requiring Azure Reader role assignment for the extension managed identity at the Azure Arc-enabled Kubernetes cluster scope. The same source states that extension versions 2605, 2606, and 2607 added multinode Kubernetes deployment support, disconnected environment operations, vLLM GPU inference runtime, Gateway API/Istio inference traffic routing, LLM-D Endpoint Picker routing, model evaluation, multi-GPU vLLM model parallelism, and enhanced automatic GPU inference tuning between June 2026 and August 2026."
+category: technical
+source_ids:
+  - src_llm_convergence_what_s_new_in_foundry_local_on_azure_loc
+date_of_evidence: "2026-08-03"
+evidence_at: "2026-08-03"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
