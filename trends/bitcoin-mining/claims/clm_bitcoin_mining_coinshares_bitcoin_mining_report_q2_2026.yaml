@@ -1,0 +1,18 @@
+id: clm_bitcoin_mining_coinshares_bitcoin_mining_report_q2_2026
+type: claim
+theme_id: bitcoin-mining
+claim: "CoinShares\u2019 \u201cBitcoin mining report | Q2 2026\u201d states that at least 225 data-centre moratoriums or restrictions had been recorded across 30 U.S. states, with 151 still in force, and that New York enacted the first statewide one-year moratorium on July 14, 2026 for environmental permits on facilities of 50MW or more. It also states that Maine banned new data-centre construction in April 2026 and that the U.S. interconnection queue stood at roughly 2,600GW, with data centres representing 87% of ERCOT\u2019s 410GW large-load queue."
+category: regulatory
+source_ids:
+  - src_bitcoin_mining_bitcoin_mining_report
+date_of_evidence: "primary_re"
+evidence_at: "primary_re"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
