@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_rack_power_is_rising_fast_here_u2019s_wh
+type: claim
+theme_id: ai-infrastructure
+claim: "In Data Center Knowledge on September 18, 2026, Christopher Tozzi reported that average data center rack load rose from 6.1 kW in 2016 to 12 kW in 2024 and 26 kW in 2026. The article states that AI deployments are driving higher per-rack loads and requiring changes to power delivery, liquid cooling, and structural planning, while racks around 1 MW remain outliers."
+category: technical
+source_ids:
+  - src_ai_infrastructur_rack_power_is_rising_fast_here_s_what_it
+date_of_evidence: "2026-09-18"
+evidence_at: "2026-09-18"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

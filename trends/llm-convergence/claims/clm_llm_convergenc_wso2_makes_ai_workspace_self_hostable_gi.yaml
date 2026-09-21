@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_wso2_makes_ai_workspace_self_hostable_gi
+type: claim
+theme_id: llm-convergence
+claim: "On August 25, 2026, WSO2 made AI Workspace generally available as a 100% self-managed component of WSO2 API Platform, allowing customers to self-host the AI control plane alongside the AI gateway on-premises, in sovereign cloud, on hyperscalers, or fully air-gapped with no outbound connection to WSO2. The release covers governance for external and sovereign LLMs, MCP servers, internal MCP resources, quotas, chargeback, guardrails, routing decisions, and audit trails inside the customer-controlled environment."
+category: technical
+source_ids:
+  - src_llm_convergence_wso2_makes_ai_workspace_self_hostable_gi
+date_of_evidence: "2026-08-25"
+evidence_at: "2026-08-25"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

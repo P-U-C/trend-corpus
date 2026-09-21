@@ -1,0 +1,18 @@
+id: clm_nuclear_smr_2608_10999_techno_economic_boundary_anal
+type: claim
+theme_id: nuclear-smr
+claim: "On August 11, 2026, Honglin Li, Buxin She, and Jie Zhang reported in arXiv:2608.10999 that, for a 200 MWe hyperscale data center in ERCOT, small modular reactor configurations cost 49-62% more than grid supply at 2023 mid-range reactor capital costs even with the Section 45Y production tax credit. The same analysis found the viable region opens near $5,000/kWe, nth-of-a-kind capital makes nuclear configurations 77-89% cheaper in the 2023 market, and a carbon price of $53-64/tCO2 closes the mid-range gap under hourly export crediting."
+category: capital
+source_ids:
+  - src_nuclear_smr_techno_economic_boundary_analysis_of_sma
+date_of_evidence: "2026-08-11"
+evidence_at: "2026-08-11"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
