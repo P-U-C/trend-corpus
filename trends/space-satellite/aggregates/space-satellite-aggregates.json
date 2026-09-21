@@ -1,292 +1,292 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-09-20T13:35:01Z",
+  "generated_at": "2026-09-21T13:35:01Z",
   "theme_id": "space-satellite",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 22398,
-  "underlying_source_count": 117,
+  "underlying_claim_count": 23291,
+  "underlying_source_count": 121,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 2414,
+      "claims_total": 2697,
       "claims_by_category": {
-        "corporate": 904,
-        "research": 366,
-        "market": 149,
-        "manufacturing": 842,
-        "supply": 84,
-        "regulatory": 69
+        "corporate": 1008,
+        "manufacturing": 954,
+        "research": 399,
+        "supply": 92,
+        "regulatory": 77,
+        "market": 167
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 816
+          "mentions": 909
         },
         {
           "slug": "nasa",
-          "mentions": 487
+          "mentions": 531
         },
         {
           "slug": "spacex",
-          "mentions": 332
+          "mentions": 388
         },
         {
           "slug": "sda",
-          "mentions": 205
+          "mentions": 209
         },
         {
           "slug": "synspective",
-          "mentions": 137
-        },
-        {
-          "slug": "l3harris",
-          "mentions": 121
+          "mentions": 155
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 116
+          "mentions": 131
         },
         {
-          "slug": "dod",
-          "mentions": 112
+          "slug": "l3harris",
+          "mentions": 129
         },
         {
           "slug": "planet_labs",
-          "mentions": 109
+          "mentions": 128
+        },
+        {
+          "slug": "dod",
+          "mentions": 114
         },
         {
           "slug": "kratos",
-          "mentions": 103
+          "mentions": 113
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 103
+          "mentions": 112
         },
         {
           "slug": "space_force",
-          "mentions": 88
+          "mentions": 92
         },
         {
           "slug": "viasat",
           "mentions": 84
         },
         {
-          "slug": "seacras",
-          "mentions": 62
+          "slug": "iridium",
+          "mentions": 69
         },
         {
-          "slug": "iridium",
-          "mentions": 59
+          "slug": "seacras",
+          "mentions": 67
         },
         {
           "slug": "blue_origin",
-          "mentions": 44
+          "mentions": 51
         },
         {
           "slug": "att",
-          "mentions": 40
+          "mentions": 46
         },
         {
           "slug": "amazon",
-          "mentions": 39
+          "mentions": 45
+        },
+        {
+          "slug": "nigcomsat",
+          "mentions": 42
         },
         {
           "slug": "nro",
-          "mentions": 37
-        },
-        {
-          "slug": "iceye",
-          "mentions": 35
+          "mentions": 41
         }
       ]
     },
     "90d": {
-      "claims_total": 10672,
+      "claims_total": 11394,
       "claims_by_category": {
-        "corporate": 5375,
-        "research": 876,
-        "market": 662,
-        "manufacturing": 3102,
-        "supply": 225,
-        "regulatory": 432
+        "corporate": 5729,
+        "manufacturing": 3334,
+        "research": 931,
+        "supply": 238,
+        "regulatory": 453,
+        "market": 709
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 3204
+          "mentions": 3411
         },
         {
           "slug": "firefly_aerospace",
-          "mentions": 1264
+          "mentions": 1333
         },
         {
           "slug": "nasa",
-          "mentions": 1209
+          "mentions": 1281
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 1122
+          "mentions": 1205
         },
         {
           "slug": "sda",
-          "mentions": 1113
+          "mentions": 1145
         },
         {
           "slug": "spacex",
+          "mentions": 720
+        },
+        {
+          "slug": "ast_spacemobile",
           "mentions": 654
         },
         {
           "slug": "dod",
-          "mentions": 620
-        },
-        {
-          "slug": "ast_spacemobile",
-          "mentions": 603
+          "mentions": 636
         },
         {
           "slug": "planet_labs",
-          "mentions": 578
+          "mentions": 627
         },
         {
           "slug": "globalstar",
-          "mentions": 536
+          "mentions": 569
         },
         {
           "slug": "kratos",
-          "mentions": 480
+          "mentions": 517
         },
         {
           "slug": "space_force",
-          "mentions": 425
+          "mentions": 439
         },
         {
           "slug": "l3harris",
-          "mentions": 379
+          "mentions": 405
         },
         {
           "slug": "viasat",
-          "mentions": 364
-        },
-        {
-          "slug": "iqps",
-          "mentions": 269
+          "mentions": 383
         },
         {
           "slug": "iridium",
-          "mentions": 264
+          "mentions": 285
+        },
+        {
+          "slug": "iqps",
+          "mentions": 279
         },
         {
           "slug": "kepler_communications",
-          "mentions": 162
-        },
-        {
-          "slug": "lockheed_martin",
-          "mentions": 153
+          "mentions": 174
         },
         {
           "slug": "ussf",
-          "mentions": 153
+          "mentions": 165
         },
         {
-          "slug": "orbit_communication_systems",
-          "mentions": 146
+          "slug": "lockheed_martin",
+          "mentions": 157
+        },
+        {
+          "slug": "synspective",
+          "mentions": 155
         }
       ]
     },
     "365d": {
-      "claims_total": 21475,
+      "claims_total": 22341,
       "claims_by_category": {
-        "corporate": 12077,
-        "research": 1761,
-        "market": 1872,
-        "manufacturing": 4811,
-        "supply": 358,
-        "regulatory": 596
+        "corporate": 12527,
+        "manufacturing": 5062,
+        "research": 1830,
+        "supply": 372,
+        "regulatory": 620,
+        "market": 1930
       },
       "top_entities": [
         {
           "slug": "rocket_lab",
-          "mentions": 5210
+          "mentions": 5452
         },
         {
           "slug": "ast_spacemobile",
-          "mentions": 2662
+          "mentions": 2737
         },
         {
           "slug": "nasa",
-          "mentions": 2611
+          "mentions": 2704
         },
         {
           "slug": "planet_labs",
-          "mentions": 2358
+          "mentions": 2432
         },
         {
           "slug": "globalstar",
-          "mentions": 2214
+          "mentions": 2266
         },
         {
           "slug": "kratos",
-          "mentions": 2088
+          "mentions": 2139
         },
         {
           "slug": "intuitive_machines",
-          "mentions": 2019
+          "mentions": 2113
         },
         {
           "slug": "firefly_aerospace",
-          "mentions": 1351
+          "mentions": 1421
         },
         {
           "slug": "sda",
-          "mentions": 1340
+          "mentions": 1380
         },
         {
           "slug": "dod",
-          "mentions": 1115
+          "mentions": 1138
         },
         {
           "slug": "spacex",
-          "mentions": 928
+          "mentions": 995
         },
         {
           "slug": "space_force",
-          "mentions": 459
+          "mentions": 473
         },
         {
           "slug": "l3harris",
-          "mentions": 433
+          "mentions": 461
         },
         {
           "slug": "viasat",
-          "mentions": 377
-        },
-        {
-          "slug": "iqps",
-          "mentions": 269
+          "mentions": 397
         },
         {
           "slug": "iridium",
-          "mentions": 265
+          "mentions": 286
+        },
+        {
+          "slug": "iqps",
+          "mentions": 279
         },
         {
           "slug": "fcc",
-          "mentions": 249
+          "mentions": 256
         },
         {
           "slug": "blue_origin",
-          "mentions": 213
+          "mentions": 223
         },
         {
           "slug": "mda_space",
-          "mentions": 177
+          "mentions": 185
         },
         {
           "slug": "lockheed_martin",
-          "mentions": 175
+          "mentions": 180
         }
       ]
     }
@@ -294,11 +294,11 @@
   "source_freshness": [
     {
       "url": "https://arxiv.org/abs/2608.23668",
-      "last_ingested_at": "2026-09-19 12:00:05"
+      "last_ingested_at": "2026-09-20 18:00:05"
     },
     {
       "url": "https://broadbandbreakfast.com/3-more-ast-spacemobile-satellites-launched/",
-      "last_ingested_at": "2026-09-19 12:00:03"
+      "last_ingested_at": "2026-09-20 18:00:03"
     },
     {
       "url": "https://clickorlando.com/news/local/2026/08/05/spacex-launches-3-ast-spacemobile-bluebird-satellites-from-florida",
@@ -306,47 +306,47 @@
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-391A1.pdf",
-      "last_ingested_at": "2026-09-20 00:00:04"
+      "last_ingested_at": "2026-09-21 06:00:03"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/DA-26-747A1.pdf",
-      "last_ingested_at": "2026-09-20 00:00:13"
+      "last_ingested_at": "2026-09-21 06:00:11"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-24-28A1.pdf",
-      "last_ingested_at": "2026-09-20 00:00:04"
+      "last_ingested_at": "2026-09-21 06:00:04"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-26-47A1.pdf",
-      "last_ingested_at": "2026-09-19 12:00:11"
+      "last_ingested_at": "2026-09-20 18:00:15"
     },
     {
       "url": "https://docs.fcc.gov/public/attachments/FCC-26-55A1.pdf",
-      "last_ingested_at": "2026-09-19 12:00:02"
+      "last_ingested_at": "2026-09-20 18:00:03"
     },
     {
       "url": "https://fireflyspace.com/news/firefly-aerospace-announces-extension-of-multi-launch-agreement-with-lockheed-martin-through-2031/",
-      "last_ingested_at": "2026-09-20 00:00:04"
+      "last_ingested_at": "2026-09-21 06:00:04"
     },
     {
       "url": "https://fireflyspace.com/news/firefly-aerospace-onboards-zeno-power-on-blue-ghost-mission-to-demonstrate-radioisotope-technologies-to-survive-the-lunar-night/",
-      "last_ingested_at": "2026-09-20 06:00:03"
+      "last_ingested_at": "2026-09-21 12:00:11"
     },
     {
       "url": "https://globenewswire.com/news-release/2026/08/13/3344938/0/en/firefly-aerospace-awarded-contract-to-design-elytra-deorbit-system-for-defense-innovation-unit.html",
-      "last_ingested_at": "2026-09-20 06:00:02"
+      "last_ingested_at": "2026-09-21 12:00:02"
     },
     {
       "url": "https://globenewswire.com/news-release/2026/08/16/3345772/9076/en/globalstar-confirms-successful-launch-of-all-8-hibleo-4-replacement-satellites.html",
-      "last_ingested_at": "2026-09-20 00:00:07"
+      "last_ingested_at": "2026-09-21 06:00:06"
     },
     {
       "url": "https://globenewswire.com/news-release/2026/08/17/3346490/0/en/firefly-aerospace-onboarded-to-nasa-spacecraft-processing-operations-contract.html",
-      "last_ingested_at": "2026-09-20 06:00:03"
+      "last_ingested_at": "2026-09-21 12:00:11"
     },
     {
       "url": "https://investor.iridium.com/2024-09-25-Iridium-Accelerates-Direct-to-Device-Service-with-Acceptance-into-3GPP-Standards-Announces-Iridium-NTN-Direct?asPDF=1",
-      "last_ingested_at": "2026-09-20 06:00:10"
+      "last_ingested_at": "2026-09-21 12:00:13"
     },
     {
       "url": "https://investor.iridium.com/2026-09-01-Furuno-Unveils-New-SOLION-100-Terminal-for-Iridium-GMDSS",
@@ -358,63 +358,63 @@
     },
     {
       "url": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-announces-second-quarter-2026-financial",
-      "last_ingested_at": "2026-09-20 00:00:05"
+      "last_ingested_at": "2026-09-21 06:00:05"
     },
     {
       "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-announces-fourth-quarter-and-full-year-2025-results/",
-      "last_ingested_at": "2026-09-20 00:00:06"
+      "last_ingested_at": "2026-09-21 06:00:05"
     },
     {
       "url": "https://investors.globalstar.com/news-releases/news-release-details/globalstar-announces-second-quarter-2026-financial-results/",
-      "last_ingested_at": "2026-09-20 00:00:07"
+      "last_ingested_at": "2026-09-21 06:00:06"
     },
     {
       "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-books-order-two-im-300-platforms-new-customer",
-      "last_ingested_at": "2026-09-20 06:00:03"
+      "last_ingested_at": "2026-09-21 12:00:11"
     },
     {
       "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-completes-acquisition-goonhilly-earth-station/",
-      "last_ingested_at": "2026-09-20 06:00:07"
+      "last_ingested_at": "2026-09-21 12:00:12"
     },
     {
       "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-completes-orbit-commissioning-delivers-sxm-11",
-      "last_ingested_at": "2026-09-19 18:00:02"
+      "last_ingested_at": "2026-09-21 00:00:02"
     },
     {
       "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-reports-second-quarter-2026-financial-results",
-      "last_ingested_at": "2026-09-20 06:00:09"
+      "last_ingested_at": "2026-09-21 12:00:12"
     },
     {
       "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-selected-l3harris-support-tracking-satellites",
-      "last_ingested_at": "2026-09-20 06:00:09"
+      "last_ingested_at": "2026-09-21 12:00:12"
     },
     {
       "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-selected-multi-satellite-communications/",
-      "last_ingested_at": "2026-09-19 12:00:08"
+      "last_ingested_at": "2026-09-20 18:00:10"
     },
     {
       "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-selected-provide-spacecraft-platform-and/",
-      "last_ingested_at": "2026-09-19 12:00:08"
+      "last_ingested_at": "2026-09-20 18:00:10"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-93rd-electron-mission",
-      "last_ingested_at": "2026-09-19 12:00:09"
+      "last_ingested_at": "2026-09-20 18:00:11"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-94th-electron-mission",
-      "last_ingested_at": "2026-09-20 00:00:09"
+      "last_ingested_at": "2026-09-21 06:00:07"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-96th-electron-mission",
-      "last_ingested_at": "2026-09-20 06:00:11"
+      "last_ingested_at": "2026-09-21 12:00:14"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-second-quarter-2026-financial-results-posts",
-      "last_ingested_at": "2026-09-19 12:00:10"
+      "last_ingested_at": "2026-09-20 18:00:13"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-awarded-397-million-contract-build-and-launch",
-      "last_ingested_at": "2026-09-20 00:00:10"
+      "last_ingested_at": "2026-09-21 06:00:08"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-awarded-record-266m-missile-defense-contract-us-space",
@@ -422,7 +422,7 @@
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-corporation-announces-dollar-dollar-replacement",
-      "last_ingested_at": "2026-09-19 12:00:10"
+      "last_ingested_at": "2026-09-20 18:00:13"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-corporation-announces-progress-iridium-acquisition",
@@ -430,23 +430,23 @@
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-fully-funds-iridium-acquisition-including-completion",
-      "last_ingested_at": "2026-09-19 12:00:10"
+      "last_ingested_at": "2026-09-20 18:00:13"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-inks-neutron-launch-deal-kepler-communications",
-      "last_ingested_at": "2026-09-19 18:00:03"
+      "last_ingested_at": "2026-09-21 00:00:04"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-introduces-high-efficiency-solar-cell-reduce-reliance",
-      "last_ingested_at": "2026-09-20 06:00:14"
+      "last_ingested_at": "2026-09-21 12:00:16"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-onboarded-us-space-forces-981m-nite-star-program",
-      "last_ingested_at": "2026-09-19 18:00:05"
+      "last_ingested_at": "2026-09-21 00:00:04"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-satellite-platforms-built-mda-space-successfully",
-      "last_ingested_at": "2026-09-19 18:00:05"
+      "last_ingested_at": "2026-09-21 00:00:04"
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-secures-multi-launch-deal-iqps-three-dedicated",
@@ -458,7 +458,7 @@
     },
     {
       "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/space-force-selects-rocket-lab-space-data-network-consortium",
-      "last_ingested_at": "2026-09-19 18:00:06"
+      "last_ingested_at": "2026-09-21 00:00:06"
     },
     {
       "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-3-f3-satellite-enters-service-across-asia-pacific",
@@ -466,23 +466,23 @@
     },
     {
       "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-releases-first-quarter-fiscal-year-2027-financial-results",
-      "last_ingested_at": "2026-09-20 06:00:19"
+      "last_ingested_at": "2026-09-21 12:00:20"
     },
     {
       "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-selects-rocket-lab-build-geo-satellite-us-space-forces",
-      "last_ingested_at": "2026-09-20 00:00:13"
+      "last_ingested_at": "2026-09-21 06:00:11"
     },
     {
       "url": "https://investors.viasat.com/news-releases/news-release-details/viasat-sets-august-4-2026-first-quarter-fiscal-year-2027",
-      "last_ingested_at": "2026-09-20 00:00:13"
+      "last_ingested_at": "2026-09-21 06:00:12"
     },
     {
       "url": "https://investors.viasat.com/static-files/340d3dc1-41f4-41b9-9d59-123abde655dc",
-      "last_ingested_at": "2026-09-20 00:00:14"
+      "last_ingested_at": "2026-09-21 06:00:12"
     },
     {
       "url": "https://ir.echostar.com/news-releases/news-release-details/nigcomsat-selects-hughes-jupiter-scalable-gateway-support",
-      "last_ingested_at": "2026-09-19 12:00:09"
+      "last_ingested_at": "2026-09-20 18:00:12"
     },
     {
       "url": "https://news.lockheedmartin.com/lockheed-martin-secures-space-force-contracts-contracts-to-further-modernize-the-GPS-ground-segment",
@@ -490,23 +490,23 @@
     },
     {
       "url": "https://payloadspace.com/maverick-books-10-kepler-sats-to-fill-excess-capacity-on-portals-dedicated-launch/",
-      "last_ingested_at": "2026-09-19 18:00:02"
+      "last_ingested_at": "2026-09-21 00:00:02"
     },
     {
       "url": "https://rocketlabcorp.com/missions/launches/sda/",
-      "last_ingested_at": "2026-09-20 06:00:15"
+      "last_ingested_at": "2026-09-21 12:00:17"
     },
     {
       "url": "https://rocketlabcorp.com/updates/mission-success/",
-      "last_ingested_at": "2026-09-19 18:00:02"
+      "last_ingested_at": "2026-09-21 00:00:02"
     },
     {
       "url": "https://satellitetoday.com/government-military/2026/07/13/l3harris-and-sierra-space-receive-1-75b-for-sda-tranche-3-tracking-layer",
-      "last_ingested_at": "2026-09-20 00:00:08"
+      "last_ingested_at": "2026-09-21 06:00:07"
     },
     {
       "url": "https://satellitetoday.com/government-military/2026/08/14/space-force-awards-space-data-network-contracts-to-five-satellite-manufacturers/",
-      "last_ingested_at": "2026-09-20 06:00:16"
+      "last_ingested_at": "2026-09-21 12:00:18"
     },
     {
       "url": "https://satnews.com/2026/08/03/planet-labs-secures-seven-figure-agricultural-data-contract-with-scottish-government/",
@@ -514,19 +514,19 @@
     },
     {
       "url": "https://spaceflightnow.com/2026/09/01/spacex-to-launch-starlink-mission-from-west-coast/",
-      "last_ingested_at": "2026-09-20 06:00:17"
+      "last_ingested_at": "2026-09-21 12:00:19"
     },
     {
       "url": "https://spaceflightnow.com/2026/09/05/live-coverage-spacex-to-launch-80th-starlink-mission-of-2026/",
-      "last_ingested_at": "2026-09-20 06:00:17"
+      "last_ingested_at": "2026-09-21 12:00:19"
     },
     {
       "url": "https://spaceflightnow.com/2026/09/09/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force/",
-      "last_ingested_at": "2026-09-20 06:00:17"
+      "last_ingested_at": "2026-09-21 12:00:19"
     },
     {
       "url": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts",
-      "last_ingested_at": "2026-09-19 12:00:05"
+      "last_ingested_at": "2026-09-20 18:00:05"
     },
     {
       "url": "https://spacenews.com/space-force-awards-five-companies-60-million-for-multi-vendor-satellite-network-tests",
@@ -534,39 +534,39 @@
     },
     {
       "url": "https://spacewatch.global/2026/08/ast-spacemobile-secures-regulatory-go-ahead-to-test-800-mhz-satellite-connectivity/",
-      "last_ingested_at": "2026-09-19 12:00:04"
+      "last_ingested_at": "2026-09-20 18:00:05"
     },
     {
       "url": "https://starlink.com/business/direct-to-cell",
-      "last_ingested_at": "2026-09-20 06:00:17"
+      "last_ingested_at": "2026-09-21 12:00:19"
     },
     {
       "url": "https://www.barrons.com/articles/planet-labs-earnings-stock-2aba59c8",
-      "last_ingested_at": "2026-09-19 18:00:03"
+      "last_ingested_at": "2026-09-21 00:00:03"
     },
     {
       "url": "https://www.barrons.com/articles/viasat-stock-price-satellites-space42-1a3cf8d4",
-      "last_ingested_at": "2026-09-20 00:00:14"
+      "last_ingested_at": "2026-09-21 06:00:12"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260730334581/en/Scottish-Government-Selects-Planet-for-AI-Enabled-Monitoring-to-Support-Sustainable-Agricultural-Reform",
-      "last_ingested_at": "2026-09-20 00:00:11"
+      "last_ingested_at": "2026-09-21 06:00:10"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260805761351/en/AST-SpaceMobile-Announces-Successful-Orbital-Launch-of-BlueBirds-11-12-and-13",
-      "last_ingested_at": "2026-09-19 12:00:03"
+      "last_ingested_at": "2026-09-20 18:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260806189867/en/AST-SpaceMobile-Accelerates-Presence-Across-Europe-with-Leading-Mobile-Network-Operators",
-      "last_ingested_at": "2026-09-19 12:00:03"
+      "last_ingested_at": "2026-09-20 18:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260810773031/en/Planet-and-the-Government-of-Rwanda-Launch-First-of-its-Kind-National-Satellite-Data-Program-in-Africa",
-      "last_ingested_at": "2026-09-20 00:00:10"
+      "last_ingested_at": "2026-09-21 06:00:08"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260810780163/en/AST-SpaceMobile-Provides-Business-Update-and-Second-Quarter-2026-Results",
-      "last_ingested_at": "2026-09-19 12:00:04"
+      "last_ingested_at": "2026-09-20 18:00:05"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260831223640/en/Planet-Ships-Tanager-2-and-18-SuperDoves-to-Launch-Site",
@@ -574,11 +574,11 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260902779660/en/SES-Strengthens-Peruvian-Navy-Operations-with-New-Multi-Orbit-Satellite-Solution",
-      "last_ingested_at": "2026-09-20 06:00:15"
+      "last_ingested_at": "2026-09-21 12:00:17"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260913914517/en/",
-      "last_ingested_at": "2026-09-20 06:00:15"
+      "last_ingested_at": "2026-09-21 12:00:17"
     },
     {
       "url": "https://www.defense.gov/News/Releases/Release/Article/3728370/dod-releases-2024-dod-commercial-space-integration-strategy/",
@@ -590,27 +590,27 @@
     },
     {
       "url": "https://www.ft.com/content/fb5be0ff-5a5c-4006-98c5-2ddcfa3c1175",
-      "last_ingested_at": "2026-09-20 00:00:03"
+      "last_ingested_at": "2026-09-21 06:00:02"
     },
     {
       "url": "https://www.investors.com/news/blue-origin-nasa-mars-communications-contract-mtn-jeff-bezos/",
-      "last_ingested_at": "2026-09-20 00:00:02"
+      "last_ingested_at": "2026-09-21 06:00:02"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-receives-multi-million-dollar-orders-for-gaia-100-tri-band-ground-station-systems-through-newly-acquired-orbit",
-      "last_ingested_at": "2026-09-19 12:00:09"
+      "last_ingested_at": "2026-09-20 18:00:10"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-reports-fourth-quarter-and-full-year-2025-financial-results",
-      "last_ingested_at": "2026-09-20 06:00:11"
+      "last_ingested_at": "2026-09-21 12:00:13"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-reports-second-quarter-2026-financial-results",
-      "last_ingested_at": "2026-09-20 00:00:08"
+      "last_ingested_at": "2026-09-21 06:00:07"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-wins-20-million-contract-to-deliver-mobile-satcom-gateways-for-resilient-defense-network",
-      "last_ingested_at": "2026-09-19 12:00:09"
+      "last_ingested_at": "2026-09-20 18:00:10"
     },
     {
       "url": "https://www.l3harris.com/newsroom/editorial/2026/09/one-year-nts-3-delivering-future-resilient-pnt",
@@ -618,31 +618,31 @@
     },
     {
       "url": "https://www.l3harris.com/newsroom/press-release/2026/07/us-space-force-selects-l3harris-provide-advanced-tracking-satellites",
-      "last_ingested_at": "2026-09-19 18:00:07"
+      "last_ingested_at": "2026-09-21 00:00:07"
     },
     {
       "url": "https://www.l3harris.com/newsroom/press-release/2026/08/l3harris-celebrates-successful-launch-nasas-nancy-grace-roman-space",
-      "last_ingested_at": "2026-09-19 12:00:09"
+      "last_ingested_at": "2026-09-20 18:00:11"
     },
     {
       "url": "https://www.nasa.gov/commercial-lunar-payload-services/",
-      "last_ingested_at": "2026-09-20 06:00:11"
+      "last_ingested_at": "2026-09-21 12:00:14"
     },
     {
       "url": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
-      "last_ingested_at": "2026-09-20 06:00:12"
+      "last_ingested_at": "2026-09-21 12:00:14"
     },
     {
       "url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
-      "last_ingested_at": "2026-09-20 06:00:12"
+      "last_ingested_at": "2026-09-21 12:00:14"
     },
     {
       "url": "https://www.nasdaq.com/press-release/ast-spacemobile-provides-business-update-and-first-quarter-2026-results-2026-05-11",
-      "last_ingested_at": "2026-09-19 12:00:03"
+      "last_ingested_at": "2026-09-20 18:00:03"
     },
     {
       "url": "https://www.nasdaq.com/press-release/planet-reports-financial-results-fourth-quarter-and-full-fiscal-year-2026-2026-03-19",
-      "last_ingested_at": "2026-09-20 06:00:13"
+      "last_ingested_at": "2026-09-21 12:00:15"
     },
     {
       "url": "https://www.nro.gov/news-media-featured-stories/news-media-archive/News-Article/Article/3135765/nro-announces-largest-award-of-commercial-imagery-contracts/",
@@ -650,115 +650,131 @@
     },
     {
       "url": "https://www.planet.com/pulse/at-ted-robbie-schingler-explores-the-promise-of-planetary-intelligence/",
-      "last_ingested_at": "2026-09-19 12:00:05"
+      "last_ingested_at": "2026-09-20 18:00:05"
     },
     {
       "url": "https://www.planet.com/pulse/closing-the-management-gap-the-urgent-mandate-for-persistent-marine-monitoring/",
-      "last_ingested_at": "2026-09-19 12:00:06"
+      "last_ingested_at": "2026-09-20 18:00:06"
     },
     {
       "url": "https://www.planet.com/pulse/embracing-digital-transformation-in-africa-planet-and-the-government-of-rwanda-launch-national/",
-      "last_ingested_at": "2026-09-19 12:00:06"
+      "last_ingested_at": "2026-09-20 18:00:07"
     },
     {
       "url": "https://www.planet.com/pulse/how-can-i-access-integrate-and-use-satellite-imagery-in-my-workflows/",
-      "last_ingested_at": "2026-09-19 12:00:07"
+      "last_ingested_at": "2026-09-20 18:00:09"
     },
     {
       "url": "https://www.planet.com/pulse/how-do-earth-observation-analytics-detect-objects-changes-and-patterns-at-scale/",
-      "last_ingested_at": "2026-09-19 12:00:08"
+      "last_ingested_at": "2026-09-20 18:00:09"
     },
     {
       "url": "https://www.satellitetoday.com/connectivity/2026/08/31/viasat-3-f3-satellite-enters-service/",
-      "last_ingested_at": "2026-09-19 18:00:07"
+      "last_ingested_at": "2026-09-21 00:00:07"
     },
     {
       "url": "https://www.satellitetoday.com/connectivity/2026/09/08/att-business-expands-work-with-amazon-leo-for-resilient-connectivity/",
-      "last_ingested_at": "2026-09-19 12:00:05"
+      "last_ingested_at": "2026-09-20 18:00:05"
     },
     {
       "url": "https://www.satellitetoday.com/connectivity/2026/09/15/satellite-mobile-partnerships-for-d2d-multiply-but-key-questions-remain-unresolved/",
-      "last_ingested_at": "2026-09-20 06:00:15"
+      "last_ingested_at": "2026-09-21 12:00:17"
     },
     {
       "url": "https://www.satellitetoday.com/connectivity/2026/09/17/siriusxm-11-satellite-enters-service/",
-      "last_ingested_at": "2026-09-20 06:00:15"
+      "last_ingested_at": "2026-09-21 12:00:17"
     },
     {
       "url": "https://www.satellitetoday.com/connectivity/2026/09/18/nigcomsat-buys-jupiter-gateway-access-from-hughes-for-upcoming-2a-2b-satellites/",
-      "last_ingested_at": "2026-09-20 06:00:12"
+      "last_ingested_at": "2026-09-21 12:00:14"
     },
     {
       "url": "https://www.satellitetoday.com/finance/2026/09/04/planets-sovereign-wins-drive-nearly-60-revenue-growth-in-q2/",
-      "last_ingested_at": "2026-09-19 18:00:03"
+      "last_ingested_at": "2026-09-21 00:00:03"
     },
     {
       "url": "https://www.satellitetoday.com/imagery-and-sensing/2026/08/13/planet-labs-to-support-government-public-services-in-rwanda/",
-      "last_ingested_at": "2026-09-19 12:00:10"
+      "last_ingested_at": "2026-09-20 18:00:12"
     },
     {
       "url": "https://www.sda.mil/space-development-agency-successfully-completes-third-launch-of-tranche-1-satellites/",
       "last_ingested_at": "2026-09-20 12:00:08"
     },
     {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526342550/asts-20260630.htm",
+      "last_ingested_at": "2026-09-21 06:00:01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm",
+      "last_ingested_at": "2026-09-21 06:00:08"
+    },
+    {
       "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000027/rklb-05072026ex991.htm",
-      "last_ingested_at": "2026-09-20 06:00:14"
+      "last_ingested_at": "2026-09-21 12:00:17"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm",
-      "last_ingested_at": "2026-09-19 18:00:03"
+      "last_ingested_at": "2026-09-21 00:00:03"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm",
+      "last_ingested_at": "2026-09-21 06:00:08"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1844452/000162828026056821/lunr-20260630.htm",
+      "last_ingested_at": "2026-09-21 06:00:06"
     },
     {
       "url": "https://www.space.com/astronomy/venus/rocket-issues-delay-1st-ever-private-mission-to-venus-we-are-awaiting-neutron-readiness",
-      "last_ingested_at": "2026-09-20 06:00:14"
+      "last_ingested_at": "2026-09-21 12:00:16"
     },
     {
       "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-japanese-earth-observing-satellite-after-5-week-delay-video-photos",
-      "last_ingested_at": "2026-09-20 06:00:14"
+      "last_ingested_at": "2026-09-21 12:00:17"
     },
     {
       "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-mystery-satellite-to-orbit-for-secret-customer-photo",
-      "last_ingested_at": "2026-09-20 00:00:11"
+      "last_ingested_at": "2026-09-21 06:00:09"
     },
     {
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-ast-spacemobile-11-13-direct-to-cell-satellites",
-      "last_ingested_at": "2026-09-19 18:00:06"
+      "last_ingested_at": "2026-09-21 00:00:06"
     },
     {
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink/group-15-24-launch-ocisly",
-      "last_ingested_at": "2026-09-20 06:00:17"
+      "last_ingested_at": "2026-09-21 12:00:18"
     },
     {
       "url": "https://www.space.com/space-exploration/launches-spacecraft/watch-rocket-lab-launch-japanese-radar-satellite-to-orbit-early-aug-31",
-      "last_ingested_at": "2026-09-19 18:00:04"
+      "last_ingested_at": "2026-09-21 00:00:04"
     },
     {
       "url": "https://www.space.com/space-exploration/missions/rocket-lab-protests-nasas-decision-to-award-blue-origin-usd700-million-mars-orbiter-contract",
-      "last_ingested_at": "2026-09-20 00:00:11"
+      "last_ingested_at": "2026-09-21 06:00:10"
     },
     {
       "url": "https://www.space.com/space-exploration/satellites/us-space-force-gives-rocket-lab-usd397-million-to-build-threat-tracking-flatellites",
-      "last_ingested_at": "2026-09-20 06:00:18"
+      "last_ingested_at": "2026-09-21 12:00:20"
     },
     {
       "url": "https://www.spaceintelreport.com/ast-spacemobile-beta-d2d-commercial-service-in-us-should-start-this-year-for-half-day-coverage-continuous-service-in-2027/",
-      "last_ingested_at": "2026-09-19 12:00:04"
+      "last_ingested_at": "2026-09-20 18:00:05"
     },
     {
       "url": "https://www.spaceintelreport.com/firefly-forecasts-435m-in-revenue-this-year-launchers-10-of-it-no-mention-of-24-satellite-open-cosmos-launch-deal/",
-      "last_ingested_at": "2026-09-19 12:00:07"
+      "last_ingested_at": "2026-09-20 18:00:08"
     },
     {
       "url": "https://www.spaceintelreport.com/viasat-we-have-291m-in-satellite-manufacturing-payments-to-2031-and-510m-in-capacity-leases-on-other-satellites/",
-      "last_ingested_at": "2026-09-19 12:00:12"
+      "last_ingested_at": "2026-09-20 18:00:16"
     },
     {
       "url": "https://www.spacelaunchschedule.com/space-news/intuitive-machines-wins-contract-for-three-geo-satellites/",
-      "last_ingested_at": "2026-09-20 00:00:08"
+      "last_ingested_at": "2026-09-21 06:00:06"
     },
     {
       "url": "https://www.viasat.com/news/latest-news/corporate/2025/viasat-releases-fourth-quarter-and-fiscal-year-2025-financial-re/",
-      "last_ingested_at": "2026-09-20 06:00:19"
+      "last_ingested_at": "2026-09-21 12:00:20"
     }
   ]
 }
