@@ -1,0 +1,18 @@
+id: clm_quantum_comput_from_error_mitigation_to_fault_tolerant
+type: claim
+theme_id: quantum-computing
+claim: "On 2026-09-15, IBM Quantum stated that its quantum error-correction continuum includes hybrid QEC/QEM methods, conditional quantum error correction, and hierarchical quantum error correction, with IBM Quantum Platform, Qiskit, Qiskit Paulice, and IBM Quantum Compute Service providing access to related tooling. IBM cited a 2026 Martiel et al. demonstration encoding 64 logical qubits in spacetime codes using 76 physical qubits and 314 T gates, producing roughly a 10x effective gate-error-rate improvement after syndrome post-selection for a circuit with 2,336 CZ gates."
+category: technical
+source_ids:
+  - src_quantum_computin_the_continuous_path_from_error_mitigatio
+date_of_evidence: "2026-09-15"
+evidence_at: "2026-09-15"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
