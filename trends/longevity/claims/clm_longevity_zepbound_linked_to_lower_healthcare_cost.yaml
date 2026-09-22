@@ -1,0 +1,18 @@
+id: clm_longevity_zepbound_linked_to_lower_healthcare_cost
+type: claim
+theme_id: longevity
+claim: "Eli Lilly and Company announced on August 26, 2026 that a retrospective Komodo Healthcare Map claims study of 15,843 U.S. adults over age 55 using Zepbound from November 2023 to September 2025 found lower monthly healthcare costs excluding Zepbound costs versus matched untreated controls. The study reported cost differences of $145-$181 per patient per month at six months and $319-$607 per patient per month at 12 months, with lower hospital admissions and emergency department visits among Zepbound users in the primary analysis."
+category: corporate
+source_ids:
+  - src_longevity_zepbound_linked_to_lower_healthcare_cost
+date_of_evidence: "2026-08-26"
+evidence_at: "2026-08-26"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

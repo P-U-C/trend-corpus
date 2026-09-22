@@ -1,0 +1,18 @@
+id: clm_bitcoin_mining_title_unmatched_8_k
+type: claim
+theme_id: bitcoin-mining
+claim: "CleanSpark, Inc. reported that on September 17, 2026, its wholly owned indirect subsidiary CSDC Finance I, LLC intended to offer $2.227 billion aggregate principal amount of senior secured notes due 2031 in a private Rule 144A and Regulation S offering. The Form 8-K also states CleanSpark furnished illustrative financial and other information of CSDC Finance I, LLC as Exhibit 99.1 and filed the September 17, 2026 press release announcing the offering as Exhibit 99.2."
+category: capital
+source_ids:
+  - src_bitcoin_mining_cleanspark_inc_form_8_k
+date_of_evidence: "2026-09-17"
+evidence_at: "2026-09-17"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
