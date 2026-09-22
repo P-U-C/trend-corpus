@@ -1,0 +1,18 @@
+id: clm_biomechanics_wetour_robotics_demonstrates_semg_vision
+type: claim
+theme_id: biomechanics
+claim: "On September 1, 2026, Wetour Robotics Limited (NASDAQ: WETO) released a development demonstration of Orchestra combining Conductor, an 8-channel sEMG wristband, with VisionLink, a first-person camera, to capture synchronized hand movement, muscle activity, effort and action timing for robot-learning demonstrations. Wetour reported that in an internal carrying task its vision-only pipeline failed to locate the hand in 21.8% of frames, with a longest continuous dropout of 4.32 seconds, and that its current on-device model outputs 20 joint angles from a one-second sEMG window processed in 50.4 milliseconds with zero lookahead."
+category: technical
+source_ids:
+  - src_biomechanics_wetour_robotics_demonstrates_semg_vision
+date_of_evidence: "2026-09-01"
+evidence_at: "2026-09-01"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
