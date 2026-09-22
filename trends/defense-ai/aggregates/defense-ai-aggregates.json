@@ -1,82 +1,82 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-09-21T13:34:01Z",
+  "generated_at": "2026-09-22T13:34:02Z",
   "theme_id": "defense-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 16447,
-  "underlying_source_count": 123,
+  "underlying_claim_count": 17305,
+  "underlying_source_count": 127,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 4675,
+      "claims_total": 5113,
       "claims_by_category": {
-        "corporate": 2823,
-        "research": 830,
-        "regulatory": 418,
-        "market": 207,
-        "manufacturing": 370,
-        "supply": 27
+        "corporate": 3093,
+        "market": 224,
+        "research": 896,
+        "manufacturing": 410,
+        "regulatory": 461,
+        "supply": 29
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 2124
+          "mentions": 2324
         },
         {
           "slug": "palantir",
-          "mentions": 517
-        },
-        {
-          "slug": "booz_allen",
-          "mentions": 496
+          "mentions": 565
         },
         {
           "slug": "aerovironment",
-          "mentions": 486
+          "mentions": 532
+        },
+        {
+          "slug": "booz_allen",
+          "mentions": 519
         },
         {
           "slug": "anduril",
-          "mentions": 404
+          "mentions": 446
         },
         {
           "slug": "lockheed_martin",
-          "mentions": 309
+          "mentions": 337
         },
         {
           "slug": "leidos",
-          "mentions": 304
+          "mentions": 320
         },
         {
           "slug": "kratos",
-          "mentions": 203
+          "mentions": 217
         },
         {
           "slug": "l3harris",
-          "mentions": 156
+          "mentions": 174
         },
         {
           "slug": "skydio",
-          "mentions": 145
+          "mentions": 157
         },
         {
           "slug": "shield_ai",
-          "mentions": 124
+          "mentions": 136
         },
         {
           "slug": "hermeus",
-          "mentions": 108
-        },
-        {
-          "slug": "northrop_grumman",
-          "mentions": 104
+          "mentions": 124
         },
         {
           "slug": "pacific_defense",
-          "mentions": 98
+          "mentions": 111
+        },
+        {
+          "slug": "northrop_grumman",
+          "mentions": 110
         },
         {
           "slug": "ustranscom",
@@ -84,7 +84,7 @@
         },
         {
           "slug": "smack_technologies",
-          "mentions": 73
+          "mentions": 84
         },
         {
           "slug": "sandboxaq",
@@ -92,165 +92,165 @@
         },
         {
           "slug": "perceptronics_solutions",
-          "mentions": 64
+          "mentions": 67
+        },
+        {
+          "slug": "vantor",
+          "mentions": 63
         },
         {
           "slug": "boeing",
           "mentions": 57
-        },
-        {
-          "slug": "vantor",
-          "mentions": 55
         }
       ]
     },
     "90d": {
-      "claims_total": 13881,
+      "claims_total": 14661,
       "claims_by_category": {
-        "corporate": 8719,
-        "research": 2245,
-        "regulatory": 1060,
-        "market": 615,
-        "manufacturing": 1173,
-        "supply": 69
+        "corporate": 9220,
+        "market": 637,
+        "research": 2372,
+        "manufacturing": 1235,
+        "regulatory": 1126,
+        "supply": 71
       },
       "top_entities": [
         {
           "slug": "dod",
-          "mentions": 4467
+          "mentions": 4746
         },
         {
           "slug": "kratos",
-          "mentions": 1339
-        },
-        {
-          "slug": "aerovironment",
-          "mentions": 1214
-        },
-        {
-          "slug": "lockheed_martin",
-          "mentions": 1193
-        },
-        {
-          "slug": "palantir",
-          "mentions": 1136
-        },
-        {
-          "slug": "booz_allen",
-          "mentions": 938
-        },
-        {
-          "slug": "anduril",
-          "mentions": 792
-        },
-        {
-          "slug": "leidos",
-          "mentions": 745
-        },
-        {
-          "slug": "saildrone",
-          "mentions": 563
-        },
-        {
-          "slug": "northrop_grumman",
-          "mentions": 441
-        },
-        {
-          "slug": "shield_ai",
-          "mentions": 435
-        },
-        {
-          "slug": "axon",
-          "mentions": 328
-        },
-        {
-          "slug": "caci",
-          "mentions": 283
-        },
-        {
-          "slug": "boeing",
-          "mentions": 281
-        },
-        {
-          "slug": "agile_defense",
-          "mentions": 238
-        },
-        {
-          "slug": "saic",
-          "mentions": 236
-        },
-        {
-          "slug": "l3harris",
-          "mentions": 208
-        },
-        {
-          "slug": "doe",
-          "mentions": 202
-        },
-        {
-          "slug": "skydio",
-          "mentions": 145
-        },
-        {
-          "slug": "nga",
-          "mentions": 145
-        }
-      ]
-    },
-    "365d": {
-      "claims_total": 15648,
-      "claims_by_category": {
-        "corporate": 9802,
-        "research": 2387,
-        "regulatory": 1276,
-        "market": 760,
-        "manufacturing": 1345,
-        "supply": 78
-      },
-      "top_entities": [
-        {
-          "slug": "dod",
-          "mentions": 5163
-        },
-        {
-          "slug": "kratos",
-          "mentions": 1598
-        },
-        {
-          "slug": "aerovironment",
           "mentions": 1374
         },
         {
           "slug": "lockheed_martin",
-          "mentions": 1248
+          "mentions": 1279
+        },
+        {
+          "slug": "aerovironment",
+          "mentions": 1267
         },
         {
           "slug": "palantir",
-          "mentions": 1182
+          "mentions": 1215
         },
         {
           "slug": "booz_allen",
-          "mentions": 991
-        },
-        {
-          "slug": "leidos",
-          "mentions": 974
+          "mentions": 972
         },
         {
           "slug": "anduril",
-          "mentions": 835
+          "mentions": 850
+        },
+        {
+          "slug": "leidos",
+          "mentions": 776
         },
         {
           "slug": "saildrone",
-          "mentions": 575
-        },
-        {
-          "slug": "northrop_grumman",
-          "mentions": 467
+          "mentions": 614
         },
         {
           "slug": "shield_ai",
-          "mentions": 443
+          "mentions": 468
+        },
+        {
+          "slug": "northrop_grumman",
+          "mentions": 465
+        },
+        {
+          "slug": "axon",
+          "mentions": 328
+        },
+        {
+          "slug": "caci",
+          "mentions": 304
+        },
+        {
+          "slug": "boeing",
+          "mentions": 297
+        },
+        {
+          "slug": "agile_defense",
+          "mentions": 250
+        },
+        {
+          "slug": "saic",
+          "mentions": 247
+        },
+        {
+          "slug": "l3harris",
+          "mentions": 230
+        },
+        {
+          "slug": "doe",
+          "mentions": 206
+        },
+        {
+          "slug": "skydio",
+          "mentions": 157
+        },
+        {
+          "slug": "xtend",
+          "mentions": 150
+        }
+      ]
+    },
+    "365d": {
+      "claims_total": 16485,
+      "claims_by_category": {
+        "corporate": 10337,
+        "market": 785,
+        "research": 2519,
+        "manufacturing": 1415,
+        "regulatory": 1347,
+        "supply": 82
+      },
+      "top_entities": [
+        {
+          "slug": "dod",
+          "mentions": 5461
+        },
+        {
+          "slug": "kratos",
+          "mentions": 1640
+        },
+        {
+          "slug": "aerovironment",
+          "mentions": 1434
+        },
+        {
+          "slug": "lockheed_martin",
+          "mentions": 1336
+        },
+        {
+          "slug": "palantir",
+          "mentions": 1263
+        },
+        {
+          "slug": "booz_allen",
+          "mentions": 1025
+        },
+        {
+          "slug": "leidos",
+          "mentions": 1013
+        },
+        {
+          "slug": "anduril",
+          "mentions": 896
+        },
+        {
+          "slug": "saildrone",
+          "mentions": 629
+        },
+        {
+          "slug": "northrop_grumman",
+          "mentions": 491
+        },
+        {
+          "slug": "shield_ai",
+          "mentions": 476
         },
         {
           "slug": "axon",
@@ -258,35 +258,35 @@
         },
         {
           "slug": "boeing",
-          "mentions": 304
+          "mentions": 322
         },
         {
           "slug": "saic",
-          "mentions": 292
+          "mentions": 306
         },
         {
           "slug": "caci",
-          "mentions": 283
+          "mentions": 304
         },
         {
           "slug": "agile_defense",
-          "mentions": 238
+          "mentions": 250
         },
         {
           "slug": "l3harris",
-          "mentions": 209
+          "mentions": 231
         },
         {
           "slug": "doe",
-          "mentions": 204
+          "mentions": 208
         },
         {
           "slug": "skydio",
-          "mentions": 145
+          "mentions": 157
         },
         {
-          "slug": "nga",
-          "mentions": 145
+          "slug": "xtend",
+          "mentions": 150
         }
       ]
     }
@@ -294,71 +294,71 @@
   "source_freshness": [
     {
       "url": "https://breakingdefense.com/",
-      "last_ingested_at": "2026-09-20 18:00:34"
+      "last_ingested_at": "2026-09-22 00:00:10"
     },
     {
       "url": "https://breakingdefense.com/2026/08/new-white-house-strategy-clarifies-military-tech-priorities-undersea-outer-space-and-ai/",
-      "last_ingested_at": "2026-09-21 00:00:05"
+      "last_ingested_at": "2026-09-22 06:00:08"
     },
     {
       "url": "https://breakingdefense.com/2026/09/dataminr-ai-tech-to-go-live-on-nato-maven-system-ceo/",
-      "last_ingested_at": "2026-09-21 00:00:02"
+      "last_ingested_at": "2026-09-22 06:00:04"
     },
     {
       "url": "https://breakingdefense.com/2026/09/hermeus-picks-anduril-autonomy-for-quarterhorse-drone/",
-      "last_ingested_at": "2026-09-21 00:00:04"
+      "last_ingested_at": "2026-09-22 06:00:05"
     },
     {
       "url": "https://cpeisw.army.mil/2026/09/01/army-announces-move-to-production-for-titan/",
-      "last_ingested_at": "2026-09-20 12:00:04"
+      "last_ingested_at": "2026-09-21 18:00:03"
     },
     {
       "url": "https://defensescoop.com/2026/09/01/army-titan-platform-production-awards-palantir-anduril/",
-      "last_ingested_at": "2026-09-20 18:00:32"
+      "last_ingested_at": "2026-09-22 00:00:08"
     },
     {
       "url": "https://defensescoop.com/2026/09/02/army-awards-aerovironment-nearly-500m-contract-laser-weapons/",
-      "last_ingested_at": "2026-09-20 12:00:04"
+      "last_ingested_at": "2026-09-21 18:00:03"
     },
     {
       "url": "https://defensescoop.com/2026/09/04/us-navy-quad-partners-fingerprint-dark-fleets-pacific-vantor-ai/",
-      "last_ingested_at": "2026-09-21 00:00:10"
+      "last_ingested_at": "2026-09-22 06:00:13"
     },
     {
       "url": "https://defensescoop.com/2026/09/14/pentagon-sets-procedures-for-ai-assisted-software-development/",
-      "last_ingested_at": "2026-09-20 12:00:08"
+      "last_ingested_at": "2026-09-21 18:00:10"
     },
     {
       "url": "https://defensescoop.com/2026/09/16/air-force-megatron-idiq-fast-track-daf-battle-network-acquisitions/",
-      "last_ingested_at": "2026-09-21 12:00:01"
+      "last_ingested_at": "2026-09-22 12:00:16"
     },
     {
       "url": "https://defensescoop.com/2026/09/16/gen-dan-caine-drones-autonomous-systems-ai-enabled-warfare/",
-      "last_ingested_at": "2026-09-21 06:00:10"
+      "last_ingested_at": "2026-09-22 12:00:23"
     },
     {
       "url": "https://defensescoop.com/2026/09/18/drone-dominance-program-gauntlet-2-results/",
-      "last_ingested_at": "2026-09-21 06:00:18"
+      "last_ingested_at": "2026-09-22 12:00:30"
     },
     {
       "url": "https://federalnewsnetwork.com/contracting/2026/08/pentagon-wants-to-spend-millions-on-palantir-with-few-details/",
-      "last_ingested_at": "2026-09-20 12:00:10"
+      "last_ingested_at": "2026-09-21 18:00:10"
     },
     {
       "url": "https://insidedefense.com/daily-news/pentagon-proposes-15b-funding-shift-support-ai-push-epic-fury-priorities",
-      "last_ingested_at": "2026-09-21 00:00:08"
+      "last_ingested_at": "2026-09-22 06:00:11"
     },
     {
       "url": "https://insidedefense.com/insider/sea-machines-robotics-awarded-idiq-contract-autonomy-kits",
-      "last_ingested_at": "2026-09-21 00:00:09"
+      "last_ingested_at": "2026-09-22 06:00:12"
     },
     {
       "url": "https://investor.avinc.com/",
-      "last_ingested_at": "2026-09-21 12:00:01"
+      "last_ingested_at": "2026-09-22 12:00:02"
     },
     {
       "url": "https://investor.avinc.com/news-releases/news-release-details/av-secures-first-international-order-locustr-directed-energy",
-      "last_ingested_at": "2026-09-21 00:00:02"
+      "last_ingested_at": "2026-09-22 06:00:04"
     },
     {
       "url": "https://investor.axon.com/2026-08-05-Axon-reports-Q2-2026-revenue-of-904-million,-up-35-year-over-year",
@@ -366,27 +366,27 @@
     },
     {
       "url": "https://investor.caci.com/2026-07-30-CACI-Secures-500M-C-UAS-IDIQ-Contract-SkyValor-Selected-as-First-Task-Order-for-JIATF-401s-Domestic-Shield-Effort",
-      "last_ingested_at": "2026-09-20 18:00:34"
+      "last_ingested_at": "2026-09-22 00:00:10"
     },
     {
       "url": "https://investor.caci.com/2026-08-17-CACI-Selected-to-Strengthen-and-Modernize-Technology-Architectures-for-U-S-Space-Force-Guardians",
-      "last_ingested_at": "2026-09-20 18:00:35"
+      "last_ingested_at": "2026-09-22 00:00:10"
     },
     {
       "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-charts-autonomous-ai-threats-and-unveils-new-counter",
-      "last_ingested_at": "2026-09-20 12:00:05"
+      "last_ingested_at": "2026-09-21 18:00:04"
     },
     {
       "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-completes-acquisition-ultra-ic-mission-solutions",
-      "last_ingested_at": "2026-09-20 18:00:33"
+      "last_ingested_at": "2026-09-22 00:00:10"
     },
     {
       "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-expands-mission-grade-cyber-defense-product-suite",
-      "last_ingested_at": "2026-09-20 18:00:34"
+      "last_ingested_at": "2026-09-22 00:00:10"
     },
     {
       "url": "https://investors.leidos.com/",
-      "last_ingested_at": "2026-09-20 18:00:39"
+      "last_ingested_at": "2026-09-22 00:00:16"
     },
     {
       "url": "https://investors.leidos.com/news-releases/news-release-details/c-o-r-r-e-c-t-i-o-n-leidos-holdings-inc",
@@ -394,19 +394,19 @@
     },
     {
       "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-autonomy-earns-its-place-rimpac-and-carrier-strike-group",
-      "last_ingested_at": "2026-09-21 06:00:12"
+      "last_ingested_at": "2026-09-22 12:00:24"
     },
     {
       "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-strengthen-cyber-defenses-across-department-war-networks",
-      "last_ingested_at": "2026-09-20 18:00:39"
+      "last_ingested_at": "2026-09-22 00:00:16"
     },
     {
       "url": "https://investors.palantir.com/",
-      "last_ingested_at": "2026-09-20 18:00:40"
+      "last_ingested_at": "2026-09-22 00:00:17"
     },
     {
       "url": "https://investors.saic.com/news-releases/news-release-details/saic-wins-400-million-recompete-contract-us-intelligence-agency",
-      "last_ingested_at": "2026-09-21 00:00:09"
+      "last_ingested_at": "2026-09-22 06:00:11"
     },
     {
       "url": "https://ir.jobyaviation.com/news-events/press-releases/detail/192/joby-completes-first-ever-fully-autonomous-flight-across",
@@ -414,27 +414,27 @@
     },
     {
       "url": "https://ir.kratosdefense.com/",
-      "last_ingested_at": "2026-09-20 18:00:38"
+      "last_ingested_at": "2026-09-22 00:00:15"
     },
     {
       "url": "https://militaryembedded.com/ai/machine-learning/sosa-aligned-aiml-electronic-warfare-systems-win-new-usaf-contract",
-      "last_ingested_at": "2026-09-20 12:00:10"
+      "last_ingested_at": "2026-09-21 18:00:11"
     },
     {
       "url": "https://news.lockheedmartin.com/2026-08-05-Lockheed-Martin-and-US-Navy-Demonstrate-AI-Powered-Submarine-Hunter-at-RIMPAC-2026",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:09"
     },
     {
       "url": "https://news.lockheedmartin.com/2026-08-20-Lockheed-Martin-and-Saildrone-Demonstrate-Launch-from-USV-Platform",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:09"
     },
     {
       "url": "https://news.lockheedmartin.com/2026-08-26-Lockheed-Martin-Showcases-AI-Driven-IAMD-Battle-Management-Prototype-for-Guam-Defense-System",
-      "last_ingested_at": "2026-09-21 00:00:05"
+      "last_ingested_at": "2026-09-22 06:00:07"
     },
     {
       "url": "https://news.lockheedmartin.com/2026-09-16-Lockheed-Martin-Demonstrates-Legion-Sensor-System-with-Pod-to-Pod-Data-Link",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:09"
     },
     {
       "url": "https://news.northropgrumman.com/autonomous-systems/northrop-grumman-lumberjack-quantum-enabled-flight-capabilities-advance-warfighter-missions",
@@ -442,11 +442,11 @@
     },
     {
       "url": "https://news.northropgrumman.com/missiles/northrop-grumman-introduces-raid-hunter-next-generation-gun-based-air-defense-system",
-      "last_ingested_at": "2026-09-20 18:00:40"
+      "last_ingested_at": "2026-09-22 00:00:16"
     },
     {
       "url": "https://news.northropgrumman.com/triton/tech-demo-proves-out-mq-4c-triton-and-p-8-poseidon-enhanced-interoperability",
-      "last_ingested_at": "2026-09-20 18:00:41"
+      "last_ingested_at": "2026-09-22 00:00:18"
     },
     {
       "url": "https://news.usni.org/2026/07/15/blue-water-autonomy-saildrone-sue-navy-over-musv-rejection",
@@ -454,39 +454,47 @@
     },
     {
       "url": "https://shield.ai/news/",
-      "last_ingested_at": "2026-09-21 00:00:10"
+      "last_ingested_at": "2026-09-22 06:00:12"
     },
     {
       "url": "https://shield.ai/shield-ai-and-taiwans-ncsist-complete-autonomous-swarm-exercise-and-expand-sovereign-ai-and-autonomy-efforts/",
-      "last_ingested_at": "2026-09-20 12:00:10"
+      "last_ingested_at": "2026-09-21 18:00:11"
     },
     {
       "url": "https://shield.ai/shield-ai-expands-tracker-c-uas-integration-with-l3harris-vampire/",
-      "last_ingested_at": "2026-09-20 12:00:10"
+      "last_ingested_at": "2026-09-21 18:00:11"
     },
     {
       "url": "https://smacktechnologies.com/journal/omega-demo-smack-campaign-planning-minutes",
-      "last_ingested_at": "2026-09-20 18:00:40"
+      "last_ingested_at": "2026-09-22 00:00:17"
     },
     {
       "url": "https://smacktechnologies.com/journal/smack-series-b-intelligent-autonomy",
-      "last_ingested_at": "2026-09-20 18:00:32"
+      "last_ingested_at": "2026-09-22 00:00:08"
     },
     {
       "url": "https://thedefensepost.com/2026/09/09/kawasaki-edgecortix-ai-aerial-defense/",
-      "last_ingested_at": "2026-09-21 06:00:11"
+      "last_ingested_at": "2026-09-22 12:00:23"
     },
     {
       "url": "https://thedefensepost.com/2026/09/16/us-army-ai-logistics-yama-sakura/",
-      "last_ingested_at": "2026-09-20 18:00:43"
+      "last_ingested_at": "2026-09-22 00:00:20"
+    },
+    {
+      "url": "https://thedefensepost.com/2026/09/18/overwatch-patrol-soldier-tracking/",
+      "last_ingested_at": "2026-09-22 06:00:13"
+    },
+    {
+      "url": "https://thedefensepost.com/2026/09/18/wingcopter-vtol-drone/",
+      "last_ingested_at": "2026-09-22 06:00:02"
     },
     {
       "url": "https://warontherocks.com/",
-      "last_ingested_at": "2026-09-21 00:00:12"
+      "last_ingested_at": "2026-09-22 06:00:14"
     },
     {
       "url": "https://www.aeye.ai/press-releases/aeye-to-work-with-swiftstrike-ai-to-integrate-stratos-lidar-to-extend-counter-uas-detection-against-smaller-faster-drone-threats/",
-      "last_ingested_at": "2026-09-21 06:00:02"
+      "last_ingested_at": "2026-09-22 12:00:03"
     },
     {
       "url": "https://www.airandspaceforces.com/air-force-cca-drones-large-scale-exercise-fly-emerald-flag/",
@@ -510,7 +518,7 @@
     },
     {
       "url": "https://www.avinc.com/2026/08/20/aerovironment-to-establish-industrial-presence-in-greece-through-av-eagle/",
-      "last_ingested_at": "2026-09-21 06:00:02"
+      "last_ingested_at": "2026-09-22 12:00:03"
     },
     {
       "url": "https://www.avinc.com/2026/08/26/av-receives-51-million-u-s-army-order-for-switchblade-600-loitering-munitions/",
@@ -518,19 +526,23 @@
     },
     {
       "url": "https://www.avinc.com/2026/09/02/avs-locust-selected-for-nearly-500-million-army-counter-uas-contract-for-enduring-high-energy-laser-e-hel-program/",
-      "last_ingested_at": "2026-09-21 06:00:08"
+      "last_ingested_at": "2026-09-22 12:00:18"
     },
     {
       "url": "https://www.axios.com/2026/09/02/army-palantir-titan-anduril-ai",
-      "last_ingested_at": "2026-09-21 06:00:07"
+      "last_ingested_at": "2026-09-22 12:00:17"
     },
     {
       "url": "https://www.axios.com/2026/09/16/air-force-drones-anduril-swarm-lockheed",
-      "last_ingested_at": "2026-09-20 12:00:06"
+      "last_ingested_at": "2026-09-21 18:00:05"
+    },
+    {
+      "url": "https://www.baesystems.com/en/article/bae-systems-launches-shadow-ew-compact-electronic-warfare-solutions",
+      "last_ingested_at": "2026-09-22 06:00:04"
     },
     {
       "url": "https://www.bis.gov/regulations/export-administration-regulations-ear/emerging-and-foundational-technologies",
-      "last_ingested_at": "2026-09-20 18:00:33"
+      "last_ingested_at": "2026-09-22 00:00:09"
     },
     {
       "url": "https://www.businessinsider.com/us-army-betting-on-ai-navigation-vehicles-when-gps-jammed-2026-9",
@@ -542,31 +554,31 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260806302133/en/Palladyne-AI-Reports-Second-Quarter-2026-Results",
-      "last_ingested_at": "2026-09-20 18:00:40"
+      "last_ingested_at": "2026-09-22 00:00:17"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260806389322/en/Palladyne-AIs-SwarmOS-Successfully-Performs-Again-at-Armys-Premier-Division-Scale-Test-of-Future-Warfare",
-      "last_ingested_at": "2026-09-21 06:00:18"
+      "last_ingested_at": "2026-09-22 12:00:29"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260818589412/en/AEVEX-Awarded-$41-Million-Contract-to-Deliver-One-Way-Attack-Systems",
-      "last_ingested_at": "2026-09-21 06:00:02"
+      "last_ingested_at": "2026-09-22 12:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260824268423/en/Palladyne-AI-and-NORDA-Dynamics-to-Integrate-SwarmOS-Collaborative-Autonomy-Software-with-NORDAs-Combat-Proven-Underdog-Autonomy-Module",
-      "last_ingested_at": "2026-09-21 06:00:18"
+      "last_ingested_at": "2026-09-22 12:00:29"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260901157594/en/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U.S.-Army",
-      "last_ingested_at": "2026-09-21 06:00:18"
+      "last_ingested_at": "2026-09-22 12:00:29"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260902820178/en/EdgeCortix-Signs-Multi-Year-Multimillion-Dollar-Agreement-with-Kawasaki-Heavy-Industries-to-Advance-Next-Generation-AI-Enabled-Aerial-Defense-Systems",
-      "last_ingested_at": "2026-09-20 18:00:37"
+      "last_ingested_at": "2026-09-22 00:00:14"
     },
     {
       "url": "https://www.darpa.mil/news",
-      "last_ingested_at": "2026-09-20 18:00:36"
+      "last_ingested_at": "2026-09-22 00:00:11"
     },
     {
       "url": "https://www.defense.gov/News/Contracts/",
@@ -582,35 +594,35 @@
     },
     {
       "url": "https://www.defensenews.com/",
-      "last_ingested_at": "2026-09-20 18:00:36"
+      "last_ingested_at": "2026-09-22 00:00:12"
     },
     {
       "url": "https://www.defenseone.com/defense-systems/2026/07/anduril-pitches-robot-wingman-us-army-helicopters/414868/",
-      "last_ingested_at": "2026-09-20 18:00:32"
+      "last_ingested_at": "2026-09-22 00:00:08"
     },
     {
       "url": "https://www.defenseone.com/defense-systems/2026/07/cca-usaf-robot-wingman/415093/",
-      "last_ingested_at": "2026-09-21 00:00:11"
+      "last_ingested_at": "2026-09-22 06:00:14"
     },
     {
       "url": "https://www.defenseone.com/technology/2026/08/pentagon-counterdrone-task-force-has-new-ai-powered-marketplace/415216/",
-      "last_ingested_at": "2026-09-21 00:00:07"
+      "last_ingested_at": "2026-09-22 06:00:10"
     },
     {
       "url": "https://www.dvidshub.net/news/574070/daf-accelerates-joint-c2-with-ai-space-force-integration-latest-dash-experiment",
-      "last_ingested_at": "2026-09-20 18:00:35"
+      "last_ingested_at": "2026-09-22 00:00:11"
     },
     {
       "url": "https://www.executivebiz.com/articles/booz-allen-hamilton-ustranscom-trac2es",
-      "last_ingested_at": "2026-09-20 12:00:11"
+      "last_ingested_at": "2026-09-21 18:00:11"
     },
     {
       "url": "https://www.executivebiz.com/articles/gdit-openai-secure-ai-federal",
-      "last_ingested_at": "2026-09-20 12:00:06"
+      "last_ingested_at": "2026-09-21 18:00:07"
     },
     {
       "url": "https://www.executivebiz.com/articles/lockheed-martin-guam-defense-system-battle-manager-prototype-demo",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:09"
     },
     {
       "url": "https://www.executivegov.com/articles/nga-mojave-bridge-contracts-incumbents-booz-caci-mantech-saic",
@@ -618,11 +630,11 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/04/3338770/224/en/Kratos-Reports-Second-Quarter-2026-Financial-Results.html",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:09"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/17/3346469/0/en/xtend-secures-multi-year-contract-valued-at-up-to-15-million-with-european-nato-member-ministry-of-defense-as-allied-militaries-shift-away-from-chinese-made-drones.html",
-      "last_ingested_at": "2026-09-21 06:00:19"
+      "last_ingested_at": "2026-09-22 12:00:30"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/18/3346686/224/en/usmc-valkyrie-demonstrates-beyond-line-of-sight-command-and-control-in-flight-at-u-s-navy-test-range.html",
@@ -630,27 +642,27 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/31/3353162/224/en/kratos-receives-35-million-national-security-related-military-grade-hardware-production-program-award.html",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:08"
     },
     {
       "url": "https://www.govconwire.com/articles/booz-allen-720m-ultra-ic-mission-solutions-close",
-      "last_ingested_at": "2026-09-21 06:00:08"
+      "last_ingested_at": "2026-09-22 12:00:20"
     },
     {
       "url": "https://www.govconwire.com/articles/kratos-doe-nnsa-156m-solar-shield-c-uas-contract",
-      "last_ingested_at": "2026-09-21 06:00:11"
+      "last_ingested_at": "2026-09-22 12:00:23"
     },
     {
       "url": "https://www.govconwire.com/articles/palantir-anduril-army-titan-192m-production-orders",
-      "last_ingested_at": "2026-09-20 12:00:08"
+      "last_ingested_at": "2026-09-21 18:00:10"
     },
     {
       "url": "https://www.govconwire.com/articles/saic-recomepete-contract-intel-agency",
-      "last_ingested_at": "2026-09-21 06:00:18"
+      "last_ingested_at": "2026-09-22 12:00:30"
     },
     {
       "url": "https://www.govconwire.com/articles/space-force-981m-space-test-training-idiq-award",
-      "last_ingested_at": "2026-09-20 12:00:11"
+      "last_ingested_at": "2026-09-21 18:00:11"
     },
     {
       "url": "https://www.kratosdefense.com/newsroom/kratos-receives-mobile-counter-unmanned-aircraft-system-c-uas-approximate-156-million-single-award-contract-by-u-s-department-of-energy-office-of-secure-transportation",
@@ -658,39 +670,43 @@
     },
     {
       "url": "https://www.leidos.com/insights/leidos-introduces-new-ai-platform-find-fix-cybersecurity-vulnerabilities",
-      "last_ingested_at": "2026-09-21 00:00:05"
+      "last_ingested_at": "2026-09-22 06:00:06"
     },
     {
       "url": "https://www.lockheedmartin.com/en-us/news/features/2026/Delivering-AI-at-the-Speed-of-Relevance-in-Defense.html",
-      "last_ingested_at": "2026-09-21 00:00:05"
+      "last_ingested_at": "2026-09-22 06:00:08"
     },
     {
       "url": "https://www.lockheedmartin.com/en-us/news/features/2026/NetSense-system-combines-5G-commercial-technology-and-AI-to-detect-Unmanned-Aerial-Systems.html",
-      "last_ingested_at": "2026-09-21 00:00:05"
+      "last_ingested_at": "2026-09-22 06:00:08"
     },
     {
       "url": "https://www.lockheedmartin.com/en-us/news/features/2026/the-new-drone-threat-demands-a-new-defense.html",
-      "last_ingested_at": "2026-09-20 18:00:41"
+      "last_ingested_at": "2026-09-22 00:00:19"
     },
     {
       "url": "https://www.pacific-defense.com/press-releases/pacific-defense-us-air-force-contract",
-      "last_ingested_at": "2026-09-20 18:00:42"
+      "last_ingested_at": "2026-09-22 00:00:19"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/agile-defense-awarded-100-million-for-ai-prototype-supporting-combatant-commands-302826389.html",
-      "last_ingested_at": "2026-09-21 06:00:02"
+      "last_ingested_at": "2026-09-22 12:00:03"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/agile-defense-awarded-250-million-for-navy-logistics-it-modernization-302850907.html",
-      "last_ingested_at": "2026-09-21 06:00:02"
+      "last_ingested_at": "2026-09-22 12:00:16"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/archer-to-shape-physical-ai-future-of-aerospace-and-defense-with-acquisition-of-boeings-wisk-aero-insitu-and-skygrid-subsidiaries-boeing-to-invest-in-archer-and-collaborate-302847086.html",
-      "last_ingested_at": "2026-09-21 06:00:07"
+      "last_ingested_at": "2026-09-22 12:00:17"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/department-of-war-awards-noda-ai-100-million-to-scale-mission-command-for-autonomous-forces-across-the-joint-force-302851900.html",
-      "last_ingested_at": "2026-09-21 06:00:08"
+      "last_ingested_at": "2026-09-22 12:00:20"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/rapta-closes-8-million-funding-round-to-scale-ai-powered-quality-assurance-for-defense-and-precision-manufacturing-302881280.html",
+      "last_ingested_at": "2026-09-22 06:00:11"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/sandboxaq-completes-successful-flight-test-of-aqnavs-quantum-navigation-technology-on-northrop-grummans-lumberjack-attritable-unmanned-aircraft-system-uas-302873889.html",
@@ -698,47 +714,47 @@
     },
     {
       "url": "https://www.prnewswire.com/news-releases/shield-ais-x-bat-named-official-autonomous-aircraft-of-the-army-navy-game-302855814.html",
-      "last_ingested_at": "2026-09-21 06:00:19"
+      "last_ingested_at": "2026-09-22 12:00:30"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/skunk-works-advances-sensor-powered-ai-fighter-intercept-302842520.html",
-      "last_ingested_at": "2026-09-21 06:00:19"
+      "last_ingested_at": "2026-09-22 12:00:30"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/us-army-awards-raft-99m-enterprise-contract-to-accelerate-delivery-of-data-and-ai-capabilities-302855011.html",
-      "last_ingested_at": "2026-09-20 18:00:42"
+      "last_ingested_at": "2026-09-22 00:00:19"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/us-marine-corps-awards-accrete-sole-source-contract-for-argus-for-cognitive-advantage-302857547.html",
-      "last_ingested_at": "2026-09-20 18:00:42"
+      "last_ingested_at": "2026-09-22 00:00:19"
     },
     {
       "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/07/2026-07-31-american-rheinmetall-awarded-us-army-contract-for-project-sustainment",
-      "last_ingested_at": "2026-09-20 18:00:31"
+      "last_ingested_at": "2026-09-22 00:00:06"
     },
     {
       "url": "https://www.saildrone.com/media-room/press-releases/navy-awards-10m-contract-seafloor-mapping-atlantic",
-      "last_ingested_at": "2026-09-20 18:00:43"
+      "last_ingested_at": "2026-09-22 00:00:20"
     },
     {
       "url": "https://www.saildrone.com/media-room/press-releases/us-navy-rimpac-lockheed-martin-jagm-shot",
-      "last_ingested_at": "2026-09-20 18:00:41"
+      "last_ingested_at": "2026-09-22 00:00:18"
     },
     {
       "url": "https://www.saildrone.com/news/saildrone-expands-european-footprint-permanent-operational-presence-in-europe",
-      "last_ingested_at": "2026-09-21 00:00:09"
+      "last_ingested_at": "2026-09-22 06:00:11"
     },
     {
       "url": "https://www.saildrone.com/news/us-navy-rimpac-lockheed-martin-advance-autonomous-warfare",
-      "last_ingested_at": "2026-09-20 12:00:10"
+      "last_ingested_at": "2026-09-21 18:00:10"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm",
-      "last_ingested_at": "2026-09-21 00:00:06"
+      "last_ingested_at": "2026-09-22 06:00:08"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000243/ldos-20260804.htm",
-      "last_ingested_at": "2026-09-21 00:00:04"
+      "last_ingested_at": "2026-09-22 06:00:06"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026049495/bah-20260630.htm",
@@ -746,23 +762,23 @@
     },
     {
       "url": "https://www.skydio.com/blog/skydio-blue-uas-cleared-list-2026",
-      "last_ingested_at": "2026-09-21 06:00:03"
+      "last_ingested_at": "2026-09-22 12:00:16"
     },
     {
       "url": "https://www.tectonicdefense.com/av-scores-first-ever-production-contract-for-laser-weapons-with-the-us-army/",
-      "last_ingested_at": "2026-09-21 06:00:08"
+      "last_ingested_at": "2026-09-22 12:00:19"
     },
     {
       "url": "https://www.tectonicdefense.com/hermeus-taps-anduril-for-mission-autonomy/",
-      "last_ingested_at": "2026-09-21 06:00:10"
+      "last_ingested_at": "2026-09-22 12:00:22"
     },
     {
       "url": "https://www.tectonicdefense.com/icymi-l3harris-licenses-shield-ais-drone-tracking-software-for-vampire/",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:07"
     },
     {
       "url": "https://www.tectonicdefense.com/the-army-awards-palantir-and-anduril-192m-for-eight-titan-mobile-ground-stations/",
-      "last_ingested_at": "2026-09-21 06:00:19"
+      "last_ingested_at": "2026-09-22 12:00:30"
     },
     {
       "url": "https://www.theguardian.com/us-news/2026/sep/09/us-military-pentagon-allies-ai",
@@ -770,19 +786,19 @@
     },
     {
       "url": "https://www.theregister.com/public-sector/2026/08/11/palantir-could-receive-244m-pentagon-no-bid-contract/5286438",
-      "last_ingested_at": "2026-09-20 12:00:07"
+      "last_ingested_at": "2026-09-21 18:00:07"
     },
     {
       "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/northrop-grumman-announces-progress-in-air-defence-c-uas-proximity-round-accuracy/",
-      "last_ingested_at": "2026-09-21 06:00:14"
+      "last_ingested_at": "2026-09-22 12:00:25"
     },
     {
       "url": "https://www.washingtontechnology.com/contracts/2026/08/anduril-wants-both-halves-15-dhs-counter-uas-contract/415428/",
-      "last_ingested_at": "2026-09-21 06:00:07"
+      "last_ingested_at": "2026-09-22 12:00:17"
     },
     {
       "url": "https://www.washingtontechnology.com/contracts/2026/08/palantirs-no-bid-pipeline-just-got-bigger/415377/",
-      "last_ingested_at": "2026-09-21 06:00:18"
+      "last_ingested_at": "2026-09-22 12:00:25"
     }
   ]
 }
