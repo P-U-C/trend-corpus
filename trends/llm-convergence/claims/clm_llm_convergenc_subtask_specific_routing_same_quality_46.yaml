@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_subtask_specific_routing_same_quality_46
+type: claim
+theme_id: llm-convergence
+claim: "On September 7, 2026, LiteLLM reported that its experimental subtask-specific Auto-Router matched fixed Anthropic Claude Opus 5 performance on 9 SWE-bench Verified tasks solved by both setups while reducing total LLM cost from $2.82 to $1.51, a 46% reduction. The router mapped exploration to Fireworks AI DeepSeek v4 Flash, verification to Anthropic Claude Haiku 4.5, opening turns to Anthropic Claude Sonnet 5, and implementation to Anthropic Claude Opus 5 with high reasoning effort."
+category: technical
+source_ids:
+  - src_llm_convergence_subtask_specific_routing_same_quality_46
+date_of_evidence: "2026-09-07"
+evidence_at: "2026-09-07"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
