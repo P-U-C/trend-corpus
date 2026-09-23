@@ -1,0 +1,18 @@
+id: clm_peptides_title_unmatched_ad_hoc_announcement_purs
+type: claim
+theme_id: peptides
+claim: "On September 22, 2026, F. Hoffmann-La Roche Ltd announced positive topline Phase II results from CT-388-104/NCT06628362 for enicepatide, a once-weekly dual GLP-1/GIP receptor agonist, in 447 adults with type 2 diabetes and overweight or obesity. At 48 weeks, the 24 mg enicepatide arm achieved a mean HbA1c reduction of 2.65%, mean weight loss of 15.5%, 90% of patients reached HbA1c \u22646.5%, 62% reached HbA1c <5.7%, and adverse-event discontinuation was 2.0% across enicepatide arms versus 0.0% for placebo."
+category: technical
+source_ids:
+  - src_peptides_roche_announces_positive_phase_ii_result
+date_of_evidence: "2026-09-22"
+evidence_at: "2026-09-22"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
