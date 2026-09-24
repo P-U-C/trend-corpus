@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_an_llm_decision_api_that_returns_values
+type: claim
+theme_id: llm-convergence
+claim: "On September 20, 2026, LLM Gateway announced `/v1/systemone`, an LLM Decision API for System One models that returns typed `noul`, `choice`, and `score` values with probabilities instead of free-form text. The first listed decision model is TypeSafe AI\u2019s `typesafe/jev-1.13.0`, priced at $0.042 per million input tokens with output free, with a stated rate limit of 600 requests per minute per organization."
+category: technical
+source_ids:
+  - src_llm_convergence_an_llm_decision_api_that_returns_values
+date_of_evidence: "2026-09-20"
+evidence_at: "2026-09-20"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

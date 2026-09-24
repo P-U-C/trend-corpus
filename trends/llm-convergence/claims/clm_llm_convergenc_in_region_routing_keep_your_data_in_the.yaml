@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_in_region_routing_keep_your_data_in_the
+type: claim
+theme_id: llm-convergence
+claim: "On September 9, 2026, OpenRouter launched US In-Region Routing at `https://us.openrouter.ai/api/v1`, adding to its EU routing at `https://eu.openrouter.ai/api/v1`; requests to those regional domains are decrypted and processed inside the selected region and routed only to provider endpoints running in that region. OpenRouter says the feature is available on Business and Enterprise plans, uses unchanged API keys/request bodies/model IDs, and returns a 404 \u201cNo endpoints found supporting your data region\u201d when no in-region provider can serve the requested model."
+category: technical
+source_ids:
+  - src_llm_convergence_in_region_routing_keep_your_data_in_the
+date_of_evidence: "2026-09-09"
+evidence_at: "2026-09-09"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

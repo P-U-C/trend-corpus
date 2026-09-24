@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_cache_aware_llm_routing_learns_your_work
+type: claim
+theme_id: llm-convergence
+claim: "On September 5, 2026, LLM Gateway published that its LLM Gateway product now uses cache-aware LLM routing, automatically across plans, to learn cache-hit rates and output-to-input token ratios from a project\u2019s recent model usage when comparing providers for the same model. LLM Gateway stated that Enterprise projects can override `thresholds.cacheHitRate` and `thresholds.cacheOutputRatio` per project under Project Settings \u2192 Routing."
+category: technical
+source_ids:
+  - src_llm_convergence_cache_aware_llm_routing_learns_your_work
+date_of_evidence: "2026-09-05"
+evidence_at: "2026-09-05"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
