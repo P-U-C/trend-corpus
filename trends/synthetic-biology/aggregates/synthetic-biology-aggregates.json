@@ -1,289 +1,289 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-09-23T13:39:01Z",
+  "generated_at": "2026-09-24T13:39:01Z",
   "theme_id": "synthetic-biology",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 29004,
-  "underlying_source_count": 101,
+  "underlying_claim_count": 29728,
+  "underlying_source_count": 103,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 2166,
+      "claims_total": 2364,
       "claims_by_category": {
-        "corporate": 655,
-        "market": 208,
-        "regulatory": 221,
-        "clinical": 630,
-        "research": 420,
-        "manufacturing": 32
+        "regulatory": 244,
+        "corporate": 730,
+        "market": 225,
+        "clinical": 679,
+        "research": 452,
+        "manufacturing": 34
       },
       "top_entities": [
         {
           "slug": "crispr_therapeutics",
-          "mentions": 450
+          "mentions": 480
         },
         {
           "slug": "intellia",
-          "mentions": 369
-        },
-        {
-          "slug": "beam_therapeutics",
-          "mentions": 223
+          "mentions": 419
         },
         {
           "slug": "scribe",
-          "mentions": 213
+          "mentions": 241
+        },
+        {
+          "slug": "beam_therapeutics",
+          "mentions": 229
         },
         {
           "slug": "fda",
-          "mentions": 160
+          "mentions": 177
         },
         {
           "slug": "illumina",
-          "mentions": 119
-        },
-        {
-          "slug": "schrodinger",
-          "mentions": 115
+          "mentions": 128
         },
         {
           "slug": "sns_insider",
-          "mentions": 112
+          "mentions": 123
+        },
+        {
+          "slug": "schrodinger",
+          "mentions": 122
         },
         {
           "slug": "vertex",
-          "mentions": 101
+          "mentions": 103
+        },
+        {
+          "slug": "editas",
+          "mentions": 86
+        },
+        {
+          "slug": "orbimed",
+          "mentions": 84
         },
         {
           "slug": "scribe_therapeutics",
           "mentions": 81
         },
         {
-          "slug": "orbimed",
-          "mentions": 74
-        },
-        {
-          "slug": "editas",
-          "mentions": 73
-        },
-        {
           "slug": "bms",
-          "mentions": 54
-        },
-        {
-          "slug": "cirm",
-          "mentions": 33
-        },
-        {
-          "slug": "research_and_markets",
-          "mentions": 32
+          "mentions": 57
         },
         {
           "slug": "cleveland_clinic",
-          "mentions": 29
+          "mentions": 37
+        },
+        {
+          "slug": "cirm",
+          "mentions": 36
+        },
+        {
+          "slug": "research_and_markets",
+          "mentions": 34
         },
         {
           "slug": "lilly",
-          "mentions": 28
+          "mentions": 33
         },
         {
           "slug": "broad_institute",
-          "mentions": 27
-        },
-        {
-          "slug": "codexis",
-          "mentions": 27
+          "mentions": 33
         },
         {
           "slug": "dan_ory",
-          "mentions": 26
+          "mentions": 32
+        },
+        {
+          "slug": "codexis",
+          "mentions": 29
         }
       ]
     },
     "90d": {
-      "claims_total": 9695,
+      "claims_total": 10183,
       "claims_by_category": {
-        "corporate": 4715,
-        "market": 1060,
-        "regulatory": 807,
-        "clinical": 1477,
-        "research": 1288,
-        "manufacturing": 348
+        "regulatory": 846,
+        "corporate": 4983,
+        "market": 1102,
+        "clinical": 1539,
+        "research": 1349,
+        "manufacturing": 364
       },
       "top_entities": [
         {
           "slug": "intellia",
-          "mentions": 1047
+          "mentions": 1109
         },
         {
           "slug": "crispr_therapeutics",
-          "mentions": 1030
+          "mentions": 1082
         },
         {
           "slug": "pacific_biosciences",
-          "mentions": 1006
-        },
-        {
-          "slug": "beam_therapeutics",
-          "mentions": 858
+          "mentions": 1040
         },
         {
           "slug": "ginkgo",
-          "mentions": 844
+          "mentions": 876
+        },
+        {
+          "slug": "beam_therapeutics",
+          "mentions": 869
         },
         {
           "slug": "scribe",
-          "mentions": 701
+          "mentions": 771
         },
         {
           "slug": "codexis",
-          "mentions": 663
+          "mentions": 704
         },
         {
           "slug": "fda",
-          "mentions": 630
+          "mentions": 661
         },
         {
           "slug": "editas",
-          "mentions": 599
+          "mentions": 639
         },
         {
           "slug": "prime_medicine",
-          "mentions": 576
+          "mentions": 591
         },
         {
           "slug": "recursion",
-          "mentions": 529
+          "mentions": 550
         },
         {
           "slug": "illumina",
-          "mentions": 486
+          "mentions": 509
         },
         {
           "slug": "vertex",
-          "mentions": 467
+          "mentions": 478
         },
         {
           "slug": "caribou",
-          "mentions": 227
+          "mentions": 238
         },
         {
           "slug": "sanofi",
-          "mentions": 151
+          "mentions": 160
         },
         {
           "slug": "twist",
-          "mentions": 137
+          "mentions": 154
         },
         {
           "slug": "lilly",
+          "mentions": 132
+        },
+        {
+          "slug": "sns_insider",
           "mentions": 123
         },
         {
           "slug": "schrodinger",
-          "mentions": 115
-        },
-        {
-          "slug": "sns_insider",
-          "mentions": 112
+          "mentions": 122
         },
         {
           "slug": "acies_bio",
-          "mentions": 100
+          "mentions": 106
         }
       ]
     },
     "365d": {
-      "claims_total": 26851,
+      "claims_total": 27548,
       "claims_by_category": {
-        "corporate": 11548,
-        "market": 2184,
-        "regulatory": 3219,
-        "clinical": 6265,
-        "research": 2856,
-        "manufacturing": 772,
+        "regulatory": 3289,
+        "corporate": 11905,
+        "market": 2240,
+        "clinical": 6382,
+        "research": 2933,
+        "manufacturing": 792,
         "supply": 7
       },
       "top_entities": [
         {
           "slug": "crispr_therapeutics",
-          "mentions": 4037
+          "mentions": 4124
         },
         {
           "slug": "intellia",
-          "mentions": 2953
+          "mentions": 3033
         },
         {
           "slug": "beam_therapeutics",
-          "mentions": 2822
+          "mentions": 2858
         },
         {
           "slug": "ginkgo",
-          "mentions": 2603
+          "mentions": 2653
         },
         {
           "slug": "fda",
-          "mentions": 2530
+          "mentions": 2585
         },
         {
           "slug": "recursion",
-          "mentions": 2332
+          "mentions": 2376
         },
         {
           "slug": "prime_medicine",
-          "mentions": 2170
+          "mentions": 2206
         },
         {
           "slug": "editas",
-          "mentions": 2104
+          "mentions": 2161
         },
         {
           "slug": "caribou",
-          "mentions": 1983
+          "mentions": 2021
         },
         {
           "slug": "vertex",
-          "mentions": 1407
+          "mentions": 1429
         },
         {
           "slug": "pacific_biosciences",
-          "mentions": 1025
+          "mentions": 1061
         },
         {
           "slug": "benchling",
-          "mentions": 935
+          "mentions": 945
         },
         {
           "slug": "scribe",
-          "mentions": 781
+          "mentions": 852
         },
         {
           "slug": "codexis",
-          "mentions": 675
+          "mentions": 717
         },
         {
           "slug": "illumina",
-          "mentions": 505
+          "mentions": 530
         },
         {
           "slug": "twist",
-          "mentions": 338
+          "mentions": 362
         },
         {
           "slug": "lilly",
-          "mentions": 324
+          "mentions": 336
         },
         {
           "slug": "adaptyv",
-          "mentions": 299
+          "mentions": 302
         },
         {
           "slug": "roche",
-          "mentions": 286
+          "mentions": 293
         },
         {
           "slug": "caribou_biosciences",
@@ -295,27 +295,27 @@
   "source_freshness": [
     {
       "url": "https://crisprmedicinenews.com/news/clinical-single-crispr-infusion-keeps-lipids-low-for-a-year/",
-      "last_ingested_at": "2026-09-22 12:00:03"
+      "last_ingested_at": "2026-09-23 18:00:03"
     },
     {
       "url": "https://crisprtx.gcs-web.com/news-releases/news-release-details/crispr-therapeutics-present-morgan-stanley-24th-annual-global",
-      "last_ingested_at": "2026-09-23 00:00:04"
+      "last_ingested_at": "2026-09-24 06:00:06"
     },
     {
       "url": "https://innovativegenomics.org/news/crispr-clinical-trials-2026/",
-      "last_ingested_at": "2026-09-23 00:00:01"
+      "last_ingested_at": "2026-09-24 00:00:03"
     },
     {
       "url": "https://investor.cariboubio.com/news-releases/news-release-details/caribou-biosciences-reports-first-quarter-2026-financial-results",
-      "last_ingested_at": "2026-09-22 18:00:03"
+      "last_ingested_at": "2026-09-24 00:00:02"
     },
     {
       "url": "https://investor.cariboubio.com/news-releases/news-release-details/caribou-biosciences-reports-second-quarter-2026-financial/",
-      "last_ingested_at": "2026-09-23 06:00:04"
+      "last_ingested_at": "2026-09-24 12:00:04"
     },
     {
       "url": "https://investor.illumina.com/news-releases/news-release-details/illumina-reports-financial-results-second-quarter-fiscal-year-8",
-      "last_ingested_at": "2026-09-23 00:00:05"
+      "last_ingested_at": "2026-09-24 06:00:07"
     },
     {
       "url": "https://investor.lilly.com/news-releases",
@@ -323,7 +323,7 @@
     },
     {
       "url": "https://investor.pacificbiosciences.com/financial-information/sec-filings",
-      "last_ingested_at": "2026-09-23 00:00:02"
+      "last_ingested_at": "2026-09-24 06:00:02"
     },
     {
       "url": "https://investor.pacificbiosciences.com/news-releases/news-release-details/pacbio-announces-faster-runs-50-more-hifi-data-and-new",
@@ -331,11 +331,11 @@
     },
     {
       "url": "https://investor.pacificbiosciences.com/news-releases/news-release-details/pacbio-appoints-mark-van-oene-president-and-chief-executive",
-      "last_ingested_at": "2026-09-22 18:00:10"
+      "last_ingested_at": "2026-09-24 00:00:08"
     },
     {
       "url": "https://investor.pacificbiosciences.com/news-releases/news-release-details/pacbio-participate-morgan-stanley-24k-annual-global-healthcare",
-      "last_ingested_at": "2026-09-22 12:00:10"
+      "last_ingested_at": "2026-09-23 18:00:08"
     },
     {
       "url": "https://investors.beamtx.com/financial-information/sec-filings",
@@ -359,7 +359,7 @@
     },
     {
       "url": "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-reports-first-quarter-2026-financial-results/",
-      "last_ingested_at": "2026-09-22 18:00:02"
+      "last_ingested_at": "2026-09-24 00:00:01"
     },
     {
       "url": "https://investors.ginkgo.bio/financial-information/sec-filings",
@@ -367,7 +367,7 @@
     },
     {
       "url": "https://investors.primemedicine.com/news-releases/news-release-details/prime-medicine-participate-upcoming-investor-conferences-6",
-      "last_ingested_at": "2026-09-22 12:00:10"
+      "last_ingested_at": "2026-09-23 18:00:08"
     },
     {
       "url": "https://investors.twistbioscience.com/news-releases/news-release-details/twist-bioscience-and-ginkgo-bioworks-revise-collaboration/",
@@ -375,19 +375,19 @@
     },
     {
       "url": "https://investors.twistbioscience.com/news-releases/news-release-details/twist-bioscience-announces-proposed-public-offering-2500-million",
-      "last_ingested_at": "2026-09-22 12:00:12"
+      "last_ingested_at": "2026-09-23 18:00:10"
     },
     {
       "url": "https://investors.twistbioscience.com/news-releases/news-release-details/twist-bioscience-joins-lilly-tunelab-advance-antibody-drug",
-      "last_ingested_at": "2026-09-22 12:00:13"
+      "last_ingested_at": "2026-09-23 18:00:10"
     },
     {
       "url": "https://investors.twistbioscience.com/news-releases/news-release-details/twist-bioscience-present-baird-2026-global-healthcare-conference",
-      "last_ingested_at": "2026-09-23 00:00:09"
+      "last_ingested_at": "2026-09-24 06:00:15"
     },
     {
       "url": "https://investors.twistbioscience.com/node/17696/pdf",
-      "last_ingested_at": "2026-09-23 00:00:09"
+      "last_ingested_at": "2026-09-24 06:00:14"
     },
     {
       "url": "https://ir.cariboubio.com/financial-information/sec-filings",
@@ -395,15 +395,15 @@
     },
     {
       "url": "https://ir.codexis.com/news-events/press-releases/detail/451/codexis-appoints-david-butler-phd-to-strategic-advisory-board",
-      "last_ingested_at": "2026-09-23 06:00:05"
+      "last_ingested_at": "2026-09-24 12:00:05"
     },
     {
       "url": "https://ir.codexis.com/news-events/press-releases/detail/452/codexis-reports-second-quarter-2026-financial-results",
-      "last_ingested_at": "2026-09-22 18:00:05"
+      "last_ingested_at": "2026-09-24 00:00:04"
     },
     {
       "url": "https://ir.codexis.com/news-events/press-releases/detail/453/codexis-to-participate-in-cantor-global-healthcare-conference-2026",
-      "last_ingested_at": "2026-09-23 00:00:03"
+      "last_ingested_at": "2026-09-24 06:00:04"
     },
     {
       "url": "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-provides-business-update-and-reports-first-quarter-2026-financial-results",
@@ -415,19 +415,19 @@
     },
     {
       "url": "https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-announces-first-quarter-2026-results-and",
-      "last_ingested_at": "2026-09-22 18:00:04"
+      "last_ingested_at": "2026-09-24 00:00:02"
     },
     {
       "url": "https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-appoints-dan-ory-md-chief-medical-officer",
-      "last_ingested_at": "2026-09-22 12:00:04"
+      "last_ingested_at": "2026-09-23 18:00:04"
     },
     {
       "url": "https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-participate-upcoming-investor-conferences-11",
-      "last_ingested_at": "2026-09-22 12:00:04"
+      "last_ingested_at": "2026-09-23 18:00:05"
     },
     {
       "url": "https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-reports-inducement-grants-new-chief-medical-0",
-      "last_ingested_at": "2026-09-22 18:00:05"
+      "last_ingested_at": "2026-09-24 00:00:05"
     },
     {
       "url": "https://ir.intelliatx.com/financial-information/sec-filings",
@@ -435,7 +435,7 @@
     },
     {
       "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-announces-fda-acceptance-biologics-license",
-      "last_ingested_at": "2026-09-22 12:00:09"
+      "last_ingested_at": "2026-09-23 18:00:07"
     },
     {
       "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-announces-second-quarter-2026-financial",
@@ -443,19 +443,19 @@
     },
     {
       "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-hold-conference-call-august-6-discuss",
-      "last_ingested_at": "2026-09-23 00:00:05"
+      "last_ingested_at": "2026-09-24 06:00:08"
     },
     {
       "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-present-morgan-stanley-24th-annual-global",
-      "last_ingested_at": "2026-09-23 06:00:07"
+      "last_ingested_at": "2026-09-24 12:00:06"
     },
     {
       "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-reports-inducement-grants-under-nasdaq-22",
-      "last_ingested_at": "2026-09-22 18:00:09"
+      "last_ingested_at": "2026-09-24 00:00:08"
     },
     {
       "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-secures-non-dilutive-debt-facility-orbimed",
-      "last_ingested_at": "2026-09-23 06:00:06"
+      "last_ingested_at": "2026-09-24 12:00:06"
     },
     {
       "url": "https://ir.recursion.com/news-releases",
@@ -463,23 +463,23 @@
     },
     {
       "url": "https://ir.recursion.com/news-releases/news-release-details/recursion-participate-upcoming-investor-conferences-20",
-      "last_ingested_at": "2026-09-23 00:00:06"
+      "last_ingested_at": "2026-09-24 06:00:12"
     },
     {
       "url": "https://ir.recursion.com/news-releases/news-release-details/recursion-reports-first-quarter-financial-results-and-provides",
-      "last_ingested_at": "2026-09-23 12:00:01"
+      "last_ingested_at": "2026-09-24 12:00:01"
     },
     {
       "url": "https://ir.recursion.com/news-releases/news-release-details/recursion-reports-second-quarter-financial-results-genentech",
-      "last_ingested_at": "2026-09-22 18:00:10"
+      "last_ingested_at": "2026-09-24 00:00:08"
     },
     {
       "url": "https://ir.recursion.com/sec-filings/sec-filing/10-q/0001601830-26-000098",
-      "last_ingested_at": "2026-09-22 12:00:11"
+      "last_ingested_at": "2026-09-23 18:00:09"
     },
     {
       "url": "https://ir.recursion.com/sec-filings/sec-filing/8-k/0001601830-26-000112",
-      "last_ingested_at": "2026-09-23 06:00:08"
+      "last_ingested_at": "2026-09-24 12:00:06"
     },
     {
       "url": "https://ir.schrodinger.com/news-releases",
@@ -487,7 +487,7 @@
     },
     {
       "url": "https://medicalxpress.com/news/2026-09-crispr-gene-therapy-safely-lowers.html",
-      "last_ingested_at": "2026-09-22 12:00:03"
+      "last_ingested_at": "2026-09-23 18:00:03"
     },
     {
       "url": "https://primemedicine.gcs-web.com/news-releases/news-release-details/prime-medicine-announces-us-fda-clearance-investigational-new",
@@ -495,63 +495,63 @@
     },
     {
       "url": "https://www.barrons.com/articles/health-stocks-heart-meds-amgen-arrowhead-crispr-fc27e160",
-      "last_ingested_at": "2026-09-22 12:00:09"
+      "last_ingested_at": "2026-09-23 18:00:06"
     },
     {
       "url": "https://www.benchling.com/blog/one-click-ordering-for-experiments-and-data",
-      "last_ingested_at": "2026-09-22 18:00:03"
+      "last_ingested_at": "2026-09-24 00:00:01"
     },
     {
       "url": "https://www.biopharmadive.com/news/scribe-gene-editing-ipo-benjamin-oakes-epigenetic-pcsk9/827432/",
-      "last_ingested_at": "2026-09-22 12:00:12"
+      "last_ingested_at": "2026-09-23 18:00:10"
     },
     {
       "url": "https://www.biospace.com/drug-development/opinion-ai-will-only-revolutionize-drug-discovery-and-development-if-we-play-to-its-strengths",
-      "last_ingested_at": "2026-09-22 12:00:10"
+      "last_ingested_at": "2026-09-23 18:00:07"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260803142480/en/Twist-Bioscience-Announces-Fiscal-2026-Third-Quarter-Financial-Results",
-      "last_ingested_at": "2026-09-22 18:00:11"
+      "last_ingested_at": "2026-09-24 00:00:11"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260805227219/en/Schrdinger-Announces-Strategic-Collaboration-and-Software-Agreement-with-Bristol-Myers-Squibb-to-Deploy-AI-Co-Scientist-Bunsen-for-Agentic-Drug-Discovery",
-      "last_ingested_at": "2026-09-22 12:00:11"
+      "last_ingested_at": "2026-09-23 18:00:09"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260805451804/en/Kindred-Companion-Sciences-Unveils-First-Dogs-Genetically-Edited-to-Remove-the-Major-Dog-Allergen",
-      "last_ingested_at": "2026-09-23 00:00:05"
+      "last_ingested_at": "2026-09-24 06:00:08"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260901487699/en/Researchers-Gain-Faster-Access-to-Complex-DNA-as-Integrated-DNA-Technologies-and-Ansa-Biotechnologies-Expand-Ordering-Platform",
-      "last_ingested_at": "2026-09-23 00:00:06"
+      "last_ingested_at": "2026-09-24 06:00:12"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260916928591/en/Integrated-DNA-Technologies-and-Aldevron-Launch-New-Cas9-mRNA-Solutions-to-Accelerate-Path-from-Gene-Editing-Research-to-Development",
-      "last_ingested_at": "2026-09-23 00:00:05"
+      "last_ingested_at": "2026-09-24 06:00:07"
     },
     {
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00802-0",
-      "last_ingested_at": "2026-09-23 00:00:04"
+      "last_ingested_at": "2026-09-24 06:00:06"
     },
     {
       "url": "https://www.drugdiscoverytrends.com/schrodinger-bms-collaboration-centers-on-bunsen-for-trillion-scale-computational-drug-discovery/",
-      "last_ingested_at": "2026-09-22 12:00:11"
+      "last_ingested_at": "2026-09-23 18:00:09"
     },
     {
       "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products",
-      "last_ingested_at": "2026-09-23 00:00:01"
+      "last_ingested_at": "2026-09-24 00:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/05/11/3291773/0/en/Intellia-Therapeutics-Announces-First-Quarter-2026-Financial-Results-and-Business-Updates.html",
-      "last_ingested_at": "2026-09-23 00:00:01"
+      "last_ingested_at": "2026-09-24 00:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/07/27/3333869/0/en/Scribe-Therapeutics-Announces-Closing-of-Initial-Public-Offering-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-and-Closing-of-the-Concurrent-Private-Placement.html",
-      "last_ingested_at": "2026-09-23 00:00:08"
+      "last_ingested_at": "2026-09-24 06:00:13"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/03/3337896/0/en/crispr-therapeutics-provides-business-update-and-reports-second-quarter-2026-financial-results.html",
-      "last_ingested_at": "2026-09-23 00:00:03"
+      "last_ingested_at": "2026-09-24 06:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/04/3338130/0/en/beam-therapeutics-reports-second-quarter-2026-financial-results-and-announces-first-patient-dosed-in-global-pivotal-cohort-of-beam-302-trial-in-alpha-1-antitrypsin-deficiency-aatd.html",
@@ -559,23 +559,23 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/04/3338557/28124/en/gene-editing-collaboration-and-licensing-deals-2016-2026-the-definitive-benchmark-for-gene-editing-dealmaking.html",
-      "last_ingested_at": "2026-09-22 12:00:09"
+      "last_ingested_at": "2026-09-23 18:00:06"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/05/3339644/0/en/editas-medicine-announces-second-quarter-2026-results-and-business-updates.html",
-      "last_ingested_at": "2026-09-22 12:00:03"
+      "last_ingested_at": "2026-09-23 18:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/06/3340201/0/en/prime-medicine-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
-      "last_ingested_at": "2026-09-23 00:00:05"
+      "last_ingested_at": "2026-09-24 06:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/26/3351155/0/en/gene-therapy-platform-market-expands-from-usd-2-60-billion-to-usd-10-78-billion-by-2035-sns-insider.html",
-      "last_ingested_at": "2026-09-22 18:00:06"
+      "last_ingested_at": "2026-09-24 00:00:06"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/27/3351848/0/en/global-cd70-targeting-therapies-market-report-2026-highlights-clinical-innovation-pipeline-trends-and-commercial-opportunities.html",
-      "last_ingested_at": "2026-09-22 18:00:09"
+      "last_ingested_at": "2026-09-24 00:00:07"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/28/3352748/0/en/crispr-therapeutics-presents-phase-1a-data-for-ctx310-demonstrating-deep-and-durable-angptl3-editing-triglyceride-and-ldl-lowering-at-esc-congress-2026.html",
@@ -583,15 +583,15 @@
     },
     {
       "url": "https://www.illumina.com/science/genomics-research/articles/further-gains-in-germline-whole-genome-sequencing-accuracy--nova.html",
-      "last_ingested_at": "2026-09-22 12:00:05"
+      "last_ingested_at": "2026-09-23 18:00:06"
     },
     {
       "url": "https://www.investors.com/news/technology/crispr-stock-gene-editing-stocks-rally/",
-      "last_ingested_at": "2026-09-23 00:00:04"
+      "last_ingested_at": "2026-09-24 06:00:07"
     },
     {
       "url": "https://www.merlintrader.com/biotech-radar-september-9-2026/",
-      "last_ingested_at": "2026-09-23 06:00:04"
+      "last_ingested_at": "2026-09-24 12:00:04"
     },
     {
       "url": "https://www.nejm.org/doi/abs/10.1056/NEJMc2609825",
@@ -599,47 +599,47 @@
     },
     {
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2601283",
-      "last_ingested_at": "2026-09-23 00:00:05"
+      "last_ingested_at": "2026-09-24 06:00:07"
     },
     {
       "url": "https://www.outsourcedpharma.com/doc/ginkgo-bioworks-and-acies-bio-partner-aspergillus-niger-strains-for-protein-production-0001",
-      "last_ingested_at": "2026-09-22 18:00:08"
+      "last_ingested_at": "2026-09-24 00:00:07"
     },
     {
       "url": "https://www.pacb.com/press_releases/pacbio-announces-second-quarter-2026-financial-results/",
-      "last_ingested_at": "2026-09-22 12:00:10"
+      "last_ingested_at": "2026-09-23 18:00:08"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/ginkgo-bioworks-reports-first-quarter-2026-financial-results-completes-divestiture-of-biosecurity-and-continues-to-scale-autonomous-lab-302766171.html",
-      "last_ingested_at": "2026-09-23 00:00:01"
+      "last_ingested_at": "2026-09-24 00:00:03"
     },
     {
       "url": "https://www.scribetx.com/newsroom/scribe-therapeutics-announces-pricing-of-upsized-initial-public-offering",
-      "last_ingested_at": "2026-09-23 00:00:08"
+      "last_ingested_at": "2026-09-24 06:00:13"
     },
     {
       "url": "https://www.scribetx.com/newsroom/scribe-therapeutics-reports-second-quarter-2026-financial-results-and-recent-corporate-highlights",
-      "last_ingested_at": "2026-09-22 18:00:11"
+      "last_ingested_at": "2026-09-24 00:00:10"
     },
     {
       "url": "https://www.scribetx.com/newsroom/scribe-therapeutics-to-participate-in-upcoming-investor-conferences-2",
-      "last_ingested_at": "2026-09-22 18:00:11"
+      "last_ingested_at": "2026-09-24 00:00:10"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0001830214/000162828026053319/ex991earningspr.htm",
-      "last_ingested_at": "2026-09-22 12:00:09"
+      "last_ingested_at": "2026-09-23 18:00:06"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1200375/000120037526000019/cdxs-20260630.htm",
-      "last_ingested_at": "2026-09-22 12:00:03"
+      "last_ingested_at": "2026-09-23 18:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1299130/000129913026000122/pacb-20260630.htm",
-      "last_ingested_at": "2026-09-23 06:00:07"
+      "last_ingested_at": "2026-09-24 12:00:06"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000050/twist-20260818.htm",
-      "last_ingested_at": "2026-09-22 12:00:12"
+      "last_ingested_at": "2026-09-23 18:00:10"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000097/rxrx-20260805.htm",
@@ -647,39 +647,43 @@
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1650664/000165066426000083/edit-20260630.htm",
-      "last_ingested_at": "2026-09-22 12:00:03"
+      "last_ingested_at": "2026-09-23 18:00:04"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526337952/ntla-20260630.htm",
-      "last_ingested_at": "2026-09-23 06:00:06"
+      "last_ingested_at": "2026-09-24 12:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526383645/d110798d8k.htm",
-      "last_ingested_at": "2026-09-23 06:00:05"
+      "last_ingested_at": "2026-09-24 12:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526385194/ntla-20260908.htm",
-      "last_ingested_at": "2026-09-23 06:00:05"
+      "last_ingested_at": "2026-09-24 12:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526204147/crsp-ex99_1.htm",
-      "last_ingested_at": "2026-09-22 18:00:04"
+      "last_ingested_at": "2026-09-24 00:00:02"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526330672/crsp-20260630.htm",
-      "last_ingested_at": "2026-09-23 06:00:05"
+      "last_ingested_at": "2026-09-24 12:00:05"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1745999/000119312526331541/beam-20260630.htm",
-      "last_ingested_at": "2026-09-23 06:00:01"
+      "last_ingested_at": "2026-09-24 06:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1830214/000162828026054298/dna-20260630.htm",
-      "last_ingested_at": "2026-09-23 06:00:05"
+      "last_ingested_at": "2026-09-24 12:00:05"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1853921/000119312526380191/sctx-20260630.htm",
+      "last_ingested_at": "2026-09-24 06:00:13"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1894562/000162828026031719/q120268-kex991xpressrelease.htm",
-      "last_ingested_at": "2026-09-23 00:00:02"
+      "last_ingested_at": "2026-09-24 06:00:02"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000256/ex-991_q22026.htm",
@@ -691,11 +695,15 @@
     },
     {
       "url": "https://www.synbiobeta.com/read/ginkgo-bioworks-expands-autonomous-lab-network-to-top-universities",
-      "last_ingested_at": "2026-09-23 00:00:05"
+      "last_ingested_at": "2026-09-24 06:00:07"
+    },
+    {
+      "url": "https://www.techtransfer.nih.gov/news/advanced-gene-editing-technology-for-therapeutic-applications-available-for-licensing-or",
+      "last_ingested_at": "2026-09-24 06:00:03"
     },
     {
       "url": "https://www.vervetx.com/sites/default/files/2025-07/Lilly%20completes%20acquisition%20of%20Verve%20Therapeutics%20to%20advance%20one-time%20treatments%20for%20people%20with%20high%20cardiovascular%20risk.pdf",
-      "last_ingested_at": "2026-09-23 00:00:02"
+      "last_ingested_at": "2026-09-24 06:00:01"
     }
   ]
 }
