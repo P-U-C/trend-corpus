@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_zero_data_retention_zdr_what_it_means_fo
+type: claim
+theme_id: llm-convergence
+claim: "On September 11, 2026, OpenRouter published that its API can enforce Zero Data Retention routing through account privacy settings, guardrails, or the per-request `provider.zdr` field. OpenRouter states that `provider.zdr: true` routes requests only to endpoints with a Zero Data Retention policy, while `data_collection: \"deny\"` excludes endpoints that store user data non-transiently and may train on it."
+category: technical
+source_ids:
+  - src_llm_convergence_zero_data_retention_zdr_what_it_means_fo
+date_of_evidence: "2026-09-11"
+evidence_at: "2026-09-11"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

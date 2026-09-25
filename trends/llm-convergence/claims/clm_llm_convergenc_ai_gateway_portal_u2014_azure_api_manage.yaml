@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_ai_gateway_portal_u2014_azure_api_manage
+type: claim
+theme_id: llm-convergence
+claim: "On September 24, 2026, Microsoft\u2019s Azure API Management AI Gateway tier added stable model aliases, Microsoft Entra access-token authentication and authorization, gateway-scoped policies, configurable JWT token-claim telemetry, and usage objects for streamed OpenAI-compatible Chat Completions responses."
+category: technical
+source_ids:
+  - src_llm_convergence_ai_gateway_portal_azure_api_management
+date_of_evidence: "2026-09-24"
+evidence_at: "2026-09-24"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
