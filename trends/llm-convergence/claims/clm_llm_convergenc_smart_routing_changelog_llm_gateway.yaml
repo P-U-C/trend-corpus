@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_smart_routing_changelog_llm_gateway
+type: claim
+theme_id: llm-convergence
+claim: "On September 25, 2026, LLM Gateway introduced Smart Routing for its AI Gateway, adding a `\"model\": \"smart\"` option that lets organizations choose up to 30 eligible models and a classifier such as TypeSafe AI\u2019s Jev to route requests by difficulty, task type, and output type. The feature is available to every LLM Gateway organization while in beta, including pay-as-you-go, but is not available on DevPass."
+category: technical
+source_ids:
+  - src_llm_convergence_smart_routing
+date_of_evidence: "2026-09-25"
+evidence_at: "2026-09-25"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

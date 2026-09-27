@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_introducing_kong_operator_2_3_ai_gateway
+type: claim
+theme_id: llm-convergence
+claim: "On September 25, 2026, Kong announced Kong Operator 2.3, adding Kubernetes CRD support for Kong AI Gateway so teams can manage AI Gateway control planes, LLM providers, models, policies, authentication, and consumers through Kubernetes resources and GitOps workflows. Kong said the release also adds Gateway API support for TCPRoute, UDPRoute, and GRPCRoute, propagates konghq.com/tags annotations from Gateway API resources to Konnect, and adds HorizontalPodAutoscaler support for AI Gateway and Event Gateway dataplanes."
+category: technical
+source_ids:
+  - src_llm_convergence_introducing_kong_operator_2_3_ai_gateway
+date_of_evidence: "2026-09-25"
+evidence_at: "2026-09-25"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
