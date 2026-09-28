@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_openrouter_fusion_how_it_works_and_when
+type: claim
+theme_id: llm-convergence
+claim: "On September 10, 2026, OpenRouter published that OpenRouter Fusion is a compound inference system using the `openrouter/fusion` model slug or `openrouter:fusion` server tool to send one prompt to one to eight participant models in parallel, have a judge compare responses, and have the calling model produce the final answer. OpenRouter stated that the default three-model Fusion panel costs roughly four to five times one completion on the same prompt and often takes two to three times longer."
+category: technical
+source_ids:
+  - src_llm_convergence_openrouter_fusion_how_it_works_and_when
+date_of_evidence: "2026-09-10"
+evidence_at: "2026-09-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
