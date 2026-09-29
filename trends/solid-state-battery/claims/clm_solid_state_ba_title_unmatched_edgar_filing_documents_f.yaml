@@ -1,0 +1,18 @@
+id: clm_solid_state_ba_title_unmatched_edgar_filing_documents_f
+type: claim
+theme_id: solid-state-battery
+claim: "Solid Power, Inc. filed a Form 8-K current report with the SEC on September 14, 2026, under accession number 0001104659-26-107256. The filing lists Item 7.01 Regulation FD Disclosure and Item 9.01 Financial Statements and Exhibits, and includes Exhibit 99.1 plus XBRL taxonomy files."
+category: regulatory
+source_ids:
+  - src_solid_state_batt_form_8_k_current_report_solid_power_inc
+date_of_evidence: "2026-09-14"
+evidence_at: "2026-09-14"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
