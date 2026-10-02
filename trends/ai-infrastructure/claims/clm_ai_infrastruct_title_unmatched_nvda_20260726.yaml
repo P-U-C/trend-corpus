@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_title_unmatched_nvda_20260726
+type: claim
+theme_id: ai-infrastructure
+claim: "NVIDIA\u2019s SEC filing `nvda-20260726`, published August 26, 2026 for the period ended July 26, 2026, includes XBRL items for `LandPowerAndShellGuaranteesForAICloudsMember`, `AICloudPartnershipCommitmentsMember`, `SupplyAndCapacityCommitmentsMember`, `CloudServiceAgreementCommitmentsMember`, `DataCenterLeaseNotYetCommencedMember`, `CapitalExpenditureObligationsMember`, and `CommercialPaperProgramMember`. The filing also identifies NVIDIA note instruments maturing from 2026 through 2060."
+category: capital
+source_ids:
+  - src_ai_infrastructur_nvidia_corp_form_10_q
+date_of_evidence: "2026-08-26"
+evidence_at: "2026-08-26"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

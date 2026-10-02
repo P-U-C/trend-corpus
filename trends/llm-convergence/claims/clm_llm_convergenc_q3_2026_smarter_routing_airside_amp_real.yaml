@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_q3_2026_smarter_routing_airside_amp_real
+type: claim
+theme_id: llm-convergence
+claim: "LLM Gateway said its July 1\u2013September 30, 2026 platform snapshot recorded 50,036,094 requests and 1,805,087,667,040 total tokens across gateway, DevPass, and Lounge traffic. In the same Q3 2026 roundup, LLM Gateway said Gemini Embedding 2 led models by request count, DeepSeek V4.1 Flash led models by token volume with 262,072,034,547 tokens, OpenAI led providers by request count, and DeepSeek led providers by token volume with 363,614,003,080 tokens."
+category: technical
+source_ids:
+  - src_llm_convergence_q3_2026_smarter_routing_airside_realtime
+date_of_evidence: "2026-09-30"
+evidence_at: "2026-09-30"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
