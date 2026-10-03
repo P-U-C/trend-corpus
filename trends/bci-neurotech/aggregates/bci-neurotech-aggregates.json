@@ -1,46 +1,50 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-10-02T13:37:01Z",
+  "generated_at": "2026-10-03T13:37:01Z",
   "theme_id": "bci-neurotech",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 25123,
-  "underlying_source_count": 91,
+  "underlying_claim_count": 25476,
+  "underlying_source_count": 93,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 2487,
+      "claims_total": 2401,
       "claims_by_category": {
-        "research": 486,
-        "corporate": 426,
-        "regulatory": 647,
-        "market": 256,
-        "clinical": 530,
-        "manufacturing": 142
+        "regulatory": 609,
+        "clinical": 551,
+        "corporate": 386,
+        "research": 485,
+        "manufacturing": 126,
+        "market": 244
       },
       "top_entities": [
         {
           "slug": "fda",
-          "mentions": 532
+          "mentions": 513
         },
         {
           "slug": "paradromics",
-          "mentions": 430
+          "mentions": 443
         },
         {
           "slug": "cortec",
-          "mentions": 230
+          "mentions": 229
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 172
+          "mentions": 179
         },
         {
           "slug": "onward_medical",
-          "mentions": 168
+          "mentions": 176
+        },
+        {
+          "slug": "boston_scientific",
+          "mentions": 158
         },
         {
           "slug": "tether_evo",
@@ -48,19 +52,15 @@
         },
         {
           "slug": "neuralink",
-          "mentions": 154
-        },
-        {
-          "slug": "boston_scientific",
-          "mentions": 150
-        },
-        {
-          "slug": "nsceb",
-          "mentions": 119
+          "mentions": 146
         },
         {
           "slug": "science_corporation",
-          "mentions": 111
+          "mentions": 107
+        },
+        {
+          "slug": "subsense",
+          "mentions": 70
         },
         {
           "slug": "quantum_si",
@@ -68,69 +68,69 @@
         },
         {
           "slug": "synchron",
-          "mentions": 65
-        },
-        {
-          "slug": "subsense",
-          "mentions": 61
-        },
-        {
-          "slug": "butterfly_network",
-          "mentions": 58
+          "mentions": 64
         },
         {
           "slug": "modius",
-          "mentions": 55
+          "mentions": 60
         },
         {
-          "slug": "merge_labs",
-          "mentions": 51
-        },
-        {
-          "slug": "cms",
-          "mentions": 41
-        },
-        {
-          "slug": "brainco",
-          "mentions": 37
+          "slug": "nsceb",
+          "mentions": 52
         },
         {
           "slug": "omniscient_neurotechnology",
-          "mentions": 33
+          "mentions": 42
+        },
+        {
+          "slug": "merge_labs",
+          "mentions": 36
+        },
+        {
+          "slug": "brainco",
+          "mentions": 36
         },
         {
           "slug": "nih",
-          "mentions": 29
+          "mentions": 30
+        },
+        {
+          "slug": "mrfr",
+          "mentions": 27
+        },
+        {
+          "slug": "science_corp",
+          "mentions": 26
         }
       ]
     },
     "90d": {
-      "claims_total": 10700,
+      "claims_total": 10949,
       "claims_by_category": {
-        "research": 1464,
-        "corporate": 3657,
-        "regulatory": 1648,
-        "market": 1683,
-        "clinical": 1917,
-        "manufacturing": 280,
+        "regulatory": 1685,
+        "clinical": 1977,
+        "corporate": 3734,
+        "research": 1510,
+        "manufacturing": 281,
+        "market": 1711,
         "supply": 51
       },
       "top_entities": [
         {
           "slug": "fda",
-          "mentions": 1420
+          "mentions": 1449
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 1045
+          "mentions": 1086
         },
         {
           "slug": "boston_scientific",
-          "mentions": 910
+          "mentions": 931
         },
         {
           "slug": "paradromics",
-          "mentions": 810
+          "mentions": 834
         },
         {
           "slug": "livanova",
@@ -138,23 +138,23 @@
         },
         {
           "slug": "neuralink",
-          "mentions": 619
+          "mentions": 626
         },
         {
           "slug": "medtronic",
-          "mentions": 519
+          "mentions": 522
         },
         {
           "slug": "butterfly_network",
-          "mentions": 509
+          "mentions": 517
         },
         {
           "slug": "cortec",
-          "mentions": 460
+          "mentions": 464
         },
         {
           "slug": "science_corporation",
-          "mentions": 409
+          "mentions": 424
         },
         {
           "slug": "quantum_si",
@@ -162,15 +162,15 @@
         },
         {
           "slug": "abbott",
-          "mentions": 337
+          "mentions": 347
         },
         {
           "slug": "merge_labs",
-          "mentions": 320
+          "mentions": 328
         },
         {
           "slug": "ability_neurotech",
-          "mentions": 266
+          "mentions": 269
         },
         {
           "slug": "spr_therapeutics",
@@ -182,41 +182,41 @@
         },
         {
           "slug": "brainco",
-          "mentions": 213
+          "mentions": 216
         },
         {
           "slug": "vivani_medical",
-          "mentions": 209
+          "mentions": 215
         },
         {
           "slug": "neurofounders",
-          "mentions": 194
+          "mentions": 207
         },
         {
-          "slug": "synchron",
-          "mentions": 173
+          "slug": "onward_medical",
+          "mentions": 177
         }
       ]
     },
     "365d": {
-      "claims_total": 17274,
+      "claims_total": 17571,
       "claims_by_category": {
-        "research": 2253,
-        "corporate": 6053,
-        "regulatory": 3170,
-        "market": 2222,
-        "clinical": 3049,
-        "manufacturing": 476,
+        "regulatory": 3224,
+        "clinical": 3111,
+        "corporate": 6146,
+        "research": 2306,
+        "manufacturing": 480,
+        "market": 2253,
         "supply": 51
       },
       "top_entities": [
         {
           "slug": "fda",
-          "mentions": 2843
+          "mentions": 2888
         },
         {
           "slug": "paradromics",
-          "mentions": 2172
+          "mentions": 2196
         },
         {
           "slug": "livanova",
@@ -224,51 +224,51 @@
         },
         {
           "slug": "quantum_si",
-          "mentions": 1452
+          "mentions": 1467
         },
         {
           "slug": "boston_scientific",
-          "mentions": 1223
-        },
-        {
-          "slug": "onward_medical",
-          "mentions": 1095
+          "mentions": 1253
         },
         {
           "slug": "precision_neuroscience",
-          "mentions": 1086
+          "mentions": 1128
+        },
+        {
+          "slug": "onward_medical",
+          "mentions": 1103
         },
         {
           "slug": "neuralink",
-          "mentions": 767
+          "mentions": 774
         },
         {
           "slug": "merge_labs",
-          "mentions": 602
+          "mentions": 610
         },
         {
           "slug": "medtronic",
-          "mentions": 537
+          "mentions": 541
         },
         {
           "slug": "butterfly_network",
-          "mentions": 530
+          "mentions": 538
         },
         {
           "slug": "cortec",
-          "mentions": 524
+          "mentions": 529
         },
         {
           "slug": "science_corporation",
-          "mentions": 412
+          "mentions": 427
         },
         {
           "slug": "abbott",
-          "mentions": 352
+          "mentions": 362
         },
         {
           "slug": "ability_neurotech",
-          "mentions": 266
+          "mentions": 269
         },
         {
           "slug": "spr_therapeutics",
@@ -276,7 +276,7 @@
         },
         {
           "slug": "vivani_medical",
-          "mentions": 247
+          "mentions": 258
         },
         {
           "slug": "sns_insider",
@@ -284,11 +284,11 @@
         },
         {
           "slug": "brainco",
-          "mentions": 235
+          "mentions": 238
         },
         {
           "slug": "synchron",
-          "mentions": 210
+          "mentions": 213
         }
       ]
     }
@@ -300,7 +300,7 @@
     },
     {
       "url": "https://abilityneuro.com/press/fih-intraop/",
-      "last_ingested_at": "2026-10-02 00:00:01"
+      "last_ingested_at": "2026-10-03 00:00:02"
     },
     {
       "url": "https://alsnewstoday.com/news/als-nexus-2026-implanted-device-decodes-patients-brain-signals/",
@@ -308,7 +308,7 @@
     },
     {
       "url": "https://benzinga.com/markets/tech/26/07/60663278/elon-musk-shows-off-neuralink-patients-navigating-wheelchairs-by-thought-alone-says-implant-helps-those-who-lost-their-mind-to-body-connection",
-      "last_ingested_at": "2026-10-01 18:00:03"
+      "last_ingested_at": "2026-10-03 00:00:03"
     },
     {
       "url": "https://blackrockneurotech.com/insights/blackrock-neurotechs-moveagain-brain-computer-interface-system-receives-breakthrough-device-designation-from-the-fda/",
@@ -320,7 +320,7 @@
     },
     {
       "url": "https://cbsaustin.com/news/local/i-have-a-lot-to-say-austin-brain-implant-helps-patient-communicate-in-real-time",
-      "last_ingested_at": "2026-10-01 18:00:06"
+      "last_ingested_at": "2026-10-03 00:00:06"
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT07357428",
@@ -332,7 +332,7 @@
     },
     {
       "url": "https://cortec-neuro.com/news/implantable-hardware-development-engineering-the-interface-between-device-and-nervous-system",
-      "last_ingested_at": "2026-10-01 18:00:07"
+      "last_ingested_at": "2026-10-03 00:00:07"
     },
     {
       "url": "https://finance.yahoo.com/healthcare/articles/butterfly-network-collaborates-merge-labs-130654430.html",
@@ -340,27 +340,27 @@
     },
     {
       "url": "https://interestingengineering.com/science/brain-implant-allows-to-control-wheelchairs",
-      "last_ingested_at": "2026-10-01 12:00:14"
+      "last_ingested_at": "2026-10-02 18:00:11"
     },
     {
       "url": "https://investor.livanova.com/news-releases/news-release-details/livanova-reports-second-quarter-2026-results-raises-full-year",
-      "last_ingested_at": "2026-10-01 18:00:08"
+      "last_ingested_at": "2026-10-03 00:00:08"
     },
     {
       "url": "https://investor.livanova.com/node/19476/html",
-      "last_ingested_at": "2026-10-01 18:00:16"
+      "last_ingested_at": "2026-10-03 00:00:15"
     },
     {
       "url": "https://ir.onwd.com/static-files/6d125f54-19b6-46f3-aa29-1b2d3b17b91e",
-      "last_ingested_at": "2026-10-01 18:00:11"
+      "last_ingested_at": "2026-10-03 00:00:11"
     },
     {
       "url": "https://ir.onwd.com/static-files/d09584e7-1a3d-4d35-91c6-69c88fd667eb",
-      "last_ingested_at": "2026-10-01 12:00:09"
+      "last_ingested_at": "2026-10-02 18:00:05"
     },
     {
       "url": "https://ir.quantum-si.com/news-releases/news-release-details/quantum-si-expands-proteustm-roadshow-additional-us-and-european",
-      "last_ingested_at": "2026-10-01 12:00:11"
+      "last_ingested_at": "2026-10-02 18:00:07"
     },
     {
       "url": "https://live.euronext.com/en/products/equities/company-news/2026-03-31-onward-medical-reports-full-year-2025-financial-and",
@@ -372,19 +372,19 @@
     },
     {
       "url": "https://neurologylive.com/view/fda-approves-vercise-genus-dbs-system-mri-environment/1000",
-      "last_ingested_at": "2026-10-01 18:00:04"
+      "last_ingested_at": "2026-10-03 00:00:05"
     },
     {
       "url": "https://neuronewsinternational.com/subsense-announces-major-expansion-of-ai-driven-strategy-to-develop-non-surgical-bci-technology/",
-      "last_ingested_at": "2026-10-02 06:00:06"
+      "last_ingested_at": "2026-10-03 12:00:06"
     },
     {
       "url": "https://neurotech.com/news/2026-08-27-paradromics-wins-fda-nod-to-connect-its-bci-platform-to-pers",
-      "last_ingested_at": "2026-10-01 18:00:14"
+      "last_ingested_at": "2026-10-03 00:00:13"
     },
     {
       "url": "https://neurotech.com/news/2026-09-01-merge-labs-and-butterfly-network-unite-to-push-ultrasound-ba",
-      "last_ingested_at": "2026-10-01 12:00:07"
+      "last_ingested_at": "2026-10-02 18:00:03"
     },
     {
       "url": "https://neurotech.com/news/2026-09-02-butterfly-network-s-bci-chip-licensing-deal-rattles-investor",
@@ -396,7 +396,7 @@
     },
     {
       "url": "https://neurotech.com/news/2026-09-13-revision-implant-secures-4-million-to-push-visual-neuroprost",
-      "last_ingested_at": "2026-10-01 12:00:12"
+      "last_ingested_at": "2026-10-02 18:00:08"
     },
     {
       "url": "https://neurotech.com/news/2026-09-15-china-sets-global-precedent-with-world-s-first-ai-enabled-bc",
@@ -416,35 +416,39 @@
     },
     {
       "url": "https://neurotechreports.com/news/government-strategy-is-shaping-the-global-brain-computer-interface-race",
-      "last_ingested_at": "2026-10-01 18:00:06"
+      "last_ingested_at": "2026-10-03 00:00:05"
     },
     {
       "url": "https://neurotechreports.com/news/new-england-neurosurgeons-champion-human-fidelity-for-brain-device-industry",
-      "last_ingested_at": "2026-10-01 12:00:08"
+      "last_ingested_at": "2026-10-02 18:00:04"
     },
     {
       "url": "https://newmarketpitch.com/blogs/news/neurotech-growing-startup",
-      "last_ingested_at": "2026-10-01 18:00:16"
+      "last_ingested_at": "2026-10-03 00:00:15"
     },
     {
       "url": "https://news.bostonscientific.com/2026-07-29-Boston-Scientific-announces-results-for-second-quarter-2026",
       "last_ingested_at": "2026-10-02 12:00:05"
     },
     {
+      "url": "https://news.bostonscientific.com/Four-Ways-Boston-Scientific-is-Advancing-Treatment-for-Chronic-Pain",
+      "last_ingested_at": "2026-10-03 06:00:02"
+    },
+    {
       "url": "https://news.medtronic.com/2025-05-21-Medtronic-reports-strong-finish-to-its-fiscal-year-with-its-fourth-quarter-financial-results-announces-dividend-increase",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:09"
     },
     {
       "url": "https://news.medtronic.com/2026-07-16-Medtronic-completes-acquisition-of-SPR,-expanding-patient-access-to-minimally-invasive,-non-opioid-treatment-of-chronic-and-acute-pain",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:08"
     },
     {
       "url": "https://news.medtronic.com/2026-09-01-Medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:09"
     },
     {
       "url": "https://openai.com/index/investing-in-merge-labs/",
-      "last_ingested_at": "2026-10-01 18:00:11"
+      "last_ingested_at": "2026-10-03 00:00:11"
     },
     {
       "url": "https://paradromics.com/news/paradromics-achieves-real-time-speech-connexus-brain-computer-interface/",
@@ -452,23 +456,23 @@
     },
     {
       "url": "https://paradromics.com/news/paradromics-receives-fda-approval-to-expand-bci-access-to-personal-computing-devices-in-connect-one-clinical-study/",
-      "last_ingested_at": "2026-10-01 18:00:13"
+      "last_ingested_at": "2026-10-03 00:00:13"
     },
     {
       "url": "https://pharmaphorum.com/news/neuralink-rival-paradromics-cleared-start-speech-trial",
-      "last_ingested_at": "2026-10-01 18:00:10"
+      "last_ingested_at": "2026-10-03 00:00:10"
     },
     {
       "url": "https://pharmaphorum.com/news/precision-neuro-breaks-new-ground-bci-technology",
-      "last_ingested_at": "2026-10-01 12:00:11"
+      "last_ingested_at": "2026-10-02 18:00:06"
     },
     {
       "url": "https://science.org/doi/10.1126/scitranslmed.aec3728",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:08"
     },
     {
       "url": "https://secure.businesswire.com/news/home/20260730253801/en/Butterfly-Network-Reports-Second-Quarter-2026-Financial-Results",
-      "last_ingested_at": "2026-10-01 18:00:01"
+      "last_ingested_at": "2026-10-02 18:00:01"
     },
     {
       "url": "https://techcrunch.com/sponsor/tether/tether-evos-latest-research-addresses-one-of-the-biggest-challenges-in-brain-computer-interfaces/",
@@ -480,11 +484,11 @@
     },
     {
       "url": "https://www.biospace.com/press-releases/onward-medical-to-announce-first-half-2026-results-on-september-9-2026",
-      "last_ingested_at": "2026-10-02 06:00:04"
+      "last_ingested_at": "2026-10-03 12:00:04"
     },
     {
       "url": "https://www.biotech.senate.gov/press-releases/nsceb-releases-analysis-for-securing-u-s-leadership-in-brain-computer-interfaces/",
-      "last_ingested_at": "2026-10-01 12:00:08"
+      "last_ingested_at": "2026-10-02 18:00:04"
     },
     {
       "url": "https://www.bostonscientific.com/en-US/about-us/core-businesses/neuromodulation.html",
@@ -492,11 +496,11 @@
     },
     {
       "url": "https://www.brown.edu/news/2026-09-23/braingate-mirror-neurons",
-      "last_ingested_at": "2026-10-02 06:00:03"
+      "last_ingested_at": "2026-10-03 12:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20240930433219/en/Synchron-Announces-Positive-Results-from-U.S.-COMMAND-Study-of-Endovascular-Brain-Computer-Interface",
-      "last_ingested_at": "2026-10-01 12:00:12"
+      "last_ingested_at": "2026-10-02 18:00:09"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260825985678/en/Axoft-Introduces-Fleuron-WISE-the-Latest-Addition-to-its-Advanced-Polymer-Portfolio",
@@ -504,7 +508,7 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260901999280/en/Merge-Labs-and-Butterfly-Network-Partner-to-Advance-Ultrasound-Based-Brain-Computer-Interfaces",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:09"
     },
     {
       "url": "https://www.butterflynetwork.com/press-releases/co-development-agreement-with-forest-neurotech",
@@ -512,7 +516,7 @@
     },
     {
       "url": "https://www.cnbc.com/2026/07/11/chinas-brainco-bets-on-wearable-brain-tech.html",
-      "last_ingested_at": "2026-10-01 12:00:15"
+      "last_ingested_at": "2026-10-02 18:00:12"
     },
     {
       "url": "https://www.delveinsight.com/blog/neurotechnology-in-healthcare",
@@ -524,7 +528,7 @@
     },
     {
       "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/spinal-cord-stimulator-recall-boston-scientific-removes-infinion-cx-lead",
-      "last_ingested_at": "2026-10-02 00:00:03"
+      "last_ingested_at": "2026-10-03 06:00:03"
     },
     {
       "url": "https://www.fortunebusinessinsights.com/brain-computer-interface-market-105811",
@@ -544,7 +548,7 @@
     },
     {
       "url": "https://www.ft.com/content/d7650673-23e9-4e41-81c9-d479c24705a0",
-      "last_ingested_at": "2026-10-01 18:00:06"
+      "last_ingested_at": "2026-10-03 00:00:06"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2025/4/17/3063418/0/en/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array.html",
@@ -552,31 +556,31 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/07/23/3332195/0/en/Precision-Neuroscience-Appoints-John-Donoghue-Pioneer-of-Brain-Computer-Interfaces-as-Scientific-Advisor.html",
-      "last_ingested_at": "2026-10-01 18:00:15"
+      "last_ingested_at": "2026-10-03 00:00:14"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/03/3337398/0/en/robotic-wheelchair-market-size-to-hit-usd-425-72-million-by-2035-research-by-sns-insider.html",
-      "last_ingested_at": "2026-10-01 18:00:16"
+      "last_ingested_at": "2026-10-03 00:00:14"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/13/3344917/0/en/quantum-si-reports-second-quarter-2026-financial-results-and-provides-proteus-development-update.html",
-      "last_ingested_at": "2026-10-01 18:00:15"
+      "last_ingested_at": "2026-10-03 00:00:14"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/13/3344932/0/en/vivani-medical-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
-      "last_ingested_at": "2026-10-02 06:00:06"
+      "last_ingested_at": "2026-10-03 12:00:06"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/20/3348565/0/en/cerebral-palsy-treatment-2026-2031-advances-in-rehabilitation-and-assistive-technologies-drive-market-growth.html",
-      "last_ingested_at": "2026-10-01 18:00:02"
+      "last_ingested_at": "2026-10-03 00:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/11/3360489/0/en/omniscient-secures-third-fda-clearance-extending-its-connectomic-platform-into-the-fast-growing-deep-brain-stimulation-market.html",
-      "last_ingested_at": "2026-10-02 00:00:03"
+      "last_ingested_at": "2026-10-03 06:00:03"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html",
-      "last_ingested_at": "2026-10-02 06:00:05"
+      "last_ingested_at": "2026-10-03 12:00:05"
     },
     {
       "url": "https://www.marketresearchfuture.com/press-release/brain-computer-interface-market",
@@ -584,7 +588,7 @@
     },
     {
       "url": "https://www.medicaldevice-network.com/news/paradromics-fda-nod-broader-bci-device/",
-      "last_ingested_at": "2026-10-01 18:00:13"
+      "last_ingested_at": "2026-10-03 00:00:12"
     },
     {
       "url": "https://www.medicaleconomics.com/view/fda-expands-device-compatibility-for-paradromics-brain-computer-interface",
@@ -596,47 +600,51 @@
     },
     {
       "url": "https://www.mobihealthnews.com/news/neuralink-brain-implant-helps-man-als-speak-using-his-thoughts",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:09"
+    },
+    {
+      "url": "https://www.mobihealthnews.com/news/precision-neuroscience-raises-250m-brain-computer-interface",
+      "last_ingested_at": "2026-10-03 06:00:03"
     },
     {
       "url": "https://www.nasdaq.com/press-release/livanova-reports-fourth-quarter-and-full-year-2025-results-issues-2026-guidance-2026",
-      "last_ingested_at": "2026-10-01 18:00:08"
+      "last_ingested_at": "2026-10-03 00:00:07"
     },
     {
       "url": "https://www.nature.com/articles/s41586-023-06377-x",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:09"
     },
     {
       "url": "https://www.neurofounders.co/articles/aleph-neuro-joins-the-ultrasound-wave-in-bci",
-      "last_ingested_at": "2026-10-02 06:00:02"
+      "last_ingested_at": "2026-10-03 12:00:03"
     },
     {
       "url": "https://www.neurofounders.co/articles/cortec-expands-bci-platform-into-device-control",
-      "last_ingested_at": "2026-10-01 18:00:03"
+      "last_ingested_at": "2026-10-03 00:00:03"
     },
     {
       "url": "https://www.neurofounders.co/articles/medtronic-and-boston-scientific-move-on-neurotech",
-      "last_ingested_at": "2026-10-01 18:00:09"
+      "last_ingested_at": "2026-10-03 00:00:08"
     },
     {
       "url": "https://www.neurofounders.co/articles/onward-advances-spinal-cord-stimulation-to-restore-walking",
-      "last_ingested_at": "2026-10-01 18:00:11"
+      "last_ingested_at": "2026-10-03 00:00:10"
     },
     {
       "url": "https://www.neurofounders.co/articles/precision-neurosciences-jayme-strauss-on-scaling-bcis",
-      "last_ingested_at": "2026-10-02 06:00:05"
+      "last_ingested_at": "2026-10-03 12:00:05"
     },
     {
       "url": "https://www.neurofounders.co/deep-dives/the-neurotech-funding-review-h1-2026",
-      "last_ingested_at": "2026-10-02 06:00:06"
+      "last_ingested_at": "2026-10-03 12:00:06"
     },
     {
       "url": "https://www.neurotech.com/news/2026-07-30-ability-neurotech-reaches-first-in-human-milestone-with-nove",
-      "last_ingested_at": "2026-10-02 06:00:02"
+      "last_ingested_at": "2026-10-03 12:00:02"
     },
     {
       "url": "https://www.neurotechreports.com/news/funding-outlook-for-neurotech-startups-moves-to-extremes",
-      "last_ingested_at": "2026-10-01 12:00:04"
+      "last_ingested_at": "2026-10-02 18:00:02"
     },
     {
       "url": "https://www.news-medical.net/news/20260916/One-brain-implant-could-give-people-with-paralysis-a-more-expressive-way-to-communicate.aspx",
@@ -644,11 +652,11 @@
     },
     {
       "url": "https://www.nih.gov/news-events/news-releases/neuroprosthesis-paralysis-enables-simultaneous-speech-body-language",
-      "last_ingested_at": "2026-10-01 18:00:10"
+      "last_ingested_at": "2026-10-03 00:00:10"
     },
     {
       "url": "https://www.paradromics.com/news/paradromics-receives-fda-approval-for-the-connect-one-clinical-study-with-the-connexus-brain-computer-interface",
-      "last_ingested_at": "2026-10-01 18:00:13"
+      "last_ingested_at": "2026-10-03 00:00:13"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000051/bsx-20260729.htm",
