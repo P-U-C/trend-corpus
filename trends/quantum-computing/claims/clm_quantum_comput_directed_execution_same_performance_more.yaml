@@ -1,0 +1,18 @@
+id: clm_quantum_comput_directed_execution_same_performance_more
+type: claim
+theme_id: quantum-computing
+claim: "On October 5, 2026, IBM Quantum published that its IBM Quantum Compute Service added directed execution through the new Executor primitive, with Qiskit Sampler and Estimator running on top of Executor and qiskit-ibm-runtime 0.50.0 releasing client-side Sampler and Estimator implementations. IBM said the model lets users run circuits as directed with client-side control over error mitigation and correction workflows using instruments including Samplomatic, Qiskit Noise Learning, Qiskit Mitigation, QuantumProgram, and Executor."
+category: technical
+source_ids:
+  - src_quantum_computin_directed_execution_scaling_a_research_pl
+date_of_evidence: "2026-10-05"
+evidence_at: "2026-10-05"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
