@@ -1,0 +1,18 @@
+id: clm_space_satellit_planet_reports_financial_results_for_sec
+type: claim
+theme_id: space-satellite
+claim: "Planet Labs PBC reported second-quarter fiscal 2027 revenue of $116.1 million for the period ended July 31, 2026, up 58% year over year, with a GAAP net loss of $9.4 million and adjusted EBITDA profit of $13.9 million. Planet also reported $865.4 million in cash, cash equivalents and short-term investments at quarter end, $753.1 million in remaining performance obligations, and $814.9 million in backlog."
+category: corporate
+source_ids:
+  - src_space_satellite_planet_reports_financial_results_for_sec
+date_of_evidence: "2026-09-03"
+evidence_at: "2026-09-03"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

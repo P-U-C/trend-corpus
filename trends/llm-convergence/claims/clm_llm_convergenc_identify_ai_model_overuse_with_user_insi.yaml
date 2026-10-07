@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_identify_ai_model_overuse_with_user_insi
+type: claim
+theme_id: llm-convergence
+claim: "On September 30, 2026, Cloudflare announced that AI Gateway User Insights now includes model-overuse analysis, task categories such as coding, research, writing, summarization, and data analysis, and conversation-turn/cost views for AI Gateway traffic. Cloudflare said the classification is performed asynchronously by a dedicated Cloudflare Worker over eligible AI Gateway logs, uses Durable Objects for metadata and R2 for log bodies, adds no request-path latency, and may trail incoming traffic by approximately one day."
+category: technical
+source_ids:
+  - src_llm_convergence_identify_ai_model_overuse_with_user_insi
+date_of_evidence: "2026-09-30"
+evidence_at: "2026-09-30"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

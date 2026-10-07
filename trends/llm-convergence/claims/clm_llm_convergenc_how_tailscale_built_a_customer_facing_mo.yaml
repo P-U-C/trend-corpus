@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_how_tailscale_built_a_customer_facing_mo
+type: claim
+theme_id: llm-convergence
+claim: "On September 11, 2026, Vercel published that Tailscale built Aperture by Tailscale on Vercel AI Gateway and Vercel Sandbox to provide customer-facing access to hundreds of AI models through tailnet network identity. The source states that Aperture grants and revokes model access through Tailscale tailnet membership, uses AI Gateway for one API across models with cost and usage returned on requests, and uses Vercel Sandbox so agents run without receiving provider API keys."
+category: technical
+source_ids:
+  - src_llm_convergence_how_tailscale_built_a_customer_facing_mo
+date_of_evidence: "2026-09-11"
+evidence_at: "2026-09-11"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
