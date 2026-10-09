@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_pretraining_on_50_000_hours_of_unlabeled
+type: claim
+theme_id: bci-neurotech
+claim: "On October 1, 2026, Neuralink said participants in its clinical trial had streamed over 50,000 hours of unlabeled freeform neural data, including over 9,000 hours and 22.4 billion spikes from its first participant. Neuralink said it used participant-specific neural encoders pretrained on thousands of hours of neural recordings, and that pretraining on unlabeled intracortical data produced decoders with which six participants reached personal BPS records, three surpassed its prior 10.39 BPS record, and one reached 11.32 BPS."
+category: technical
+source_ids:
+  - src_bci_neurotech_pretraining_on_50_000_hours_of_unlabeled
+date_of_evidence: "2026-10-01"
+evidence_at: "2026-10-01"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
