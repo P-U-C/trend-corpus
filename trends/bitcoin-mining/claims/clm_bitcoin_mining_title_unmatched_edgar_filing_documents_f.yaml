@@ -1,0 +1,18 @@
+id: clm_bitcoin_mining_title_unmatched_edgar_filing_documents_f
+type: claim
+theme_id: bitcoin-mining
+claim: "CleanSpark, Inc. filed a Form 8-K with the SEC on September 17, 2026, under accession number 0001193125-26-393758. The filing lists Items 7.01, 8.01, and 9.01, includes exhibits EX-99.1 and EX-99.2, and identifies CleanSpark, Inc. as the filer with CIK 0000827876."
+category: regulatory
+source_ids:
+  - src_bitcoin_mining_form_8_k_cleanspark_inc
+date_of_evidence: "2026-09-17"
+evidence_at: "2026-09-17"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

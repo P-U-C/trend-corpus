@@ -1,0 +1,18 @@
+id: clm_edge_ai_u4ece_u6570_u636e_u5230_token_uff1aarm_u
+type: claim
+theme_id: edge-ai
+claim: "On September 24, 2026, Arm reported that John Xavier Lionel said at GMIF 2026 that generative AI inference performance depends on memory capacity, bandwidth, storage, and data movement because decode workloads repeatedly access KV Cache. Arm also said its Armv9 edge AI compute platform, based on Cortex-A320 CPU and Ethos-U85 NPU, supports running large language models with more than 1 billion parameters at the edge."
+category: technical
+source_ids:
+  - src_edge_ai_token_arm_ai
+date_of_evidence: "2026-09-24"
+evidence_at: "2026-09-24"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
