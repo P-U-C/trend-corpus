@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_introducing_c1_llm_gateway_your_models_y
+type: claim
+theme_id: llm-convergence
+claim: "On October 1, 2026, C1.ai introduced C1 LLM Gateway, a policy-controlled endpoint for routing inference across supported public, private, and customer-controlled model deployments. C1.ai states that C1 LLM Gateway ties requests to the person, application, workload, or agent using the endpoint, applies configured routing rules based on provider, model, deployment, region, and data-handling requirements, and retains identity and workload context for usage and cost attribution."
+category: technical
+source_ids:
+  - src_llm_convergence_introducing_c1_llm_gateway_your_models_y
+date_of_evidence: "2026-10-01"
+evidence_at: "2026-10-01"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

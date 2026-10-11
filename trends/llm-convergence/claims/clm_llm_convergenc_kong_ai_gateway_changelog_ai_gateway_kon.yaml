@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_kong_ai_gateway_changelog_ai_gateway_kon
+type: claim
+theme_id: llm-convergence
+claim: "Kong AI Gateway 2.2.0 was released on 2026-09-30 with FIPS 140-3 package and image renaming, Distroless and Distroless FIPS 140-3 Docker image variants, TypeSafe.ai Jev decision model support in ai-proxy, OpenAI and Anthropic Skills API support in ai-proxy-advanced, Token Vault support in ai-mcp-proxy, and a new kong.metrics Metrics PDK."
+category: technical
+source_ids:
+  - src_llm_convergence_kong_ai_gateway_changelog
+date_of_evidence: "2026-09-30"
+evidence_at: "2026-09-30"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
