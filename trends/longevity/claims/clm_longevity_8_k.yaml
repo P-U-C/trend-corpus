@@ -1,0 +1,18 @@
+id: clm_longevity_8_k
+type: claim
+theme_id: longevity
+claim: "BioAge Labs, Inc. filed a Form 8-K dated October 2, 2026 stating that the first participant had been dosed in QUELL-DME, a randomized, controlled Phase 2 trial of once-daily oral BGE-102, an NLRP3 inhibitor, in adults with diabetic macular edema. The filing states that QUELL-DME is an approximately 180-participant, three-arm trial evaluating BGE-102 at 90 mg as monotherapy and in combination with intravitreal anti-VEGF therapy over 12 weeks, with topline results expected in the second half of 2027."
+category: regulatory
+source_ids:
+  - src_longevity_8_k
+date_of_evidence: "2026-10-02"
+evidence_at: "2026-10-02"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
