@@ -1,0 +1,18 @@
+id: clm_bitcoin_mining_title_unmatched_core_20260910
+type: claim
+theme_id: bitcoin-mining
+claim: "Core Scientific, Inc. reported in a Form 8-K dated September 10, 2026 that ERCOT conditionally approved electrical power status for its Texas data centers: 297 MW existing load at Denton as Base Load Pathway (a), 300 MW existing load at Pecos as Base Load Pathway (b), 300 MW additional Pecos load as Studied Load, and 431 MW planned load at Hunt as Base Load, Advancing Large Load Pathway (e). Core Scientific also stated that Denton\u2019s additional 74 MW had been incorporated in and validated by ERCOT\u2019s 2025 Regional Transmission Plan study cases, and that Pecos final allocation and load ramp remained pending conclusion of the Batch Zero process."
+category: regulatory
+source_ids:
+  - src_bitcoin_mining_core_scientific_inc_form_8_k
+date_of_evidence: "2026-09-10"
+evidence_at: "2026-09-10"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
