@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_multi_model_routing_optimize_ai_tasks_ef
+type: claim
+theme_id: llm-convergence
+claim: "On October 13, 2026, TrueFoundry described its LLM Gateway as a platform for multi-model routing across OpenAI GPT-3.5/GPT-4, Anthropic Claude, and open-source Mistral/Mixtral deployments. The source states that TrueFoundry supports task-based routing through X-TFY-METADATA, sticky routing via tfy_sticky_session_header_name, header-based redirection for A/B testing, fallback models, cost and latency guardrails, observability dashboards, dry-run mode, response caching, dynamic batching, and quantized inference through Triton and vLLM integrations."
+category: technical
+source_ids:
+  - src_llm_convergence_multi_model_routing_why_one_llm_isn_t_en
+date_of_evidence: "2026-10-12"
+evidence_at: "2026-10-12"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
