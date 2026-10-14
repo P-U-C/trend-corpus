@@ -1,0 +1,18 @@
+id: clm_peptides_title_unmatched_import_alert_66_80
+type: claim
+theme_id: peptides
+claim: "On October 9, 2026, the U.S. Food and Drug Administration published Import Alert 66-80 authorizing detention without physical examination of foreign-sourced Glucagon-Like Peptide-1 receptor agonist bulk drug substances/APIs that appear adulterated for CGMP violations under FD&C Act sections 501(a)(2)(B), 501(j), and 801(a)(3). The alert covers GLP-1 products including semaglutide, tirzepatide, liraglutide, exenatide, dulaglutide, lixisenatide, and orforglipron, and states that FDA evaluated 48 GLP-1 API sites and found 21% noncompliant under section 501."
+category: regulatory
+source_ids:
+  - src_peptides_import_alert_66_80_detention_without_phy
+date_of_evidence: "2026-10-09"
+evidence_at: "2026-10-09"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
