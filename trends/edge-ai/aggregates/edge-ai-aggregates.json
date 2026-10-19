@@ -1,81 +1,81 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-10-18T13:40:01Z",
+  "generated_at": "2026-10-19T13:40:01Z",
   "theme_id": "edge-ai",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 24708,
+  "underlying_claim_count": 25152,
   "underlying_source_count": 117,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 891,
+      "claims_total": 897,
       "claims_by_category": {
-        "corporate": 381,
-        "market": 292,
-        "research": 183,
-        "manufacturing": 29,
-        "regulatory": 6
+        "corporate": 384,
+        "market": 306,
+        "research": 172,
+        "manufacturing": 30,
+        "regulatory": 5
       },
       "top_entities": [
         {
           "slug": "hailo",
-          "mentions": 159
+          "mentions": 167
         },
         {
           "slug": "arm",
-          "mentions": 138
+          "mentions": 136
         },
         {
           "slug": "axelera_ai",
-          "mentions": 116
+          "mentions": 107
         },
         {
           "slug": "microchip",
-          "mentions": 96
+          "mentions": 102
         },
         {
           "slug": "lattice",
-          "mentions": 92
+          "mentions": 90
         },
         {
           "slug": "ambarella",
-          "mentions": 66
+          "mentions": 65
+        },
+        {
+          "slug": "mediatek",
+          "mentions": 55
         },
         {
           "slug": "synaptics",
-          "mentions": 62
+          "mentions": 53
         },
         {
           "slug": "microchip_technology",
           "mentions": 52
         },
         {
-          "slug": "mediatek",
+          "slug": "aimotive",
           "mentions": 50
         },
         {
-          "slug": "aimotive",
-          "mentions": 43
-        },
-        {
           "slug": "omnivision",
-          "mentions": 37
-        },
-        {
-          "slug": "samsung",
-          "mentions": 36
-        },
-        {
-          "slug": "modelnova",
-          "mentions": 35
+          "mentions": 47
         },
         {
           "slug": "cadence",
-          "mentions": 35
+          "mentions": 41
+        },
+        {
+          "slug": "samsung",
+          "mentions": 33
+        },
+        {
+          "slug": "modelnova",
+          "mentions": 31
         },
         {
           "slug": "analog_devices",
@@ -83,209 +83,209 @@
         },
         {
           "slug": "stmicro",
-          "mentions": 23
+          "mentions": 21
         },
         {
           "slug": "bos_semiconductors",
-          "mentions": 16
-        },
-        {
-          "slug": "nvidia_jetson",
-          "mentions": 14
-        },
-        {
-          "slug": "embedur_systems",
-          "mentions": 14
+          "mentions": 19
         },
         {
           "slug": "sima_ai",
+          "mentions": 18
+        },
+        {
+          "slug": "vivo",
           "mentions": 14
+        },
+        {
+          "slug": "nvidia_jetson",
+          "mentions": 13
         }
       ]
     },
     "90d": {
-      "claims_total": 13536,
+      "claims_total": 13820,
       "claims_by_category": {
-        "corporate": 5809,
-        "market": 4900,
-        "research": 1964,
-        "manufacturing": 729,
-        "regulatory": 83,
-        "supply": 51
+        "corporate": 5959,
+        "market": 4935,
+        "research": 2034,
+        "manufacturing": 756,
+        "regulatory": 84,
+        "supply": 52
       },
       "top_entities": [
         {
           "slug": "ambarella",
-          "mentions": 1725
+          "mentions": 1751
         },
         {
           "slug": "arm",
-          "mentions": 1350
+          "mentions": 1409
         },
         {
           "slug": "nxp",
-          "mentions": 1171
+          "mentions": 1203
         },
         {
           "slug": "synaptics",
-          "mentions": 918
+          "mentions": 925
         },
         {
           "slug": "mobileye",
-          "mentions": 886
+          "mentions": 891
         },
         {
           "slug": "hailo",
-          "mentions": 846
+          "mentions": 860
         },
         {
           "slug": "lattice",
-          "mentions": 778
+          "mentions": 803
         },
         {
           "slug": "stmicro",
-          "mentions": 634
+          "mentions": 637
         },
         {
           "slug": "axelera_ai",
-          "mentions": 561
+          "mentions": 581
         },
         {
           "slug": "microchip",
-          "mentions": 430
+          "mentions": 447
         },
         {
           "slug": "qualcomm",
-          "mentions": 396
-        },
-        {
-          "slug": "nvidia_jetson",
-          "mentions": 385
+          "mentions": 412
         },
         {
           "slug": "intel",
-          "mentions": 381
+          "mentions": 390
+        },
+        {
+          "slug": "nvidia_jetson",
+          "mentions": 389
         },
         {
           "slug": "alif_semiconductor",
-          "mentions": 351
+          "mentions": 372
         },
         {
           "slug": "mediatek",
-          "mentions": 313
+          "mentions": 326
         },
         {
           "slug": "sima_ai",
-          "mentions": 309
+          "mentions": 321
         },
         {
           "slug": "analog_devices",
-          "mentions": 297
+          "mentions": 304
         },
         {
           "slug": "advantech",
-          "mentions": 256
+          "mentions": 263
         },
         {
           "slug": "nvidia",
-          "mentions": 249
+          "mentions": 257
         },
         {
           "slug": "edgecortix",
-          "mentions": 229
+          "mentions": 239
         }
       ]
     },
     "365d": {
-      "claims_total": 20638,
+      "claims_total": 21053,
       "claims_by_category": {
-        "corporate": 8973,
-        "market": 7629,
-        "research": 2852,
-        "manufacturing": 967,
-        "regulatory": 93,
-        "supply": 124
+        "corporate": 9154,
+        "market": 7761,
+        "research": 2925,
+        "manufacturing": 994,
+        "regulatory": 94,
+        "supply": 125
       },
       "top_entities": [
         {
           "slug": "ambarella",
-          "mentions": 3131
+          "mentions": 3163
         },
         {
           "slug": "mobileye",
-          "mentions": 2445
+          "mentions": 2450
         },
         {
           "slug": "lattice",
-          "mentions": 2366
+          "mentions": 2392
         },
         {
           "slug": "axelera_ai",
-          "mentions": 1704
+          "mentions": 1726
         },
         {
           "slug": "arm",
-          "mentions": 1509
+          "mentions": 1569
         },
         {
           "slug": "synaptics",
-          "mentions": 1306
+          "mentions": 1327
         },
         {
           "slug": "nxp",
-          "mentions": 1188
+          "mentions": 1220
         },
         {
           "slug": "stmicro",
-          "mentions": 1010
+          "mentions": 1013
         },
         {
           "slug": "hailo",
-          "mentions": 847
+          "mentions": 873
         },
         {
           "slug": "sima_ai",
-          "mentions": 508
+          "mentions": 521
         },
         {
           "slug": "intel",
-          "mentions": 495
+          "mentions": 509
         },
         {
           "slug": "nvidia_jetson",
-          "mentions": 486
+          "mentions": 498
         },
         {
           "slug": "qualcomm",
-          "mentions": 471
+          "mentions": 487
         },
         {
           "slug": "microchip",
-          "mentions": 430
+          "mentions": 447
         },
         {
           "slug": "alif_semiconductor",
-          "mentions": 351
+          "mentions": 372
         },
         {
           "slug": "mediatek",
-          "mentions": 315
+          "mentions": 328
         },
         {
           "slug": "analog_devices",
-          "mentions": 297
+          "mentions": 304
         },
         {
           "slug": "ami",
-          "mentions": 265
-        },
-        {
-          "slug": "advantech",
-          "mentions": 256
+          "mentions": 273
         },
         {
           "slug": "nvidia",
-          "mentions": 255
+          "mentions": 264
+        },
+        {
+          "slug": "advantech",
+          "mentions": 263
         }
       ]
     }
@@ -293,7 +293,7 @@
   "source_freshness": [
     {
       "url": "https://aimotive.com/w/aimotive-and-cadence-demonstrate-layer-by-layer-workload-placement-across-independent-ai-engines",
-      "last_ingested_at": "2026-10-18 00:00:04"
+      "last_ingested_at": "2026-10-19 06:00:02"
     },
     {
       "url": "https://alifsemi.com/press-release/alif-semiconductor-introduces-new-low-cost-startkit-platform-for-its-edge-ai-enabled-ensemble-and-balletto-microcontrollers/",
@@ -301,51 +301,51 @@
     },
     {
       "url": "https://arxiv.org/abs/2608.25321",
-      "last_ingested_at": "2026-10-17 18:00:07"
+      "last_ingested_at": "2026-10-19 00:00:12"
     },
     {
       "url": "https://axelera.ai/news/asrock-industrial-collaborates-with-axelera-ai-to-accelerate-edge-ai-inference-deployment",
-      "last_ingested_at": "2026-10-17 18:00:02"
+      "last_ingested_at": "2026-10-19 00:00:04"
     },
     {
       "url": "https://axelera.ai/news/axelera-ai-launches-europa-delivers-physical-and-enterprise-ai-through-growing-partner-ecosystem-including-dell-and-supermicro",
-      "last_ingested_at": "2026-10-18 00:00:06"
+      "last_ingested_at": "2026-10-19 06:00:34"
     },
     {
       "url": "https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth",
-      "last_ingested_at": "2026-10-18 00:00:20"
+      "last_ingested_at": "2026-10-19 06:00:47"
     },
     {
       "url": "https://blog.arduino.cc/2026/08/25/the-age-of-physical-ai-is-here-and-it-runs-on-the-arduino-ventuno-q-board/",
-      "last_ingested_at": "2026-10-18 06:00:09"
+      "last_ingested_at": "2026-10-19 12:00:10"
     },
     {
       "url": "https://businesswire.com/news/home/20260803607869/en/Axelera-AI-Introduces-New-Product-Naming-to-Reflect-Embedded-to-Server-AI-Strategy",
-      "last_ingested_at": "2026-10-18 00:00:06"
+      "last_ingested_at": "2026-10-19 06:00:34"
     },
     {
       "url": "https://einnews.com/pr_news/933399241/intozi-tech-partners-with-axelera-ai-to-power-next-generation-vision-ai",
-      "last_ingested_at": "2026-10-17 18:00:06"
+      "last_ingested_at": "2026-10-19 00:00:12"
     },
     {
       "url": "https://embeddedcomputing.com/application/edge-ai/embedded-world-welcomes-brainchips-demonstrations-of-three-battery-powered-edge-ai-applications",
-      "last_ingested_at": "2026-10-17 18:00:03"
+      "last_ingested_at": "2026-10-19 00:00:04"
     },
     {
       "url": "https://embeddedcomputing.com/application/edge-ai/microchip-technology-acquires-hailo-expanding-edge-ai-solutions",
-      "last_ingested_at": "2026-10-18 00:00:13"
+      "last_ingested_at": "2026-10-19 06:00:38"
     },
     {
       "url": "https://embeddedcomputing.com/technology/ai-machine-learning/ai-logic-devices-worload-acceleration/kontron-kbox-a151-eai-now-powered-by-simaai-physical-ai-for-industrial-edge",
-      "last_ingested_at": "2026-10-18 06:00:05"
+      "last_ingested_at": "2026-10-19 12:00:06"
     },
     {
       "url": "https://hailo.ai/company-overview/newsroom/news/hailo-announces-general-availability-of-hailo-10h-edge-ai-accelerator-with-generative-ai-capabilities/",
-      "last_ingested_at": "2026-10-18 06:00:09"
+      "last_ingested_at": "2026-10-19 12:00:11"
     },
     {
       "url": "https://hailo.ai/company-overview/newsroom/news/hailo-closes-new-120-million-funding-round-and-debuts-hailo-10-a-new-powerful-ai-accelerator-bringing-generative-ai-to-edge-devices/",
-      "last_ingested_at": "2026-10-18 06:00:09"
+      "last_ingested_at": "2026-10-19 12:00:11"
     },
     {
       "url": "https://investor.ambarella.com/news-releases",
@@ -353,39 +353,39 @@
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-and-macnica-enter-long-term-strategic-distribution",
-      "last_ingested_at": "2026-10-17 12:00:02"
+      "last_ingested_at": "2026-10-18 18:00:03"
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-and-ultralytics-collaborate-bring-ultralytics-yolo",
-      "last_ingested_at": "2026-10-17 12:00:03"
+      "last_ingested_at": "2026-10-18 18:00:03"
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-and-zededa-partner-bring-cloud-orchestrated-ai",
-      "last_ingested_at": "2026-10-17 12:00:03"
+      "last_ingested_at": "2026-10-18 18:00:03"
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-announces-second-quarter-fiscal-year-2027-earnings",
-      "last_ingested_at": "2026-10-17 12:00:03"
+      "last_ingested_at": "2026-10-18 18:00:03"
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-engages-capgemini-help-accelerate-enterprise-adoption",
-      "last_ingested_at": "2026-10-17 12:00:04"
+      "last_ingested_at": "2026-10-18 18:00:03"
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-expands-its-developer-zone-remote-access-live-silicon",
-      "last_ingested_at": "2026-10-17 12:00:04"
+      "last_ingested_at": "2026-10-18 18:00:04"
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-launches-powerful-edge-ai-8k-vision-soc-industry",
-      "last_ingested_at": "2026-10-18 00:00:19"
+      "last_ingested_at": "2026-10-19 06:00:46"
     },
     {
       "url": "https://investor.ambarella.com/news-releases/news-release-details/ambarella-launches-x7-its-first-standalone-ai-accelerator-add",
-      "last_ingested_at": "2026-10-18 00:00:04"
+      "last_ingested_at": "2026-10-19 06:00:03"
     },
     {
       "url": "https://investor.ambarella.com/static-files/309cc9ba-e8e5-45ba-a2e7-f64f7311eb24",
-      "last_ingested_at": "2026-10-18 00:00:20"
+      "last_ingested_at": "2026-10-19 06:00:46"
     },
     {
       "url": "https://investor.synaptics.com/news-releases/news-release-details/synaptics-brings-tactile-sensing-and-edge-ai-nvidia-isaac-sim",
@@ -393,7 +393,7 @@
     },
     {
       "url": "https://investor.synaptics.com/news-releases/news-release-details/synaptics-reports-fourth-quarter-and-full-year-fiscal-2026",
-      "last_ingested_at": "2026-10-18 06:00:08"
+      "last_ingested_at": "2026-10-19 12:00:10"
     },
     {
       "url": "https://investor.synaptics.com/static-files/0209d2d0-94ec-415d-aaba-4b840bd4acc7",
@@ -401,35 +401,35 @@
     },
     {
       "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-04/3cef85204275f94fd111485cfdf4adb3c0263c45/TSMC%201Q26%20Transcript.pdf",
-      "last_ingested_at": "2026-10-17 18:00:18"
+      "last_ingested_at": "2026-10-19 00:00:22"
     },
     {
       "url": "https://investors.arm.com/news-events/press-releases",
-      "last_ingested_at": "2026-10-18 00:00:20"
+      "last_ingested_at": "2026-10-19 06:00:47"
     },
     {
       "url": "https://investors.arm.com/node/8451/html",
-      "last_ingested_at": "2026-10-17 12:00:11"
+      "last_ingested_at": "2026-10-18 18:00:11"
     },
     {
       "url": "https://investors.nxp.com/news-events/press-releases",
-      "last_ingested_at": "2026-10-18 00:00:20"
+      "last_ingested_at": "2026-10-19 06:00:48"
     },
     {
       "url": "https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-second-quarter-2026-results",
-      "last_ingested_at": "2026-10-17 12:00:08"
+      "last_ingested_at": "2026-10-18 18:00:08"
     },
     {
       "url": "https://investors.nxp.com/news-releases/news-release-details/vsmc-celebrates-grand-opening-its-first-300mm-fab-singapore",
-      "last_ingested_at": "2026-10-17 18:00:14"
+      "last_ingested_at": "2026-10-19 00:00:18"
     },
     {
       "url": "https://investors.soundhound.com/news-releases/news-release-details/soundhound-ai-introduces-oasys-edge-bringing-fully-embedded",
-      "last_ingested_at": "2026-10-17 12:00:11"
+      "last_ingested_at": "2026-10-18 18:00:11"
     },
     {
       "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-advances-fpga-design-new-leadership-ai-driven",
-      "last_ingested_at": "2026-10-17 12:00:06"
+      "last_ingested_at": "2026-10-18 18:00:06"
     },
     {
       "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-semiconductor-completes-acquisition-ami/",
@@ -437,7 +437,7 @@
     },
     {
       "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-semiconductor-reports-42-yoy-first-quarter-2026-revenue",
-      "last_ingested_at": "2026-10-17 12:00:14"
+      "last_ingested_at": "2026-10-18 18:00:15"
     },
     {
       "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-showcase-ai-driven-low-power-fpga-innovation-fpga",
@@ -445,7 +445,7 @@
     },
     {
       "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-showcase-industrial-fpga-innovations-fpgaworld",
-      "last_ingested_at": "2026-10-17 18:00:07"
+      "last_ingested_at": "2026-10-19 00:00:12"
     },
     {
       "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-showcase-next-gen-automotive-sensing-innovations",
@@ -453,23 +453,23 @@
     },
     {
       "url": "https://ir.microchip.com/news-events/press-releases/detail/1406/microchip-technology-signs-definitive-agreement-to-acquire-hailo",
-      "last_ingested_at": "2026-10-18 00:00:13"
+      "last_ingested_at": "2026-10-19 06:00:40"
     },
     {
       "url": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-first-quarter-2026-results-updates-full-year",
-      "last_ingested_at": "2026-10-17 12:00:15"
+      "last_ingested_at": "2026-10-18 18:00:15"
     },
     {
       "url": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-second-quarter-2026-results-updates-guidance",
-      "last_ingested_at": "2026-10-17 12:00:08"
+      "last_ingested_at": "2026-10-18 18:00:07"
     },
     {
       "url": "https://mvpromedia.com/microchip-acquires-hailo-to-boost-edge-ai/",
-      "last_ingested_at": "2026-10-18 00:00:13"
+      "last_ingested_at": "2026-10-19 06:00:38"
     },
     {
       "url": "https://mythic.ai/news/",
-      "last_ingested_at": "2026-10-17 18:00:14"
+      "last_ingested_at": "2026-10-19 00:00:19"
     },
     {
       "url": "https://newsroom.arm.com/blog/arm-neural-technology-mobile-gaming-ecosystem",
@@ -477,7 +477,7 @@
     },
     {
       "url": "https://newsroom.arm.com/blog/building-local-ai-for-the-intelligent-edge",
-      "last_ingested_at": "2026-10-17 18:00:04"
+      "last_ingested_at": "2026-10-19 00:00:06"
     },
     {
       "url": "https://newsroom.arm.com/blog/robotics-systems-physical-ai",
@@ -485,7 +485,7 @@
     },
     {
       "url": "https://newsroom.arm.com/news/arm-css-for-mobile-2-agentic-ai-mobile-graphics",
-      "last_ingested_at": "2026-10-17 18:00:02"
+      "last_ingested_at": "2026-10-19 00:00:03"
     },
     {
       "url": "https://newsroom.arm.com/news/arm-everywhere-the-compute-platform-for-agentic-ai",
@@ -493,7 +493,7 @@
     },
     {
       "url": "https://newsroom.arm.com/news/arm-total-design-and-robotics-capability-framework-for-physical-ai",
-      "last_ingested_at": "2026-10-17 18:00:02"
+      "last_ingested_at": "2026-10-19 00:00:03"
     },
     {
       "url": "https://newsroom.arm.com/news/arm-unveils-arm-ai-portal",
@@ -501,43 +501,43 @@
     },
     {
       "url": "https://newsroom.st.com/",
-      "last_ingested_at": "2026-10-17 18:00:16"
+      "last_ingested_at": "2026-10-19 00:00:20"
     },
     {
       "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-introduces-automotive-image-sensor-to-help-scale-affordable-in-cabin-sensing-p4788.html",
-      "last_ingested_at": "2026-10-18 00:00:19"
+      "last_ingested_at": "2026-10-19 06:00:46"
     },
     {
       "url": "https://newsroom.st.com/media-center/press-item.html/the-next-decade-of-edge-ai-will-be-won-inside-memory.html",
-      "last_ingested_at": "2026-10-17 12:00:13"
+      "last_ingested_at": "2026-10-18 18:00:13"
     },
     {
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
-      "last_ingested_at": "2026-10-17 18:00:08"
+      "last_ingested_at": "2026-10-19 00:00:13"
     },
     {
       "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
-      "last_ingested_at": "2026-10-17 18:00:08"
+      "last_ingested_at": "2026-10-19 00:00:13"
     },
     {
       "url": "https://prnewswire.com/news-releases/advantech-unveils-qualcomm-dragonwing-iq9-based-solutions-for-industrial-vision-intelligence-302857919.html",
-      "last_ingested_at": "2026-10-18 12:00:02"
+      "last_ingested_at": "2026-10-19 12:00:03"
     },
     {
       "url": "https://prnewswire.com/news-releases/simaai-and-avermedia-to-showcase-integrated-drone-ai-solution-at-august-27-2026-drone-seminar-302858789.html",
-      "last_ingested_at": "2026-10-17 18:00:13"
+      "last_ingested_at": "2026-10-19 00:00:17"
     },
     {
       "url": "https://qnx.software/en/press-release/2026/qnx-and-hailo-join-forces-to-advance-reliable-physical-ai-at-the-edge",
-      "last_ingested_at": "2026-10-17 12:00:09"
+      "last_ingested_at": "2026-10-18 18:00:09"
     },
     {
       "url": "https://roboticsandautomationnews.com/2026/08/17/interview-with-lattice-semiconductors-karl-wachswender-parallel-processing-enables-more-powerful-edge-ai/104215/",
-      "last_ingested_at": "2026-10-17 18:00:06"
+      "last_ingested_at": "2026-10-19 00:00:11"
     },
     {
       "url": "https://s21.q4cdn.com/900030961/files/doc_news/indie-Reports-First-Quarter-2026-Results-2026.pdf",
-      "last_ingested_at": "2026-10-17 12:00:14"
+      "last_ingested_at": "2026-10-18 18:00:14"
     },
     {
       "url": "https://semiconductor.samsung.com/news-events/tech-blog/powering-the-next-wave-of-edge-ai-from-market-momentum-to-scalable-silicon-innovation/",
@@ -549,39 +549,39 @@
     },
     {
       "url": "https://siliconangle.com/2026/07/31/nxp-reportedly-talks-acquire-vehicle-chip-supplier-ambarella/",
-      "last_ingested_at": "2026-10-17 18:00:08"
+      "last_ingested_at": "2026-10-19 00:00:13"
     },
     {
       "url": "https://sima.ai/press-release/sima-ai-and-ark-electronics-partner-to-accelerate-intelligent-autonomous-drones/",
-      "last_ingested_at": "2026-10-18 06:00:08"
+      "last_ingested_at": "2026-10-19 12:00:09"
     },
     {
       "url": "https://sima.ai/press-release/sima-ai-and-wobot-ai-partner-to-bring-reasoning-based-video-analytics-for-physical-ai/",
-      "last_ingested_at": "2026-10-18 06:00:08"
+      "last_ingested_at": "2026-10-19 12:00:09"
     },
     {
       "url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
-      "last_ingested_at": "2026-10-17 18:00:13"
+      "last_ingested_at": "2026-10-19 00:00:17"
     },
     {
       "url": "https://talkingiot.io/qualcomms-edge-ai-stack-moves-fast/",
-      "last_ingested_at": "2026-10-17 18:00:10"
+      "last_ingested_at": "2026-10-19 00:00:14"
     },
     {
       "url": "https://tenstorrent.com/news",
-      "last_ingested_at": "2026-10-17 18:00:16"
+      "last_ingested_at": "2026-10-19 00:00:21"
     },
     {
       "url": "https://www.ambarella.com/blog/the-gap-between-intent-and-execution-is-where-edge-ai-projects-stall/",
-      "last_ingested_at": "2026-10-18 06:00:09"
+      "last_ingested_at": "2026-10-19 12:00:10"
     },
     {
       "url": "https://www.analog.com/en/newsroom/press-releases/2026/9-9-2026-adi-to-acquire-alif-semiconductor.html",
-      "last_ingested_at": "2026-10-18 00:00:05"
+      "last_ingested_at": "2026-10-19 06:00:34"
     },
     {
       "url": "https://www.arm.com/zh-cn/company/news/2026/09/data-to-token-edge-ai-compute-storage",
-      "last_ingested_at": "2026-10-17 12:00:13"
+      "last_ingested_at": "2026-10-18 18:00:13"
     },
     {
       "url": "https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear",
@@ -589,27 +589,27 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260804329539/en/Lattice-Semiconductor-Reports-Record-2Q26-Revenue-Up-62-YOY",
-      "last_ingested_at": "2026-10-18 06:00:05"
+      "last_ingested_at": "2026-10-19 12:00:06"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260827457882/en/MIPS-Leads-Open-Standards-Development-for-Physical-AI-Platforms-as-RISC-V-International-Premier-Member",
-      "last_ingested_at": "2026-10-18 06:00:05"
+      "last_ingested_at": "2026-10-19 12:00:07"
     },
     {
       "url": "https://www.design-reuse.com/news/202531107-bos-semiconductors-joins-arm-total-design-for-physical-ai/",
-      "last_ingested_at": "2026-10-18 00:00:07"
+      "last_ingested_at": "2026-10-19 06:00:35"
     },
     {
       "url": "https://www.edge-ai-vision.com/2026/08/advancing-multimodal-robotics-at-the-edge-from-vision-to-voice/",
-      "last_ingested_at": "2026-10-18 12:00:02"
+      "last_ingested_at": "2026-10-19 12:00:03"
     },
     {
       "url": "https://www.edge-ai-vision.com/2026/08/novaeyed-real-time-face-recognition-on-sts-stm32n6/",
-      "last_ingested_at": "2026-10-18 00:00:14"
+      "last_ingested_at": "2026-10-19 06:00:41"
     },
     {
       "url": "https://www.edge-ai-vision.com/2026/08/reality-check-vision-and-ai-developer-trends-and-pain-points-and-implications-a-presentation-from-bdti-edge-ai-and-vision-alliance/",
-      "last_ingested_at": "2026-10-17 18:00:13"
+      "last_ingested_at": "2026-10-19 00:00:17"
     },
     {
       "url": "https://www.edge-ai-vision.com/2026/08/the-edge-llm-offload-story-how-synaptics-torq-enables-high-efficiency-gemma-inference/",
@@ -617,99 +617,99 @@
     },
     {
       "url": "https://www.edge-ai-vision.com/2026/09/from-cnns-to-llms-at-the-edge-why-memory-not-tops-is-the-bottleneck-a-presentation-from-deep-sentinel/",
-      "last_ingested_at": "2026-10-18 00:00:09"
+      "last_ingested_at": "2026-10-19 06:00:37"
     },
     {
       "url": "https://www.edge-ai-vision.com/2026/09/mips-launches-workload-native-platforms-for-physical-ai/",
-      "last_ingested_at": "2026-10-17 12:00:07"
+      "last_ingested_at": "2026-10-18 18:00:07"
     },
     {
       "url": "https://www.edge-ai-vision.com/2026/09/peridio-joins-arm-total-design-for-physical-ai-to-accelerate-the-path-from-robotics-development-to-production/",
-      "last_ingested_at": "2026-10-18 00:00:16"
+      "last_ingested_at": "2026-10-19 06:00:43"
     },
     {
       "url": "https://www.edgecortix.com/en/press-releases/edgecortix-adds-edge-ai-expansion-in-japan-and-across-indo-pacific-with-hakuto-and-midoriya-electric",
-      "last_ingested_at": "2026-10-17 18:00:03"
+      "last_ingested_at": "2026-10-19 00:00:04"
     },
     {
       "url": "https://www.edgecortix.com/en/press-releases/edgecortix-signs-multi-year-multimillion-dollar-agreement-with-kawasaki-heavy-industries",
-      "last_ingested_at": "2026-10-17 18:00:03"
+      "last_ingested_at": "2026-10-19 00:00:04"
     },
     {
       "url": "https://www.eejournal.com/industry_news/arrow-electronics-enables-early-evaluation-of-nxps-ara240-edge-ai-accelerator/",
-      "last_ingested_at": "2026-10-18 00:00:06"
+      "last_ingested_at": "2026-10-19 06:00:34"
     },
     {
       "url": "https://www.eenewseurope.com/en/ai-inference-at-the-crossroads/",
-      "last_ingested_at": "2026-10-17 12:00:02"
+      "last_ingested_at": "2026-10-18 18:00:02"
     },
     {
       "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
-      "last_ingested_at": "2026-10-18 06:00:09"
+      "last_ingested_at": "2026-10-19 12:00:11"
     },
     {
       "url": "https://www.fortunebusinessinsights.com/edge-ai-semiconductor-market-117383",
-      "last_ingested_at": "2026-10-18 06:00:03"
+      "last_ingested_at": "2026-10-19 12:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/05/12/3293446/0/en/Synaptics-to-Showcase-Real-World-Edge-AI-Use-Cases-at-COMPUTEX-2026.html",
-      "last_ingested_at": "2026-10-17 18:00:16"
+      "last_ingested_at": "2026-10-19 00:00:21"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/07/20/3329915/0/en/edge-ai-software-market-growth-accelerates-as-5g-iot-and-industrial-automation-enable-real-time-intelligence.html",
-      "last_ingested_at": "2026-10-18 06:00:04"
+      "last_ingested_at": "2026-10-19 12:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/24/3349462/0/en/stmicroelectronics-and-nus-launch-corporate-lab-to-power-the-future-of-edge-ai-in-singapore.html",
-      "last_ingested_at": "2026-10-17 12:00:12"
+      "last_ingested_at": "2026-10-18 18:00:11"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/02/3355147/0/en/globalfoundries-announces-customer-availability-of-ux-platform-technologies-for-intelligent-edge-connectivity-and-physical-ai-applications.html",
-      "last_ingested_at": "2026-10-18 00:00:10"
+      "last_ingested_at": "2026-10-19 06:00:37"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/03/3356244/23306/en/ambarella-inc-announces-second-quarter-fiscal-year-2027-financial-results.html",
-      "last_ingested_at": "2026-10-17 12:00:04"
+      "last_ingested_at": "2026-10-18 18:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/15/3362045/0/en/analogai-selects-membrain-sage-intellectual-property-from-silicon-storage-technology-for-its-first-real-world-edge-ai-processors.html",
-      "last_ingested_at": "2026-10-18 00:00:05"
+      "last_ingested_at": "2026-10-19 06:00:34"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/21/3365532/0/en/microchip-technology-completes-acquisition-of-hailo.html",
-      "last_ingested_at": "2026-10-18 06:00:05"
+      "last_ingested_at": "2026-10-19 12:00:07"
     },
     {
       "url": "https://www.intel.com/content/www/us/en/newsroom/news/client-computing/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026.html",
-      "last_ingested_at": "2026-10-17 18:00:05"
+      "last_ingested_at": "2026-10-19 00:00:08"
     },
     {
       "url": "https://www.investing.com/news/stock-market-news/nxps-reported-bid-for-ambarella-targets-edge-ai-gap-in-automotive-chips-93CH-4831977",
-      "last_ingested_at": "2026-10-18 00:00:14"
+      "last_ingested_at": "2026-10-19 06:00:41"
     },
     {
       "url": "https://www.investors.com/news/technology/amba-stock-ambarella-fiscal-q2-2027-earnings/",
-      "last_ingested_at": "2026-10-18 06:00:03"
+      "last_ingested_at": "2026-10-19 12:00:05"
     },
     {
       "url": "https://www.mobileye.com/blog/hands-off-driving-goes-mainstream-enabling-l2-at-scale/",
-      "last_ingested_at": "2026-10-17 18:00:04"
+      "last_ingested_at": "2026-10-19 00:00:05"
     },
     {
       "url": "https://www.mobileye.com/blog/mobileye-drive-advances-autonomous-mobility-in-germany/",
-      "last_ingested_at": "2026-10-17 12:00:08"
+      "last_ingested_at": "2026-10-18 18:00:07"
     },
     {
       "url": "https://www.mobileye.com/blog/physical-ai-at-mobileye-from-autonomous-vehicles-to-humanoid-robots/",
-      "last_ingested_at": "2026-10-17 12:00:09"
+      "last_ingested_at": "2026-10-18 18:00:09"
     },
     {
       "url": "https://www.mythic.ai/newsroom/defense-advisory-board",
-      "last_ingested_at": "2026-10-17 18:00:08"
+      "last_ingested_at": "2026-10-19 00:00:13"
     },
     {
       "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-INFOTAINMENT-CHIP-AI-ML-AUDIO",
-      "last_ingested_at": "2026-10-18 06:00:06"
+      "last_ingested_at": "2026-10-19 12:00:07"
     },
     {
       "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-SIMPLIFIES-INDUSTRIAL-MCX-A5-MCU",
@@ -717,47 +717,47 @@
     },
     {
       "url": "https://www.nxp.com/company/about-nxp/smarter-world-blog/BL-NXP-SMART-GLASSES-CONVERSATIONAL-AI-EDGE",
-      "last_ingested_at": "2026-10-18 00:00:19"
+      "last_ingested_at": "2026-10-19 06:00:46"
     },
     {
       "url": "https://www.nxp.com/company/about-nxp/smarter-world-blog/BL-TECHNEXION-EDGE-AI-VISION-ARA240-DNPU",
-      "last_ingested_at": "2026-10-17 18:00:13"
+      "last_ingested_at": "2026-10-19 00:00:18"
     },
     {
       "url": "https://www.ovt.com/press-releases/omnivision-introduces-lowest-power-oax7700-ai-companion-processor-for-always-on-vehicle-security-systems/",
-      "last_ingested_at": "2026-10-18 00:00:15"
+      "last_ingested_at": "2026-10-19 06:00:41"
     },
     {
       "url": "https://www.quectel.com/news-and-pr/high-performance-wi-fi-6-module-edge-ai-fcm665d/",
-      "last_ingested_at": "2026-10-17 18:00:11"
+      "last_ingested_at": "2026-10-19 00:00:16"
     },
     {
       "url": "https://www.renesas.com/en/about/newsroom/renesas-launches-64-bit-rzg3l-and-rzg3se-mpus-advanced-hmi-and-iot-edge-systems",
-      "last_ingested_at": "2026-10-18 00:00:17"
+      "last_ingested_at": "2026-10-19 06:00:44"
     },
     {
       "url": "https://www.synaptics.com/company/blog/the-art-of-the-possible-why-ai-developers-should-embrace-the-edge",
-      "last_ingested_at": "2026-10-17 12:00:12"
+      "last_ingested_at": "2026-10-18 18:00:12"
     },
     {
       "url": "https://www.synaptics.com/company/news/synaptics-announces-chief-financial-officer-transition",
-      "last_ingested_at": "2026-10-18 06:00:08"
+      "last_ingested_at": "2026-10-19 12:00:09"
     },
     {
       "url": "https://www.synaptics.com/company/news/synaptics-launches-next-generation-astra-multimodal-genai-processors-to-power-future-intelligent-iot-edge",
-      "last_ingested_at": "2026-10-17 18:00:16"
+      "last_ingested_at": "2026-10-19 00:00:20"
     },
     {
       "url": "https://www.theverge.com/transportation/968525/stellantis-taps-mobileye-for-hands-free-driving-assist",
-      "last_ingested_at": "2026-10-17 18:00:13"
+      "last_ingested_at": "2026-10-19 00:00:18"
     },
     {
       "url": "https://www.ti.com/about-ti/newsroom/news.html",
-      "last_ingested_at": "2026-10-17 18:00:16"
+      "last_ingested_at": "2026-10-19 00:00:21"
     },
     {
       "url": "https://www.wboc.com/online_features/press_releases/amlogic-launches-a123x-c305x2-next-gen-6nm-socs-built-to-power-the-edge-ai-ecosystem/article_d3fa1d04-19e9-538b-a3c1-e472882d2ddb.html",
-      "last_ingested_at": "2026-10-18 00:00:05"
+      "last_ingested_at": "2026-10-19 06:00:03"
     }
   ]
 }
