@@ -1,29 +1,29 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-10-19T13:41:01Z",
+  "generated_at": "2026-10-20T13:41:01Z",
   "theme_id": "photonic-computing",
   "generator": {
     "name": "theme-runtime-aggregates-exporter",
     "version": "0.1.0",
     "host_alias": "worker-1"
   },
-  "underlying_claim_count": 24763,
+  "underlying_claim_count": 24862,
   "underlying_source_count": 145,
   "min_count_threshold": 1,
   "windows": {
     "30d": {
-      "claims_total": 1229,
+      "claims_total": 1223,
       "claims_by_category": {
-        "corporate": 378,
-        "market": 525,
-        "manufacturing": 146,
-        "supply": 16,
-        "research": 164
+        "corporate": 375,
+        "market": 513,
+        "manufacturing": 148,
+        "supply": 15,
+        "research": 172
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 239
+          "mentions": 236
         },
         {
           "slug": "ams_osram",
@@ -31,31 +31,31 @@
         },
         {
           "slug": "marvell",
-          "mentions": 83
+          "mentions": 79
         },
         {
           "slug": "molex",
-          "mentions": 63
+          "mentions": 76
         },
         {
           "slug": "broadcom",
-          "mentions": 61
-        },
-        {
-          "slug": "tsmc",
-          "mentions": 60
-        },
-        {
-          "slug": "nvidia_cpo",
-          "mentions": 59
-        },
-        {
-          "slug": "china_insights_consultancy",
-          "mentions": 59
+          "mentions": 68
         },
         {
           "slug": "imec",
-          "mentions": 53
+          "mentions": 64
+        },
+        {
+          "slug": "tsmc",
+          "mentions": 58
+        },
+        {
+          "slug": "nvidia_cpo",
+          "mentions": 54
+        },
+        {
+          "slug": "china_insights_consultancy",
+          "mentions": 49
         },
         {
           "slug": "semtech",
@@ -63,18 +63,14 @@
         },
         {
           "slug": "global_foundries",
-          "mentions": 39
+          "mentions": 38
         },
         {
           "slug": "lumentum",
-          "mentions": 37
+          "mentions": 34
         },
         {
           "slug": "tower_semiconductor",
-          "mentions": 33
-        },
-        {
-          "slug": "ayar_labs",
           "mentions": 31
         },
         {
@@ -86,16 +82,20 @@
           "mentions": 30
         },
         {
-          "slug": "yuanjie_semiconductors",
-          "mentions": 21
+          "slug": "ayar_labs",
+          "mentions": 28
         },
         {
-          "slug": "celestial_ai",
-          "mentions": 21
+          "slug": "yuanjie_semiconductors",
+          "mentions": 20
         },
         {
           "slug": "celestica",
           "mentions": 20
+        },
+        {
+          "slug": "celestial_ai",
+          "mentions": 19
         },
         {
           "slug": "snsinsider",
@@ -104,23 +104,23 @@
       ]
     },
     "90d": {
-      "claims_total": 14939,
+      "claims_total": 15037,
       "claims_by_category": {
-        "corporate": 7192,
-        "market": 3808,
-        "manufacturing": 2246,
+        "corporate": 7223,
+        "market": 3835,
+        "manufacturing": 2275,
         "supply": 164,
-        "research": 1314,
+        "research": 1325,
         "regulatory": 215
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 1323
+          "mentions": 1324
         },
         {
           "slug": "marvell",
-          "mentions": 974
+          "mentions": 981
         },
         {
           "slug": "lightmatter",
@@ -132,15 +132,15 @@
         },
         {
           "slug": "macom",
-          "mentions": 671
+          "mentions": 672
         },
         {
           "slug": "global_foundries",
-          "mentions": 603
+          "mentions": 604
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 553
+          "mentions": 558
         },
         {
           "slug": "applied_optoelectronics",
@@ -152,27 +152,27 @@
         },
         {
           "slug": "tower_semiconductor",
-          "mentions": 504
+          "mentions": 512
         },
         {
           "slug": "lumentum",
-          "mentions": 503
+          "mentions": 504
         },
         {
           "slug": "aeva",
           "mentions": 480
         },
         {
+          "slug": "broadcom",
+          "mentions": 441
+        },
+        {
           "slug": "poet",
           "mentions": 438
         },
         {
-          "slug": "broadcom",
-          "mentions": 430
-        },
-        {
           "slug": "corning",
-          "mentions": 403
+          "mentions": 413
         },
         {
           "slug": "himax",
@@ -197,23 +197,23 @@
       ]
     },
     "365d": {
-      "claims_total": 22725,
+      "claims_total": 22824,
       "claims_by_category": {
-        "corporate": 11628,
-        "market": 4997,
-        "manufacturing": 3280,
+        "corporate": 11660,
+        "market": 5024,
+        "manufacturing": 3309,
         "supply": 382,
-        "research": 2207,
+        "research": 2218,
         "regulatory": 231
       },
       "top_entities": [
         {
           "slug": "coherent",
-          "mentions": 3336
+          "mentions": 3337
         },
         {
           "slug": "marvell",
-          "mentions": 2640
+          "mentions": 2647
         },
         {
           "slug": "aeluma",
@@ -221,15 +221,15 @@
         },
         {
           "slug": "tower_semiconductor",
-          "mentions": 1438
+          "mentions": 1446
         },
         {
           "slug": "nvidia_cpo",
-          "mentions": 1376
+          "mentions": 1381
         },
         {
           "slug": "celestial_ai",
-          "mentions": 1172
+          "mentions": 1173
         },
         {
           "slug": "applied_optoelectronics",
@@ -241,7 +241,7 @@
         },
         {
           "slug": "lumentum",
-          "mentions": 989
+          "mentions": 990
         },
         {
           "slug": "polariton_technologies",
@@ -249,11 +249,11 @@
         },
         {
           "slug": "macom",
-          "mentions": 672
+          "mentions": 673
         },
         {
           "slug": "global_foundries",
-          "mentions": 624
+          "mentions": 625
         },
         {
           "slug": "salience_labs",
@@ -268,16 +268,16 @@
           "mentions": 515
         },
         {
+          "slug": "broadcom",
+          "mentions": 448
+        },
+        {
           "slug": "poet",
           "mentions": 439
         },
         {
-          "slug": "broadcom",
-          "mentions": 437
-        },
-        {
           "slug": "corning",
-          "mentions": 421
+          "mentions": 431
         },
         {
           "slug": "himax",
@@ -293,19 +293,19 @@
   "source_freshness": [
     {
       "url": "https://247wallst.com/investing/2026/05/11/applied-optoelectronics-rips-24-lumentum-jumps-17-coherent-rallies-13-as-optics-trade-catches-fire/",
-      "last_ingested_at": "2026-10-19 06:00:01"
+      "last_ingested_at": "2026-10-20 06:00:02"
     },
     {
       "url": "https://247wallst.com/investing/2026/08/13/understand-how-coherent-and-lumentum-bypass-an-ai-bottleneck-with-optics",
-      "last_ingested_at": "2026-10-18 18:00:09"
+      "last_ingested_at": "2026-10-20 00:00:13"
     },
     {
       "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admt.71266",
-      "last_ingested_at": "2026-10-18 18:00:09"
+      "last_ingested_at": "2026-10-20 00:00:12"
     },
     {
       "url": "https://aeluma.com/investors/news-events/press-releases/detail/110/aeluma-and-department-of-commerce-sign-chips-research",
-      "last_ingested_at": "2026-10-18 12:00:03"
+      "last_ingested_at": "2026-10-19 18:00:03"
     },
     {
       "url": "https://ams-osram.com/news/press-releases/ecoc-datacom",
@@ -313,11 +313,11 @@
     },
     {
       "url": "https://arxiv.org/abs/2608.11639",
-      "last_ingested_at": "2026-10-19 00:01:00"
+      "last_ingested_at": "2026-10-20 06:00:17"
     },
     {
       "url": "https://ayarlabs.com/blog/ayar-labs-and-guc-complete-successful-thermal-co-simulation-testing-of-co-packaged-optics",
-      "last_ingested_at": "2026-10-18 12:00:05"
+      "last_ingested_at": "2026-10-19 18:00:05"
     },
     {
       "url": "https://ayarlabs.com/news/",
@@ -325,23 +325,23 @@
     },
     {
       "url": "https://ayarlabs.com/news/ayar-labs-expands-2026-funding-to-650-million/",
-      "last_ingested_at": "2026-10-18 18:00:03"
+      "last_ingested_at": "2026-10-20 00:00:03"
     },
     {
       "url": "https://celero.inc/celero-communications-raises-275-million-series-c-following-validation-of-industrys-first-2nm-coherent-dsp-silicon/",
-      "last_ingested_at": "2026-10-18 18:00:03"
+      "last_ingested_at": "2026-10-20 00:00:04"
     },
     {
       "url": "https://convergedigest.com/semtech-224g-linear-tia-driver-npo-cpo-ai/",
-      "last_ingested_at": "2026-10-18 18:00:08"
+      "last_ingested_at": "2026-10-20 00:00:12"
     },
     {
       "url": "https://dl.acm.org/doi/10.1145/3789240.3829187",
-      "last_ingested_at": "2026-10-19 06:00:15"
+      "last_ingested_at": "2026-10-20 12:00:12"
     },
     {
       "url": "https://gf.com/news-and-events/news/globalfoundries-signs-letter-of-intent-with-the-us-department-of-commerce-for-a-300-million-award-to-accelerate-us-silicon-photonics-leadership/",
-      "last_ingested_at": "2026-10-19 06:00:08"
+      "last_ingested_at": "2026-10-20 12:00:04"
     },
     {
       "url": "https://investor.lumentum.com/financial-information/sec-filings",
@@ -349,19 +349,19 @@
     },
     {
       "url": "https://investor.marvell.com/news-events/press-releases/detail/1020/marvell-announces-acquisition-of-polariton-technologies-advancing-optical-performance-scaling-to-3-2t-and-beyond",
-      "last_ingested_at": "2026-10-19 06:00:02"
+      "last_ingested_at": "2026-10-20 06:00:03"
     },
     {
       "url": "https://investor.marvell.com/news-events/press-releases/detail/1030/marvell-advances-ai-memory-infrastructure-portfolio-to-accelerate-agentic-ai-inference",
-      "last_ingested_at": "2026-10-19 06:00:12"
+      "last_ingested_at": "2026-10-20 12:00:08"
     },
     {
       "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results",
-      "last_ingested_at": "2026-10-19 06:00:12"
+      "last_ingested_at": "2026-10-20 12:00:09"
     },
     {
       "url": "https://investor.marvell.com/news-events/press-releases/detail/1034/marvell-to-showcase-industry-first-2nm-optical-technology-demos-for-ai-data-center-infrastructure-at-ecoc-2026",
-      "last_ingested_at": "2026-10-18 12:00:12"
+      "last_ingested_at": "2026-10-19 18:00:11"
     },
     {
       "url": "https://investor.marvell.com/news-releases",
@@ -373,15 +373,15 @@
     },
     {
       "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report_E.pdf",
-      "last_ingested_at": "2026-10-19 00:00:09"
+      "last_ingested_at": "2026-10-20 06:00:06"
     },
     {
       "url": "https://investors.aeva.com/news-releases/news-release-details/aeva-launches-optical-connectivity-business-signs-first-customer",
-      "last_ingested_at": "2026-10-19 00:00:09"
+      "last_ingested_at": "2026-10-20 06:00:07"
     },
     {
       "url": "https://investors.aeva.com/news-releases/news-release-details/aeva-reports-second-quarter-2026-results",
-      "last_ingested_at": "2026-10-18 12:00:04"
+      "last_ingested_at": "2026-10-19 18:00:05"
     },
     {
       "url": "https://investors.ao-inc.com/financial-information/sec-filings",
@@ -389,7 +389,7 @@
     },
     {
       "url": "https://investors.broadcom.com/node/64036/pdf",
-      "last_ingested_at": "2026-10-18 18:00:01"
+      "last_ingested_at": "2026-10-19 18:00:01"
     },
     {
       "url": "https://investors.coherent.com/financial-information/sec-filings",
@@ -405,23 +405,23 @@
     },
     {
       "url": "https://ipronics.com/ipronics-raises-125-million-to-scale-programmable-optical-networking-for-ai-data-centers/",
-      "last_ingested_at": "2026-10-19 00:00:30"
+      "last_ingested_at": "2026-10-20 06:00:12"
     },
     {
       "url": "https://ir.macom.com/news-releases/news-release-details/macom-demonstrates-technologies-enabling-future-high-speed",
-      "last_ingested_at": "2026-10-19 06:00:11"
+      "last_ingested_at": "2026-10-20 12:00:08"
     },
     {
       "url": "https://ir.macom.com/news-releases/news-release-details/macom-introduces-32t-chipset-solution-high-speed-optical",
-      "last_ingested_at": "2026-10-19 06:00:11"
+      "last_ingested_at": "2026-10-20 12:00:08"
     },
     {
       "url": "https://ir.macom.com/news-releases/news-release-details/macom-reports-fiscal-third-quarter-2026-financial-results",
-      "last_ingested_at": "2026-10-19 06:00:11"
+      "last_ingested_at": "2026-10-20 12:00:08"
     },
     {
       "url": "https://lightmatter.co/press-release/industry-leaders-formally-launch-cpo-system-architecture-initiative-within-the-open-compute-project/",
-      "last_ingested_at": "2026-10-19 00:00:27"
+      "last_ingested_at": "2026-10-20 06:00:10"
     },
     {
       "url": "https://lightmatter.co/press-release/lightmatter-announces-passage-l200-the-fastest-co-packaged-optics-for-ai/",
@@ -429,7 +429,7 @@
     },
     {
       "url": "https://lightmatter.co/press-release/lightmatter-joins-open-cpx-msa-introduces-the-industrys-first-bidirectional-cpx-optical-engine/",
-      "last_ingested_at": "2026-10-19 00:00:32"
+      "last_ingested_at": "2026-10-20 06:00:12"
     },
     {
       "url": "https://lightmatter.co/press-release/lightmatter-raises-400m-series-d-quadruples-valuation-to-4-4b-as-photonics-leader-for-next-gen-ai-data-centers/",
@@ -449,7 +449,7 @@
     },
     {
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
-      "last_ingested_at": "2026-10-18 12:00:03"
+      "last_ingested_at": "2026-10-19 18:00:03"
     },
     {
       "url": "https://openlightphotonics.com/newsroom/openlight-to-highlight-heterogeneous-silicon-photonics-at-four-key-global-industry-events",
@@ -457,11 +457,11 @@
     },
     {
       "url": "https://poet-technologies.com/news/",
-      "last_ingested_at": "2026-10-19 00:00:08"
+      "last_ingested_at": "2026-10-20 06:00:05"
     },
     {
       "url": "https://rss.globenewswire.com/news-release/2026/10/12/3378829/0/en/celestica-introduces-the-ds6005-data-center-switch-with-co-packaged-optics-to-enable-power-efficient-ai-fabrics.html",
-      "last_ingested_at": "2026-10-19 06:00:03"
+      "last_ingested_at": "2026-10-20 12:00:02"
     },
     {
       "url": "https://terasignal.com/terasignal-introduces-industry-first-analog-wave-processor-awp-for-200g-lane-ai-interconnects/",
@@ -469,15 +469,15 @@
     },
     {
       "url": "https://towersemi.com/2026/09/15/09152026/",
-      "last_ingested_at": "2026-10-18 12:00:14"
+      "last_ingested_at": "2026-10-19 18:00:14"
     },
     {
       "url": "https://wccftech.com/nvidia-optics-partners-crush-cpo-delay-rumors-with-coherents-scale-out-revenue-starting-late-2026",
-      "last_ingested_at": "2026-10-18 18:00:07"
+      "last_ingested_at": "2026-10-20 00:00:10"
     },
     {
       "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/microvision-introduces-advanced-photonics-technology-for-next-gen-1225204",
-      "last_ingested_at": "2026-10-19 00:00:32"
+      "last_ingested_at": "2026-10-20 06:00:13"
     },
     {
       "url": "https://www.aehr.com/2026/08/aehr-test-systems-expands-silicon-photonics-production-momentum-with-follow-on-production-order-from-lead-customer/",
@@ -485,31 +485,31 @@
     },
     {
       "url": "https://www.aeluma.com/investors/news-events/press-releases/detail/111/aeluma-names-jason-taylor-senior-director-of-program-and",
-      "last_ingested_at": "2026-10-18 12:00:04"
+      "last_ingested_at": "2026-10-19 18:00:04"
     },
     {
       "url": "https://www.aeluma.com/investors/news-events/press-releases/detail/112/aeluma-to-announce-fourth-quarter-and-fiscal-year-2026",
-      "last_ingested_at": "2026-10-18 12:00:04"
+      "last_ingested_at": "2026-10-19 18:00:04"
     },
     {
       "url": "https://www.aeluma.com/investors/news-events/press-releases/detail/99/aeluma-secures-more-than-4-million-in-contracts-for",
-      "last_ingested_at": "2026-10-18 18:00:01"
+      "last_ingested_at": "2026-10-19 18:00:01"
     },
     {
       "url": "https://www.amadeuscapital.com/ipronics-125m-series-b-programmable-optical-networking-ai-data-centers/",
-      "last_ingested_at": "2026-10-18 12:00:10"
+      "last_ingested_at": "2026-10-19 18:00:09"
     },
     {
       "url": "https://www.barrons.com/articles/corning-stock-verizon-fiber-deal-f6c42e68",
-      "last_ingested_at": "2026-10-19 00:01:02"
+      "last_ingested_at": "2026-10-20 06:00:19"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260303608615/en/",
-      "last_ingested_at": "2026-10-18 18:00:01"
+      "last_ingested_at": "2026-10-19 18:00:01"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260806444241/en/Lumilens-Emerges-from-Stealth-with-More-Than-$900-Million-in-Funding-to-Break-AIs-Connectivity-Bottlenecks-in-the-Data-Center",
-      "last_ingested_at": "2026-10-18 12:00:11"
+      "last_ingested_at": "2026-10-19 18:00:11"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260824525357/en/Quintessent-Raises-$40-Million-Series-A-and-Begins-Sampling-First-Product-for-AI-Optical-Interconnects",
@@ -517,11 +517,11 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260826856857/en/OIF-Validates-AI-Era-Interoperability-Live-at-ECOC-2026-Through-Multi-Vendor-Demonstrations-and-Expert-Sessions",
-      "last_ingested_at": "2026-10-18 18:00:08"
+      "last_ingested_at": "2026-10-20 00:00:10"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260831397063/en/THine-Announces-New-VCSEL-Drivers-and-TIAs-for-Ultra-Low-Latency-Lower-Power-High-Density-and-Cost-Effective-Scale-Up-Networks-to-Enable-Next-Generation-Large-Scale-AI-Datacenters",
-      "last_ingested_at": "2026-10-19 06:00:16"
+      "last_ingested_at": "2026-10-20 12:00:13"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260831608038/en/Credo-Joins-Open-CPX-MSA-Organization",
@@ -529,27 +529,27 @@
     },
     {
       "url": "https://www.businesswire.com/news/home/20260908735713/en/HyperLight-Welcomes-VentureTech-Alliance-to-Series-C-Deepening-TFLN-Integration-Across-the-Semiconductor-Ecosystem",
-      "last_ingested_at": "2026-10-18 12:00:08"
+      "last_ingested_at": "2026-10-19 18:00:07"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260909516427/en/Marvell-to-Showcase-End-to-End-AI-Data-Center-Connectivity-Portfolio-at-AI-Infra-Summit-2026",
-      "last_ingested_at": "2026-10-18 18:00:06"
+      "last_ingested_at": "2026-10-20 00:00:08"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260909882307/en/Keysight-to-Demonstrate-End-to-End-Solutions-for-Scaling-AI-Infrastructure-at-ECOC-2026",
-      "last_ingested_at": "2026-10-18 18:00:05"
+      "last_ingested_at": "2026-10-20 00:00:07"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260915270131/en/Lumentum-Experts-to-Share-Insights-at-ECOC-2026",
-      "last_ingested_at": "2026-10-18 18:00:06"
+      "last_ingested_at": "2026-10-20 00:00:07"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260917300267/en/Avicena-to-Demonstrate-Worlds-First-Connectorized-microLED-Optical-Interconnect-for-AI-Infrastructure-at-ECOC-2026",
-      "last_ingested_at": "2026-10-18 18:00:02"
+      "last_ingested_at": "2026-10-20 00:00:03"
     },
     {
       "url": "https://www.businesswire.com/news/home/20260921837096/en/",
-      "last_ingested_at": "2026-10-18 12:00:11"
+      "last_ingested_at": "2026-10-19 18:00:11"
     },
     {
       "url": "https://www.celestial.ai/news",
@@ -557,7 +557,7 @@
     },
     {
       "url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/financial-releases/2026/may-6/earnings-release-fy26-q3.pdf",
-      "last_ingested_at": "2026-10-19 00:00:05"
+      "last_ingested_at": "2026-10-20 06:00:02"
     },
     {
       "url": "https://www.coherent.com/news/press-releases/customer-sampling-of-300mm-high-thermal-conductivity-sic-substrates-for-ai-infrastructure",
@@ -565,7 +565,7 @@
     },
     {
       "url": "https://www.coherent.com/news/press-releases/fourth-quarter-and-fiscal-year-2026-results",
-      "last_ingested_at": "2026-10-19 00:00:24"
+      "last_ingested_at": "2026-10-20 06:00:09"
     },
     {
       "url": "https://www.coherent.com/news/press-releases/launches-photonlink-integrated-optics-platform-ai-infrastructure",
@@ -573,7 +573,7 @@
     },
     {
       "url": "https://www.coherent.com/news/press-releases/showcases-optical-innovations-scale-ai-infrastructure-ecoc-2026",
-      "last_ingested_at": "2026-10-18 12:00:07"
+      "last_ingested_at": "2026-10-19 18:00:06"
     },
     {
       "url": "https://www.coherent.com/news/press-releases/unveil-photonlink-platform-at-ecoc-2026",
@@ -581,15 +581,15 @@
     },
     {
       "url": "https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2026/09/corning-to-showcase-new-cable-and-connectivity-innovations-to-accelerate-and-streamline-ai-network-growth-at-ecoc-2026.html",
-      "last_ingested_at": "2026-10-18 18:00:04"
+      "last_ingested_at": "2026-10-20 00:00:04"
     },
     {
       "url": "https://www.datacenterdynamics.com/en/news/lightmatter-launches-19-company-strong-initiative-to-standardize-silicon-photonics-ready-infrastructure/",
-      "last_ingested_at": "2026-10-18 12:00:11"
+      "last_ingested_at": "2026-10-19 18:00:10"
     },
     {
       "url": "https://www.datamintelligence.com/research-report/optical-interconnect-in-ai-data-centers-market",
-      "last_ingested_at": "2026-10-19 06:00:15"
+      "last_ingested_at": "2026-10-20 12:00:12"
     },
     {
       "url": "https://www.eurekalert.org/news-releases/1144709",
@@ -601,11 +601,11 @@
     },
     {
       "url": "https://www.globenewswire.com/de/news-release/2026/10/12/3379035/0/en/index.html",
-      "last_ingested_at": "2026-10-19 06:00:15"
+      "last_ingested_at": "2026-10-20 12:00:12"
     },
     {
       "url": "https://www.globenewswire.com/de/news-release/2026/10/13/3379474/0/en/tower-semiconductor-and-semtech-expand-sige-partnership-to-scale-power-efficient-analog-connectivity-for-data-centers.html",
-      "last_ingested_at": "2026-10-19 00:01:01"
+      "last_ingested_at": "2026-10-20 06:00:18"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/07/29/3335320/0/en/eliyan-achieves-unicorn-status-with-145-million-series-c-to-advance-electro-optical-interconnects-for-ai-infrastructure.html",
@@ -613,99 +613,99 @@
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/03/3337362/0/en/palomino-laboratories-completes-vega-links-acquisition-and-strengthens-technology-leadership-to-accelerate-next-generation-ai-interconnect-development.html",
-      "last_ingested_at": "2026-10-19 00:00:48"
+      "last_ingested_at": "2026-10-20 06:00:15"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/06/3339987/0/en/himax-technologies-inc-reports-second-quarter-2026-financial-results-provides-third-quarter-2026-guidance.html",
-      "last_ingested_at": "2026-10-19 00:00:27"
+      "last_ingested_at": "2026-10-20 06:00:10"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/06/3340777/9986/en/applied-optoelectronics-reports-second-quarter-2026-results.html",
-      "last_ingested_at": "2026-10-19 00:00:10"
+      "last_ingested_at": "2026-10-20 06:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/11/3342496/0/en/openlight-and-tower-semiconductor-expand-ph18da-photonics-ecosystem-to-accelerate-photonic-ic-development.html",
-      "last_ingested_at": "2026-10-19 00:00:48"
+      "last_ingested_at": "2026-10-20 06:00:15"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/11/3342826/0/en/fabric-ai-and-kopin-confirm-plans-to-give-first-public-demonstration-of-neural-i-o-microled-optical-interconnect-at-ces-2027.html",
-      "last_ingested_at": "2026-10-18 18:00:04"
+      "last_ingested_at": "2026-10-20 00:00:05"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/13/3344383/0/en/poet-technologies-reports-second-quarter-2026-results-revenue-up-112-year-over-year-in-sixth-consecutive-quarter-of-sequential-growth.html",
-      "last_ingested_at": "2026-10-19 00:00:48"
+      "last_ingested_at": "2026-10-20 06:00:16"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/13/3344694/0/en/global-co-packaged-optics-market-trends-and-growth-outlook-2027-2037-ai-data-centre-hyperscale-and-high-performance-computing-analysis.html",
-      "last_ingested_at": "2026-10-18 18:00:04"
+      "last_ingested_at": "2026-10-20 00:00:06"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/17/3346232/0/en/co-packaged-optics-in-the-ai-data-center-10-year-market-forecast-and-strategic-analysis-evaluating-silicon-photonics-switch-asics-and-strategies-of-nvidia-broadcom-intel-and-marvel.html",
-      "last_ingested_at": "2026-10-18 12:00:05"
+      "last_ingested_at": "2026-10-19 18:00:06"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/08/18/3347062/0/en/photonic-chip-market-to-reach-usd-9-30-billion-by-2032-growing-at-12-9-cagr-says-marketsandmarkets.html",
-      "last_ingested_at": "2026-10-18 18:00:08"
+      "last_ingested_at": "2026-10-20 00:00:10"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/15/3361891/0/en/aeluma-executes-strategic-agreement-with-sumitomo-chemical-advanced-technologies-for-wafer-production-for-ai-datacom.html",
-      "last_ingested_at": "2026-10-19 06:00:02"
+      "last_ingested_at": "2026-10-20 06:00:06"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/15/3362139/0/en/classone-technology-secures-multi-system-follow-on-orders-from-top-photonics-manufacturers-for-high-volume-6-inch-inp-gold-plating.html",
-      "last_ingested_at": "2026-10-18 18:00:04"
+      "last_ingested_at": "2026-10-20 00:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/17/3363790/0/en/newphotonics-and-tower-semiconductor-begin-high-volume-shipments-of-laser-integrated-serviceable-optical-engine-pics-for-scale-out-and-scale-up-ai-interconnect.html",
-      "last_ingested_at": "2026-10-18 18:00:06"
+      "last_ingested_at": "2026-10-20 00:00:09"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/17/3364000/0/en/globalfoundries-and-marvell-expand-collaboration-for-next-generation-optical-connectivity.html",
-      "last_ingested_at": "2026-10-19 06:00:07"
+      "last_ingested_at": "2026-10-20 12:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/21/3365119/0/en/ipronics-and-barcelona-supercomputing-center-partner-to-advance-programmable-optical-networking-for-ai-infrastructure.html",
-      "last_ingested_at": "2026-10-18 12:00:09"
+      "last_ingested_at": "2026-10-19 18:00:08"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/09/21/3365311/31115/en/utstarcom-unveils-optical-circuit-switching-ocs-solution-for-ai-data-centers-at-cioe-2026.html",
-      "last_ingested_at": "2026-10-19 06:00:17"
+      "last_ingested_at": "2026-10-20 12:00:14"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/10/01/3373332/0/en/q-c-technologies-announces-research-collaboration-with-sandia-national-laboratories-a-5-billion-u-s-department-of-energy-lab.html",
-      "last_ingested_at": "2026-10-19 06:00:16"
+      "last_ingested_at": "2026-10-20 12:00:13"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/10/08/3377533/0/en/broadcom-redefines-ai-infrastructure-with-industry-leading-networking-innovations-at-2026-ocp-global-summit.html",
-      "last_ingested_at": "2026-10-18 18:00:03"
+      "last_ingested_at": "2026-10-20 00:00:04"
     },
     {
       "url": "https://www.globenewswire.com/news-release/2026/10/13/3379646/0/en/voyant-photonics-advances-into-ai-data-center-optical-circuit-switching-ocs-with-production-proven-silicon-photonics-technology.html",
-      "last_ingested_at": "2026-10-19 00:01:02"
+      "last_ingested_at": "2026-10-20 06:00:19"
     },
     {
       "url": "https://www.group.ntt/en/newsrelease/2026/09/09/260909a.html",
-      "last_ingested_at": "2026-10-19 06:00:10"
+      "last_ingested_at": "2026-10-20 12:00:07"
     },
     {
       "url": "https://www.imec-int.com/en/press/imec-debuts-100-ghz-gesi-avalanche-photodiode-apd-enabling-net-400-gbps-data-reception-just-5",
-      "last_ingested_at": "2026-10-18 18:00:05"
+      "last_ingested_at": "2026-10-20 00:00:06"
     },
     {
       "url": "https://www.investing.com/news/transcripts/qualcomm-at-goldman-sachs-conference-amazon-deal-boosts-data-center-push-93CH-4892129",
-      "last_ingested_at": "2026-10-19 00:00:48"
+      "last_ingested_at": "2026-10-20 06:00:16"
     },
     {
       "url": "https://www.lightwaveonline.com/home/news/55396062/cornings-ceo-says-data-center-scale-up-scale-out-represents-a-10b-revenue-stream",
-      "last_ingested_at": "2026-10-18 12:00:08"
+      "last_ingested_at": "2026-10-19 18:00:07"
     },
     {
       "url": "https://www.lightwaveonline.com/home/podcast/55397706/podcast-lightmatters-harris-on-electrical-bottlenecks-for-scaling-ai-with-optics",
-      "last_ingested_at": "2026-10-18 18:00:08"
+      "last_ingested_at": "2026-10-20 00:00:11"
     },
     {
       "url": "https://www.lightwaveonline.com/optical-tech/press-release/55404084/eugenlight-releases-high-power-elsfp-product-series-fornpo-and-cpo-applications",
-      "last_ingested_at": "2026-10-19 06:00:07"
+      "last_ingested_at": "2026-10-20 12:00:04"
     },
     {
       "url": "https://www.m-ventures.com/de/news/polaris-electro-optics-secures-50m-series-b-to-scale-next-gen-optical-engine-platform-for-ai-infrastructure",
@@ -713,19 +713,19 @@
     },
     {
       "url": "https://www.macom.com/investors/sec-filings",
-      "last_ingested_at": "2026-10-19 00:00:06"
+      "last_ingested_at": "2026-10-20 06:00:03"
     },
     {
       "url": "https://www.marketwatch.com/story/buy-these-stocks-to-ride-the-next-big-ai-wave-connectivity-analyst-says-196241b2",
-      "last_ingested_at": "2026-10-19 00:00:24"
+      "last_ingested_at": "2026-10-20 06:00:09"
     },
     {
       "url": "https://www.marketwatch.com/story/qualcomms-stock-climbs-as-amazon-chip-deal-offers-investors-some-much-needed-good-news-5b6a95ca",
-      "last_ingested_at": "2026-10-19 00:00:48"
+      "last_ingested_at": "2026-10-20 06:00:16"
     },
     {
       "url": "https://www.marvell.com/blogs/photonic-fabric-ai-infrastructure-award-fms-2026.html",
-      "last_ingested_at": "2026-10-18 18:00:06"
+      "last_ingested_at": "2026-10-20 00:00:08"
     },
     {
       "url": "https://www.marvell.com/company/newsroom/marvell-completes-acquisition-of-celestial-ai.html",
@@ -733,35 +733,35 @@
     },
     {
       "url": "https://www.nasdaq.com/press-release/salience-labs-and-tower-semiconductor-partner-manufacture-scale-optical-circuit",
-      "last_ingested_at": "2026-10-19 00:00:08"
+      "last_ingested_at": "2026-10-20 06:00:05"
     },
     {
       "url": "https://www.ofcconference.org/en-us/home/conference/program/technical-program/",
-      "last_ingested_at": "2026-10-19 00:00:07"
+      "last_ingested_at": "2026-10-20 06:00:05"
     },
     {
       "url": "https://www.picojool.com/news/picojool-raises-27-5-million-series-a-to-scale-optical-connectivity-for-ai-infrastructure",
-      "last_ingested_at": "2026-10-18 18:00:08"
+      "last_ingested_at": "2026-10-20 00:00:11"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/ev-group-addresses-critical-manufacturing-challenges-for-next-generation-co-packaged-optics-302865636.html",
-      "last_ingested_at": "2026-10-19 00:00:27"
+      "last_ingested_at": "2026-10-20 06:00:09"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/ieee-study-highlights-how-micro-transfer-printing-can-lead-to-advanced-silicon-photonics-302828743.html",
-      "last_ingested_at": "2026-10-19 00:00:27"
+      "last_ingested_at": "2026-10-20 06:00:10"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/kulicke--soffa-advances-ai-infrastructure-through-co-packaged-optics-cpo-and-advanced-packaging-leadership-302865846.html",
-      "last_ingested_at": "2026-10-19 00:00:31"
+      "last_ingested_at": "2026-10-20 06:00:12"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/mixx-launches-sxc-connector-for-high-radix-scale-up-and-multi-petabit-connectivity-302865083.html",
-      "last_ingested_at": "2026-10-19 00:00:32"
+      "last_ingested_at": "2026-10-20 06:00:13"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/molex-announces-versabeam-mini-to-advance-ultra-dense-eye-safe-optical-interconnects-for-next-generation-ai-data-centers-302882829.html",
-      "last_ingested_at": "2026-10-18 18:00:06"
+      "last_ingested_at": "2026-10-20 00:00:09"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/roundhill-investments-launches-first-ever-neocloud-etf-ncld-and-photonics--optics-etf-lyte-302844978.html",
@@ -769,103 +769,103 @@
     },
     {
       "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-announces-3-4m-program-with-seminex-for-next-generation-inp-light-sources-used-to-power-ai-data-centers-302850574.html",
-      "last_ingested_at": "2026-10-18 12:00:13"
+      "last_ingested_at": "2026-10-19 18:00:12"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-reports-q2-2026-results-as-product-growth-record-pipeline-and-customer-ramps-position-company-for-growth-acceleration-302862078.html",
-      "last_ingested_at": "2026-10-18 18:00:09"
+      "last_ingested_at": "2026-10-20 00:00:12"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/viavi-to-showcase-end-to-end-data-center-testing-portfolio-enabling-scale-up-scale-out-and-scale-across-to-1-6t-and-beyond-at-ecoc-2026--302870209.html",
-      "last_ingested_at": "2026-10-19 00:01:02"
+      "last_ingested_at": "2026-10-20 06:00:19"
     },
     {
       "url": "https://www.prnewswire.com/news-releases/vuzix-ships-high-bandwidth-optical-interconnect-solution-for-ai-data-centers-302853549.html",
-      "last_ingested_at": "2026-10-18 12:00:14"
+      "last_ingested_at": "2026-10-19 18:00:14"
     },
     {
       "url": "https://www.saliencelabs.ai/salience-labs-showcases-64-port-all-optical-circuit-switch-at-ecoc-2026/",
-      "last_ingested_at": "2026-10-19 00:00:48"
+      "last_ingested_at": "2026-10-20 06:00:16"
     },
     {
       "url": "https://www.sdxcentral.com/news/industry-giants-unite-to-define-open-co-packaged-optics-for-next-gen-ai-infrastructure/",
-      "last_ingested_at": "2026-10-19 06:00:09"
+      "last_ingested_at": "2026-10-20 12:00:06"
     },
     {
       "url": "https://www.sdxcentral.com/news/nvidia-backed-coherent-posts-record-quarter-as-ai-infrastructure-buildout-accelerates-optics-demand/",
-      "last_ingested_at": "2026-10-19 00:00:48"
+      "last_ingested_at": "2026-10-20 06:00:15"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
-      "last_ingested_at": "2026-10-18 12:00:11"
+      "last_ingested_at": "2026-10-19 18:00:11"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-      "last_ingested_at": "2026-10-19 06:00:03"
+      "last_ingested_at": "2026-10-20 12:00:02"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1828805/000121390026100546/ea030562401ex99-1.htm",
-      "last_ingested_at": "2026-10-18 12:00:03"
+      "last_ingested_at": "2026-10-19 18:00:03"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-      "last_ingested_at": "2026-10-19 06:00:12"
+      "last_ingested_at": "2026-10-20 12:00:09"
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
-      "last_ingested_at": "2026-10-18 12:00:05"
+      "last_ingested_at": "2026-10-19 18:00:06"
     },
     {
       "url": "https://www.semi.org/en/blogs/co-packaged-optics-at-scale-silicon-photonics-automation-and-standards-for-the-aI-era-an-interview-with-vikas-gupta-senior-fellow-silicon-photonics-business-at-globalFoundries",
-      "last_ingested_at": "2026-10-19 06:00:04"
+      "last_ingested_at": "2026-10-20 12:00:03"
     },
     {
       "url": "https://www.semiconductor-today.com/news_items/2026/sep/aeluma-scat-150926.shtml",
-      "last_ingested_at": "2026-10-19 00:01:00"
+      "last_ingested_at": "2026-10-20 06:00:17"
     },
     {
       "url": "https://www.semiconductor-today.com/news_items/2026/sep/avicena-170926.shtml",
-      "last_ingested_at": "2026-10-19 00:00:24"
+      "last_ingested_at": "2026-10-20 06:00:09"
     },
     {
       "url": "https://www.semiconductor-today.com/news_items/2026/sep/iqe-090926.shtml",
-      "last_ingested_at": "2026-10-18 18:00:05"
+      "last_ingested_at": "2026-10-20 00:00:07"
     },
     {
       "url": "https://www.semiconductor-today.com/news_items/2026/sep/tower-newphotonics-180926.shtml",
-      "last_ingested_at": "2026-10-19 00:00:47"
+      "last_ingested_at": "2026-10-20 06:00:13"
     },
     {
       "url": "https://www.senko.com/senko-advantest-and-viavi-collaborate-to-address-a-hidden-bottleneck-in-cpo-module-level-testing/",
-      "last_ingested_at": "2026-10-18 12:00:13"
+      "last_ingested_at": "2026-10-19 18:00:12"
     },
     {
       "url": "https://www.sivers-semiconductors.com/press/sivers-semiconductors-invests-usd-30-million-to-expand-european-photonics-manufacturing-for-ai-datacenters/",
-      "last_ingested_at": "2026-10-18 18:00:09"
+      "last_ingested_at": "2026-10-20 00:00:12"
     },
     {
       "url": "https://www.smartphotonics.nl/knowledge-hub/smart-photonics-partners-with-globalfoundries",
-      "last_ingested_at": "2026-10-19 06:00:16"
+      "last_ingested_at": "2026-10-20 12:00:13"
     },
     {
       "url": "https://www.snsinsider.com/reports/optical-interconnects-for-ai-data-centers-market-10847",
-      "last_ingested_at": "2026-10-19 06:00:15"
+      "last_ingested_at": "2026-10-20 12:00:12"
     },
     {
       "url": "https://www.snsinsider.com/reports/silicon-photonics-for-ai-computing-market-10894",
-      "last_ingested_at": "2026-10-18 18:00:09"
+      "last_ingested_at": "2026-10-20 00:00:12"
     },
     {
       "url": "https://www.tomshardware.com/tech-industry/photonics/ai-data-center-optical-interconnect-market-to-hit-usd144-billion-by-2030-an-over-ten-fold-increase-from-2024-figures-according-to-new-projections-silicon-photonics-expected-to-account-for-nearly-two-thirds-of-revenue-driven-by-co-packaged-optics",
-      "last_ingested_at": "2026-10-19 00:00:10"
+      "last_ingested_at": "2026-10-20 06:00:08"
     },
     {
       "url": "https://www.trendforce.com/news/2026/07/30/news-mass-production-and-capacity-expansion-accelerate-reshaping-the-foundry-landscape-in-silicon-photonics/",
-      "last_ingested_at": "2026-10-19 06:00:14"
+      "last_ingested_at": "2026-10-20 12:00:11"
     },
     {
       "url": "https://www.verizon.com/about/news/verizon-corning-broadband-ai-fiber-agreement",
-      "last_ingested_at": "2026-10-19 00:01:02"
+      "last_ingested_at": "2026-10-20 06:00:19"
     },
     {
       "url": "https://www.yolegroup.com/press-release/photonics-at-the-speed-of-ai-yole-group-charts-the-industrys-shift-from-compute-to-communication/",
