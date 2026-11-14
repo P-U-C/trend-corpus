@@ -1,0 +1,18 @@
+id: clm_bitcoin_mining_bitcoin_u2019s_projected_difficulty_cut
+type: claim
+theme_id: bitcoin-mining
+claim: "Hashrate Index's November 9, 2026 18:00 UTC snapshot put Bitcoin difficulty at 148.36 trillion and spot hashprice at $31.89/PH/s/day, and projected a 6.5% difficulty cut around November 13, 2026. Holding BTC price, block subsidy and average fees per block fixed, that cut implies a 6.95% rise in revenue per hash to about $34.11/PH/s/day. On nominal BITMAIN specs and continuous operation, the electricity-only ceiling for the S19 240-Ca 95 TH/s (3,250 W) rises from 3.88 to 4.15 cents/kWh and the 90 TH/s variant from 3.68 to 3.94 cents/kWh, both below an illustrative 5 cents/kWh, while the S21 (200 TH/s, 3,500 W) rises from 7.59 to 8.12 cents/kWh, just above an illustrative 8 cents/kWh. These ceilings exclude pool fees, cooling and site loads, repairs, labor, overhead, financing and equipment costs."
+category: technical
+source_ids:
+  - src_bitcoin_mining_bitcoin_s_projected_difficulty_cut_would
+date_of_evidence: "2026-11-11"
+evidence_at: "2026-11-11"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
