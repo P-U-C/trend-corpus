@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_release_2026_11_0_u00b7_sockless_coding
+type: claim
+theme_id: llm-convergence
+claim: "The sockless-coding/llm-router open-source project released version 2026.11.0 on 2026-11-08, adding vLLM as a backend engine alongside llama.cpp and stable-diffusion.cpp, with WSL-based installs on Windows using uv and Python 3.12 and presets driven by recipes read from recipes.vllm.ai. The release also introduces a self-contained LR.Agent service for Windows and Linux (x64/arm64) that dials out to the router over WebSocket to run inference servers on remote machines behind NAT, with per-agent hashed secrets and SHA-256-verified self-updates. It adds GGUF-metadata model-type classification (Chat, Embedding, Reranker, Decision, Image, Projector, ImageComponent) and a new /v1/systemone decision endpoint. Stated limitations: Strata servers cannot run on agents, remote backends listen on 0.0.0.0 without their own HTTP auth, and vLLM exposes no llama.cpp-style /props or /slots, so slot and KV usage are not shown, with in-flight requests bounded by a default 64 max concurrent requests."
+category: technical
+source_ids:
+  - src_llm_convergence_llm_router_2026_11_0_remote_agents_and_v
+date_of_evidence: "2026-11-08"
+evidence_at: "2026-11-08"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

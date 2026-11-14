@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_c1_introduces_llm_gateway_for_enterprise
+type: claim
+theme_id: llm-convergence
+claim: "On October 1, 2026, C1.ai announced C1 LLM Gateway as the fourth launch of its Launch Week, a single policy-controlled endpoint that routes inference requests across supported public, private, and customer-controlled model deployments using provider, model, deployment, region, and data-handling rules, with caller identity, cost attribution, and managed provider credential paths. C1.ai states the gateway does not host models and that customers retain responsibility for their models and inference deployments, and that it shares the C1 Platform identity and policy foundation with C1 MCP Gateway, which governs MCP, tool, and API actions. CEO and co-founder Alex Bovee framed the product around enterprises defaulting prompts to a single vendor. The page also carries a notice that C1.ai is to join Workday, and names Ramp, Zscaler, Qualtrics, and DoorDash as customers."
+category: corporate
+source_ids:
+  - src_llm_convergence_c1_introduces_llm_gateway_to_bring_polic
+date_of_evidence: "2026-10-01"
+evidence_at: "2026-10-01"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
