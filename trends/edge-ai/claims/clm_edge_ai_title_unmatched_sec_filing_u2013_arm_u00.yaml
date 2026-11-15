@@ -1,0 +1,18 @@
+id: clm_edge_ai_title_unmatched_sec_filing_u2013_arm_u00
+type: claim
+theme_id: edge-ai
+claim: "Arm Holdings plc reported Q2 fiscal 2027 revenue of $1.443 billion for the quarter ended September 30, 2026, including $773 million in license and other revenue and $670 million in royalty revenue. Arm stated that data-center royalties doubled year over year and that Arm-based server share at top hyperscalers exceeded 50% in calendar 2025."
+category: corporate
+source_ids:
+  - src_edge_ai_arm_holdings_plc_q2_fy2027_shareholder_l
+date_of_evidence: "2026-11-04"
+evidence_at: "2026-11-04"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
