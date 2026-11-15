@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_geothermal_and_data_centers_department_o
+type: claim
+theme_id: ai-infrastructure
+claim: "On October 27, 2026, the U.S. Department of Energy Office of Geothermal stated that geothermal power plants generally have capacity factors of about 90% and can provide 24-hour steady output for data-center loads. DOE also stated that it funds a National Laboratory of the Rockies-led project with Lawrence Berkeley National Laboratory, the University of Chicago, and Princeton University to evaluate Cold Underground Thermal Energy Storage for reducing data-center peak cooling demand and energy costs."
+category: technical
+source_ids:
+  - src_ai_infrastructur_geothermal_and_data_centers
+date_of_evidence: "2026-10-27"
+evidence_at: "2026-10-27"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

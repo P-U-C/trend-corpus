@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_a_systematic_survey_of_large_language_mo
+type: claim
+theme_id: llm-convergence
+claim: "Chang Jiangeng, Xingyu Wu, KC Tan, and Mengling Feng\u2019s October 1, 2026 ACL Findings survey formalizes LLM routing as choosing among models with differing cost, latency, and capability on a per-query basis. It classifies the field into predictive routers that score candidates before generation, adaptive routers that adjust after observing outcomes, generative routers that use an LLM to reason about routing, and infrastructure work on benchmarks and adversarial analysis."
+category: technical
+source_ids:
+  - src_llm_convergence_a_systematic_survey_of_large_language_mo
+date_of_evidence: "2026-10-01"
+evidence_at: "2026-10-01"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
