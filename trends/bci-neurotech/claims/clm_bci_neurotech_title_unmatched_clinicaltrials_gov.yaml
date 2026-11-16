@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_title_unmatched_clinicaltrials_gov
+type: claim
+theme_id: bci-neurotech
+claim: "ClinicalTrials.gov lists Neuralink Corp\u2019s PRIME2 study (NCT07929792) as recruiting, evaluating the FDA-regulated, unapproved N1 System: the N1 Implant placed in motor cortex using the R1 Robot. The single-group device-feasibility study plans to enroll up to 10 adults with severe upper-limb impairment from spinal cord injury, amyotrophic lateral sclerosis, or chronic ischemic stroke at up to five U.S. sites; participants use N1 Implant neural signals to control a computer cursor or virtual keyboard."
+category: technical
+source_ids:
+  - src_bci_neurotech_an_early_feasibility_study_of_a_robotica
+date_of_evidence: "2026-11-10"
+evidence_at: "2026-11-10"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
