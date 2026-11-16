@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2611_13176_shadowprefill_keeping_your_ne
+type: claim
+theme_id: llm-convergence
+claim: "In the 9 November 2026 arXiv paper \u201cSHADOWPREFILL,\u201d Haoran Qiu, Rohan Mahapatra, Rodrigo Fonseca, and Mark Russinovich report that per-step LLM model switching reduces prefix-cache hit rates from 80\u201389% on same-model calls to 44\u201365% after a switch, with switch calls taking 1.5\u20133.2\u00d7 as long. Across 24 model pairs and five agentic benchmark suites using LLMRouter, SHADOWPREFILL reduced switch-call latency by 8.5\u201321.4%, LLM-call latency by 3.7\u201317.7%, and routed token cost by 22.5\u201346.1%, while energy per request increased by 0.4%."
+category: technical
+source_ids:
+  - src_llm_convergence_shadowprefill_keeping_your_next_model_wa
+date_of_evidence: "2026-11-09"
+evidence_at: "2026-11-09"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

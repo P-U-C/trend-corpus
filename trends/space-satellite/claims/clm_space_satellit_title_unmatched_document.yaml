@@ -1,0 +1,18 @@
+id: clm_space_satellit_title_unmatched_document
+type: claim
+theme_id: space-satellite
+claim: "Rocket Lab Corporation reported $267.8 million in third-quarter 2026 revenue for the quarter ended September 30, 2026, up 73% year over year, and a backlog of approximately $3.6 billion. The company stated that it signed approximately $1 billion in new launch contracts across Electron, HASTE, and Neutron during Q3 2026, including more than $515 million of Neutron launch contracts from constellation operators."
+category: corporate
+source_ids:
+  - src_space_satellite_rocket_lab_announces_third_quarter_2026
+date_of_evidence: "2026-11-09"
+evidence_at: "2026-11-09"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

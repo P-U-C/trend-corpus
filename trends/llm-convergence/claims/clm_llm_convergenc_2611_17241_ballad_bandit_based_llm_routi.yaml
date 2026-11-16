@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2611_17241_ballad_bandit_based_llm_routi
+type: claim
+theme_id: llm-convergence
+claim: "In arXiv paper 2611.17241, published 12 November 2026, Samidha Verma, Ankit Anand, and Sayan Ranu introduce Ballad, a bandit-based LLM-routing algorithm for automated heuristic discovery. Across five NP-hard combinatorial-optimization problems using four models of varying capability and cost, Ballad matched the best individual LLM in hindsight and in several cases exceeded every individual model while reducing API cost by up to 65.6% versus always using the strongest model."
+category: technical
+source_ids:
+  - src_llm_convergence_ballad_bandit_based_llm_routing_for_auto
+date_of_evidence: "2026-11-12"
+evidence_at: "2026-11-12"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
