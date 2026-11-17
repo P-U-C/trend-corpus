@@ -1,0 +1,18 @@
+id: clm_peptides_pfizer_and_blackstone_life_sciences_anno
+type: claim
+theme_id: peptides
+claim: "On November 11, 2026, Pfizer Inc. and Blackstone Life Sciences announced a co-funding agreement under which Blackstone-managed funds will pay up to $1.5 billion of berobenatide development costs through 2028. Blackstone is eligible for milestone-based payments contingent on U.S. approval of injectable monthly berobenatide monotherapy for chronic weight management and specified sales milestones; Pfizer retains full operational control and ownership of the program."
+category: capital
+source_ids:
+  - src_peptides_pfizer_and_blackstone_life_sciences_anno
+date_of_evidence: "2026-11-11"
+evidence_at: "2026-11-11"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

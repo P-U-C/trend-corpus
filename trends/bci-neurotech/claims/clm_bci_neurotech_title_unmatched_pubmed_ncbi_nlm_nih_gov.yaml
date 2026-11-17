@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_title_unmatched_pubmed_ncbi_nlm_nih_gov
+type: claim
+theme_id: bci-neurotech
+claim: "In a prospective single-centre study at Columbia University Medical Center and NewYork-Presbyterian Hospital, Qi Shen and colleagues tested a real-time EEG brain-computer interface in 41 clinically unresponsive patients with acute brain injury. Thirteen of 41 patients (32%) achieved control of the tone-modulating BCI; 4 of 13 (31%) with BCI control versus 1 of 28 (4%) without control recovered consciousness by hospital discharge, and 6 of 13 (46%) versus 2 of 28 (7%) recovered functional independence at 12 months."
+category: technical
+source_ids:
+  - src_bci_neurotech_clinically_unresponsive_patients_with_ac
+date_of_evidence: "2026-10-22"
+evidence_at: "2026-10-22"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

@@ -1,0 +1,18 @@
+id: clm_synthetic_biol_beam_therapeutics_reports_initial_clinic
+type: claim
+theme_id: synthetic-biology
+claim: "On October 27, 2026, Beam Therapeutics reported initial Phase 1/2 data for BEAM-301, a liver-targeting lipid-nanoparticle base-editing therapy for G6PC1 R83C-associated glycogen storage disease type Ia. As of the August 17, 2026 cutoff, six patients received one intravenous infusion; in the 40 mg cohort, median time to fasting hypoglycemia increased from 2.5 to 15.0 hours at Day 36, and two of three patients eliminated daily starch supplementation at their latest assessments."
+category: technical
+source_ids:
+  - src_synthetic_biolog_beam_therapeutics_reports_initial_clinic
+date_of_evidence: "2026-10-27"
+evidence_at: "2026-10-27"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

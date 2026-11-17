@@ -1,0 +1,18 @@
+id: clm_quantum_comput_nvidia_corporation_nvidia_announces_coll
+type: claim
+theme_id: quantum-computing
+claim: "On November 16, 2026, NVIDIA announced a quantum-classical codesign platform with IBM and Fermi National Accelerator Laboratory that colocates NVIDIA DGX B200 systems with IBM quantum computers, including IBM Quantum Nighthawk-powered systems, for quantum error-correction and high-energy and nuclear physics research. NVIDIA also released the TCBP-JOBS decoding algorithm in CUDA-Q QEC 0.9.0, stating it delivers up to 13,000x faster decoding than existing leading algorithms and reduces a quantum-design research computation from 12 weeks to 45 minutes."
+category: technical
+source_ids:
+  - src_quantum_computin_nvidia_announces_collaboration_with_ibm
+date_of_evidence: "2026-11-16"
+evidence_at: "2026-11-16"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

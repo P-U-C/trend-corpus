@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_cortec_brain_interface_electrodes_record
+type: claim
+theme_id: bci-neurotech
+claim: "CorTec reported that its micro-ECoG cortical-surface electrode arrays implanted in two non-human primates at Weill Cornell Medicine recorded neural signals for more than four years. In the animal still under study, 63 of 64 contacts remained recording after more than four years; across both animals, one contact failed after about 14 months. CorTec stated that spatial and spectral signal characteristics remained stable through day 1,361 and that the arrays distinguished alert task-engaged from drowsy brain states."
+category: technical
+source_ids:
+  - src_bci_neurotech_cortec_brain_interface_electrodes_record
+date_of_evidence: "2026-10-21"
+evidence_at: "2026-10-21"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
