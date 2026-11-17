@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2611_10848_multiturnroute_a_platform_for
+type: claim
+theme_id: llm-convergence
+claim: "Jiaqi Xue, Mengxin Zheng, Heng Huang, and Qian Lou introduced MultiTurnRoute, a platform that evaluates multi-turn LLM routers using the current query, dialogue history, and estimated reusable prompt-prefix length per model. On a WildChat and LMSYS-Chat-1M benchmark with per-turn quality annotations for five LLMs, its Chain-of-Route algorithm reduced normalized cost to match the strongest model\u2019s quality by up to 20.3% versus the strongest routing baseline; the paper was submitted to arXiv on November 7, 2026 and states acceptance by NeurIPS 2026."
+category: technical
+source_ids:
+  - src_llm_convergence_multiturnroute_a_platform_for_building_a
+date_of_evidence: "2026-11-07"
+evidence_at: "2026-11-07"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

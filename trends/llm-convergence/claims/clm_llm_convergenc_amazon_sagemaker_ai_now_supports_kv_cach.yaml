@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_amazon_sagemaker_ai_now_supports_kv_cach
+type: claim
+theme_id: llm-convergence
+claim: "On November 16, 2026, Amazon Web Services announced that Amazon SageMaker AI real-time inference endpoints support KV cache-aware routing for LLM workloads. The feature routes requests to the instance holding the longest matching cached prompt segment, requires AWS vLLM Deep Learning Container 0.33.0 or later and at least two instances or inference-component copies, and is enabled with `RoutingStrategy` set to `KV_AWARE`."
+category: technical
+source_ids:
+  - src_llm_convergence_amazon_sagemaker_ai_now_supports_kv_cach
+date_of_evidence: "2026-11-16"
+evidence_at: "2026-11-16"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

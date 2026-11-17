@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_aws_sdk_for_c_1_11_930_2026_11_16
+type: claim
+theme_id: llm-convergence
+claim: "AWS SDK for C++ version 1.11.930, dated 2026-11-16, added support for Amazon OpenSearch Memory, which stores AI-agent conversation and document events, automatically extracts memories, and retrieves them through semantic, lexical, or hybrid search. The release also added Amazon S3 Vectors hybrid search and Amazon SageMaker cross-region inference routing APIs."
+category: technical
+source_ids:
+  - src_llm_convergence_aws_sdk_for_c_1_11_916
+date_of_evidence: "2026-10-22"
+evidence_at: "2026-10-22"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

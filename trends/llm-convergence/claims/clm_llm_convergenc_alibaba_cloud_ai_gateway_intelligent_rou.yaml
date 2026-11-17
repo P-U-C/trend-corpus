@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_alibaba_cloud_ai_gateway_intelligent_rou
+type: claim
+theme_id: llm-convergence
+claim: "On November 12, 2026, Alibaba Cloud announced that Intelligent Routing was live on AI Gateway dedicated instances. The feature routes explicit `auto/balanced`, `auto/cheap`, `auto/fast`, or `auto/quality` requests to one primary model after checking hard capability and operational constraints, and preserves the selected execution model through Agent tool-call continuations; retries and fallback remain a separate AI Fallback capability."
+category: technical
+source_ids:
+  - src_llm_convergence_alibaba_cloud_ai_gateway_intelligent_rou
+date_of_evidence: "2026-11-12"
+evidence_at: "2026-11-12"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
