@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2610_35509_governing_enterprise_ai_traff
+type: claim
+theme_id: llm-convergence
+claim: "PayPal\u2019s Cosmos LLM Gateway, built on Envoy, governs enterprise traffic across more than 100 LLM models through declarative Open Policy Agent policies, validated provider and pricing data, credential brokering, token metering, budget evaluation, and optional data-loss prevention. As of September 2026, the paper reports that Cosmos served more than 12,000 developers and hundreds of business use cases, processed roughly 200 billion tokens per day, and achieved 99.999% availability; a synthetic-upstream benchmark measured 4 ms median and 11 ms p99 request-path overhead above 2,200 requests per second on two 4-vCPU instances."
+category: technical
+source_ids:
+  - src_llm_convergence_governing_enterprise_ai_traffic_at_scale
+date_of_evidence: "2026-10-26"
+evidence_at: "2026-10-26"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

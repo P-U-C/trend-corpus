@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_llm_gateway_improvements_november_9_2026
+type: claim
+theme_id: llm-convergence
+claim: "On November 9, 2026, Aptible announced that its LLM Gateway guarantees US-only inference for all models and documents each model\u2019s data-retention mode, including zero data retention or private retention for up to 30 days. Aptible also changed routing to prefer providers with warm prompt caches while retaining automatic same-model provider failover during outages; clients can send a session ID to use prompt caching."
+category: technical
+source_ids:
+  - src_llm_convergence_llm_gateway_improvements_november_9_2026
+date_of_evidence: "2026-11-09"
+evidence_at: "2026-11-09"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
