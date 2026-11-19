@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_the_envoy_agentic_stack_routing_models_t
+type: claim
+theme_id: llm-convergence
+claim: "Google Cloud stated on November 18, 2026 that Envoy\u2019s agentic stack includes request-body parsing and transcoding across OpenAI, Anthropic, and Gemini schemas; token-aware TPM/TPD limits and pre-inference quota enforcement; Endpoint Picker routing with KV-cache prefix affinity; MCP routing using the 2026-07-28 MCP specification\u2019s Mcp-Method and Mcp-Name headers; and ext_proc guardrail integrations with Model Armor, ShieldGemma, and data-loss-prevention systems."
+category: technical
+source_ids:
+  - src_llm_convergence_building_an_agentic_stack_in_envoy_routi
+date_of_evidence: "2026-11-18"
+evidence_at: "2026-11-18"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

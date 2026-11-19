@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_airside_airworthy_certification_changelo
+type: claim
+theme_id: llm-convergence
+claim: "On October 21, 2026, LLM Gateway launched Airworthy standard AW-1 for inference providers on its Airside marketplace. AW-1 verifies eight controls covering API-data training, prompt logging and retention, operating legal entity and headquarters, and claimed SOC 2, ISO/IEC 27001, and GDPR readiness; certificates are valid for 12 months unless revoked."
+category: corporate
+source_ids:
+  - src_llm_convergence_airside_airworthy_certification
+date_of_evidence: "2026-10-21"
+evidence_at: "2026-10-21"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

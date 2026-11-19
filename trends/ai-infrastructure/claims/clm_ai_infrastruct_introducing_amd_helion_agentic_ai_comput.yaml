@@ -1,0 +1,18 @@
+id: clm_ai_infrastruct_introducing_amd_helion_agentic_ai_comput
+type: claim
+theme_id: ai-infrastructure
+claim: "On October 12, 2026, AMD introduced AMD Helion, an Open Compute Project spec-based rack blueprint for agentic AI infrastructure powered by AMD compute. AMD stated that Helion supports a CPU-only configuration using 6th Gen AMD EPYC processors with up to 32,768 CPU cores and an all-in-one configuration combining AMD EPYC CPU nodes with AMD Instinct MI350P GPU nodes; it plans to contribute the specification to OCP and make rack configurations available in November 2026."
+category: corporate
+source_ids:
+  - src_ai_infrastructur_introducing_amd_helion_agentic_ai_comput
+date_of_evidence: "2026-10-12"
+evidence_at: "2026-10-12"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_prompt_management_data_streams_amp_more
+type: claim
+theme_id: llm-convergence
+claim: "On November 10, 2026, LLM Gateway announced Prompt Management, which stores prompts in the gateway with immutable versions and movable labels such as production and staging, callable through OpenAI-compatible `/v1/chat/completions` and `/v1/responses` endpoints. LLM Gateway also announced Enterprise Data Streams that send signed HTTPS audit-log and request-metadata batches of up to 500 events to customer-operated endpoints, with at-least-once delivery and no prompts, completions, or tool calls exported."
+category: corporate
+source_ids:
+  - src_llm_convergence_prompt_management_data_streams_more
+date_of_evidence: "2026-11-10"
+evidence_at: "2026-11-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
