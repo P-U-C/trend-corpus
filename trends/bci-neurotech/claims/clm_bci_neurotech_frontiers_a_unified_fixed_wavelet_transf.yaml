@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_frontiers_a_unified_fixed_wavelet_transf
+type: claim
+theme_id: bci-neurotech
+claim: "In a 29 October 2026 Frontiers in Human Neuroscience study, Woo-Sung Choi and Hong-Gi Yeom evaluated Analformer on the OpenBMI EEG dataset\u2019s 54 participants, jointly classifying four SSVEP, two motor-imagery, and two P300/ERP classes. After participant-specific fine-tuning, Analformer achieved 71.00% mean cross-session accuracy, versus 54.53% for EEG-Conformer, 52.30% for EEGNet, and 45.35% for ShallowConvNet under the reported evaluation protocol."
+category: technical
+source_ids:
+  - src_bci_neurotech_a_unified_fixed_wavelet_transformer_deco
+date_of_evidence: "2026-10-29"
+evidence_at: "2026-10-29"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

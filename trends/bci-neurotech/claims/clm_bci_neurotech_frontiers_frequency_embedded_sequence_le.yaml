@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_frontiers_frequency_embedded_sequence_le
+type: claim
+theme_id: bci-neurotech
+claim: "On 11 November 2026, S. S. Saha, James Wagner, and Alistair McEwan reported in Frontiers in Human Neuroscience that their 1D-CNN EEG-to-text classifier achieved 64.4% \u00b1 8.3% mean intra-subject accuracy across five imagined words or phrases using frequency-embedded Welch power spectral density sequences from the 2020 International BCI Competition Track 3 dataset. The system used 64-channel EEG recordings from 15 healthy participants, while pooled inter-subject accuracy remained near chance at 24.5% \u00b1 0.4% for PSD inputs."
+category: technical
+source_ids:
+  - src_bci_neurotech_frequency_embedded_sequence_learning_for
+date_of_evidence: "2026-11-11"
+evidence_at: "2026-11-11"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
