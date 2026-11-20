@@ -1,0 +1,18 @@
+id: clm_biomechanics_reminder_medicare_prior_authorization_an
+type: claim
+theme_id: biomechanics
+claim: "CMS updates effective October 28, 2026 require Medicare prior authorization for eight additional HCPCS codes, including six orthotic codes, and face-to-face encounters with written orders prior to delivery (WOPD) for 22 additional codes, including nine orthotic codes. \u00d6ssur states that prior authorization for L3761 and L3916 began in New York, Michigan, Florida, and California on October 28, with expansion to eight further states on January 26, 2027 and all states on April 26, 2027."
+category: regulatory
+source_ids:
+  - src_biomechanics_reminder_medicare_prior_authorization_an
+date_of_evidence: "2026-10-28"
+evidence_at: "2026-10-28"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
