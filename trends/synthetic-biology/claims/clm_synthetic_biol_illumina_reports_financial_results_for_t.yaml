@@ -1,0 +1,18 @@
+id: clm_synthetic_biol_illumina_reports_financial_results_for_t
+type: claim
+theme_id: synthetic-biology
+claim: "Illumina, Inc. reported Q3 fiscal 2026 revenue of $1.129 billion, up 4.2% from $1.084 billion in Q3 2025, and GAAP diluted EPS of $1.43 versus $0.98. Illumina raised its fiscal-year 2026 guidance, excluding tariff refunds, to total revenue of $4.64-$4.66 billion and non-GAAP diluted EPS of $5.40-$5.45."
+category: corporate
+source_ids:
+  - src_synthetic_biolog_illumina_reports_financial_results_for_t
+date_of_evidence: "2026-10-29"
+evidence_at: "2026-10-29"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
