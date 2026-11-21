@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2610_26511_routerworld_scaling_conversat
+type: claim
+theme_id: llm-convergence
+claim: "On 19 October 2026, Jinyang Li, Denis Emelin, Simone Tedeschi, Weiwei Cheng, Cristina Morariu, Haytham Assem, Jens Lehmann, Emine Yilmaz, and Angus Addlesee introduced RouterWorld, an LLM-routing benchmark for conversational GenAI. RouterWorld contains 371,000 single-turn responses and 76,000 multi-turn agentic trajectories, hardware-grounded latency annotations, and two partial-observability setups\u2014Cold-Start and Voyager\u2014and evaluates 13 routing baselines."
+category: technical
+source_ids:
+  - src_llm_convergence_routerworld_scaling_conversational_ai_wi
+date_of_evidence: "2026-10-19"
+evidence_at: "2026-10-19"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

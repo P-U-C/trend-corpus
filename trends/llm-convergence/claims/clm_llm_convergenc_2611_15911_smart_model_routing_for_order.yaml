@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2611_15911_smart_model_routing_for_order
+type: claim
+theme_id: llm-convergence
+claim: "On 11 November 2026, Hesham Elbakoury, Deep Shah, and Ankur Sharma submitted arXiv:2611.15911, \u201cSmart Model Routing for Order-of-Magnitude LLM Cost Reduction.\u201d The paper defines a cost-quality routing framework that assigns queries to the cheapest model expected to meet adequacy requirements, derives threshold-policy and cascade-breakeven conditions, and reports a GSM8K cascade evaluation. Under its stated numerical pricing and traffic assumptions, it calculates roughly an order-of-magnitude blended inference-cost reduction versus always using a frontier LLM, including a net figure that prices router overhead."
+category: technical
+source_ids:
+  - src_llm_convergence_smart_model_routing_for_order_of_magnitu
+date_of_evidence: "2026-11-11"
+evidence_at: "2026-11-11"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

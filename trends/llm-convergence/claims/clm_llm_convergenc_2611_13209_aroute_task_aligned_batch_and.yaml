@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_2611_13209_aroute_task_aligned_batch_and
+type: claim
+theme_id: llm-convergence
+claim: "Daofu Zhang, Qingcheng Zeng, Chunwei Liu, and Fuheng Zhao introduced ARoute in arXiv:2611.13209, submitted 9 November 2026, as a task-aligned router that selects a language model before inference under a user-specified cost budget. Across MMLU-Pro, LiveCodeBench, SuperGPQA, and two SWAN-derived value-filling tasks, ARoute-Batch achieved the highest mean accuracy in all 15 evaluated task-cost settings, exceeding the strongest baseline by 4.1 percentage points on average and up to 11.9 points, while completing batches up to 2.8\u00d7 faster than cascades."
+category: technical
+source_ids:
+  - src_llm_convergence_aroute_task_aligned_batch_and_streaming
+date_of_evidence: "2026-11-09"
+evidence_at: "2026-11-09"
+schema_version: 1
+confidence: 0.5
+discovery: auto
+review_state: pending
+publisher_tier: primary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
