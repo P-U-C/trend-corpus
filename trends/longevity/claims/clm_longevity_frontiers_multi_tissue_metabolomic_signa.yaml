@@ -1,0 +1,18 @@
+id: clm_longevity_frontiers_multi_tissue_metabolomic_signa
+type: claim
+theme_id: longevity
+claim: "In Frontiers in Aging on 6 November 2026, Bretton Badenoch, Oliver Fiehn, Noa Rappaport, Sara Greenfield, Sriram Chandrasekaran, and Richard A. Miller reported metabolomic profiling of seven tissues from male UM-HET3 mice treated from 4 to 12 months with rapamycin, acarbose, 17\u03b1-estradiol, canagliflozin, or caloric restriction. XGBoost models trained on four interventions distinguished the fifth intervention from controls in 33 of 35 tissue\u2013intervention comparisons; ergothioneine was elevated by all five interventions in plasma and brain and by four of five in muscle."
+category: technical
+source_ids:
+  - src_longevity_multi_tissue_metabolomic_signatures_of_f
+date_of_evidence: "2026-11-06"
+evidence_at: "2026-11-06"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
