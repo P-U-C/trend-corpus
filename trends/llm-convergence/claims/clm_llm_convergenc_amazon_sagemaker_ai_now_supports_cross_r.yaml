@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_amazon_sagemaker_ai_now_supports_cross_r
+type: claim
+theme_id: llm-convergence
+claim: "On November 18, 2026, Amazon Web Services announced Amazon SageMaker AI cross-Region inference routing, which routes requests among registered real-time endpoints, asynchronous endpoints, and inference components across AWS Regions and AWS accounts when local capacity is constrained or errors rise. The service is available for real-time inference in 32 commercial AWS Regions and asynchronous inference in 25 Regions; AWS charges no additional routing fee, while customers pay standard SageMaker AI endpoint and Amazon CloudWatch metric rates."
+category: technical
+source_ids:
+  - src_llm_convergence_amazon_sagemaker_ai_now_supports_cross_r
+date_of_evidence: "2026-11-18"
+evidence_at: "2026-11-18"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

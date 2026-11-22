@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_congestion_aware_llm_cascades_optimal_ro
+type: claim
+theme_id: llm-convergence
+claim: "In the November 2, 2026 SSRN paper \u201cCongestion-Aware LLM Cascades: Optimal Routing and the Value of Adaptive Model Selection,\u201d Yuan Guo, Stefanus Jasin, and Chen-An (Andy) Lin formulate queue-state-independent LLM routing and stopping under Poisson arrivals and conditionally independent binary signals. They derive exact holding costs for exponential first-come-first-served and processor-sharing servers, formulate a convex optimization problem with unique optimal model loads, and show predetermined model-order cascades can be arbitrarily more costly than their queue-state-independent policies."
+category: technical
+source_ids:
+  - src_llm_convergence_congestion_aware_llm_cascades_optimal_ro
+date_of_evidence: "2026-11-02"
+evidence_at: "2026-11-02"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
