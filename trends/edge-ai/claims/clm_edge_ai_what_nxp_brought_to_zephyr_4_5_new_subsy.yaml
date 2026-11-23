@@ -1,0 +1,18 @@
+id: clm_edge_ai_what_nxp_brought_to_zephyr_4_5_new_subsy
+type: claim
+theme_id: edge-ai
+claim: "On November 6, 2026, NXP Semiconductors stated that Zephyr 4.5 includes its MCP server library, which implements Model Context Protocol specification version 2025-11-25 over HTTP so networked Zephyr devices can expose application-registered tools to AI agents. NXP also stated that Zephyr 4.5 adds a TensorFlow Lite Micro inference sample for its eIQ Neutron NPU on FRDM-MCXN947 and MIMXRT700-EVK boards."
+category: technical
+source_ids:
+  - src_edge_ai_what_nxp_brought_to_zephyr_4_5_new_subsy
+date_of_evidence: "2026-11-06"
+evidence_at: "2026-11-06"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
