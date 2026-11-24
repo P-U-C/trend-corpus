@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_the_open_ai_native_stack_on_kubernetes_f
+type: claim
+theme_id: llm-convergence
+claim: "On November 10, 2026, Google Cloud presented an open Kubernetes AI stack comprising OpenRL, llm-d 1.0, KubeRay, Agent Substrate, gVisor, TorchTPU, and Gemma for reinforcement-learning post-training, distributed inference, Ray workloads, and isolated agent execution. Google Cloud stated that llm-d 1.0, co-founded with Red Hat, IBM Research, CoreWeave, and NVIDIA, provides prefix-cache-aware routing and reported deployments that increased KV-cache hit rates from 35% to 70% while reducing median time-to-first-token by 70\u201385% for multi-turn agent workloads."
+category: technical
+source_ids:
+  - src_llm_convergence_the_open_ai_native_stack_on_kubernetes_f
+date_of_evidence: "2026-11-10"
+evidence_at: "2026-11-10"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

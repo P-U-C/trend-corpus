@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_llm_d_1_0_an_open_source_stack_for_distr
+type: claim
+theme_id: llm-convergence
+claim: "On October 20, 2026, Google Cloud announced llm-d 1.0, an open-source Kubernetes-native distributed LLM inference stack co-founded by Google, Red Hat, IBM, and other contributors. llm-d 1.0 provides cache-aware routing, multi-tenant flow control, tiered KV-cache offloading, prefill/decode disaggregation, router high availability, session-aware routing, and support for vLLM and SGLang across Google Cloud TPUs and GPUs."
+category: technical
+source_ids:
+  - src_llm_convergence_announcing_llm_d_1_0_open_distributed_in
+date_of_evidence: "2026-10-20"
+evidence_at: "2026-10-20"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
