@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_hugging_face_and_openrouter_join_forces
+type: claim
+theme_id: llm-convergence
+claim: "On November 16, 2026, Hugging Face switched language-model requests made through its Inference Providers service from its custom router to OpenRouter. Hugging Face states that requests for open-weight models served by providers can use a Hugging Face token through the same API, while OpenRouter routes across 80+ providers using live price, speed, and reliability measurements and retries failed requests with another provider."
+category: corporate
+source_ids:
+  - src_llm_convergence_hugging_face_and_openrouter_join_forces
+date_of_evidence: "2026-11-16"
+evidence_at: "2026-11-16"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

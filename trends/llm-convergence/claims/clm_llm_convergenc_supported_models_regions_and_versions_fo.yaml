@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_supported_models_regions_and_versions_fo
+type: claim
+theme_id: llm-convergence
+claim: "Microsoft Foundry\u2019s model router version 2025-11-18 routes across 45 models from OpenAI, Anthropic, Microsoft AI, xAI, DeepSeek, Meta, and Fireworks as of November 18, 2026. It is available for Global Standard deployments in 32 regions, while 23 regions also support Data Zone Standard; Claude models require a same-resource Global Standard deployment and Fireworks models require the Fireworks.EnableDeploy preview feature. Version 2025-11-18 is generally available and retires May 20, 2027."
+category: technical
+source_ids:
+  - src_llm_convergence_supported_models_regions_and_versions_fo
+date_of_evidence: "2026-11-20"
+evidence_at: "2026-11-20"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
