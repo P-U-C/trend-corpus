@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_introducing_virtual_models_on_ai_gateway
+type: claim
+theme_id: llm-convergence
+claim: "On October 28, 2026, Vercel introduced Virtual Models for AI Gateway: stable virtual model IDs that centrally map application and agent tasks to underlying models and configurations. Vercel states that teams can change the provider model, fallbacks, priority, Zero Data Retention settings, and tags behind an ID such as `vmc/coding-agent`, with callers adopting the change within minutes without code changes or redeploys; virtual-model settings override conflicting request-level settings."
+category: technical
+source_ids:
+  - src_llm_convergence_introducing_virtual_models_on_ai_gateway
+date_of_evidence: "2026-10-28"
+evidence_at: "2026-10-28"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

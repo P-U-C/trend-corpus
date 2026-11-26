@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_use_model_router_with_ai_gateway_microso
+type: claim
+theme_id: llm-convergence
+claim: "Microsoft states that, as of November 18, 2026, Azure AI Gateway\u2019s preview automatic model selection uses Microsoft Foundry model router to rank supported models behind a gateway alias for each prompt under Balanced, Quality, or Cost objectives. The gateway then applies alias precedence, priorities, and weights to select a backend across Foundry, Azure OpenAI, OpenAI, Anthropic, Amazon Bedrock, Google Vertex AI, or self-hosted OpenAI-compatible endpoints; the feature requires API version 2026-11-01 and has no model-router routing fee during preview."
+category: technical
+source_ids:
+  - src_llm_convergence_use_model_router_with_ai_gateway
+date_of_evidence: "2026-11-18"
+evidence_at: "2026-11-18"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
