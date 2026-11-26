@@ -1,0 +1,18 @@
+id: clm_bci_neurotech_paradromics_and_nvidia_advance_ai_comput
+type: claim
+theme_id: bci-neurotech
+claim: "On November 23, 2026, Paradromics announced a technical collaboration with NVIDIA to integrate NVIDIA Holoscan and NVIDIA edge-computing technologies into Paradromics\u2019 BCI development stack, beginning with speech and communication applications. Paradromics stated that its Connexus Control Unit already incorporates an NVIDIA Jetson Orin Nano, and that it plans to port speech decoders and speech-synthesis pipelines to Holoscan, with roadmap latency targets below 10 ms for direct brain-to-speech and below 100 ms for brain-to-text-to-speech pipelines."
+category: technical
+source_ids:
+  - src_bci_neurotech_paradromics_advances_high_performance_ai
+date_of_evidence: "2026-11-23"
+evidence_at: "2026-11-23"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.

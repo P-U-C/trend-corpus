@@ -1,0 +1,18 @@
+id: clm_edge_ai_sima_ai_builds_on_its_industry_first_age
+type: claim
+theme_id: edge-ai
+claim: "On November 17, 2026, SiMa.ai announced Palette 3.0, a software release for its Modalix MLSoC platform that runs concurrent physical-AI workloads, including LLMs and vision-language models, on a single chip. SiMa.ai stated that Palette 3.0 uses EAGLE3, DFlash, and Gemma 4 MTP speculative-decoding algorithms to increase model tokens per second by up to 3.5x within a low-power budget, and supports Mixture-of-Experts models including OpenAI GPT-OSS-20B on its 16GB Modalix MLSoC system-on-module."
+category: technical
+source_ids:
+  - src_edge_ai_sima_ai_builds_on_its_industry_first_age
+date_of_evidence: "2026-11-17"
+evidence_at: "2026-11-17"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
