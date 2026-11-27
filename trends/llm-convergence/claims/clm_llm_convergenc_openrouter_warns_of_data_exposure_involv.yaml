@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_openrouter_warns_of_data_exposure_involv
+type: claim
+theme_id: llm-convergence
+claim: "OpenRouter warned affected customers that prompts and responses sent to MiniMax models may have been accessed by an unknown third party between July and October 2026. Stripe, OpenRouter\u2019s owner, confirmed the customer emails to Axios; OpenRouter off-boarded three providers after its investigation and removed no-storage privacy protections from 125 model-access routes."
+category: corporate
+source_ids:
+  - src_llm_convergence_openrouter_warns_of_data_exposure_involv
+date_of_evidence: "2026-11-23"
+evidence_at: "2026-11-23"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
