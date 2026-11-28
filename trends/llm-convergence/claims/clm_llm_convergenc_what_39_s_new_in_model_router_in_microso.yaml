@@ -1,0 +1,18 @@
+id: clm_llm_convergenc_what_39_s_new_in_model_router_in_microso
+type: claim
+theme_id: llm-convergence
+claim: "Microsoft Foundry Model Router version 2025-11-18 routed across 45 models as of November 18, 2026. Microsoft introduced preview support for deployment-free `model: auto`, native Responses API use, Anthropic Messages API calls, per-request routing controls, and adaptive session affinity; it also reports routed-request cost, latency, cache-hit rate, and fallback rate in Foundry monitoring and evaluations."
+category: technical
+source_ids:
+  - src_llm_convergence_what_s_new_in_model_router_in_microsoft
+date_of_evidence: "2026-11-18"
+evidence_at: "2026-11-18"
+schema_version: 1
+confidence: 0.4
+discovery: auto
+review_state: pending
+publisher_tier: secondary
+notes: >
+  Written by scripts/promote_claims.py from the single source cited
+  above and not yet reviewed. It states only what that source
+  establishes; anything beyond it is a defect, not a feature.
